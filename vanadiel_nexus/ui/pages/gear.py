@@ -1,12 +1,14 @@
 """Gear: JSE armor by job, REMA weapons, and progress goals (checkpoints)."""
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QComboBox, QGridLayout, QMenu, QStackedWidget, QTabBar, QWidget
+from PySide6.QtWidgets import QComboBox, QGridLayout, QMenu, QSplitter, QStackedWidget, QTabBar, QWidget
 
+from ...core import materials as mats
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import build_wiki_urls
 from .. import theme, widgets
 from ..forms import Field, FormDialog
+from ..guide_panel import GuidePanel
 from ..widgets import Column, DataTable
 from .base import Page
 
@@ -22,6 +24,8 @@ def _pct(row) -> float:
 
 
 def _goal_pct(cp) -> float:
+    if cp.get("_mat_pct") is not None:
+        return cp["_mat_pct"]
     target = cp.get("target") or 0
     return 100.0 * (cp.get("current") or 0) / target if target else 0.0
 
@@ -70,13 +74,21 @@ class GearPage(Page):
         self.goals = DataTable([
             Column("Goal", "title", 280, tone=lambda r: theme.GOLD if _goal_pct(r) >= 100 else None),
             Column("Job", "job", 60), Column("Category", "category", 180),
-            Column("Progress", lambda r: f"{r.get('current', 0):,} / {r.get('target', 0):,} {r.get('unit', '')}",
-                   200, Qt.AlignRight),
+            Column("Progress", lambda r: f"{r['_mat_pct']:.0f}% of materials" if r.get("_mat_pct") is not None
+                   else f"{r.get('current', 0):,} / {r.get('target', 0):,} {r.get('unit', '')}", 200, Qt.AlignRight),
             Column("Note", "note", stretch=True),
         ], name="gear-goals")
         self.stack = QStackedWidget()
+        self.guide = GuidePanel(ctx, on_edit=self._edit_materials)
+        self.split = QSplitter(Qt.Horizontal)
+        self.split.addWidget(self.stack)
+        self.split.addWidget(self.guide)
+        self.split.setStretchFactor(0, 1)
+        self.split.setSizes([900, 320])
+        self.split.setChildrenCollapsible(False)
         for t in (self.jse, self.weapons, self.goals):
             self.stack.addWidget(t)
+            t.selectionModel().selectionChanged.connect(lambda *_a: self._show_guide())
             self.toolbar.text_changed.connect(t.proxy.set_needle)
             t.row_activated.connect(lambda _row: self._edit())
             t.setContextMenuPolicy(Qt.CustomContextMenu)
@@ -92,11 +104,12 @@ class GearPage(Page):
         self.layout_.addLayout(widgets.hbox(self.tabs, None))
         self.layout_.addWidget(self.cards)
         self.layout_.addWidget(self.toolbar)
-        self.layout_.addWidget(self.stack, 1)
+        self.layout_.addWidget(self.split, 1)
         self.layout_.addLayout(widgets.hbox(self.count, None, self.minus_btn, self.plus_btn, self.edit_btn,
                                             self.wiki_btn, self.remove_btn))
 
         ctx.db_changed.connect(self.refresh)
+        ctx.inventory_changed.connect(self.refresh)
         ctx.job_changed.connect(self._sync_job)
         self._sync_job(ctx.job)
         self._switch(0)
@@ -128,7 +141,24 @@ class GearPage(Page):
                 rows.append(it)
         return rows
 
+    def _apply_inventory_counts(self) -> None:
+        """Goals set to count an item take 'current' from your bags; material lists get a % for display."""
+        totals = mats.inventory_totals(self.ctx.all_inventory())
+        changed = False
+        for cp in self.db["checkpoints"]:
+            cur = mats.goal_current_from_inventory(cp, totals)
+            if cur is not None and cur != cp.get("current"):
+                cp["current"] = cur
+                changed = True
+        for row in self._jse_rows() + self.db["rema_weapons"] + self.db["checkpoints"]:
+            row.pop("_mat_pct", None)
+            if row.get("materials"):
+                row["_mat_pct"] = mats.progress(mats.with_counts(row["materials"], totals))
+        if changed:
+            self.ctx.db.save()  # quiet save: the tables are about to refresh anyway
+
     def refresh(self) -> None:
+        self._apply_inventory_counts()
         job = self._job()
         match = lambda r: not job or r.get("job") in (job, "All", "", None)  # noqa: E731
         self.jse.set_rows([r for r in self._jse_rows() if match(r)])
@@ -136,6 +166,20 @@ class GearPage(Page):
         self.goals.set_rows([r for r in self.db["checkpoints"] if match(r)])
         self._build_cards()
         self._update_footer()
+        self._show_guide()
+
+    def _show_guide(self) -> None:
+        self.guide.show_row(self._table().selected_row())
+
+    def _edit_materials(self) -> None:
+        row = self._table().selected_row()
+        if row is None:
+            return
+        values = FormDialog.ask(self, f"Materials for {row.get('name') or row.get('title')}",
+                                [Field("materials", "Materials needed", "materials")], row)
+        if values is not None:
+            row["materials"] = values["materials"]
+            self.ctx.save_db()
 
     def _build_cards(self) -> None:
         while self.cards_grid.count():
@@ -173,6 +217,7 @@ class GearPage(Page):
         self.more_menu.addAction("Open FFXIclopedia ↗", lambda: self._open_wiki("ffxiclopedia"))
         self._build_cards()
         self._update_footer()
+        self._show_guide()
 
     def _table(self) -> DataTable:
         return self.stack.currentWidget()
@@ -189,16 +234,19 @@ class GearPage(Page):
             return [Field("job", "Job", "choice", JOBS), Field("set", "Set", "combo", JSE_SETS),
                     Field("slot", "Slot", "combo", ["Head", "Body", "Hands", "Legs", "Feet"]),
                     Field("name", "Item", required=True), Field("tier", "Tier", "combo", ["NQ", "+1", "+2", "+3"]),
-                    Field("location", "Where it is"), Field("mats", "Next step", "long")], {"job": job}
+                    Field("location", "Where it is"), Field("mats", "Next step", "long"),
+                    Field("materials", "Materials needed", "materials")], {"job": job}
         if idx == 1:
             return [Field("name", "Weapon", required=True),
                     Field("type", "Type", "combo", ["Relic", "Mythic", "Empyrean", "Aeonic", "Ergon", "Prime"]),
                     Field("job", "Job", "choice", JOBS + ["All"]), Field("stage", "Stage"),
-                    Field("progressPct", "Progress %", "int"), Field("detail", "Details", "long"),
-                    Field("rp", "Notes")], {"job": job}
+                    Field("progressPct", "Progress %", "int"), Field("detail", "Next step", "long"),
+                    Field("materials", "Materials needed", "materials"), Field("rp", "Notes")], {"job": job}
         return [Field("title", "Goal", required=True), Field("job", "Job", "choice", JOBS + ["All"]),
                 Field("category", "Category"), Field("current", "Current", "int"), Field("target", "Target", "int"),
-                Field("unit", "Unit", placeholder="e.g. Alexandrite"), Field("note", "Note", "long"),
+                Field("unit", "Unit", placeholder="e.g. Alexandrite"),
+                Field("autoCount", "Count the unit from my bags", "bool"), Field("note", "Note", "long"),
+                Field("materials", "Materials needed", "materials"),
                 Field("wikiUrl", "Wiki link"), Field("pinned", "Pin to top", "bool")], {"job": job, "target": 1}
 
     def _collection(self, idx=None):
@@ -267,6 +315,7 @@ class GearPage(Page):
             return
         menu = QMenu(self)
         menu.addAction("Edit", self._edit)
+        menu.addAction("Edit materials", self._edit_materials)
         menu.addAction("Open BG-Wiki ↗", self._open_wiki)
         menu.addSeparator()
         menu.addAction("Remove", self._remove)

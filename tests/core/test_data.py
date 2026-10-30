@@ -150,3 +150,12 @@ def test_pick_asset_is_case_insensitive():
 def test_swap_script_moves_then_relaunches():
     s = updater.swap_script(r"C:\a\VN.exe.new", r"C:\a\VN.exe")
     assert s.index("move /Y") < s.index('start ""') and "del" in s
+
+
+def test_display_keys_are_never_saved(tmp_path):
+    db = database.Database(str(tmp_path))
+    db.data["wishlist"].append({"id": "w1", "name": "Ring", "_mat_pct": 50.0, "materials": [{"name": "A", "need": 1}]})
+    db.save()
+    saved = json.load(open(tmp_path / "ffxi_database.json", encoding="utf-8"))
+    row = [w for w in saved["wishlist"] if w["id"] == "w1"][0]
+    assert "_mat_pct" not in row and row["materials"] == [{"name": "A", "need": 1}]

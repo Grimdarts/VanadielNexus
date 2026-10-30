@@ -25,6 +25,15 @@ def default_database() -> dict:
         return json.load(f)
 
 
+def strip_display_keys(value):
+    """Keys starting with '_' are computed for display (e.g. '_mat_pct') and never saved."""
+    if isinstance(value, dict):
+        return {k: strip_display_keys(v) for k, v in value.items() if not str(k).startswith("_")}
+    if isinstance(value, list):
+        return [strip_display_keys(v) for v in value]
+    return value
+
+
 def new_id(prefix: str) -> str:
     return f"{prefix}-{uuid.uuid4().hex[:8]}"
 
@@ -100,7 +109,7 @@ class Database:
         return db
 
     def save(self) -> None:
-        write_json(self.path, self.data)
+        write_json(self.path, strip_display_keys(self.data))
 
     # Convenience accessors used by the pages
     def jobs_with_jse(self) -> list:

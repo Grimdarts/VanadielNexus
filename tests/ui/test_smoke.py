@@ -60,3 +60,32 @@ def test_gear_goal_step_saves(window):
 def test_text_scale_applies(window):
     window.apply_text_scale(1.2)
     assert window.ctx.settings.get("text_scale") == 1.2
+
+
+def test_guide_counts_materials_from_inventory(window):
+    ctx = window.ctx
+    ctx.inventory_snapshot = {"Me": [{"name": "Pluton", "count": 900, "bag": "Mog Case"}]}
+    ctx.db.data["checkpoints"].append({"id": "g1", "title": "Test goal", "job": "All", "current": 0, "target": 1,
+                                       "materials": [{"name": "Pluton", "need": 1500}]})
+    ctx.save_db()
+    gear = window.pages[0]
+    gear.tabs.setCurrentIndex(2)
+    gear.job_combo.setCurrentText("All jobs")
+    row = next(r for r in gear.goals.model_.rows if r.get("id") == "g1")
+    assert round(row["_mat_pct"]) == 60
+    gear.goals.select_row(row)
+    assert "60%" in gear.guide.bar_label.text()
+
+
+def test_wishlist_track_as_goal_copies_materials(window):
+    ctx = window.ctx
+    ctx.db.data["wishlist"].append({"id": "wl-x", "name": "Test Earring", "job": "All",
+                                    "materials": [{"name": "Kei's Shard", "need": 3}]})
+    ctx.save_db()
+    wish = window.pages[1]
+    wish.job_combo.setCurrentText("All jobs")
+    wish.table.select_row(next(r for r in wish.table.model_.rows if r["id"] == "wl-x"))
+    wish._track_as_goal()
+    wish._track_as_goal()  # second click must not duplicate
+    goals = [g for g in ctx.db.data["checkpoints"] if g.get("fromWishlist") == "wl-x"]
+    assert len(goals) == 1 and goals[0]["materials"][0]["need"] == 3

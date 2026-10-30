@@ -5,11 +5,12 @@ from PySide6.QtWidgets import (
     QSpinBox, QVBoxLayout,
 )
 
+from ..core.materials import format_materials, parse_materials
 from . import theme, widgets
 
 
 class Field:
-    """kind: 'text', 'long', 'int', 'bool', 'choice' (options), 'combo' (editable choice)."""
+    """kind: 'text', 'long', 'int', 'bool', 'choice' (options), 'combo' (editable choice), 'materials'."""
 
     def __init__(self, key, label, kind="text", options=None, required=False, placeholder=""):
         self.key, self.label, self.kind = key, label, kind
@@ -60,7 +61,12 @@ class FormDialog(QDialog):
         super().showEvent(event)
 
     def _make_input(self, f: Field, value):
-        if f.kind == "long":
+        if f.kind == "materials":
+            w = QPlainTextEdit(format_materials(value) if isinstance(value, list) else str(value or ""))
+            w.setPlaceholderText("One per line, e.g.\nPluton x1500\nVoidhead: BLU x3")
+            w.setFixedHeight(110)
+            w.setProperty("materials", True)
+        elif f.kind == "long":
             w = QPlainTextEdit(str(value or ""))
             w.setFixedHeight(76)
             w.textChanged.connect(self._update_save_state)
@@ -97,6 +103,8 @@ class FormDialog(QDialog):
     def _read(self, f: Field):
         w = self.inputs[f.key]
         if isinstance(w, QPlainTextEdit):
+            if w.property("materials"):
+                return parse_materials(w.toPlainText())
             return w.toPlainText().strip()
         if isinstance(w, QSpinBox):
             return w.value()
@@ -108,7 +116,7 @@ class FormDialog(QDialog):
 
     def _update_save_state(self) -> None:
         if hasattr(self, "_save_button"):
-            ok = all(self._read(f) not in ("", None) for f in self.fields if f.required)
+            ok = all(self._read(f) not in ("", None, []) for f in self.fields if f.required)
             self._save_button.setEnabled(ok)
 
     def _accept(self) -> None:

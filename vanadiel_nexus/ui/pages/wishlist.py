@@ -1,12 +1,13 @@
 """Wishlist: gear you want, where it drops and what it costs. Catalog names autocomplete and prefill."""
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu
+from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu, QSplitter
 
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import build_wiki_urls, parse_wiki_url_or_name
 from .. import theme, widgets
 from ..forms import Field, FormDialog
+from ..guide_panel import GuidePanel
 from ..widgets import Column, DataTable
 from .base import Page
 
@@ -20,6 +21,7 @@ FIELDS = [
     Field("zone", "Zone"),
     Field("obtainHow", "How to get it", "long"),
     Field("costOrPop", "Cost / pop item"),
+    Field("materials", "Materials / pop items", "materials"),
     Field("wikiUrl", "Wiki link"),
     Field("pinned", "Pin to top", "bool"),
 ]
@@ -34,8 +36,11 @@ class WishlistPage(Page):
         self.job_combo = QComboBox()
         self.job_combo.addItems(["All jobs"] + JOBS)
         self.job_combo.currentTextChanged.connect(lambda t: (ctx.set_job("" if t == "All jobs" else t), self.refresh()))
+        self.source_combo = QComboBox()
+        self.source_combo.setMaximumWidth(220)
+        self.source_combo.currentTextChanged.connect(lambda _t: self._apply_source())
         self.toolbar = widgets.SearchToolbar("Search wishlist…")
-        self.toolbar.add(self.job_combo,
+        self.toolbar.add(self.job_combo, self.source_combo,
                          widgets.button("Import from wiki link", on_click=self._import_link),
                          widgets.button("Add item", "primary", self._add))
 
@@ -50,22 +55,28 @@ class WishlistPage(Page):
         self.table.customContextMenuRequested.connect(self._context_menu)
         self.table.selectionModel().selectionChanged.connect(self._show_detail)
 
-        self.detail = widgets.label("", wrap=True)
-        self.detail.setObjectName("Caption")
-        self.detail.setTextInteractionFlags(Qt.TextSelectableByMouse)
+        self.guide = GuidePanel(ctx, on_edit=self._edit_materials)
+        split = QSplitter(Qt.Horizontal)
+        split.addWidget(self.table)
+        split.addWidget(self.guide)
+        split.setStretchFactor(0, 1)
+        split.setSizes([900, 320])
+        split.setChildrenCollapsible(False)
         self.count = widgets.label("", "Caption")
 
         self.layout_.addWidget(self.toolbar)
-        self.layout_.addWidget(self.table, 1)
-        self.layout_.addWidget(self.detail)
+        self.layout_.addWidget(split, 1)
         self.layout_.addLayout(widgets.hbox(
             self.count, None,
             widgets.button("Edit", on_click=self._edit),
+            widgets.button("Track as goal", on_click=self._track_as_goal,
+                           tooltip="Add to Gear → Goals so its materials show up with your other progress"),
             widgets.button("Open BG-Wiki ↗", "ghost", self._open_wiki),
             widgets.button("Got it!", on_click=self._obtained, tooltip="Remove from the wishlist because you have it"),
             widgets.button("Remove", "danger", self._remove),
         ))
         ctx.db_changed.connect(self.refresh)
+        ctx.inventory_changed.connect(self._show_detail)
         ctx.job_changed.connect(self._sync_job)
         self._sync_job(ctx.job)
 
@@ -83,17 +94,49 @@ class WishlistPage(Page):
         job = "" if self.job_combo.currentText() == "All jobs" else self.job_combo.currentText()
         rows = [w for w in self.items if not job or w.get("job") in (job, "All", "", None)]
         rows.sort(key=lambda w: (not w.get("pinned"), str(w.get("name", "")).lower()))
+        sources = sorted({w.get("sourceType", "") for w in rows if w.get("sourceType")}, key=str.lower)
+        current = self.source_combo.currentText()
+        self.source_combo.blockSignals(True)
+        self.source_combo.clear()
+        self.source_combo.addItems(["All sources"] + sources)
+        self.source_combo.setCurrentText(current if current in sources else "All sources")
+        self.source_combo.blockSignals(False)
         self.table.set_rows(rows)
-        self.count.setText(f"{len(rows)} wanted")
+        self._apply_source()
+
+    def _apply_source(self) -> None:
+        src = self.source_combo.currentText()
+        self.table.proxy.set_predicate(None if src in ("", "All sources") else (lambda w: w.get("sourceType") == src))
+        self.count.setText(f"{self.table.visible_count()} wanted")
         self._show_detail()
 
     def _show_detail(self, *_args) -> None:
+        self.guide.show_row(self.table.selected_row())
+
+    def _edit_materials(self) -> None:
         row = self.table.selected_row()
-        if not row:
-            self.detail.setText("Select an item to see how to get it.")
+        if row is None:
             return
-        bits = [row.get("obtainHow"), f"Cost: {row['costOrPop']}" if row.get("costOrPop") else ""]
-        self.detail.setText(f"{row.get('name', '')}: " + "  ".join(b for b in bits if b))
+        values = FormDialog.ask(self, f"Materials for {row.get('name')}",
+                                [Field("materials", "Materials / pop items", "materials")], row)
+        if values is not None:
+            row["materials"] = values["materials"]
+            self.ctx.save_db()
+
+    def _track_as_goal(self) -> None:
+        row = self.table.selected_row()
+        if row is None:
+            return
+        goals = self.ctx.db.data["checkpoints"]
+        if any(g.get("fromWishlist") == row.get("id") for g in goals):
+            self.status(f"{row.get('name')} is already on your Goals.")
+            return
+        goals.append({"id": new_id("cp"), "job": row.get("job") or "All", "category": row.get("sourceType", ""),
+                      "title": row.get("name", ""), "current": 0, "target": 1, "unit": "obtained",
+                      "note": row.get("obtainHow", ""), "wikiUrl": row.get("wikiUrl", ""),
+                      "materials": row.get("materials", []), "fromWishlist": row.get("id"), "pinned": True})
+        self.ctx.save_db()
+        self.status(f"{row.get('name')} added to Gear → Goals.")
 
     def _catalog_prefill(self, name: str) -> dict:
         return dict(self.ctx.db.data["catalog_db"].get(name, {}))
@@ -155,6 +198,8 @@ class WishlistPage(Page):
             return
         menu = QMenu(self)
         menu.addAction("Edit", self._edit)
+        menu.addAction("Edit materials", self._edit_materials)
+        menu.addAction("Track as goal", self._track_as_goal)
         menu.addAction("Open BG-Wiki ↗", self._open_wiki)
         menu.addAction("Got it!", self._obtained)
         menu.addSeparator()
