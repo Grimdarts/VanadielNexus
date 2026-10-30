@@ -1,0 +1,5 @@
+PySide6-Essentials==6.12.0
+pytest
+pytest-qt
+pyinstaller
+pillow

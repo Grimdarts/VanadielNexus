@@ -35,7 +35,12 @@ def _is_writable(folder: str) -> bool:
 
 
 def data_dir() -> str:
-    """Player data sits next to the app (portable, matches v1); %APPDATA% if that folder is read-only."""
+    """Player data sits next to the app (portable, matches v1); %APPDATA% if that folder is read-only.
+    VN_DATA_DIR overrides both (tests and screenshots use a throwaway copy)."""
+    override = os.environ.get("VN_DATA_DIR")
+    if override:
+        os.makedirs(override, exist_ok=True)
+        return override
     portable = os.path.join(app_dir(), "data")
     if _is_writable(portable):
         return portable

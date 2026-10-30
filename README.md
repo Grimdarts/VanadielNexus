@@ -17,15 +17,18 @@ addon over local UDP (ports 5017/5018).
 
 | Task | Command |
 |------|---------|
-| Run from source | `py vanadielnexus_overlay.py` |
+| Run from source | `py -m vanadiel_nexus` |
+| Run the tests | `py -m pytest tests` |
+| Install dev tools | `py -m pip install -r requirements.txt` |
 | Rebuild your local exe | `.\build.ps1` (closes, rebuilds, relaunches) |
 | Ship a version to players | `.\release.ps1 1.3.0` |
 
 - After cloning, enable the auto-rebuild hook once: `git config core.hooksPath tools/hooks`.
   Every commit that changes a `.py`/`.spec` file then rebuilds `VanadielNexus.exe` in the background
   (log: `.git\last-build.log`).
-- `release.ps1` bumps `APP_VERSION`, tags `vX.Y.Z` and pushes; GitHub Actions
+- `release.ps1` bumps `__version__` in `vanadiel_nexus/__init__.py`, tags `vX.Y.Z` and pushes; GitHub Actions
   (`.github/workflows/release.yml`) builds the exe and publishes the Release players update from.
-- The Windower addon Lua is embedded in `vanadielnexus_overlay.py` (`VANADIEL_NEXUS_LUA_CODE`) and
-  synced into `Windower4\addons\VanadielNexus` on launch, so addon changes ship with app updates.
+- Layout: `vanadiel_nexus/core` (logic, no Qt, unit-tested), `ui` (Qt pages), `bridge` (game UDP link),
+  `resources` (the Windower addon .lua, default database, icon). See `docs/ENGINEERING-PLAN.md` and `DESIGN.md`.
+- The Windower addon lives in `vanadiel_nexus/resources/VanadielNexus.lua`; the Setup checklist installs it.
 - Player data (`data/`) and build output are git-ignored.

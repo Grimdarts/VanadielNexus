@@ -91,3 +91,17 @@ def test_console_key_line_is_read_from_settings(tmp_path):
 def test_normalize_modifiers():
     assert hotkeys.normalize_hotkey_string("^f10") == hotkeys.normalize_hotkey_string("Ctrl+F10")
     assert hotkeys.normalize_hotkey_string("!f10") == hotkeys.normalize_hotkey_string("Alt+F10")
+
+
+def test_disable_and_rebind_edit_the_source_line_with_backup(tmp_path):
+    root = make_windower(str(tmp_path))
+    entries = hotkeys.scan_all_hotkeys_and_conflicts(root)
+    init_f12 = by(entries, "init.txt", "f12")[0]
+    assert hotkeys.rebind(init_f12, "Ctrl+F7")
+    text = open(os.path.join(root, "scripts", "init.txt")).read()
+    assert "bind ^f7 showfps" in text.lower()
+    entries = hotkeys.scan_all_hotkeys_and_conflicts(root)
+    moved = by(entries, "init.txt", "^f7")[0]
+    assert hotkeys.disable_bind(moved)
+    assert "// [disabled" in open(os.path.join(root, "scripts", "init.txt")).read()
+    assert [f for f in os.listdir(os.path.join(root, "scripts")) if f.endswith(".bak")]

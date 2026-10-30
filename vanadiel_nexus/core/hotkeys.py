@@ -305,3 +305,36 @@ def compute_hotkey_conflicts(entries: list):
             e["conflict_count"] = 1
             e["status_label"] = "💤 Not Loaded (subfolder)" if e.get("inactive") else "✅ OK (No Conflict)"
             e["conflict_summary"] = "None"
+
+def _edit_bind_line(entry: dict, transform) -> bool:
+    """Applies transform(line) -> new line to the entry's source line, after a timestamped backup."""
+    from .windower import backup_file
+
+    path, line_num = entry.get("source_file", ""), int(entry.get("line_num") or 0)
+    if not entry.get("editable_file") or not os.path.isfile(path) or line_num < 1:
+        return False
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        lines = f.readlines()
+    if line_num > len(lines):
+        return False
+    new_line = transform(lines[line_num - 1])
+    if new_line == lines[line_num - 1]:
+        return False
+    backup_file(path)
+    lines[line_num - 1] = new_line
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.writelines(lines)
+    return True
+
+
+def disable_bind(entry: dict) -> bool:
+    """Comments out the line that creates this bind ('--' in .lua, '//' in Windower scripts)."""
+    marker = "-- " if entry.get("source_file", "").lower().endswith(".lua") else "// "
+    return _edit_bind_line(entry, lambda line: marker + "[disabled by Vana'diel Nexus] " + line)
+
+
+def rebind(entry: dict, new_key: str) -> bool:
+    """Moves the bind to new_key (any format normalize_hotkey_string accepts) in its source file."""
+    wkey = to_windower_bind_key(normalize_hotkey_string(new_key))
+    pattern = re.compile(r"(bind\s+)" + re.escape(entry.get("raw_key", "")) + r"(?=\s)", re.IGNORECASE)
+    return _edit_bind_line(entry, lambda line: pattern.sub(lambda m: m.group(1) + wkey, line, count=1))
