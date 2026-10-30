@@ -34,11 +34,9 @@ def test_every_page_opens(window):
 
 def test_sidebar_collapses_in_narrow_window(window, qtbot):
     window.resize(950, 700)
-    qtbot.wait(50)
-    assert window.sidebar.width() == 64
+    qtbot.waitUntil(lambda: window.sidebar.width() == 64, timeout=2000)
     window.resize(1300, 800)
-    qtbot.wait(50)
-    assert window.sidebar.width() == 220
+    qtbot.waitUntil(lambda: window.sidebar.width() == 220, timeout=2000)
 
 
 def test_gear_goal_step_saves(window):

@@ -61,10 +61,22 @@ class AddonSettingsDialog(QDialog):
             widgets.button("Open file", "ghost", lambda: self.file and ctx.open_path(self.file.path)),
             None, widgets.button("Cancel", on_click=self.reject), self.save_btn))
         if self.files:
-            self._load(0)
+            start = self._preferred_index()
+            self.file_combo.setCurrentIndex(start)
+            if start == 0:
+                self._load(0)
         else:
             self.note.setText("This addon has no settings file yet. Most addons create one the first time they run.")
             self.save_btn.setEnabled(False)
+
+    def _preferred_index(self) -> int:
+        """Addons like GearInfo keep one file per character: open the one for the character you play."""
+        names = [self.ctx.bridge.state.get("player_name", "")] + list(self.ctx.inventory_snapshot.keys())
+        for name in (n.lower() for n in names if n):
+            for i, path in enumerate(self.files):
+                if os.path.basename(path).lower().startswith(name):
+                    return i
+        return 0
 
     def showEvent(self, event):
         theme.dark_title_bar(self)

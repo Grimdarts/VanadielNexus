@@ -1,6 +1,8 @@
 """Addons: every Windower addon and plugin you have, what starts with the game, and quick actions."""
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QCheckBox, QComboBox, QMenu, QStackedWidget
+import os
+
+from PySide6.QtWidgets import QCheckBox, QComboBox, QFrame, QHBoxLayout, QMenu, QStackedWidget, QVBoxLayout
 
 from ...core import windower
 from .. import theme, widgets
@@ -54,14 +56,70 @@ class AddonsPage(Page):
         self.hint = widgets.label("Double-click an addon to edit its settings. Load, Unload and Reload need the game "
                                   "running with the Nexus addon loaded.", "Caption")
 
+        self.gearinfo = self._build_gearinfo_card()
+        self.layout_.addWidget(self.gearinfo)
         self.layout_.addWidget(self.toolbar)
         self.layout_.addWidget(self.stack, 1)
         self.layout_.addLayout(widgets.hbox(self.count, None, self.load_btn, self.unload_btn, self.reload_btn,
                                             self.autoload_btn, self.settings_btn))
         self.layout_.addWidget(self.hint)
         ctx.windower_changed.connect(lambda _p: self.refresh())
-        ctx.bridge.connection_changed.connect(lambda _c: self._update_buttons())
+        ctx.bridge.connection_changed.connect(lambda _c: (self._update_buttons(), self._refresh_gearinfo()))
         self.refresh()
+
+    # --- GearInfo card ------------------------------------------------------
+    def _build_gearinfo_card(self) -> QFrame:
+        card = QFrame()
+        card.setObjectName("Card")
+        row = QHBoxLayout(card)
+        row.setContentsMargins(16, 12, 16, 12)
+        text = QVBoxLayout()
+        text.setSpacing(2)
+        self.gi_title = widgets.label("GearInfo", "SectionTitle")
+        self.gi_detail = widgets.label("", "Caption", wrap=True)
+        text.addWidget(self.gi_title)
+        text.addWidget(self.gi_detail)
+        self.gi_pill = widgets.pill("")
+        row.addWidget(self.gi_pill)
+        row.addLayout(text, 1)
+        row.addWidget(widgets.button("Edit settings", on_click=self._gearinfo_settings))
+        self.gi_reload = widgets.button("Reload in game", on_click=lambda: self._gearinfo_live("reload"))
+        row.addWidget(self.gi_reload)
+        return card
+
+    def _gearinfo_row(self):
+        return next((r for r in self.table.model_.rows if r["name"].lower() == "gearinfo"), None)
+
+    def _refresh_gearinfo(self) -> None:
+        row = self._gearinfo_row()
+        self.gearinfo.setVisible(row is not None)
+        if row is None:
+            return
+        patched = False
+        try:
+            with open(os.path.join(row["folder"], "Buff_Processing.lua"), encoding="utf-8", errors="ignore") as f:
+                patched = "apply_unknown_haste_buffs" in f.read()
+        except OSError:
+            pass
+        self.gi_pill.setText("Haste fix on" if patched else "Original")
+        widgets.set_tone(self.gi_pill, "success" if patched else "")
+        self.gi_detail.setText(
+            "In-game overlay for haste, Dual Wield and stats. Buffs it can't match to a caster now count: "
+            "Haste as Haste II, Marches and Geo-Haste using the bard and geomancer bonuses under "
+            "'Assume' in Edit settings." if patched else
+            "In-game overlay for haste, Dual Wield and stats. This copy doesn't have the haste fix.")
+        self.gi_reload.setEnabled(self.ctx.bridge.connected)
+        self.gi_reload.setToolTip("" if self.ctx.bridge.connected else "Needs the game running with the Nexus addon")
+
+    def _gearinfo_settings(self) -> None:
+        row = self._gearinfo_row()
+        if row and AddonSettingsDialog(self, self.ctx, row).exec():
+            self.status("Saved GearInfo settings" + (" and reloaded it." if self.ctx.bridge.connected
+                                                     else ". Reload GearInfo in game to apply."))
+
+    def _gearinfo_live(self, action: str) -> None:
+        self.ctx.bridge.addon(action, "GearInfo")
+        self.status("Reloading GearInfo in game.")
 
     def refresh(self) -> None:
         wd = self.ctx.windower_dir
@@ -70,6 +128,7 @@ class AddonsPage(Page):
         rows = (windower.list_addons(wd) + windower.list_plugins(wd)) if found else []
         self.table.set_rows(rows)
         self._apply_filters()
+        self._refresh_gearinfo()
 
     def on_shown(self) -> None:
         self.refresh()
