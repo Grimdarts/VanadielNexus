@@ -14,7 +14,7 @@ if (git status --porcelain) { throw 'Commit or stash your changes first.' }
 
 $file = 'vanadiel_nexus\__init__.py'
 $text = [IO.File]::ReadAllText("$PSScriptRoot\$file")
-$new = [regex]::Replace($text, '(?m)^__version__ = ".*"$', "__version__ = `"$Version`"")
+$new = [regex]::Replace($text, '(?m)^__version__ = "[^"]*"', "__version__ = `"$Version`"")
 if ($new -eq $text) { throw "__version__ is already $Version (or wasn't found)" }
 [IO.File]::WriteAllText("$PSScriptRoot\$file", $new, (New-Object Text.UTF8Encoding $false))
 
