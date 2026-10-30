@@ -11,7 +11,8 @@ DEFAULTS = {
     "job_filter": "",
     "setup_dismissed": False,
     "my_addons_dir": "",
-    "inventory_updated": {},  # character -> unix time of the last bag scan from the game
+    "inventory_updated": {},
+    "addon_sources": {},       # addon name (lowercase) -> GitHub source for third-party addons  # character -> unix time of the last bag scan from the game
 }
 
 

@@ -1,17 +1,36 @@
 """Addons: every Windower addon and plugin you have, what starts with the game, and quick actions."""
 import os
 
-from PySide6.QtCore import Qt
+from PySide6.QtCore import QObject, QRunnable, Qt, QThreadPool, Signal
 from PySide6.QtWidgets import (
+    QInputDialog,
     QCheckBox, QComboBox, QFrame, QHBoxLayout, QMenu, QStackedWidget, QTabBar, QVBoxLayout, QWidget,
 )
 
-from ...core import windower
+from ...core import addon_info, addon_updates, windower
 from .. import theme, widgets
 from ..addon_settings_dialog import AddonSettingsDialog
 from ..my_addons_view import MyAddonsView
 from ..widgets import Column, DataTable
 from .base import Page
+
+
+UPDATE_LABELS = {"up_to_date": "Up to date", "update_available": "Update available",
+                 "no_source": "—", "error": "Check failed"}
+
+
+class _ScanSignals(QObject):
+    done = Signal(dict)
+
+
+class _Scan(QRunnable):
+    def __init__(self, addons, sources):
+        super().__init__()
+        self.addons, self.sources = addons, sources
+        self.signals = _ScanSignals()
+
+    def run(self):
+        self.signals.done.emit(addon_updates.scan(self.addons, self.sources))
 
 
 class AddonsPage(Page):
@@ -24,16 +43,25 @@ class AddonsPage(Page):
         self.kind.addItems(["Addons and plugins", "Addons", "Plugins"])
         self.autoload_only = QCheckBox("Starts with game")
         self.toolbar = widgets.SearchToolbar("Search addons…")
-        self.toolbar.add(self.kind, self.autoload_only, widgets.button("Rescan folder", "ghost", self.refresh))
+        self.updates = {}
+        self.scan_btn = widgets.button("Scan for updates", "primary", self._scan_updates,
+                                       tooltip="Compares each addon with its source on GitHub")
+        self.update_all_btn = widgets.button("Update all", on_click=self._update_all)
+        self.update_all_btn.hide()
+        self.toolbar.add(self.kind, self.autoload_only, widgets.button("Rescan folder", "ghost", self.refresh),
+                         self.update_all_btn, self.scan_btn)
 
         self.table = DataTable([
             Column("Name", "name", 220, tone=lambda r: theme.ACCENT if r["name"] == windower.ADDON_NAME else None),
             Column("Type", lambda r: "Addon" if r["kind"] == "addons" else "Plugin", 90),
+            Column("Updates", self._update_label, 150, tone=self._update_tone, tooltip=self._update_tooltip),
             Column("Starts with game", lambda r: "Yes" if r["autoload"] else "—", 140, Qt.AlignCenter,
                    tone=lambda r: theme.SUCCESS if r["autoload"] else theme.FAINT),
             Column("Startup source", lambda r: ", ".join(r.get("autoload_sources", [])) or "—", 180),
             Column("Settings", lambda r: "Editable" if r["settings_file"] else "—", 110,
                    tone=lambda r: None if r["settings_file"] else theme.FAINT),
+            Column("Description", lambda r: r.get("description") or "—", 380,
+                   tone=lambda r: None if r.get("description") else theme.FAINT),
             Column("Folder", "folder", stretch=True, tone=lambda _r: theme.FAINT),
         ], sort_column=0, name="addons")
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
@@ -56,6 +84,8 @@ class AddonsPage(Page):
         self.unload_btn = widgets.button("Unload", on_click=lambda: self._live("unload"))
         self.reload_btn = widgets.button("Reload", on_click=lambda: self._live("reload"))
         self.settings_btn = widgets.button("Edit settings", on_click=self._open_settings)
+        self.update_btn = widgets.button("Update", on_click=self._update_selected)
+        self.update_btn.hide()
         self.count = widgets.label("", "Caption")
         self.hint = widgets.label("Startup is configured, not live loaded state. Double-click an addon to edit its settings. "
                                   "Load, Unload and Reload need the game "
@@ -69,7 +99,7 @@ class AddonsPage(Page):
         il.addWidget(self.gearinfo)
         il.addWidget(self.toolbar)
         il.addWidget(self.stack, 1)
-        il.addLayout(widgets.hbox(self.count, None, self.load_btn, self.unload_btn, self.reload_btn,
+        il.addLayout(widgets.hbox(self.count, None, self.update_btn, self.load_btn, self.unload_btn, self.reload_btn,
                                   self.autoload_btn, self.settings_btn))
         il.addWidget(self.hint)
 
@@ -148,6 +178,8 @@ class AddonsPage(Page):
         found = windower.is_windower_dir(wd)
         self.stack.setCurrentIndex(0 if found else 1)
         rows = (windower.list_addons(wd) + windower.list_plugins(wd)) if found else []
+        for r in rows:
+            r["description"] = addon_info.describe(r["name"], r["kind"], r["folder"] if r["kind"] == "addons" else "")
         self.table.set_rows(rows)
         self._apply_filters()
         self._refresh_gearinfo()
@@ -194,6 +226,8 @@ class AddonsPage(Page):
                                      if managed else "Edits scripts/init.txt (a backup is kept)" if is_addon
                                      else "Plugins are set in the Windower launcher profile")
         self.settings_btn.setEnabled(bool(row) and bool(row["settings_file"]))
+        result = self.updates.get(row["name"]) if row else None
+        self.update_btn.setVisible(bool(result) and result["status"] == "update_available")
 
     def _toggle_autoload(self) -> None:
         row = self.table.selected_row()
@@ -223,6 +257,130 @@ class AddonsPage(Page):
         if row and row["settings_file"]:
             self.edit_settings_for(row)
 
+    # --- updates ------------------------------------------------------------
+    def _sources(self) -> dict:
+        return dict(self.ctx.settings.get("addon_sources") or {})
+
+    def _update_label(self, r) -> str:
+        if r["kind"] != "addons":
+            return ""
+        res = self.updates.get(r["name"])
+        return UPDATE_LABELS.get(res["status"], "") if res else ""
+
+    def _update_tone(self, r):
+        res = self.updates.get(r["name"])
+        return {"up_to_date": theme.SUCCESS, "update_available": theme.WARNING,
+                "error": theme.DANGER}.get(res["status"], theme.FAINT) if res else None
+
+    def _update_tooltip(self, r):
+        res = self.updates.get(r["name"])
+        if not res:
+            return "Click Scan for updates to check" if r["kind"] == "addons" else None
+        if res["status"] == "update_available":
+            return "Changed files: " + ", ".join(res["changed"][:12]) + (" …" if len(res["changed"]) > 12 else "")
+        if res["status"] == "no_source":
+            return "Not an official Windower addon. Right-click > Set update source… to add its GitHub page."
+        if res["status"] == "error":
+            return res.get("error", "")
+        src = res.get("source", {})
+        return f"Matches {src.get('owner')}/{src.get('repo')} ({src.get('branch')})"
+
+    def _scan_updates(self) -> None:
+        addons = [r for r in self.table.model_.rows if r["kind"] == "addons"]
+        if not addons:
+            return
+        self.scan_btn.setEnabled(False)
+        self.scan_btn.setText("Checking…")
+        self.status(f"Checking {len(addons)} addons against GitHub…")
+        job = _Scan(addons, self._sources())
+        job.signals.done.connect(self._scan_done)
+        self._scan_job = job  # keep the signals object alive until it fires
+        QThreadPool.globalInstance().start(job)
+
+    def _refresh_update_count(self) -> list:
+        pending = [n for n, r in self.updates.items() if r["status"] == "update_available"]
+        self.update_all_btn.setText(f"Update all ({len(pending)})")
+        self.update_all_btn.setVisible(bool(pending))
+        self.table.model_.layoutChanged.emit()
+        self._update_buttons()
+        return pending
+
+    def _scan_done(self, results: dict) -> None:
+        self.updates = results
+        self.scan_btn.setEnabled(True)
+        self.scan_btn.setText("Scan for updates")
+        pending = self._refresh_update_count()
+        errors = [n for n, r in results.items() if r["status"] == "error"]
+        msg = (f"{len(pending)} update{'s' if len(pending) != 1 else ''} available" if pending
+               else "Every addon with a known source is up to date")
+        if errors:
+            msg += f" · {len(errors)} couldn't be checked ({results[errors[0]].get('error', '')[:80]})"
+        self.status(msg + ".")
+
+    def _confirm_update(self, names: list) -> bool:
+        files = sum(len(self.updates[n]["changed"]) for n in names)
+        after = ("Updated addons are reloaded in game." if self.ctx.bridge.connected
+                 else "Reload them in game afterwards, or restart the game.")
+        return self.confirm(
+            "Update addons",
+            f"Update {', '.join(names)} ({files} file{'s' if files != 1 else ''})?\n\n"
+            "Each addon folder is zipped to your data\\backups folder first, and its saved settings "
+            f"(the data folder) are never touched.\n\n{after}", "Update")
+
+    def _run_updates(self, names: list) -> None:
+        rows = {r["name"]: r for r in self.table.model_.rows}
+        backup_dir = os.path.join(self.ctx.data_dir, "backups")
+        done, failed = [], []
+        for name in names:
+            try:
+                addon_updates.apply_update(rows[name]["folder"], self.updates[name], backup_dir)
+                self.updates[name] = {**self.updates[name], "status": "up_to_date", "changed": []}
+                done.append(name)
+                if self.ctx.bridge.connected:
+                    self.ctx.bridge.addon("reload", name)
+            except Exception as e:  # keep going; report what didn't update
+                failed.append(f"{name} ({e})")
+        self.refresh()
+        self._refresh_update_count()
+        self.status((f"Updated {', '.join(done)}." if done else "") +
+                    (f" Couldn't update: {'; '.join(failed)}" if failed else ""))
+
+    def _update_selected(self) -> None:
+        row = self.table.selected_row()
+        if row and self.updates.get(row["name"], {}).get("status") == "update_available" \
+                and self._confirm_update([row["name"]]):
+            self._run_updates([row["name"]])
+
+    def _update_all(self) -> None:
+        names = [n for n, r in self.updates.items() if r["status"] == "update_available"]
+        if names and self._confirm_update(names):
+            self._run_updates(names)
+
+    def _set_source(self, row: dict, clear: bool = False) -> None:
+        sources = self._sources()
+        key = row["name"].lower()
+        if clear:
+            sources.pop(key, None)
+        else:
+            text, ok = QInputDialog.getText(
+                self, "Update source", f"GitHub page for {row['name']} "
+                                       "(e.g. https://github.com/owner/repo or owner/repo/folder):",
+                text=sources.get(key, ""))
+            if not ok:
+                return
+            if text.strip() and not addon_updates.parse_source(text):
+                self.info("Couldn't read that", "Use a GitHub link like https://github.com/owner/repo, "
+                                                "or owner/repo/folder.")
+                return
+            if text.strip():
+                sources[key] = text.strip()
+            else:
+                sources.pop(key, None)
+        self.ctx.settings.set("addon_sources", sources)
+        self.updates.pop(row["name"], None)
+        self._refresh_update_count()
+        self.status(f"Update source for {row['name']} saved. Click Scan for updates to check it.")
+
     def _choose_windower(self) -> None:
         win = self.window()
         if hasattr(win, "choose_windower"):
@@ -241,4 +399,9 @@ class AddonsPage(Page):
             menu.addAction("Edit settings", self._open_settings)
             menu.addAction("Open settings file", lambda: self.ctx.open_path(row["settings_file"]))
         menu.addAction("Open folder", lambda: self.ctx.open_path(row["folder"]))
+        if row["kind"] == "addons":
+            menu.addSeparator()
+            menu.addAction("Set update source…", lambda: self._set_source(row))
+            if self._sources().get(row["name"].lower()):
+                menu.addAction("Use the official Windower source", lambda: self._set_source(row, clear=True))
         menu.exec(self.table.viewport().mapToGlobal(pos))

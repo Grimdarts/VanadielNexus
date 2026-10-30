@@ -123,3 +123,17 @@ def test_hotkey_conflict_chip_filters_to_one_key(window, qtbot):
     assert page.table.visible_count() == 1
     page._focus_key("")
     assert page.table.visible_count() == 3
+
+
+def test_addon_update_results_show_in_table(window):
+    page = next(p for p in window.pages if p.key == "addons")
+    rows = [r for r in page.table.model_.rows if r["kind"] == "addons"]
+    if not rows:
+        import pytest
+        pytest.skip("no Windower folder on this machine")
+    name = rows[0]["name"]
+    page._scan_done({name: {"status": "update_available", "changed": ["x.lua"], "source": {}, "prefix": "", "remote": {}}})
+    assert page.update_all_btn.isVisibleTo(page) and "(1)" in page.update_all_btn.text()
+    assert page._update_label(rows[0]) == "Update available"
+    page._scan_done({name: {"status": "up_to_date", "changed": [], "source": {}}})
+    assert not page.update_all_btn.isVisibleTo(page)
