@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vana'diel Nexus Icon Options</title>
+<style>
+  :root { --bg:#0b1020; --panel:#141b2e; --line:#26304a; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 "Segoe UI", system-ui, sans-serif; padding:24px 16px 48px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.lead { color:var(--muted); margin:0 0 24px; max-width:760px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; max-width:1100px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h2 { font-size:17px; margin:0 0 2px; }
+  .card .sub { color:var(--muted); font-size:13px; margin:0 0 16px; }
+  .hero { display:flex; justify-content:center; padding:8px 0 16px; }
+  .hero svg { width:200px; height:200px; }
+  .sizes { display:flex; align-items:flex-end; gap:14px; padding:12px; border-radius:10px; }
+  .sizes.dark { background:#000; }
+  .sizes.light { background:#f3f4f6; margin-top:8px; }
+  .sizes span { font-size:11px; color:var(--muted); display:block; text-align:center; margin-top:4px; }
+  .sizes.light span { color:#6b7280; }
+  .taskbar { margin-top:8px; background:#1f1f1f; border-radius:8px; padding:6px 10px; display:flex; align-items:center; gap:10px; font-size:12px; color:#ddd; }
+  .note { color:var(--muted); font-size:13px; margin-top:12px; }
+</style>
+</head>
+<body>
+<h1>Vana'diel Nexus icon options</h1>
+<p class="lead">Three original designs, shown large, at real app sizes (64, 32 and 16 px), on dark and light backgrounds, and in a mock taskbar. Pick one, or mix parts (for example, option B's gold north point on option A's crystal).</p>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2540"/><stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bae6fd"/><stop offset="0.5" stop-color="#38bdf8"/><stop offset="1" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b45309"/><stop offset="1" stop-color="#78350f"/>
+    </linearGradient>
+
+    <!-- A: faceted crystal -->
+    <symbol id="iconA" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <polygon points="128,30 78,100 128,112" fill="#e0f2fe"/>
+      <polygon points="128,30 178,100 128,112" fill="#7dd3fc"/>
+      <polygon points="78,100 128,112 128,192 88,170" fill="#38bdf8"/>
+      <polygon points="178,100 128,112 128,192 168,170" fill="#0284c7"/>
+      <polygon points="88,170 128,192 128,228" fill="#0369a1"/>
+      <polygon points="168,170 128,192 128,228" fill="#0c4a6e"/>
+      <polyline points="128,30 128,228" stroke="#e0f2fe" stroke-opacity=".35" stroke-width="2" fill="none"/>
+      <path d="M190 44 L195 58 L209 63 L195 68 L190 82 L185 68 L171 63 L185 58 Z" fill="#fbbf24"/>
+    </symbol>
+
+    <!-- B: crystal compass rose -->
+    <symbol id="iconB" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <circle cx="128" cy="128" r="78" fill="none" stroke="#2b3a5c" stroke-width="6"/>
+      <!-- diagonal minor points -->
+      <polygon points="190,66 140,120 136,116" fill="#64748b"/><polygon points="190,66 140,120 144,124" fill="#475569"/>
+      <polygon points="190,190 136,140 140,136" fill="#64748b"/><polygon points="190,190 136,140 132,144" fill="#475569"/>
+      <polygon points="66,190 116,140 120,144" fill="#64748b"/><polygon points="66,190 116,140 112,136" fill="#475569"/>
+      <polygon points="66,66 116,116 112,120" fill="#64748b"/><polygon points="66,66 116,116 120,112" fill="#475569"/>
+      <!-- north (gold) -->
+      <polygon points="128,22 110,110 128,128" fill="#fde68a"/>
+      <polygon points="128,22 146,110 128,128" fill="#d97706"/>
+      <!-- east -->
+      <polygon points="234,128 146,110 128,128" fill="#7dd3fc"/>
+      <polygon points="234,128 146,146 128,128" fill="#0284c7"/>
+      <!-- south -->
+      <polygon points="128,234 146,146 128,128" fill="#38bdf8"/>
+      <polygon points="128,234 110,146 128,128" fill="#0369a1"/>
+      <!-- west -->
+      <polygon points="22,128 110,146 128,128" fill="#0284c7"/>
+      <polygon points="22,128 110,110 128,128" fill="#7dd3fc"/>
+      <circle cx="128" cy="128" r="15" fill="#0b1020" stroke="#e0f2fe" stroke-width="4"/>
+      <circle cx="128" cy="128" r="6" fill="#38bdf8"/>
+    </symbol>
+
+    <!-- C: satchel in a crystal frame -->
+    <symbol id="iconC" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <polygon points="128,26 216,77 216,179 128,230 40,179 40,77" fill="none" stroke="url(#frame)" stroke-width="14" stroke-linejoin="round"/>
+      <polygon points="128,44 200,86 200,170 128,212 56,170 56,86" fill="#0f1830"/>
+      <path d="M100 112 C100 86 156 86 156 112" fill="none" stroke="#92400e" stroke-width="9" stroke-linecap="round"/>
+      <rect x="80" y="108" width="96" height="78" rx="16" fill="url(#leather)"/>
+      <path d="M80 124 Q80 108 96 108 L160 108 Q176 108 176 124 L176 138 Q128 160 80 138 Z" fill="#c2691d"/>
+      <rect x="116" y="138" width="24" height="20" rx="4" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
+      <polygon points="128,120 120,131 128,136 136,131" fill="#7dd3fc"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="grid">
+  <div class="card">
+    <h2>A. Faceted crystal</h2>
+    <p class="sub">A single cut crystal with a gold glint. The simplest shape, so it stays clear at 16 px.</p>
+    <div class="hero"><svg><use href="#iconA"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#iconA"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconA"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconA"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#iconA"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconA"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconA"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#iconA"/></svg> Vana'diel Nexus</div>
+  </div>
+
+  <div class="card">
+    <h2>B. Crystal compass rose</h2>
+    <p class="sub">Crystal shards form a compass with a gold north point: "guiding you to your next upgrade."</p>
+    <div class="hero"><svg><use href="#iconB"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#iconB"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconB"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconB"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#iconB"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconB"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconB"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#iconB"/></svg> Vana'diel Nexus</div>
+  </div>
+
+  <div class="card">
+    <h2>C. Satchel in a crystal frame</h2>
+    <p class="sub">An adventurer's satchel inside a hexagonal crystal frame: gear and inventory first.</p>
+    <div class="hero"><svg><use href="#iconC"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#iconC"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconC"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconC"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#iconC"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#iconC"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#iconC"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#iconC"/></svg> Vana'diel Nexus</div>
+  </div>
+</div>
+<p class="note">These are first drafts drawn as vector art, so the chosen one can be refined (colors, proportions, adding "VN") and exported as a crisp Windows .ico.</p>
+</body>
+</html>

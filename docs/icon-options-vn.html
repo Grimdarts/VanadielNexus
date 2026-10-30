@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VN Icon Options</title>
+<style>
+  :root { --bg:#0b1020; --panel:#141b2e; --line:#26304a; --text:#e2e8f0; --muted:#94a3b8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 "Segoe UI", system-ui, sans-serif; padding:24px 16px 48px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.lead { color:var(--muted); margin:0 0 24px; max-width:760px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; max-width:1100px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h2 { font-size:17px; margin:0 0 2px; }
+  .card .sub { color:var(--muted); font-size:13px; margin:0 0 16px; }
+  .hero { display:flex; justify-content:center; padding:8px 0 16px; }
+  .hero svg { width:200px; height:200px; }
+  .sizes { display:flex; align-items:flex-end; gap:14px; padding:12px; border-radius:10px; }
+  .sizes.dark { background:#000; }
+  .sizes.light { background:#f3f4f6; margin-top:8px; }
+  .sizes span { font-size:11px; color:var(--muted); display:block; text-align:center; margin-top:4px; }
+  .sizes.light span { color:#6b7280; }
+  .taskbar { margin-top:8px; background:#1f1f1f; border-radius:8px; padding:6px 10px; display:flex; align-items:center; gap:10px; font-size:12px; color:#ddd; }
+  .note { color:var(--muted); font-size:13px; margin-top:16px; max-width:760px; }
+</style>
+</head>
+<body>
+<h1>Stylized "VN" icon options</h1>
+<p class="lead">Three monogram styles, each shown large, at real app sizes (64, 32, 16 px), on dark and light backgrounds, and in a mock taskbar.</p>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2540"/><stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="blueGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/><stop offset="0.55" stop-color="#38bdf8"/><stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde68a"/><stop offset="0.5" stop-color="#f59e0b"/><stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="goldFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- A: one-stroke ligature, the V's right arm becomes the N -->
+    <symbol id="vnA" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <path d="M136 70 L198 182 L198 60" fill="none" stroke="url(#gold)"
+            stroke-width="28" stroke-linejoin="bevel" stroke-linecap="butt"/>
+      <path d="M46 60 L92 182 L136 70" fill="none" stroke="#38bdf8"
+            stroke-width="28" stroke-linejoin="bevel" stroke-linecap="butt"/>
+    </symbol>
+
+    <!-- B: faceted crystal letters -->
+    <symbol id="vnB" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <!-- V -->
+      <polygon points="36,64 68,64 92,150 92,204" fill="#bae6fd"/>
+      <polygon points="92,204 92,150 116,64 148,64" fill="#0284c7"/>
+      <!-- N -->
+      <polygon points="158,64 182,64 182,204 158,204" fill="#7dd3fc"/>
+      <polygon points="158,64 182,64 226,204 202,204" fill="url(#gold)"/>
+      <polygon points="202,64 226,64 226,204 202,204" fill="#0369a1"/>
+    </symbol>
+
+    <!-- C: engraved gold monogram in a crystal diamond -->
+    <symbol id="vnC" viewBox="0 0 256 256">
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+      <rect x="8" y="8" width="240" height="240" rx="56" fill="none" stroke="#2b3a5c" stroke-width="4"/>
+      <polygon points="128,26 230,128 128,230 26,128" fill="#0f1830" stroke="url(#goldFrame)" stroke-width="9" stroke-linejoin="miter"/>
+      <polygon points="128,44 212,128 128,212 44,128" fill="none" stroke="#38bdf8" stroke-opacity=".45" stroke-width="2"/>
+      <!-- V: thick left, thin right -->
+      <polygon points="66,94 90,94 116,166 104,166" fill="url(#gold)"/>
+      <polygon points="104,166 116,166 136,94 128,94" fill="url(#gold)"/>
+      <!-- N: thin stems, thick diagonal -->
+      <polygon points="140,94 147,94 147,166 140,166" fill="url(#gold)"/>
+      <polygon points="140,94 160,94 192,166 172,166" fill="url(#gold)"/>
+      <polygon points="185,94 192,94 192,166 185,166" fill="url(#gold)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="grid">
+  <div class="card">
+    <h2>A. One-stroke ligature</h2>
+    <p class="sub">One continuous line draws both letters: the blue V's right arm doubles as the start of the gold N.</p>
+    <div class="hero"><svg><use href="#vnA"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#vnA"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnA"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnA"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#vnA"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnA"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnA"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#vnA"/></svg> Vana'diel Nexus</div>
+  </div>
+
+  <div class="card">
+    <h2>B. Crystal letters</h2>
+    <p class="sub">Bold V and N cut like crystal, with lit and shadowed faces and a gold stroke through the N.</p>
+    <div class="hero"><svg><use href="#vnB"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#vnB"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnB"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnB"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#vnB"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnB"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnB"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#vnB"/></svg> Vana'diel Nexus</div>
+  </div>
+
+  <div class="card">
+    <h2>C. Gold emblem</h2>
+    <p class="sub">An engraved gold monogram with thick and thin strokes, set in a crystal-diamond frame, like a guild crest.</p>
+    <div class="hero"><svg><use href="#vnC"/></svg></div>
+    <div class="sizes dark">
+      <div><svg width="64" height="64"><use href="#vnC"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnC"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnC"/></svg><span>16</span></div>
+    </div>
+    <div class="sizes light">
+      <div><svg width="64" height="64"><use href="#vnC"/></svg><span>64</span></div>
+      <div><svg width="32" height="32"><use href="#vnC"/></svg><span>32</span></div>
+      <div><svg width="16" height="16"><use href="#vnC"/></svg><span>16</span></div>
+    </div>
+    <div class="taskbar"><svg width="24" height="24"><use href="#vnC"/></svg> Vana'diel Nexus</div>
+  </div>
+</div>
+<p class="note">All vector drafts, so colors, weight and shape can be adjusted before exporting the final Windows icon.</p>
+</body>
+</html>
