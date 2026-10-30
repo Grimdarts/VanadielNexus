@@ -1,0 +1,1023 @@
+{
+  "checkpoints": [
+    {
+      "id": "cp-1",
+      "job": "WAR",
+      "category": "AEONIC WEAPON (WAR)",
+      "title": "Chango (119 AG) — Escha Ru'Aun Step",
+      "current": 12,
+      "target": 12,
+      "unit": "Ru'Aun NMs Cleared",
+      "note": "Stopped at Kammavaca & Warder of Courage. Pop items ready in Satchel.",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Chango",
+      "pinned": true
+    },
+    {
+      "id": "cp-2",
+      "job": "PLD",
+      "category": "MYTHIC WEAPON (PLD)",
+      "title": "Burtgang — Duties, Tasks, and Deeds",
+      "current": 19660,
+      "target": 30000,
+      "unit": "Alexandrite (18,420 Traded + 1,240 in Case)",
+      "note": "All 50 Assaults & Nyzul Token/Ichor steps DONE. Trade remaining at Nashmau.",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Burtgang",
+      "pinned": true
+    },
+    {
+      "id": "cp-3",
+      "job": "WAR",
+      "category": "SORTIE EMPYREAN +3 (WAR)",
+      "title": "Boii Lorica +2 -> +3 Upgrade",
+      "current": 64250,
+      "target": 70000,
+      "unit": "Gallimaufry (Need 1x Starstone)",
+      "note": "1 more Sortie 8-boss run to hit 70,000 Gallimaufry.",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Boii_Lorica_%2B3",
+      "pinned": true
+    }
+  ],
+  "jse_by_job": {
+    "BLU": [
+      {
+        "id": "blu-af-head",
+        "set": "AF",
+        "slot": "Head",
+        "name": "Assimilator's Keffiyeh +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need P. BLU Cards (Omen) for +3",
+        "ready": false
+      },
+      {
+        "id": "blu-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Assimilator's Jubbah +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete (Limbus +4 available)",
+        "ready": false
+      },
+      {
+        "id": "blu-af-hands",
+        "set": "AF",
+        "slot": "Hands",
+        "name": "Assimilator's Bazubands +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "blu-af-legs",
+        "set": "AF",
+        "slot": "Legs",
+        "name": "Assimilator's Shalwar +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need P. BLU Cards (Omen) for +3",
+        "ready": false
+      },
+      {
+        "id": "blu-af-feet",
+        "set": "AF",
+        "slot": "Feet",
+        "name": "Assimilator's Charuqs +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need P. BLU Cards (Omen) for +3",
+        "ready": false
+      },
+      {
+        "id": "blu-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Luhlaza Keffiyeh +1",
+        "tier": "+1",
+        "location": "Wardrobe 1",
+        "mats": "Dynamis [D] BLU wave clear + Voidhead: BLU for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "blu-relic-body",
+        "set": "Relic",
+        "slot": "Body",
+        "name": "Luhlaza Jubbah +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need Voidtorso: BLU x3 (Dynamis [D]) for +3",
+        "ready": false
+      },
+      {
+        "id": "blu-relic-hands",
+        "set": "Relic",
+        "slot": "Hands",
+        "name": "Luhlaza Bazubands +1",
+        "tier": "+1",
+        "location": "Wardrobe 1",
+        "mats": "Need Torsoshard: BLU / Voidhand: BLU",
+        "ready": false
+      },
+      {
+        "id": "blu-relic-legs",
+        "set": "Relic",
+        "slot": "Legs",
+        "name": "Luhlaza Shalwar +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need Voidleg: BLU x3 for +3",
+        "ready": false
+      },
+      {
+        "id": "blu-relic-feet",
+        "set": "Relic",
+        "slot": "Feet",
+        "name": "Luhlaza Charuqs +1",
+        "tier": "+1",
+        "location": "Wardrobe 1",
+        "mats": "Need Footshard: BLU / Voidfoot: BLU",
+        "ready": false
+      },
+      {
+        "id": "blu-empy-head",
+        "set": "Empy",
+        "slot": "Head",
+        "name": "Hashishin Kavuk +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry + Sapphires for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "blu-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Hashishin Mintan +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry + Sapphires for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "blu-empy-hands",
+        "set": "Empy",
+        "slot": "Hands",
+        "name": "Hashishin Bazubands +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry + Sapphires for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "blu-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Hashishin Tayt +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry + Sapphires for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "blu-empy-feet",
+        "set": "Empy",
+        "slot": "Feet",
+        "name": "Hashishin Basmak +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry + Sapphires for +2/+3",
+        "ready": false
+      }
+    ],
+    "SMN": [
+      {
+        "id": "smn-af-head",
+        "set": "AF",
+        "slot": "Head",
+        "name": "Convoker's Horn +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Convoker's Doublet +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-af-hands",
+        "set": "AF",
+        "slot": "Hands",
+        "name": "Convoker's Bracers +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-af-legs",
+        "set": "AF",
+        "slot": "Legs",
+        "name": "Convoker's Spats +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-af-feet",
+        "set": "AF",
+        "slot": "Feet",
+        "name": "Convoker's Pigaches +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Glyphic Horn +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-relic-body",
+        "set": "Relic",
+        "slot": "Body",
+        "name": "Glyphic Doublet +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-relic-hands",
+        "set": "Relic",
+        "slot": "Hands",
+        "name": "Glyphic Bracers +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-relic-legs",
+        "set": "Relic",
+        "slot": "Legs",
+        "name": "Glyphic Spats +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "smn-relic-feet",
+        "set": "Relic",
+        "slot": "Feet",
+        "name": "Glyphic Pigaches +2",
+        "tier": "+2",
+        "location": "Wardrobe 1",
+        "mats": "Need Voidfoot: SMN x3 for +3",
+        "ready": false
+      },
+      {
+        "id": "smn-empy-head",
+        "set": "Empy",
+        "slot": "Head",
+        "name": "Beckoner's Horn +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "smn-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Beckoner's Doublet +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "smn-empy-hands",
+        "set": "Empy",
+        "slot": "Hands",
+        "name": "Beckoner's Bracers +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "smn-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Beckoner's Spats +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "smn-empy-feet",
+        "set": "Empy",
+        "slot": "Feet",
+        "name": "Beckoner's Pigaches +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      }
+    ],
+    "RUN": [
+      {
+        "id": "run-af-head",
+        "set": "AF",
+        "slot": "Head",
+        "name": "Runeist Bandeau +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Runeist's Coat +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-af-hands",
+        "set": "AF",
+        "slot": "Hands",
+        "name": "Runeist's Mitons +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-af-legs",
+        "set": "AF",
+        "slot": "Legs",
+        "name": "Rune. Trousers +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-af-feet",
+        "set": "AF",
+        "slot": "Feet",
+        "name": "Runeist's Boots +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Futhark Bandeau +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Dynamis [D] RUN upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-relic-body",
+        "set": "Relic",
+        "slot": "Body",
+        "name": "Futhark Coat +3",
+        "tier": "+3",
+        "location": "Wardrobe 2",
+        "mats": "+3 Complete",
+        "ready": false
+      },
+      {
+        "id": "run-relic-hands",
+        "set": "Relic",
+        "slot": "Hands",
+        "name": "Futhark Mitons +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Dynamis [D] RUN upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-relic-legs",
+        "set": "Relic",
+        "slot": "Legs",
+        "name": "Futhark Trousers +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Dynamis [D] RUN upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-relic-feet",
+        "set": "Relic",
+        "slot": "Feet",
+        "name": "Futhark Boots +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Dynamis [D] RUN upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-empy-head",
+        "set": "Empy",
+        "slot": "Head",
+        "name": "Erilaz Galea +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Erilaz Surcoat +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-empy-hands",
+        "set": "Empy",
+        "slot": "Hands",
+        "name": "Erilaz Gauntlets +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Eri. Leg Guards +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "run-empy-feet",
+        "set": "Empy",
+        "slot": "Feet",
+        "name": "Erilaz Greaves +1",
+        "tier": "+1",
+        "location": "Wardrobe 2",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      }
+    ],
+    "SCH": [
+      {
+        "id": "sch-af-head",
+        "set": "AF",
+        "slot": "Head",
+        "name": "Academic's Mortarboard +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Omen P. SCH Cards for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Pedagogy Mortarboard +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Dynamis [D] SCH upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-relic-body",
+        "set": "Relic",
+        "slot": "Body",
+        "name": "Pedagogy Gown +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Dynamis [D] SCH upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-relic-legs",
+        "set": "Relic",
+        "slot": "Legs",
+        "name": "Pedagogy Pants +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Dynamis [D] SCH upgrades for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-empy-head",
+        "set": "Empy",
+        "slot": "Head",
+        "name": "Arbatel Bonnet +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Arbatel Gown +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-empy-hands",
+        "set": "Empy",
+        "slot": "Hands",
+        "name": "Arbatel Bracers +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Arbatel Pants +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      },
+      {
+        "id": "sch-empy-feet",
+        "set": "Empy",
+        "slot": "Feet",
+        "name": "Arbatel Loafers +1",
+        "tier": "+1",
+        "location": "Wardrobe 3",
+        "mats": "Sortie Gallimaufry for +2/+3",
+        "ready": false
+      }
+    ],
+    "RDM": [
+      {
+        "id": "rdm-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Atrophy Tabard +3",
+        "tier": "+3",
+        "location": "Wardrobe 4",
+        "mats": "50/50 P. RDM Cards • Ready for +4!",
+        "ready": true
+      },
+      {
+        "id": "rdm-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Vitiation Chapeau +3",
+        "tier": "+3",
+        "location": "Wardrobe 4",
+        "mats": "Max Augmented (Path C Rank 25/25)",
+        "ready": false
+      },
+      {
+        "id": "rdm-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Lethargy Fuseau +3",
+        "tier": "+3",
+        "location": "Wardrobe 4",
+        "mats": "Complete (Sortie +3 Unlocked)",
+        "ready": false
+      }
+    ],
+    "WAR": [
+      {
+        "id": "war-af-head",
+        "set": "AF",
+        "slot": "Head",
+        "name": "Pummeler's Mask +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "35/35 P. WAR Cards • 1/1 Maliya. Orb (Ready for +4!)",
+        "ready": true
+      },
+      {
+        "id": "war-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Pummeler's Lorica +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "18/50 P. WAR Cards • 0/3 Lightweave Silk",
+        "ready": false
+      },
+      {
+        "id": "war-af-hands",
+        "set": "AF",
+        "slot": "Hands",
+        "name": "Pummeler's Mufflers +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "12/35 P. WAR Cards • 1/3 Cyan Orb",
+        "ready": false
+      },
+      {
+        "id": "war-af-legs",
+        "set": "AF",
+        "slot": "Legs",
+        "name": "Pummeler's Cuisses +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "35/40 P. WAR Cards • 2/3 Niobium Ore",
+        "ready": false
+      },
+      {
+        "id": "war-af-feet",
+        "set": "AF",
+        "slot": "Feet",
+        "name": "Pummeler's Calligae +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "35/35 P. WAR Cards • Ready for +4!",
+        "ready": true
+      },
+      {
+        "id": "war-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Agoge Mask +3",
+        "tier": "+3",
+        "location": "Wardrobe 1",
+        "mats": "Max Augmented (Path A Rank 25/25)",
+        "ready": false
+      },
+      {
+        "id": "war-relic-legs",
+        "set": "Relic",
+        "slot": "Legs",
+        "name": "Agoge Cuisses +2",
+        "tier": "+2",
+        "location": "Porter Slip 25",
+        "mats": "3/3 Voidleg: WAR • 1/3 Corpselight (Need 2)",
+        "ready": false
+      },
+      {
+        "id": "war-empy-head",
+        "set": "Empy",
+        "slot": "Head",
+        "name": "Boii Mask +3",
+        "tier": "+3",
+        "location": "Wardrobe 2",
+        "mats": "Complete (Sortie +3 Unlocked)",
+        "ready": false
+      },
+      {
+        "id": "war-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Boii Lorica +2",
+        "tier": "+2",
+        "location": "Wardrobe 2",
+        "mats": "64,250/70,000 Gallimaufry • 1/1 Starstone",
+        "ready": false
+      },
+      {
+        "id": "war-empy-legs",
+        "set": "Empy",
+        "slot": "Legs",
+        "name": "Boii Cuisses +3",
+        "tier": "+3",
+        "location": "Wardrobe 2",
+        "mats": "Complete (Sortie +3 Unlocked)",
+        "ready": false
+      }
+    ],
+    "COR": [
+      {
+        "id": "cor-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Laksamana's Frac +3",
+        "tier": "+3",
+        "location": "Wardrobe 3",
+        "mats": "40/50 P. COR Cards • 2/2 Siren's Hair",
+        "ready": false
+      },
+      {
+        "id": "cor-relic-head",
+        "set": "Relic",
+        "slot": "Head",
+        "name": "Lanun Tricorne +3",
+        "tier": "+3",
+        "location": "Wardrobe 3",
+        "mats": "Max Augmented (Luzaf's Ring / Phantom Roll)",
+        "ready": false
+      },
+      {
+        "id": "cor-empy-feet",
+        "set": "Empy",
+        "slot": "Feet",
+        "name": "Chasseur's Bottes +3",
+        "tier": "+3",
+        "location": "Wardrobe 3",
+        "mats": "Complete (Sortie +3 Unlocked)",
+        "ready": false
+      },
+      {
+        "id": "cor-empy-body",
+        "set": "Empy",
+        "slot": "Body",
+        "name": "Chasseur's Frac +2",
+        "tier": "+2",
+        "location": "Wardrobe 3",
+        "mats": "64,250/70,000 Gallimaufry • 0/1 Starstone",
+        "ready": false
+      }
+    ],
+    "PLD": [
+      {
+        "id": "pld-af-body",
+        "set": "AF",
+        "slot": "Body",
+        "name": "Reverence Surcoat +3",
+        "tier": "+3",
+        "location": "Wardrobe 2",
+        "mats": "22/50 P. PLD Cards",
+        "ready": false
+      },
+      {
+        "id": "pld-relic-body",
+        "set": "Relic",
+        "slot": "Body",
+        "name": "Caballarius Surcoat +3",
+        "tier": "+3",
+        "location": "Porter Slip 25",
+        "mats": "Path A Rank 20/25",
+        "ready": false
+      },
+      {
+        "id": "pld-empy-hands",
+        "set": "Empy",
+        "slot": "Hands",
+        "name": "Chevalier's Gauntlets +3",
+        "tier": "+3",
+        "location": "Wardrobe 2",
+        "mats": "Complete (Sortie +3 Unlocked)",
+        "ready": false
+      }
+    ]
+  },
+  "rema_weapons": [
+    {
+      "id": "rema-nirvana",
+      "name": "Nirvana",
+      "type": "Mythic",
+      "job": "SMN",
+      "stage": "iLvl 119 III",
+      "progressPct": 100,
+      "detail": "Equipped / Owned (Garland of Bliss & Blood Pact Dmg +40)",
+      "rp": "Augmented via Riftborn Boulders"
+    },
+    {
+      "id": "rema-tizona",
+      "name": "Tizona",
+      "type": "Mythic",
+      "job": "BLU",
+      "stage": "iLvl 119 III",
+      "progressPct": 100,
+      "detail": "Equipped / Owned (Expiacion & MP Return Aftermath)",
+      "rp": "Augmented via Beitetsu / Pluton"
+    },
+    {
+      "id": "rema-epeolatry",
+      "name": "Epeolatry",
+      "type": "Ergon",
+      "job": "RUN",
+      "stage": "iLvl 119 III",
+      "progressPct": 100,
+      "detail": "Equipped / Owned (Dimidiation & Liement Aftermath)",
+      "rp": "Augmented via Beitetsu"
+    },
+    {
+      "id": "rema-lionheart",
+      "name": "Lionheart",
+      "type": "Aeonic",
+      "job": "RUN",
+      "stage": "iLvl 119 III (Ultimate SC)",
+      "progressPct": 100,
+      "detail": "Equipped / Owned (Resolution & Ultimate Skillchains)",
+      "rp": "Rank 15 via Beitetsu"
+    },
+    {
+      "id": "rema-1",
+      "name": "Chango",
+      "type": "Aeonic",
+      "job": "WAR",
+      "stage": "Stage 3 (Escha - Ru'Aun NMs)",
+      "progressPct": 68,
+      "detail": "Zitah 15/15 Done • Ru'Aun 12/12 Done • Reisenjima 0/18 • 50,000 Beads Paid",
+      "rp": "Will unlock R15 on completion"
+    },
+    {
+      "id": "rema-2",
+      "name": "Ukonvasara",
+      "type": "Empyrean",
+      "job": "WAR",
+      "stage": "iLvl 119 III (Afterglow R15)",
+      "progressPct": 100,
+      "detail": "75/75 Briareus • 50/50 Sobek • 50/50 Apademak • 1,500 HMP • 60 Riftdross",
+      "rp": "Path A: Rank 15/15 Complete"
+    },
+    {
+      "id": "rema-3",
+      "name": "Burtgang",
+      "type": "Mythic",
+      "job": "PLD",
+      "stage": "Stage 3 (Alexandrite & Tokens)",
+      "progressPct": 65,
+      "detail": "19,660 / 30,000 Alexandrite • 150,000 Nyzul Tokens Done • 100,000 Ichor Done",
+      "rp": "1,450 / 10,000 Plutons banked"
+    },
+    {
+      "id": "rema-4",
+      "name": "Death Penalty",
+      "type": "Mythic",
+      "job": "COR",
+      "stage": "iLvl 119 III (Rank 15/15)",
+      "progressPct": 100,
+      "detail": "Complete & Augmented (Leaden Salute +30% / aftermath active)",
+      "rp": "Path A: Rank 15/15 Complete"
+    },
+    {
+      "id": "rema-5",
+      "name": "Laphria (Stage 4)",
+      "type": "Prime",
+      "job": "WAR",
+      "stage": "Stage 4 -> Stage 5 (Sortie)",
+      "progressPct": 64,
+      "detail": "64,250 / 100,000 Gallimaufry • 2/3 Eikondrite • 1/1 Prime Soul",
+      "rp": "Unlocks Disaster aftermath"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "wl-smn-1",
+      "job": "SMN",
+      "name": "Lugalbanda Earring",
+      "slot": "Earring (BLM / SMN / SCH / GEO)",
+      "sourceType": "Omen (Boss - Kei / Ou)",
+      "zone": "Reisenjima Henge (Omen)",
+      "obtainHow": "Drops from Kei (Omen Boss). Grants Pet: Mag. Acc.+15, Pet: MAB+15, Blood Pact Dmg.+10.",
+      "costOrPop": "1x Mystical Canteen",
+      "detectedFrom": "SMN Wishlist Goal",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Lugalbanda_Earring",
+      "pinned": true
+    },
+    {
+      "id": "wl-smn-2",
+      "job": "SMN",
+      "name": "Enmerkar Earring",
+      "slot": "Earring (SMN / BST / PUP)",
+      "sourceType": "Omen (Boss - Kyou)",
+      "zone": "Reisenjima Henge (Omen)",
+      "obtainHow": "Drops from Kyou (Omen Boss). Grants Pet: Acc+15, Pet: Mag. Acc.+15, Pet: DT-3%, Blood Pact Dmg.+8.",
+      "costOrPop": "1x Mystical Canteen",
+      "detectedFrom": "SMN Need to Get List",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Enmerkar_Earring",
+      "pinned": true
+    },
+    {
+      "id": "wl-1",
+      "job": "WAR",
+      "name": "Sakpata's Helm",
+      "slot": "Head (WAR / PLD / DRK)",
+      "sourceType": "Odyssey (Sheol Gaol)",
+      "zone": "Rabao -> Odyssey (Sheol Gaol)",
+      "obtainHow": "Defeat Ngai (Atonement Tier 3 NM) in Sheol Gaol to unlock purchase from ???, then augment to Rank 25-30 using Lustreless Wing / Segments.",
+      "costOrPop": "1x Mogolophone II (3,000 Segments) • Rank RP via Lustreless Wing",
+      "detectedFrom": "Detected missing in WAR_Mote.lua (sets.engaged.DT)",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Sakpata%27s_Helm",
+      "pinned": true
+    },
+    {
+      "id": "wl-2",
+      "job": "WAR",
+      "name": "Boii Earring +2",
+      "slot": "Right Ear (WAR Only)",
+      "sourceType": "Sortie (Old Case +1 / +2)",
+      "zone": "Outer Ra'Kaznar (Sortie)",
+      "obtainHow": "Drops randomly from Old Case +1 (earned by defeating Basement NMs E-H or Aminon) or high-tier Coffers/Caskets inside Sortie.",
+      "costOrPop": "Ra'Kaznar Starstone / Old Case +1 RNG",
+      "detectedFrom": "Detected missing in WAR_Mote.lua (sets.precast.WS['Upheaval'])",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Boii_Earring_%2B2",
+      "pinned": false
+    },
+    {
+      "id": "wl-3",
+      "job": "All",
+      "name": "Null Shawl",
+      "slot": "Back (All Jobs)",
+      "sourceType": "Limbus (Revamped)",
+      "zone": "Temenos / Apollyon",
+      "obtainHow": "Exchange Temenos & Apollyon Units or Matter from revamped Limbus chests, then rank up via Limbus augment NPC.",
+      "costOrPop": "Temenos / Apollyon Units",
+      "detectedFrom": "Added manually to Wishlist",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Null_Shawl",
+      "pinned": false
+    }
+  ],
+  "catalog_db": {
+    "Crepuscular Cloak": {
+      "slot": "Head/Body (WAR / PLD / DRK / RDM / BLM)",
+      "sourceType": "High-Tier Mission Battle (HTMB)",
+      "zone": "Abyssea - Empyreal Paradox (★The Wyrm God)",
+      "obtainHow": "Drops from ★The Wyrm God (Shinryu) on Difficult / Very Difficult, or purchased during Seasonal Mog Bonanza / Login Campaigns.",
+      "costOrPop": "30 Merit Points (Dawn Phantom Gem from Trisvain in Northern San d'Oria)",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Crepuscular_Cloak"
+    },
+    "Dagon Breastplate": {
+      "slot": "Body (WAR / MNK / SAM / NIN)",
+      "sourceType": "Omen (Final Boss - Ou)",
+      "zone": "Reisenjima Henge (Omen)",
+      "obtainHow": "Drops from Ou (Final Boss of Omen after collecting all 5 boss Astral/Umbral key items: Fu, Kyou, Kei, Gin, Kin).",
+      "costOrPop": "1x Mystical Canteen + 5 Omen Boss Key Items",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Dagon_Breastplate"
+    },
+    "Moonlight Ring": {
+      "slot": "Ring (WAR / PLD / DRK / SAM / DRG / RUN)",
+      "sourceType": "Synthesis / Auction House",
+      "zone": "Auction House (Goldsmithing / Bonecraft)",
+      "obtainHow": "Crafted via Bonecraft (110) using Defending/Moonbeam materials or purchased directly off the Auction House (HP+110, Acc+8, DT-5%).",
+      "costOrPop": "Auction House (~15M-25M Gil depending on server)",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Moonlight_Ring"
+    },
+    "Fotia Gorget": {
+      "slot": "Neck (All Jobs)",
+      "sourceType": "Synergy (Sea Elemental Gorgets)",
+      "zone": "Al'Taieu + Synergy Furnace",
+      "obtainHow": "Combine all 8 Sea Elemental Gorgets (Flame, Snow, Breeze, Soil, Thunder, Aqua, Light, Shadow Gorgets from Al'Taieu organs) via Synergy.",
+      "costOrPop": "8x Elemental Gorgets (Phuabo, Xzomit, Aern, Hpemde, Yovra organs)",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Fotia_Gorget"
+    },
+    "Utu Grip": {
+      "slot": "Sub / Grip (WAR / DRK / SAM / DRG / RUN)",
+      "sourceType": "Omen (Boss - Kin)",
+      "zone": "Reisenjima Henge (Omen)",
+      "obtainHow": "Drops from Kin (Omen Boss on the Kin route). Grants DEX+10, Acc+30, Magic Acc+30, Weapon Skill Acc+30, Double Attack+4%.",
+      "costOrPop": "1x Mystical Canteen",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Utu_Grip"
+    },
+    "Regal Ring": {
+      "slot": "Ring (WAR / PLD / DRK / BST / SAM / NIN / DRG / RUN)",
+      "sourceType": "Omen (Final Boss - Ou)",
+      "zone": "Reisenjima Henge (Omen)",
+      "obtainHow": "Drops from Ou (Final Boss of Omen). Grants STR/DEX/VIT/AGI+10, Attack+20, and Niqmaddu/Regal set bonus.",
+      "costOrPop": "1x Mystical Canteen + 5 Omen Boss Key Items",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Regal_Ring"
+    },
+    "Epaminondas's Ring": {
+      "slot": "Ring (All Jobs — WSD+5%)",
+      "sourceType": "A.M.A.N. Trove / Auction House",
+      "zone": "Horlais Peak / Waughroon / Balga's Dais or AH",
+      "obtainHow": "Drops from A.M.A.N. Trove (Mars / Venus Orbs) or purchased from the Auction House under Rings.",
+      "costOrPop": "Mars/Venus Orb or Auction House Gil",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Epaminondas%27s_Ring"
+    },
+    "Nyame Mail": {
+      "slot": "Body (All Jobs)",
+      "sourceType": "Odyssey (Sheol Gaol)",
+      "zone": "Rabao -> Odyssey (Sheol Gaol)",
+      "obtainHow": "Defeat Bumba (Atonement Tier 4 NM) in Sheol Gaol to unlock purchase, then augment Path B (WSD+12%, MAB+30) via Lustreless Hide.",
+      "costOrPop": "1x Mogolophone II (3,000 Segments) • Rank RP via Lustreless Hide",
+      "wikiUrl": "https://www.bg-wiki.com/ffxi/Nyame_Mail"
+    }
+  }
+}
