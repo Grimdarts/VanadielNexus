@@ -127,8 +127,14 @@ def list_addons(windower_dir: str) -> list:
 
 
 def _settings_file(folder: str) -> str:
-    path = os.path.join(folder, "data", "settings.xml")
-    return path if os.path.isfile(path) else ""
+    """The addon's main settings file: data/settings.xml, else the first XML file in data/."""
+    data = os.path.join(folder, "data")
+    try:
+        xmls = sorted((f for f in os.listdir(data) if f.lower().endswith(".xml")),
+                      key=lambda n: (n.lower() != "settings.xml", n.lower()))
+    except OSError:
+        return ""
+    return os.path.join(data, xmls[0]) if xmls else ""
 
 
 def list_plugins(windower_dir: str) -> list:

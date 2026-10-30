@@ -4,6 +4,7 @@ from PySide6.QtWidgets import QCheckBox, QComboBox, QMenu, QStackedWidget
 
 from ...core import windower
 from .. import theme, widgets
+from ..addon_settings_dialog import AddonSettingsDialog
 from ..widgets import Column, DataTable
 from .base import Page
 
@@ -25,7 +26,7 @@ class AddonsPage(Page):
             Column("Type", lambda r: "Addon" if r["kind"] == "addons" else "Plugin", 90),
             Column("Starts with game", lambda r: "Yes" if r["autoload"] else "—", 140, Qt.AlignCenter,
                    tone=lambda r: theme.SUCCESS if r["autoload"] else theme.FAINT),
-            Column("Settings", lambda r: "settings.xml" if r["settings_file"] else "—", 130,
+            Column("Settings", lambda r: "Editable" if r["settings_file"] else "—", 110,
                    tone=lambda r: None if r["settings_file"] else theme.FAINT),
             Column("Folder", "folder", stretch=True, tone=lambda _r: theme.FAINT),
         ], sort_column=0, name="addons")
@@ -48,9 +49,10 @@ class AddonsPage(Page):
         self.load_btn = widgets.button("Load", on_click=lambda: self._live("load"))
         self.unload_btn = widgets.button("Unload", on_click=lambda: self._live("unload"))
         self.reload_btn = widgets.button("Reload", on_click=lambda: self._live("reload"))
-        self.settings_btn = widgets.button("Open settings", on_click=self._open_settings)
+        self.settings_btn = widgets.button("Edit settings", on_click=self._open_settings)
         self.count = widgets.label("", "Caption")
-        self.hint = widgets.label("In-app settings editing is coming in a later update.", "Caption")
+        self.hint = widgets.label("Double-click an addon to edit its settings. Load, Unload and Reload need the game "
+                                  "running with the Nexus addon loaded.", "Caption")
 
         self.layout_.addWidget(self.toolbar)
         self.layout_.addWidget(self.stack, 1)
@@ -117,7 +119,9 @@ class AddonsPage(Page):
     def _open_settings(self) -> None:
         row = self.table.selected_row()
         if row and row["settings_file"]:
-            self.ctx.open_path(row["settings_file"])
+            if AddonSettingsDialog(self, self.ctx, row).exec():
+                self.status(f"Saved {row['name']} settings" +
+                            (" and reloaded it in game." if self.ctx.bridge.connected else ". Reload it in game to apply."))
 
     def _choose_windower(self) -> None:
         win = self.window()
@@ -132,6 +136,7 @@ class AddonsPage(Page):
         if row["kind"] == "addons":
             menu.addAction(self.autoload_btn.text(), self._toggle_autoload)
         if row["settings_file"]:
-            menu.addAction("Open settings", self._open_settings)
+            menu.addAction("Edit settings", self._open_settings)
+            menu.addAction("Open settings file", lambda: self.ctx.open_path(row["settings_file"]))
         menu.addAction("Open folder", lambda: self.ctx.open_path(row["folder"]))
         menu.exec(self.table.viewport().mapToGlobal(pos))

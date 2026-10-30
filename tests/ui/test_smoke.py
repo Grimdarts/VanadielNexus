@@ -89,3 +89,26 @@ def test_wishlist_track_as_goal_copies_materials(window):
     wish._track_as_goal()  # second click must not duplicate
     goals = [g for g in ctx.db.data["checkpoints"] if g.get("fromWishlist") == "wl-x"]
     assert len(goals) == 1 and goals[0]["materials"][0]["need"] == 3
+
+
+def test_addon_settings_dialog_edits_and_saves(window, tmp_path):
+    from PySide6.QtWidgets import QCheckBox, QSpinBox
+
+    from vanadiel_nexus.ui.addon_settings_dialog import AddonSettingsDialog
+
+    folder = tmp_path / "addons" / "demo"
+    (folder / "data").mkdir(parents=True)
+    xml = folder / "data" / "settings.xml"
+    xml.write_text('<?xml version="1.1" ?>\n<settings><global><pos><x>500</x></pos><show>true</show>'
+                   "<bg><alpha>72</alpha><blue>0</blue><green>0</green><red>0</red></bg></global></settings>\n")
+    dlg = AddonSettingsDialog(window, window.ctx, {"name": "demo", "folder": str(folder),
+                                                   "settings_file": str(xml)})
+    spin = dlg.tree.itemWidget(dlg.tree.topLevelItem(0).child(0).child(0), 1)
+    assert isinstance(spin, QSpinBox)
+    spin.setValue(640)
+    check = dlg.tree.itemWidget(dlg.tree.topLevelItem(0).child(1), 1)
+    assert isinstance(check, QCheckBox)
+    check.setChecked(False)
+    dlg._save()  # game not connected: writes immediately
+    text = xml.read_text()
+    assert "<x>640</x>" in text and "<show>false</show>" in text and text.startswith('<?xml version="1.1"')
