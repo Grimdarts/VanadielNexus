@@ -31,6 +31,7 @@ class AddonsPage(Page):
             Column("Type", lambda r: "Addon" if r["kind"] == "addons" else "Plugin", 90),
             Column("Starts with game", lambda r: "Yes" if r["autoload"] else "—", 140, Qt.AlignCenter,
                    tone=lambda r: theme.SUCCESS if r["autoload"] else theme.FAINT),
+            Column("Startup source", lambda r: ", ".join(r.get("autoload_sources", [])) or "—", 180),
             Column("Settings", lambda r: "Editable" if r["settings_file"] else "—", 110,
                    tone=lambda r: None if r["settings_file"] else theme.FAINT),
             Column("Folder", "folder", stretch=True, tone=lambda _r: theme.FAINT),
@@ -56,7 +57,8 @@ class AddonsPage(Page):
         self.reload_btn = widgets.button("Reload", on_click=lambda: self._live("reload"))
         self.settings_btn = widgets.button("Edit settings", on_click=self._open_settings)
         self.count = widgets.label("", "Caption")
-        self.hint = widgets.label("Double-click an addon to edit its settings. Load, Unload and Reload need the game "
+        self.hint = widgets.label("Startup is configured, not live loaded state. Double-click an addon to edit its settings. "
+                                  "Load, Unload and Reload need the game "
                                   "running with the Nexus addon loaded.", "Caption")
 
         self.gearinfo = self._build_gearinfo_card()
@@ -185,9 +187,11 @@ class AddonsPage(Page):
             b.setToolTip("" if live else "Needs the game running with the Nexus addon loaded")
         self.reload_btn.setEnabled(bool(row) and live and row["kind"] == "addons")
         is_addon = bool(row) and row["kind"] == "addons"
-        self.autoload_btn.setEnabled(is_addon)
+        managed = [s for s in row.get("autoload_sources", []) if s != "scripts/init.txt"] if row else []
+        self.autoload_btn.setEnabled(is_addon and not managed)
         self.autoload_btn.setText("Don't start with game" if is_addon and row["autoload"] else "Start with game")
-        self.autoload_btn.setToolTip("Edits scripts/init.txt (a backup is kept)" if is_addon
+        self.autoload_btn.setToolTip("Managed by " + ", ".join(managed) + "; edit that source instead."
+                                     if managed else "Edits scripts/init.txt (a backup is kept)" if is_addon
                                      else "Plugins are set in the Windower launcher profile")
         self.settings_btn.setEnabled(bool(row) and bool(row["settings_file"]))
 
@@ -195,7 +199,12 @@ class AddonsPage(Page):
         row = self.table.selected_row()
         if not row or row["kind"] != "addons":
             return
-        windower.set_autoload(self.ctx.windower_dir, row["name"], "addons", not row["autoload"])
+        try:
+            windower.set_autoload(self.ctx.windower_dir, row["name"], "addons", not row["autoload"])
+        except (ValueError, OSError) as exc:
+            self.status(f"Startup unchanged: {exc}")
+            self.refresh()
+            return
         self.status(f"{row['name']} will {'not ' if row['autoload'] else ''}start with the game.")
         self.refresh()
 
@@ -225,7 +234,9 @@ class AddonsPage(Page):
             return
         menu = QMenu(self)
         if row["kind"] == "addons":
-            menu.addAction(self.autoload_btn.text(), self._toggle_autoload)
+            action = menu.addAction(self.autoload_btn.text(), self._toggle_autoload)
+            action.setEnabled(self.autoload_btn.isEnabled())
+            action.setToolTip(self.autoload_btn.toolTip())
         if row["settings_file"]:
             menu.addAction("Edit settings", self._open_settings)
             menu.addAction("Open settings file", lambda: self.ctx.open_path(row["settings_file"]))

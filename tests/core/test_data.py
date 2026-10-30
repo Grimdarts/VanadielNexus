@@ -46,8 +46,10 @@ def test_v1_database_is_migrated_and_backed_up(tmp_path):
 def test_corrupt_database_without_backup_is_preserved_not_lost(tmp_path):
     open(tmp_path / "ffxi_database.json", "w").write("{not json")
     db = database.Database(str(tmp_path))
-    assert db.recovered_from_backup
-    assert open(tmp_path / "ffxi_database.json.unreadable").read() == "{not json"
+    assert db.recovered_from_backup is False
+    assert db.recovery_source == "defaults"
+    assert db.unreadable_path == str(tmp_path / "ffxi_database.json.unreadable")
+    assert open(db.unreadable_path).read() == "{not json"
 
 
 def test_save_roundtrip(tmp_path):

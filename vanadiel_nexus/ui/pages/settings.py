@@ -58,9 +58,14 @@ class SettingsPage(Page):
         note = widgets.label("Your tracker, wishlist and inventory live here. Updates never change this folder; "
                              "every save keeps the previous copy as a .bak file.", "Caption", wrap=True)
         g.addWidget(note, 1, 0, 1, 3)
-        if ctx.db.recovered_from_backup:
-            warn = widgets.label("Your database couldn't be read at startup, so the last good copy was loaded. "
-                                 "The unreadable file was kept next to it.", wrap=True)
+        if ctx.db.recovery_source:
+            reason = ("Your database couldn't be read at startup. " if ctx.db.unreadable_path
+                      else "Your primary database was missing at startup. ")
+            outcome = ("A backup was loaded. " if ctx.db.recovery_source == "backup"
+                       else "There was no usable backup, so defaults were loaded. ")
+            evidence = (f"The unreadable file was kept at {ctx.db.unreadable_path}."
+                        if ctx.db.unreadable_path else "")
+            warn = widgets.label(reason + outcome + evidence, wrap=True)
             warn.setStyleSheet("color: #F59E0B;")
             g.addWidget(warn, 2, 0, 1, 3)
 

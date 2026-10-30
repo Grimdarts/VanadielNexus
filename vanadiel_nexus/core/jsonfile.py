@@ -4,12 +4,14 @@ import os
 import shutil
 
 
-def read_json(path: str):
-    """Returns the parsed file, falling back to its .bak copy; None if neither is readable."""
+def read_json(path: str, *, validator=None):
+    """Read primary or backup; optionally reject parsed values with validator."""
     for candidate in (path, path + ".bak"):
         try:
             with open(candidate, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+            if validator is None or validator(data):
+                return data
         except (OSError, ValueError):
             continue
     return None

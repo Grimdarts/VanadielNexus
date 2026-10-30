@@ -72,10 +72,37 @@ def migrate(db: dict, defaults: dict) -> bool:
     return changed
 
 
+def _is_database_shape(data) -> bool:
+    """Reject unsafe containers before migration; missing legacy fields are OK."""
+    if not isinstance(data, dict):
+        return False
+    for key in ("checkpoints", "rema_weapons", "wishlist"):
+        if key in data and (
+            not isinstance(data[key], list)
+            or not all(isinstance(row, dict) for row in data[key])
+        ):
+            return False
+    for key in ("jse_by_job", "catalog_db"):
+        if key in data and not isinstance(data[key], dict):
+            return False
+    for key, field in (("checkpoints", "category"), ("wishlist", "slot")):
+        if any(
+            "job" not in row and not isinstance(row.get(field, ""), str)
+            for row in data.get(key, [])
+        ):
+            return False
+    return all(
+        isinstance(rows, list) and all(isinstance(row, dict) for row in rows)
+        for rows in data.get("jse_by_job", {}).values()
+    )
+
+
 class Database:
     def __init__(self, data_dir: str):
         self.path = os.path.join(data_dir, "ffxi_database.json")
         self.recovered_from_backup = False
+        self.recovery_source = None
+        self.unreadable_path = None
         self.data = self._load()
 
     def _load(self) -> dict:
@@ -86,25 +113,37 @@ class Database:
             write_json(self.path, db)
             return db
 
-        db = read_json(self.path)
+        needs_recovery = False
+        db = read_json(self.path, validator=_is_database_shape)
         if db is None or not isinstance(db, dict):
-            # Never fall back to demo data over a player's file: keep the broken file for recovery
-            if os.path.exists(self.path):
-                shutil.copy2(self.path, self.path + ".unreadable")
+            # Preserve the rejected primary before writing defaults.
             db = defaults
-            self.recovered_from_backup = True
+            needs_recovery = True
+            self.recovery_source = "defaults"
         else:
             try:
                 with open(self.path, "r", encoding="utf-8") as f:
-                    json.load(f)
+                    self.recovered_from_backup = not _is_database_shape(json.load(f))
             except (OSError, ValueError):
                 self.recovered_from_backup = True
+
+        needs_recovery = needs_recovery or self.recovered_from_backup
+        if self.recovered_from_backup:
+            self.recovery_source = "backup"
+        if needs_recovery and os.path.exists(self.path):
+            unreadable = self.path + ".unreadable"
+            suffix = 1
+            while os.path.exists(unreadable):
+                unreadable = self.path + f".unreadable.{suffix}"
+                suffix += 1
+            os.rename(self.path, unreadable)
+            self.unreadable_path = unreadable
 
         if db.get("schema_version") is None and os.path.exists(self.path):
             v1_copy = os.path.join(os.path.dirname(self.path), "ffxi_database.v1-backup.json")
             if not os.path.exists(v1_copy):
                 shutil.copy2(self.path, v1_copy)
-        if migrate(db, defaults) or self.recovered_from_backup:
+        if migrate(db, defaults) or needs_recovery:
             write_json(self.path, db)
         return db
 

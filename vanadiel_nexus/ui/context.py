@@ -68,8 +68,13 @@ class AppContext(QObject):
     def _on_state(self, state: dict) -> None:
         if state.get("main_job"):
             self.set_job(state["main_job"])
-        if state.get("inventory"):
-            name = state.get("player_name") or "Unknown"
+        if (state.get("snapshot_complete") is True
+                and isinstance(state.get("inventory"), list) and state.get("player_name")):
+            name = state["player_name"]
+            # Character names are case-insensitive; keep one authoritative live key.
+            for key in list(self.inventory_snapshot):
+                if not key.startswith("Imported: ") and key.casefold() == name.casefold() and key != name:
+                    del self.inventory_snapshot[key]
             self.inventory_snapshot[name] = state["inventory"]
             write_json(self._snapshot_path, self.inventory_snapshot)
             updated = dict(self.settings.get("inventory_updated") or {})
@@ -91,10 +96,26 @@ class AppContext(QObject):
         return names
 
     def all_inventory(self) -> list:
+        # A full live snapshot wins over CSV for that character (including empty
+        # snapshots). Keep source rows intact so other/unknown characters survive.
+        live = {key.casefold() for key in self.inventory_snapshot if not key.startswith("Imported: ")}
+        imports = {}
+        for source, items in self.inventory_snapshot.items():
+            if source.startswith("Imported: "):
+                for item in items:
+                    char = str(item.get("character") or "").strip().casefold()
+                    if char and char != "imported":
+                        imports[char] = source
         rows = []
-        for char, items in self.inventory_snapshot.items():
+        for source, items in self.inventory_snapshot.items():
+            imported = source.startswith("Imported: ")
             for it in items:
-                rows.append({**it, "character": it.get("character") or char})
+                char = str(it.get("character") or source).strip()
+                normalized = char.casefold()
+                if imported and normalized != "imported" and (
+                        normalized in live or imports.get(normalized, source) != source):
+                    continue
+                rows.append({**it, "character": char})
         return rows
 
     # --- helpers ----------------------------------------------------------

@@ -64,7 +64,9 @@ local function json_escape(s)
     if s == nil then return '' end
     s = tostring(s)
     s = s:gsub('\\', '\\\\'):gsub('"', '\\"'):gsub('\n', '\\n'):gsub('\r', '\\r'):gsub('\t', '\\t')
-    return s
+    return (s:gsub('[%z\1-\31]', function(c)
+        return string.format('\\u%04x', c:byte())
+    end))
 end
 
 local function decode_augments(item_tbl)
@@ -111,8 +113,16 @@ local function classify_resource_item(res_item)
     return 'General / Materials'
 end
 
+-- Like Windower findAll, an already logged-in load may use the current cache.
+-- Zone packets invalidate it; 0x01D commits temporary items after its callback.
+local inventory_ready = windower.ffxi.get_info().logged_in == true
+local inventory_commit_pending = false
+
 local function scan_all_bags()
+    if not inventory_ready then return nil end
+    -- get_items() uses named keys, not numeric bag IDs (Windower Lua API).
     local items_data = windower.ffxi.get_items()
+    local bag_cache = {}
     local player = windower.ffxi.get_player()
     local char_name = (player and player.name) or 'Main'
     local inv_list = {}
@@ -120,15 +130,28 @@ local function scan_all_bags()
     local mat_counts = {}
 
     if not items_data then
-        return inv_list, equipped_list, mat_counts
+        return nil
     end
 
     for _, bdef in ipairs(BAG_DEFS) do
-        local bag_tbl = items_data[bdef.id]
+        local ok, bag_tbl = pcall(windower.ffxi.get_items, bdef.id)
+        -- Never turn an API failure into an authoritative empty snapshot.
+        if not ok or type(bag_tbl) ~= 'table' then return nil end
+        bag_cache[bdef.id] = bag_tbl
+        local occupied = 0
         if type(bag_tbl) == 'table' then
             for idx, itm in pairs(bag_tbl) do
+                if type(idx) == 'number' then
+                    if type(itm) ~= 'table' or type(itm.id) ~= 'number' or itm.id < 0
+                        or itm.id % 1 ~= 0 or type(itm.count) ~= 'number'
+                        or itm.count < 0 or itm.count % 1 ~= 0
+                        or (itm.id > 0 and itm.count == 0)
+                        or (itm.id == 0 and itm.count ~= 0) then return nil end
+                end
                 if type(idx) == 'number' and type(itm) == 'table' and itm.id and itm.id > 0 and itm.count and itm.count > 0 then
+                    occupied = occupied + 1
                     local r_item = res.items[itm.id]
+                    if not r_item or not r_item.en or r_item.en == '' then return nil end
                     if r_item and r_item.en then
                         local iname = r_item.en
                         local aug_str = decode_augments(itm)
@@ -147,6 +170,12 @@ local function scan_all_bags()
                 end
             end
         end
+        -- count is occupied slots, not the sum of item stack quantities.
+        if bag_tbl.count ~= nil and (type(bag_tbl.count) ~= 'number'
+            or bag_tbl.count ~= occupied) then return nil end
+        if bag_tbl.max ~= nil and (type(bag_tbl.max) ~= 'number'
+            or bag_tbl.max < occupied or bag_tbl.max < 0
+            or bag_tbl.max % 1 ~= 0) then return nil end
     end
 
     local eq_tbl = items_data.equipment
@@ -155,8 +184,8 @@ local function scan_all_bags()
             local sname = SLOT_NAMES[slot_id]
             local inv_idx = eq_tbl[sname]
             local bag_id = eq_tbl[sname .. '_bag']
-            if inv_idx and inv_idx > 0 and bag_id ~= nil and items_data[bag_id] then
-                local itm = items_data[bag_id][inv_idx]
+            if inv_idx and inv_idx > 0 and bag_id ~= nil and bag_cache[bag_id] then
+                local itm = bag_cache[bag_id][inv_idx]
                 if type(itm) == 'table' and itm.id and itm.id > 0 then
                     local r_item = res.items[itm.id]
                     if r_item and r_item.en then
@@ -174,6 +203,30 @@ local function scan_all_bags()
     return inv_list, equipped_list, mat_counts
 end
 
+-- Nonce combines independent per-load VM/socket identity and high-resolution
+-- clocks; it is an ordering namespace, not a security credential.
+local session_id = string.format('%.6f-%.6f-%s-%s', socket.gettime(), os.clock(), tostring({}), tostring(udp_out))
+local update_sequence = 0
+local bridge_challenge = ''
+local function send_snapshot(payload, sequence)
+    -- Stay below the UDP maximum even with the JSON envelope. Hex encoding
+    -- permits splitting arbitrary UTF-8 bytes without corrupting item names.
+    local chunk_bytes = 10000
+    local total = math.ceil(#payload / chunk_bytes)
+    if #payload > 2097152 or total > 256 then return end
+    local stamp = socket.gettime()
+    local scan_id = tostring(sequence)
+    for index = 0, total - 1 do
+        local fragment = payload:sub(index * chunk_bytes + 1, (index + 1) * chunk_bytes)
+        local hex = fragment:gsub('.', function(c) return string.format('%02x', c:byte()) end)
+        local packet = string.format(
+            '{"type":"SNAPSHOT_CHUNK","session_id":"%s","challenge":"%s","update_seq":%d,"scan_id":"%s","scan_time":%.6f,"index":%d,"total":%d,"data":"%s"}',
+            json_escape(session_id), bridge_challenge, sequence, scan_id, stamp, index, total, hex)
+        local ok, sent = pcall(function() return udp_out:sendto(packet, UDP_HOST, UDP_SEND_PORT) end)
+        if not ok or not sent then return end
+    end
+end
+
 local function build_and_send_state(include_bags)
     local p = windower.ffxi.get_player()
     local info = windower.ffxi.get_info()
@@ -188,8 +241,12 @@ local function build_and_send_state(include_bags)
     local eq_json = '[]'
     local mat_json = '{}'
 
+    local inv_list, eq_list, mat_counts
     if include_bags then
-        local inv_list, eq_list, mat_counts = scan_all_bags()
+        inv_list, eq_list, mat_counts = scan_all_bags()
+        include_bags = inv_list ~= nil
+    end
+    if include_bags then
         local inv_parts = {}
         for _, it in ipairs(inv_list) do
             table.insert(inv_parts, string.format(
@@ -242,10 +299,34 @@ local function build_and_send_state(include_bags)
         inv_json
     )
 
-    pcall(function()
-        udp_out:sendto(payload, UDP_HOST, UDP_SEND_PORT)
-    end)
+    payload = payload:sub(1, -3) .. ',"snapshot_complete":' .. tostring(include_bags) .. '}}'
+    update_sequence = update_sequence + 1
+    payload = string.format('{"session_id":"%s","challenge":"%s","update_seq":%d,', json_escape(session_id), bridge_challenge, update_sequence) .. payload:sub(2)
+    if include_bags then
+        send_snapshot(payload, update_sequence)
+    else
+        pcall(function() udp_out:sendto(payload, UDP_HOST, UDP_SEND_PORT) end)
+    end
 end
+
+windower.register_event('incoming chunk', function(id, original, modified, injected, blocked)
+    if injected or blocked then return end
+    local lo, hi
+    if type(original) == 'string' then lo, hi = original:byte(3, 4) end
+    local sequence = lo and hi and (lo + 256 * hi) or nil
+    if id == 0x00A or id == 0x00B then
+        inventory_ready = false
+        inventory_commit_pending = false
+    elseif inventory_commit_pending and sequence and sequence ~= inventory_commit_pending then
+        -- Wait for a different network sequence, not another chunk in the same
+        -- packet. get_items() must see the committed 0x01D data first.
+        inventory_commit_pending = false
+        inventory_ready = true
+        build_and_send_state(true)
+    elseif id == 0x01D and not inventory_ready and sequence then
+        inventory_commit_pending = sequence
+    end
+end)
 
 -- F10 hotkey is intentionally NOT bound so F8-F12 and modifiers stay free for GearSwap.
 windower.register_event('load', function()
@@ -295,7 +376,16 @@ windower.register_event('prerender', function()
         end
         local action = parts[1]
         if action == 'SCAN' then
-            build_and_send_state(true)
+            if not parts[2] then
+                build_and_send_state(true)
+            elseif parts[3] == session_id and #parts[2] == 32 and parts[2]:match('^%x+$') then
+                bridge_challenge = parts[2]
+                build_and_send_state(true)
+            elseif parts[3] ~= session_id then
+                -- A bridge still targeting the prior load needs discovery,
+                -- never adoption of a nonce meant for another Lua instance.
+                build_and_send_state(false)
+            end
         elseif action == 'SCAN_GS' then
             windower.send_command('gs validate')
             build_and_send_state(true)

@@ -113,14 +113,21 @@ class InventoryPage(Page):
                            f"{self._updated_text(char)}")
 
     def _updated_text(self, char: str) -> str:
-        updated = self.ctx.settings.get("inventory_updated") or {}
-        stamps = [t for c, t in updated.items() if char in ("", "All characters") or c == char]
+        updated = {c.casefold(): t for c, t in (self.ctx.settings.get("inventory_updated") or {}).items()
+                   if isinstance(t, (int, float))}
+        chars = ({r["character"].casefold() for r in self.ctx.all_inventory()}
+                 | {c.casefold() for c in self.ctx.inventory_snapshot if not c.startswith("Imported: ")})
+        if char not in ("", "All characters"):
+            chars = {char.casefold()}
+        stamps = [updated[c] for c in chars if c in updated]
+        saved = bool(chars - updated.keys())
         if not stamps:
             return " · from saved files (click Refresh from game to update)"
-        mins = int((time.time() - max(stamps)) // 60)
+        # All-character freshness is only as fresh as its oldest known scan.
+        mins = int(max(0, time.time() - min(stamps)) // 60)
         ago = "just now" if mins < 1 else f"{mins} min ago" if mins < 60 else (
             f"{mins // 60} h ago" if mins < 1440 else f"{mins // 1440} days ago")
-        return f" · updated from the game {ago}"
+        return f" · updated from the game {ago}" + (" · includes saved/imported characters" if saved else "")
 
     def _refresh_from_game(self) -> None:
         if not self.ctx.bridge.connected:
@@ -136,6 +143,8 @@ class InventoryPage(Page):
             self.info("Nothing imported", "That file didn't have rows like Character, Bag, Item, Count.")
             return
         key = f"Imported: {os.path.basename(path)}"
+        # Newest CSV wins per named character; retain other source rows.
+        self.ctx.inventory_snapshot.pop(key, None)
         self.ctx.inventory_snapshot[key] = rows
         write_json(self.ctx._snapshot_path, self.ctx.inventory_snapshot)
         self.ctx.inventory_changed.emit()
