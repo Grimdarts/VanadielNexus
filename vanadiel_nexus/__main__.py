@@ -34,7 +34,7 @@ def main() -> int:
     from vanadiel_nexus.ui.context import AppContext
     from vanadiel_nexus.ui.main_window import MainWindow
 
-    font_file = paths.resource_path("fonts", "Cinzel-SemiBold.ttf")
+    font_file = paths.resource_path("fonts", "Cinzel.ttf")  # SIL OFL, see Cinzel-OFL.txt
     QFontDatabase.addApplicationFont(font_file)  # optional: falls back to Cambria if absent
 
     ctx = AppContext(__version__)

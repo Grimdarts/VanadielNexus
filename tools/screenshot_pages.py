@@ -34,6 +34,9 @@ def main():
     from vanadiel_nexus.ui.main_window import MainWindow
 
     app = QApplication(sys.argv)
+    from PySide6.QtGui import QFontDatabase
+    from vanadiel_nexus.core import paths
+    QFontDatabase.addApplicationFont(paths.resource_path('fonts', 'Cinzel.ttf'))
     ctx = AppContext(__version__)
     theme.apply(app)
     win = MainWindow(ctx)

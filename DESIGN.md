@@ -36,7 +36,7 @@ Text on `accent` and `gold` fills is `bg` navy, never white. All text/background
 
 | Role | Font | Size / weight |
 |---|---|---|
-| App name, page titles | **Cinzel** (bundled, free OFL license; echoes the icon's serif letters) | 22px, 600 |
+| App name, page titles | **Cinzel** (bundled in resources/fonts, SIL Open Font License; echoes the icon's serif letters) | 22px, 600 |
 | Section headings | Segoe UI Variable | 16px, 600 |
 | Body, tables, inputs | Segoe UI Variable | 14px, 400 |
 | Labels, captions | Segoe UI Variable | 12px, 500 |
