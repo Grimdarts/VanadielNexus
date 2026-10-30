@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
-
+# Build with:  .\build.ps1   (or: py -m PyInstaller --noconfirm VanadielNexus.spec)
 
 a = Analysis(
-    ['C:/Users/Jason/Desktop/Gaming/VanadielNexus/vanadielnexus_overlay.py'],
+    ['vanadielnexus_overlay.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -26,7 +26,7 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,  # UPX-packed exes trip antivirus far more often
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,

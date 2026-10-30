@@ -72,8 +72,67 @@ MODULES_DIR = os.path.join(BASE_DIR, "modules")
 HOOK_DIR = os.path.join(BASE_DIR, "gearswap_hook")
 ADDON_BACKUP_DIR = os.path.join(BASE_DIR, "windower_addon")
 DB_FILE = os.path.join(DATA_DIR, "ffxi_database.json")
+SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 
-DEFAULT_WINDOWER_DIR = r"C:\Users\Jason\Games\Windower4"
+# Version & self-update (GitHub Releases). Bump APP_VERSION and tag vX.Y.Z to ship.
+APP_VERSION = "1.2.0"
+GITHUB_REPO = "Grimdarts/VanadielNexus"
+IS_FROZEN = getattr(sys, "frozen", False)
+
+
+def load_settings() -> dict:
+    try:
+        with open(SETTINGS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def save_settings(settings: dict):
+    try:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        with open(SETTINGS_FILE, "w", encoding="utf-8") as f:
+            json.dump(settings, f, indent=2)
+    except Exception as e:
+        print(f"[Warn] Could not save {SETTINGS_FILE}: {e}")
+
+
+def find_windower_dir() -> str:
+    """Saved choice first, then a Windower4 folder next to this app, then common install spots."""
+    saved = load_settings().get("windower_dir", "")
+    candidates = [
+        saved,
+        os.path.join(os.path.dirname(BASE_DIR), "Windower4"),
+        os.path.join(BASE_DIR, "Windower4"),
+        r"C:\Windower4",
+        r"C:\Program Files (x86)\Windower4",
+        r"C:\Program Files\Windower4",
+        os.path.join(os.path.expanduser("~"), "Games", "Windower4"),
+    ]
+    for c in candidates:
+        if c and os.path.isfile(os.path.join(c, "windower.exe")):
+            return c
+    for c in candidates:
+        if c and os.path.isdir(os.path.join(c, "addons")):
+            return c
+    return saved or candidates[1]
+
+
+def _version_tuple(ver: str) -> tuple:
+    return tuple(int(p) for p in re.findall(r"\d+", ver)[:3]) or (0,)
+
+
+def set_windower_dir(path: str):
+    global DEFAULT_WINDOWER_DIR, DEFAULT_ADDON_DIR
+    DEFAULT_WINDOWER_DIR = path
+    DEFAULT_ADDON_DIR = os.path.join(path, "addons", "VanadielNexus")
+    settings = load_settings()
+    settings["windower_dir"] = path
+    save_settings(settings)
+
+
+DEFAULT_WINDOWER_DIR = find_windower_dir()
 DEFAULT_ADDON_DIR = os.path.join(DEFAULT_WINDOWER_DIR, "addons", "VanadielNexus")
 
 UDP_HOST = "127.0.0.1"
@@ -1441,18 +1500,15 @@ def ensure_directories_and_assets():
         with open(hook_path, "w", encoding="utf-8") as f:
             f.write(MOTE_HOOK_LUA_CODE)
 
-    addon_backup_path = os.path.join(ADDON_BACKUP_DIR, "VanadielNexus.lua")
-    with open(addon_backup_path, "w", encoding="utf-8") as f:
-        f.write(VANADIEL_NEXUS_LUA_CODE)
+    _write_if_changed(os.path.join(ADDON_BACKUP_DIR, "VanadielNexus.lua"), VANADIEL_NEXUS_LUA_CODE)
 
-    # Also auto-update C:\Users\Jason\Games\Windower4\addons\VanadielNexus\VanadielNexus.lua if present
+    # Ship addon updates with the app: keep <Windower4>\addons\VanadielNexus\VanadielNexus.lua in sync
     if os.path.isdir(DEFAULT_WINDOWER_DIR):
         try:
             os.makedirs(DEFAULT_ADDON_DIR, exist_ok=True)
-            with open(os.path.join(DEFAULT_ADDON_DIR, "VanadielNexus.lua"), "w", encoding="utf-8") as f:
-                f.write(VANADIEL_NEXUS_LUA_CODE)
-        except Exception:
-            pass
+            _write_if_changed(os.path.join(DEFAULT_ADDON_DIR, "VanadielNexus.lua"), VANADIEL_NEXUS_LUA_CODE)
+        except Exception as e:
+            print(f"[Warn] Could not update Windower addon: {e}")
 
     example_mod = os.path.join(MODULES_DIR, "sortie_helper.py")
     if not os.path.exists(example_mod):
@@ -1467,16 +1523,36 @@ def load_database():
             return json.load(f)
     except Exception as e:
         print(f"[Warn] Could not parse {DB_FILE}: {e}")
+    try:
+        with open(DB_FILE + ".bak", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
         return dict(DEFAULT_DATABASE)
 
 
 def save_database(db_data):
-    ensure_directories_and_assets()
+    """Crash-safe save: write a temp file, keep the previous DB as .bak, then swap in."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    tmp_path = DB_FILE + ".tmp"
     try:
-        with open(DB_FILE, "w", encoding="utf-8") as f:
+        with open(tmp_path, "w", encoding="utf-8") as f:
             json.dump(db_data, f, indent=2, ensure_ascii=False)
+        if os.path.exists(DB_FILE):
+            shutil.copy2(DB_FILE, DB_FILE + ".bak")
+        os.replace(tmp_path, DB_FILE)
     except Exception as e:
         print(f"[Warn] Could not save {DB_FILE}: {e}")
+
+
+def _write_if_changed(path: str, content: str):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            if f.read() == content:
+                return
+    except Exception:
+        pass
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(content)
 
 
 # ==============================================================================
@@ -1691,7 +1767,7 @@ class VanadielNexusDesktopApp:
     def __init__(self, root, bridge: NexusBridgeState):
         self.root = root
         self.bridge = bridge
-        self.root.title("Vana'diel Nexus v1.2 — FFXI Windower 4 Overlay & Game Assistant")
+        self.root.title(f"Vana'diel Nexus v{APP_VERSION} — FFXI Windower 4 Overlay & Game Assistant")
         self.root.geometry("1180x780+60+40")
         self.root.minsize(860, 560)
         self.root.configure(bg="#080c14")
@@ -1714,6 +1790,8 @@ class VanadielNexusDesktopApp:
         self._build_main_views()
         self._build_shared_context_menu()
         self._schedule_refresh()
+        if IS_FROZEN:
+            self.root.after(3000, self._check_for_updates)
 
     def _setup_styles(self):
         style = ttk.Style(self.root)
@@ -1770,7 +1848,7 @@ class VanadielNexusDesktopApp:
 
         title_box = tk.Frame(left, bg="#0f172a")
         title_box.pack(side=tk.LEFT)
-        tk.Label(title_box, text="Vana'diel Nexus v1.2 (F8–F12 Safe)", bg="#0f172a", fg="#ffffff", font=("Segoe UI", 10, "bold")).pack(anchor="w")
+        tk.Label(title_box, text=f"Vana'diel Nexus v{APP_VERSION} (F8–F12 Safe)", bg="#0f172a", fg="#ffffff", font=("Segoe UI", 10, "bold")).pack(anchor="w")
         self.lbl_bridge_status = tk.Label(
             title_box,
             text="● Windower 4 UDP Bridge: Listening on 127.0.0.1:5017 | Job: BLU/WAR",
@@ -1808,11 +1886,14 @@ class VanadielNexusDesktopApp:
         self.alpha_scale.set(96)
         self.alpha_scale.pack(side=tk.LEFT, padx=4)
 
+        # Players running the .exe get "Check for Updates"; the dev build button only makes sense from source
         tk.Button(
-            self.toolbar_extra, text="🛠 Build .EXE", bg="#0369a1", fg="#ffffff",
+            self.toolbar_extra,
+            text="⟳ Check for Updates" if IS_FROZEN else "🛠 Build .EXE",
+            bg="#0369a1", fg="#ffffff",
             activebackground="#0284c7", activeforeground="#ffffff",
             relief=tk.FLAT, padx=8, pady=3, font=("Segoe UI", 8, "bold"),
-            command=self._build_standalone_exe
+            command=(lambda: self._check_for_updates(manual=True)) if IS_FROZEN else self._build_standalone_exe
         ).pack(side=tk.LEFT, padx=4)
 
         self.btn_noactivate = tk.Button(
@@ -2847,6 +2928,8 @@ class VanadielNexusDesktopApp:
                 target_dir = os.path.join(picked, "VanadielNexus")
             else:
                 target_dir = os.path.join(picked, "addons", "VanadielNexus")
+            set_windower_dir(os.path.dirname(os.path.dirname(os.path.normpath(target_dir))))
+            self.bridge.windower_path = DEFAULT_WINDOWER_DIR
         try:
             os.makedirs(target_dir, exist_ok=True)
             dst_lua = os.path.join(target_dir, "VanadielNexus.lua")
@@ -2854,7 +2937,7 @@ class VanadielNexusDesktopApp:
                 f.write(VANADIEL_NEXUS_LUA_CODE)
             messagebox.showinfo(
                 "Updated VanadielNexus.lua Installed!",
-                f"Successfully installed v1.2 VanadielNexus.lua (with F10 hotkey removed) to:\n\n{dst_lua}\n\n"
+                f"Successfully installed v{APP_VERSION} VanadielNexus.lua to:\n\n{dst_lua}\n\n"
                 "In FFXI, type: //lua r vanadielnexus"
             )
             self._set_status(f"Installed updated VanadielNexus.lua (F10 removed) to {dst_lua}")
@@ -2978,8 +3061,9 @@ class VanadielNexusDesktopApp:
         self._refresh_hotkey_tree()
 
     def _choose_windower_and_rescan_hotkeys(self):
-        picked = filedialog.askdirectory(title="Select Your Windower4 Root Folder (e.g. C:/Users/Jason/Games/Windower4)")
+        picked = filedialog.askdirectory(title="Select Your Windower4 Root Folder (e.g. C:/Windower4)")
         if picked:
+            set_windower_dir(picked)
             self.bridge.windower_path = picked
         self._rescan_hotkeys()
         conflicts = sum(1 for e in self._hotkey_entries if e.get("conflict"))
@@ -3267,7 +3351,96 @@ class VanadielNexusDesktopApp:
             self.btn_noactivate.configure(text="🔓 Focus: Normal", bg="#1e293b", fg="#cbd5e1")
             self._set_status("Normal window focus enabled (allows typing in search boxes).")
 
+    # --------------------------------------------------------------------------
+    # SELF-UPDATE (replaces only the .exe; data/ and modules/ are never touched)
+    # --------------------------------------------------------------------------
+    def _check_for_updates(self, manual: bool = False):
+        def _worker():
+            try:
+                req = urllib.request.Request(
+                    f"https://api.github.com/repos/{GITHUB_REPO}/releases/latest",
+                    headers={"Accept": "application/vnd.github+json", "User-Agent": "VanadielNexus"},
+                )
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    release = json.load(resp)
+                latest = release.get("tag_name", "").lstrip("vV")
+                asset = next(
+                    (a for a in release.get("assets", []) if a.get("name", "").lower() == "vanadielnexus.exe"),
+                    None,
+                )
+                if asset and _version_tuple(latest) > _version_tuple(APP_VERSION):
+                    url = asset["browser_download_url"]
+                    notes = release.get("body", "") or ""
+                    self.root.after(0, lambda: self._offer_update(latest, url, notes))
+                elif manual:
+                    self.root.after(0, lambda: messagebox.showinfo(
+                        "Up to Date", f"You're on the latest version (v{APP_VERSION})."))
+            except Exception as e:
+                if manual:
+                    err = str(e)
+                    self.root.after(0, lambda: messagebox.showwarning(
+                        "Update Check Failed", f"Couldn't reach GitHub to check for updates:\n\n{err}"))
+
+        threading.Thread(target=_worker, daemon=True).start()
+
+    def _offer_update(self, latest: str, url: str, notes: str):
+        summary = notes.strip()[:600]
+        if not messagebox.askyesno(
+            "Update Available",
+            f"Vana'diel Nexus v{latest} is available (you have v{APP_VERSION}).\n\n"
+            f"{summary + chr(10) + chr(10) if summary else ''}"
+            "Update now? The app will restart. Your tracker data is not touched."
+        ):
+            return
+        self._set_status(f"Downloading v{latest}...")
+
+        def _download_and_swap():
+            exe_path = sys.executable
+            new_path = exe_path + ".new"
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "VanadielNexus"})
+                with urllib.request.urlopen(req, timeout=120) as resp, open(new_path, "wb") as out:
+                    shutil.copyfileobj(resp, out)
+                if os.path.getsize(new_path) < 1_000_000:
+                    raise RuntimeError("Downloaded file is too small; aborting update.")
+                # Windows can't overwrite a running exe, so a tiny script waits for us to exit, swaps, relaunches
+                cmd_path = os.path.join(os.path.dirname(exe_path), "_vn_update.cmd")
+                with open(cmd_path, "w", encoding="utf-8") as f:
+                    f.write(
+                        "@echo off\r\n"
+                        "set n=0\r\n"
+                        ":retry\r\n"
+                        f'move /Y "{new_path}" "{exe_path}" >nul 2>&1 && goto done\r\n'
+                        "set /a n+=1\r\n"
+                        "if %n% geq 60 goto done\r\n"
+                        "timeout /t 1 /nobreak >nul\r\n"
+                        "goto retry\r\n"
+                        ":done\r\n"
+                        f'start "" "{exe_path}"\r\n'
+                        'del "%~f0"\r\n'
+                    )
+                subprocess.Popen(
+                    ["cmd", "/c", cmd_path],
+                    creationflags=subprocess.CREATE_NO_WINDOW | subprocess.DETACHED_PROCESS,
+                    close_fds=True,
+                )
+                self.root.after(0, self.root.destroy)
+            except Exception as e:
+                try:
+                    os.remove(new_path)
+                except OSError:
+                    pass
+                err = str(e)
+                self.root.after(0, lambda: messagebox.showerror("Update Failed", err))
+
+        threading.Thread(target=_download_and_swap, daemon=True).start()
+
     def _build_standalone_exe(self):
+        build_script = os.path.join(BASE_DIR, "build.ps1")
+        if os.path.exists(build_script):
+            subprocess.Popen(["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", build_script])
+            self._set_status("Started build.ps1 — VanadielNexus.exe will rebuild and relaunch when done.")
+            return
         script_path = os.path.abspath(sys.argv[0])
         if messagebox.askyesno(
             "Build Standalone VanadielNexus.exe",

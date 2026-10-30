@@ -1,0 +1,9 @@
+#!/bin/sh
+# Rebuild VanadielNexus.exe in the background whenever a commit changes app code.
+# Enabled by: git config core.hooksPath tools/hooks
+if git diff-tree --no-commit-id --name-only -r --root HEAD | grep -qE '\.(py|spec)$'; then
+  top="$(git rev-parse --show-toplevel)"
+  log="$(git rev-parse --absolute-git-dir)/last-build.log"
+  echo "VanadielNexus: rebuilding exe in the background (log: $log)"
+  powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$top/build.ps1" > "$log" 2>&1 &
+fi
