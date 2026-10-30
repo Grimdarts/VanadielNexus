@@ -28,7 +28,7 @@ class AddonsPage(Page):
             Column("Settings", lambda r: "settings.xml" if r["settings_file"] else "—", 130,
                    tone=lambda r: None if r["settings_file"] else theme.FAINT),
             Column("Folder", "folder", stretch=True, tone=lambda _r: theme.FAINT),
-        ], sort_column=0)
+        ], sort_column=0, name="addons")
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
         self.kind.currentTextChanged.connect(self._apply_filters)
         self.autoload_only.toggled.connect(self._apply_filters)

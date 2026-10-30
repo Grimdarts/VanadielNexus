@@ -57,10 +57,10 @@ class HotkeysPage(Page):
         self.table = DataTable([
             Column("Key", "norm_key", 160),
             Column("Status", _status, 120, tone=_tone),
-            Column("Source", "system", 260),
+            Column("Source", "system", 300),
+            Column("Line", lambda e: e.get("line_num") or "", 70, Qt.AlignRight),
             Column("Does", "action", stretch=True),
-            Column("Line", lambda e: e.get("line_num") or "", 60, Qt.AlignRight),
-        ])
+        ], name="hotkeys")
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
         for w in (self.system, self.conflicts_only, self.hide_inactive):
             (w.currentTextChanged if isinstance(w, QComboBox) else w.toggled).connect(self._apply_filters)

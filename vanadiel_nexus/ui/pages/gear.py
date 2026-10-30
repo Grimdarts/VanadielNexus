@@ -60,20 +60,20 @@ class GearPage(Page):
             Column("Job", "job", 60), Column("Set", "set", 90), Column("Slot", "slot", 80),
             Column("Item", "name", 240, tone=gold), Column("Tier", "tier", 60),
             Column("Where", "location", 120), Column("Next step", "mats", stretch=True),
-        ])
+        ], name="gear-jse")
         self.weapons = DataTable([
             Column("Weapon", "name", 160, tone=lambda r: theme.GOLD if _pct(r) >= 100 else None),
             Column("Type", "type", 100), Column("Job", "job", 60), Column("Stage", "stage", 160),
             Column("Progress", lambda r: int(_pct(r)), 90, Qt.AlignRight),
             Column("Details", "detail", stretch=True),
-        ])
+        ], name="gear-weapons")
         self.goals = DataTable([
             Column("Goal", "title", 280, tone=lambda r: theme.GOLD if _goal_pct(r) >= 100 else None),
             Column("Job", "job", 60), Column("Category", "category", 180),
             Column("Progress", lambda r: f"{r.get('current', 0):,} / {r.get('target', 0):,} {r.get('unit', '')}",
                    200, Qt.AlignRight),
             Column("Note", "note", stretch=True),
-        ])
+        ], name="gear-goals")
         self.stack = QStackedWidget()
         for t in (self.jse, self.weapons, self.goals):
             self.stack.addWidget(t)

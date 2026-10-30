@@ -54,9 +54,9 @@ class InventoryPage(Page):
             Column("Item", "name", 230, tone=lambda r: theme.WARNING if r.get("scattered") else None),
             Column("Count", "total_count", 80, Qt.AlignRight),
             Column("Category", "category", 200),
-            Column("Where", "locations_str", stretch=True),
-            Column("Augments", "augments", 180),
-        ], sort_column=0)
+            Column("Where", "locations_str", 320),
+            Column("Augments", "augments", stretch=True),
+        ], sort_column=0, name="inventory")
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
         for w in (self.category, self.character):
             w.currentTextChanged.connect(self._apply_filters)

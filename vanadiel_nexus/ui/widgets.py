@@ -1,5 +1,5 @@
 """Small building blocks shared by every page: buttons, pills, cards, toolbars and the dict-backed table."""
-from PySide6.QtCore import QAbstractTableModel, QModelIndex, QSortFilterProxyModel, Qt, Signal
+from PySide6.QtCore import QAbstractTableModel, QModelIndex, QSortFilterProxyModel, Qt, QTimer, Signal
 from PySide6.QtGui import QColor
 from PySide6.QtWidgets import (
     QAbstractItemView, QFrame, QGridLayout, QHBoxLayout, QHeaderView, QLabel, QLineEdit, QProgressBar, QPushButton,
@@ -235,13 +235,19 @@ class RowFilter(QSortFilterProxyModel):
 
 
 class DataTable(QTableView):
-    """A themed, sortable, searchable table of dicts. selected_row() returns the dict (or None)."""
+    """A themed, sortable, searchable table of dicts. selected_row() returns the dict (or None).
+
+    Every column divider can be dragged; the last column fills the rest of the window. When the table
+    has a name and DataTable.store is set (the app's Settings), column widths are remembered.
+    """
 
     row_activated = Signal(dict)
+    store = None  # object with get(key) / set(key, value); set by the app at startup
 
-    def __init__(self, columns, sort_column=None):
+    def __init__(self, columns, sort_column=None, name: str = ""):
         """sort_column: index to sort ascending by default; None keeps the order rows are given in."""
         super().__init__()
+        self.name = name
         self.model_ = DictTableModel(columns)
         self.proxy = RowFilter()
         self.proxy.setSourceModel(self.model_)
@@ -258,16 +264,34 @@ class DataTable(QTableView):
         hdr = self.horizontalHeader()
         hdr.setHighlightSections(False)
         hdr.setSectionResizeMode(QHeaderView.Interactive)
+        hdr.setStretchLastSection(True)
+        hdr.setMinimumSectionSize(48)
         for i, c in enumerate(columns):
-            if c.stretch:
-                hdr.setSectionResizeMode(i, QHeaderView.Stretch)
-            elif c.width:
-                self.setColumnWidth(i, c.width)
+            self.setColumnWidth(i, c.width or (320 if c.stretch else 140))
         if sort_column is None:
             hdr.setSortIndicator(-1, Qt.AscendingOrder)
         else:
             self.sortByColumn(sort_column, Qt.AscendingOrder)
         self.doubleClicked.connect(lambda idx: self.row_activated.emit(self._row_at(idx)))
+        self._restore_widths()
+        self._save_timer = QTimer(self, singleShot=True, interval=600)
+        self._save_timer.timeout.connect(self._save_widths)
+        hdr.sectionResized.connect(lambda *_a: self._save_timer.start())
+
+    def _key(self) -> str:
+        return f"columns:{self.name}"
+
+    def _restore_widths(self) -> None:
+        if not (self.name and DataTable.store):
+            return
+        widths = DataTable.store.get(self._key())
+        if isinstance(widths, list) and len(widths) == self.model_.columnCount():
+            for i, w in enumerate(widths[:-1]):  # the last column always fills the remaining space
+                self.setColumnWidth(i, int(w))
+
+    def _save_widths(self) -> None:
+        if self.name and DataTable.store:
+            DataTable.store.set(self._key(), [self.columnWidth(i) for i in range(self.model_.columnCount())])
 
     def set_rows(self, rows) -> None:
         keep = self.selected_row()

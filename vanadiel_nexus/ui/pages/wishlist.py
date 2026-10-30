@@ -43,7 +43,7 @@ class WishlistPage(Page):
             Column("Item", "name", 220, tone=lambda r: theme.ACCENT if r.get("pinned") else None),
             Column("Job", "job", 60), Column("Slot", "slot", 140), Column("Source", "sourceType", 160),
             Column("Zone", "zone", 160), Column("How to get it", "obtainHow", stretch=True),
-        ])
+        ], name="wishlist")
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
         self.table.row_activated.connect(lambda _r: self._edit())
         self.table.setContextMenuPolicy(Qt.CustomContextMenu)

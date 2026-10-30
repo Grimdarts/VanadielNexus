@@ -9,6 +9,7 @@ from ..core import paths, windower
 from ..core.database import Database
 from ..core.jsonfile import read_json, write_json
 from ..core.settings import Settings
+from .widgets import DataTable
 
 
 class AppContext(QObject):
@@ -22,6 +23,7 @@ class AppContext(QObject):
         self.version = version
         self.data_dir = paths.data_dir()
         self.settings = Settings(self.data_dir)
+        DataTable.store = self.settings  # tables remember the column widths you drag
         self.db = Database(self.data_dir)
         self.bridge = GameBridge(self)
         self.windower_dir = windower.find_windower_dir(self.settings.get("windower_dir"), paths.app_dir())
