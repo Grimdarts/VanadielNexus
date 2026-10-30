@@ -75,7 +75,7 @@ DB_FILE = os.path.join(DATA_DIR, "ffxi_database.json")
 SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 
 # Version & self-update (GitHub Releases). Bump APP_VERSION and tag vX.Y.Z to ship.
-APP_VERSION = "1.2.0"
+APP_VERSION = "1.2.1"
 GITHUB_REPO = "Grimdarts/VanadielNexus"
 IS_FROZEN = getattr(sys, "frozen", False)
 
@@ -1355,7 +1355,8 @@ def scan_all_hotkeys_and_conflicts(windower_dir: str) -> list:
                 lua_search_paths.append(os.path.join(gs_libs_dir, fn))
 
     bind_regex = re.compile(r"bind\s+([~!@^%$a-zA-Z0-9_-]+)\s+([^'\"\r\n]+)", re.IGNORECASE)
-    for lpath in lua_search_paths[:60]:
+    for lpath in lua_search_paths:
+        lua_scope = classify_gearswap_lua(lpath, gs_data_dir)
         try:
             with open(lpath, "r", encoding="utf-8", errors="ignore") as f:
                 for idx, line in enumerate(f, start=1):
@@ -1377,7 +1378,10 @@ def scan_all_hotkeys_and_conflicts(windower_dir: str) -> list:
                                 f"Defined in {lpath} (Line {idx}). Edit 'send_command(\"bind {rk} ...\")' in that .lua file, "
                                 f"then run '//gs r' in game."
                             ),
-                            "editable_file": True
+                            "editable_file": True,
+                            "job": lua_scope["job"],
+                            "inactive": lua_scope["scope"] == "inactive",
+                            "gearswap": True,
                         })
                         gs_binds_found = True
         except Exception:
@@ -1427,35 +1431,98 @@ def scan_all_hotkeys_and_conflicts(windower_dir: str) -> list:
         "editable_file": os.path.isfile(settings_path)
     })
 
-    # Compute conflicts by normalized key
-    by_norm = {}
-    for e in entries:
-        nk = e["norm_key"]
-        by_norm.setdefault(nk, []).append(e)
+    compute_hotkey_conflicts(entries)
 
-    for e in entries:
-        nk = e["norm_key"]
-        group = by_norm.get(nk, [])
-        distinct_systems = {g["system"] for g in group}
-        if len(group) > 1 and len(distinct_systems) > 1:
-            others = [f"{g['system']} -> '{g['action']}'" for g in group if g is not e]
-            e["conflict"] = True
-            e["conflict_count"] = len(group)
-            e["status_label"] = f"⚠️ CONFLICT ({len(group)} systems)"
-            e["conflict_summary"] = "  ||  ".join(others)
-        else:
-            e["conflict"] = False
-            e["conflict_count"] = 1
-            e["status_label"] = "✅ OK (No Conflict)"
-            e["conflict_summary"] = "None"
-
-    # Sort so conflicts appear at the top, then F1-F12 order
+    # Sort so conflicts appear at the top, files GearSwap never loads at the bottom, then F1-F12 order
     def _sort_key(item):
-        c_rank = 0 if item["conflict"] else 1
+        c_rank = 0 if item["conflict"] else (2 if item.get("inactive") else 1)
         return (c_rank, item["norm_key"], item["system"])
 
     entries.sort(key=_sort_key)
     return entries
+
+
+_JOB_TOKEN_RE = re.compile(
+    r"(?:^|[_\-\s])(WAR|MNK|WHM|BLM|RDM|THF|PLD|DRK|BST|BRD|RNG|SAM|NIN|DRG|SMN|BLU|COR|PUP|DNC|SCH|GEO|RUN)"
+    r"\d*(?=[_\-\s.]|$)",
+    re.IGNORECASE,
+)
+
+
+def classify_gearswap_lua(lua_path: str, gs_data_dir: str) -> dict:
+    """
+    Works out when GearSwap would actually load a .lua file:
+      - job:   only while that job is active (e.g. Name_BLU.lua, Name-SMN-sets.lua, BLU.lua)
+      - shared: loaded alongside every job (user-globals.lua, libs/Mote-*.lua, include libs)
+      - inactive: in a subfolder GearSwap never searches (backups, exports, "Other LUAs", ...)
+    GearSwap only looks in data/, data/<character>/ and data/common/.
+    """
+    try:
+        rel = os.path.relpath(lua_path, gs_data_dir)
+    except ValueError:
+        rel = os.path.basename(lua_path)
+    parts = rel.replace("\\", "/").split("/")
+    fname = parts[-1]
+    if rel.startswith("..") or len(parts) == 1:
+        loadable = True  # data/ root or libs/
+    elif len(parts) == 2:
+        folder = parts[0]
+        folder_dir = os.path.join(gs_data_dir, folder)
+        try:
+            siblings = [f for f in os.listdir(folder_dir) if f.lower().endswith(".lua")]
+        except OSError:
+            siblings = [fname]
+        try:
+            root_files = [f for f in os.listdir(gs_data_dir) if f.lower().endswith(".lua")]
+        except OSError:
+            root_files = []
+        # A character folder is named after a character: its files (or the root's) start with "<Name>_"/"<Name>-"
+        name_re = re.compile(rf"^{re.escape(folder)}[_\-]", re.IGNORECASE)
+        loadable = folder.lower() == "common" or any(name_re.match(s) for s in siblings + root_files)
+    else:
+        loadable = False
+
+    if not loadable:
+        return {"scope": "inactive", "job": ""}
+    jobs = _JOB_TOKEN_RE.findall(os.path.splitext(fname)[0])
+    if jobs:
+        return {"scope": "job", "job": jobs[-1].upper()}
+    return {"scope": "shared", "job": ""}
+
+
+def _can_load_together(a: dict, b: dict) -> bool:
+    if a.get("inactive") or b.get("inactive"):
+        return False
+    # Two different job files are never loaded at the same time
+    if a.get("job") and b.get("job") and a["job"] != b["job"]:
+        return False
+    # A job file rebinding a shared GearSwap default (e.g. Mote-Globals F9) is a deliberate override
+    if a.get("gearswap") and b.get("gearswap") and bool(a.get("job")) != bool(b.get("job")):
+        return False
+    return True
+
+
+def compute_hotkey_conflicts(entries: list):
+    """Flags a bind only when another system binds the same key AND both can be active at once."""
+    by_norm = {}
+    for e in entries:
+        by_norm.setdefault(e["norm_key"], []).append(e)
+
+    for e in entries:
+        rivals = [
+            g for g in by_norm.get(e["norm_key"], [])
+            if g is not e and g["system"] != e["system"] and _can_load_together(e, g)
+        ]
+        if rivals:
+            e["conflict"] = True
+            e["conflict_count"] = len(rivals) + 1
+            e["status_label"] = f"⚠️ CONFLICT ({len(rivals) + 1} systems)"
+            e["conflict_summary"] = "  ||  ".join(f"{g['system']} -> '{g['action']}'" for g in rivals)
+        else:
+            e["conflict"] = False
+            e["conflict_count"] = 1
+            e["status_label"] = "💤 Not Loaded (subfolder)" if e.get("inactive") else "✅ OK (No Conflict)"
+            e["conflict_summary"] = "None"
 
 
 # ==============================================================================
@@ -3186,15 +3253,7 @@ class VanadielNexusDesktopApp:
         # Remove from current in-memory list and recompute conflicts
         if not file_modified:
             self._hotkey_entries = [x for x in self._hotkey_entries if x is not e]
-            # Re-evaluate conflict flags
-            by_norm = {}
-            for x in self._hotkey_entries:
-                by_norm.setdefault(x["norm_key"], []).append(x)
-            for x in self._hotkey_entries:
-                grp = by_norm.get(x["norm_key"], [])
-                ds = {g["system"] for g in grp}
-                x["conflict"] = (len(grp) > 1 and len(ds) > 1)
-                x["status_label"] = f"⚠️ CONFLICT ({len(grp)} systems)" if x["conflict"] else "✅ OK (No Conflict)"
+            compute_hotkey_conflicts(self._hotkey_entries)
             self._refresh_hotkey_tree()
         else:
             self._rescan_hotkeys()
@@ -3261,15 +3320,7 @@ class VanadielNexusDesktopApp:
             e["raw_key"] = new_wkey
             e["norm_key"] = new_norm
             e["action"] = new_cmd
-            # Re-evaluate conflict flags
-            by_norm = {}
-            for x in self._hotkey_entries:
-                by_norm.setdefault(x["norm_key"], []).append(x)
-            for x in self._hotkey_entries:
-                grp = by_norm.get(x["norm_key"], [])
-                ds = {g["system"] for g in grp}
-                x["conflict"] = (len(grp) > 1 and len(ds) > 1)
-                x["status_label"] = f"⚠️ CONFLICT ({len(grp)} systems)" if x["conflict"] else "✅ OK (No Conflict)"
+            compute_hotkey_conflicts(self._hotkey_entries)
             self._refresh_hotkey_tree()
             win.destroy()
             self._set_status(f"Rebound {old_wkey} -> {new_wkey} ({new_cmd})!")
