@@ -1,6 +1,6 @@
 """Hotkeys: every key bind across the game, Windower, GearSwap and addons, with real conflicts first."""
 from PySide6.QtCore import QObject, QRunnable, Qt, QThreadPool, Signal
-from PySide6.QtWidgets import QCheckBox, QComboBox, QFrame, QInputDialog, QMenu, QVBoxLayout
+from PySide6.QtWidgets import QCheckBox, QComboBox, QFrame, QHBoxLayout, QInputDialog, QMenu, QVBoxLayout, QWidget
 
 from ...core import hotkeys
 from .. import theme, widgets
@@ -45,6 +45,7 @@ class HotkeysPage(Page):
     def __init__(self, ctx):
         super().__init__(ctx)
         self.entries = []
+        self.focus_key = ""
         self.system = QComboBox()
         self.system.addItems(SYSTEMS)
         self.conflicts_only = QCheckBox("Conflicts only")
@@ -84,7 +85,12 @@ class HotkeysPage(Page):
         self.disable_btn = widgets.button("Turn off bind", "danger", self._disable)
         self.count = widgets.label("", "Caption")
 
+        self.summary = QWidget()
+        self.summary_row = QHBoxLayout(self.summary)
+        self.summary_row.setContentsMargins(0, 0, 0, 0)
+        self.summary_row.setSpacing(6)
         self.layout_.addWidget(self.toolbar)
+        self.layout_.addWidget(self.summary)
         self.layout_.addWidget(self.table, 1)
         self.layout_.addWidget(panel)
         self.layout_.addLayout(widgets.hbox(self.count, None, self.open_btn, self.rebind_btn, self.disable_btn))
@@ -108,11 +114,37 @@ class HotkeysPage(Page):
         self.entries = entries
         self.table.set_rows(entries)
         self._apply_filters()
+        self._build_summary()
+
+    def _build_summary(self) -> None:
+        """One clickable chip per conflicting key: click to see just that key's binds."""
+        while self.summary_row.count():
+            item = self.summary_row.takeAt(0)
+            if item.widget():
+                item.widget().deleteLater()
+        keys = sorted({e["norm_key"] for e in self.entries if e.get("conflict")})
+        if not keys:
+            self.summary_row.addWidget(widgets.pill("No conflicts: every key does one thing at a time", "success"))
+        else:
+            self.summary_row.addWidget(widgets.label("Keys with conflicts:", "Caption"))
+            for key in keys:
+                chip = widgets.pill(key, "warning", clickable=True)
+                chip.clicked.connect(lambda _c=False, k=key: self._focus_key(k))
+                self.summary_row.addWidget(chip)
+            self.summary_row.addWidget(widgets.button("Show all", "ghost", lambda: self._focus_key("")))
+        self.summary_row.addStretch(1)
+
+    def _focus_key(self, key: str) -> None:
+        self.focus_key = key
+        self.toolbar.search.clear()
+        self._apply_filters()
 
     def _apply_filters(self, *_args) -> None:
         system = self.system.currentText()
         only_conf, hide_inactive = self.conflicts_only.isChecked(), self.hide_inactive.isChecked()
-        self.table.proxy.set_predicate(lambda e: (system == "All sources" or system.lower() in e["system"].lower())
+        focus = self.focus_key
+        self.table.proxy.set_predicate(lambda e: (not focus or e["norm_key"] == focus)
+                                       and (system == "All sources" or system.lower() in e["system"].lower())
                                        and (not only_conf or e.get("conflict"))
                                        and (not hide_inactive or not e.get("inactive")))
         conflicts = sum(1 for e in self.entries if e.get("conflict"))

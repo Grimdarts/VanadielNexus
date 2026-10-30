@@ -1,6 +1,7 @@
 """Inventory: every item across bags and characters, with stacks rolled up and scattered items flagged."""
 import csv
 import os
+import time
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QCheckBox, QComboBox, QFileDialog, QMenu, QStackedWidget
@@ -50,8 +51,11 @@ class InventoryPage(Page):
                          widgets.button("Import CSV", "ghost", self._import_csv),
                          widgets.button("Refresh from game", "primary", self._refresh_from_game))
 
+        self.tracked = {}
         self.table = DataTable([
             Column("Item", "name", 230, tone=lambda r: theme.WARNING if r.get("scattered") else None),
+            Column("Tracked", lambda r: self.tracked.get(r["name"].lower(), ""), 90,
+                   tone=lambda r: theme.GOLD if r["name"].lower() in self.tracked else None),
             Column("Count", "total_count", 80, Qt.AlignRight),
             Column("Category", "category", 200),
             Column("Where", "locations_str", 320),
@@ -79,6 +83,7 @@ class InventoryPage(Page):
                                             widgets.button("Add to wishlist", on_click=self._to_wishlist),
                                             widgets.button("Open BG-Wiki ↗", "ghost", self._open_wiki)))
         ctx.inventory_changed.connect(self.refresh)
+        ctx.db_changed.connect(self.refresh)
         self.refresh()
 
     def refresh(self) -> None:
@@ -91,6 +96,7 @@ class InventoryPage(Page):
         self.character.setCurrentText(current if current in chars else "All characters")
         self.character.blockSignals(False)
         self._raw = raw
+        self.tracked = self.ctx.tracked_names()
         self._apply_filters()
 
     def _apply_filters(self, *_args) -> None:
@@ -103,7 +109,18 @@ class InventoryPage(Page):
         self.table.set_rows(rows)
         self.stack.setCurrentIndex(0 if self._raw else 1)
         split = sum(1 for r in rows if r.get("scattered"))
-        self.count.setText(f"{self.table.visible_count():,} items shown · {split} split across bags")
+        self.count.setText(f"{self.table.visible_count():,} items shown · {split} split across bags"
+                           f"{self._updated_text(char)}")
+
+    def _updated_text(self, char: str) -> str:
+        updated = self.ctx.settings.get("inventory_updated") or {}
+        stamps = [t for c, t in updated.items() if char in ("", "All characters") or c == char]
+        if not stamps:
+            return " · from saved files (click Refresh from game to update)"
+        mins = int((time.time() - max(stamps)) // 60)
+        ago = "just now" if mins < 1 else f"{mins} min ago" if mins < 60 else (
+            f"{mins // 60} h ago" if mins < 1440 else f"{mins // 1440} days ago")
+        return f" · updated from the game {ago}"
 
     def _refresh_from_game(self) -> None:
         if not self.ctx.bridge.connected:

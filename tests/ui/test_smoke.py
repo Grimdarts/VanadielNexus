@@ -110,3 +110,16 @@ def test_addon_settings_dialog_edits_and_saves(window, tmp_path):
     dlg._save()  # game not connected: writes immediately
     text = xml.read_text()
     assert "<x>640</x>" in text and "<show>false</show>" in text and text.startswith('<?xml version="1.1"')
+
+
+def test_hotkey_conflict_chip_filters_to_one_key(window, qtbot):
+    page = next(p for p in window.pages if p.key == "hotkeys")
+    page._scan_done([
+        {"norm_key": "F10", "system": "A", "action": "x", "conflict": True},
+        {"norm_key": "CTRL+F10", "system": "B", "action": "y", "conflict": True},
+        {"norm_key": "F9", "system": "C", "action": "z", "conflict": False},
+    ])
+    page._focus_key("F10")
+    assert page.table.visible_count() == 1
+    page._focus_key("")
+    assert page.table.visible_count() == 3

@@ -1,12 +1,15 @@
 """Addons: every Windower addon and plugin you have, what starts with the game, and quick actions."""
-from PySide6.QtCore import Qt
 import os
 
-from PySide6.QtWidgets import QCheckBox, QComboBox, QFrame, QHBoxLayout, QMenu, QStackedWidget, QVBoxLayout
+from PySide6.QtCore import Qt
+from PySide6.QtWidgets import (
+    QCheckBox, QComboBox, QFrame, QHBoxLayout, QMenu, QStackedWidget, QTabBar, QVBoxLayout, QWidget,
+)
 
 from ...core import windower
 from .. import theme, widgets
 from ..addon_settings_dialog import AddonSettingsDialog
+from ..my_addons_view import MyAddonsView
 from ..widgets import Column, DataTable
 from .base import Page
 
@@ -57,12 +60,29 @@ class AddonsPage(Page):
                                   "running with the Nexus addon loaded.", "Caption")
 
         self.gearinfo = self._build_gearinfo_card()
-        self.layout_.addWidget(self.gearinfo)
-        self.layout_.addWidget(self.toolbar)
-        self.layout_.addWidget(self.stack, 1)
-        self.layout_.addLayout(widgets.hbox(self.count, None, self.load_btn, self.unload_btn, self.reload_btn,
-                                            self.autoload_btn, self.settings_btn))
-        self.layout_.addWidget(self.hint)
+        installed = QWidget()
+        il = QVBoxLayout(installed)
+        il.setContentsMargins(0, 0, 0, 0)
+        il.setSpacing(14)
+        il.addWidget(self.gearinfo)
+        il.addWidget(self.toolbar)
+        il.addWidget(self.stack, 1)
+        il.addLayout(widgets.hbox(self.count, None, self.load_btn, self.unload_btn, self.reload_btn,
+                                  self.autoload_btn, self.settings_btn))
+        il.addWidget(self.hint)
+
+        self.tabs = QTabBar()
+        self.tabs.setExpanding(False)
+        self.tabs.setDrawBase(False)
+        self.tabs.addTab("Installed")
+        self.tabs.addTab("My Addons")
+        self.views = QStackedWidget()
+        self.views.addWidget(installed)
+        self.my_addons = MyAddonsView(self)
+        self.views.addWidget(self.my_addons)
+        self.tabs.currentChanged.connect(self._switch_view)
+        self.layout_.addLayout(widgets.hbox(self.tabs, None))
+        self.layout_.addWidget(self.views, 1)
         ctx.windower_changed.connect(lambda _p: self.refresh())
         ctx.bridge.connection_changed.connect(lambda _c: (self._update_buttons(), self._refresh_gearinfo()))
         self.refresh()
@@ -132,6 +152,20 @@ class AddonsPage(Page):
 
     def on_shown(self) -> None:
         self.refresh()
+        self.my_addons.refresh()
+
+    def _switch_view(self, index: int) -> None:
+        self.views.setCurrentIndex(index)
+        if index == 1:
+            self.my_addons.refresh()
+
+    def edit_settings_for(self, row: dict) -> None:
+        if row.get("settings_file") and AddonSettingsDialog(self, self.ctx, row).exec():
+            self.status(f"Saved {row['name']} settings" +
+                        (" and reloaded it in game." if self.ctx.bridge.connected else ". Reload it in game to apply."))
+        elif not row.get("settings_file"):
+            self.info("No settings yet", f"{row['name']} hasn't saved a settings file yet. Load it in game once, "
+                                         "then its settings show up here.")
 
     def _apply_filters(self, *_args) -> None:
         kind = {"Addons": "addons", "Plugins": "plugins"}.get(self.kind.currentText())
@@ -178,9 +212,7 @@ class AddonsPage(Page):
     def _open_settings(self) -> None:
         row = self.table.selected_row()
         if row and row["settings_file"]:
-            if AddonSettingsDialog(self, self.ctx, row).exec():
-                self.status(f"Saved {row['name']} settings" +
-                            (" and reloaded it in game." if self.ctx.bridge.connected else ". Reload it in game to apply."))
+            self.edit_settings_for(row)
 
     def _choose_windower(self) -> None:
         win = self.window()

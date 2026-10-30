@@ -2,6 +2,7 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu, QSplitter
 
+from ...core import materials
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import build_wiki_urls, parse_wiki_url_or_name
@@ -44,8 +45,11 @@ class WishlistPage(Page):
                          widgets.button("Import from wiki link", on_click=self._import_link),
                          widgets.button("Add item", "primary", self._add))
 
+        self.owned = {}
         self.table = DataTable([
             Column("Item", "name", 220, tone=lambda r: theme.ACCENT if r.get("pinned") else None),
+            Column("Have", lambda r: "In your bags" if self.owned.get(str(r.get("name", "")).lower()) else "", 110,
+                   tone=lambda _r: theme.SUCCESS),
             Column("Job", "job", 60), Column("Slot", "slot", 140), Column("Source", "sourceType", 160),
             Column("Zone", "zone", 160), Column("How to get it", "obtainHow", stretch=True),
         ], name="wishlist")
@@ -76,7 +80,7 @@ class WishlistPage(Page):
             widgets.button("Remove", "danger", self._remove),
         ))
         ctx.db_changed.connect(self.refresh)
-        ctx.inventory_changed.connect(self._show_detail)
+        ctx.inventory_changed.connect(self.refresh)
         ctx.job_changed.connect(self._sync_job)
         self._sync_job(ctx.job)
 
@@ -93,6 +97,7 @@ class WishlistPage(Page):
     def refresh(self) -> None:
         job = "" if self.job_combo.currentText() == "All jobs" else self.job_combo.currentText()
         rows = [w for w in self.items if not job or w.get("job") in (job, "All", "", None)]
+        self.owned = materials.inventory_totals(self.ctx.all_inventory())
         rows.sort(key=lambda w: (not w.get("pinned"), str(w.get("name", "")).lower()))
         sources = sorted({w.get("sourceType", "") for w in rows if w.get("sourceType")}, key=str.lower)
         current = self.source_combo.currentText()
@@ -107,7 +112,9 @@ class WishlistPage(Page):
     def _apply_source(self) -> None:
         src = self.source_combo.currentText()
         self.table.proxy.set_predicate(None if src in ("", "All sources") else (lambda w: w.get("sourceType") == src))
-        self.count.setText(f"{self.table.visible_count()} wanted")
+        have = sum(1 for r in self.table.model_.rows if self.owned.get(str(r.get("name", "")).lower()))
+        self.count.setText(f"{self.table.visible_count()} wanted" +
+                           (f" · {have} already in your bags (click Got it! to clear them)" if have else ""))
         self._show_detail()
 
     def _show_detail(self, *_args) -> None:

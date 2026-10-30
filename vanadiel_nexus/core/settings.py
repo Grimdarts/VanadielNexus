@@ -10,6 +10,8 @@ DEFAULTS = {
     "last_page": "gear",
     "job_filter": "",
     "setup_dismissed": False,
+    "my_addons_dir": "",
+    "inventory_updated": {},  # character -> unix time of the last bag scan from the game
 }
 
 

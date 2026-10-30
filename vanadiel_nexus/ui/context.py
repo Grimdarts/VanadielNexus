@@ -1,5 +1,6 @@
 """Shared app state handed to every page: database, settings, game bridge, Windower folder."""
 import os
+import time
 
 from PySide6.QtCore import QObject, QUrl, Signal
 from PySide6.QtGui import QDesktopServices
@@ -71,7 +72,23 @@ class AppContext(QObject):
             name = state.get("player_name") or "Unknown"
             self.inventory_snapshot[name] = state["inventory"]
             write_json(self._snapshot_path, self.inventory_snapshot)
+            updated = dict(self.settings.get("inventory_updated") or {})
+            updated[name] = time.time()
+            self.settings.set("inventory_updated", updated)
             self.inventory_changed.emit()
+
+    def tracked_names(self) -> dict:
+        """{lowercase item name: 'Wishlist' | 'Gear'} for everything you're tracking."""
+        names = {}
+        for w in self.db.data["wishlist"]:
+            names[str(w.get("name", "")).lower()] = "Wishlist"
+        for items in self.db.data["jse_by_job"].values():
+            for it in items:
+                names.setdefault(str(it.get("name", "")).lower(), "Gear")
+        for r in self.db.data["rema_weapons"]:
+            names.setdefault(str(r.get("name", "")).lower(), "Gear")
+        names.pop("", None)
+        return names
 
     def all_inventory(self) -> list:
         rows = []
