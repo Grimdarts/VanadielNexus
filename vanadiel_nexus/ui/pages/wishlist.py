@@ -2,7 +2,7 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu, QSplitter
 
-from ...core import materials
+from ...core import materials, gear_guides
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import build_wiki_urls, parse_wiki_url_or_name
@@ -48,8 +48,8 @@ class WishlistPage(Page):
         self.owned = {}
         self.table = DataTable([
             Column("Item", "name", 220, tone=lambda r: theme.ACCENT if r.get("pinned") else None),
-            Column("Have", lambda r: "In your bags" if self.owned.get(str(r.get("name", "")).lower()) else "", 110,
-                   tone=lambda _r: theme.SUCCESS),
+            Column("Have", self._ownership, 145,
+                   tone=lambda r: theme.SUCCESS if self._ownership(r) in ('Owned', 'In your bags') else theme.WARNING),
             Column("Job", "job", 60), Column("Slot", "slot", 140), Column("Source", "sourceType", 160),
             Column("Zone", "zone", 160), Column("How to get it", "obtainHow", stretch=True),
         ], name="wishlist")
@@ -88,6 +88,12 @@ class WishlistPage(Page):
     def items(self):
         return self.ctx.db.data["wishlist"]
 
+    def _ownership(self, row):
+        if row.get('guideTarget'):
+            character = self.ctx.settings.get('guide_character') or self.ctx.bridge.state.get('player_name', '') or 'Someonesmall'
+            return gear_guides.equipment_status(row['guideTarget'], self.ctx.all_inventory(), character)[0]
+        return 'In your bags' if self.owned.get(str(row.get('name', '')).lower()) else ''
+
     def _sync_job(self, job: str) -> None:
         self.job_combo.blockSignals(True)
         self.job_combo.setCurrentText(job if job in JOBS else "All jobs")
@@ -112,7 +118,7 @@ class WishlistPage(Page):
     def _apply_source(self) -> None:
         src = self.source_combo.currentText()
         self.table.proxy.set_predicate(None if src in ("", "All sources") else (lambda w: w.get("sourceType") == src))
-        have = sum(1 for r in self.table.model_.rows if self.owned.get(str(r.get("name", "")).lower()))
+        have = sum(1 for r in self.table.model_.rows if self._ownership(r) in ('Owned', 'In your bags'))
         self.count.setText(f"{self.table.visible_count()} wanted" +
                            (f" · {have} already in your bags (click Got it! to clear them)" if have else ""))
         self._show_detail()

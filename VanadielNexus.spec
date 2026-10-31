@@ -1,6 +1,11 @@
 ﻿# -*- mode: python ; coding: utf-8 -*-
 # Build with:  .\build.ps1   (or: py -m PyInstaller --noconfirm VanadielNexus.spec)
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(SPECPATH) / 'tools'))
+from check_frozen import filter_windows_binaries
+
 a = Analysis(
     ['vanadiel_nexus/__main__.py'],
     pathex=['.'],
@@ -16,6 +21,9 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
+# Qt6Core imports Windows' unversioned ICU ABI. Never shadow it with Poppler's
+# icuuc.dll or collect API-set/CRT forwarding DLLs from an unrelated PATH entry.
+a.binaries = filter_windows_binaries(a.binaries)
 pyz = PYZ(a.pure)
 
 exe = EXE(
