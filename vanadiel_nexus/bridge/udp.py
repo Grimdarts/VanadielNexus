@@ -1,7 +1,7 @@
 """Talks to the VanadielNexus Windower addon over localhost UDP, on Qt's event loop (no threads).
 
-    addon --(5017: JSON {"type":"STATE_UPDATE","state":{...}})--> app
-    app   --(5018: "SCAN" | "ADDON|load|name" | "CMD|<windower command>")--> addon
+    addon --(5017: JSON {"type":"STATE_UPDATE","state":{...}} | LAYOUT_REQUEST | LAYOUT_RESULT)--> app
+    app   --(5018: "SCAN" | "ADDON|load|name" | "CMD|<windower command>" | "LAYOUT_*|...")--> addon
 
 The addon only sends on load, job change, zone change and scan, so "connected" means
 "heard from the game this session"; the app asks for a scan when it starts.
@@ -24,9 +24,13 @@ LISTEN_PORT = 5017
 SEND_PORT = 5018
 
 
+LAYOUT_MESSAGES = ("LAYOUT_REQUEST", "LAYOUT_RESULT")
+
+
 class GameBridge(QObject):
     state_received = Signal(dict)
     connection_changed = Signal(bool)
+    layout_message = Signal(dict)
 
     def __init__(self, parent=None, *, listen_port=LISTEN_PORT):
         super().__init__(parent)
@@ -116,6 +120,10 @@ class GameBridge(QObject):
             if isinstance(state, dict) and self._accept_order(payload):
                 if self._publish(state) and payload.get("session_id") is not None:
                     self._published_update_seq = payload["update_seq"]
+        elif payload.get("type") in LAYOUT_MESSAGES:
+            # Only the verified game session may ask for or change the layout.
+            if getattr(self, "_session_id", None) is not None and self._accept_order(payload):
+                self.layout_message.emit(payload)
 
     def _chunk(self, packet: dict) -> None:
         now = time.monotonic()
@@ -229,6 +237,14 @@ class GameBridge(QObject):
     def addon(self, action: str, name: str) -> None:
         """action: load | unload | reload"""
         self.send(f"ADDON|{action}|{name}")
+
+    def show_layout(self, frames: list) -> None:
+        """frames: [(id, x, y, w, h, label)] in UI pixels; the addon draws them as draggable boxes."""
+        self.send("LAYOUT_BEGIN")
+        for oid, x, y, w, h, text in frames:
+            clean = lambda s: str(s).replace("|", "/")
+            self.send(f"LAYOUT_ITEM|{clean(oid)}|{int(x)}|{int(y)}|{int(w)}|{int(h)}|{clean(text)}")
+        self.send("LAYOUT_SHOW")
 
     def plugin(self, action: str, name: str) -> None:
         """action: load | unload"""

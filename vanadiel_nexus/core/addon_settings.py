@@ -47,9 +47,9 @@ class SettingsFile:
         names = [c.tag for c in self.root if isinstance(c.tag, str)]
         return sorted(names, key=lambda n: (n.lower() != "global", n.lower()))
 
-    def save(self) -> str:
-        """Writes the file after a timestamped backup. Returns the backup path."""
-        backup = backup_file(self.path)
+    def save(self, backup: bool = True) -> str:
+        """Writes the file, after a timestamped backup unless backup=False. Returns the backup path ('' if none)."""
+        backup = backup_file(self.path) if backup else ""
         ET.indent(self.root, space="    ")
         body = ET.tostring(self.root, encoding="unicode")
         body = _RESTORE_RE.sub(lambda mm: f"<{mm.group(1)}{mm.group(2)}{mm.group(3)}>", body)

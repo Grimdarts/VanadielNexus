@@ -24,11 +24,14 @@ from .pages.hotkeys import HotkeysPage
 from .pages.guides import GuidesPage
 from .pages.g13 import G13Page
 from .pages.inventory import InventoryPage
+from .pages.layout import LayoutPage
 from .pages.settings import SettingsPage
 from .pages.wishlist import WishlistPage
+from .layout_manager import LayoutManager
 from .setup_dialog import SetupDialog
 
-NAV = [("⚔", GearPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⌨", HotkeysPage), ("↗", GuidesPage), ("▦", G13Page)]
+NAV = [("⚔", GearPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⊞", LayoutPage),
+       ("⌨", HotkeysPage), ("↗", GuidesPage), ("▦", G13Page)]
 COLLAPSE_BELOW = 1100
 
 
@@ -78,6 +81,7 @@ class MainWindow(QMainWindow):
         self.nav_buttons = []
         self.pages = []
         self.stack = QStackedWidget()
+        ctx.layouts = LayoutManager(ctx)
         for entry in NAV + [None, ("⚙", SettingsPage)]:
             if entry is None:
                 sep = QFrame()

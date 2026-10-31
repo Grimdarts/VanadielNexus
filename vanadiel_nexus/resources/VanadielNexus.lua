@@ -1,6 +1,6 @@
 _addon.name = 'VanadielNexus'
 _addon.author = 'Vana\'diel Nexus'
-_addon.version = '1.3.0'
+_addon.version = '1.4.0'
 _addon.commands = {'vn', 'vanadielnexus', 'nexus'}
 
 local socket = require('socket')
@@ -354,6 +354,11 @@ local function build_and_send_state(include_bags)
         inv_json
     )
 
+    -- The UI resolution is the coordinate space addon windows are placed in (layout page).
+    local ok_res, ws = pcall(windower.get_windower_settings)
+    if ok_res and type(ws) == 'table' and tonumber(ws.ui_x_res) and tonumber(ws.ui_y_res) then
+        payload = payload:sub(1, -3) .. string.format(',"ui_x_res":%d,"ui_y_res":%d}}', ws.ui_x_res, ws.ui_y_res)
+    end
     payload = payload:sub(1, -3) .. ',"snapshot_complete":' .. tostring(include_bags) .. '}}'
     update_sequence = update_sequence + 1
     payload = string.format('{"session_id":"%s","challenge":"%s","update_seq":%d,', json_escape(session_id), bridge_challenge, update_sequence) .. payload:sub(2)
@@ -363,6 +368,94 @@ local function build_and_send_state(include_bags)
         pcall(function() udp_out:sendto(payload, UDP_HOST, UDP_SEND_PORT) end)
     end
 end
+
+-- Layout mode (//vn layout): labeled frames stand in for every addon window, because one addon
+-- can't move another's. The app sends the frames and writes the final spots into each addon.
+local layout = {active = false, items = {}, frames = {}, buttons = {}}
+
+local function send_message(kind, body)
+    update_sequence = update_sequence + 1
+    local packet = string.format('{"session_id":"%s","challenge":"%s","update_seq":%d,"type":"%s"%s}',
+        json_escape(session_id), bridge_challenge, update_sequence, kind, body or '')
+    pcall(function() udp_out:sendto(packet, UDP_HOST, UDP_SEND_PORT) end)
+end
+
+local function layout_clear()
+    for _, f in ipairs(layout.frames) do
+        f.box:destroy()
+        f.label:destroy()
+    end
+    for _, b in pairs(layout.buttons) do b:destroy() end
+    layout.frames, layout.buttons, layout.active = {}, {}, false
+end
+
+local function layout_button(text, x, y, r, g, b)
+    local texts = require('texts')
+    local t = texts.new(text, {
+        pos = {x = x, y = y},
+        text = {size = 12, font = 'Arial', stroke = {width = 1, alpha = 255}},
+        bg = {alpha = 235, red = r, green = g, blue = b},
+        padding = 6,
+        flags = {draggable = false, bold = true},
+    })
+    t:show()
+    return t
+end
+
+local function layout_show()
+    layout_clear()
+    local ok_libs, images, texts = pcall(function() return require('images'), require('texts') end)
+    if not ok_libs then return end
+    for _, it in ipairs(layout.items) do
+        local box = images.new({
+            pos = {x = it.x, y = it.y},
+            size = {width = it.w, height = it.h},
+            color = {alpha = 90, red = 34, green = 211, blue = 238},
+            draggable = true,
+        })
+        local label = texts.new(it.label, {
+            pos = {x = it.x + 4, y = it.y + 2},
+            text = {size = 10, font = 'Arial', stroke = {width = 1, alpha = 255}},
+            bg = {alpha = 0},
+            flags = {draggable = false, bold = true},
+        })
+        box:show()
+        label:show()
+        table.insert(layout.frames, {id = it.id, box = box, label = label})
+    end
+    local ws = windower.get_windower_settings()
+    local cx = math.floor(ws.ui_x_res / 2)
+    layout.buttons.save = layout_button('Save layout', cx - 130, 40, 14, 165, 198)
+    layout.buttons.cancel = layout_button('Cancel', cx + 30, 40, 38, 50, 77)
+    layout.active = true
+    windower.add_to_chat(207, '[VanadielNexus] Layout mode: drag the frames, then click Save layout. (//vn layout save | //vn layout cancel)')
+end
+
+local function layout_finish(save)
+    if not layout.active then return end
+    if save then
+        local parts = {}
+        for _, f in ipairs(layout.frames) do
+            local x, y = f.box:pos()
+            table.insert(parts, string.format('"%s":[%d,%d]', json_escape(f.id), math.floor(x + 0.5), math.floor(y + 0.5)))
+        end
+        send_message('LAYOUT_RESULT', ',"positions":{' .. table.concat(parts, ',') .. '}')
+        windower.add_to_chat(207, '[VanadielNexus] Layout sent to the app. Your addons move in a moment.')
+    else
+        windower.add_to_chat(207, '[VanadielNexus] Layout mode closed without saving.')
+    end
+    layout_clear()
+end
+
+windower.register_event('mouse', function(kind, x, y, delta, blocked)
+    if not layout.active or blocked then return end
+    for name, b in pairs(layout.buttons) do
+        if b:hover(x, y) then
+            if kind == 2 then layout_finish(name == 'save') end
+            return kind == 1 or kind == 2
+        end
+    end
+end)
 
 windower.register_event('incoming chunk', function(id, original, modified, injected, blocked)
     if injected or blocked then return end
@@ -406,18 +499,34 @@ windower.register_event('addon command', function(cmd, ...)
     elseif cmd == 'scan' then
         build_and_send_state(true)
         windower.add_to_chat(207, '[VanadielNexus] Scanned all 17 bags and your storage slips and sent update to overlay.')
+    elseif cmd == 'layout' then
+        local sub = args[1] and args[1]:lower()
+        if sub == 'save' or sub == 'cancel' then
+            layout_finish(sub == 'save')
+        elseif layout.active then
+            layout_finish(false)
+        else
+            send_message('LAYOUT_REQUEST')
+            windower.add_to_chat(207, '[VanadielNexus] Asking the app for your layout. Vana\'diel Nexus must be open.')
+        end
     elseif cmd == 'mote_sync' and args[1] and args[2] then
         local mode_name = args[1]
         local mode_val = table.concat(args, ' ', 2)
         state_cache.mote_modes[mode_name] = mode_val
         build_and_send_state(false)
     else
-        windower.add_to_chat(207, '[VanadielNexus] Commands: //vn scan | //vn hud (No F8-F12 hotkeys bound).')
+        windower.add_to_chat(207, '[VanadielNexus] Commands: //vn scan | //vn layout | //vn hud (No F8-F12 hotkeys bound).')
     end
 end)
 
 local last_poll = 0
 windower.register_event('prerender', function()
+    if layout.active then
+        for _, f in ipairs(layout.frames) do
+            local x, y = f.box:pos()
+            f.label:pos(x + 4, y + 2)
+        end
+    end
     local now = os.clock()
     if now - last_poll < 0.25 then return end
     last_poll = now
@@ -452,6 +561,15 @@ windower.register_event('prerender', function()
             windower.send_command('lua ' .. parts[2] .. ' ' .. parts[3])
         elseif action == 'CMD' and parts[2] then
             windower.send_command(parts[2])
+        elseif action == 'LAYOUT_BEGIN' then
+            layout.items = {}
+        elseif action == 'LAYOUT_ITEM' and #parts >= 7 then
+            local x, y, w, h = tonumber(parts[3]), tonumber(parts[4]), tonumber(parts[5]), tonumber(parts[6])
+            if x and y and w and h then
+                table.insert(layout.items, {id = parts[2], x = x, y = y, w = w, h = h, label = parts[7]})
+            end
+        elseif action == 'LAYOUT_SHOW' then
+            layout_show()
         end
     end
 end)
