@@ -38,7 +38,7 @@ class G13Page(Page):
             grid.addWidget(cell,row,col)
             self.labels.append(label)
         self.layout_.addLayout(grid)
-        self.note=widgets.label('M1/M2/M3 follows the last G-key, not the physical mode-button LED. Thumb controls remain in your Logitech profile.', 'Caption')
+        self.note=widgets.label('M1/M2/M3 follows the last G-key, or the M-buttons once the G13-M-buttons.lua Logitech script is in your profile. Thumb controls remain in your Logitech profile.', 'Caption')
         self.note.setWordWrap(True)
         self.layout_.addWidget(self.note)
         self.layout_.addStretch()
