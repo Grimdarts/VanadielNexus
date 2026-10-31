@@ -215,3 +215,26 @@ def test_zone_inventory_waits_until_after_inventory_finished_packet(addon):
     assert decode_sent(addon)[1]['snapshot_complete'] is False
     addon.execute('sent={}; events["incoming chunk"](0x037, string.char(0,0,0,0))')
     assert decode_sent(addon)[1]['snapshot_complete'] is True
+
+
+def test_storage_slip_contents_are_listed_under_the_slip(addon):
+    # Bits 0 and 9 set: the slip's 1st and 10th entries are stored; entry 2 is a 0 placeholder.
+    addon.execute('''
+        local res = package.loaded.resources
+        res.items[3] = {en='Storage Slip 08', category='General'}
+        res.items[4] = {en='Hat', category='Armor', slots={[4]=true}}
+        res.items[5] = {en='Boots', category='Armor', slots={[8]=true}}
+        local list = {4, 0}
+        for i=3,9 do list[i] = 99 end
+        list[10] = 5
+        res.slips = {[8]={id=8, en='Storage Slip 08', item_id=3, items=list}}
+        bags[2][1] = {id=3, count=1, extdata=string.char(1, 2) .. string.rep(string.char(0), 22)}
+        bags[17][1] = {id=3, count=1, extdata=string.rep(string.char(255), 24)}
+        events['load']()
+    ''')
+    _, state = decode_sent(addon)
+    slip_rows = [row for row in state['inventory'] if row['bag'] == 'Storage Slip 08']
+    assert sorted((row['name'], row['category']) for row in slip_rows) == [
+        ('Boots', 'Legs, Feet & Waist'), ('Hat', 'Head & Neck')]
+    assert state['materials']['Hat'] == 1
+    assert state['snapshot_complete'] is True

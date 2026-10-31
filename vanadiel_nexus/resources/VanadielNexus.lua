@@ -1,6 +1,6 @@
 _addon.name = 'VanadielNexus'
 _addon.author = 'Vana\'diel Nexus'
-_addon.version = '1.2.0'
+_addon.version = '1.3.0'
 _addon.commands = {'vn', 'vanadielnexus', 'nexus'}
 
 local socket = require('socket')
@@ -113,6 +113,55 @@ local function classify_resource_item(res_item)
     return 'General / Materials'
 end
 
+-- Storage slips hold their items as bits in the slip's extdata; bit n is the
+-- slip's nth item in res.slips (same decoding as Windower libs/slips.lua).
+local slips_by_item
+local function slip_defs()
+    if slips_by_item then return slips_by_item end
+    slips_by_item = {}
+    local ok, slip_res = pcall(function() return res.slips end)
+    if ok and type(slip_res) == 'table' then
+        for _, slip in pairs(slip_res) do
+            if type(slip) == 'table' and type(slip.item_id) == 'number' and type(slip.items) == 'table' then
+                slips_by_item[slip.item_id] = slip
+            end
+        end
+    end
+    return slips_by_item
+end
+
+local function add_slip_items(found_slips, char_name, inv_list, mat_counts)
+    local defs = slip_defs()
+    for slip_id, itm in pairs(found_slips) do
+        local slip = defs[slip_id]
+        local ext = itm.extdata
+        if slip and type(ext) == 'string' then
+            local slip_name = slip.en or ('Storage Slip ' .. tostring(slip.id))
+            for byte_index = 1, #ext do
+                local byte = ext:byte(byte_index)
+                for bit = 0, 7 do
+                    if math.floor(byte / 2 ^ bit) % 2 == 1 then
+                        local stored_id = slip.items[(byte_index - 1) * 8 + bit + 1]
+                        local r_item = stored_id and stored_id > 0 and res.items[stored_id]
+                        if r_item and r_item.en and r_item.en ~= '' then
+                            table.insert(inv_list, {
+                                name = r_item.en,
+                                count = 1,
+                                character = char_name,
+                                bag = slip_name,
+                                augments = '',
+                                category = classify_resource_item(r_item),
+                                item_id = stored_id
+                            })
+                            mat_counts[r_item.en] = (mat_counts[r_item.en] or 0) + 1
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
 -- Like Windower findAll, an already logged-in load may use the current cache.
 -- Zone packets invalidate it; 0x01D commits temporary items after its callback.
 local inventory_ready = windower.ffxi.get_info().logged_in == true
@@ -128,6 +177,7 @@ local function scan_all_bags()
     local inv_list = {}
     local equipped_list = {}
     local mat_counts = {}
+    local found_slips = {}
 
     if not items_data then
         return nil
@@ -167,6 +217,10 @@ local function scan_all_bags()
                         })
                         mat_counts[iname] = (mat_counts[iname] or 0) + itm.count
                     end
+                    -- A slip in the recycle bin no longer stores anything.
+                    if bdef.id ~= 17 and not found_slips[itm.id] and slip_defs()[itm.id] then
+                        found_slips[itm.id] = itm
+                    end
                 end
             end
         end
@@ -177,6 +231,7 @@ local function scan_all_bags()
             or bag_tbl.max < occupied or bag_tbl.max < 0
             or bag_tbl.max % 1 ~= 0) then return nil end
     end
+    add_slip_items(found_slips, char_name, inv_list, mat_counts)
 
     local eq_tbl = items_data.equipment
     if type(eq_tbl) == 'table' then
@@ -350,7 +405,7 @@ windower.register_event('addon command', function(cmd, ...)
         end)
     elseif cmd == 'scan' then
         build_and_send_state(true)
-        windower.add_to_chat(207, '[VanadielNexus] Scanned all 17 bags and sent update to overlay.')
+        windower.add_to_chat(207, '[VanadielNexus] Scanned all 17 bags and your storage slips and sent update to overlay.')
     elseif cmd == 'mote_sync' and args[1] and args[2] then
         local mode_name = args[1]
         local mode_val = table.concat(args, ' ', 2)
