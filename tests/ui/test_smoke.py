@@ -80,7 +80,7 @@ def test_wishlist_track_as_goal_copies_materials(window):
     ctx.db.data["wishlist"].append({"id": "wl-x", "name": "Test Earring", "job": "All",
                                     "materials": [{"name": "Kei's Shard", "need": 3}]})
     ctx.save_db()
-    wish = window.pages[1]
+    wish = next(p for p in window.pages if p.key == "wishlist")
     wish.job_combo.setCurrentText("All jobs")
     wish.table.select_row(next(r for r in wish.table.model_.rows if r["id"] == "wl-x"))
     wish._track_as_goal()

@@ -3,6 +3,8 @@ import os
 import re
 import urllib.parse
 
+from . import item_res
+
 # Sites an item can be opened on, in menu order: (key, label)
 SITES = (("bgwiki", "BG-Wiki"), ("ffxiah", "FFXIAH"), ("ffxiclopedia", "FFXIclopedia"))
 
@@ -12,30 +14,17 @@ def is_bg_wiki(url: str) -> bool:
     return host == "bg-wiki.com" or host.endswith(".bg-wiki.com")
 
 
-_FULL_NAMES = {}  # items.lua path -> {item id: full name}, read once
-
-
 def full_names(windower_dir: str) -> dict:
     """Full names for items the game shortens ("Chas. Culottes +3" -> "Chasseur's Culottes +3").
 
     Read from Windower's own res/items.lua, which every player has. BG-Wiki titles its pages by the short names,
-    but FFXIclopedia uses full ones. Empty when Windower isn't found.
+    but FFXIclopedia uses full ones. Empty when Windower isn't found. Every row counts, equipment or not.
     """
-    path = os.path.join(windower_dir or "", "res", "items.lua")
-    if path not in _FULL_NAMES:
-        names = {}
-        try:
-            with open(path, encoding="utf-8", errors="replace") as source:
-                for line in source:
-                    match = re.search(r'\bid=(\d+),en="([^"]*\.[^"]*)",ja="[^"]*",enl="([^"]+)"', line)
-                    if match:
-                        names[int(match[1])] = " ".join(
-                            word if i and word in ("of", "the", "and") else re.sub(r"[A-Za-z]", lambda m: m[0].upper(), word, count=1)
-                            for i, word in enumerate(match[3].split(" ")))
-        except OSError:
-            pass
-        _FULL_NAMES[path] = names
-    return _FULL_NAMES[path]
+    return item_res.cached("full_names", windower_dir, "items.lua", lambda _path: {
+        item_id: " ".join(
+            word if i and word in ("of", "the", "and") else re.sub(r"[A-Za-z]", lambda m: m[0].upper(), word, count=1)
+            for i, word in enumerate(item.enl.split(" ")))
+        for item_id, item in item_res.all_items(windower_dir).items() if "." in item.en and item.enl})
 
 
 def item_urls(name: str, item_id=None, wiki_url: str = "", full_name: str = "") -> dict:

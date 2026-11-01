@@ -29,4 +29,6 @@ def test_source_startup_probe_initializes_every_page(tmp_path):
     assert result.returncode==0,result.stderr
     payload=json.loads(output.read_text())
     assert payload['ok']
-    assert {'gear','wishlist','inventory','addons','hotkeys','guides','g13','settings'}<=set(payload['pages'])
+    assert {'gear','sets','wishlist','inventory','addons','hotkeys','guides','g13','settings'}<=set(payload['pages'])
+    assert payload['spawn']['ok'],payload['spawn']
+    assert payload['spawn']['seconds']<=5

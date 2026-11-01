@@ -11,7 +11,8 @@ a = Analysis(
     pathex=['.'],
     binaries=[],
     datas=[('vanadiel_nexus/resources', 'vanadiel_nexus/resources')],
-    hiddenimports=[],
+    # The Sets page runs GearSwap Lua in a spawned child: lupa's LuaJIT runtime and the child's entry module
+    hiddenimports=['lupa.luajit21', 'vanadiel_nexus.core.gs_worker'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

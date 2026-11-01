@@ -17,6 +17,7 @@ installs, configures and reloads them for you.
 | Page | What you get |
 |------|--------------|
 | **Gear** | JSE armor by job, REMA weapons and your own goals, with progress cards. An upgrade guide beside the table shows each item's next step and a materials checklist counted from your bags. Goals can count an item straight from your inventory. |
+| **Sets** | Every set in your GearSwap job file, read the way GearSwap reads it (the app never changes your Lua), grouped by what it's for and drawn as the in-game 4×4 equipment grid. Each slot says whether you own the piece in a bag GearSwap can equip from, have it stored away, own it on another character, or don't have it. |
 | **Wishlist** | Gear you want, where it drops and what it costs. Item names autocomplete from a catalog, BG-Wiki / FFXIAH / FFXIclopedia links import in one paste, items you already own are flagged, and anything can become a tracked goal. |
 | **Inventory** | Every item across all bags and characters, with stacks rolled up, items split across bags flagged, and anything you're tracking marked. Refreshes from the game or imports a CSV. |
 | **Addons** | All your addons and plugins with descriptions, what starts with the game, load / unload / reload, and a settings editor for each addon (switches, numbers, colors) that backs up before saving. **Scan for updates** checks addons against their GitHub source and updates only changed files, never your saved settings. A **My Addons** tab helps you write and install your own addons. |

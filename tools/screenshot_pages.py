@@ -49,7 +49,7 @@ def main():
             app.quit()
             return
         win.show_page(keys[i])
-        QTimer.singleShot(1500 if keys[i] == "hotkeys" else 400,
+        QTimer.singleShot(1500 if keys[i] in ("hotkeys", "sets") else 400,
                           lambda: (win.grab().save(os.path.join(out, f"{i + 1}-{keys[i]}.png")), shoot(i + 1)))
 
     QTimer.singleShot(500, shoot)

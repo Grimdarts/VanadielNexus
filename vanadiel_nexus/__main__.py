@@ -1,10 +1,10 @@
-"""Entry point: python -m vanadiel_nexus (and the frozen exe)."""
-import sys
+"""Entry point: python -m vanadiel_nexus (and the frozen exe).
 
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QFontDatabase
-from PySide6.QtNetwork import QLocalServer, QLocalSocket
-from PySide6.QtWidgets import QApplication
+Qt is imported inside the functions, not here: the Sets page reads GearSwap files in a spawned child process,
+which imports this module again (as __mp_main__) and must only load multiprocessing, gs_worker and lupa.
+"""
+import multiprocessing
+import sys
 
 from vanadiel_nexus import __version__
 from vanadiel_nexus.core import paths
@@ -25,6 +25,7 @@ def startup_check(app, output):
     from vanadiel_nexus.ui.main_window import MainWindow
 
     root=Path(output).resolve().parent
+    spawn=spawn_check(root/'spawn-check')
     data=Path(os.environ['VN_DATA_DIR']).resolve()
     if not data.is_relative_to(root):
         raise ValueError('Startup check requires isolated data beside its result')
@@ -46,12 +47,31 @@ def startup_check(app, output):
     QThreadPool.globalInstance().waitForDone(5000)
     app.processEvents()
     Path(output).write_text(json.dumps({'ok':True,'version':__version__,
-        'pyside':qt_binding_version,'pages':pages}),encoding='utf-8')
+        'pyside':qt_binding_version,'pages':pages,'spawn':spawn}),encoding='utf-8')
     return 0
+
+
+def spawn_check(folder) -> dict:
+    """Read a 3-line GearSwap file through the real spawn path, timed on its own (must finish in 5 s)."""
+    import time
+    from pathlib import Path
+    from vanadiel_nexus.core import gearswap_reader
+    data=Path(folder)/'addons'/'GearSwap'/'data'
+    data.mkdir(parents=True,exist_ok=True)
+    job=data/'Check_BLU.lua'
+    job.write_text('function get_sets()\n    sets.Check = {head="Nyame Mail"}\nend\n',encoding='utf-8')
+    started=time.monotonic()
+    raw=gearswap_reader._spawn({'windower_dir':str(folder),'character':'Check','job':'BLU','job_long':'Blue Mage',
+                                'job_id':16,'sub_job':'','job_path':str(job),'appdata':str(Path(folder)/'appdata')},5.0)
+    seconds=round(time.monotonic()-started,2)
+    pieces=[p for node in raw.get('nodes') or [] for p in node.get('pieces') or []]
+    ok=not raw.get('error') and any(p.get('name')=='Nyame Mail' for p in pieces) and seconds<=5
+    return {'ok':ok,'seconds':seconds,'error':raw.get('error') or ''}
 
 
 def _already_running() -> bool:
     """If another copy is open, ask it to come to the front and return True."""
+    from PySide6.QtNetwork import QLocalSocket
     sock = QLocalSocket()
     sock.connectToServer(INSTANCE_KEY)
     if sock.waitForConnected(300):
@@ -62,6 +82,11 @@ def _already_running() -> bool:
 
 
 def main() -> int:
+    from PySide6.QtCore import Qt
+    from PySide6.QtGui import QFontDatabase
+    from PySide6.QtNetwork import QLocalServer
+    from PySide6.QtWidgets import QApplication
+
     QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
     app = QApplication(sys.argv)
     app.setApplicationName("Vana'diel Nexus")
@@ -99,4 +124,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support()  # first: a frozen child must never reach Qt or the single-instance check
     sys.exit(main())

@@ -89,3 +89,13 @@ def test_ffxiclopedia_uses_full_names_from_windower_resources(tmp_path):
     assert urls['ffxiclopedia'].endswith("/wiki/Chasseur's_Culottes_%2B3")
     assert urls['bgwiki'].endswith('/ffxi/Chas._Culottes_%2B3')  # BG-Wiki titles pages by the short name
     assert wiki.full_names(str(tmp_path / 'missing')) == {}
+
+
+def test_full_names_keep_shortened_names_of_non_equipment(tmp_path):
+    res = tmp_path / 'res'
+    res.mkdir()
+    (res / 'items.lua').write_text(
+        'return {\n'
+        '    [3000] = {id=3000,en="Taru F. Screen",ja="x",enl="Tarutaru folding screen",jal="x",category="General"},\n'
+        '}\n', encoding='utf-8')
+    assert wiki.full_names(str(tmp_path)) == {3000: 'Tarutaru Folding Screen'}

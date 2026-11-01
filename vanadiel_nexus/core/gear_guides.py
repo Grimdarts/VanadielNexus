@@ -45,6 +45,11 @@ def picker_tree(catalog, job):
     return ordered
 
 
+# "Rank 15" is added by the Nexus addon to snapshot augments (not a GearSwap augment); "Path: B" is a real one.
+RANK_RE = re.compile(r'\bRank\s*(\d+)\b', re.I)
+PATH_RE = re.compile(r'\bPath\s*[: ]\s*([A-D])\b', re.I)
+
+
 def identity(value):
     return re.sub(r'\s+', ' ', str(value or '').strip()).casefold()
 
@@ -84,9 +89,9 @@ def equipment_status(target, inventory, character='', required_count=1):
     for row in matching:
         observed = row.get('augments', '')
         observed = '\n'.join(observed) if isinstance(observed, list) else str(observed)
-        rank_match = re.search(r'\bRank\s*(\d+)\b', observed, re.I)
+        rank_match = RANK_RE.search(observed)
         rank = row.get('rank', int(rank_match[1]) if rank_match else None)
-        path_match = re.search(r'\bPath\s*[: ]\s*([A-D])\b', observed, re.I)
+        path_match = PATH_RE.search(observed)
         observed_path = row.get('path', path_match[1] if path_match else '')
         if minimum_rank is not None and (rank is None or rank < minimum_rank):
             continue

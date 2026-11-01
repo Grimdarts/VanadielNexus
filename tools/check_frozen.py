@@ -50,8 +50,10 @@ def check(executable, timeout=30):
         if code or not result.exists():
             raise RuntimeError(f'Frozen startup failed: exit {code}, result exists={result.exists()}')
         payload = json.loads(result.read_text(encoding='utf-8'))
-        if not payload.get('ok') or not {'gear','guides','g13'}.issubset(payload.get('pages',[])):
+        if not payload.get('ok') or not {'gear','sets','guides','g13'}.issubset(payload.get('pages',[])):
             raise RuntimeError('Incomplete frozen startup: '+str(payload))
+        if not (payload.get('spawn') or {}).get('ok'):  # the Sets page's Lua child process (multiprocessing spawn)
+            raise RuntimeError('Frozen spawn check failed: '+str(payload.get('spawn')))
         return payload
 
 

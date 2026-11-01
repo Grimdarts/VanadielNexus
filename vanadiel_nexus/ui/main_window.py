@@ -25,12 +25,13 @@ from .pages.guides import GuidesPage
 from .pages.g13 import G13Page
 from .pages.inventory import InventoryPage
 from .pages.layout import LayoutPage
+from .pages.sets import SetsPage
 from .pages.settings import SettingsPage
 from .pages.wishlist import WishlistPage
 from .layout_manager import LayoutManager
 from .setup_dialog import SetupDialog
 
-NAV = [("⚔", GearPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⊞", LayoutPage),
+NAV = [("⚔", GearPage), ("▣", SetsPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⊞", LayoutPage),
        ("⌨", HotkeysPage), ("↗", GuidesPage), ("▦", G13Page)]
 COLLAPSE_BELOW = 1100
 
