@@ -1,0 +1,140 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Set manager wireframe</title>
+<style>
+  /* Intentionally rough: system font, gray lines, no color except one marker for "flag" */
+  body { font-family: "Segoe UI", system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; font-size: 13px; }
+  .frame { width: 1240px; margin: 16px auto; border: 2px solid #333; background: #fff; }
+  .top { display: flex; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid #999; }
+  .top b { font-size: 16px; }
+  .wrap { display: grid; grid-template-columns: 270px 1fr 330px; min-height: 640px; }
+  .col { padding: 12px; border-right: 1px dashed #999; }
+  .col:last-child { border-right: 0; }
+  h4 { margin: 4px 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: #555; }
+  .search { border: 1px solid #999; padding: 6px; margin-bottom: 10px; color: #888; }
+  .grp { margin: 8px 0 2px; font-weight: 600; }
+  .set { padding: 3px 8px; margin-left: 6px; border-left: 2px solid transparent; }
+  .set.sel { border-left: 2px solid #000; background: #eee; }
+  .set small { color: #777; }
+  .flag { display: inline-block; border: 1px solid #000; border-radius: 8px; padding: 0 6px; font-size: 11px; }
+  .ro { color: #888; font-style: italic; }
+  .grid { display: grid; grid-template-columns: repeat(4, 96px); gap: 8px; margin: 10px 0 14px; }
+  .cell { height: 96px; border: 1.5px solid #555; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; font-size: 11px; }
+  .cell .ico { width: 32px; height: 32px; border: 1px solid #999; background: repeating-linear-gradient(45deg,#ddd 0 4px,#f4f4f4 4px 8px); margin-bottom: 4px; }
+  .cell .slot { position: absolute; top: 2px; left: 4px; font-size: 9px; color: #888; }
+  .cell .bag { position: absolute; bottom: 2px; right: 4px; font-size: 9px; color: #888; }
+  .cell.up { border: 2.5px dashed #000; }
+  .cell.empty { color: #aaa; border-style: dotted; }
+  .cell.sel { outline: 3px solid #000; outline-offset: 2px; }
+  .meta { display: flex; gap: 18px; margin: 6px 0; color: #555; }
+  .btn { display: inline-block; border: 1px solid #555; padding: 5px 10px; margin-right: 6px; }
+  .btn.pri { border: 2px solid #000; font-weight: 600; }
+  .note { border: 1px dashed #777; padding: 8px; margin-top: 10px; color: #444; background: #f6f6f6; }
+  .pick { border: 1px solid #aaa; padding: 6px; margin: 4px 0; display: flex; gap: 8px; align-items: center; }
+  .pick .ico { width: 24px; height: 24px; border: 1px solid #999; background: #eee; flex: none; }
+  .pick small { display: block; color: #777; }
+  pre { background: #f3f3f3; border: 1px solid #ccc; padding: 8px; font-size: 11px; white-space: pre-wrap; }
+  .tabs span { display: inline-block; padding: 4px 10px; border: 1px solid #999; border-bottom: 0; margin-right: 2px; }
+  .tabs span.on { font-weight: 600; background: #eee; }
+  .rule { border: 1.5px solid #555; padding: 10px; margin-top: 12px; }
+  .rule .row { margin: 6px 0; }
+  .dd { display: inline-block; border: 1px solid #888; padding: 2px 8px; }
+</style></head>
+<body>
+<!-- STATE 1: browsing a hand-written set; one slot flagged for a tier upgrade; picker open on the right -->
+<div class="frame">
+  <div class="top"><b>Set manager</b><span>Someonesmall · BLU ▾ &nbsp; | &nbsp; Sets read from Someonesmall_BLU.lua + Nova-BLU-sets.lua · 2 min ago ⟳</span></div>
+  <div class="wrap">
+    <!-- LEFT: every set the job file defines, grouped by batch-1 PURPOSES; app-owned sets in their own group -->
+    <div class="col">
+      <div class="search">Search sets or items…</div>
+      <h4>From your Lua (read-only)</h4>
+      <div class="grp">Idle</div>
+      <div class="set">sets.Idle.Standard</div>
+      <div class="set">sets.Idle.DT <span class="flag">1 upgrade</span></div>
+      <div class="grp">Melee / TP</div>
+      <div class="set">sets.Engaged.Normal</div>
+      <div class="set">sets.Engaged.Acc</div>
+      <div class="grp">Weapon skill</div>
+      <div class="set sel">sets.WS['Savage Blade'] <span class="flag">1 upgrade</span></div>
+      <div class="set">sets.WS['Chant du Cygne']</div>
+      <div class="grp">Midcast: blue magic</div>
+      <div class="set">sets.BlueMagic.Cures</div>
+      <div class="set">sets.BlueMagic.Magical <span class="flag">2 upgrades</span></div>
+      <div class="grp">Other (no purpose matched)</div>
+      <div class="set"><small>sets.Utility.Doom</small></div>
+      <h4 style="margin-top:16px">Nexus sets (editable)</h4>
+      <div class="set">Doom (when Doom is active) <small>· all jobs</small></div>
+      <div class="set">Town movement <small>· all jobs</small></div>
+      <div class="set">+ New set</div>
+    </div>
+
+    <!-- CENTER: the in-game equipment menu, 4x4, real icons from the player's DATs -->
+    <div class="col">
+      <h4>sets.WS['Savage Blade'] · Weapon skill · from Nova-BLU-sets.lua</h4>
+      <div class="meta"><span>15 / 16 slots set</span><span>All pieces owned ✓</span><span>1 upgrade available</span></div>
+      <div class="grid">
+        <div class="cell"><span class="slot">Main</span><div class="ico"></div>Naegling<span class="bag">Wardrobe 2</span></div>
+        <div class="cell"><span class="slot">Sub</span><div class="ico"></div>Thibron<span class="bag">Wardrobe 2</span></div>
+        <div class="cell empty"><span class="slot">Range</span>(not set)</div>
+        <div class="cell"><span class="slot">Ammo</span><div class="ico"></div>Oshasha's Treatise<span class="bag">Wardrobe</span></div>
+        <div class="cell up sel"><span class="slot">Head</span><div class="ico"></div>Hashishin Kavuk +2<br><b>↑ +3 owned</b><span class="bag">Wardrobe 3</span></div>
+        <div class="cell"><span class="slot">Neck</span><div class="ico"></div>Mirage Stole +2<span class="bag">Wardrobe</span></div>
+        <div class="cell"><span class="slot">Ear 1</span><div class="ico"></div>Moonshade Earring<span class="bag">Wardrobe</span></div>
+        <div class="cell"><span class="slot">Ear 2</span><div class="ico"></div>Ishvara Earring<span class="bag">Wardrobe</span></div>
+        <div class="cell"><span class="slot">Body</span><div class="ico"></div>Assim. Jubbah +3<span class="bag">Wardrobe 3</span></div>
+        <div class="cell"><span class="slot">Hands</span><div class="ico"></div>Herculean Gloves<br><small>(WSD)</small><span class="bag">Wardrobe 2</span></div>
+        <div class="cell"><span class="slot">Ring 1</span><div class="ico"></div>Epaminondas's Ring<span class="bag">Wardrobe</span></div>
+        <div class="cell"><span class="slot">Ring 2</span><div class="ico"></div>Sroda Ring<span class="bag">Mog Safe ⚠</span></div>
+        <div class="cell"><span class="slot">Back</span><div class="ico"></div>Rosmerta's Cape<br><small>(WSD)</small><span class="bag">Wardrobe 2</span></div>
+        <div class="cell"><span class="slot">Waist</span><div class="ico"></div>Sailfi Belt +1<span class="bag">Wardrobe</span></div>
+        <div class="cell"><span class="slot">Legs</span><div class="ico"></div>Luhlaza Shalwar +3<span class="bag">Wardrobe 3</span></div>
+        <div class="cell"><span class="slot">Feet</span><div class="ico"></div>Nyame Sollerets<span class="bag">Wardrobe 4</span></div>
+      </div>
+      <span class="btn pri">Equip now</span><span class="btn">Compare with guide…</span><span class="btn">Copy as new Nexus set</span>
+      <div class="note">⚠ Ring 2: Sroda Ring is in your Mog Safe. GearSwap can't equip it from there. Move it to a wardrobe.</div>
+    </div>
+
+    <!-- RIGHT: the selected slot. Hand-written set => picker shows options, result is a paste-in snippet (Approach A) -->
+    <div class="col">
+      <h4>Head · Hashishin Kavuk +2</h4>
+      <div class="tabs"><span class="on">Owned that fit</span><span>Guide pieces</span></div>
+      <div class="pick" style="border:2px solid #000"><div class="ico"></div><div>Hashishin Kavuk +3 <span class="flag">upgrade</span><small>Wardrobe 3 · BLU 99 · same item, higher tier</small></div></div>
+      <div class="pick"><div class="ico"></div><div>Nyame Helm<small>Wardrobe 4 · Path B R25</small></div></div>
+      <div class="pick"><div class="ico"></div><div>Herculean Helm (WSD)<small>Wardrobe 2 · WSD+4% STR+10</small></div></div>
+      <div class="pick"><div class="ico"></div><div>Herculean Helm (DT)<small>Wardrobe 2 · PDT-4%</small></div></div>
+      <p style="color:#555">This set is in your own Lua, so the app won't change it. Paste this into <b>Nova-BLU-sets.lua</b> line 412:</p>
+<pre>head="Hashishin Kavuk +3",</pre>
+      <span class="btn pri">Copy fix</span><span class="btn">Open file at line</span>
+      <div class="note">Hashishin Kavuk +2 is also in 3 other sets. <u>Copy all 4 fixes</u></div>
+    </div>
+  </div>
+</div>
+
+<!-- STATE 2: a Nexus-owned set with a rule card (editable in the app; written to Nexus-sets.lua) -->
+<div class="frame">
+  <div class="top"><b>Set manager · Nexus set: Doom</b><span>Used by: <span class="dd">All jobs ▾</span> &nbsp; Worn: <span class="dd">When… ▾</span></span></div>
+  <div class="wrap" style="grid-template-columns: 1fr 1fr; min-height: 300px">
+    <div class="col">
+      <div class="grid">
+        <div class="cell empty"><span class="slot">Main</span>—</div><div class="cell empty"><span class="slot">Sub</span>—</div><div class="cell empty"><span class="slot">Range</span>—</div><div class="cell empty"><span class="slot">Ammo</span>—</div>
+        <div class="cell empty"><span class="slot">Head</span>—</div><div class="cell"><span class="slot">Neck</span><div class="ico"></div>Nicander's Necklace</div><div class="cell empty"><span class="slot">Ear 1</span>—</div><div class="cell empty"><span class="slot">Ear 2</span>—</div>
+        <div class="cell empty"><span class="slot">Body</span>—</div><div class="cell empty"><span class="slot">Hands</span>—</div><div class="cell"><span class="slot">Ring 1</span><div class="ico"></div>Purity Ring</div><div class="cell"><span class="slot">Ring 2</span><div class="ico"></div>Blenmot's Ring +1</div>
+        <div class="cell empty"><span class="slot">Back</span>—</div><div class="cell"><span class="slot">Waist</span><div class="ico"></div>Gishdubar Sash</div><div class="cell empty"><span class="slot">Legs</span>—</div><div class="cell empty"><span class="slot">Feet</span>—</div>
+      </div>
+      <small>Empty slots = keep whatever GearSwap already chose (overlay).</small>
+    </div>
+    <div class="col">
+      <div class="rule">
+        <b>When…</b>
+        <div class="row">Condition: <span class="dd">Buff is active ▾</span> <span class="dd">Doom ▾</span></div>
+        <div class="row">Then: <span class="dd">Add these pieces on top ▾</span> <small>(or: use another version of a set)</small></div>
+        <div class="row">Applies after: <span class="dd">every swap ▾</span> · Priority: <span class="dd">Highest ▾</span></div>
+        <div class="row"><small>Other conditions: weather/day matches the spell · haste tier · HP below % · Aftermath level · pet active</small></div>
+      </div>
+      <p>Your job files need one line to load Nexus sets and rules (the app adds it with your OK, after a backup):</p>
+<pre>include('Nexus-sets.lua')  -- added by Vana'diel Nexus</pre>
+      <span class="btn pri">Save to Nexus-sets.lua</span><span class="btn">Equip now</span>
+    </div>
+  </div>
+</div>
+</body></html>
