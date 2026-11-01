@@ -1,6 +1,6 @@
 _addon.name = 'VanadielNexus'
 _addon.author = 'Vana\'diel Nexus'
-_addon.version = '1.4.0'
+_addon.version = '1.5.0'
 _addon.commands = {'vn', 'vanadielnexus', 'nexus'}
 
 local socket = require('socket')
@@ -371,7 +371,13 @@ end
 
 -- Layout mode (//vn layout): labeled frames stand in for every addon window, because one addon
 -- can't move another's. The app sends the frames and writes the final spots into each addon.
-local layout = {active = false, items = {}, frames = {}, buttons = {}}
+-- FFXI reads the left mouse button itself, so a plain left-drag also walks the character; the
+-- keyboard controls (Tab / arrows / Enter / Esc) and right-button-held dragging avoid that.
+local layout = {active = false, items = {}, frames = {}, buttons = {}, selected = 0, shift = false, swallow = {}}
+local FRAME_COLOR = {90, 34, 211, 238}
+local SELECTED_COLOR = {150, 233, 196, 106}
+local DIK = {esc = 0x01, tab = 0x0F, enter = 0x1C, numpad_enter = 0x9C, lshift = 0x2A, rshift = 0x36}
+local ARROWS = {[0xC8] = {0, -1}, [0xD0] = {0, 1}, [0xCB] = {-1, 0}, [0xCD] = {1, 0}}
 
 local function send_message(kind, body)
     update_sequence = update_sequence + 1
@@ -386,7 +392,8 @@ local function layout_clear()
         f.label:destroy()
     end
     for _, b in pairs(layout.buttons) do b:destroy() end
-    layout.frames, layout.buttons, layout.active = {}, {}, false
+    if layout.hint then layout.hint:destroy() end
+    layout.frames, layout.buttons, layout.hint, layout.active, layout.selected = {}, {}, nil, false, 0
 end
 
 local function layout_button(text, x, y, r, g, b)
@@ -402,6 +409,16 @@ local function layout_button(text, x, y, r, g, b)
     return t
 end
 
+-- The selected frame is the one the arrow keys move
+local function layout_select(index)
+    for n, f in ipairs(layout.frames) do
+        local c = n == index and SELECTED_COLOR or FRAME_COLOR
+        f.box:color(c[2], c[3], c[4])
+        f.box:alpha(c[1])
+    end
+    layout.selected = index
+end
+
 local function layout_show()
     layout_clear()
     local ok_libs, images, texts = pcall(function() return require('images'), require('texts') end)
@@ -410,7 +427,7 @@ local function layout_show()
         local box = images.new({
             pos = {x = it.x, y = it.y},
             size = {width = it.w, height = it.h},
-            color = {alpha = 90, red = 34, green = 211, blue = 238},
+            color = {alpha = FRAME_COLOR[1], red = FRAME_COLOR[2], green = FRAME_COLOR[3], blue = FRAME_COLOR[4]},
             draggable = true,
         })
         local label = texts.new(it.label, {
@@ -427,8 +444,19 @@ local function layout_show()
     local cx = math.floor(ws.ui_x_res / 2)
     layout.buttons.save = layout_button('Save layout', cx - 130, 40, 14, 165, 198)
     layout.buttons.cancel = layout_button('Cancel', cx + 30, 40, 38, 50, 77)
+    layout.hint = texts.new('Tab: next frame    Arrows: move (Shift = 10 px)    Enter: save    Esc: cancel\n'
+        .. 'Mouse: hold the RIGHT button, then drag a frame with the left (left alone walks you)', {
+        pos = {x = cx - 300, y = 82},
+        text = {size = 10, font = 'Arial', stroke = {width = 1, alpha = 255}},
+        bg = {alpha = 200, red = 20, green = 24, blue = 36},
+        padding = 6,
+        flags = {draggable = false},
+    })
+    layout.hint:show()
     layout.active = true
-    windower.add_to_chat(207, '[VanadielNexus] Layout mode: drag the frames, then click Save layout. (//vn layout save | //vn layout cancel)')
+    if #layout.frames > 0 then layout_select(1) end
+    windower.add_to_chat(207, '[VanadielNexus] Layout mode: Tab picks a frame, arrows move it (Shift = 10 px), Enter saves, Esc cancels. '
+        .. 'To drag with the mouse, hold the right button first. (//vn layout save | //vn layout cancel)')
 end
 
 local function layout_finish(save)
@@ -447,14 +475,56 @@ local function layout_finish(save)
     layout_clear()
 end
 
+-- Mouse kinds: 1 left down, 2 left up. The buttons act on release; a click on a frame selects it.
 windower.register_event('mouse', function(kind, x, y, delta, blocked)
-    if not layout.active or blocked then return end
+    if not layout.active then return end
     for name, b in pairs(layout.buttons) do
         if b:hover(x, y) then
             if kind == 2 then layout_finish(name == 'save') end
             return kind == 1 or kind == 2
         end
     end
+    if kind == 1 then
+        for n, f in ipairs(layout.frames) do
+            if f.box:hover(x, y) then
+                layout_select(n)
+                return
+            end
+        end
+    end
+end)
+
+-- Layout keys are kept from the game, press and release, while layout mode is open
+windower.register_event('keyboard', function(dik, pressed, flags, blocked)
+    if dik == DIK.lshift or dik == DIK.rshift then
+        layout.shift = pressed
+        return
+    end
+    if not pressed and layout.swallow[dik] then
+        layout.swallow[dik] = nil
+        return true
+    end
+    if not layout.active or not pressed then return end
+    local info = windower.ffxi.get_info()
+    if info and info.chat_open then return end   -- typing in the chat line
+    if ARROWS[dik] then
+        local f = layout.frames[layout.selected]
+        if f then
+            local step = layout.shift and 10 or 1
+            local x, y = f.box:pos()
+            f.box:pos(x + ARROWS[dik][1] * step, y + ARROWS[dik][2] * step)
+        end
+    elseif dik == DIK.tab then
+        if #layout.frames > 0 then layout_select(layout.selected % #layout.frames + 1) end
+    elseif dik == DIK.enter or dik == DIK.numpad_enter then
+        layout_finish(true)
+    elseif dik == DIK.esc then
+        layout_finish(false)
+    else
+        return
+    end
+    layout.swallow[dik] = true
+    return true
 end)
 
 windower.register_event('incoming chunk', function(id, original, modified, injected, blocked)

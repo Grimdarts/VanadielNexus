@@ -12,6 +12,8 @@ LIBS = '''
         function o:pos(x, y) if x == nil then return self.x, self.y end self.x, self.y = x, y end
         function o:show() self.visible = true end
         function o:destroy() self.alive = false end
+        function o:color(r, g, b) self.rgb = {r, g, b} end
+        function o:alpha(a) self.a = a end
         function o:hover(x, y) return x >= self.x and x <= self.x + self.w and y >= self.y and y <= self.y + self.h end
         created[#created + 1] = o
         return o
@@ -62,5 +64,48 @@ def test_clicking_cancel_closes_without_sending(addon):
     blocked = addon.eval(f'events["mouse"](1, {cancel.x + 2}, {cancel.y + 2}, 0, false)')
     assert blocked is True
     addon.eval(f'events["mouse"](2, {cancel.x + 2}, {cancel.y + 2}, 0, false)')
+    assert len(addon.globals().sent) == 0
+    assert not any(o.alive for o in addon.globals().created.values())
+
+
+
+def press(lua, dik, pressed=True):
+    return lua.eval(f'events["keyboard"]({dik}, {"true" if pressed else "false"}, 0, false)')
+
+
+def test_keyboard_moves_the_selected_frame_and_saves(addon):
+    addon.execute(LIBS)
+    run_prerender(addon, "LAYOUT_BEGIN", "LAYOUT_ITEM|a|100|200|300|100|A",
+                  "LAYOUT_ITEM|b|500|600|100|50|B", "LAYOUT_SHOW")
+    frames = [o for o in addon.globals().created.values() if o.kind == "image"]
+    assert frames[0].a == 150 and frames[1].a == 90          # first frame selected
+    assert press(addon, 0xCD) is True and press(addon, 0xCD, False) is True   # Right: kept from the game
+    assert (frames[0].x, frames[0].y) == (101, 200)
+    press(addon, 0x2A)                                        # Shift held
+    assert press(addon, 0xC8) is True                         # Up 10
+    press(addon, 0x2A, False)
+    assert (frames[0].x, frames[0].y) == (101, 190)
+    assert press(addon, 0x0F) is True                         # Tab: next frame
+    assert frames[1].a == 150 and frames[0].a == 90
+    press(addon, 0xD0)                                        # Down 1 on frame b
+    assert (frames[1].x, frames[1].y) == (500, 601)
+    assert not press(addon, 0x1E)                             # other keys (A) reach the game
+    addon.execute('sent={}')
+    assert press(addon, 0x1C) is True                         # Enter saves
+    result = json.loads(addon.globals().sent[1])
+    assert result["positions"] == {"a": [101, 190], "b": [500, 601]}
+    assert press(addon, 0x1C, False) is True                  # its release is swallowed too
+    assert not press(addon, 0xCD)                             # layout closed: arrows reach the game
+
+
+def test_escape_cancels_and_clicking_a_frame_selects_it(addon):
+    addon.execute(LIBS)
+    run_prerender(addon, "LAYOUT_BEGIN", "LAYOUT_ITEM|a|100|200|300|100|A",
+                  "LAYOUT_ITEM|b|500|600|100|50|B", "LAYOUT_SHOW")
+    frames = [o for o in addon.globals().created.values() if o.kind == "image"]
+    addon.eval('events["mouse"](1, 520, 620, 0, false)')
+    assert frames[1].a == 150 and frames[0].a == 90
+    addon.execute('sent={}')
+    assert press(addon, 0x01) is True
     assert len(addon.globals().sent) == 0
     assert not any(o.alive for o in addon.globals().created.values())
