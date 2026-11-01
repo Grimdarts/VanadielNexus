@@ -5,8 +5,9 @@ from PySide6.QtWidgets import QComboBox, QGridLayout, QMenu, QSplitter, QStacked
 from ...core import materials as mats
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
-from ...core.wiki import build_wiki_urls
+from ...core.wiki import SITES
 from .. import theme, widgets
+from ..item_links import add_open_actions, open_item
 from ..forms import Field, FormDialog
 from ..guide_panel import GuidePanel
 from ..widgets import Column, DataTable
@@ -98,7 +99,7 @@ class GearPage(Page):
         self.edit_btn = widgets.button("Edit", on_click=self._edit)
         self.minus_btn = widgets.button("−1", on_click=lambda: self._step_goal(-1), tooltip="Goal progress −1")
         self.plus_btn = widgets.button("+1", on_click=lambda: self._step_goal(1), tooltip="Goal progress +1")
-        self.wiki_btn = widgets.button("Open BG-Wiki ↗", "ghost", self._open_wiki)
+        self.wiki_btn = widgets.button("Open wiki ↗", "ghost", lambda: self._open_wiki())
         self.remove_btn = widgets.button("Remove", "danger", self._remove)
 
         self.layout_.addLayout(widgets.hbox(self.tabs, None))
@@ -213,8 +214,8 @@ class GearPage(Page):
         self.minus_btn.setVisible(idx == 2)
         self.plus_btn.setVisible(idx == 2)
         self.more_menu.clear()
-        self.more_menu.addAction("Open FFXIAH ↗", lambda: self._open_wiki("ffxiah"))
-        self.more_menu.addAction("Open FFXIclopedia ↗", lambda: self._open_wiki("ffxiclopedia"))
+        for key, label in SITES:
+            self.more_menu.addAction(f"Open on {label} ↗", lambda key=key: self._open_wiki(key))
         self._build_cards()
         self._update_footer()
         self._show_guide()
@@ -302,13 +303,8 @@ class GearPage(Page):
         row["current"] = max(0, int(row.get("current") or 0) + delta)
         self.ctx.save_db()
 
-    def _open_wiki(self, provider: str = "bgwiki") -> None:
-        row = self._table().selected_row()
-        if row is None:
-            return
-        name = row.get("name") or row.get("title", "")
-        url = row.get("wikiUrl") if provider == "bgwiki" and row.get("wikiUrl") else build_wiki_urls(name).get(provider)
-        self.ctx.open_url(url)
+    def _open_wiki(self, site: str = "") -> None:
+        open_item(self.ctx, self._table().selected_row(), site)
 
     def _context_menu(self, pos) -> None:
         if self._table().selected_row() is None:
@@ -316,7 +312,7 @@ class GearPage(Page):
         menu = QMenu(self)
         menu.addAction("Edit", self._edit)
         menu.addAction("Edit materials", self._edit_materials)
-        menu.addAction("Open BG-Wiki ↗", self._open_wiki)
+        add_open_actions(menu, self.ctx, self._table().selected_row())
         menu.addSeparator()
         menu.addAction("Remove", self._remove)
         menu.exec(self._table().viewport().mapToGlobal(pos))

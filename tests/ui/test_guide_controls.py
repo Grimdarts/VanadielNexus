@@ -23,7 +23,7 @@ def test_guide_page_uses_character_and_does_not_import_without_request(qtbot,tmp
     qtbot.addWidget(page)
     assert page.character_combo.currentText()=='Someonesmall'
     assert ctx.db.data['wishlist']==before
-    assert page.set_combo.count()>0
+    assert page.target_combo.count()>0 and page.current_set
     page._track()
     once=len(ctx.db.data['wishlist'])
     page._track()

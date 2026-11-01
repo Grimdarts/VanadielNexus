@@ -9,8 +9,8 @@ from PySide6.QtWidgets import QCheckBox, QComboBox, QFileDialog, QMenu, QStacked
 from ...core.database import new_id
 from ...core.inventory import ITEM_CATEGORIES, consolidate_inventory_items
 from ...core.jsonfile import write_json
-from ...core.wiki import build_wiki_urls
 from .. import theme, widgets
+from ..item_links import add_open_actions, open_item
 from ..widgets import Column, DataTable
 from .base import Page
 
@@ -65,6 +65,7 @@ class InventoryPage(Page):
         for w in (self.category, self.character):
             w.currentTextChanged.connect(self._apply_filters)
         self.scattered.toggled.connect(self._apply_filters)
+        self.table.row_activated.connect(lambda row: open_item(self.ctx, row))
         self.table.setContextMenuPolicy(Qt.CustomContextMenu)
         self.table.customContextMenuRequested.connect(self._context_menu)
 
@@ -81,7 +82,7 @@ class InventoryPage(Page):
         self.layout_.addWidget(self.stack, 1)
         self.layout_.addLayout(widgets.hbox(self.count, None,
                                             widgets.button("Add to wishlist", on_click=self._to_wishlist),
-                                            widgets.button("Open BG-Wiki ↗", "ghost", self._open_wiki)))
+                                            widgets.button("Open wiki ↗", "ghost", self._open_wiki)))
         ctx.inventory_changed.connect(self.refresh)
         ctx.db_changed.connect(self.refresh)
         self.refresh()
@@ -161,14 +162,12 @@ class InventoryPage(Page):
         self.status(f"Added {row['name']} to your wishlist.")
 
     def _open_wiki(self) -> None:
-        row = self.table.selected_row()
-        if row is not None:
-            self.ctx.open_url(build_wiki_urls(row["name"])["bgwiki"])
+        open_item(self.ctx, self.table.selected_row())
 
     def _context_menu(self, pos) -> None:
         if self.table.selected_row() is None:
             return
         menu = QMenu(self)
         menu.addAction("Add to wishlist", self._to_wishlist)
-        menu.addAction("Open BG-Wiki ↗", self._open_wiki)
+        add_open_actions(menu, self.ctx, self.table.selected_row())
         menu.exec(self.table.viewport().mapToGlobal(pos))

@@ -1,6 +1,61 @@
 """Wiki links: build BG-Wiki / FFXIAH / FFXIclopedia URLs and parse pasted URLs back into item names."""
+import os
 import re
 import urllib.parse
+
+# Sites an item can be opened on, in menu order: (key, label)
+SITES = (("bgwiki", "BG-Wiki"), ("ffxiah", "FFXIAH"), ("ffxiclopedia", "FFXIclopedia"))
+
+
+def is_bg_wiki(url: str) -> bool:
+    host = (urllib.parse.urlparse(url or "").hostname or "").lower()
+    return host == "bg-wiki.com" or host.endswith(".bg-wiki.com")
+
+
+_FULL_NAMES = {}  # items.lua path -> {item id: full name}, read once
+
+
+def full_names(windower_dir: str) -> dict:
+    """Full names for items the game shortens ("Chas. Culottes +3" -> "Chasseur's Culottes +3").
+
+    Read from Windower's own res/items.lua, which every player has. BG-Wiki titles its pages by the short names,
+    but FFXIclopedia uses full ones. Empty when Windower isn't found.
+    """
+    path = os.path.join(windower_dir or "", "res", "items.lua")
+    if path not in _FULL_NAMES:
+        names = {}
+        try:
+            with open(path, encoding="utf-8", errors="replace") as source:
+                for line in source:
+                    match = re.search(r'\bid=(\d+),en="([^"]*\.[^"]*)",ja="[^"]*",enl="([^"]+)"', line)
+                    if match:
+                        names[int(match[1])] = " ".join(
+                            word if i and word in ("of", "the", "and") else re.sub(r"[A-Za-z]", lambda m: m[0].upper(), word, count=1)
+                            for i, word in enumerate(match[3].split(" ")))
+        except OSError:
+            pass
+        _FULL_NAMES[path] = names
+    return _FULL_NAMES[path]
+
+
+def item_urls(name: str, item_id=None, wiki_url: str = "", full_name: str = "") -> dict:
+    """One URL per site in SITES for an item.
+
+    wiki_url is a saved link (e.g. a wishlist row's wikiUrl). It is only used for BG-Wiki when it really is a
+    bg-wiki.com page, so a stored FFXIAH set link can never open from a BG-Wiki action. FFXIAH goes straight to
+    the item page when the item ID is known. full_name (see full_names) replaces a shortened name on FFXIclopedia.
+    """
+    custom = wiki_url if is_bg_wiki(wiki_url) else ""
+    urls = build_wiki_urls(name, custom)
+    if full_name:
+        urls["ffxiclopedia"] = build_wiki_urls(full_name)["ffxiclopedia"]
+    try:
+        item_id = int(item_id)
+    except (TypeError, ValueError):
+        item_id = 0
+    if item_id > 0:
+        urls["ffxiah"] = f"https://www.ffxiah.com/item/{item_id}"
+    return urls
 
 
 def build_wiki_urls(item_name: str, custom_bg_url: str = "") -> dict:

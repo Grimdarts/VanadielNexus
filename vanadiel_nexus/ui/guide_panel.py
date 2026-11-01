@@ -4,8 +4,8 @@ from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QFrame, QHBoxLayout, QProgressBar, QScrollArea, QVBoxLayout, QWidget
 
 from ..core import materials
-from ..core.wiki import build_wiki_urls
 from . import theme, widgets
+from .item_links import open_item
 
 
 class GuidePanel(QFrame):
@@ -45,7 +45,7 @@ class GuidePanel(QFrame):
         outer.addWidget(scroll, 1)
 
         self.edit_btn = widgets.button("Edit materials", on_click=lambda: self.on_edit and self.on_edit())
-        self.wiki_btn = widgets.button("BG-Wiki ↗", "ghost", self._open_wiki)
+        self.wiki_btn = widgets.button("Wiki ↗", "ghost", self._open_wiki)
         outer.addLayout(widgets.hbox(self.edit_btn, None, self.wiki_btn))
         ctx.inventory_changed.connect(lambda: self.show_row(self.row))
         self.show_row(None)
@@ -128,6 +128,4 @@ class GuidePanel(QFrame):
             return 0.0
 
     def _open_wiki(self) -> None:
-        if self.row:
-            name = self.row.get("name") or self.row.get("title", "")
-            self.ctx.open_url(self.row.get("wikiUrl") or build_wiki_urls(name)["bgwiki"])
+        open_item(self.ctx, self.row)

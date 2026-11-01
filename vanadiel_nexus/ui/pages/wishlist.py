@@ -5,8 +5,9 @@ from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu, QSplitter
 from ...core import materials, gear_guides
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
-from ...core.wiki import build_wiki_urls, parse_wiki_url_or_name
+from ...core.wiki import parse_wiki_url_or_name
 from .. import theme, widgets
+from ..item_links import add_open_actions, open_item
 from ..forms import Field, FormDialog
 from ..guide_panel import GuidePanel
 from ..widgets import Column, DataTable
@@ -75,7 +76,7 @@ class WishlistPage(Page):
             widgets.button("Edit", on_click=self._edit),
             widgets.button("Track as goal", on_click=self._track_as_goal,
                            tooltip="Add to Gear → Goals so its materials show up with your other progress"),
-            widgets.button("Open BG-Wiki ↗", "ghost", self._open_wiki),
+            widgets.button("Open wiki ↗", "ghost", self._open_wiki),
             widgets.button("Got it!", on_click=self._obtained, tooltip="Remove from the wishlist because you have it"),
             widgets.button("Remove", "danger", self._remove),
         ))
@@ -202,9 +203,7 @@ class WishlistPage(Page):
             self._remove_row(row, f"Removed {row.get('name')}.")
 
     def _open_wiki(self) -> None:
-        row = self.table.selected_row()
-        if row is not None:
-            self.ctx.open_url(row.get("wikiUrl") or build_wiki_urls(row.get("name", ""))["bgwiki"])
+        open_item(self.ctx, self.table.selected_row())
 
     def _context_menu(self, pos) -> None:
         if self.table.selected_row() is None:
@@ -213,7 +212,7 @@ class WishlistPage(Page):
         menu.addAction("Edit", self._edit)
         menu.addAction("Edit materials", self._edit_materials)
         menu.addAction("Track as goal", self._track_as_goal)
-        menu.addAction("Open BG-Wiki ↗", self._open_wiki)
+        add_open_actions(menu, self.ctx, self.table.selected_row())
         menu.addAction("Got it!", self._obtained)
         menu.addSeparator()
         menu.addAction("Remove", self._remove)

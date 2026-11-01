@@ -180,6 +180,7 @@ def consolidate_inventory_items(raw_inventory: list) -> list:
             category = classify_ffxi_item(name, cat_hint, augments)
             grouped[key] = {
                 "name": name,
+                "item_id": row.get("item_id"),
                 "augments": augments,
                 "category": category,
                 "total_count": 0,
@@ -214,6 +215,7 @@ def consolidate_inventory_items(raw_inventory: list) -> list:
 
         results.append({
             "name": e["name"],
+            "item_id": e["item_id"],
             "augments": e["augments"],
             "category": e["category"],
             "total_count": e["total_count"],

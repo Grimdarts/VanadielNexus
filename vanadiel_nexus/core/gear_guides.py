@@ -5,9 +5,44 @@ from collections import Counter
 from .paths import resource_path
 
 
+# What each guide set is for, in picker order, with one plain line about when GearSwap would wear it.
+# tools/classify_guide_sets.py gives every catalog set one of these purposes.
+PURPOSES = {
+    'Idle': 'Worn while standing around or moving, not fighting (GearSwap idle sets).',
+    'Defense': 'Worn to take less damage: physical, magical or both (GearSwap defense / DT sets).',
+    'Melee / TP': 'Worn while engaged and building TP (GearSwap engaged sets).',
+    'Weapon skill': 'Worn for the moment you use this weapon skill (GearSwap precast weapon skill sets).',
+    'Ranged': 'Worn while shooting (GearSwap ranged midcast sets).',
+    'Precast': 'Worn as you start a spell, shot or Blood Pact to make it faster (GearSwap precast sets).',
+    'Midcast: healing': 'Worn while a Cure or other healing spell lands (GearSwap midcast sets).',
+    'Midcast: enhancing': 'Worn while a buff spell lands, for potency or duration (GearSwap midcast sets).',
+    'Midcast: enfeebling': 'Worn while a debuff spell lands, for accuracy, potency or duration (GearSwap midcast sets).',
+    'Midcast: nuking': 'Worn while a damage spell lands, including magic bursts (GearSwap midcast sets).',
+    'Midcast: blue magic': 'Worn while a blue magic spell lands (GearSwap midcast sets).',
+    'Midcast: ninjutsu': 'Worn while a ninjutsu spell lands (GearSwap midcast sets).',
+    'Job ability': 'Worn for the moment you use this job ability (GearSwap precast job ability sets).',
+    'Pet': 'Worn while your pet acts, so its move gets your gear bonuses (GearSwap pet midcast sets).',
+    'Gear reference': 'Not a GearSwap set: a full AF, Relic or Empyrean set to check which pieces you own.',
+}
+
+
 def load_catalog():
     with open(resource_path('gear_guides.json'), encoding='utf-8') as source:
         return json.load(source)
+
+
+def picker_tree(catalog, job):
+    """{purpose: {target: [sets, best version first]}} for one job, purposes in PURPOSES order, targets A-Z."""
+    tree = {}
+    for entry in catalog['sets']:
+        if any(src['job'] == job for src in entry['sources']):
+            tree.setdefault(entry.get('purpose', 'Gear reference'), {}).setdefault(
+                entry.get('target') or entry['label'], []).append(entry)
+    ordered = {}
+    for purpose in [p for p in PURPOSES if p in tree] + [p for p in tree if p not in PURPOSES]:
+        ordered[purpose] = {target: sorted(sets, key=lambda e: (e.get('version_rank', 1), e['label']))
+                            for target, sets in sorted(tree[purpose].items(), key=lambda kv: kv[0].casefold())}
+    return ordered
 
 
 def identity(value):

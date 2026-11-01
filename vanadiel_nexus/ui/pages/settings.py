@@ -1,9 +1,11 @@
 """Settings: Windower folder, text size, where your data lives, version and updates."""
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QFrame, QGridLayout, QSlider, QVBoxLayout
+from PySide6.QtWidgets import QComboBox, QFrame, QGridLayout, QSlider, QVBoxLayout
 
 from ...core import paths
+from ...core.wiki import SITES
 from .. import widgets
+from ..item_links import default_site
 from .base import Page
 
 
@@ -50,6 +52,14 @@ class SettingsPage(Page):
         g.addWidget(widgets.label("Text size", "Caption"), 0, 0)
         g.addWidget(self.scale, 0, 1)
         g.addWidget(self.scale_label, 0, 2)
+        self.wiki_site = QComboBox()
+        for key, name in SITES:
+            self.wiki_site.addItem(name, key)
+        self.wiki_site.setCurrentIndex(max(0, self.wiki_site.findData(default_site(ctx))))
+        self.wiki_site.currentIndexChanged.connect(
+            lambda _i: ctx.settings.set("wiki_site", self.wiki_site.currentData()))
+        g.addWidget(widgets.label("Default wiki site", "Caption"), 1, 0)
+        g.addWidget(self.wiki_site, 1, 1, Qt.AlignLeft)
 
         data_frame, g = _section("Your data")
         g.addWidget(widgets.label("Data folder", "Caption"), 0, 0)

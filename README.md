@@ -22,9 +22,11 @@ installs, configures and reloads them for you.
 | **Addons** | All your addons and plugins with descriptions, what starts with the game, load / unload / reload, and a settings editor for each addon (switches, numbers, colors) that backs up before saving. **Scan for updates** checks addons against their GitHub source and updates only changed files, never your saved settings. A **My Addons** tab helps you write and install your own addons. |
 | **Layout** | Arrange every addon window that draws on the game screen, on a picture of your screen or in game (`//vn layout`). Each job keeps its own layout, windows move when you change job, and an addon can be shown on some jobs and hidden on others. |
 | **Hotkeys** | Every key bind from the game, Windower `init.txt`, GearSwap job files and addons, with only real conflicts flagged (job files that never load together don't count). Change a key or turn a bind off, with a backup. |
-| **Guide upgrades** | FFXIAH guide-linked equipment sets for BLU, SMN, RUN, SCH, NIN, COR, BST and RDM compared against one character's saved inventory. Distinguishes missing items, other tiers and unverified augment requirements. Record explicit augment targets and import a selected set into the wishlist without replacing personal goals. |
+| **Guide upgrades** | FFXIAH guide-linked equipment sets for BLU, SMN, RUN, SCH, NIN, COR, BST and RDM compared against one character's saved inventory. Pick a set by what it's for (idle, TP, a weapon skill, fast cast, cures…), then by gear tier. Distinguishes missing items, other tiers and unverified augment requirements. Record explicit augment targets and import a selected set into the wishlist without replacing personal goals. |
 | **G13 controls** | The active Nova GearSwap job exports its actual G-key labels and mode selections. Preview M1/M2/M3 or follow the last G-key. Stale exports are cleared; the physical mode LED and thumb mappings are not inferred. |
 | **Settings** | Windower folder, text size, where your data lives, and updates. |
+
+Right-click any item on Gear, Wishlist, Inventory or Guide upgrades to open it on BG-Wiki, FFXIAH or FFXIclopedia; **Settings** picks the site that double-click (on Inventory and Guide upgrades) and the Open wiki buttons use.
 
 ## Install
 

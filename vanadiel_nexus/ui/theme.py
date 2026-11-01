@@ -62,6 +62,9 @@ QPushButton[kind="danger-fill"] {{ background: {DANGER}; color: {BG}; border-col
 /* Status pills */
 QPushButton[pill="true"], QLabel[pill="true"] {{ border-radius: 11px; padding: 2px 10px; font-size: {px(12)};
     font-weight: 500; border: 1px solid {BORDER}; background: {SURFACE}; color: {MUTED}; }}
+QPushButton[pill="true"]:hover {{ color: {TEXT}; border-color: #3A4A70; }}
+QPushButton[pill="true"]:checked {{ color: {ACCENT}; border-color: rgba(34, 211, 238, 0.55);
+    background: rgba(34, 211, 238, 0.10); }}
 *[tone="warning"] {{ color: {WARNING}; border-color: rgba(245, 158, 11, 0.35); background: rgba(245, 158, 11, 0.08); }}
 *[tone="success"] {{ color: {SUCCESS}; border-color: rgba(52, 211, 153, 0.3); background: rgba(52, 211, 153, 0.07); }}
 *[tone="gold"] {{ color: {GOLD}; border-color: rgba(224, 176, 74, 0.35); background: rgba(224, 176, 74, 0.08); }}
