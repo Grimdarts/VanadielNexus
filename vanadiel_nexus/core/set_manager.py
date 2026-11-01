@@ -1,15 +1,16 @@
 """What each GearSwap set needs and whether this character can wear it. Qt-free.
 
-Reading half (slice 1, commit 1): bag rules, augment matching as GearSwap does it, the per-set allocation of
-owned copies to slots, and the purpose of each set. See docs/SET-MANAGER-ENG-REVIEW.md section 5.
+Bag rules, augment matching as GearSwap does it, per-set allocation, purposes, tier upgrades and copy-paste
+fix plans. See docs/SET-MANAGER-ENG-REVIEW.md section 5. No function here writes a player's Lua.
 """
 import re
+from pathlib import Path
 from collections import Counter
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from . import item_res
 from .gear_guides import PURPOSES, RANK_RE, identity
-from .gearswap_reader import SLOT_ORDER, JobRead, Piece, SetRead
+from .gearswap_reader import SLOT_ORDER, JobRead, Piece, SetRead, normalise_path, strip_comments
 from .item_res import bag_key
 
 # Bags GearSwap can equip from (res/bags.lua equippable=true), as bag_keys.
@@ -328,6 +329,7 @@ class SetView:
     set_read: SetRead
     purpose: str
     statuses: dict[str, SlotStatus] = field(default_factory=dict)
+    upgrades: dict[str, list] = field(default_factory=dict)
 
     @property
     def attention(self) -> int:
@@ -354,10 +356,435 @@ def build_views(job_read: JobRead, snapshot: dict, windower_dir: str, ws_names=N
             rows_all.append(row)
             if key.casefold() == job_read.character.casefold():
                 rows_char.append(row)
+    families = {}
+    for row in rows_char:
+        item = game.items.get(row.get('item_id'))
+        if item is not None:
+            families.setdefault(_tier(item.en)[0], []).append(row)
+    upgrade_cache = {}
+
+    def upgrades(piece):
+        key = piece.name.casefold(), piece.slot
+        if key not in upgrade_cache:
+            upgrade_cache[key] = tier_upgrades(piece, game, rows_char, game.job_ids.get(job_read.job), _families=families)
+        return upgrade_cache[key]
+
     return [SetView(s, classify(s.keys, ws_names, ja_names),
-                    allocate(s, rows_char, rows_all, game, job_read.job, state, job_read.character))
+                    allocate(s, rows_char, rows_all, game, job_read.job, state, job_read.character),
+                    {slot: upgrades(piece)
+                     for slot, piece in s.pieces.items() if not piece.empty})
             for s in job_read.sets]
 
 
 def summary_counts(views) -> Counter:
     return Counter(view.purpose for view in views)
+
+
+# ---------------------------------------------------------------- copy-paste fixes (never writes Lua)
+
+def _tier(name):
+    match = re.search(r'\s\+(\d+)$', name)
+    return identity(name[:match.start()] if match else name), int(match[1]) if match else 0
+
+
+def tier_upgrades(piece: Piece, game: GameData, rows_char: list, job_id: int | None, *, _families=None) -> list:
+    ids, problem = resolve(piece, game, next((j for j, i in game.job_ids.items() if i == job_id), ''))
+    if piece.empty or problem:
+        return []
+    families = {_tier(game.items[i].en) for i in ids}
+    result = []
+    pool = rows_char if _families is None else [row for base in {base for base, _tier_number in families}
+                                               for row in _families.get(base, [])]
+    for row in pool:
+        item = game.items.get(row.get('item_id'))
+        if item is None or not item_res.fits(item, piece.slot) or (job_id is not None and not item_res.wearable(item, job_id)):
+            continue
+        base, tier = _tier(item.en)
+        if any(base == old_base and tier > old_tier for old_base, old_tier in families):
+            result.append(row)
+    return sorted(result, key=lambda r: (-_tier(game.items[r['item_id']].en)[1],
+                                         not reachable(r.get('bag', '')), bag_key(r.get('bag', ''))))
+
+
+def lua_str(value: str, quote: str = '"') -> str:
+    """A quoted Lua string; three-digit control escapes cannot swallow a following digit."""
+    if quote not in ('"', "'"):
+        raise ValueError('Lua quote must be single or double')
+    escaped = []
+    for char in str(value):
+        escaped.append('\\' + char if char in ('\\', quote) else
+                       {'\n': r'\n', '\r': r'\r', '\t': r'\t'}.get(char, '\\%03d' % ord(char))
+                       if ord(char) < 32 or ord(char) == 127 else char)
+    return quote + ''.join(escaped) + quote
+
+
+def _replacement(piece, new_row, bag_names=None, table=False):
+    augments = split_augments(new_row.get('augments', ''))
+    assert equip_match(augments, new_row.get('augments', ''))
+    name = lua_str(new_row['name'])
+    if not (table or augments or piece.priority is not None or piece.bag):
+        return name
+    fields = ['name=' + name]
+    if augments:
+        fields.append('augments={' + ','.join(lua_str(a, "'") for a in augments) + '}')
+    if piece.priority is not None:
+        fields.append(f'priority={int(piece.priority)}')
+    if piece.bag:
+        key = bag_key(new_row.get('bag', ''))
+        defaults = {'inventory': 'Inventory', 'wardrobe': 'Wardrobe',
+                    **{f'wardrobe{n}': f'Wardrobe {n}' for n in range(2, 9)}}
+        bag = (bag_names or {}).get(key, defaults.get(key, new_row.get('bag', '')))
+        if not reachable(bag):
+            raise ValueError('Move this copy to an inventory bag before making a designated-bag fix')
+        fields.append('bag=' + lua_str(bag))
+    return '{ ' + ', '.join(fields) + ' }'
+
+
+def fix_snippet(piece: Piece, new_row: dict, bag_names=None) -> str:
+    # gstack-shortcut(dec-4891397d): snippets instead of writing hand-written sets,
+    # upgrade when copy-paste fixes feel too tedious (Approach B).
+    key = piece.original_key
+    if not re.fullmatch(r'[A-Za-z_]\w*', key):
+        key = '[' + lua_str(key) + ']'
+    return key + '=' + _replacement(piece, new_row, bag_names) + ','
+
+
+@dataclass
+class Location:
+    candidates: list[tuple[str, int]] = field(default_factory=list)
+
+    @property
+    def verified(self):
+        return len(self.candidates) == 1
+
+    @property
+    def file(self):
+        return self.candidates[0][0] if self.verified else ''
+
+    @property
+    def line(self):
+        return self.candidates[0][1] if self.verified else None
+
+
+_SOURCE_TOKEN = re.compile(r'''"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\[(=*)\[.*?\]\1\]|[A-Za-z_]\w*|\d+|[^\s]''', re.S)
+
+
+def _string_value(token):
+    if token.startswith(('"', "'")):
+        escapes = {'n': '\n', 'r': '\r', 't': '\t', 'a': '\a', 'b': '\b', 'f': '\f', 'v': '\v'}
+        return re.sub(r'\\(\d{1,3}|.)', lambda m: chr(int(m[1])) if m[1].isdigit()
+                      else escapes.get(m[1], m[1]), token[1:-1])
+    match = re.match(r'\[(=*)\[', token)
+    return token[match.end():-(len(match[1]) + 2)].lstrip('\n') if match else None
+
+
+def _table_fields(tokens, values, start, end):
+    """Literal table fields as (key position, key, value start, value end), excluding nested fields."""
+    i = start + 1
+    while i < end and tokens[i][0] != '}':
+        if tokens[i][0] in (',', ';'):
+            i += 1
+            continue
+        key_pos, key, equal = i, tokens[i][0], i + 1
+        if key == '[' and i + 3 < end and values[i+1] is not None and tokens[i+2][0] == ']':
+            key, equal = values[i+1], i + 3
+        named = equal < end and tokens[equal][0] == '='
+        value_start = equal + 1 if named else i
+        j, stack = value_start, []
+        while j < end:
+            token = tokens[j][0]
+            if not stack and token in (',', ';', '}'):
+                break
+            if token in ('{', '(', '['):
+                stack.append(token)
+            elif token in ('}', ')', ']'):
+                if stack:
+                    stack.pop()
+                else:
+                    break
+            j += 1
+        if named:
+            yield key_pos, key, value_start, j
+        i = max(j, i + 1)
+
+
+def _literal_item_name(tokens, values, start, end, old_name):
+    if end == start + 1:
+        return values[start] is not None and identity(values[start]) == identity(old_name)
+    if start < end and tokens[start][0] == '{':
+        names = [(a, b) for _pos, key, a, b in _table_fields(tokens, values, start, end) if key == 'name']
+        return len(names) == 1 and _literal_item_name(tokens, values, *names[0], old_name)
+    return False
+
+
+def _slot_field_positions(tokens, values, start, end, slot, old_name):
+    # Only the set literal itself or literal arguments to set_combine are verified. Dynamic builders and
+    # function bodies cannot prove where the runtime value came from, so they retain ambiguous guidance.
+    if any(t == 'function' for t, _pos in tokens[start:end]):
+        return []
+    literal = tokens[start][0] == '{'
+    combine = tokens[start][0] == 'set_combine'
+    if not literal and not combine:
+        return []
+    arguments = [(start, end)]
+    if combine:
+        arguments, stack, first = [], [], start + 2
+        for i in range(first, end - 1):
+            token = tokens[i][0]
+            if token == ',' and not stack:
+                arguments.append((first, i))
+                first = i + 1
+            elif token in ('{', '(', '['):
+                stack.append(token)
+            elif token in ('}', ')', ']') and stack:
+                stack.pop()
+        arguments.append((first, end - 1))
+    found = []
+    for a, b in arguments:
+        if a >= b or tokens[a][0] != '{' or tokens[b-1][0] != '}':
+            found = []  # A later unresolved argument may override any earlier literal slot.
+            continue
+        for pos, key, value_start, value_end in _table_fields(tokens, values, a, b):
+            if identity(key) == identity(slot):
+                found = [pos] if _literal_item_name(tokens, values, value_start, value_end, old_name) else []
+    return found
+
+
+def find_line(files, set_path: str, old_name: str, old_augments=(), *, slot: str = '', _sources=None) -> Location:
+    """Verify one source location, or retain candidates without guessing (eng D22).
+
+    A tiny lexer keeps strings out of path/brace matching. Shared item definitions must contain the name
+    and every old augment in one item table, never just a common first augment in a neighbouring table.
+    Slot fixes also verify the original slot field; another slot's matching item is never its destination.
+    """
+    candidates = []
+    slot_reassigned = False
+    set_assignments = 0
+    for filename in dict.fromkeys(files):
+        cached = _sources.get(filename) if _sources is not None else None
+        if cached is None:
+            try:
+                source = strip_comments(Path(filename).read_text(encoding='utf-8-sig', errors='replace'))
+            except OSError:
+                continue
+            tokens = [(m[0], m.start()) for m in _SOURCE_TOKEN.finditer(source)]
+            values = [_string_value(t) for t, _ in tokens]
+            cached = source, tokens, values
+            if _sources is not None:
+                _sources[filename] = cached
+        source, tokens, values = cached
+        if not set_path and not any(identity(v) == identity(old_name) for v in values if v is not None):
+            continue
+        if set_path:
+            assignments = []
+            for i, (token, pos) in enumerate(tokens):
+                if token != 'sets' or (i and tokens[i-1][0] in ('.', ':')):
+                    continue
+                j = i + 1
+                while j < len(tokens):
+                    if tokens[j][0] == '.' and j + 1 < len(tokens) and re.fullmatch(r'[A-Za-z_]\w*', tokens[j+1][0]):
+                        j += 2
+                    elif tokens[j][0] == '[' and j + 2 < len(tokens) and tokens[j+2][0] == ']':
+                        j += 3
+                    else:
+                        break
+                if j < len(tokens) and tokens[j][0] == '=' and (j+1 == len(tokens) or tokens[j+1][0] != '='):
+                    assignments.append((i, j, normalise_path(source[pos:tokens[j][1]], case_sensitive=True)))
+            # A field snippet cannot replace a standalone assignment, and its presence means an earlier
+            # set-literal field may be overwritten. Across includes the execution order is not provable.
+            prefix = normalise_path(set_path, case_sensitive=True) + '.'
+            set_assignments += sum(path == prefix[:-1] for _i, _j, path in assignments)
+            if slot and any(path.startswith(prefix) and identity(path[len(prefix):]) == identity(slot)
+                            for _i, _j, path in assignments):
+                slot_reassigned = True
+            for n, (i, j, path) in enumerate(assignments):
+                end = assignments[n+1][0] if n+1 < len(assignments) else len(tokens)
+                if path != normalise_path(set_path, case_sensitive=True) or j + 1 >= end:
+                    continue
+                # Bound the RHS expression: an unrelated string later in the function is not evidence.
+                first = j + 1
+                if tokens[first][0] in ('{', '('):
+                    opening = first
+                elif first + 1 < end and tokens[first + 1][0] == '(':
+                    opening = first + 1  # e.g. set_combine(...)
+                else:
+                    opening = None
+                    end = first + 1
+                if opening is not None:
+                    stack = []
+                    for k in range(opening, end):
+                        token = tokens[k][0]
+                        if token in ('{', '('):
+                            stack.append(token)
+                        elif token in ('}', ')'):
+                            if stack:
+                                stack.pop()
+                            if not stack:
+                                end = k + 1
+                                break
+                if slot:
+                    positions = _slot_field_positions(tokens, values, first, end, slot, old_name)
+                else:
+                    positions = [k for k in range(first, end) if values[k] is not None
+                                 and identity(values[k]) == identity(old_name)]
+                candidates.extend((filename, source.count('\n', 0, tokens[k][1]) + 1) for k in positions)
+        else:
+            stack = []
+            for i, (token, pos) in enumerate(tokens):
+                if token == '{':
+                    stack.append(i)
+                elif token == '}' and stack:
+                    start = stack.pop()
+                    # Only a direct name= field identifies an item table (not its outer registry).
+                    depth, named = 0, False
+                    for j in range(start + 1, i - 1):
+                        t = tokens[j][0]
+                        if t == '{':
+                            depth += 1
+                        elif t == '}':
+                            depth -= 1
+                        elif depth == 0 and t == 'name' and tokens[j+1][0] == '=' and identity(values[j+2]) == identity(old_name):
+                            named = True
+                    strings = Counter(v for v in values[start+1:i] if v is not None)
+                    if named and not (Counter(split_augments(old_augments)) - strings):
+                        candidates.append((filename, source.count('\n', 0, tokens[start][1]) + 1))
+    # Multiple whole-set assignments can replace a matching literal with a dynamic table. Without an
+    # execution trace, a single surviving name literal does not prove which definition is active.
+    unique = list(dict.fromkeys(candidates))
+    if slot_reassigned or (slot and set_assignments > 1 and len(unique) == 1):
+        return Location()
+    return Location(unique)
+
+
+@dataclass
+class FixTarget:
+    key: tuple
+    path: str
+    slot: str
+    snippet: str
+    affected_sets: list[str]
+    location: Location
+    blocked_reason: str = ''
+
+
+@dataclass
+class FixPlan:
+    old_name: str
+    new_name: str
+    targets: list[FixTarget] = field(default_factory=list)
+
+    @property
+    def copyable_targets(self):
+        return [target for target in self.targets if target.snippet and not target.blocked_reason]
+
+    def text(self):
+        # Comments must stay on one line even when player-supplied names/paths contain controls.
+        clean = lambda s: str(s).replace('\r', ' ').replace('\n', ' ')
+        lines = [f'-- Vana\'diel Nexus: {clean(self.old_name)} → {clean(self.new_name)} ({len(self.copyable_targets)} places)']
+        for target in self.targets:
+            where = (f'{target.location.file}, line {target.location.line}' if target.location.verified else
+                     f'Location ambiguous: search your files for {target.path or self.old_name}')
+            lines.append(f'-- {clean(target.path or "shared definition")} ({clean(where)})')
+            lines.append('-- Skipped: ' + clean(target.blocked_reason) if target.blocked_reason else target.snippet)
+        return '\n'.join(lines)
+
+
+def slot_fix_plan(job_read: JobRead, selected: SetRead, piece: Piece, new_row: dict, game: GameData) -> FixPlan:
+    """An explicitly selected correction for an unknown name; never guess matching items or registry edits."""
+    plan = FixPlan(piece.name, new_row['name'])
+    item = game.items.get(new_row.get('item_id'))
+    job_id = game.job_ids.get(job_read.job)
+    if item is None or not item_res.fits(item, piece.slot) or (job_id is not None and not item_res.wearable(item, job_id)):
+        return plan
+    sets = {s.path: s for s in job_read.sets}
+    affected = [selected.path]
+    for s in job_read.sets:
+        path, seen = s.path, set()
+        while path in sets and path not in seen and path != selected.path:
+            seen.add(path)
+            p = sets[path].pieces.get(piece.slot)
+            path = p.inherited_from if p else ''
+        if path == selected.path and s.path != selected.path:
+            affected.append(s.path)
+    location = (Location() if selected.odd_path else
+                find_line(job_read.files, selected.path, piece.name, slot=piece.original_key))
+    plan.targets = [FixTarget(('set', selected.path, piece.slot), selected.path, piece.slot,
+                             fix_snippet(piece, new_row, game.bag_names), affected, location)]
+    return plan
+
+
+def fix_plan(job_read: JobRead, old_item_id: int, old_aug_key, new_row: dict, game: GameData) -> FixPlan:
+    """Deduplicate paste destinations, tracing inherited slots to their verified root first."""
+    old_item = game.items.get(old_item_id)
+    replacement = game.items.get(new_row.get('item_id'))
+    plan = FixPlan(old_item.en if old_item else '', new_row['name'])
+    job_id = game.job_ids.get(job_read.job)
+    if old_item is None or replacement is None or (job_id is not None and not item_res.wearable(replacement, job_id)):
+        return plan
+    sets = {s.path: s for s in job_read.sets}
+    direct = {}
+    incompatible_tables = set()
+    for s in job_read.sets:
+        for p in s.pieces.values():
+            if p.table_id and not item_res.fits(replacement, p.slot):
+                incompatible_tables.add(p.table_id)
+            if p.table_id and not p.origin_path and not p.inherited_from:
+                direct.setdefault(p.table_id, set()).add(s.path)
+    targets = {}
+    sources = {}  # Source text/tokens are read once per plan, never cached across file changes.
+    for s in job_read.sets:
+        for slot, piece in s.pieces.items():
+            ids, problem = resolve(piece, game, job_read.job)
+            if (piece.empty or problem or old_item_id not in ids or not item_res.fits(replacement, slot)
+                    or (piece.augments and augment_key(piece.augments) != old_aug_key)):
+                continue
+            root = sets.get(piece.origin_path or piece.inherited_from, s)
+            base = root.pieces.get(slot, piece)
+            shared = bool(base.table_id and base.table_id not in incompatible_tables
+                          and len(direct.get(base.table_id, ())) > 1)
+            key = ('table', base.table_id) if shared else ('set', root.path, slot)
+            if key not in targets:
+                blocked_reason = ''
+                try:
+                    snippet = (_replacement(base, new_row, game.bag_names, table=True) if shared else
+                               fix_snippet(base, new_row, game.bag_names))
+                except ValueError as error:
+                    snippet, blocked_reason = '', str(error)
+                location = (find_line(job_read.files, '', base.name, base.augments, _sources=sources) if shared else
+                            Location() if root.odd_path else
+                            find_line(job_read.files, root.path, base.name, slot=base.original_key, _sources=sources))
+                targets[key] = FixTarget(key, '' if shared else root.path, slot, snippet, [], location, blocked_reason)
+            if s.path not in targets[key].affected_sets:
+                targets[key].affected_sets.append(s.path)
+    plan.targets = list(targets.values())
+    return plan
+
+
+def copy_shortages(job_read: JobRead, targets: list[FixTarget], new_row: dict, rows_char: list, game: GameData) -> list[str]:
+    """Warn when the proposed edit asks paired slots to share too few matching physical copies."""
+    warnings = []
+    for original in job_read.sets:
+        pieces = dict(original.pieces)
+        changed = False
+        for target in targets:
+            if target.blocked_reason or original.path not in target.affected_sets:
+                continue
+            for slot, piece in original.pieces.items():
+                applies = piece.table_id == target.key[1] if target.key[0] == 'table' else slot == target.slot
+                if applies:
+                    pieces[slot] = replace(piece, name=new_row['name'], augments=split_augments(new_row.get('augments', '')),
+                                           bag=new_row.get('bag', '') if piece.bag else '', empty=False)
+                    changed = True
+        if not changed:
+            continue
+        related = {slot: piece for slot, piece in pieces.items()
+                   if not piece.empty and new_row['item_id'] in resolve(piece, game, job_read.job)[0]}
+        if len(related) < 2:
+            continue
+        ids = {item_id for piece in related.values() for item_id in resolve(piece, game, job_read.job)[0]}
+        rows = [row for row in rows_char if row.get('item_id') in ids]
+        statuses = allocate(replace(original, pieces=related), rows, [], game, job_read.job, 'ok', job_read.character)
+        if any(status.kind == 'missing' and status.detail.startswith('only ') for status in statuses.values()):
+            slots = ' / '.join(SLOT_LABELS[slot] for slot in related)
+            warnings.append(f'{original.path}: not enough matching copies for {slots}.')
+    return warnings

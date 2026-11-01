@@ -19,7 +19,7 @@ import time
 from PySide6.QtCore import QEasingCurve, QEvent, QObject, QPoint, QPropertyAnimation, QRunnable, Qt, QThreadPool, Signal
 from PySide6.QtGui import QColor, QFont, QKeySequence, QShortcut
 from PySide6.QtWidgets import (
-    QAbstractItemView, QComboBox, QFrame, QHBoxLayout, QHeaderView, QLabel, QPlainTextEdit, QScrollArea, QSplitter,
+    QAbstractItemView, QApplication, QComboBox, QFrame, QHBoxLayout, QHeaderView, QLabel, QLineEdit, QMenu, QPlainTextEdit, QScrollArea, QSplitter,
     QStackedWidget, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QWidget,
 )
 
@@ -27,6 +27,7 @@ from ...core import gearswap_files, gearswap_reader, item_res, set_manager
 from ...core.jobs import ALL_FFXI_JOBS
 from .. import theme, widgets
 from ..equip_grid import SLOT_LABELS, CellData, EquipGrid, describe
+from ..item_links import add_open_actions
 from .base import Page
 
 JOBS = [job for job in ALL_FFXI_JOBS if job != 'All']
@@ -175,6 +176,7 @@ class SetsPage(Page):
         self._latest = 0
         self._busy = False
         self._pending = None
+        self._focus_choice = None
         self._shown_once = False
         self._filter_installed = False
         self.pinned = False
@@ -201,7 +203,20 @@ class SetsPage(Page):
         self.sub_combo.addItems(['None'] + JOBS)
         self.reload_btn = widgets.button('⟳ Reload files', 'ghost', lambda: self.request(force=True),
                                          'Read the Lua files again (F5)')
-        self.toolbar.add(self.character_combo, self.job_combo, self.sub_combo, self.reload_btn)
+        self.selector_labels = {}
+        for text, combo in (('Character', self.character_combo), ('Main job', self.job_combo), ('Sub job', self.sub_combo)):
+            field = QWidget()
+            lay = QVBoxLayout(field)
+            lay.setContentsMargins(0, 0, 0, 0)
+            lay.setSpacing(4)
+            caption = widgets.label(text, 'Caption')
+            caption.setBuddy(combo)
+            combo.setAccessibleName(text)
+            lay.addWidget(caption)
+            lay.addWidget(combo)
+            self.selector_labels[text] = caption
+            self.toolbar.add(field)
+        self.toolbar.add(self.reload_btn)
         self.character_combo.activated.connect(self._character_picked)
         self.job_combo.activated.connect(lambda _i: self._manual_pick())
         self.sub_combo.activated.connect(lambda _i: self._manual_pick())
@@ -231,7 +246,7 @@ class SetsPage(Page):
         self.shared_note.hide()
         tl.addWidget(self.shared_note)
         self.tree = QTreeWidget()
-        self.tree.setColumnCount(2)
+        self.tree.setColumnCount(3)
         self.tree.setHeaderHidden(True)
         self.tree.setTextElideMode(Qt.ElideMiddle)
         self.tree.setIndentation(14)
@@ -243,6 +258,7 @@ class SetsPage(Page):
         self.tree.header().setStretchLastSection(False)
         self.tree.header().setSectionResizeMode(0, QHeaderView.Stretch)
         self.tree.header().setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        self.tree.header().setSectionResizeMode(2, QHeaderView.ResizeToContents)
         self.tree.currentItemChanged.connect(self._tree_selected)
         tl.addWidget(self.tree, 1)
         self.no_match = QWidget()
@@ -331,9 +347,79 @@ class SetsPage(Page):
         self.panel_note.setStyleSheet(f'color: {theme.WARNING}; font-size: {round(12 * self._scale())}px;')
         self.panel_placeholder = widgets.label('Click a slot to see what you own for it.', 'Caption', wrap=True)
         pl.addWidget(self.back_btn, 0, Qt.AlignLeft)
+        panel_content = QWidget()
+        content_layout = QVBoxLayout(panel_content)
+        content_layout.setContentsMargins(0, 0, 0, 0)
         for widget in (self.panel_slot, self.panel_name, self.panel_info, self.panel_note, self.panel_placeholder):
-            pl.addWidget(widget)
-        pl.addStretch(1)
+            content_layout.addWidget(widget)
+        self.item_links_btn = widgets.button('Current item links ↗', 'ghost')
+        self.item_links_btn.setAccessibleName('Wiki links for current item')
+        self.item_links_btn.setMenu(QMenu(self.item_links_btn))
+        content_layout.addWidget(self.item_links_btn, 0, Qt.AlignLeft)
+        self.replacements = QWidget()
+        rl = QVBoxLayout(self.replacements)
+        rl.setContentsMargins(0, 8, 0, 0)
+        rl.addWidget(widgets.label('Owned replacements', 'SectionTitle'))
+        self.replacement_filter = QLineEdit()
+        self.replacement_filter.setPlaceholderText('Filter replacements…')
+        self.replacement_filter.setAccessibleName('Filter owned replacements')
+        self.replacement_filter.textChanged.connect(self._filter_replacements)
+        rl.addWidget(self.replacement_filter)
+        self.replacement_list = QTreeWidget()
+        self.replacement_list.setHeaderHidden(True)
+        self.replacement_list.setFrameShape(QFrame.NoFrame)
+        self.replacement_list.setColumnCount(1)
+        self.replacement_list.setTextElideMode(Qt.ElideNone)
+        self.replacement_list.setIndentation(12)
+        self.replacement_list.setAccessibleName('Owned replacements')
+        self.replacement_list.setMinimumHeight(160)
+        self.replacement_list.setMaximumHeight(260)
+        self.replacement_list.currentItemChanged.connect(self._replacement_selected)
+        rl.addWidget(self.replacement_list)
+        self.replacement_details = widgets.label('', 'Caption', wrap=True)
+        self.replacement_details.setTextFormat(Qt.PlainText)
+        rl.addWidget(self.replacement_details)
+        self.replacement_links_btn = widgets.button('Replacement links ↗', 'ghost')
+        self.replacement_links_btn.setAccessibleName('Wiki links for selected replacement')
+        self.replacement_links_btn.setMenu(QMenu(self.replacement_links_btn))
+        rl.addWidget(self.replacement_links_btn, 0, Qt.AlignLeft)
+        self.copy_area = QWidget()
+        ca = QVBoxLayout(self.copy_area)
+        ca.setContentsMargins(0, 4, 0, 0)
+        self.copy_scope = widgets.label('', wrap=True)
+        self.copy_scope.setTextFormat(Qt.PlainText)
+        self.affected_btn = widgets.button('', 'ghost', self._toggle_affected)
+        self.affected_sets = widgets.label('', 'Caption', wrap=True)
+        self.affected_sets.setTextFormat(Qt.PlainText)
+        self.copy_location = widgets.label('', 'Caption', wrap=True)
+        self.copy_location.setTextFormat(Qt.PlainText)
+        self.copy_warning = widgets.label('', wrap=True)
+        self.copy_warning.setTextFormat(Qt.PlainText)
+        self.copy_warning.setStyleSheet(f'color: {theme.WARNING};')
+        self.copy_warning.setAccessibleName('Copy availability warning')
+        self.snippet = QPlainTextEdit()
+        self.snippet.setReadOnly(True)
+        self.snippet.setAccessibleName('Copy-paste Lua snippet')
+        self.snippet.setFont(QFont('Consolas', 10))
+        self.snippet.setFixedHeight(100)
+        self.copy_btn = widgets.button('Copy slot line', 'primary', self._copy_fix)
+        self.open_file_btn = widgets.button('Open file', on_click=self._open_file)
+        self.copy_all_btn = widgets.button('', on_click=lambda: self._copy_fix(all_targets=True))
+        self.copy_note = widgets.label('This set is in your own Lua, so the app won’t change it. '
+                                       'Paste this in place of the current slot line.', 'Caption', wrap=True)
+        for widget in (self.copy_scope, self.affected_btn, self.affected_sets, self.copy_location, self.copy_warning, self.snippet,
+                       self.copy_btn, self.open_file_btn, self.copy_all_btn, self.copy_note):
+            ca.addWidget(widget)
+        rl.addWidget(self.copy_area)
+        content_layout.addWidget(self.replacements)
+        content_layout.addStretch(1)
+        panel_scroll = QScrollArea()
+        panel_scroll.setWidgetResizable(True)
+        panel_scroll.setFrameShape(QFrame.NoFrame)
+        panel_scroll.setWidget(panel_content)
+        pl.addWidget(panel_scroll, 1)
+        self._copy_plan = None
+        self._copy_target = None
 
         self.split = QSplitter(Qt.Horizontal)
         self.split.setChildrenCollapsible(False)
@@ -378,6 +464,8 @@ class SetsPage(Page):
 
     def _apply_label_styles(self) -> None:
         scale = self._scale()
+        self.snippet.setStyleSheet(f'background: {theme.SURFACE_2}; border-radius: 6px; '
+                                  f'font-family: Consolas; font-size: {round(13 * scale)}px;')
         self.path_label.setStyleSheet(f'font-size: {round(14 * scale)}px;')
         self.attention_title.setStyleSheet(f'font-size: {round(14 * scale)}px; font-weight: 600;')
         for row in self.attention_rows:
@@ -421,7 +509,7 @@ class SetsPage(Page):
         elif obj is self.window() and event.type() == QEvent.ActivationChange:
             # Back from pasting in an editor: re-read quietly; unchanged files are a cache hit (design D11).
             if self.window().isActiveWindow() and self.isVisible() and self.read is not None:
-                self.request()
+                self.request(preserve_replacement=True)
         return False
 
     def _fill_contexts(self) -> bool:
@@ -497,6 +585,7 @@ class SetsPage(Page):
 
     # --- picking ----------------------------------------------------------
     def _character_picked(self, _index) -> None:
+        self._clear_panel()
         self.ctx.settings.set('sets_character', self.character_combo.currentText())
         self.pinned = True
         if self._fill_jobs():
@@ -511,7 +600,7 @@ class SetsPage(Page):
     def _game_state(self, _state: dict) -> None:
         """Follow the game's character and job unless a job was picked by hand (design D12)."""
         name, job, sub = self._live()
-        if self._shown_once and not self.pinned and name and job:
+        if self._shown_once and not self.pinned and self._copy_target is None and name and job:
             if (name, job, sub) != self._context():
                 if self.character_combo.findText(name) < 0:
                     self.character_combo.addItem(name)
@@ -521,6 +610,7 @@ class SetsPage(Page):
         self._update_follow()
 
     def _follow_game(self) -> None:
+        self._reset_copy()
         self.pinned = False
         self._game_state(self.ctx.bridge.state or {})
 
@@ -533,14 +623,25 @@ class SetsPage(Page):
         self.follow_btn.setVisible(show)
 
     # --- reading ----------------------------------------------------------
-    def request(self, force: bool = False) -> None:
+    def request(self, force: bool = False, *, preserve_replacement: bool = False) -> None:
         """Read the picked job. One read at a time; requests made meanwhile collapse to the latest (eng D15)."""
         character, job, sub = self._context()
         if not character or not job:
             return
+        key = (self._windower(), character, job, sub)
+        choice = None
+        if preserve_replacement and not force and key == self._read_key and self._copy_target is not None:
+            entry = self.replacement_list.currentItem()
+            view = self.view_by_path.get(self.current_path)
+            row = entry.data(0, Qt.UserRole) if entry is not None else None
+            if row and view:
+                choice = (key, self.current_path, self.current_slot, view.set_read.pieces.get(self.current_slot),
+                          row, dict(self.read.files), self.read.path)
+        self._focus_choice = choice
+        self._reset_copy()
+        self.replacements.setEnabled(False)
         self._generation += 1
         self._latest = self._generation
-        key = (self._windower(), character, job, sub)
         args = {'windower_dir': self._windower(), 'character': character, 'job': job, 'sub_job': sub,
                 'force': force}
         same = self.read is not None and key == self._read_key
@@ -581,6 +682,8 @@ class SetsPage(Page):
             self._start(generation, args)
 
     def _apply(self, read) -> None:
+        choice, self._focus_choice = self._focus_choice, None
+        self._reset_copy()
         self.reading.hide()
         self.grid.set_dimmed(False)
         key = (self._windower(), read.character, read.job, read.sub_job)
@@ -606,6 +709,18 @@ class SetsPage(Page):
             self.current_path = ''
             self.current_slot = ''
         self._recompute(keep=same_context)
+        if choice and same_context:
+            old_key, path, slot, old_piece, row, files, job_file = choice
+            view = self.view_by_path.get(path)
+            if (old_key == key and read.path == job_file and read.files == files and self.current_path == path
+                    and self.current_slot == slot and view and view.set_read.pieces.get(slot) == old_piece):
+                for i in range(self.replacement_list.topLevelItemCount()):
+                    group = self.replacement_list.topLevelItem(i)
+                    for j in range(group.childCount()):
+                        entry = group.child(j)
+                        if entry.data(0, Qt.UserRole) == row:
+                            self.replacement_list.setCurrentItem(entry)
+                            return
 
     def _recompute(self, keep: bool = True) -> None:
         """Statuses from the snapshot; no Lua runs here."""
@@ -633,6 +748,11 @@ class SetsPage(Page):
         self._update_freshness()
 
     def _windower_changed(self, _path: str) -> None:
+        self._focus_choice = None
+        self._clear_panel()
+        self._generation += 1
+        self._latest = self._generation
+        self._pending = None
         gearswap_reader.clear_cache()
         item_res.clear()
         self.read = None
@@ -714,6 +834,11 @@ class SetsPage(Page):
                     item.setForeground(1, QColor(theme.WARNING))
                     item.setTextAlignment(1, Qt.AlignRight | Qt.AlignVCenter)
                     item.setToolTip(1, f'{view.attention} slots need attention')
+                upgrades = sum(bool(rows) for rows in view.upgrades.values())
+                if upgrades:
+                    item.setText(2, f'↑ {upgrades}')
+                    item.setForeground(2, QColor(theme.GOLD))
+                    item.setToolTip(2, f'{upgrades} slots have a higher tier owned')
                 for alias in view.set_read.aliases:
                     alias_item = QTreeWidgetItem([f'↪ {short_path(alias)}'])
                     alias_item.setData(0, PATH_ROLE, path)
@@ -786,6 +911,10 @@ class SetsPage(Page):
             return
         set_read = view.set_read
         cells = {slot: cell_for(slot, status) for slot, status in view.statuses.items()}
+        for slot, rows in view.upgrades.items():
+            if rows:
+                cells[slot].badge = '↑'
+                cells[slot].accessible_name = describe(cells[slot])
         previous = self._previous_cells.get(path)
         if previous is not None:
             for slot, cell in cells.items():
@@ -806,6 +935,9 @@ class SetsPage(Page):
         aliases = ', '.join(short_path(a) for a in set_read.aliases)
         self.path_label.setText(short_path(set_read.path) + (f' · also called {aliases}' if aliases else ''))
         caption = [view.purpose, os.path.basename(self.read.path), f'{view.filled}/16 set']
+        upgrades = sum(bool(rows) for rows in view.upgrades.values())
+        if upgrades:
+            caption.append(f'{upgrades} upgrade' + ('s' if upgrades != 1 else ''))
         if set_read.empty_in_file:
             caption.append('No pieces in the file. This job may pick gear at runtime.')
         self.set_caption.setText(' · '.join(caption))
@@ -846,6 +978,10 @@ class SetsPage(Page):
             self._open_panel()
 
     def _clear_panel(self) -> None:
+        self._reset_copy()
+        self.item_links_btn.hide()
+        self.item_links_btn.menu().clear()
+        self.replacements.hide()
         self.current_slot = ''
         for widget in (self.panel_slot, self.panel_name, self.panel_info, self.panel_note):
             widget.clear()
@@ -855,6 +991,7 @@ class SetsPage(Page):
             self.panel.hide()
 
     def _show_slot(self, slot: str) -> None:
+        self._reset_copy()
         view = self.view_by_path.get(self.current_path)
         if view is None:
             return
@@ -899,6 +1036,216 @@ class SetsPage(Page):
         self.panel_info.setVisible(bool(info))
         self.panel_note.setText(f'Requirements unverified: {status.note}' if status.note else '')
         self.panel_note.setVisible(bool(status.note))
+        game = set_manager.GameData.load(self._windower())
+        ids, _problem = set_manager.resolve(piece, game, self.read.job) if piece and not piece.empty else ([], '')
+        item = game.items[ids[0]] if len(ids) == 1 else None
+        self._set_item_links(self.item_links_btn, {'name': item.en if item else piece.name,
+                                                  'item_id': item.id if item else None} if piece and not piece.empty else None)
+        self._fill_replacements(view, slot)
+
+    def _set_item_links(self, button, row):
+        button.menu().clear()
+        button.setVisible(bool(row and row.get('name')))
+        if row and row.get('name'):
+            add_open_actions(button.menu(), self.ctx, row)
+
+    def _reset_copy(self):
+        self._copy_plan = None
+        self._copy_target = None
+        self.copy_area.hide()
+        self.copy_btn.setEnabled(False)
+        self.copy_all_btn.setEnabled(False)
+        self.open_file_btn.setEnabled(False)
+        self.snippet.clear()
+        self.copy_warning.clear()
+        self.copy_warning.hide()
+        self._set_item_links(self.replacement_links_btn, None)
+
+    def _fill_replacements(self, view, slot):
+        self.replacements.setVisible(self._snapshot_state != 'absent')
+        self.replacements.setEnabled(not self._busy and not self.reading.isVisible())
+        self.replacement_filter.blockSignals(True)
+        self.replacement_filter.clear()
+        self.replacement_filter.blockSignals(False)
+        self.replacement_list.clear()
+        self.replacement_details.clear()
+        if self._snapshot_state == 'absent':
+            return
+        game = set_manager.GameData.load(self._windower())
+        job_id = game.job_ids.get(self.read.job)
+        upgrades = view.upgrades.get(slot, [])
+        upgrade_ids = {row['item_id'] for row in upgrades}
+        groups = {name: [] for name in ('Higher tier owned', 'In your wardrobes', 'Stored', 'On other characters')}
+        for character, rows in self.ctx.inventory_snapshot.items():
+            if character.startswith('Imported: '):
+                continue
+            for raw in rows or []:
+                item = game.items.get(raw.get('item_id'))
+                if not item or not item_res.fits(item, slot) or (job_id is not None and not item_res.wearable(item, job_id)):
+                    continue
+                row = {**raw, 'name': item.en, 'character': character}
+                own = character.casefold() == self.read.character.casefold()
+                group = ('On other characters' if not own else 'Higher tier owned' if row['item_id'] in upgrade_ids else
+                         'In your wardrobes' if set_manager.reachable(row.get('bag', '')) else 'Stored')
+                groups[group].append(row)
+        count = sum(len(rows) for rows in groups.values())
+        self.replacement_filter.setVisible(count > 8)
+        for name, rows in groups.items():
+            if not rows:
+                continue
+            other = name == 'On other characters'
+            group = QTreeWidgetItem([f'{name} ({len(rows)})' if other else name])
+            group.setFlags(Qt.ItemIsEnabled)
+            self.replacement_list.addTopLevelItem(group)
+            group.setExpanded(not other)
+            if name == 'Higher tier owned':
+                group.setForeground(0, QColor(theme.GOLD))
+            ordered = sorted(rows, key=lambda r: (-set_manager._tier(r['name'])[1] if name == 'Higher tier owned' else 0,
+                                                   not set_manager.reachable(r.get('bag', '')),
+                                                   r['name'].casefold(), r.get('bag', '')))
+            for row in ordered:
+                augs = set_manager.split_augments(row.get('augments', ''))
+                caption = row.get('bag', '') + (' · ' + ', '.join(augs) if augs else '')
+                if other:
+                    caption = row['character'] + ' · ' + caption
+                entry = QTreeWidgetItem([row['name'] + ('  ↑' if name == 'Higher tier owned' else '') + '\n' + caption])
+                entry.setData(0, Qt.UserRole, row)
+                entry.setToolTip(0, entry.text(0))
+                entry.setData(0, Qt.AccessibleTextRole, entry.text(0))
+                group.addChild(entry)
+        if not count:
+            self.replacement_details.setText(f'No items recorded for {self.read.character}.' if self._snapshot_state == 'empty'
+                                             else 'No owned replacements for this slot and job.')
+
+    def _filter_replacements(self, text):
+        self._reset_copy()
+        self.replacement_list.setCurrentItem(None)
+        self.replacement_details.clear()
+        for i in range(self.replacement_list.topLevelItemCount()):
+            group = self.replacement_list.topLevelItem(i)
+            visible = 0
+            for j in range(group.childCount()):
+                entry = group.child(j)
+                match = text.casefold() in entry.text(0).casefold()
+                entry.setHidden(not match)
+                visible += match
+            group.setHidden(not visible)
+            if text and visible:
+                group.setExpanded(True)
+
+    def _replacement_selected(self, entry, _previous=None):
+        self._reset_copy()
+        self.replacement_details.clear()
+        if entry is None:
+            return
+        row = entry.data(0, Qt.UserRole)
+        if not row:
+            return
+        self._set_item_links(self.replacement_links_btn, row)
+        game = set_manager.GameData.load(self._windower())
+        details = set_manager.split_augments(row.get('augments', ''))
+        note = set_manager._requirements_note([row['item_id']], game)
+        if note:
+            details.append('Requirements unverified: ' + note)
+        if not set_manager.reachable(row.get('bag', '')):
+            details.append(f'Move from {row.get("bag", "storage")} before use')
+        own = row['character'].casefold() == self.read.character.casefold()
+        if not own:
+            details.append('On another character; this copy is not available here.')
+        self.replacement_details.setText('\n'.join(details))
+        if not own or self._busy or not self.replacements.isEnabled():
+            return
+        view = self.view_by_path.get(self.current_path)
+        piece = view.set_read.pieces.get(self.current_slot) if view else None
+        if piece is None or piece.empty:
+            return
+        ids, problem = set_manager.resolve(piece, game, self.read.job)
+        if problem not in ('', 'unknown') or (not problem and len(ids) != 1):
+            self.replacement_details.setText(self.replacement_details.text() + '\nCurrent item is unresolved; no copy fix available.')
+            return
+        try:
+            plan = (set_manager.slot_fix_plan(self.read, view.set_read, piece, row, game) if problem == 'unknown' else
+                    set_manager.fix_plan(self.read, ids[0], set_manager.augment_key(piece.augments), row, game))
+        except ValueError as error:
+            self.replacement_details.setText(self.replacement_details.text() + '\n' + str(error))
+            return
+        target = next((t for t in plan.targets if self.current_path in t.affected_sets and
+                       (t.slot == self.current_slot or t.key == ('table', piece.table_id))), None)
+        if target is None:
+            return
+        if target.blocked_reason:
+            self.replacement_details.setText(self.replacement_details.text() + '\n' + target.blocked_reason)
+            return
+        self._copy_plan, self._copy_target = plan, target
+        shared = target.key[0] == 'table'
+        override = problem == 'unknown' and bool(piece.inherited_from)
+        file = os.path.basename(target.location.file) if target.location.verified else 'your Lua file'
+        scope = (f'Add slot override in {short_path(target.path)} · affects {len(target.affected_sets)} sets' if override else
+                 f'Replace shared table · affects {len(target.affected_sets)} sets' if shared else
+                 f'Fix at root {short_path(target.path)} · fixes {len(target.affected_sets)} sets' if len(target.affected_sets) > 1 else
+                 f'Replace 1 slot line in {file}')
+        self.copy_scope.setText(scope)
+        self.affected_btn.setText(f'Affected sets ({len(target.affected_sets)}) ▸')
+        self.affected_btn.setVisible(len(target.affected_sets) > 1)
+        self.affected_sets.setText('\n'.join(target.affected_sets))
+        self.affected_sets.hide()
+        if target.location.verified:
+            location = f'{file}, line {target.location.line}'
+        else:
+            location = f'Location ambiguous · search for {target.path or piece.name}'
+            for filename, line in target.location.candidates[:5]:
+                location += f'\n{os.path.basename(filename)}:{line}'
+        self.copy_location.setText(location)
+        self.snippet.setPlainText(target.snippet)
+        self.copy_btn.setText('Copy table' if shared else 'Copy slot line')
+        self.copy_btn.setEnabled(True)
+        self.open_file_btn.setEnabled(target.location.verified)
+        count = len(plan.copyable_targets)
+        self.copy_all_btn.setText(f'Copy {count} snippets')
+        self.copy_all_btn.setVisible(count > 1)
+        self.copy_all_btn.setEnabled(count > 1)
+        self.copy_note.setText('This set is in your own Lua, so the app won’t change it. ' +
+                               (f'Add this field to {target.path}’s table or set_combine override table. '
+                                'Leave the shared root unchanged.' if override else
+                                'Replace the whole table after the shared definition’s =.' if shared else
+                                'Replace the entire current slot entry, including any multiline item table.'))
+        blocked = len(plan.targets) - count
+        if blocked:
+            self.copy_note.setText(self.copy_note.text() + f' {blocked} other edit location(s) need a reachable copy.')
+        rows = [r for character, inventory in self.ctx.inventory_snapshot.items()
+                if character.casefold() == self.read.character.casefold() for r in inventory or []]
+        single_shortages = set_manager.copy_shortages(self.read, [target], row, rows, game)
+        bulk_shortages = set_manager.copy_shortages(self.read, plan.copyable_targets, row, rows, game)
+        warnings = []
+        if single_shortages:
+            warnings.append('Copy warning: ' + '\n'.join(single_shortages))
+        extra = [message for message in bulk_shortages if message not in single_shortages]
+        if extra:
+            warnings.append('Copy all warning: ' + '\n'.join(extra))
+        self.copy_warning.setText('\n'.join(warnings))
+        self.copy_warning.setVisible(bool(warnings))
+        self.copy_area.show()
+
+    def _toggle_affected(self):
+        self.affected_sets.setVisible(self.affected_sets.isHidden())
+
+    def _copy_fix(self, all_targets=False):
+        if (self._copy_target is None or self._busy or not self.replacements.isEnabled()
+                or (self._windower(), *self._context()) != self._read_key):
+            return
+        QApplication.clipboard().setText(self._copy_plan.text() if all_targets else self._copy_target.snippet)
+        targets = self._copy_plan.copyable_targets if all_targets else [self._copy_target]
+        files = list(dict.fromkeys(os.path.basename(t.location.file) for t in targets if t.location.verified))
+        destination = ', '.join(files) if all(t.location.verified for t in targets) else 'your Lua file (search the locations shown)'
+        self.status(f'Copied: paste each snippet at its listed location in {destination}, then //gs reload' if all_targets else
+                    f'Copied: paste into {destination}, then //gs reload')
+
+    def _open_file(self):
+        if self._copy_target is not None and self._copy_target.location.verified and not self._busy:
+            try:
+                os.startfile(self._copy_target.location.file)
+            except OSError as error:
+                self.status(f'Couldn’t open file: {error}')
 
     # --- wide / narrow layout ---------------------------------------------
     def _layout_mode(self) -> None:

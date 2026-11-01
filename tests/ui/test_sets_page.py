@@ -337,3 +337,334 @@ def test_default_character_is_one_with_job_files(qtbot, setup):
     ctx.inventory_snapshot = {'Aaron': [row(23100, 'x', character='Aaron')], **ctx.inventory_snapshot}
     page = make_page(qtbot, ctx)
     assert page.character_combo.itemText(0) == 'Aaron' and page.character_combo.currentText() == 'Alice'
+
+
+def replacement_groups(page):
+    return [page.replacement_list.topLevelItem(i) for i in range(page.replacement_list.topLevelItemCount())]
+
+
+def select_replacement(page, name):
+    for group in replacement_groups(page):
+        for i in range(group.childCount()):
+            entry = group.child(i)
+            if entry.data(0, Qt.UserRole)['name'] == name:
+                page.replacement_list.setCurrentItem(entry)
+                return entry
+    raise AssertionError(f'No replacement named {name}')
+
+
+def fix_read(ctx, fake, sets=None):
+    filename = Path(ctx.windower_dir) / 'addons' / 'GearSwap' / 'data' / 'Alice_BLU.lua'
+    filename.write_text('sets.Idle.Standard = {head="Hashishin Kavuk +2"}\n'
+                        'sets.SavageBlade.Attack = {head="Hashishin Kavuk +2"}\n', encoding='utf-8')
+    read = job_read()
+    read.files = {str(filename): filename.stat().st_mtime}
+    if sets is not None:
+        read.sets = sets
+    fake.results['BLU'] = read
+    return filename
+
+
+def test_upgrade_badge_picker_group_order_and_stored_guidance(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'] += [row(23101, 'Hashishin Kavuk +3'), row(23113, 'Herculean Helm', 'Mog Safe 1')]
+    # Raw snapshot rows need not carry their character; the snapshot's key supplies it.
+    for item in ctx.inventory_snapshot['Alice']:
+        item.pop('character', None)
+    ctx.inventory_snapshot['Bob'] = [row(23116, 'Hope Masque', character='Bob')]
+    page = make_page(qtbot, ctx)
+    assert page.grid.cell('head').state == 'owned' and page.grid.cell('head').badge == '↑'
+    assert 'upgrade available' in page.grid.cell('head').accessible_name
+    assert page._items['sets.SavageBlade.Attack'].text(2) == '↑ 1'
+    assert page.set_caption.text().endswith('1 upgrade')
+    page._cell_clicked('head')
+    groups = replacement_groups(page)
+    assert [g.text(0) for g in groups] == ['Higher tier owned', 'In your wardrobes', 'Stored', 'On other characters (1)']
+    assert not groups[-1].isExpanded()
+    assert groups[0].child(0).text(0) == 'Hashishin Kavuk +3  ↑\nWardrobe 3'
+    select_replacement(page, 'Herculean Helm')
+    assert 'Move from Mog Safe 1 before use' in page.replacement_details.text()
+    select_replacement(page, 'Hope Masque')
+    assert 'Requirements unverified: needs superior level 3' in page.replacement_details.text()
+    assert not page.copy_btn.isEnabled() and page.copy_area.isHidden()
+
+
+def test_copy_slot_and_all_snippets_clipboard_status_and_open_file(qtbot, setup, monkeypatch):
+    from PySide6.QtWidgets import QApplication
+    ctx, fake = setup
+    filename = fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    page = make_page(qtbot, ctx)
+    statuses, opened = [], []
+    monkeypatch.setattr(page, 'status', statuses.append)
+    monkeypatch.setattr(os, 'startfile', opened.append)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert page.copy_btn.text() == 'Copy slot line'
+    assert page.copy_scope.text() == 'Replace 1 slot line in Alice_BLU.lua'
+    assert page.copy_location.text() == 'Alice_BLU.lua, line 2'
+    assert page.copy_all_btn.text() == 'Copy 2 snippets'
+    page.copy_btn.click()
+    assert QApplication.clipboard().text() == 'head="Hashishin Kavuk +3",'
+    assert statuses[-1] == 'Copied: paste into Alice_BLU.lua, then //gs reload'
+    page.copy_all_btn.click()
+    assert '(2 places)' in QApplication.clipboard().text()
+    assert QApplication.clipboard().text().count('head="Hashishin Kavuk +3",') == 2
+    page.open_file_btn.click()
+    assert opened == [str(filename)]
+    assert 'Hashishin Kavuk +3' not in filename.read_text()  # copy/open never writes Lua
+
+
+def test_filter_shown_above_eight_rows_and_selection_is_invalidated(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'] += [row(23101, 'Hashishin Kavuk +3')] * 9
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    assert not page.replacement_filter.isHidden()
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert page.copy_btn.isEnabled()
+    page.replacement_filter.setText('Herculean')
+    assert not page.copy_btn.isEnabled() and all(g.isHidden() for g in replacement_groups(page))
+
+
+def test_copy_disabled_during_reload_context_change_and_inventory_recompute(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    fake.gate = threading.Event()
+    try:
+        page.request(force=True)
+        assert not page.copy_btn.isEnabled() and page._copy_target is None
+        assert not page.replacements.isEnabled()
+    finally:
+        fake.gate.set()
+    wait(qtbot, page)
+    assert page.current_slot == 'head' and not page.copy_btn.isEnabled()
+    select_replacement(page, 'Hashishin Kavuk +3')
+    ctx.inventory_snapshot['Alice'] = [row(23100, 'Hashishin Kavuk +2')]
+    before = len(fake.calls)
+    ctx.inventory_changed.emit()
+    assert not page.copy_btn.isEnabled() and not page.grid.cell('head').badge
+    assert len(fake.calls) == before
+    page.job_combo.setCurrentIndex(page.job_combo.findData('RUN'))
+    page._manual_pick()
+    assert not page.copy_btn.isEnabled()
+    wait(qtbot, page)
+
+
+def test_ambiguous_location_shows_candidates_and_disables_open(qtbot, setup):
+    ctx, fake = setup
+    filename = fix_read(ctx, fake)
+    with filename.open('a') as f:
+        f.write('sets.SavageBlade.Attack = {head="Hashishin Kavuk +2"}\n')
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert 'Location ambiguous · search for sets.SavageBlade.Attack' in page.copy_location.text()
+    assert 'Alice_BLU.lua:2' in page.copy_location.text() and 'Alice_BLU.lua:3' in page.copy_location.text()
+    assert not page.open_file_btn.isEnabled() and page.copy_btn.isEnabled()
+
+
+@pytest.mark.parametrize('shared', [False, True])
+def test_root_and_shared_scope_payload_label_and_affected_sets(qtbot, setup, shared):
+    ctx, fake = setup
+    sets = []
+    for i in range(4):
+        p = piece('head', 'Herculean Helm', augments=['DEX+10'], table_id=7 if shared else 0)
+        if i and not shared:
+            p.inherited_from = p.origin_path = 'sets.S0'
+        sets.append(SetRead(f'sets.S{i}', [f'S{i}'], {'head': p}))
+    filename = fix_read(ctx, fake, sets)
+    filename.write_text('gear.helm={name="Herculean Helm",augments={"DEX+10"}}\n'
+                        'sets.S0={head="Herculean Helm"}\n', encoding='utf-8')
+    ctx.inventory_snapshot['Alice'].append({**row(23113, 'Herculean Helm'), 'augments': 'DEX+20, STR+10'})
+    page = make_page(qtbot, ctx)
+    page._select_path('sets.S3')
+    page._cell_clicked('head')
+    select_replacement(page, 'Herculean Helm')
+    assert page.copy_scope.text() == ('Replace shared table · affects 4 sets' if shared else 'Fix at root S0 · fixes 4 sets')
+    assert page.copy_btn.text() == ('Copy table' if shared else 'Copy slot line')
+    assert page.copy_all_btn.isHidden()
+    page.affected_btn.click()
+    assert not page.affected_sets.isHidden() and page.affected_sets.text().splitlines() == [f'sets.S{i}' for i in range(4)]
+
+
+@pytest.mark.parametrize('snapshot', [{}, {'Alice': []}])
+def test_replacements_absent_and_empty_snapshot(qtbot, setup, snapshot):
+    ctx, _ = setup
+    ctx.inventory_snapshot = snapshot
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    assert not page.copy_btn.isEnabled()
+    if snapshot:
+        assert page.replacement_details.text() == 'No items recorded for Alice.'
+    else:
+        assert page.replacements.isHidden()
+
+
+def test_copy_summary_pauses_auto_follow_and_windower_change_clears_it(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    ctx.bridge.state = {'player_name': 'Alice', 'main_job': 'RUN'}
+    page._game_state(ctx.bridge.state)
+    assert page.job_combo.currentData() == 'BLU' and page.copy_btn.isEnabled()
+    ctx.windower_dir = ''
+    page._windower_changed('')
+    assert page._copy_target is None and not page.copy_btn.isEnabled()
+
+
+def test_selector_labels_are_visible_and_associated_with_their_pickers(qtbot, setup):
+    ctx, _ = setup
+    page = make_page(qtbot, ctx)
+    for text, combo in [('Character', page.character_combo), ('Main job', page.job_combo), ('Sub job', page.sub_combo)]:
+        label = page.selector_labels[text]
+        assert label.text() == text and label.buddy() is combo and label.isVisible()
+        assert combo.accessibleName() == text
+
+
+def test_sets_offers_wiki_sites_for_current_and_selected_replacement(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    opened = []
+    ctx.open_url = opened.append
+    ctx.settings.set('wiki_site', 'ffxiah')
+    page = make_page(qtbot, ctx)
+    assert page.item_links_btn.isHidden()
+    page._cell_clicked('head')
+    actions = page.item_links_btn.menu().actions()
+    assert [a.text() for a in actions] == ['Open on FFXIAH ↗', 'Open on BG-Wiki ↗', 'Open on FFXIclopedia ↗']
+    actions[0].trigger()
+    assert opened[-1] == 'https://www.ffxiah.com/item/23100'
+    actions[1].trigger()
+    assert opened[-1] == 'https://www.bg-wiki.com/ffxi/Hashishin_Kavuk_%2B2'
+    select_replacement(page, 'Hashishin Kavuk +3')
+    page.replacement_links_btn.menu().actions()[0].trigger()
+    assert opened[-1] == 'https://www.ffxiah.com/item/23101'
+    page.replacement_links_btn.menu().actions()[2].trigger()
+    assert opened[-1] == 'https://ffxiclopedia.fandom.com/wiki/Hashishin_Kavuk_%2B3'
+    page._cell_clicked('main')
+    assert page.item_links_btn.isHidden() and page.replacement_links_btn.isHidden()
+    assert not page.item_links_btn.menu().actions() and not page.replacement_links_btn.menu().actions()
+
+
+def test_unknown_item_can_copy_selected_correction_without_bulk_guessing(qtbot, setup):
+    from PySide6.QtWidgets import QApplication
+    ctx, fake = setup
+    bad_name = "Nyame's Mail"
+    sets = [SetRead('sets.Idle', ['Idle'], {'body': piece('body', bad_name)}),
+            SetRead('sets.Other', ['Other'], {'body': piece('body', bad_name)})]
+    filename = fix_read(ctx, fake, sets)
+    filename.write_text('sets.Idle={body="Nyame\'s Mail"}\nsets.Other={body="Nyame\'s Mail"}\n', encoding='utf-8')
+    before = filename.read_bytes()
+    ctx.inventory_snapshot['Alice'].append(row(23102, 'Nyame Mail'))
+    page = make_page(qtbot, ctx)
+    page._select_path('sets.Idle')
+    page._cell_clicked('body')
+    assert page.grid.cell('body').state == 'unknown'
+    select_replacement(page, 'Nyame Mail')
+    assert page.copy_btn.isEnabled() and page.copy_all_btn.isHidden()
+    assert len(page._copy_plan.targets) == 1
+    assert page._copy_target.affected_sets == ['sets.Idle']
+    page.copy_btn.click()
+    assert QApplication.clipboard().text() == 'body="Nyame Mail",'
+    assert filename.read_bytes() == before
+
+
+def test_stored_copy_with_designated_bag_shows_move_guidance_without_a_snippet(qtbot, setup):
+    ctx, fake = setup
+    p = piece('head', 'Hashishin Kavuk +2', bag='Wardrobe 1')
+    fix_read(ctx, fake, [SetRead('sets.Idle', ['Idle'], {'head': p})])
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3', 'Mog Safe 1'))
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert 'Move from Mog Safe 1 before use' in page.replacement_details.text()
+    assert 'Move this copy' in page.replacement_details.text()
+    assert not page.copy_btn.isEnabled() and page.copy_area.isHidden()
+    assert page.snippet.toPlainText() == ''
+
+
+def test_unrelated_blocked_bag_target_does_not_hide_current_copy(qtbot, setup):
+    ctx, fake = setup
+    plain = SetRead('sets.Idle', ['Idle'], {'head': piece('head', 'Hashishin Kavuk +2')})
+    constrained = SetRead('sets.WS', ['WS'], {'head': piece('head', 'Hashishin Kavuk +2', bag='Wardrobe 2')})
+    fix_read(ctx, fake, [plain, constrained])
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3', 'Mog Safe 1'))
+    page = make_page(qtbot, ctx)
+    page._select_path('sets.Idle')
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert page.copy_btn.isEnabled() and page.copy_all_btn.isHidden()
+    assert page.snippet.toPlainText() == 'head="Hashishin Kavuk +3",'
+    assert '1 other edit location' in page.copy_note.text()
+    page._select_path('sets.WS')
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    assert not page.copy_btn.isEnabled() and page.copy_area.isHidden()
+
+
+def test_inherited_unknown_correction_explains_adding_a_local_override(qtbot, setup):
+    ctx, fake = setup
+    bad = "Nyame's Mail"
+    root = SetRead('sets.Base', ['Base'], {'body': piece('body', bad)})
+    child = SetRead('sets.Idle', ['Idle'], {'body': piece('body', bad, inherited_from=root.path, origin_path=root.path)})
+    fix_read(ctx, fake, [root, child])
+    ctx.inventory_snapshot['Alice'].append(row(23102, 'Nyame Mail'))
+    page = make_page(qtbot, ctx)
+    page._select_path('sets.Idle')
+    page._cell_clicked('body')
+    select_replacement(page, 'Nyame Mail')
+    assert page.copy_scope.text() == 'Add slot override in Idle · affects 1 sets'
+    assert 'Add this field to sets.Idle' in page.copy_note.text()
+    assert 'Leave the shared root unchanged' in page.copy_note.text()
+
+
+def test_focus_refresh_restores_choice_only_after_rebuilding_the_copy(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append(row(23101, 'Hashishin Kavuk +3'))
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    select_replacement(page, 'Hashishin Kavuk +3')
+    previous_target = page._copy_target
+    page.request(preserve_replacement=True)
+    assert not page.copy_btn.isEnabled() and page._copy_target is None
+    wait(qtbot, page)
+    assert page.copy_btn.isEnabled() and page.snippet.toPlainText() == 'head="Hashishin Kavuk +3",'
+    assert page._copy_target is not previous_target
+    # A changed file state cannot restore the prior payload, even if the same replacement is owned.
+    from dataclasses import replace
+    fake.results['BLU'] = replace(page.read, files={**page.read.files, 'changed.lua': 2})
+    page.request(preserve_replacement=True)
+    wait(qtbot, page)
+    assert not page.copy_btn.isEnabled() and page._copy_target is None
+
+
+def test_paired_slot_shortage_is_visible_before_bulk_copy(qtbot, setup):
+    ctx, fake = setup
+    s = SetRead('sets.Test', ['Test'], {slot: piece(slot, 'Chirich Ring +1') for slot in ('ring1', 'ring2')})
+    fix_read(ctx, fake, [s])
+    ctx.inventory_snapshot['Alice'] = [{**row(23114, 'Chirich Ring +1'), 'count': 2}, row(23110, 'Sroda Ring')]
+    for item in ctx.inventory_snapshot['Alice']:
+        item.pop('character', None)
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('ring1')
+    select_replacement(page, 'Sroda Ring')
+    assert page.copy_btn.isEnabled() and page.copy_all_btn.isEnabled()
+    assert not page.copy_warning.isHidden() and 'Copy all warning:' in page.copy_warning.text()
+    assert 'Ring 1 / Ring 2' in page.copy_warning.text()
+    ctx.inventory_snapshot['Alice'][-1]['count'] = 2
+    ctx.inventory_changed.emit()
+    select_replacement(page, 'Sroda Ring')
+    assert page.copy_warning.isHidden()

@@ -151,13 +151,13 @@ def strip_comments(text: str) -> str:
 _QUOTED_KEY_RE = re.compile(r"""\[\s*(?:'([^']*)'|"([^"]*)")\s*\]""")
 
 
-def normalise_path(text: str) -> str:
+def normalise_path(text: str, *, case_sensitive: bool = False) -> str:
     """`sets.precast.WS['Savage Blade']` → `sets.precast.ws.savage blade` (spaces outside keys removed)."""
     def quoted(match):
         return '.' + (match[1] if match[1] is not None else match[2])
     text = _QUOTED_KEY_RE.sub(lambda m: '\0' + quoted(m).replace(' ', '\1') + '\0', text)
     text = re.sub(r'\s+', '', text).replace('\0', '').replace('\1', ' ')
-    return text.casefold()
+    return text if case_sensitive else text.casefold()
 
 
 _PATH_TEXT = r"""sets(?:\s*\.\s*[A-Za-z_]\w*|\s*\[\s*(?:'[^']*'|"[^"]*"|\d+)\s*\])*"""
