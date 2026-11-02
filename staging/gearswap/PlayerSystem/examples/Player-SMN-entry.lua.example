@@ -1,0 +1,9 @@
+-- INACTIVE entry template, intentionally not discoverable as a .lua job.
+-- Bind these explicitly during staged setup. Never infer a server/profile.
+local binding = {profile = "REPLACE_PROFILE", character = "REPLACE_CHARACTER", server = 0, job = "SMN"}
+
+-- This reviewed host must load maintained modules and supply checked file reads,
+-- current control snapshots, monotonic timers and inventoried legacy sources.
+-- It is not a PlayerProfiles file and must not be loaded from player data.
+assert(PlayerSystemStagedHost, "Staged host services are not configured; no job initialized")
+PlayerSystemStagedHost.bootstrap.install(_G, binding, PlayerSystemStagedHost.services, PlayerSystemStagedHost.modules)
