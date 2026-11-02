@@ -80,3 +80,12 @@ def test_cells_grow_with_text_scale(grid):
     grid.set_scale(1.3)
     assert grid.cells['main'].width() == round(112 * 1.3) and grid.cells['main'].height() == round(128 * 1.3)
     grid.cells['main'].grab()
+
+
+def test_keyboard_context_menu_uses_the_focused_cell(grid, qtbot):
+    grid.select('head')
+    with qtbot.waitSignal(grid.cell_context_requested) as signal:
+        qtbot.keyClick(grid, Qt.Key_Menu)
+    assert signal.args[0] == 'head'
+    assert grid.selected() == 'head'
+    assert grid._keyboard

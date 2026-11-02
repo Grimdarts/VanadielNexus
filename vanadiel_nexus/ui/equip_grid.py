@@ -11,7 +11,7 @@ colour only reinforces it (docs/SET-MANAGER-DESIGN-REVIEW.md section 4).
 """
 from dataclasses import dataclass
 
-from PySide6.QtCore import QRectF, QSize, Qt, Signal
+from PySide6.QtCore import QPoint, QRectF, QSize, Qt, Signal
 from PySide6.QtGui import QColor, QFont, QFontMetrics, QPainter, QPen, QPixmap
 from PySide6.QtWidgets import QGridLayout, QSizePolicy, QWidget
 
@@ -87,6 +87,7 @@ def elide_two_lines(text: str, metrics: QFontMetrics, width: int) -> list[str]:
 
 class Cell(QWidget):
     clicked = Signal(str)
+    context_requested = Signal(str, QPoint)
 
     def __init__(self, slot: str, scale: float = 1.0):
         super().__init__()
@@ -120,6 +121,10 @@ class Cell(QWidget):
         if event.button() == Qt.LeftButton:
             self.clicked.emit(self.slot)
         super().mousePressEvent(event)
+
+    def contextMenuEvent(self, event):
+        self.context_requested.emit(self.slot, event.globalPos())
+        event.accept()
 
     def _font(self, px: float, weight=QFont.Normal, italic=False) -> QFont:
         font = QFont(theme.UI_FONT)
@@ -234,6 +239,7 @@ class EquipGrid(QWidget):
     SLOT_ORDER = ('main', 'sub', 'range', 'ammo', 'head', 'neck', 'ear1', 'ear2',
                   'body', 'hands', 'ring1', 'ring2', 'back', 'waist', 'legs', 'feet')
     cell_clicked = Signal(str)
+    cell_context_requested = Signal(str, QPoint)
 
     def __init__(self, scale: float = 1.0):
         super().__init__()
@@ -249,6 +255,7 @@ class EquipGrid(QWidget):
         for index, slot in enumerate(self.SLOT_ORDER):
             cell = Cell(slot, scale)
             cell.clicked.connect(self._clicked)
+            cell.context_requested.connect(self._context_requested)
             self.cells[slot] = cell
             self.grid.addWidget(cell, index // 4, index % 4)
         self.set_scale(scale)
@@ -297,6 +304,12 @@ class EquipGrid(QWidget):
         self.select(slot)
         self.cell_clicked.emit(slot)
 
+    def _context_requested(self, slot: str, global_pos: QPoint, *, keyboard=False) -> None:
+        self._keyboard = keyboard
+        self.setFocus(Qt.OtherFocusReason if keyboard else Qt.MouseFocusReason)
+        self._paint_focus()
+        self.cell_context_requested.emit(slot, global_pos)
+
     def _set_focus(self, index: int) -> None:
         self._focus = index
         self._paint_focus()
@@ -323,6 +336,10 @@ class EquipGrid(QWidget):
 
     def keyPressEvent(self, event):
         key = event.key()
+        if key == Qt.Key_Menu or (key == Qt.Key_F10 and event.modifiers() & Qt.ShiftModifier):
+            cell = self.cells[self.focused_slot()]
+            self._context_requested(cell.slot, cell.mapToGlobal(cell.rect().center()), keyboard=True)
+            return
         self._keyboard = True
         row, col = divmod(self._focus, 4)
         moves = {Qt.Key_Left: (0, -1), Qt.Key_Right: (0, 1), Qt.Key_Up: (-1, 0), Qt.Key_Down: (1, 0)}

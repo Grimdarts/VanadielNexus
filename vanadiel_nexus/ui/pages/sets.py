@@ -302,6 +302,7 @@ class SetsPage(Page):
         self.details.hide()
         self.grid = EquipGrid(self._scale())
         self.grid.cell_clicked.connect(self._cell_clicked)
+        self.grid.cell_context_requested.connect(self._grid_context_menu)
         self.attention_title = QLabel()
         self.attention_rows = []
         self.more_label = widgets.label('', 'Caption')
@@ -355,7 +356,9 @@ class SetsPage(Page):
         self.item_links_btn = widgets.button('Current item links ↗', 'ghost')
         self.item_links_btn.setAccessibleName('Wiki links for current item')
         self.item_links_btn.setMenu(QMenu(self.item_links_btn))
+        self.open_file_btn = widgets.button('Open job file', on_click=self._open_file)
         content_layout.addWidget(self.item_links_btn, 0, Qt.AlignLeft)
+        content_layout.addWidget(self.open_file_btn, 0, Qt.AlignLeft)
         self.replacements = QWidget()
         rl = QVBoxLayout(self.replacements)
         rl.setContentsMargins(0, 8, 0, 0)
@@ -366,10 +369,15 @@ class SetsPage(Page):
         self.replacement_filter.textChanged.connect(self._filter_replacements)
         rl.addWidget(self.replacement_filter)
         self.replacement_list = QTreeWidget()
-        self.replacement_list.setHeaderHidden(True)
         self.replacement_list.setFrameShape(QFrame.NoFrame)
-        self.replacement_list.setColumnCount(1)
-        self.replacement_list.setTextElideMode(Qt.ElideNone)
+        self.replacement_list.setColumnCount(2)
+        self.replacement_list.setHeaderLabels(['Item', 'Location'])
+        self.replacement_list.setHeaderHidden(False)
+        self.replacement_list.header().setStretchLastSection(False)
+        self.replacement_list.header().setSectionResizeMode(0, QHeaderView.Stretch)
+        self.replacement_list.header().setSectionResizeMode(1, QHeaderView.Fixed)
+        self.replacement_list.setColumnWidth(1, round(100 * self._scale()))
+        self.replacement_list.setTextElideMode(Qt.ElideMiddle)
         self.replacement_list.setIndentation(12)
         self.replacement_list.setAccessibleName('Owned replacements')
         self.replacement_list.setMinimumHeight(160)
@@ -378,6 +386,10 @@ class SetsPage(Page):
         rl.addWidget(self.replacement_list)
         self.replacement_details = widgets.label('', 'Caption', wrap=True)
         self.replacement_details.setTextFormat(Qt.PlainText)
+        self.replacement_name = widgets.label('', wrap=True)
+        self.replacement_name.setTextFormat(Qt.PlainText)
+        self.replacement_name.setStyleSheet('font-weight: 600;')
+        rl.addWidget(self.replacement_name)
         rl.addWidget(self.replacement_details)
         self.replacement_links_btn = widgets.button('Replacement links ↗', 'ghost')
         self.replacement_links_btn.setAccessibleName('Wiki links for selected replacement')
@@ -403,12 +415,11 @@ class SetsPage(Page):
         self.snippet.setFont(QFont('Consolas', 10))
         self.snippet.setFixedHeight(100)
         self.copy_btn = widgets.button('Copy slot line', 'primary', self._copy_fix)
-        self.open_file_btn = widgets.button('Open file', on_click=self._open_file)
         self.copy_all_btn = widgets.button('', on_click=lambda: self._copy_fix(all_targets=True))
         self.copy_note = widgets.label('This set is in your own Lua, so the app won’t change it. '
                                        'Paste this in place of the current slot line.', 'Caption', wrap=True)
         for widget in (self.copy_scope, self.affected_btn, self.affected_sets, self.copy_location, self.copy_warning, self.snippet,
-                       self.copy_btn, self.open_file_btn, self.copy_all_btn, self.copy_note):
+                       self.copy_btn, self.copy_all_btn, self.copy_note):
             ca.addWidget(widget)
         rl.addWidget(self.copy_area)
         content_layout.addWidget(self.replacements)
@@ -464,6 +475,7 @@ class SetsPage(Page):
 
     def _apply_label_styles(self) -> None:
         scale = self._scale()
+        self.replacement_list.setColumnWidth(1, round(100 * scale))
         self.snippet.setStyleSheet(f'background: {theme.SURFACE_2}; border-radius: 6px; '
                                   f'font-family: Consolas; font-size: {round(13 * scale)}px;')
         self.path_label.setStyleSheet(f'font-size: {round(14 * scale)}px;')
@@ -640,6 +652,7 @@ class SetsPage(Page):
         self._focus_choice = choice
         self._reset_copy()
         self.replacements.setEnabled(False)
+        self.open_file_btn.setEnabled(False)
         self._generation += 1
         self._latest = self._generation
         args = {'windower_dir': self._windower(), 'character': character, 'job': job, 'sub_job': sub,
@@ -709,6 +722,7 @@ class SetsPage(Page):
             self.current_path = ''
             self.current_slot = ''
         self._recompute(keep=same_context)
+        self._update_open_file()
         if choice and same_context:
             old_key, path, slot, old_piece, row, files, job_file = choice
             view = self.view_by_path.get(path)
@@ -977,6 +991,30 @@ class SetsPage(Page):
         if not self._wide:
             self._open_panel()
 
+    def _item_for_slot(self, slot):
+        view = self.view_by_path.get(self.current_path)
+        piece = view.set_read.pieces.get(slot) if view else None
+        if not piece or piece.empty or not piece.name:
+            return None
+        game = set_manager.GameData.load(self._windower())
+        ids, _problem = set_manager.resolve(piece, game, self.read.job)
+        item = game.items[ids[0]] if len(ids) == 1 else None
+        return {'name': item.en if item else piece.name, 'item_id': item.id if item else None}
+
+    def _grid_context_menu(self, slot, global_pos):
+        if self.read is None or self._busy or (self._windower(), *self._context()) != self._read_key:
+            return
+        row = self._item_for_slot(slot)
+        self.grid.select(slot)
+        if slot != self.current_slot:
+            self.current_slot = slot
+            self._show_slot(slot)
+        if row:
+            menu = QMenu(self)
+            add_open_actions(menu, self.ctx, row)
+            menu.exec(global_pos)
+            menu.deleteLater()
+
     def _clear_panel(self) -> None:
         self._reset_copy()
         self.item_links_btn.hide()
@@ -1036,11 +1074,7 @@ class SetsPage(Page):
         self.panel_info.setVisible(bool(info))
         self.panel_note.setText(f'Requirements unverified: {status.note}' if status.note else '')
         self.panel_note.setVisible(bool(status.note))
-        game = set_manager.GameData.load(self._windower())
-        ids, _problem = set_manager.resolve(piece, game, self.read.job) if piece and not piece.empty else ([], '')
-        item = game.items[ids[0]] if len(ids) == 1 else None
-        self._set_item_links(self.item_links_btn, {'name': item.en if item else piece.name,
-                                                  'item_id': item.id if item else None} if piece and not piece.empty else None)
+        self._set_item_links(self.item_links_btn, self._item_for_slot(slot))
         self._fill_replacements(view, slot)
 
     def _set_item_links(self, button, row):
@@ -1055,8 +1089,10 @@ class SetsPage(Page):
         self.copy_area.hide()
         self.copy_btn.setEnabled(False)
         self.copy_all_btn.setEnabled(False)
-        self.open_file_btn.setEnabled(False)
+        self._update_open_file()
         self.snippet.clear()
+        self.replacement_name.clear()
+        self.replacement_name.hide()
         self.copy_warning.clear()
         self.copy_warning.hide()
         self._set_item_links(self.replacement_links_btn, None)
@@ -1097,6 +1133,7 @@ class SetsPage(Page):
             group = QTreeWidgetItem([f'{name} ({len(rows)})' if other else name])
             group.setFlags(Qt.ItemIsEnabled)
             self.replacement_list.addTopLevelItem(group)
+            group.setFirstColumnSpanned(True)
             group.setExpanded(not other)
             if name == 'Higher tier owned':
                 group.setForeground(0, QColor(theme.GOLD))
@@ -1105,13 +1142,22 @@ class SetsPage(Page):
                                                    r['name'].casefold(), r.get('bag', '')))
             for row in ordered:
                 augs = set_manager.split_augments(row.get('augments', ''))
-                caption = row.get('bag', '') + (' · ' + ', '.join(augs) if augs else '')
+                caption = row.get('bag', '')
                 if other:
                     caption = row['character'] + ' · ' + caption
-                entry = QTreeWidgetItem([row['name'] + ('  ↑' if name == 'Higher tier owned' else '') + '\n' + caption])
+                entry = QTreeWidgetItem([row['name'] + ('  ↑' if name == 'Higher tier owned' else ''), caption])
+                item_font = QFont(self.replacement_list.font())
+                item_font.setWeight(QFont.DemiBold)
+                entry.setFont(0, item_font)
+                location_font = QFont(self.replacement_list.font())
+                location_font.setPixelSize(round(12 * self._scale()))
+                entry.setFont(1, location_font)
+                entry.setForeground(1, QColor(theme.MUTED))
                 entry.setData(0, Qt.UserRole, row)
-                entry.setToolTip(0, entry.text(0))
-                entry.setData(0, Qt.AccessibleTextRole, entry.text(0))
+                tooltip = '\n'.join([row['name'], caption, *augs])
+                entry.setToolTip(0, tooltip)
+                entry.setToolTip(1, tooltip)
+                entry.setData(0, Qt.AccessibleTextRole, tooltip)
                 group.addChild(entry)
         if not count:
             self.replacement_details.setText(f'No items recorded for {self.read.character}.' if self._snapshot_state == 'empty'
@@ -1126,7 +1172,7 @@ class SetsPage(Page):
             visible = 0
             for j in range(group.childCount()):
                 entry = group.child(j)
-                match = text.casefold() in entry.text(0).casefold()
+                match = text.casefold() in entry.toolTip(0).casefold()
                 entry.setHidden(not match)
                 visible += match
             group.setHidden(not visible)
@@ -1141,9 +1187,11 @@ class SetsPage(Page):
         row = entry.data(0, Qt.UserRole)
         if not row:
             return
+        self.replacement_name.setText(row['name'])
+        self.replacement_name.show()
         self._set_item_links(self.replacement_links_btn, row)
         game = set_manager.GameData.load(self._windower())
-        details = set_manager.split_augments(row.get('augments', ''))
+        details = [part for part in [row.get('bag', ''), *set_manager.split_augments(row.get('augments', ''))] if part]
         note = set_manager._requirements_note([row['item_id']], game)
         if note:
             details.append('Requirements unverified: ' + note)
@@ -1151,7 +1199,7 @@ class SetsPage(Page):
             details.append(f'Move from {row.get("bag", "storage")} before use')
         own = row['character'].casefold() == self.read.character.casefold()
         if not own:
-            details.append('On another character; this copy is not available here.')
+            details.append(f'On {row["character"]}; this copy is not available here.')
         self.replacement_details.setText('\n'.join(details))
         if not own or self._busy or not self.replacements.isEnabled():
             return
@@ -1199,7 +1247,7 @@ class SetsPage(Page):
         self.snippet.setPlainText(target.snippet)
         self.copy_btn.setText('Copy table' if shared else 'Copy slot line')
         self.copy_btn.setEnabled(True)
-        self.open_file_btn.setEnabled(target.location.verified)
+        self._update_open_file()
         count = len(plan.copyable_targets)
         self.copy_all_btn.setText(f'Copy {count} snippets')
         self.copy_all_btn.setVisible(count > 1)
@@ -1240,10 +1288,25 @@ class SetsPage(Page):
         self.status(f'Copied: paste each snippet at its listed location in {destination}, then //gs reload' if all_targets else
                     f'Copied: paste into {destination}, then //gs reload')
 
+    def _open_file_path(self):
+        if self.read is None or (self._windower(), *self._context()) != self._read_key:
+            return ''
+        path = (self._copy_target.location.file if self._copy_target and self._copy_target.location.verified else
+                self.read.path)
+        return path if path and os.path.isfile(path) else ''
+
+    def _update_open_file(self):
+        path = self._open_file_path()
+        source = bool(self._copy_target and self._copy_target.location.verified)
+        self.open_file_btn.setText('Open source file' if source else 'Open job file')
+        self.open_file_btn.setToolTip(path or 'No readable job file for the current selection')
+        self.open_file_btn.setEnabled(bool(path) and not self._busy and not self.reading.isVisible())
+
     def _open_file(self):
-        if self._copy_target is not None and self._copy_target.location.verified and not self._busy:
+        path = self._open_file_path()
+        if path and not self._busy:
             try:
-                os.startfile(self._copy_target.location.file)
+                os.startfile(path)
             except OSError as error:
                 self.status(f'Couldn’t open file: {error}')
 

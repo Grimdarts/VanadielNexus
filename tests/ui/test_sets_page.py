@@ -358,6 +358,7 @@ def fix_read(ctx, fake, sets=None):
     filename.write_text('sets.Idle.Standard = {head="Hashishin Kavuk +2"}\n'
                         'sets.SavageBlade.Attack = {head="Hashishin Kavuk +2"}\n', encoding='utf-8')
     read = job_read()
+    read.path = str(filename)
     read.files = {str(filename): filename.stat().st_mtime}
     if sets is not None:
         read.sets = sets
@@ -382,10 +383,12 @@ def test_upgrade_badge_picker_group_order_and_stored_guidance(qtbot, setup):
     groups = replacement_groups(page)
     assert [g.text(0) for g in groups] == ['Higher tier owned', 'In your wardrobes', 'Stored', 'On other characters (1)']
     assert not groups[-1].isExpanded()
-    assert groups[0].child(0).text(0) == 'Hashishin Kavuk +3  ↑\nWardrobe 3'
+    assert groups[0].child(0).text(0) == 'Hashishin Kavuk +3  ↑'
+    assert groups[0].child(0).text(1) == 'Wardrobe 3'
     select_replacement(page, 'Herculean Helm')
     assert 'Move from Mog Safe 1 before use' in page.replacement_details.text()
     select_replacement(page, 'Hope Masque')
+    assert 'On Bob; this copy is not available here.' in page.replacement_details.text()
     assert 'Requirements unverified: needs superior level 3' in page.replacement_details.text()
     assert not page.copy_btn.isEnabled() and page.copy_area.isHidden()
 
@@ -457,7 +460,7 @@ def test_copy_disabled_during_reload_context_change_and_inventory_recompute(qtbo
     wait(qtbot, page)
 
 
-def test_ambiguous_location_shows_candidates_and_disables_open(qtbot, setup):
+def test_ambiguous_location_shows_candidates_and_still_opens_job_file(qtbot, setup, monkeypatch):
     ctx, fake = setup
     filename = fix_read(ctx, fake)
     with filename.open('a') as f:
@@ -468,7 +471,82 @@ def test_ambiguous_location_shows_candidates_and_disables_open(qtbot, setup):
     select_replacement(page, 'Hashishin Kavuk +3')
     assert 'Location ambiguous · search for sets.SavageBlade.Attack' in page.copy_location.text()
     assert 'Alice_BLU.lua:2' in page.copy_location.text() and 'Alice_BLU.lua:3' in page.copy_location.text()
-    assert not page.open_file_btn.isEnabled() and page.copy_btn.isEnabled()
+    assert page.open_file_btn.isEnabled() and page.copy_btn.isEnabled()
+    assert page.open_file_btn.text() == 'Open job file'
+    opened = []
+    monkeypatch.setattr(os, 'startfile', opened.append)
+    page.open_file_btn.click()
+    assert opened == [str(filename)]
+
+
+@pytest.mark.parametrize('sets', [None, []], ids=['with_sets', 'without_sets'])
+def test_open_job_file_works_before_selecting_any_replacement(qtbot, setup, monkeypatch, sets):
+    ctx, fake = setup
+    filename = fix_read(ctx, fake, sets=sets)
+    page = make_page(qtbot, ctx)
+    opened = []
+    monkeypatch.setattr(os, 'startfile', opened.append)
+    assert page._copy_target is None and page.open_file_btn.isEnabled()
+    page.open_file_btn.click()
+    assert opened == [str(filename)]
+    ctx.windower_dir = ''
+    page._windower_changed('')
+    assert not page.open_file_btn.isEnabled()
+
+
+def test_grid_context_menu_uses_the_clicked_item_and_all_existing_sites(qtbot, setup, monkeypatch):
+    from PySide6.QtCore import QPoint
+    from PySide6.QtGui import QContextMenuEvent
+    from PySide6.QtWidgets import QApplication, QMenu
+    from vanadiel_nexus.ui.pages import sets as sets_page
+    ctx, _ = setup
+    ctx.opened = []
+    ctx.open_url = ctx.opened.append
+    menus = []
+
+    class CapturedMenu(QMenu):
+        def exec(self, *_args):
+            menus.append(self)
+
+    monkeypatch.setattr(sets_page, 'QMenu', CapturedMenu)
+    page = make_page(qtbot, ctx)
+    cell = page.grid.cells['neck']
+    event = QContextMenuEvent(QContextMenuEvent.Mouse, QPoint(2, 2), cell.mapToGlobal(QPoint(2, 2)))
+    QApplication.sendEvent(cell, event)
+    assert page.grid.selected() == 'neck' and page.current_slot == 'neck'
+    assert [a.text() for a in menus[-1].actions()] == ['Open on BG-Wiki ↗', 'Open on FFXIAH ↗', 'Open on FFXIclopedia ↗']
+    menus[-1].actions()[1].trigger()
+    assert ctx.opened[-1] == 'https://www.ffxiah.com/item/23106'
+    count = len(menus)
+    cell = page.grid.cells['main']
+    QApplication.sendEvent(cell, QContextMenuEvent(QContextMenuEvent.Mouse, QPoint(2, 2), cell.mapToGlobal(QPoint(2, 2))))
+    assert len(menus) == count  # no item, no wiki menu
+    assert page.grid.selected() == page.current_slot == 'main'
+    assert page._copy_target is None and not page.copy_btn.isEnabled()
+    page._busy = True
+    cell = page.grid.cells['head']
+    QApplication.sendEvent(cell, QContextMenuEvent(QContextMenuEvent.Mouse, QPoint(2, 2), cell.mapToGlobal(QPoint(2, 2))))
+    assert len(menus) == count  # no stale-context actions during a read
+    assert page.grid.selected() == page.current_slot == 'main'
+    page._busy = False
+
+
+def test_replacement_rows_separate_item_names_from_quieter_locations(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    ctx.inventory_snapshot['Alice'].append({**row(23113, 'Herculean Helm'), 'augments': 'DEX+10, STR+5'})
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    entry = select_replacement(page, 'Herculean Helm')
+    assert page.replacement_list.headerItem().text(0) == 'Item'
+    assert page.replacement_list.headerItem().text(1) == 'Location'
+    assert entry.text(0) == 'Herculean Helm' and '\n' not in entry.text(0)
+    assert entry.text(1) == 'Wardrobe 3' and entry.font(0).bold()
+    assert entry.font(1).pixelSize() == round(12 * page._scale())
+    assert page.replacement_name.text() == 'Herculean Helm'
+    assert 'DEX+10' in page.replacement_details.text()
+    page.replacement_filter.setText('STR+5')
+    assert not entry.isHidden()  # augment filtering still works without cluttering the item column
 
 
 @pytest.mark.parametrize('shared', [False, True])
