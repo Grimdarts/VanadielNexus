@@ -250,9 +250,6 @@ class SetsPage(Page):
         self.tree.setHeaderHidden(True)
         self.tree.setTextElideMode(Qt.ElideMiddle)
         self.tree.setIndentation(14)
-        self.tree.setStyleSheet(  # the selected row reads as selected even when the tree has no focus
-            f'QTreeWidget::item:selected, QTreeWidget::branch:selected {{ background: rgba(34, 211, 238, 0.12); '
-            f'color: {theme.ACCENT}; }}')
         self.tree.setSelectionMode(QAbstractItemView.SingleSelection)
         self.tree.setAccessibleName('Sets')
         self.tree.header().setStretchLastSection(False)
@@ -353,12 +350,17 @@ class SetsPage(Page):
         content_layout.setContentsMargins(0, 0, 0, 0)
         for widget in (self.panel_slot, self.panel_name, self.panel_info, self.panel_note, self.panel_placeholder):
             content_layout.addWidget(widget)
-        self.item_links_btn = widgets.button('Current item links ↗', 'ghost')
+        self.item_links_btn = widgets.button('Current item links ↗')
         self.item_links_btn.setAccessibleName('Wiki links for current item')
         self.item_links_btn.setMenu(QMenu(self.item_links_btn))
         self.open_file_btn = widgets.button('Open job file', on_click=self._open_file)
         content_layout.addWidget(self.item_links_btn, 0, Qt.AlignLeft)
         content_layout.addWidget(self.open_file_btn, 0, Qt.AlignLeft)
+        self.source_help = widgets.label('', wrap=True)
+        self.source_help.setTextFormat(Qt.PlainText)
+        self.source_help.setTextInteractionFlags(Qt.TextSelectableByMouse)
+        self.source_help.setAccessibleName('Find this slot in your Lua')
+        content_layout.addWidget(self.source_help)
         self.replacements = QWidget()
         rl = QVBoxLayout(self.replacements)
         rl.setContentsMargins(0, 8, 0, 0)
@@ -391,7 +393,7 @@ class SetsPage(Page):
         self.replacement_name.setStyleSheet('font-weight: 600;')
         rl.addWidget(self.replacement_name)
         rl.addWidget(self.replacement_details)
-        self.replacement_links_btn = widgets.button('Replacement links ↗', 'ghost')
+        self.replacement_links_btn = widgets.button('Replacement links ↗')
         self.replacement_links_btn.setAccessibleName('Wiki links for selected replacement')
         self.replacement_links_btn.setMenu(QMenu(self.replacement_links_btn))
         rl.addWidget(self.replacement_links_btn, 0, Qt.AlignLeft)
@@ -475,9 +477,27 @@ class SetsPage(Page):
 
     def _apply_label_styles(self) -> None:
         scale = self._scale()
+        # Keep focus visible even for ghost buttons and trees whose native outline
+        # is suppressed by the app theme. Scope this pass to Sets.
+        self.setStyleSheet(
+            f'QPushButton:focus {{ border: 2px solid {theme.ACCENT}; }}'
+            f'QTreeWidget:focus {{ border: 2px solid {theme.ACCENT}; }}'
+            f'QMenu::item {{ border: 1px solid transparent; }}'
+            f'QMenu::item:selected {{ border: 1px solid {theme.ACCENT}; background: {theme.SURFACE}; '
+            f'color: {theme.ACCENT}; }}')
+        for tree in (self.tree, self.replacement_list):
+            tree.setStyleSheet(
+                f'QTreeWidget::item:selected, QTreeWidget::branch:selected {{ '
+                f'background: rgba(34, 211, 238, 0.12); color: {theme.ACCENT}; }}')
+        for label in (self.panel_info, self.panel_placeholder, self.replacement_details, self.source_help,
+                      self.affected_sets, self.copy_location, self.copy_note):
+            label.setStyleSheet(f'color: {theme.TEXT}; font-size: {round(14 * scale)}px;')
+        self.panel_note.setStyleSheet(f'color: {theme.WARNING}; font-size: {round(14 * scale)}px;')
         self.replacement_list.setColumnWidth(1, round(100 * scale))
-        self.snippet.setStyleSheet(f'background: {theme.SURFACE_2}; border-radius: 6px; '
-                                  f'font-family: Consolas; font-size: {round(13 * scale)}px;')
+        self.snippet.setStyleSheet(
+            f'QPlainTextEdit {{ background: {theme.SURFACE_2}; border: 1px solid {theme.BORDER}; border-radius: 6px; '
+            f'font-family: Consolas; font-size: {round(14 * scale)}px; }}'
+            f'QPlainTextEdit:focus {{ border-color: {theme.ACCENT}; }}')
         self.path_label.setStyleSheet(f'font-size: {round(14 * scale)}px;')
         self.attention_title.setStyleSheet(f'font-size: {round(14 * scale)}px; font-weight: 600;')
         for row in self.attention_rows:
@@ -1024,6 +1044,8 @@ class SetsPage(Page):
         for widget in (self.panel_slot, self.panel_name, self.panel_info, self.panel_note):
             widget.clear()
             widget.hide()
+        self.source_help.clear()
+        self.source_help.hide()
         self.panel_placeholder.show()
         if self._wide is False and self.panel.isVisible():
             self.panel.hide()
@@ -1301,6 +1323,28 @@ class SetsPage(Page):
         self.open_file_btn.setText('Open source file' if source else 'Open job file')
         self.open_file_btn.setToolTip(path or 'No readable job file for the current selection')
         self.open_file_btn.setEnabled(bool(path) and not self._busy and not self.reading.isVisible())
+        # File associations cannot promise a jump to a line. Keep the search
+        # instructions in the inspector so they remain available beside an editor.
+        view = self.view_by_path.get(self.current_path)
+        piece = view.set_read.pieces.get(self.current_slot) if view else None
+        help_text = ''
+        if piece is not None:
+            target = self._copy_target
+            shared = target and target.key[0] == 'table'
+            search_path = ((target.path or piece.name) if target else
+                           (piece.origin_path or piece.inherited_from or self.current_path))
+            help_text = f'In your editor, press Ctrl+F and search for:\n{search_path}'
+            if shared:
+                help_text += '\nFind the shared item table definition.'
+            else:
+                help_text += f'\nThen find {piece.original_key}= '
+                help_text += f'({piece.name}).' if piece.name else 'in that table.'
+            if target and target.location.verified:
+                help_text += f'\nSource: {os.path.basename(target.location.file)}, line {target.location.line}.'
+            elif target:
+                help_text += '\nLocation ambiguous: check the candidate locations below before pasting.'
+        self.source_help.setText(help_text)
+        self.source_help.setVisible(bool(help_text))
 
     def _open_file(self):
         path = self._open_file_path()

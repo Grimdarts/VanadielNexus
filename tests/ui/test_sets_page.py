@@ -407,6 +407,8 @@ def test_copy_slot_and_all_snippets_clipboard_status_and_open_file(qtbot, setup,
     assert page.copy_btn.text() == 'Copy slot line'
     assert page.copy_scope.text() == 'Replace 1 slot line in Alice_BLU.lua'
     assert page.copy_location.text() == 'Alice_BLU.lua, line 2'
+    assert 'Source: Alice_BLU.lua, line 2.' in page.source_help.text()
+    assert 'sets.SavageBlade.Attack' in page.source_help.text()
     assert page.copy_all_btn.text() == 'Copy 2 snippets'
     page.copy_btn.click()
     assert QApplication.clipboard().text() == 'head="Hashishin Kavuk +3",'
@@ -473,6 +475,7 @@ def test_ambiguous_location_shows_candidates_and_still_opens_job_file(qtbot, set
     assert 'Alice_BLU.lua:2' in page.copy_location.text() and 'Alice_BLU.lua:3' in page.copy_location.text()
     assert page.open_file_btn.isEnabled() and page.copy_btn.isEnabled()
     assert page.open_file_btn.text() == 'Open job file'
+    assert 'Location ambiguous: check the candidate locations below before pasting.' in page.source_help.text()
     opened = []
     monkeypatch.setattr(os, 'startfile', opened.append)
     page.open_file_btn.click()
@@ -492,6 +495,26 @@ def test_open_job_file_works_before_selecting_any_replacement(qtbot, setup, monk
     ctx.windower_dir = ''
     page._windower_changed('')
     assert not page.open_file_btn.isEnabled()
+
+
+def test_source_search_guidance_tracks_slot_without_needing_a_replacement(qtbot, setup):
+    ctx, fake = setup
+    fix_read(ctx, fake)
+    page = make_page(qtbot, ctx)
+    page._cell_clicked('head')
+    assert page.copy_area.isHidden()
+    assert not page.source_help.isHidden()
+    assert 'Ctrl+F' in page.source_help.text()
+    assert 'sets.SavageBlade.Attack' in page.source_help.text()
+    assert 'head= (Hashishin Kavuk +2)' in page.source_help.text()
+    page._cell_clicked('neck')
+    assert 'neck= (Fotia Gorget)' in page.source_help.text()
+    assert 'head=' not in page.source_help.text()
+    page._cell_clicked('main')  # no slot entry to search for
+    assert page.source_help.isHidden() and page.source_help.text() == ''
+    page._cell_clicked('head')
+    page._clear_panel()
+    assert page.source_help.isHidden() and page.source_help.text() == ''
 
 
 def test_grid_context_menu_uses_the_clicked_item_and_all_existing_sites(qtbot, setup, monkeypatch):
@@ -568,6 +591,9 @@ def test_root_and_shared_scope_payload_label_and_affected_sets(qtbot, setup, sha
     select_replacement(page, 'Herculean Helm')
     assert page.copy_scope.text() == ('Replace shared table · affects 4 sets' if shared else 'Fix at root S0 · fixes 4 sets')
     assert page.copy_btn.text() == ('Copy table' if shared else 'Copy slot line')
+    assert ('search for:\nHerculean Helm' if shared else 'search for:\nsets.S0') in page.source_help.text()
+    if shared:
+        assert 'Find the shared item table definition.' in page.source_help.text()
     assert page.copy_all_btn.isHidden()
     page.affected_btn.click()
     assert not page.affected_sets.isHidden() and page.affected_sets.text().splitlines() == [f'sets.S{i}' for i in range(4)]
@@ -706,6 +732,7 @@ def test_inherited_unknown_correction_explains_adding_a_local_override(qtbot, se
     assert page.copy_scope.text() == 'Add slot override in Idle · affects 1 sets'
     assert 'Add this field to sets.Idle' in page.copy_note.text()
     assert 'Leave the shared root unchanged' in page.copy_note.text()
+    assert 'search for:\nsets.Idle' in page.source_help.text()
 
 
 def test_focus_refresh_restores_choice_only_after_rebuilding_the_copy(qtbot, setup):
