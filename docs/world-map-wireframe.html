@@ -1,0 +1,239 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>World Map wireframe</title>
+<style>
+  /* Intentionally rough sketch following office-hours Visual Sketch spec + DESIGN.md structure */
+  body { font-family: "Segoe UI", system-ui, sans-serif; margin: 0; background: #0B1020; color: #E6EAF2; font-size: 13px; }
+  .frame { width: 1240px; margin: 16px auto; border: 2px solid #26324D; border-radius: 10px; background: #0B1020; overflow: hidden; }
+  .top { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #121A2E; border-bottom: 1px solid #26324D; }
+  .top b { font-size: 18px; letter-spacing: .04em; color: #E6EAF2; }
+  .top .status { color: #9AA6BF; font-size: 12px; }
+  .top .pill-live { display: inline-block; background: rgba(52, 211, 153, 0.15); border: 1px solid #34D399; color: #34D399; border-radius: 12px; padding: 2px 10px; font-weight: 600; margin-left: 8px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; padding: 10px 20px; background: #121A2E; border-bottom: 1px solid #26324D; }
+  .search { background: #18223A; border: 1px solid #26324D; border-radius: 6px; padding: 6px 12px; color: #9AA6BF; width: 200px; }
+  .pills { display: flex; gap: 4px; }
+  .pill { padding: 5px 10px; border: 1px solid #26324D; border-radius: 6px; background: #18223A; color: #9AA6BF; font-size: 12px; }
+  .pill.on { border-color: #22D3EE; color: #22D3EE; background: rgba(34, 211, 238, 0.12); font-weight: 600; }
+  .actions { display: flex; gap: 8px; align-items: center; }
+  .btn { padding: 6px 12px; border: 1px solid #26324D; border-radius: 6px; background: #18223A; color: #E6EAF2; font-size: 12px; }
+  .btn.pri { background: #22D3EE; color: #0B1020; border-color: #22D3EE; font-weight: 600; }
+  .wrap { display: grid; grid-template-columns: 1fr 340px; min-height: 620px; }
+  .canvas { position: relative; background: radial-gradient(circle at 50% 50%, #121A2E 0%, #0B1020 75%); overflow: hidden; }
+  .panel { background: #121A2E; border-left: 1px solid #26324D; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+  h4 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: #9AA6BF; }
+  .card { background: #18223A; border: 1px solid #26324D; border-radius: 8px; padding: 12px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; border: 1px solid #26324D; background: #121A2E; color: #E6EAF2; margin-right: 4px; margin-bottom: 4px; }
+  .badge.cyan { border-color: #22D3EE; color: #22D3EE; }
+  .badge.gold { border-color: #E0B04A; color: #E0B04A; }
+  .badge.green { border-color: #34D399; color: #34D399; }
+  .badge.amber { border-color: #F59E0B; color: #F59E0B; }
+  .step { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px dashed #26324D; font-size: 12px; }
+  .step:last-child { border-bottom: 0; }
+  .step-num { width: 18px; height: 18px; border-radius: 50%; background: #E0B04A; color: #0B1020; font-weight: 700; font-size: 11px; display: flex; align-items: center; justify-content: center; flex: none; margin-top: 1px; }
+  .conn-row { display: flex; justify-content: space-between; align-items: center; padding: 5px 8px; background: #121A2E; border: 1px solid #26324D; border-radius: 6px; margin-bottom: 4px; font-size: 12px; }
+  .legend { position: absolute; bottom: 12px; left: 16px; background: rgba(18, 26, 46, 0.9); border: 1px solid #26324D; border-radius: 8px; padding: 8px 12px; display: flex; gap: 14px; font-size: 11px; color: #9AA6BF; }
+  .zoom-ctrl { position: absolute; bottom: 12px; right: 16px; display: flex; gap: 4px; }
+</style></head>
+<body>
+<!-- Wireframe: Vana'diel Nexus World Map Page (Geographic Constellation + Era Filter Pills + Route Finder) -->
+<div class="frame">
+  <div class="top">
+    <b>WORLD MAP</b>
+    <div class="status">
+      Someonesmall · GEO 99 / RDM 49
+      <span class="pill-live">● Live Zone: Port Jeuno</span>
+    </div>
+  </div>
+
+  <!-- Toolbar: Search, Era/Content Filter Pills, Drag Mode, Open in Browser (single primary button) -->
+  <div class="toolbar">
+    <div class="search">🔍 Search zone (e.g. Sortie, Reisenjima)…</div>
+    <div class="pills">
+      <span class="pill on">All Eras</span>
+      <span class="pill">Core &amp; Zilart</span>
+      <span class="pill">CoP</span>
+      <span class="pill">ToAU</span>
+      <span class="pill">WotG [S]</span>
+      <span class="pill">Adoulin</span>
+      <span class="pill">Escha &amp; Abyssea</span>
+      <span class="pill">Endgame</span>
+    </div>
+    <div class="actions">
+      <span class="btn">✥ Arrange Layout: Off</span>
+      <span class="btn pri">Open in Browser ↗</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <!-- CENTER: Clean Geographic Constellation Canvas (SVG preview of QGraphicsView / Standalone HTML) -->
+    <div class="canvas">
+      <svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
+        <!-- Subtle Region Constellation Halos -->
+        <ellipse cx="450" cy="115" rx="145" ry="68" fill="#18223A" fill-opacity="0.45" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="450" y="64" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">RONFAURE &amp; SAN D'ORIA (NORTH)</text>
+
+        <ellipse cx="450" cy="300" rx="135" ry="72" fill="#18223A" fill-opacity="0.55" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="450" y="244" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">JEUNO &amp; QUFIM HUB (CENTER)</text>
+
+        <ellipse cx="165" cy="260" rx="135" ry="95" fill="#18223A" fill-opacity="0.45" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="165" y="182" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">ADOULIN &amp; RA'KAZNAR (WEST)</text>
+
+        <ellipse cx="220" cy="490" rx="140" ry="68" fill="#18223A" fill-opacity="0.45" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="220" y="438" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">GUSTABERG &amp; BASTOK (SW)</text>
+
+        <ellipse cx="670" cy="490" rx="145" ry="68" fill="#18223A" fill-opacity="0.45" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="670" y="438" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">SARUTABARUTA &amp; WINDURST (SE)</text>
+
+        <ellipse cx="735" cy="245" rx="135" ry="95" fill="#18223A" fill-opacity="0.45" stroke="#26324D" stroke-dasharray="4 4"/>
+        <text x="735" y="166" text-anchor="middle" fill="#7D89A6" font-size="11" font-weight="600" letter-spacing="1">AHT URHGAN &amp; ESCHA (EAST)</text>
+
+        <!-- Standard Walk Connections (Quiet Slate Lines) -->
+        <line x1="450" y1="100" x2="450" y2="145" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="450" y1="145" x2="390" y2="205" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="390" y1="205" x2="450" y2="285" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="450" y1="285" x2="525" y2="325" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="450" y1="285" x2="310" y2="400" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="310" y1="400" x2="220" y2="480" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="450" y1="285" x2="570" y2="400" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="570" y1="400" x2="670" y2="480" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="735" y1="210" x2="735" y2="265" stroke="#3B4B72" stroke-width="2"/>
+        <line x1="735" y1="265" x2="735" y2="315" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3 3"/>
+
+        <!-- Airship / Boat / Warp Connections (Dashed Cyan) -->
+        <path d="M 505 285 Q 615 225 675 210" fill="none" stroke="#0EA5C6" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+        <!-- ACTIVE ROUTE HIGHLIGHT (Gold Path: Port Jeuno -> HP Warp Kamihr Drifts -> Outer Ra'Kaznar -> Sortie) -->
+        <path d="M 395 285 Q 290 230 225 225" fill="none" stroke="#E0B04A" stroke-width="3" stroke-dasharray="6 4"/>
+        <line x1="165" y1="225" x2="165" y2="275" stroke="#E0B04A" stroke-width="3"/>
+        <line x1="165" y1="275" x2="165" y2="328" stroke="#E0B04A" stroke-width="3"/>
+
+        <!-- Nodes: San d'Oria & North -->
+        <rect x="385" y="80" width="130" height="28" rx="14" fill="#18223A" stroke="#9AA6BF" stroke-width="1.5"/>
+        <text x="450" y="98" text-anchor="middle" fill="#E6EAF2" font-size="12">San d'Oria (S/N/Port)</text>
+
+        <rect x="390" y="132" width="120" height="26" rx="6" fill="#121A2E" stroke="#3B4B72"/>
+        <text x="450" y="149" text-anchor="middle" fill="#E6EAF2" font-size="11">W. / E. Ronfaure</text>
+
+        <rect x="330" y="192" width="120" height="26" rx="6" fill="#121A2E" stroke="#3B4B72"/>
+        <text x="390" y="209" text-anchor="middle" fill="#E6EAF2" font-size="11">La Theine / Jugner</text>
+
+        <!-- Nodes: Jeuno Center (Live Player Location Highlighted in Cyan!) -->
+        <rect x="380" y="270" width="140" height="32" rx="16" fill="#18223A" stroke="#22D3EE" stroke-width="2.5"/>
+        <text x="450" y="290" text-anchor="middle" fill="#22D3EE" font-weight="700" font-size="12">★ Port Jeuno (You)</text>
+
+        <rect x="475" y="315" width="105" height="24" rx="4" fill="#121A2E" stroke="#3B4B72"/>
+        <text x="527" y="331" text-anchor="middle" fill="#9AA6BF" font-size="11">Qufim / Delkfutt</text>
+
+        <!-- Nodes: Adoulin & Sortie Route (Highlighted in Gold!) -->
+        <rect x="105" y="210" width="120" height="28" rx="6" fill="#18223A" stroke="#E0B04A" stroke-width="2"/>
+        <text x="165" y="228" text-anchor="middle" fill="#E0B04A" font-weight="600" font-size="11">Kamihr Drifts</text>
+
+        <rect x="100" y="262" width="130" height="28" rx="4" fill="#18223A" stroke="#E0B04A" stroke-width="2"/>
+        <text x="165" y="280" text-anchor="middle" fill="#E0B04A" font-weight="600" font-size="11">Outer Ra'Kaznar</text>
+
+        <polygon points="165,312 235,330 165,348 95,330" fill="#18223A" stroke="#E0B04A" stroke-width="2.5"/>
+        <text x="165" y="334" text-anchor="middle" fill="#E0B04A" font-weight="700" font-size="11">◆ Sortie (Target)</text>
+
+        <!-- Nodes: SW Bastok & Rabao / Odyssey -->
+        <rect x="250" y="388" width="120" height="26" rx="13" fill="#18223A" stroke="#9AA6BF"/>
+        <text x="310" y="405" text-anchor="middle" fill="#E6EAF2" font-size="11">Rabao → Odyssey ◆</text>
+
+        <rect x="155" y="475" width="130" height="28" rx="14" fill="#18223A" stroke="#9AA6BF" stroke-width="1.5"/>
+        <text x="220" y="493" text-anchor="middle" fill="#E6EAF2" font-size="12">Bastok (Mines/Mkt)</text>
+
+        <!-- Nodes: SE Windurst & Sarutabaruta -->
+        <rect x="505" y="388" width="130" height="26" rx="6" fill="#121A2E" stroke="#3B4B72"/>
+        <text x="570" y="405" text-anchor="middle" fill="#E6EAF2" font-size="11">Sauromugue / Garlaige</text>
+
+        <rect x="605" y="475" width="130" height="28" rx="14" fill="#18223A" stroke="#9AA6BF" stroke-width="1.5"/>
+        <text x="670" y="493" text-anchor="middle" fill="#E6EAF2" font-size="12">Windurst (Wds/Wtr)</text>
+
+        <!-- Nodes: East Aht Urhgan & Reisenjima / Omen -->
+        <rect x="670" y="195" width="130" height="28" rx="14" fill="#18223A" stroke="#9AA6BF" stroke-width="1.5"/>
+        <text x="735" y="213" text-anchor="middle" fill="#E6EAF2" font-size="12">Aht Urhgan / Al Zahbi</text>
+
+        <rect x="675" y="252" width="120" height="26" rx="6" fill="#121A2E" stroke="#3B4B72"/>
+        <text x="735" y="269" text-anchor="middle" fill="#E6EAF2" font-size="11">Reisenjima</text>
+
+        <polygon points="735,302 795,318 735,334 675,318" fill="#121A2E" stroke="#F59E0B" stroke-width="1.5"/>
+        <text x="735" y="322" text-anchor="middle" fill="#E6EAF2" font-size="11">◆ Omen (Henge)</text>
+      </svg>
+
+      <!-- Bottom-left Legend: Calm, minimal node & line key -->
+      <div class="legend">
+        <span>◯ Hub / City</span>
+        <span>▢ Field / Dungeon</span>
+        <span>◆ Endgame Instance</span>
+        <span style="color:#22D3EE">★ Live Zone</span>
+        <span style="color:#E0B04A">━ Active Route</span>
+        <span style="color:#F59E0B">┄ Gated / Key Item</span>
+      </div>
+      <div class="zoom-ctrl">
+        <span class="btn">−</span>
+        <span class="btn">100%</span>
+        <span class="btn">+</span>
+        <span class="btn">Center on Me</span>
+      </div>
+    </div>
+
+    <!-- RIGHT DETAIL PANEL: Selected Zone + Route Finder Steps + Neighbor Connections -->
+    <div class="panel">
+      <div>
+        <h4>Selected Zone</h4>
+        <div class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+            <b style="font-size:15px;color:#E0B04A">Sortie (Outer Ra'Kaznar [U1–U3])</b>
+          </div>
+          <div style="color:#9AA6BF;font-size:12px;margin-bottom:8px">Region: Ra'Kaznar · Era: Seekers of Adoulin / Endgame</div>
+          <div>
+            <span class="badge gold">◆ Endgame Instance</span>
+            <span class="badge amber">🔑 Key Item: Rhapsody in Umber / Shinier Acorn</span>
+          </div>
+          <div style="margin-top:10px;display:flex;gap:6px">
+            <span class="btn" style="border-color:#E0B04A;color:#E0B04A">Route from Port Jeuno ✓</span>
+            <span class="btn">BG-Wiki ↗</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4>Fastest Route: Port Jeuno → Sortie (3 hops)</h4>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div>
+              <b>Port Jeuno</b> → <b>Kamihr Drifts</b><br>
+              <span style="color:#22D3EE">Home Point Warp: Kamihr Drifts #1 (Bivouac #4 / Entrance)</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div>
+              <b>Kamihr Drifts</b> → <b>Outer Ra'Kaznar</b><br>
+              <span style="color:#9AA6BF">Zone line at (F-7) / (G-6) · Mount allowed 🐎</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div>
+              <b>Outer Ra'Kaznar</b> → <b>Sortie</b><br>
+              <span style="color:#F59E0B">Diaphanous Transposer at (G-8) · Requires Shining/Lustrous Acorn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4>Connected Zones &amp; Entrances</h4>
+        <div class="conn-row">
+          <span>← Outer Ra'Kaznar (Zone ID 274)</span>
+          <span style="color:#F59E0B;font-size:11px">Transposer (G-8)</span>
+        </div>
+        <div class="conn-row">
+          <span>← Leafallia (Zone ID 281)</span>
+          <span style="color:#9AA6BF;font-size:11px">Ruspix / Upgrade Hub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

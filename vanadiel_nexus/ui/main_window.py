@@ -28,11 +28,12 @@ from .pages.layout import LayoutPage
 from .pages.sets import SetsPage
 from .pages.settings import SettingsPage
 from .pages.wishlist import WishlistPage
+from .pages.world_map import WorldMapPage
 from .layout_manager import LayoutManager
 from .setup_dialog import SetupDialog
 
 NAV = [("⚔", GearPage), ("▣", SetsPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⊞", LayoutPage),
-       ("⌨", HotkeysPage), ("↗", GuidesPage), ("▦", G13Page)]
+       ("⌨", HotkeysPage), ("↗", GuidesPage), ("◎", WorldMapPage), ("▦", G13Page)]
 COLLAPSE_BELOW = 1100
 
 

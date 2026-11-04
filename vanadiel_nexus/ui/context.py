@@ -17,6 +17,7 @@ class AppContext(QObject):
     db_changed = Signal()
     windower_changed = Signal(str)
     job_changed = Signal(str)
+    zone_changed = Signal(str)
     inventory_changed = Signal()
 
     def __init__(self, version: str):
@@ -29,6 +30,7 @@ class AppContext(QObject):
         self.bridge = GameBridge(self)
         self.windower_dir = windower.find_windower_dir(self.settings.get("windower_dir"), paths.app_dir())
         self.job = self.settings.get("job_filter") or ""
+        self.zone_name = ""
         self._snapshot_path = os.path.join(self.data_dir, "inventory_snapshot.json")
         self.inventory_snapshot = read_json(self._snapshot_path) or {}
         if not self.inventory_snapshot:
@@ -68,6 +70,10 @@ class AppContext(QObject):
     def _on_state(self, state: dict) -> None:
         if state.get("main_job"):
             self.set_job(state["main_job"])
+        zone = str(state.get("zone_name") or "").strip()
+        if zone and zone.casefold() != "unknown" and zone != getattr(self, "zone_name", ""):
+            self.zone_name = zone
+            self.zone_changed.emit(zone)
         if (state.get("snapshot_complete") is True
                 and isinstance(state.get("inventory"), list) and state.get("player_name")):
             name = state["player_name"]
