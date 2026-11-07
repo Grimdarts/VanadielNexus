@@ -83,7 +83,9 @@ update cycle, after 2.2.0 ships.
   to pick up in-game moves and keep them. Options: read each overlay's current file position (and/or ask
   the addon for live screen positions, as `//vn layout` already does with LAYOUT_RESULT) before saving or
   switching, and treat a newer in-game position as the truth. `//vn layout` (A5) is the in-game path that
-  does sync back today.
+  does sync back today, and the Layout page's **Capture current** button (under the window list, easy to
+  miss) reads the windows' current file positions; documented in the player guide as the workaround. The
+  real fix is doing this automatically.
 - **Layout: no live preview when dropping a box,** so you can't see whether the box lands where the
   overlay will. Move the real window live while dragging (or on drop), before Save.
 - **Layout: boxes aren't 1:1 with the real windows.** Sizes in `resources/overlays.json` are fixed guesses

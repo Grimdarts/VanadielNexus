@@ -23,12 +23,26 @@ installs, configures and reloads them for you.
 | **Addons** | All your addons and plugins with descriptions, what starts with the game, load / unload / reload, and a settings editor for each addon (switches, numbers, colors) that backs up before saving. **Scan for updates** checks addons against their GitHub source and updates only changed files, never your saved settings. A **My Addons** tab helps you write and install your own addons. |
 | **Layout** | Arrange every addon window that draws on the game screen, on a picture of your screen or in game (`//vn layout`). Each job keeps its own layout, windows move when you change job, and an addon can be shown on some jobs and hidden on others. |
 | **Hotkeys** | Every key bind from the game, Windower `init.txt`, GearSwap job files and addons, with only real conflicts flagged (job files that never load together don't count). Change a key or turn a bind off, with a backup. |
-| **Guide upgrades** | FFXIAH guide-linked equipment sets for BLU, SMN, RUN, SCH, NIN, COR, BST and RDM compared against one character's saved inventory. Pick a set by what it's for (idle, TP, a weapon skill, fast cast, cures…), then by gear tier. Distinguishes missing items, other tiers and unverified augment requirements. Record explicit augment targets and import a selected set into the wishlist without replacing personal goals. |
-| **World Map** | Every zone and how they connect, filtered by expansion, with a route finder from your current zone that can use Home Points and Survival Guides. Opens as a web page too. |
+| **Guide upgrades** | Recommended gear sets for all 22 jobs (512 in 2.2.0), compared against one character's saved inventory. Pick a set by what it's for (idle, TP, a weapon skill, fast cast, cures…). Each slot says whether you're ready, own it in the wrong bag, need the right augments or a second copy, or are missing it. Save sets as targets with your own augment or bag notes; corrected guides never change a saved target until you review and accept the update. |
 | **G13 controls** | *Optional.* For Logitech G13 users whose GearSwap job files export their key labels (see [Optional integrations](#optional-integrations)). |
 | **Settings** | Windower folder, text size, default wiki site, where your data lives, and updates. |
 
 Right-click any item on Gear, Sets, Wishlist, Inventory or Guide upgrades to open it on BG-Wiki, FFXIAH or FFXIclopedia; **Settings** picks the site that double-click (on Inventory and Guide upgrades) and the Open wiki buttons use.
+
+## What's new in 2.2.0
+
+- **Guide upgrades** now covers all 22 jobs, with saved targets, your own augment and bag notes, and a review
+  step whenever a guide set is corrected.
+- **Sets** reads every set in your GearSwap job file, flags gear stored where GearSwap can't reach it, and
+  warns before you paste a line that would need a second copy of an item.
+- **Wishlist** item names autocomplete from the game's equipment list.
+- **Inventory** includes items stored on moogle storage slips.
+- **Layout** arranges addon windows per job, in the app or in game (`//vn layout`).
+- Windower addon **1.5.1**. The app offers to update it from the Setup checklist.
+
+**Known issues** and **what's coming next** are listed in the player guide:
+[Known issues and what's next](docs/USER-GUIDE.md#known-issues-and-whats-next). The World Map page is held
+back for a later release.
 
 **New here? Read the [player guide](docs/USER-GUIDE.md).** It walks through setup, every page, the in-game
 commands, where your data lives, and what to do when something doesn't connect.

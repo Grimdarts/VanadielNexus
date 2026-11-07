@@ -21,7 +21,8 @@ the app what your character is carrying; everything else happens on your PC.
 7. [Your data and backups](#your-data-and-backups)
 8. [Updates](#updates)
 9. [Troubleshooting](#troubleshooting)
-10. [Uninstalling](#uninstalling)
+10. [Known issues and what's next](#known-issues-and-whats-next)
+11. [Uninstalling](#uninstalling)
 
 ---
 
@@ -268,7 +269,9 @@ xivbar, and about 20 others) and give each job its own arrangement.
 - **Switch with my job**: when ticked, your windows move to that job's layout whenever you change job in
   game.
 - **Copy from…** starts this job's layout from another job's.
-- **Capture current** takes the positions your windows have right now, after you've dragged them in game.
+- **Capture current** (under the window list) takes the positions your windows have right now. **Use it
+  after dragging windows in game**, then click Save. Otherwise the app doesn't know about those moves yet
+  and puts its own saved positions back the next time you save or change job.
 - **Background…** puts one of your own FFXI screenshots behind the boxes to line things up against.
 - **Save** keeps the layout for this job. If it's the job you're playing right now, the app also writes the
   positions into each addon's settings and reloads those addons in game, so their windows jump to the new
@@ -308,26 +311,31 @@ itself.
 
 ### Guide upgrades
 
-The 2.2.0 catalog contains **512 effective recommendations across all 22 jobs**, with explicit action,
-weapon and recipient contexts. This is bounded coverage, not every job/tier/encounter or a current-best
-claim. DRG/PUP/DNC second passes, additional RUN variants and other declared limits remain pending.
+Recommended gear sets for **all 22 jobs** (512 sets in 2.2.0), compared with what one of your characters
+owns. Use it to see what you already have for a set and what you still need.
 
-1. Choose the job, purpose and contextual set. Version buttons appear only for distinct selectable
-   versions. Retired corrections remain history and are hidden from the picker.
-2. Read the origin, currency, verification scope, assumptions and **Sources** before choosing a target.
-   A recent source date does not prove the recommendation is current or safe to swap in combat.
-3. Select a character snapshot. **Ready in snapshot** means a matching copy is in a supported equippable
-   bag; **Owned · check bag** means location/readiness still needs review. **Upgrade / verify** includes
-   unmet or unreported literal augments/rank/path and copies already allocated to another slot.
-   **Unverified** means no inventory snapshot. Two selected ring slots require two physical copies.
-4. **Track this set** explicitly saves a separate revision target. Existing Wishlist/legacy targets are
-   preserved; there is no automatic slot inference, migration or retargeting.
-5. A saved retired target shows an amber notice. **Review update…** previews the effective replacement;
-   only **Save this revision** adopts it. Personal overrides and bag bindings remain separate.
+1. **Pick a set.** Choose the job, what the set is for (Idle, TP, a weapon skill, Precast, Healing…), then the
+   set. If a set comes in more than one version, small **Version** buttons appear under the picker.
+2. **Pick your character.** The list compares the set against that character's last inventory scan. Each
+   row says where you stand:
 
-Item details and Equipment analysis show supported known contributions and unknown effects explicitly.
-They do not certify caps, HP-preserving swaps, ownership beyond the selected snapshot, or live readiness.
-The application never writes player Lua from these guide or Sets comparison flows.
+   | Row says | Meaning |
+   |----------|---------|
+   | **Ready in snapshot** | You own the right piece, in a bag GearSwap can equip from. |
+   | **Owned · check bag** | You own it, but it's stored somewhere GearSwap can't equip from (Mog Safe, Satchel…). |
+   | **Upgrade / verify** | You own the base item, but not with the augments, rank or path the set asks for, or you'd need a second copy (two of the same ring, for example). |
+   | **Missing** | This character doesn't have it. |
+   | **Unverified** | No inventory scan for this character yet. Type `//vn scan` in game. |
+
+3. **Sources ↗** opens the pages the set was built from.
+4. **Track this revision** saves the set as one of your targets. **Edit selected target…** lets you set
+   your own augment requirement or the bag you keep a piece in, for one slot. Your changes are kept only
+   when you click Save.
+5. **When a guide set is corrected later,** your saved target shows an amber notice. Nothing changes until
+   you click **Review update…** and save the new version. Your own edits are kept.
+
+The guides are a dated snapshot, not a promise of current best-in-slot gear. Owning a base item doesn't
+mean its augments are done. The app never changes your GearSwap files from this page.
 
 ### World Map (deferred)
 
@@ -436,6 +444,38 @@ restore it and add an exception for the app's folder. Download it only from the 
 **Something else.** Open an issue on [GitHub](https://github.com/Grimdarts/VanadielNexus/issues). Say what
 you did, what you expected, and what happened instead, and include a screenshot if you can. Don't attach your
 `data` folder unless you're happy for others to see your character names and inventory.
+
+## Known issues and what's next
+
+**Known issues in 2.2.0** (fixes planned for the next update):
+
+- **Wishlist → Add item:** if you pick one suggestion and then change to a different item, the **Slot** keeps
+  the first item's slot. Check the slot before saving.
+- **Sets:** the selection in **Owned replacements** clears about a second after you switch to another page
+  and back. Select it again.
+- **Sets:** the keyboard focus outline is hard to see on the **Copy slot line** button.
+- **Sets:** the ↑ upgrade badge can suggest a higher-tier piece that another slot in the same set already
+  uses (for example your only Stikini Ring +1). The copy preview warns about this before you paste.
+- **Sets:** the tab names show a stray underline ("Attention _copy fixes"), and **Equipment analysis** is
+  mostly empty for now. It is being redesigned.
+- **Layout:** windows you drag in game aren't picked up automatically. Use **Capture current** or
+  `//vn layout`. The boxes are close estimates of each window's size, and the real windows move when you
+  save, not while you drag a box.
+- **Setup badge:** after updating the addon while the app is open, the top bar can keep saying
+  **Setup 2 of 3** until you click it.
+- **Guide upgrades:** some text is small and technical, including internal IDs. This page is being
+  simplified.
+
+**Planned next:**
+
+- Plainer Guide upgrades: bigger, labelled text areas; Sources limited to the guide and the gear set it
+  came from; no internal IDs; a clearer **Review update…** window; the 4×4 gear grid instead of the list.
+- **Swap and compare:** swap pieces into a set, several at once, and see every stat you gain and lose
+  before you change your GearSwap file. The same view will come to Guide upgrades.
+- Layout picks up windows you move in game, shows a live preview, and uses true window sizes.
+- A clean pass over names and formatting across the app (for example "DT Idle", not "Dt Idle").
+
+Found something else? Open an issue on [GitHub](https://github.com/Grimdarts/VanadielNexus/issues).
 
 ## Uninstalling
 
