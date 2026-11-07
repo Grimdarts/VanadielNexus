@@ -1,0 +1,1368 @@
+{
+  "checked_on": "2026-11-04",
+  "observations": [
+    {
+      "item_set": 316322,
+      "url": "https://www.ffxiah.com/item-sets/316322",
+      "capture_id": "geo-web-06",
+      "title": "GEO -DT",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip main \"Terra's Staff\";",
+          "slot": "main",
+          "name": "Terra's Staff"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip waist \"Slipor Sash\";",
+          "slot": "waist",
+          "name": "Slipor Sash"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip ring1 \"Dark Ring\";",
+          "slot": "ring1",
+          "name": "Dark Ring"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip feet \"Mallquis Clogs +2\";",
+          "slot": "feet",
+          "name": "Mallquis Clogs +2"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip neck \"Loricate Torque +1\";",
+          "slot": "neck",
+          "name": "Loricate Torque +1"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip back \"Moonlight Cape\";",
+          "slot": "back",
+          "name": "Moonlight Cape"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip ring2 \"Defending Ring\";",
+          "slot": "ring2",
+          "name": "Defending Ring"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip ear1 \"Etiolation Earring\";",
+          "slot": "ear1",
+          "name": "Etiolation Earring"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip ear2 \"Genmei Earring\";",
+          "slot": "ear2",
+          "name": "Genmei Earring"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip hands \"Geo. Mitaines +3\";",
+          "slot": "hands",
+          "name": "Geo. Mitaines +3"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip body \"Shamash Robe\";",
+          "slot": "body",
+          "name": "Shamash Robe"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip legs \"Assid. Pants +1\";",
+          "slot": "legs",
+          "name": "Assid. Pants +1"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip head \"Merlinic Hood\";",
+          "slot": "head",
+          "name": "Merlinic Hood"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip sub \"Mensch Strap +1\";",
+          "slot": "sub",
+          "name": "Mensch Strap +1"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "c18cf56d9728b9648ebd1317f73c8fb6527d2eab2a75a91e7374f12433968906"
+    },
+    {
+      "item_set": 316497,
+      "url": "https://www.ffxiah.com/item-sets/316497",
+      "capture_id": "geo-web-04",
+      "title": "Geo: Fastcast",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip neck \"Orunmila's Torque\";",
+          "slot": "neck",
+          "name": "Orunmila's Torque"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip ear1 \"Loquac. Earring\";",
+          "slot": "ear1",
+          "name": "Loquac. Earring"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip ear2 \"Enchntr. Earring +1\";",
+          "slot": "ear2",
+          "name": "Enchntr. Earring +1"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip body \"Zendik Robe\";",
+          "slot": "body",
+          "name": "Zendik Robe"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip main \"Sucellus\";",
+          "slot": "main",
+          "name": "Sucellus"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip sub \"Chanter's Shield\";",
+          "slot": "sub",
+          "name": "Chanter's Shield"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip ring1 \"Kishar Ring\";",
+          "slot": "ring1",
+          "name": "Kishar Ring"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip ring2 \"Weather. Ring +1\";",
+          "slot": "ring2",
+          "name": "Weather. Ring +1"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip head \"Merlinic Hood\";",
+          "slot": "head",
+          "name": "Merlinic Hood"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip hands \"Merlinic Dastanas\";",
+          "slot": "hands",
+          "name": "Merlinic Dastanas"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip feet \"Merlinic Crackows\";",
+          "slot": "feet",
+          "name": "Merlinic Crackows"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip legs \"Geomancy Pants +3\";",
+          "slot": "legs",
+          "name": "Geomancy Pants +3"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip waist \"Witful Belt\";",
+          "slot": "waist",
+          "name": "Witful Belt"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "6fb4aa1e89e61ae76e95c7902bce9ddd059c03f7e302a447d018e1b1c60e6f2c"
+    },
+    {
+      "item_set": 316507,
+      "url": "https://www.ffxiah.com/item-sets/316507",
+      "capture_id": "geo-web-05",
+      "title": "GEO Enfeeble MND",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip head \"Geo. Galero +3\";",
+          "slot": "head",
+          "name": "Geo. Galero +3"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip body \"Geomancy Tunic +3\";",
+          "slot": "body",
+          "name": "Geomancy Tunic +3"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip hands \"Geo. Mitaines +3\";",
+          "slot": "hands",
+          "name": "Geo. Mitaines +3"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip legs \"Geomancy Pants +3\";",
+          "slot": "legs",
+          "name": "Geomancy Pants +3"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip feet \"Geo. Sandals +3\";",
+          "slot": "feet",
+          "name": "Geo. Sandals +3"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";",
+          "slot": "ring1",
+          "name": "Stikini Ring +1"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip waist \"Luminary Sash\";",
+          "slot": "waist",
+          "name": "Luminary Sash"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip neck \"Erra Pendant\";",
+          "slot": "neck",
+          "name": "Erra Pendant"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip ear1 \"Regal Earring\";",
+          "slot": "ear1",
+          "name": "Regal Earring"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip ring2 \"Kishar Ring\";",
+          "slot": "ring2",
+          "name": "Kishar Ring"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip main \"Grioavolr\";",
+          "slot": "main",
+          "name": "Grioavolr"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip sub \"Enki Strap\";",
+          "slot": "sub",
+          "name": "Enki Strap"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip ammo \"Hydrocera\";",
+          "slot": "ammo",
+          "name": "Hydrocera"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip ear2 \"Digni. Earring\";",
+          "slot": "ear2",
+          "name": "Digni. Earring"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "ac4ef3c7978d535beb4ca34191acee3fb72c0c0858788e4401ee09fd0d4e2af9"
+    },
+    {
+      "item_set": 316509,
+      "url": "https://www.ffxiah.com/item-sets/316509",
+      "capture_id": "geo-web-04",
+      "title": "L100: ",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L155",
+          "source_text": "input /equip ear1 \"Friomisi Earring\";",
+          "slot": "ear1",
+          "name": "Friomisi Earring"
+        },
+        {
+          "locator": "L156",
+          "source_text": "input /equip ring1 \"Fenrir Ring +1\";",
+          "slot": "ring1",
+          "name": "Fenrir Ring +1"
+        },
+        {
+          "locator": "L157",
+          "source_text": "input /equip ring2 \"Fenrir Ring +1\";",
+          "slot": "ring2",
+          "name": "Fenrir Ring +1"
+        },
+        {
+          "locator": "L158",
+          "source_text": "input /equip main \"Solstice\";",
+          "slot": "main",
+          "name": "Solstice"
+        },
+        {
+          "locator": "L159",
+          "source_text": "input /equip sub \"Ammurapi Shield\";",
+          "slot": "sub",
+          "name": "Ammurapi Shield"
+        },
+        {
+          "locator": "L160",
+          "source_text": "input /equip ammo \"Ghastly Tathlum +1\";",
+          "slot": "ammo",
+          "name": "Ghastly Tathlum +1"
+        },
+        {
+          "locator": "L161",
+          "source_text": "input /equip head \"Mall. Chapeau +2\";",
+          "slot": "head",
+          "name": "Mall. Chapeau +2"
+        },
+        {
+          "locator": "L162",
+          "source_text": "input /equip feet \"Mallquis Clogs +2\";",
+          "slot": "feet",
+          "name": "Mallquis Clogs +2"
+        },
+        {
+          "locator": "L163",
+          "source_text": "input /equip hands \"Mallquis Cuffs +2\";",
+          "slot": "hands",
+          "name": "Mallquis Cuffs +2"
+        },
+        {
+          "locator": "L164",
+          "source_text": "input /equip body \"Mallquis Saio +2\";",
+          "slot": "body",
+          "name": "Mallquis Saio +2"
+        },
+        {
+          "locator": "L165",
+          "source_text": "input /equip legs \"Mallquis Trews +2\";",
+          "slot": "legs",
+          "name": "Mallquis Trews +2"
+        },
+        {
+          "locator": "L166",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L167",
+          "source_text": "input /equip waist \"Sekhmet Corset\";",
+          "slot": "waist",
+          "name": "Sekhmet Corset"
+        },
+        {
+          "locator": "L168",
+          "source_text": "input /equip neck \"Saevus Pendant +1\";",
+          "slot": "neck",
+          "name": "Saevus Pendant +1"
+        },
+        {
+          "locator": "L169",
+          "source_text": "input /equip ear2 \"Barkaro. Earring\";",
+          "slot": "ear2",
+          "name": "Barkaro. Earring"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "ddd1dcc6ef464f7194687e96467aadc95b7b7914451455855cb4fb57d4bcd57c"
+    },
+    {
+      "item_set": 319868,
+      "url": "https://www.ffxiah.com/item-sets/319868",
+      "capture_id": "geo-web-06",
+      "title": "GEO Hybrid -DT",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip ear1 \"Moonshade Earring\";",
+          "slot": "ear1",
+          "name": "Moonshade Earring"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip ring1 \"Defending Ring\";",
+          "slot": "ring1",
+          "name": "Defending Ring"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip ring2 \"Dark Ring\";",
+          "slot": "ring2",
+          "name": "Dark Ring"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip ear2 \"Ethereal Earring\";",
+          "slot": "ear2",
+          "name": "Ethereal Earring"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip main \"Idris\";",
+          "slot": "main",
+          "name": "Idris"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip sub \"Genmei Shield\";",
+          "slot": "sub",
+          "name": "Genmei Shield"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip feet \"Telchine Pigaches\";",
+          "slot": "feet",
+          "name": "Telchine Pigaches"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip head \"Telchine Cap\";",
+          "slot": "head",
+          "name": "Telchine Cap"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip hands \"Geo. Mitaines +3\";",
+          "slot": "hands",
+          "name": "Geo. Mitaines +3"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip legs \"Telchine Braconi\";",
+          "slot": "legs",
+          "name": "Telchine Braconi"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip neck \"Loricate Torque +1\";",
+          "slot": "neck",
+          "name": "Loricate Torque +1"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip body \"Shamash Robe\";",
+          "slot": "body",
+          "name": "Shamash Robe"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip back \"Moonlight Cape\";",
+          "slot": "back",
+          "name": "Moonlight Cape"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip waist \"Isa Belt\";",
+          "slot": "waist",
+          "name": "Isa Belt"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "bdd29988dd22e7ce2d7c59d2ea99292386b302f9bf1f87a997d9a90028bdfb28"
+    },
+    {
+      "item_set": 319965,
+      "url": "https://www.ffxiah.com/item-sets/319965",
+      "capture_id": "geo-web-05",
+      "title": "L100: ",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L155",
+          "source_text": "input /equip ring1 \"Shiva Ring +1\";",
+          "slot": "ring1",
+          "name": "Shiva Ring +1"
+        },
+        {
+          "locator": "L156",
+          "source_text": "input /equip head \"Geo. Galero +3\";",
+          "slot": "head",
+          "name": "Geo. Galero +3"
+        },
+        {
+          "locator": "L157",
+          "source_text": "input /equip body \"Geomancy Tunic +3\";",
+          "slot": "body",
+          "name": "Geomancy Tunic +3"
+        },
+        {
+          "locator": "L158",
+          "source_text": "input /equip hands \"Geo. Mitaines +3\";",
+          "slot": "hands",
+          "name": "Geo. Mitaines +3"
+        },
+        {
+          "locator": "L159",
+          "source_text": "input /equip legs \"Geomancy Pants +3\";",
+          "slot": "legs",
+          "name": "Geomancy Pants +3"
+        },
+        {
+          "locator": "L160",
+          "source_text": "input /equip feet \"Geo. Sandals +3\";",
+          "slot": "feet",
+          "name": "Geo. Sandals +3"
+        },
+        {
+          "locator": "L161",
+          "source_text": "input /equip neck \"Erra Pendant\";",
+          "slot": "neck",
+          "name": "Erra Pendant"
+        },
+        {
+          "locator": "L162",
+          "source_text": "input /equip ear1 \"Regal Earring\";",
+          "slot": "ear1",
+          "name": "Regal Earring"
+        },
+        {
+          "locator": "L163",
+          "source_text": "input /equip ear2 \"Barkaro. Earring\";",
+          "slot": "ear2",
+          "name": "Barkaro. Earring"
+        },
+        {
+          "locator": "L164",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L165",
+          "source_text": "input /equip ammo \"Pemphredo Tathlum\";",
+          "slot": "ammo",
+          "name": "Pemphredo Tathlum"
+        },
+        {
+          "locator": "L166",
+          "source_text": "input /equip sub \"Enki Strap\";",
+          "slot": "sub",
+          "name": "Enki Strap"
+        },
+        {
+          "locator": "L167",
+          "source_text": "input /equip main \"Grioavolr\";",
+          "slot": "main",
+          "name": "Grioavolr"
+        },
+        {
+          "locator": "L168",
+          "source_text": "input /equip waist \"Porous Rope\";",
+          "slot": "waist",
+          "name": "Porous Rope"
+        },
+        {
+          "locator": "L169",
+          "source_text": "input /equip ring2 \"Kishar Ring\";",
+          "slot": "ring2",
+          "name": "Kishar Ring"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "136698903237930bf596f7584a176abb32abe02817103fa945f2e41bcf2fe3ca"
+    },
+    {
+      "item_set": 333672,
+      "url": "https://www.ffxiah.com/item-sets/333672",
+      "capture_id": "geo-web-06",
+      "title": "GEO Pet Regen - Telchine Pieces: Pet: Regen +3, DT - 3/4% Ambu Cape: HP +60, Eva/MEva +20, Pet: Regen +10",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L17",
+          "source_text": "input /equip waist \"Isa Belt\";",
+          "slot": "waist",
+          "name": "Isa Belt"
+        },
+        {
+          "locator": "L18",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L19",
+          "source_text": "input /equip body \"Telchine Chas.\";",
+          "slot": "body",
+          "name": "Telchine Chas."
+        },
+        {
+          "locator": "L20",
+          "source_text": "input /equip hands \"Telchine Gloves\";",
+          "slot": "hands",
+          "name": "Telchine Gloves"
+        },
+        {
+          "locator": "L21",
+          "source_text": "input /equip legs \"Telchine Braconi\";",
+          "slot": "legs",
+          "name": "Telchine Braconi"
+        },
+        {
+          "locator": "L22",
+          "source_text": "input /equip head \"Azimuth Hood +1\";",
+          "slot": "head",
+          "name": "Azimuth Hood +1"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip main \"Sucellus\";",
+          "slot": "main",
+          "name": "Sucellus"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip sub \"Idris\";",
+          "slot": "sub",
+          "name": "Idris"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip feet \"Bagua Sandals +3\";",
+          "slot": "feet",
+          "name": "Bagua Sandals +3"
+        }
+      ],
+      "occupied_entry_count": 10,
+      "omitted_slots": [
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "conflicts": [
+        "Sucellus main / Idris sub source requires its own usable Dual Wield/action context; no main-hand Idris or shield benefit is inherited. Only ten occupied slots; omissions preserved."
+      ],
+      "vesper_trial": "Literal earlier reader snapshot accepted independently; this separate reader snapshot preserves its own different row order.",
+      "observation_sha256": "810e6c3387613cc0ec6a73d84b7ff9b2304a8cbde2ab42400b3d06328de7ecef"
+    },
+    {
+      "item_set": 341832,
+      "url": "https://www.ffxiah.com/item-sets/341832",
+      "capture_id": "geo-web-03",
+      "title": "GEO Conserve MP - All Vanya is path C for 6 Conserve MP. Merlinic Feet are augmented with 6+ Conserve MP for a minimum total of 10.",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip legs \"Vanya Slops\";",
+          "slot": "legs",
+          "name": "Vanya Slops"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip neck \"Incanter's Torque\";",
+          "slot": "neck",
+          "name": "Incanter's Torque"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip main \"Idris\";",
+          "slot": "main",
+          "name": "Idris"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip feet \"Merlinic Crackows\";",
+          "slot": "feet",
+          "name": "Merlinic Crackows"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip back \"Lifestream Cape\";",
+          "slot": "back",
+          "name": "Lifestream Cape"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip ear1 \"Calamitous Earring\";",
+          "slot": "ear1",
+          "name": "Calamitous Earring"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip ear2 \"Magnetic Earring\";",
+          "slot": "ear2",
+          "name": "Magnetic Earring"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip sub \"Solstice\";",
+          "slot": "sub",
+          "name": "Solstice"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip hands \"Shrieker's Cuffs\";",
+          "slot": "hands",
+          "name": "Shrieker's Cuffs"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";",
+          "slot": "ring1",
+          "name": "Stikini Ring +1"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip ring2 \"Stikini Ring\";",
+          "slot": "ring2",
+          "name": "Stikini Ring"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip body \"Vedic Coat\";",
+          "slot": "body",
+          "name": "Vedic Coat"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip head \"Bagua Galero +1\";",
+          "slot": "head",
+          "name": "Bagua Galero +1"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip waist \"Austerity Belt\";",
+          "slot": "waist",
+          "name": "Austerity Belt"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "conflicts": [
+        "Idris main / Solstice sub source context is not used as Nexus dual-wield evidence. Vanya path C and Merlinic augment text remain source requirements, not base effects."
+      ],
+      "observation_sha256": "350aee4a6dbd222de2b98e234d74b6c2317542cbdcbe946a40274399a554f303"
+    },
+    {
+      "item_set": 343476,
+      "url": "https://www.ffxiah.com/item-sets/343476",
+      "capture_id": "geo-web-04",
+      "title": "GEO Drain/Aspir - Merlinic Gloves: 40 Macc, 10 Drain/Aspir Potency",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip main \"Rubicundity\";",
+          "slot": "main",
+          "name": "Rubicundity"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip waist \"Fucho-no-Obi\";",
+          "slot": "waist",
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip ring1 \"Evanescence Ring\";",
+          "slot": "ring1",
+          "name": "Evanescence Ring"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip ring2 \"Archon Ring\";",
+          "slot": "ring2",
+          "name": "Archon Ring"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip legs \"Azimuth Tights +2\";",
+          "slot": "legs",
+          "name": "Azimuth Tights +2"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip feet \"Agwu's Pigaches\";",
+          "slot": "feet",
+          "name": "Agwu's Pigaches"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip neck \"Erra Pendant\";",
+          "slot": "neck",
+          "name": "Erra Pendant"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip head \"Bagua Galero +3\";",
+          "slot": "head",
+          "name": "Bagua Galero +3"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip ear1 \"Barkaro. Earring\";",
+          "slot": "ear1",
+          "name": "Barkaro. Earring"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip sub \"Ammurapi Shield\";",
+          "slot": "sub",
+          "name": "Ammurapi Shield"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip body \"Geomancy Tunic +3\";",
+          "slot": "body",
+          "name": "Geomancy Tunic +3"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip ear2 \"Mani Earring\";",
+          "slot": "ear2",
+          "name": "Mani Earring"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip hands \"Merlinic Dastanas\";",
+          "slot": "hands",
+          "name": "Merlinic Dastanas"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip ammo \"Pemphredo Tathlum\";",
+          "slot": "ammo",
+          "name": "Pemphredo Tathlum"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "5588656e238b93628ae6b6cd0940b44beb4fdaf4780d158ece3251f8d0b11958"
+    },
+    {
+      "item_set": 346417,
+      "url": "https://www.ffxiah.com/item-sets/346417",
+      "capture_id": "geo-web-03",
+      "title": "GEO Indicolure - 93% Conserve MP This set can only be achieved at 1800+ Job Points. Vanya Hood: Path C",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip main \"Solstice\";",
+          "slot": "main",
+          "name": "Solstice"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip back \"Lifestream Cape\";",
+          "slot": "back",
+          "name": "Lifestream Cape"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip ear1 \"Magnetic Earring\";",
+          "slot": "ear1",
+          "name": "Magnetic Earring"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip neck \"Incanter's Torque\";",
+          "slot": "neck",
+          "name": "Incanter's Torque"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip ear2 \"Calamitous Earring\";",
+          "slot": "ear2",
+          "name": "Calamitous Earring"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip ring1 \"Stikini Ring\";",
+          "slot": "ring1",
+          "name": "Stikini Ring"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip waist \"Kobo Obi\";",
+          "slot": "waist",
+          "name": "Kobo Obi"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip feet \"Azimuth Gaiters +2\";",
+          "slot": "feet",
+          "name": "Azimuth Gaiters +2"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip head \"Azimuth Hood +2\";",
+          "slot": "head",
+          "name": "Azimuth Hood +2"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip body \"Bagua Tunic +3\";",
+          "slot": "body",
+          "name": "Bagua Tunic +3"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip legs \"Bagua Pants +3\";",
+          "slot": "legs",
+          "name": "Bagua Pants +3"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";",
+          "slot": "ring2",
+          "name": "Stikini Ring +1"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip sub \"Genmei Shield\";",
+          "slot": "sub",
+          "name": "Genmei Shield"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip hands \"Geo. Mitaines +3\";",
+          "slot": "hands",
+          "name": "Geo. Mitaines +3"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "conflicts": [
+        "Title Conserve MP/JP and Vanya commentary do not establish a benchmark for the later linked selections or Nexus substitutions."
+      ],
+      "observation_sha256": "0f4735e907b67d09ba1028d5d27c52c0da7aa89d0a5f5a88dd7f376ac6940c50"
+    },
+    {
+      "item_set": 354155,
+      "url": "https://www.ffxiah.com/item-sets/354155",
+      "capture_id": "geo-web-04",
+      "title": "L100: ",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L155",
+          "source_text": "input /equip head \"Merlinic Hood\";",
+          "slot": "head",
+          "name": "Merlinic Hood"
+        },
+        {
+          "locator": "L156",
+          "source_text": "input /equip body \"Amalric Doublet +1\";",
+          "slot": "body",
+          "name": "Amalric Doublet +1"
+        },
+        {
+          "locator": "L157",
+          "source_text": "input /equip feet \"Amalric Nails +1\";",
+          "slot": "feet",
+          "name": "Amalric Nails +1"
+        },
+        {
+          "locator": "L158",
+          "source_text": "input /equip hands \"Amalric Gages +1\";",
+          "slot": "hands",
+          "name": "Amalric Gages +1"
+        },
+        {
+          "locator": "L159",
+          "source_text": "input /equip legs \"Amalric Slops +1\";",
+          "slot": "legs",
+          "name": "Amalric Slops +1"
+        },
+        {
+          "locator": "L160",
+          "source_text": "input /equip ring1 \"Shiva Ring +1\";",
+          "slot": "ring1",
+          "name": "Shiva Ring +1"
+        },
+        {
+          "locator": "L161",
+          "source_text": "input /equip ring2 \"Shiva Ring +1\";",
+          "slot": "ring2",
+          "name": "Shiva Ring +1"
+        },
+        {
+          "locator": "L162",
+          "source_text": "input /equip neck \"Saevus Pendant +1\";",
+          "slot": "neck",
+          "name": "Saevus Pendant +1"
+        },
+        {
+          "locator": "L163",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L164",
+          "source_text": "input /equip waist \"Refoccilation Stone\";",
+          "slot": "waist",
+          "name": "Refoccilation Stone"
+        },
+        {
+          "locator": "L165",
+          "source_text": "input /equip ear1 \"Regal Earring\";",
+          "slot": "ear1",
+          "name": "Regal Earring"
+        },
+        {
+          "locator": "L166",
+          "source_text": "input /equip ear2 \"Barkaro. Earring\";",
+          "slot": "ear2",
+          "name": "Barkaro. Earring"
+        },
+        {
+          "locator": "L167",
+          "source_text": "input /equip ammo \"Pemphredo Tathlum\";",
+          "slot": "ammo",
+          "name": "Pemphredo Tathlum"
+        },
+        {
+          "locator": "L168",
+          "source_text": "input /equip main \"Grioavolr\";",
+          "slot": "main",
+          "name": "Grioavolr"
+        },
+        {
+          "locator": "L169",
+          "source_text": "input /equip sub \"Niobid Strap\";",
+          "slot": "sub",
+          "name": "Niobid Strap"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "3553624b580829179359d8e51a0fd228f421a42c2c70a79c07b650a745251681"
+    },
+    {
+      "item_set": 371132,
+      "url": "https://www.ffxiah.com/item-sets/371132",
+      "capture_id": "geo-web-03",
+      "title": "2020: Refresh HQ",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip head \"Merlinic Hood\";",
+          "slot": "head",
+          "name": "Merlinic Hood"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip legs \"Merlinic Shalwar\";",
+          "slot": "legs",
+          "name": "Merlinic Shalwar"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip feet \"Merlinic Crackows\";",
+          "slot": "feet",
+          "name": "Merlinic Crackows"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip body \"Jhakri Robe +2\";",
+          "slot": "body",
+          "name": "Jhakri Robe +2"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";",
+          "slot": "ring1",
+          "name": "Stikini Ring +1"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";",
+          "slot": "ring2",
+          "name": "Stikini Ring +1"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip ear1 \"Moonshade Earring\";",
+          "slot": "ear1",
+          "name": "Moonshade Earring"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip hands \"Bagua Mitaines +3\";",
+          "slot": "hands",
+          "name": "Bagua Mitaines +3"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip waist \"Fucho-no-Obi\";",
+          "slot": "waist",
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip main \"Bhima\";",
+          "slot": "main",
+          "name": "Bhima"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip ear2 \"Infused Earring\";",
+          "slot": "ear2",
+          "name": "Infused Earring"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip neck \"Bathy Choker +1\";",
+          "slot": "neck",
+          "name": "Bathy Choker +1"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip sub \"Ammurapi Shield\";",
+          "slot": "sub",
+          "name": "Ammurapi Shield"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "58dbd53c3aeb6c76c552683f2dc4405a519e8c36f5318df3bebb437e21d875d7"
+    },
+    {
+      "item_set": 371134,
+      "url": "https://www.ffxiah.com/item-sets/371134",
+      "capture_id": "geo-web-06",
+      "title": "2020: Refresh NQ",
+      "representation": "Parsed reader snapshot; provider crawl metadata retained, not original HTML",
+      "ordered_macro_entries": [
+        {
+          "locator": "L22",
+          "source_text": "input /equip head \"Befouled Crown\";",
+          "slot": "head",
+          "name": "Befouled Crown"
+        },
+        {
+          "locator": "L23",
+          "source_text": "input /equip body \"Jhakri Robe +1\";",
+          "slot": "body",
+          "name": "Jhakri Robe +1"
+        },
+        {
+          "locator": "L24",
+          "source_text": "input /equip hands \"Bagua Mitaines +1\";",
+          "slot": "hands",
+          "name": "Bagua Mitaines +1"
+        },
+        {
+          "locator": "L25",
+          "source_text": "input /equip legs \"Assid. Pants +1\";",
+          "slot": "legs",
+          "name": "Assid. Pants +1"
+        },
+        {
+          "locator": "L26",
+          "source_text": "input /equip ear1 \"Moonshade Earring\";",
+          "slot": "ear1",
+          "name": "Moonshade Earring"
+        },
+        {
+          "locator": "L27",
+          "source_text": "input /equip waist \"Fucho-no-Obi\";",
+          "slot": "waist",
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "locator": "L28",
+          "source_text": "input /equip main \"Solstice\";",
+          "slot": "main",
+          "name": "Solstice"
+        },
+        {
+          "locator": "L29",
+          "source_text": "input /equip range \"Dunna\";",
+          "slot": "range",
+          "name": "Dunna"
+        },
+        {
+          "locator": "L30",
+          "source_text": "input /equip back \"Nantosuelta's Cape\";",
+          "slot": "back",
+          "name": "Nantosuelta's Cape"
+        },
+        {
+          "locator": "L31",
+          "source_text": "input /equip neck \"Sanctity Necklace\";",
+          "slot": "neck",
+          "name": "Sanctity Necklace"
+        },
+        {
+          "locator": "L32",
+          "source_text": "input /equip ear2 \"Infused Earring\";",
+          "slot": "ear2",
+          "name": "Infused Earring"
+        },
+        {
+          "locator": "L33",
+          "source_text": "input /equip sub \"Genmei Shield\";",
+          "slot": "sub",
+          "name": "Genmei Shield"
+        },
+        {
+          "locator": "L34",
+          "source_text": "input /equip feet \"Coalrake Sabots\";",
+          "slot": "feet",
+          "name": "Coalrake Sabots"
+        },
+        {
+          "locator": "L35",
+          "source_text": "input /equip ring1 \"Sheltered Ring\";",
+          "slot": "ring1",
+          "name": "Sheltered Ring"
+        },
+        {
+          "locator": "L36",
+          "source_text": "input /equip ring2 \"Paguroidea Ring\";",
+          "slot": "ring2",
+          "name": "Paguroidea Ring"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Literal published macro observation; omissions/augment prerequisites/source benchmarks not repaired or certified",
+      "observation_sha256": "6c9f79f33cdca8fffc051c1939e72a6e9469331aea3dd07e58841d73bd9f7d7d"
+    }
+  ]
+}

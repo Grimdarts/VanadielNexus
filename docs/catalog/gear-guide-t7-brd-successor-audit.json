@@ -1,0 +1,273 @@
+{
+  "slice": "brd-effective-successor-audit-2026-11-05",
+  "checked_on": "2026-11-05",
+  "agent": "Claude (alone; Nova/Vesper unassigned)",
+  "candidate_sha256": "ca787650965d61046e91323bd1e1c991d9245f4b2d7d340935159afc9f511926",
+  "production_sha256": "b57b6bb34bc0e969140610fa623efe00fbaef3379c23ab00d9a29db7b6be4300",
+  "classification_counts": {
+    "confirmed": 11,
+    "defect": 0,
+    "drift": 0,
+    "source_limited": 0
+  },
+  "correction": "none; no candidate save",
+  "oracle": "Independently typed literals per cited source, rendered with a re-statement of extdata string_augment; never read from requirement records. test_brd_successor_audit.py 31/0/0.",
+  "sources": {
+    "retrieved_at_utc": "2026-11-05T22:25:09.318509+00:00",
+    "method": "Built-in browser ordinary navigation of public /ffxi/ and /node/ pages; DOM innerText read by script; no challenge, login, settings change or alternate endpoint. Plus one ordinary urllib GET of FFXIAH node 355.",
+    "bg_community_bard_guide": {
+      "url": "https://www.bg-wiki.com/ffxi/Community_Bard_Guide",
+      "wgCurRevisionId": 781483,
+      "wgRevisionId": 781483,
+      "cited_oldid": 781483,
+      "tables_capture": "bg-community781483-tables.json",
+      "literal_rows": {
+        "fast_cast": "Linos 6 Fast Cast ... Intarabus's Cape 10 Fast Cast",
+        "song_accuracy": "Intarabus's Cape 20 CHR, 20+10 Magic Accuracy",
+        "tp_linos": "15 Attack+Accuracy, 4 Store TP, 3 Quadruple Attack",
+        "tp_cape_bg_variant_not_selected": "20 DEX, 20 Attack+Accuracy, 10 Accuracy, 10 Dual Wield, -5% Damage Taken (and -10% PDT variant)",
+        "ws_linos_bg_variant_not_selected": "3 Weapon Skill Damage, 8 STR, 20 Attack"
+      }
+    },
+    "ffxiah_node355": {
+      "url": "https://www.ffxiah.com/node/355",
+      "date_last_modified": "2022-05-10 17:30:58",
+      "literal_rows": {
+        "tp_sub_nin_or_war_cape": "-Cape: 30DEX, 20Acc/Atk, 10 Store TP, -5 DT",
+        "tp_linos_not_selected": "-Linos: 20 Acc, 3 Quad attack, 3 Double Attack (Carn 4 Store TP)",
+        "savage_blade_cape": "-Cape: 30STR, 20Acc/Atk, 10 WS Damage, -5 DT",
+        "savage_blade_linos": "-Linos: 15Acc/Atk, 8STR, 3 WS Damage",
+        "savage_blade_nyame": "-Nyame: Path B",
+        "debuff_cape_not_selected": "-Cape: 20CHR, 20M.Acc/M.Dmg, 10M.Acc, 10 Fast Cast, -5 DT",
+        "fc_generic_linos_not_selected": "-Linos: 20HP, 15M.Eva, 6Fast Cast"
+      }
+    },
+    "bg_intarabus_cape": {
+      "url": "https://www.bg-wiki.com/ffxi/Intarabus%27s_Cape",
+      "wgCurRevisionId": 568487,
+      "wgRevisionId": 568487,
+      "cited_oldid": 568487,
+      "literal_rows": {
+        "thread": "STR/DEX/CHR +1 per item, max +20",
+        "dye": "STR/DEX/CHR max +10; Magic Accuracy max +10 (separate row)",
+        "dust": "Accuracy/Attack combined max +20; Magic Accuracy/Magic Damage combined max +20",
+        "sap": "Weaponskill Damage max +10%; \"Store TP\" max +10; \"Fast Cast\" max +10%",
+        "resin": "Damage taken max -5% (12/256)"
+      }
+    },
+    "bg_linos": {
+      "url": "https://www.bg-wiki.com/ffxi/Linos",
+      "wgCurRevisionId": 774058,
+      "limitation": "Rendered page text exposes no augment table; Linos part categories rest on the cited guides plus native extdata templates (source-limited for categories, not N/A)."
+    },
+    "native_extdata": {
+      "path": "C:/Users/Jason/Games/Windower4/addons/libs/extdata.lua",
+      "read_only": true,
+      "executed": false,
+      "templates": {
+        "0x023": "Mag. Acc.",
+        "0x044": "Accuracy / Attack (combined)",
+        "0x047": "Damage taken (x-1, %)",
+        "0x050": "Mag. Acc / /Mag. Dmg. (combined)",
+        "0x08C": "\"Fast Cast\"",
+        "0x08E": "\"Store TP\"",
+        "0x147": "Weapon skill damage (trailing space, %)",
+        "0x162": "Quadruple Attack (trailing space)",
+        "0x200": "STR",
+        "0x201": "DEX",
+        "0x206": "CHR"
+      },
+      "renderer": "string_augment: stat..(\"+\"..p if p>0, p if p<0)..(\"%\" if percent); parts joined by one space",
+      "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921"
+    }
+  },
+  "node355_raw": {
+    "status": 200,
+    "sha256": "1fbbbfac7646f1a4bab3fa46b82d8bf98597ee508fff5ec8a1ea25d3b72a2ef0",
+    "bytes": 28629,
+    "headers": {
+      "Date": "Thu, 05 Nov 2026 22:25:09 GMT",
+      "Content-Type": "text/html; charset=UTF-8"
+    },
+    "has_last_modified_stamp": true
+  },
+  "notes": [
+    "All three cited pages are at the cited revision (BG 781483, BG 568487) or unchanged stamp (node355 2022-05-10 17:30:58), so drift is ruled out for the cited content.",
+    "BG 781483 also shows a different TP cape (DEX20/Acc-Atk20/Acc10/DW10/DT-5) and WS Linos (WSD3/STR8/Attack20); the successors deliberately cite node355 /NIN-or-WAR and Savage Blade rows instead. These are alternative source variants, not defects.",
+    "savage-blade Linos requirements were already correct in the retired encoding; only its cape changed.",
+    "Linos BG page rev 774058 exposes no augment table in rendered text: Linos part categories rest on the cited guides plus extdata templates (limitation, not N/A)."
+  ],
+  "records": [
+    {
+      "set_id": "nexus:brd:debuff-accuracy",
+      "retired_revision_id": "nexus:brd:debuff-accuracy:2026-11-04:5fb390052548",
+      "successor_revision_id": "nexus:brd:debuff-accuracy:2026-11-04:bb4a6e6ad50a",
+      "effective_revisions": [
+        "nexus:brd:debuff-accuracy:2026-11-04:bb4a6e6ad50a"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Song Accuracy cape \"20 CHR, 20+10 Magic Accuracy\"; Intarabus 568487 Thread/Dust/Dye",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:threnody",
+      "retired_revision_id": "nexus:brd:threnody:2026-11-04:781a3eea29f1",
+      "successor_revision_id": "nexus:brd:threnody:2026-11-04:e776c781cd83",
+      "effective_revisions": [
+        "nexus:brd:threnody:2026-11-04:e776c781cd83"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Song Accuracy cape \"20 CHR, 20+10 Magic Accuracy\"; Intarabus 568487 Thread/Dust/Dye",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:lullaby-wind",
+      "retired_revision_id": "nexus:brd:lullaby-wind:2026-11-04:bcbbcae3dbca",
+      "successor_revision_id": "nexus:brd:lullaby-wind:2026-11-04:1910fc6b42e7",
+      "effective_revisions": [
+        "nexus:brd:lullaby-wind:2026-11-04:1910fc6b42e7"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Song Accuracy cape \"20 CHR, 20+10 Magic Accuracy\"; Intarabus 568487 Thread/Dust/Dye",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:lullaby-string",
+      "retired_revision_id": "nexus:brd:lullaby-string:2026-11-04:c9ea7282f74e",
+      "successor_revision_id": "nexus:brd:lullaby-string:2026-11-04:5e84327fb1c9",
+      "effective_revisions": [
+        "nexus:brd:lullaby-string:2026-11-04:5e84327fb1c9"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Song Accuracy cape \"20 CHR, 20+10 Magic Accuracy\"; Intarabus 568487 Thread/Dust/Dye",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:fast-cast",
+      "retired_revision_id": "nexus:brd:fast-cast:2026-11-04:deb681a81e32",
+      "successor_revision_id": "nexus:brd:fast-cast:2026-11-04:704bc90adc47",
+      "effective_revisions": [
+        "nexus:brd:fast-cast:2026-11-04:704bc90adc47"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "range",
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Fast Cast \"Linos 6 Fast Cast\" / \"Intarabus's Cape 10 Fast Cast\"",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:song-precast",
+      "retired_revision_id": "nexus:brd:song-precast:2026-11-04:c5a05effa897",
+      "successor_revision_id": "nexus:brd:song-precast:2026-11-04:a9929b9194b3",
+      "effective_revisions": [
+        "nexus:brd:song-precast:2026-11-04:a9929b9194b3"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Fast Cast \"Linos 6 Fast Cast\" / \"Intarabus's Cape 10 Fast Cast\"",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:honor-precast",
+      "retired_revision_id": "nexus:brd:honor-precast:2026-11-04:bab9c003a620",
+      "successor_revision_id": "nexus:brd:honor-precast:2026-11-04:9c2b3320c04a",
+      "effective_revisions": [
+        "nexus:brd:honor-precast:2026-11-04:9c2b3320c04a"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 Fast Cast \"Linos 6 Fast Cast\" / \"Intarabus's Cape 10 Fast Cast\"",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:engaged-balanced",
+      "retired_revision_id": "nexus:brd:engaged-balanced:2026-11-04:fda965205a58",
+      "successor_revision_id": "nexus:brd:engaged-balanced:2026-11-04:422e1f6b016e",
+      "effective_revisions": [
+        "nexus:brd:engaged-balanced:2026-11-04:422e1f6b016e"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "range",
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 TP Linos \"15 Attack+Accuracy, 4 Store TP, 3 Quadruple Attack\"; node355 Sub NIN or WAR \"-Cape: 30DEX, 20Acc/Atk, 10 Store TP, -5 DT\"; Intarabus 568487 Thread20+Dye10",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:engaged-dt",
+      "retired_revision_id": "nexus:brd:engaged-dt:2026-11-04:1370b7a0cde7",
+      "successor_revision_id": "nexus:brd:engaged-dt:2026-11-04:de034845e282",
+      "effective_revisions": [
+        "nexus:brd:engaged-dt:2026-11-04:de034845e282"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "range",
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 TP Linos \"15 Attack+Accuracy, 4 Store TP, 3 Quadruple Attack\"; node355 Sub NIN or WAR \"-Cape: 30DEX, 20Acc/Atk, 10 Store TP, -5 DT\"; Intarabus 568487 Thread20+Dye10",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:engaged-accuracy",
+      "retired_revision_id": "nexus:brd:engaged-accuracy:2026-11-04:479e2f7d1fc5",
+      "successor_revision_id": "nexus:brd:engaged-accuracy:2026-11-04:eb6e1923bca9",
+      "effective_revisions": [
+        "nexus:brd:engaged-accuracy:2026-11-04:eb6e1923bca9"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "range",
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "BG 781483 TP Linos \"15 Attack+Accuracy, 4 Store TP, 3 Quadruple Attack\"; node355 Sub NIN or WAR \"-Cape: 30DEX, 20Acc/Atk, 10 Store TP, -5 DT\"; Intarabus 568487 Thread20+Dye10",
+      "classification": "confirmed"
+    },
+    {
+      "set_id": "nexus:brd:savage-blade",
+      "retired_revision_id": "nexus:brd:savage-blade:2026-11-04:af71d824b00b",
+      "successor_revision_id": "nexus:brd:savage-blade:2026-11-04:2c6e37635ca0",
+      "effective_revisions": [
+        "nexus:brd:savage-blade:2026-11-04:2c6e37635ca0"
+      ],
+      "successor_retired_by": null,
+      "changed_slots": [
+        "back"
+      ],
+      "gear_identity_unchanged": true,
+      "source_literal": "node355 Savage Blade \"-Cape: 30STR, 20Acc/Atk, 10 WS Damage, -5 DT\" / \"-Linos: 15Acc/Atk, 8STR, 3 WS Damage\" / \"-Nyame: Path B\"",
+      "classification": "confirmed"
+    }
+  ],
+  "audit_test_sha256": "4ac0f44b4b9611e15f3b554fe2d0ae27ce9c76b631b39cfcb1ac6938f12dfd54",
+  "design_document": "docs/GEAR-GUIDE-T7-RUNTIME-RETIREMENT-DESIGN.md"
+}

@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Pre-BLM candidate and detached-resource byte copies; canonical prior-record hashes also retained in authoring_batches[3]",
+  "files": {
+    "gear-guide-t7-candidate.json": {
+      "sha256": "cd532ecca2b671db31bd169bf83a397f459abe084859e3268adc3ae5bab0fa31",
+      "bytes": 481978,
+      "backup_path": ".t7-blm-checks/baseline/gear-guide-t7-candidate.json"
+    },
+    "gear-guide-t7-resource-evidence.json": {
+      "sha256": "a7e91ce2145742110ea15dcec633fdb835ef0217bf2960db559e7dcb5d3be39b",
+      "bytes": 121160,
+      "backup_path": ".t7-blm-checks/baseline/gear-guide-t7-resource-evidence.json"
+    }
+  }
+}

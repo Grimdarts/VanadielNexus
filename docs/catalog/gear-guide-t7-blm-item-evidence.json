@@ -1,0 +1,378 @@
+{
+  "checked_on": "2026-11-04",
+  "items": [
+    {
+      "item_id": 11775,
+      "resource_name": "Oneiros Rope",
+      "url": "https://www.ffxiah.com/item/11775",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "16b562bd81b9956b7a9345b9b37a3e5b54166e6f77b192d853a13328481ad02c",
+      "public_card_name": "Oneiros Rope",
+      "public_card_sha256": "05b331a3b8fc65b85d547d0b99964c47820f5d6ae0b11241b66130fcbc6f81b7",
+      "observation_sha256": "fec176f6d5001ed30f191f1d0d3074b14f975314313d3a18a833ac2ef3120cbc"
+    },
+    {
+      "item_id": 11776,
+      "resource_name": "Mujin Obi",
+      "url": "https://www.ffxiah.com/item/11776",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "0470c723e247d31e2cbc70cf17b754601184dbd884bb4efc2489d09ae946fd99",
+      "public_card_name": "Mujin Obi",
+      "public_card_sha256": "0c0bd952a8a6d9610fe11e5766d5a9ce120ea45d35b9e79f28019377d320ad9d",
+      "observation_sha256": "2158907784c614ee80478c26c2351d6e5d172da854c9b91e9ce4a3a9cab0684f"
+    },
+    {
+      "item_id": 21344,
+      "resource_name": "Ghastly Tathlum +1",
+      "url": "https://www.ffxiah.com/item/21344",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "2d020027f212525e313e4fc785d50760f1dc420afcaf68382b1bf59c7c1a08e3",
+      "public_card_name": "Ghastly Tathlum +1",
+      "public_card_sha256": "992df8a954a04dd0e4f8fe83bd4bda947f5deeb5d77ac5a425342684a23f95bf",
+      "observation_sha256": "a30f6459939b88df27198acbd1b193fb20b7e6360e3845ae7947addf16a68fc8"
+    },
+    {
+      "item_id": 22250,
+      "resource_name": "Seraphic Ampulla",
+      "url": "https://www.ffxiah.com/item/22250",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "5599a4e09fef7c68935ffcdfe5c8279244506ed0103f51d9834ec366bf5f2b96",
+      "public_card_name": "Seraphic Ampulla",
+      "public_card_sha256": "f734654f53c537b5710f3e49405f574be75bc098b000004f1e9a1398372d35e9",
+      "observation_sha256": "7ea054b5e522cb08d7c9e3576d7599c4ffea70835c0f2800a18c526c120f9661"
+    },
+    {
+      "item_id": 23378,
+      "resource_name": "Spae. Petasos +3",
+      "url": "https://www.ffxiah.com/item/23378",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "3db433b0f10ccff46af52ffd1aba5638b188d887de218148eebfb03aeb6e88ef",
+      "public_card_name": "Spae. Petasos +3",
+      "public_card_sha256": "bf3c27026a6eec6ec2e119036a6b59783d0043b6f343aeb67d51f82b719337f0",
+      "observation_sha256": "151199e3530ac0cc09bc321a4a7b1b9c5531ba2b1525b244b1c6ad9dc581c723"
+    },
+    {
+      "item_id": 23423,
+      "resource_name": "Wicce Petasos +3",
+      "url": "https://www.ffxiah.com/item/23423",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "33e5442497aa29c7d01b2e08a946325be5ef5a85f65541657f30b35407065e2f",
+      "public_card_name": "Wicce Petasos +3",
+      "public_card_sha256": "b0a02d906075ecf374aeeed54170669108308cf939ee126836e82fa89ba5c7c3",
+      "observation_sha256": "5e95cf8b3f0199a780fbc0fddd49905a3187fffa4e0ea3d43b9586447515027a"
+    },
+    {
+      "item_id": 23445,
+      "resource_name": "Spaekona's Coat +3",
+      "url": "https://www.ffxiah.com/item/23445",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "e1de5e7bd32eb7ea6fdd3e7df0734256d22e258cd4b840e1c113baae4446a8e1",
+      "public_card_name": "Spaekona's Coat +3",
+      "public_card_sha256": "008cf215aade3f34a825b205317aceb400b88cee4ff9147aa4f4f2d8d6013164",
+      "observation_sha256": "21cf577baf582895810b1a1916ca19a4f623757c94e23fa90753cf292bb195f1"
+    },
+    {
+      "item_id": 23490,
+      "resource_name": "Wicce Coat +3",
+      "url": "https://www.ffxiah.com/item/23490",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "0713efba5184e432289f22c5cfd7d1d60d20b68fdcb704c566e9258a7f1a6795",
+      "public_card_name": "Wicce Coat +3",
+      "public_card_sha256": "0e3e2196a5f6adaf85f49fa3199d853202a1f72a61033a595ea4e344dd3eb10d",
+      "observation_sha256": "e881284b4eb58910074c4e7cb7b0edb0daee60203f351e183e0acb1ba753e962"
+    },
+    {
+      "item_id": 23512,
+      "resource_name": "Spae. Gloves +3",
+      "url": "https://www.ffxiah.com/item/23512",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "21e874f1d0a90c11467edc1a68bd62630e2afbd3cf1698095bb64ca2ba90c61e",
+      "public_card_name": "Spae. Gloves +3",
+      "public_card_sha256": "1fa957cbc847e0588d4db43480e4c7a7668e18da02b064a62dd7c063c623d1eb",
+      "observation_sha256": "e2b33f4cce54be98ab1693a1ef6b3bbd6054288be89d262e78360bc7bc4831a7"
+    },
+    {
+      "item_id": 23535,
+      "resource_name": "Arch. Gloves +3",
+      "url": "https://www.ffxiah.com/item/23535",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "05b35cab42edb37669107c030019fa23af6dae8dff8f40e40ba6d6d75956daf5",
+      "public_card_name": "Arch. Gloves +3",
+      "public_card_sha256": "29734df9f5e384c10283c8ac20fc50e99426fdb724c5a1e4f52d41a9dee56393",
+      "observation_sha256": "682879d9d9ea1c844a25b125a2fc3d5d47604857d1fd7ffa5f385b02a4817632"
+    },
+    {
+      "item_id": 23557,
+      "resource_name": "Wicce Gloves +3",
+      "url": "https://www.ffxiah.com/item/23557",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "7ce81fb730d093f3085491fcb9f52e58428736734b0d38ad7455ccb712c183e8",
+      "public_card_name": "Wicce Gloves +3",
+      "public_card_sha256": "ef0a51d2df47371de660580df491a4602c9d199cb9b3e059b5557e7baf2b4ebc",
+      "observation_sha256": "16427d0fd6cd98eed8e239d9b58e6225f405008f64f591fc0f65b2878c2e4bb4"
+    },
+    {
+      "item_id": 23579,
+      "resource_name": "Spae. Tonban +3",
+      "url": "https://www.ffxiah.com/item/23579",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "e465a16a0fd96f1ed338d1de82888b1e0cc353db591d4906c0c4ee2c7b8869d9",
+      "public_card_name": "Spae. Tonban +3",
+      "public_card_sha256": "8ca92d365450ffc688350daa286f5b467200356e224b75b42e78f59d78524581",
+      "observation_sha256": "fa42081792a25fd7eeb5897c2b04f5b4bdfae496038221f8afc3bf1304b7c97b"
+    },
+    {
+      "item_id": 23624,
+      "resource_name": "Wicce Chausses +3",
+      "url": "https://www.ffxiah.com/item/23624",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "d91e287729fb5c2f2182939f3c179b690c018114b6b9ffb8047349e1a9f76d35",
+      "public_card_name": "Wicce Chausses +3",
+      "public_card_sha256": "b26b887978d1c36ea519ffadbd0d6a3836e8f70732ff37e279e593e0a4e0350c",
+      "observation_sha256": "8b3a86f30fc275454185dabf760bd095dfed5d47914b3dc8814b83d545dfee8b"
+    },
+    {
+      "item_id": 23646,
+      "resource_name": "Spae. Sabots +3",
+      "url": "https://www.ffxiah.com/item/23646",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "b6439449491dce3bec78c6ee48e4c3aac423a6e627f2b39dd9755b3d1371b3f9",
+      "public_card_name": "Spae. Sabots +3",
+      "public_card_sha256": "5f68d085dc78483e1575946c70ce655c29fb61b6ab334097ce941e7d4d45d6cf",
+      "observation_sha256": "77e70626708ba634c09835320aad1cb6927ab5544ae1024a3145873ccafb2283"
+    },
+    {
+      "item_id": 23691,
+      "resource_name": "Wicce Sabots +3",
+      "url": "https://www.ffxiah.com/item/23691",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "0aacc8a51f485b6c4568b5b2013ac1ca78242bd4ac5b082962f1ba36d9298f38",
+      "public_card_name": "Wicce Sabots +3",
+      "public_card_sha256": "bcda092c7f0e3492f3cdd6e27a2bb82e4c95fdadcac8135f972bcbb0b18b5887",
+      "observation_sha256": "da4d17dbe2480bf3ec2e686ee2c148be33d57fc3fcd94d4307c96047dc424ed8"
+    },
+    {
+      "item_id": 25437,
+      "resource_name": "Src. Stole +2",
+      "url": "https://www.ffxiah.com/item/25437",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "ee3374980c2f9ae37a4a5c7e5de4a9fc6e603cb93235d5d09fd621c8a56e27bd",
+      "public_card_name": "Src. Stole +2",
+      "public_card_sha256": "1d884c7ecd85ed2298ae22164d6df1cb451c8fb6f234b918efad67a2252f7152",
+      "observation_sha256": "ab1d7829d926c5518c1ae4faf9aeb37ad5b21b81be1730d6c3446b7e0dd7c5fa"
+    },
+    {
+      "item_id": 25554,
+      "resource_name": "Ea Hat +1",
+      "url": "https://www.ffxiah.com/item/25554",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "7cdca56deaae2daa8c09b982cac20a43e4d0b09b09a557174cfa22bb86e84f7b",
+      "public_card_name": "Ea Hat +1",
+      "public_card_sha256": "e6ee988f3d689dbe2f820d07983971fdd32550548a236bec6afb09da388931a7",
+      "observation_sha256": "a50921939d324768d67f22bfbd16520de812eb4365a273ccaac1e5815e1514ab"
+    },
+    {
+      "item_id": 25571,
+      "resource_name": "Mall. Chapeau +2",
+      "url": "https://www.ffxiah.com/item/25571",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "b16fecd4f99ed1a46e595dae181bbf0ebbe16ed516ae36ed1ca75b34413989d9",
+      "public_card_name": "Mall. Chapeau +2",
+      "public_card_sha256": "eda51ad04eadf56cd00a043f763749468b49bcaa681e459eb9b24128f8df680c",
+      "observation_sha256": "57c140ff24e307a59cc9738b893bf8f26d3348bb6549e4e88e1ca5278e16d5b3"
+    },
+    {
+      "item_id": 25643,
+      "resource_name": "Merlinic Hood",
+      "url": "https://www.ffxiah.com/item/25643",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "ad22dd1eab4dbdd4e0a08a590fce942b4ddc337c81c54dc6b5b0b2f0cf31466e",
+      "public_card_name": "Merlinic Hood",
+      "public_card_sha256": "d6b2e4f48c4a5259542ddadf9e5219cb98faa3b3c01daaac7f7006392eff633c",
+      "observation_sha256": "5ede2d87d9bf1d128f679d5158b4bec5fdb833c744038bf6a828bc8103a3c654"
+    },
+    {
+      "item_id": 25689,
+      "resource_name": "Amalric Doublet +1",
+      "url": "https://www.ffxiah.com/item/25689",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "cbce58f77dd9c8b86c59801df3822b4ce850d6cbf802a924607659de0a49c7cb",
+      "public_card_name": "Amalric Doublet +1",
+      "public_card_sha256": "7aa02b79db8338b2845bb534ce4d94356351af7101d7d526df69bacfd37081ad",
+      "observation_sha256": "71fdfb4adc3317ab3b929ee8c59656f129095b54d4c24adb736b8b4091936f2c"
+    },
+    {
+      "item_id": 25719,
+      "resource_name": "Merlinic Jubbah",
+      "url": "https://www.ffxiah.com/item/25719",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "d860cbfc14ee5044337098fd03728c4975f54022fce625ff4c460a8c0830c61c",
+      "public_card_name": "Merlinic Jubbah",
+      "public_card_sha256": "7d2afc9f8613cf1c187a249956fb89f458397fa822b36ad7fd678b08569a2319",
+      "observation_sha256": "09c0cd8ecc27abb9d73923a759eb75db82618ca968995761b05615053af2abda"
+    },
+    {
+      "item_id": 26220,
+      "resource_name": "Crepuscular Ring",
+      "url": "https://www.ffxiah.com/item/26220",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "dc40e42ac1c734d48b15ac4a9cb2e408e1416d444c18f089ac502f88ca9fd26f",
+      "public_card_name": "Crepuscular Ring",
+      "public_card_sha256": "e3acd258e086521920290b14e6c6e2a257de43604eb3ce8866c65e12ffa66600",
+      "observation_sha256": "01770655d0bc28195e523bcfb5d6be953f8e846f09c8f481e001e5fe9699cdf9"
+    },
+    {
+      "item_id": 26249,
+      "resource_name": "Taranus's Cape",
+      "url": "https://www.ffxiah.com/item/26249",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "83f1b9d5023439f32a1cfaac527572ac43cdd2346118c41a00f19a2205cfffbb",
+      "public_card_name": "Taranus's Cape",
+      "public_card_sha256": "ea78b8ec59a140275b00dcc3d000048433cba95187451ef1ead458aa3fb08640",
+      "observation_sha256": "29b2af78fee2137f9d7448259a23ccb7880b603b9242a9f1b90496d981e6eff1"
+    },
+    {
+      "item_id": 26274,
+      "resource_name": "Null Shawl",
+      "url": "https://www.ffxiah.com/item/26274",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "92a52bf96e6f5df09178c3a022a8b73d6cb70829e0de5532c124ce52155f36b9",
+      "public_card_name": "Null Shawl",
+      "public_card_sha256": "00588c34e21920a20bae78d6192edb6ec7bda6b651687155b549405fb12bfd9a",
+      "observation_sha256": "fd595d83db90ae6267f74d712c45c8288fa56b045e95471b740f12c35e5e0a06"
+    },
+    {
+      "item_id": 26325,
+      "resource_name": "Refoccilation Stone",
+      "url": "https://www.ffxiah.com/item/26325",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "0f5c051d8520ac89b36ecba84502157e978000fce399e7c73cad87e68b15584c",
+      "public_card_name": "Refoccilation Stone",
+      "public_card_sha256": "32460e5b18f36fcb6509228eea1f8664f3764c3105ab05a4812f33804c4fa6b0",
+      "observation_sha256": "c4c9dbacd9dbb7ee18e4142d07e0a0438b55ed0d81921276e2cd696cdab2a3c5"
+    },
+    {
+      "item_id": 27120,
+      "resource_name": "Amalric Gages +1",
+      "url": "https://www.ffxiah.com/item/27120",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "4ef95c592c9cbef9bc4a192640438ae36e961e76557f32abc117a97564948a69",
+      "public_card_name": "Amalric Gages +1",
+      "public_card_sha256": "16afd340a98f204bc8be0d7cb7844b1d8a07178389da26e3191137040efc1476",
+      "observation_sha256": "4dda54530481af8ceb5cce645e1ebf65ceb8de42b191253c0ab0a63ab8b4166f"
+    },
+    {
+      "item_id": 27141,
+      "resource_name": "Merlinic Dastanas",
+      "url": "https://www.ffxiah.com/item/27141",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "cdffdd841efc73a3d722732d61340000dc2004e0a3be325761a37f152184142f",
+      "public_card_name": "Merlinic Dastanas",
+      "public_card_sha256": "3fe7356d589c6daeeafbeda51fe59c005308cd2eb674d8310a0b6200d4ce85ea",
+      "observation_sha256": "a91dc8a7df92b57119311a6e2cde60199fc433c6a64174eaa7f387badd1ab207"
+    },
+    {
+      "item_id": 27305,
+      "resource_name": "Amalric Slops +1",
+      "url": "https://www.ffxiah.com/item/27305",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "d470d94fea2c1c9c67652cada08e9a5832842061c57ffd8f72cf37ad20b7618d",
+      "public_card_name": "Amalric Slops +1",
+      "public_card_sha256": "d482299318dfb5661c101d84e389e263077413e979f39506e7c946c930c06845",
+      "observation_sha256": "0cd44c490139f37b2c8fe7f350592c313142a48c7e4cc88ed01bb701685fbdf9"
+    },
+    {
+      "item_id": 27476,
+      "resource_name": "Amalric Nails +1",
+      "url": "https://www.ffxiah.com/item/27476",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "c839c17e0b9f434fb5bd051a44e39c83bbc420555d165f72355fa0c2af060ba9",
+      "public_card_name": "Amalric Nails +1",
+      "public_card_sha256": "89373b437a8402dc5b8553d4ffd3d2c49825cca720f3af08b9557e2585f0351b",
+      "observation_sha256": "0583b53d7e7f007680add463610e8075a50dadbc8ced25a8adbbf6f47d2db19b"
+    },
+    {
+      "item_id": 27497,
+      "resource_name": "Merlinic Crackows",
+      "url": "https://www.ffxiah.com/item/27497",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "c0642fa1c2ab3a77033ff68601219f5996c4dff829651f3c2933dcc96e48fd16",
+      "public_card_name": "Merlinic Crackows",
+      "public_card_sha256": "d77304cac54d94179fbdfa0bc0d2d226a2f0c2fefb6c3f4c3bf81298c67ef7f3",
+      "observation_sha256": "56071a0cd840c03990b910ccc7a473545b3793d1cd3043fce680fb482d2a4f6e"
+    },
+    {
+      "item_id": 27558,
+      "resource_name": "Mephitas's Ring",
+      "url": "https://www.ffxiah.com/item/27558",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "db39225b6365803589006d1c38510150bdebb5e608432963f322c7284bb106c0",
+      "public_card_name": "Mephitas's Ring",
+      "public_card_sha256": "d26c532e8b59526b4b1f40b36a04881ab158ad59d85669a850ffc23b2703d43a",
+      "observation_sha256": "8d9b8e4e895db9752246079876d6c4ef662958819e7c92cfb1fd9b54c9b19855"
+    },
+    {
+      "item_id": 28148,
+      "resource_name": "Perdition Slops",
+      "url": "https://www.ffxiah.com/item/28148",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "1accc42436e17010634c052d191244adeb1b318c0d8ef88acbe56b239eb57b5f",
+      "public_card_name": "Perdition Slops",
+      "public_card_sha256": "010f3f850df066a25ae5176bc949816513c304d44f43364397933081af036a1f",
+      "observation_sha256": "b30599f1ee669b029a31f60b6b58ec6d1d406724fbb20e9f40ab652fc30488aa"
+    },
+    {
+      "item_id": 28362,
+      "resource_name": "Dualism Collar +1",
+      "url": "https://www.ffxiah.com/item/28362",
+      "checked_on": "2026-11-04",
+      "scope": "Exact-ID public item card inspected for item identity, BLM/slot eligibility and relevant fixed base properties. No augment/rank effects inferred from base card.",
+      "resource_description_sha256": "ad11352bf74c9ef46ca6f3f4328e4dd8246cdac204685d06c6a68fc35127ef85",
+      "public_card_name": "Dualism Collar +1",
+      "public_card_sha256": "7383c37edd0a072aed7b47209cad2967660d43cff0807c59244321bb408ac9f5",
+      "observation_sha256": "70da8c56485e1773599cd42a149f3bb949028de75ff2e4ca3f0e2cef023b5e48"
+    }
+  ],
+  "source_access": {
+    "bgwiki": "403 via research tool and direct HTTP; not read",
+    "browser": "Local browser use disabled in Work settings; no BG browser read claimed",
+    "ffxiah": "Exact live table and item cards read through direct public HTTP; research tool read guide and discussion originals"
+  },
+  "decoder_evidence": {
+    "path": "addons/libs/extdata.lua",
+    "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921",
+    "locator": "0x0ED: stat=quoted Occult Acumen; label checked as text only"
+  }
+}

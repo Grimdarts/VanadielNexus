@@ -1,0 +1,3690 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "DT Idle - instrument retained",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23630,
+          "name": "Fili Rhingrave +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363878
+      ],
+      "rationale": "Nexus Fili/Nyame/shield defense with Linos retained and ammo intentionally empty. No Linos augment, Shell assumption or effective cap credited.",
+      "context": {
+        "recipient": "Master",
+        "transition": "Instrument retained; TP/weapon transitions require live review"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle - MP subjob recovery",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24270,
+          "name": "Null Masque",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25691,
+          "name": "Kaykaus Bliaut +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23718,
+          "name": "Volte Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28135,
+          "name": "Assid. Pants +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23726,
+          "name": "Volte Gaiters",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363874
+      ],
+      "rationale": "Nexus fixed base Refresh assembly with Daybreak/shield instead of source staff/grip; two physical Stikini +1 copies. No random Chironic Refresh or Fucho latent counted.",
+      "context": {
+        "subjob": "Usable MP pool and MP-using subjob such as BRD/WHM 99/49",
+        "recipient": "Master"
+      }
+    },
+    {
+      "key": "song-general",
+      "target": "Song effect / duration - ordinary buffs",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus base Kali replaces the ambiguous Carnwenhan stage. Exact level-99 Gjallarhorn supplies potency; armor/cape song-family bonuses apply only to matching songs. No skill or duration cap assumed.",
+      "context": {
+        "spell": "Learned ordinary buff song; not Honor March or Aria of Passion",
+        "instrument": "Gjallarhorn level 99, exact ID 18572; no extra capacity from this horn",
+        "capacity": "Only two ordinary songs unless recipient slots separately established; no Clarion Call assumed"
+      }
+    },
+    {
+      "key": "march",
+      "target": "Song effect - march",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Fili hands retained for March; this is not Honor March access.",
+      "context": {
+        "spell": "Learned ordinary March",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "minuet",
+      "target": "Song effect - minuet",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Fili body retained for Minuet and duration.",
+      "context": {
+        "spell": "Learned Minuet",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "madrigal",
+      "target": "Song effect - madrigal",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Fili head and base Intarabus cape retained for Madrigal.",
+      "context": {
+        "spell": "Learned Madrigal",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "prelude",
+      "target": "Song effect - prelude",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Base Intarabus cape retained for Prelude.",
+      "context": {
+        "spell": "Learned Prelude",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "ballad",
+      "target": "Song effect - ballad",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23630,
+          "name": "Fili Rhingrave +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Ballad legs replace Inyanga duration; song ordering/duration differs.",
+      "context": {
+        "spell": "Learned Ballad",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "scherzo",
+      "target": "Song effect - scherzo",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23697,
+          "name": "Fili Cothurnes +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Scherzo feet replace Brioso duration; no protection threshold certified.",
+      "context": {
+        "spell": "Learned Sentinel's Scherzo",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "paeon",
+      "target": "Song effect - paeon",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23904,
+          "name": "Brioso Roundlet +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Paeon head replaces Madrigal head.",
+      "context": {
+        "spell": "Learned Paeon",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; no inferred merits/JP/ML or skill cap"
+      }
+    },
+    {
+      "key": "etude",
+      "target": "Song effect - etude",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25562,
+          "name": "Mousai Turban +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Etude head swap; Su3 / 500 BRD Job Points required.",
+      "context": {
+        "spell": "Learned Etude",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; Su3 / 500 BRD Job Points"
+      }
+    },
+    {
+      "key": "carol",
+      "target": "Song effect - carol",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25989,
+          "name": "Mousai Gages +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. Carol hands replace March hands; Su3 / 500 BRD Job Points required.",
+      "context": {
+        "spell": "Learned Carol",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; Su3 / 500 BRD Job Points"
+      }
+    },
+    {
+      "key": "minne",
+      "target": "Song effect - minne",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25901,
+          "name": "Mousai Seraweels",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. NQ Minne legs sacrifice Inyanga duration; Su3 required, no HQ bonus transferred.",
+      "context": {
+        "spell": "Learned Minne",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; Su3 / 500 BRD Job Points"
+      }
+    },
+    {
+      "key": "mambo",
+      "target": "Song effect - mambo",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25968,
+          "name": "Mousai Crackows",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus song-specific full composition from BG Song+ Effects, not a transcription of the older image. NQ Mambo feet sacrifice Brioso duration; Su3 required, no HQ bonus transferred.",
+      "context": {
+        "spell": "Learned Mambo",
+        "instrument": "Exact level-99 Gjallarhorn ID 18572",
+        "capacity": "Recipient song slots must already be available; no additional song granted by horn",
+        "access": "Learned song; Su3 / 500 BRD Job Points"
+      }
+    },
+    {
+      "key": "honor-march",
+      "target": "Song effect - Honor March / Marsyas",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21398,
+          "name": "Marsyas",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23652,
+          "name": "Brioso Slippers +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363883
+      ],
+      "rationale": "Nexus Marsyas kept at song completion for Honor March access; no Gjallarhorn All songs+4 transferred onto Marsyas. Fili hands retained.",
+      "context": {
+        "spell": "Honor March with usable Marsyas equipped at cast completion",
+        "instrument": "Marsyas ID 21398; Aeonic access",
+        "capacity": "Does not itself add song slots; recipient capacity separately established"
+      }
+    },
+    {
+      "key": "dummy-terpander",
+      "target": "Dummy songs - Terpander",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21407,
+          "name": "Terpander",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [],
+      "rationale": "Nexus removes discretionary duration and song+ armor, neck and cape; Daybreak avoids Kali song duration. Daurdabla inherent duration is not removable. Use unused learned dummy songs, then overwrite with correct potency instrument before expiration.",
+      "context": {
+        "spell": "Unused learned dummy song such as Paeon; not desired final buff",
+        "instrument": "Terpander",
+        "capacity": "Instrument grants 1 additional song effect(s); does not stack with another capacity instrument",
+        "sequence": "Establish recipient slots; replace lowest-duration dummies; reestablish after song loss/dispel/death. Clarion Call is separate and not assumed"
+      }
+    },
+    {
+      "key": "dummy-daurdabla",
+      "target": "Dummy songs - Daurdabla level 99",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18571,
+          "name": "Daurdabla",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [],
+      "rationale": "Nexus removes discretionary duration and song+ armor, neck and cape; Daybreak avoids Kali song duration. Daurdabla inherent duration is not removable. Use unused learned dummy songs, then overwrite with correct potency instrument before expiration.",
+      "context": {
+        "spell": "Unused learned dummy song such as Paeon; not desired final buff",
+        "instrument": "18571",
+        "capacity": "Instrument grants 2 additional song effect(s); does not stack with another capacity instrument",
+        "sequence": "Establish recipient slots; replace lowest-duration dummies; reestablish after song loss/dispel/death. Clarion Call is separate and not assumed"
+      }
+    },
+    {
+      "key": "debuff-accuracy",
+      "target": "Debuff accuracy - horn / skill / CHR",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23904,
+          "name": "Brioso Roundlet +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23949,
+          "name": "Brioso Just. +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23994,
+          "name": "Brioso Cuffs +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "CHR+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Mag. Acc.+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23585,
+          "name": "Brioso Cannions +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24084,
+          "name": "Brioso Slippers +4",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363884
+      ],
+      "rationale": "Nexus Kali/shield, exact horn, accuracy/skill armor and explicit CHR/magic accuracy cape. No relic stage, random earring, Unity rank or resist-floor inference.",
+      "context": {
+        "spell": "Learned debuff song such as Elegy, Finale or Requiem",
+        "recipient": "Enemy",
+        "instrument": "Wind; level-99 Gjallarhorn ID 18572"
+      },
+      "effective_revision_id": "nexus:brd:debuff-accuracy:2026-11-04:bb4a6e6ad50a"
+    },
+    {
+      "key": "threnody",
+      "target": "Debuff accuracy - Threnody potency",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23904,
+          "name": "Brioso Roundlet +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26537,
+          "name": "Mousai Manteel",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23994,
+          "name": "Brioso Cuffs +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "CHR+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Mag. Acc.+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23585,
+          "name": "Brioso Cannions +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24084,
+          "name": "Brioso Slippers +4",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363884
+      ],
+      "rationale": "Nexus NQ Threnody body replaces accuracy/duration body. Duration and landing-rate tradeoffs remain target-dependent.",
+      "context": {
+        "spell": "Learned Threnody",
+        "recipient": "Enemy",
+        "access": "Su3 / 500 BRD Job Points"
+      },
+      "effective_revision_id": "nexus:brd:threnody:2026-11-04:e776c781cd83"
+    },
+    {
+      "key": "lullaby-wind",
+      "target": "Lullaby - wind accuracy",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23904,
+          "name": "Brioso Roundlet +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23949,
+          "name": "Brioso Just. +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23994,
+          "name": "Brioso Cuffs +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "CHR+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Mag. Acc.+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23585,
+          "name": "Brioso Cannions +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24084,
+          "name": "Brioso Slippers +4",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        369352
+      ],
+      "rationale": "Nexus Brioso Lullaby+2 hands with wind horn; no string radius or source duration inherited.",
+      "context": {
+        "spell": "Learned Foe Lullaby or Horde Lullaby; wind instrument",
+        "recipient": "Enemy; wind area behavior, not string-skill radius"
+      },
+      "effective_revision_id": "nexus:brd:lullaby-wind:2026-11-04:1910fc6b42e7"
+    },
+    {
+      "key": "lullaby-string",
+      "target": "Horde Lullaby II - Blurred Harp +1",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21401,
+          "name": "Blurred Harp +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23904,
+          "name": "Brioso Roundlet +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26033,
+          "name": "Mnbw. Whistle +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23949,
+          "name": "Brioso Just. +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23994,
+          "name": "Brioso Cuffs +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "CHR+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Mag. Acc.+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23585,
+          "name": "Brioso Cannions +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24084,
+          "name": "Brioso Slippers +4",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        369355
+      ],
+      "rationale": "Nexus string-instrument Lullaby+2/All songs+2 checkpoint; retains Brioso Lullaby hands. Does not claim 567/648 string skill, ML or radius breakpoint.",
+      "context": {
+        "spell": "Learned Horde Lullaby II",
+        "recipient": "Enemies around target; String skill dependent area",
+        "access": "Su2 / 100 BRD Job Points",
+        "instrument": "Blurred Harp +1 ID 21401; no Gjallarhorn wind skill transferred"
+      },
+      "effective_revision_id": "nexus:brd:lullaby-string:2026-11-04:5e84327fb1c9"
+    },
+    {
+      "key": "fast-cast",
+      "target": "Precast - generic magic",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+6"
+            ]
+          }
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23760,
+          "name": "Bunzi's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25793,
+          "name": "Inyanga Jubbah +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23697,
+          "name": "Fili Cothurnes +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363900
+      ],
+      "rationale": "Nexus FC set with explicit Linos FC6 and cape FC10 requirements. Leyline random FC is not assumed. No 80 FC/Quick Magic total inferred from source title.",
+      "context": {
+        "spell": "Accessible learned non-song spell through declared subjob",
+        "sequence": "Precast only; correct spell-specific midcast still required"
+      },
+      "effective_revision_id": "nexus:brd:fast-cast:2026-11-04:704bc90adc47"
+    },
+    {
+      "key": "song-precast",
+      "target": "Precast - ordinary songs",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 18572,
+          "name": "Gjallarhorn",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25793,
+          "name": "Inyanga Jubbah +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23697,
+          "name": "Fili Cothurnes +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363887
+      ],
+      "rationale": "Nexus song casting-time head plus FC; horn set before completion. Song spellcasting reduction does not establish equal recast reduction. No 550JP gift assumed.",
+      "context": {
+        "spell": "Ordinary learned song; not instrument-locked Honor March or Aria",
+        "sequence": "Switch to correct song midcast; no cast/recast cap claim"
+      },
+      "effective_revision_id": "nexus:brd:song-precast:2026-11-04:a9929b9194b3"
+    },
+    {
+      "key": "honor-precast",
+      "target": "Precast - Honor March / Marsyas",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20599,
+          "name": "Kali",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21398,
+          "name": "Marsyas",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25793,
+          "name": "Inyanga Jubbah +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23697,
+          "name": "Fili Cothurnes +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363887
+      ],
+      "rationale": "Nexus keeps Marsyas for instrument-gated song access rather than borrowing Linos FC6; no cap assumed.",
+      "context": {
+        "spell": "Honor March; usable Marsyas equipped",
+        "sequence": "Marsyas retained through song completion"
+      },
+      "effective_revision_id": "nexus:brd:honor-precast:2026-11-04:9c2b3320c04a"
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced - sword/shield",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {
+            "augments": [
+              "Accuracy+15 Attack+15",
+              "\"Store TP\"+4",
+              "Quadruple Attack +3"
+            ]
+          }
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25572,
+          "name": "Aya. Zucchetto +2",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14813,
+          "name": "Brutal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25795,
+          "name": "Ayanmo Corazza +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23774,
+          "name": "Bunzi's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "DEX+10",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25951,
+          "name": "Aya. Gambieras +2",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363865
+      ],
+      "rationale": "Nexus Naegling/shield baseline from Ayanmo/Bunzi options, explicit TP cape and Linos augments. Source /NIN AM3 omitted weapons do not establish this build or an aftermath.",
+      "context": {
+        "subjob": "BRD/WAR 99/49; single sword and shield, no Dual Wield",
+        "buffs": "External haste/accuracy/attack vary; no capped haste, attack or hit rate assumed"
+      },
+      "effective_revision_id": "nexus:brd:engaged-balanced:2026-11-04:422e1f6b016e"
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged DT - sword/shield",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {
+            "augments": [
+              "Accuracy+15 Attack+15",
+              "\"Store TP\"+4",
+              "Quadruple Attack +3"
+            ]
+          }
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14813,
+          "name": "Brutal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "DEX+10",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23630,
+          "name": "Fili Rhingrave +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363865,
+        363878
+      ],
+      "rationale": "Nexus defense tradeoff loses multiattack pieces; source caps and AM3 are not inherited.",
+      "context": {
+        "subjob": "BRD/WAR 99/49; single sword/shield",
+        "buffs": "Target-dependent; no effective DT cap or equal DPS certified"
+      },
+      "effective_revision_id": "nexus:brd:engaged-dt:2026-11-04:de034845e282"
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy - sword/shield",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {
+            "augments": [
+              "Accuracy+15 Attack+15",
+              "\"Store TP\"+4",
+              "Quadruple Attack +3"
+            ]
+          }
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23429,
+          "name": "Fili Calot +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26023,
+          "name": "Sanctity Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14813,
+          "name": "Brutal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23496,
+          "name": "Fili Hongreline +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23563,
+          "name": "Fili Manchettes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "DEX+10",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23630,
+          "name": "Fili Rhingrave +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23697,
+          "name": "Fili Cothurnes +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        363865
+      ],
+      "rationale": "Nexus fixed accuracy JSE tradeoff with TP cape/Linos retained; no declared hit rate or universally superior tier.",
+      "context": {
+        "subjob": "BRD/WAR 99/49; single sword/shield",
+        "buffs": "Higher accuracy demand; no fixed haste or attack cap"
+      },
+      "effective_revision_id": "nexus:brd:engaged-accuracy:2026-11-04:eb6e1923bca9"
+    },
+    {
+      "key": "savage-blade",
+      "target": "WS - Savage Blade / sword-shield",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21404,
+          "name": "Linos",
+          "requirements": {
+            "augments": [
+              "Accuracy+15 Attack+15",
+              "STR+8",
+              "Weapon skill damage +3%"
+            ]
+          }
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25415,
+          "name": "Rep. Plat. Medal",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23474,
+          "name": "Bihu Jstcorps. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27565,
+          "name": "Ifrit Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26255,
+          "name": "Intarabus's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "STR+10",
+              "Accuracy+20 Attack+20",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "source_tables": [
+        363903
+      ],
+      "rationale": "Nexus Naegling/shield, explicit STR/WSD cape and separate STR/WSD Linos. Nyame path B required, rank unspecified: no R30 WSD magnitude. No source Centovente, Moonshade TP augment, aftermath or effective TP bonus inherited.",
+      "context": {
+        "subjob": "BRD/WAR 99/49; sword/shield",
+        "access": "Usable Savage Blade with Naegling; no dagger WS access assumed",
+        "buffs": "Target attack/defense and TP variable; no damage/cap promise"
+      },
+      "effective_revision_id": "nexus:brd:savage-blade:2026-11-04:2c6e37635ca0"
+    }
+  ],
+  "amendments": [
+    {
+      "set_id": "nexus:brd:debuff-accuracy",
+      "retired_revision_id": "nexus:brd:debuff-accuracy:2026-11-04:5fb390052548",
+      "successor_revision_id": "nexus:brd:debuff-accuracy:2026-11-04:bb4a6e6ad50a",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:threnody",
+      "retired_revision_id": "nexus:brd:threnody:2026-11-04:781a3eea29f1",
+      "successor_revision_id": "nexus:brd:threnody:2026-11-04:e776c781cd83",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:lullaby-wind",
+      "retired_revision_id": "nexus:brd:lullaby-wind:2026-11-04:bcbbcae3dbca",
+      "successor_revision_id": "nexus:brd:lullaby-wind:2026-11-04:1910fc6b42e7",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:lullaby-string",
+      "retired_revision_id": "nexus:brd:lullaby-string:2026-11-04:c9ea7282f74e",
+      "successor_revision_id": "nexus:brd:lullaby-string:2026-11-04:5e84327fb1c9",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:fast-cast",
+      "retired_revision_id": "nexus:brd:fast-cast:2026-11-04:deb681a81e32",
+      "successor_revision_id": "nexus:brd:fast-cast:2026-11-04:704bc90adc47",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:song-precast",
+      "retired_revision_id": "nexus:brd:song-precast:2026-11-04:c5a05effa897",
+      "successor_revision_id": "nexus:brd:song-precast:2026-11-04:a9929b9194b3",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:honor-precast",
+      "retired_revision_id": "nexus:brd:honor-precast:2026-11-04:bab9c003a620",
+      "successor_revision_id": "nexus:brd:honor-precast:2026-11-04:9c2b3320c04a",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:engaged-balanced",
+      "retired_revision_id": "nexus:brd:engaged-balanced:2026-11-04:fda965205a58",
+      "successor_revision_id": "nexus:brd:engaged-balanced:2026-11-04:422e1f6b016e",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:engaged-dt",
+      "retired_revision_id": "nexus:brd:engaged-dt:2026-11-04:1370b7a0cde7",
+      "successor_revision_id": "nexus:brd:engaged-dt:2026-11-04:de034845e282",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:engaged-accuracy",
+      "retired_revision_id": "nexus:brd:engaged-accuracy:2026-11-04:479e2f7d1fc5",
+      "successor_revision_id": "nexus:brd:engaged-accuracy:2026-11-04:eb6e1923bca9",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    },
+    {
+      "set_id": "nexus:brd:savage-blade",
+      "retired_revision_id": "nexus:brd:savage-blade:2026-11-04:af71d824b00b",
+      "successor_revision_id": "nexus:brd:savage-blade:2026-11-04:2c6e37635ca0",
+      "reason": "Initial strict requirements used source totals / presentation punctuation rather than exact decoded augment parts; historical record retained, successor recommended."
+    }
+  ]
+}

@@ -1,0 +1,1051 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "index": 0,
+      "title": "BG Starter TP",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": "Ichigohitofuri",
+        "sub": "Nepenthe Grip",
+        "range": "Cibitshavore",
+        "ammo": null,
+        "head": "Flam. Zucchetto +1",
+        "neck": "Moonbeam Nodowa",
+        "ear1": "Bladeborn Earring",
+        "ear2": "Steelflash Earring",
+        "body": "Kasuga Domaru",
+        "hands": "Flam. Manopolas +1",
+        "ring1": "Rajas Ring",
+        "ring2": "Petrov Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt",
+        "legs": "Hiza. Hizayoroi +1",
+        "feet": "Flam. Gambieras +1"
+      },
+      "notes": "Ichigo B; Cibit C; cape STR20 or DEX, Acc30/Atk20 STP10. Alternative grips/earrings remain options.",
+      "omitted_slots": [
+        "ammo"
+      ],
+      "occupied_slot_count": 15,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "fedbae66281811d32881d9081d000b8c2532f1cd238540d0840de6244977e50b"
+    },
+    {
+      "index": 1,
+      "title": "BG Mid TP",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Nepenthe Grip +1",
+        "range": null,
+        "ammo": "Ginsen",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Cessance Earring",
+        "ear2": "Brutal Earring",
+        "body": "Kasuga Domaru +1",
+        "hands": "Wakido Kote +2",
+        "ring1": "Flamma Ring",
+        "ring2": "Petrov Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt",
+        "legs": "Ryuo Hakama",
+        "feet": "Ryuo Sune-Ate"
+      },
+      "notes": "Hizamaru+2 legs/Flamma+2 feet alternatives; random Valorous DA/STP also options.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "1c22a3e34fb6800a75e7c71291a5a8f8d9f60e8617f90e1b66667d640474e693"
+    },
+    {
+      "index": 2,
+      "title": "BG Max TP",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Telos Earring",
+        "ear2": "Dedition Earring",
+        "body": "Kasuga Domaru +1",
+        "hands": "Wakido Kote +3",
+        "ring1": "Flamma Ring",
+        "ring2": "Niqmaddu Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Ryuo Hakama +1",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "Augmented neck hierarchy conditional; cape switches to DA10; main explicitly placeholder, Doji/Masa discussed.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "cf0bcb0cb89a390d077475283df5d6948dfe151715313c4ac9396cc8dcb50f4a"
+    },
+    {
+      "index": 3,
+      "title": "BG Sortie TP",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Telos Earring",
+        "ear2": "Kasuga Earring +2",
+        "body": "Kasuga Domaru +3",
+        "hands": "Tatena. Gote +1",
+        "ring1": "Flamma Ring",
+        "ring2": "Niqmaddu Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "Cape DA10, Ryuo STP5 augment, Tatenashi no Unity; Masamune-specific TP return and Samurai Roll claims unverified. Random earring augments unspecified.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "43582fc3a1bf7a790978847b80b90df67a28bcf5bf6f778bd8a8bb1aee2201e1"
+    },
+    {
+      "index": 4,
+      "title": "BG Low Accuracy",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Brutal Earring",
+        "ear2": "Dedition Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Wakido Kote +3",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Flamma Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "Source title ~1160; not certified. Samurai Roll active, DEX20 Acc30/Atk20 DA10 cape; Ryuo C; neck augmented.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "d2e4828a65814ef633977d355badd41593a1434ea96d52f6045c2f1a9ac67113"
+    },
+    {
+      "index": 5,
+      "title": "BG Mid Accuracy",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Cessance Earring",
+        "ear2": "Brutal Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Wakido Kote +3",
+        "ring1": "Flamma Ring",
+        "ring2": "Niqmaddu Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "Source title ~1176 unverified; Samurai Roll and same cape. Intermediate Telos/Flamma feet alternatives.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "23756276cd24fea5d0e392f9a0c8fe56e467bc150eb164c5ce946ac822841d6c"
+    },
+    {
+      "index": 6,
+      "title": "BG High Accuracy",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Telos Earring",
+        "ear2": "Digni. Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Wakido Kote +3",
+        "ring1": "Regal Ring",
+        "ring2": "Flamma Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Flam. Gambieras +2"
+      },
+      "notes": "Source title ~1264 unverified; Samurai Roll and same cape; neck augmented.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "c8967f70d7059a6d2c5f3281ec0442a8cd0edbe5426446ad77f60edd34b72122"
+    },
+    {
+      "index": 7,
+      "title": "BG MEva",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Ken. Jinpachi +1",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Telos Earring",
+        "ear2": "Dedition Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Wakido Kote +3",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Ilabrat Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Ken. Sune-Ate +1"
+      },
+      "notes": "Su3 access explicitly needed; accessory choices depend on accuracy; no universal max MEva certified.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "555bbb94f4c20aa1991c1812ab968caa73411097759a3834bfe2fe2506acbc9e"
+    },
+    {
+      "index": 8,
+      "title": "BG Hybrid DD/DT",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Staunch Tathlum +1",
+        "head": "Ken. Jinpachi +1",
+        "neck": "Loricate Torque +1",
+        "ear1": "Genmei Earring",
+        "ear2": "Etiolation Earring",
+        "body": "Wakido Domaru +3",
+        "hands": "Wakido Kote +3",
+        "ring1": "Defending Ring",
+        "ring2": "Gelatinous Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Flume Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Ken. Sune-Ate +1"
+      },
+      "notes": "Defensive engaged grid, not hybrid weapon skill; unspecified cape augments.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "d08adaa9213ca0749a6b5a14c1144b1baeef744c314f41ed114f517a927244e6"
+    },
+    {
+      "index": 9,
+      "title": "BG Starter WS",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": "Ichigohitofuri",
+        "sub": "Nepenthe Grip",
+        "range": "Cibitshavore",
+        "ammo": null,
+        "head": "Flam. Zucchetto +1",
+        "neck": "Fotia Gorget",
+        "ear1": "Ishvara Earring",
+        "ear2": "Brutal Earring",
+        "body": "Flamma Korazin +1",
+        "hands": "Flam. Manopolas +1",
+        "ring1": "Rajas Ring",
+        "ring2": "Apate Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Fotia Belt",
+        "legs": "Hiza. Hizayoroi +1",
+        "feet": "Flam. Gambieras +1"
+      },
+      "notes": "",
+      "omitted_slots": [
+        "ammo"
+      ],
+      "occupied_slot_count": 15,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "b3c92e87be529392268238ff8ec9cc9c782bd147c50f9a986050a3e138d71251"
+    },
+    {
+      "index": 10,
+      "title": "BG Mid WS",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": "Ichigohitofuri",
+        "sub": "Nepenthe Grip +1",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Valorous Mask",
+        "neck": "Fotia Gorget",
+        "ear1": "Ishvara Earring",
+        "ear2": "Moonshade Earring",
+        "body": "Ryuo Domaru",
+        "hands": "Valorous Mitts",
+        "ring1": "Apate Ring",
+        "ring2": "Karieyh Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Fotia Belt",
+        "legs": "Hiza. Hizayoroi +2",
+        "feet": "Valorous Greaves"
+      },
+      "notes": "Random augment requirements not explicit in this grid.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "fd3f7116623421de53f3d429c734bac0359026ba6ced9455161128629e6d178d"
+    },
+    {
+      "index": 11,
+      "title": "BG High Fudo/Impulse",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Mpaca's Cap",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Thrud Earring",
+        "ear2": "Moonshade Earring",
+        "body": "Sakonji Domaru +3",
+        "hands": "Valorous Mitts",
+        "ring1": "Epaminondas's Ring",
+        "ring2": "Karieyh Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Wakido Haidate +3",
+        "feet": "Valorous Greaves"
+      },
+      "notes": "Ryuo Tekko+1 A for Shining One Impulse option; augmented neck; Lugra+1 replaces Moonshade at TP overflow. Guide deliberately excludes Nyame pending player path choice.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "059e562cb8a0f9590aca0574409548ec329463be80492e93ce0263d6f725a4fb"
+    },
+    {
+      "index": 12,
+      "title": "BG Shoha",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Flam. Zucchetto +2",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Lugra Earring +1",
+        "ear2": "Moonshade Earring",
+        "body": "Sakonji Domaru +3",
+        "hands": "Valorous Mitts",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Epaminondas's Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Fotia Belt",
+        "legs": "Wakido Haidate +3",
+        "feet": "Flam. Gambieras +2"
+      },
+      "notes": "Multihit variant; optional Mpaca head; Flamma Ring note conflicts with actual Niqmaddu/Epaminondas cells; preserve both.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "0b4b6e84e314f7642ced3e6bd11631031afc13ce0be476079c8621498796ae47"
+    },
+    {
+      "index": 13,
+      "title": "BG Hybrid WS",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Valorous Mask",
+        "neck": "Fotia Gorget",
+        "ear1": "Friomisi Earring",
+        "ear2": "Moonshade Earring",
+        "body": "Found. Breastplate",
+        "hands": "Founder's Gauntlets",
+        "ring1": "Regal Ring",
+        "ring2": "Niqmaddu Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Fotia Belt",
+        "legs": "Wakido Haidate +3",
+        "feet": "Founder's Greaves"
+      },
+      "notes": "Mix WSD MAB STR INT; Founders max random augments assumed; ring options Karieyh/+1 or Flamma.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "fb80494f56ca3414d1b07de658d92e336c621581cb4515f9b950a1ce0c8ebf21"
+    },
+    {
+      "index": 14,
+      "title": "BG Ageha",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Flam. Zucchetto +2",
+        "neck": null,
+        "ear1": null,
+        "ear2": null,
+        "body": "Flamma Korazin +2",
+        "hands": "Flam. Manopolas +2",
+        "ring1": null,
+        "ring2": null,
+        "back": "Smertrios's Mantle",
+        "waist": null,
+        "legs": "Flamma Dirs +2",
+        "feet": "Flam. Gambieras +2"
+      },
+      "notes": "Accuracy for hit, macc for effect. Nyame path-dependent alternative discussed, not selected in source.",
+      "omitted_slots": [
+        "main",
+        "range",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2",
+        "waist"
+      ],
+      "occupied_slot_count": 8,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "88d74630dbadebabb33de12e64ebc4670b8d23a7358d067508a3b2940cdae2da"
+    },
+    {
+      "index": 15,
+      "title": "365421 Low Acc TP",
+      "url": "https://www.ffxiah.com/item-sets/365421",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Dedition Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": "Tatena. Gote +1",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Chirich Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Sweordfaetels +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "Embedded table changed independently of 2019 node text. Node Ryuo A and DEX20 Acc/Atk30 STP-or-DA10 are historical/ambiguous.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "0e467fb71d83b07792aad5867d978f423592ef9c5a7f5ea2585b4c3de49cdded"
+    },
+    {
+      "index": 16,
+      "title": "365422 Mid Acc TP",
+      "url": "https://www.ffxiah.com/item-sets/365422",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Telos Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": null,
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Chirich Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": null
+      },
+      "notes": "Only12 occupied slots; no main/range/hands/feet. Historical node augment assumptions do not identify exact modern rolls.",
+      "omitted_slots": [
+        "main",
+        "range",
+        "hands",
+        "feet"
+      ],
+      "occupied_slot_count": 12,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "4afa61c57363ca6cf3cb86915d08e698f94e9f3ba05cbe56b4a267d33b9d7a92"
+    },
+    {
+      "index": 17,
+      "title": "365423 High Acc TP",
+      "url": "https://www.ffxiah.com/item-sets/365423",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": null,
+        "head": "Ken. Jinpachi +1",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Cessance Earring",
+        "ear2": "Telos Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Wakido Kote +3 / Ken. Tekko +1",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Regal Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Ken. Hakama +1",
+        "feet": "Ken. Sune-Ate +1"
+      },
+      "notes": "Two ordered hand cells: Wakido then Ken. Generated Lua collapses to Ken; not a unique authored choice.",
+      "ordered_hand_entries": [
+        {
+          "slot": "hands",
+          "name": "Wakido Kote +3"
+        },
+        {
+          "slot": "hands",
+          "name": "Ken. Tekko +1"
+        }
+      ],
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "occupied_slot_count": 12,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "ed2eb995d1e9f328006abcca2b5a34ffe484ebc23a80604368094bdc1d3b874f"
+    },
+    {
+      "index": 18,
+      "title": "274964 WS1 pDIF uncapped",
+      "url": "https://www.ffxiah.com/item-sets/274964",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Knobkierrie",
+        "head": "Mpaca's Cap",
+        "neck": "Sam. Nodowa +2",
+        "ear1": "Moonshade Earring",
+        "ear2": "Thrud Earring",
+        "body": "Nyame Mail",
+        "hands": "Kasuga Kote +3",
+        "ring1": "Epaminondas's Ring",
+        "ring2": "Cornelia's Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Nyame Sollerets"
+      },
+      "notes": "Table title internally updated June20 2023, unlike node2019. Cape STR30 WSD10; Nyame augments unspecified; no aug Mpaca required. Alternatives relic+3 body/AF+3 legs/feet if no Nyame augments. Cornelia access unknown; Nexus uses Regal.",
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "occupied_slot_count": 14,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "6935eff67e7e5592b86484de06bddbc03eee6279f5cd43d0fea127cd3a7240f9"
+    },
+    {
+      "index": 19,
+      "title": "337750 empty linked WS",
+      "url": "https://www.ffxiah.com/item-sets/337750",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": null,
+        "head": null,
+        "neck": null,
+        "ear1": null,
+        "ear2": null,
+        "body": null,
+        "hands": null,
+        "ring1": null,
+        "ring2": null,
+        "back": null,
+        "waist": null,
+        "legs": null,
+        "feet": null
+      },
+      "notes": "Rendered count0 empty table; not N/A or complete WS evidence.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "head",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "hands",
+        "ring1",
+        "ring2",
+        "back",
+        "waist",
+        "legs",
+        "feet"
+      ],
+      "occupied_slot_count": 0,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "f89e179486dbdbb0dc640322020b3a652b2859686ac5761206d8c885bb25f5d3"
+    },
+    {
+      "index": 20,
+      "title": "353089 empty linked WS",
+      "url": "https://www.ffxiah.com/item-sets/353089",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": null,
+        "head": null,
+        "neck": null,
+        "ear1": null,
+        "ear2": null,
+        "body": null,
+        "hands": null,
+        "ring1": null,
+        "ring2": null,
+        "back": null,
+        "waist": null,
+        "legs": null,
+        "feet": null
+      },
+      "notes": "Rendered count0 empty table; not N/A or complete WS evidence.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "head",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "hands",
+        "ring1",
+        "ring2",
+        "back",
+        "waist",
+        "legs",
+        "feet"
+      ],
+      "occupied_slot_count": 0,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "4b7079627dde0cb324139e95396498ef7d636074221954c008edaa46f21adf2e"
+    },
+    {
+      "index": 21,
+      "title": "353090 empty linked WS",
+      "url": "https://www.ffxiah.com/item-sets/353090",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": null,
+        "head": null,
+        "neck": null,
+        "ear1": null,
+        "ear2": null,
+        "body": null,
+        "hands": null,
+        "ring1": null,
+        "ring2": null,
+        "back": null,
+        "waist": null,
+        "legs": null,
+        "feet": null
+      },
+      "notes": "Rendered count0 empty table; not N/A or complete WS evidence.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "head",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "hands",
+        "ring1",
+        "ring2",
+        "back",
+        "waist",
+        "legs",
+        "feet"
+      ],
+      "occupied_slot_count": 0,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "63ad6765dbbe711892448a356c3dbc15f7a70f772d9e51294f9cec1482181119"
+    },
+    {
+      "index": 22,
+      "title": "365416 PDT",
+      "url": "https://www.ffxiah.com/item-sets/365416",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Staunch Tathlum +1",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Telos Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Chirich Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Nyame Sollerets"
+      },
+      "notes": "Title Augmented Valorous PDT5 conflicts with selected Kasuga/Nyame. Cape PDT10 explicit; all other augment details unknown. Original unresolved catalog revision remains unchanged.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "f17327614254293fda01fef0cad4e91c809767c38ad895d587524e2845558eb4"
+    },
+    {
+      "index": 23,
+      "title": "319759 Regen conflicts",
+      "url": "https://www.ffxiah.com/item-sets/319759",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": null,
+        "head": "Crepuscular Helm",
+        "neck": "Bathy Choker +1",
+        "ear1": "Infused Earring",
+        "ear2": "Hibern. Earring",
+        "body": "Sacro Breastplate (twice)",
+        "hands": "Rao Kote +1",
+        "ring1": "Chirich Ring +1",
+        "ring2": "Chirich Ring +1",
+        "back": "Scuta Cape",
+        "waist": "Lycopodium Sash",
+        "legs": "Rao Haidate +1",
+        "feet": "Danzo Sune-Ate / Rao Sune-Ate +1"
+      },
+      "notes": "Ordered cells retain feet Danzo then Rao; body Sacro repeated; two Chirich rings are separate copies. Generated block collapses conflicting/repeated entries. Regen is not Refresh.",
+      "ordered_macro_entries": [
+        {
+          "slot": "feet",
+          "name": "Danzo Sune-Ate"
+        },
+        {
+          "slot": "back",
+          "name": "Scuta Cape"
+        },
+        {
+          "slot": "hands",
+          "name": "Rao Kote +1"
+        },
+        {
+          "slot": "legs",
+          "name": "Rao Haidate +1"
+        },
+        {
+          "slot": "feet",
+          "name": "Rao Sune-Ate +1"
+        },
+        {
+          "slot": "neck",
+          "name": "Bathy Choker +1"
+        },
+        {
+          "slot": "ear1",
+          "name": "Infused Earring"
+        },
+        {
+          "slot": "ear2",
+          "name": "Hibern. Earring"
+        },
+        {
+          "slot": "waist",
+          "name": "Lycopodium Sash"
+        },
+        {
+          "slot": "body",
+          "name": "Sacro Breastplate"
+        },
+        {
+          "slot": "body",
+          "name": "Sacro Breastplate"
+        },
+        {
+          "slot": "ring1",
+          "name": "Chirich Ring +1"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring +1"
+        },
+        {
+          "slot": "head",
+          "name": "Crepuscular Helm"
+        }
+      ],
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "occupied_slot_count": 12,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "0f3911a1f0f1b696671311c836b96def6458f4fa09e92b7ed8abc0238b0c8faf"
+    },
+    {
+      "index": 24,
+      "title": "365417 MDT",
+      "url": "https://www.ffxiah.com/item-sets/365417",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Staunch Tathlum +1",
+        "head": "Valorous Mask",
+        "neck": "Loricate Torque +1",
+        "ear1": "Sanare Earring",
+        "ear2": "Odnowa Earring +1",
+        "body": "Wakido Domaru +3",
+        "hands": "Valorous Mitts",
+        "ring1": "Defending Ring",
+        "ring2": "Vocane Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": null,
+        "legs": "Sakonji Haidate +3",
+        "feet": "Valorous Greaves"
+      },
+      "notes": "Title Valorous MDT5 cape MDT10; main/sub/range/waist omitted. Unknown other random augments and Shell; no capped MDT claim.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "waist"
+      ],
+      "occupied_slot_count": 12,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "0f852b12a23246a608e975f2361c7c5656f78d8485e33acd6365a799844d700c"
+    },
+    {
+      "index": 25,
+      "title": "365419 Enmity",
+      "url": "https://www.ffxiah.com/item-sets/365419",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Sapience Orb",
+        "head": "Loess Barbuta +1",
+        "neck": "Unmoving Collar +1",
+        "ear1": "Trux Earring",
+        "ear2": "Cryptic Earring",
+        "body": "Emet Harness +1",
+        "hands": "Kurys Gloves",
+        "ring1": "Eihwaz Ring",
+        "ring2": "Supershear Ring",
+        "back": "Smertrios's Mantle",
+        "waist": "Trance Belt",
+        "legs": "Valorous Hose",
+        "feet": "Valorous Greaves"
+      },
+      "notes": "Title Valorous ENM8 cape ENM10. Main/sub/range omitted; random augment parts and casting/HP/access not established. Research lead only; not SAM damage or universal tank set.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "655b4520a12062902fe8fc9500a1e5409b4f85843c45be834ca9a049d91f5613"
+    },
+    {
+      "index": 26,
+      "title": "403330 SAM2026",
+      "url": "https://www.ffxiah.com/item-sets/403330",
+      "grid": {
+        "main": "Masamune",
+        "sub": "Telopanos Grip",
+        "range": null,
+        "ammo": "Aurgelmir Orb +1",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Dedition Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": "Tatena. Gote +1",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Chirich Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Ryuo Sune-Ate +1"
+      },
+      "notes": "September2026 forum context COR/BRD; source selected Masamune DMG97 skill21 (19406), not21956. Forum reports R15 comparisons; no test/cap conclusion adopted. Cape/Ryuo/Tatenashi augment details absent.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "1da046be643b38199cba21dbc3acf8ec4c40e66714334e3b979d72cc2a97d412"
+    },
+    {
+      "index": 27,
+      "title": "Ironguy Leg Sweep 2026-09-10 12:57",
+      "url": "https://www.ffxiah.com/forum/topic/41903/bushido-the-way-of-the-samurai-a-guide-v-20/179/",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Pemphredo Tathlum",
+        "head": "Mpaca's Cap",
+        "neck": "Null Loop",
+        "ear1": "Moonshade Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": "Kasuga Kote +3",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Ephramad's Ring",
+        "back": "Null Shawl",
+        "waist": "Null Belt",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Kasuga Sune-ate +3"
+      },
+      "notes": "Literal spellings retained. Utility accuracy/macc, not damage. Weapons and augments omitted.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "d193b675722b30666e8abebbcc99c81e58ed985dcb54a297024c5da4d0982797"
+    },
+    {
+      "index": 28,
+      "title": "Reidden Ageha 2026-09-10 13:49",
+      "url": "https://www.ffxiah.com/forum/topic/41903/bushido-the-way-of-the-samurai-a-guide-v-20/179/",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Pemphredo Tathlum",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Null Loop",
+        "ear1": "Hoxne Earring",
+        "ear2": "Kasuga Earring +2",
+        "body": "Kasuga Domaru +3",
+        "hands": "Kasuga Kote +3",
+        "ring1": "Murky Ring",
+        "ring2": "Stikini Ring +1",
+        "back": "Null Shawl",
+        "waist": "Null Belt",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Kasuga Sune-Ate +3"
+      },
+      "notes": "Original rightear normalized only in structured slot map. Mastery Rank Hoxne and pet-only Murky macc not interpreted as fixed master macc. Nexus substitutes Dignitary/second Stikini.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "representation": "Manual structured transcription of rendered Chrome grid and visible notes; not raw HTML. Null is source omission/placeholder, never intentional empty.",
+      "observation_sha256": "c087fec5baa2e345fafff4a229fe89f5a47f086c7d95c9f8355452823630de8a"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/125",
+      "title": "Reiden node125",
+      "notes": "Footer September24 2020; TP/Fudo/Shoha March4 2019, Rana/bow June21 2016. Unity maximum/2100JP assumed. Embedded grids have since changed independently. Historical claims not certified.",
+      "observation_sha256": "f73a26412f64d5e03cf9125929c0545abb9cceb8b2cddcaee322e46e5d441fd2"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Samurai_Guide&oldid=748054",
+      "title": "Community Samurai Guide748054",
+      "notes": "Footer October8 2025; October updates explicitly leave WS/TP/hybrid/DT/utility WIP; JSE updated. Source tiers/accuracy totals are observations only. Hasso and Seigan mutually exclusive; polearm alternative and WS skill/access remain context-dependent.",
+      "observation_sha256": "ad0af278a364cc76b15a1da8c5f13619da519bae7575be8eb5614e3c8ab139a9"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/41903/bushido-the-way-of-the-samurai-a-guide-v-20/179/",
+      "title": "2026 forum boundaries",
+      "notes": "Dodik abandoned Ampulla experiment July19; no test result. September10 Leg Sweep/Aghea utility advice distinct from damage. September26-27 Telopanos/Utu debate depends on attack/PDL/buffs; no universally superior grip established.",
+      "observation_sha256": "43a9d5ba7189975c85744facdb03baf8f5a70652d29d4b9f5809bbe5bf2811ab"
+    }
+  ],
+  "access": "BG reader403 and MDT reader failed; ordinary Chrome succeeded. Manual structured transcriptions/paraphrases, not raw HTML or full DOM captures."
+}

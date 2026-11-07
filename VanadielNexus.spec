@@ -10,14 +10,17 @@ a = Analysis(
     ['vanadiel_nexus/__main__.py'],
     pathex=['.'],
     binaries=[],
-    datas=[('vanadiel_nexus/resources', 'vanadiel_nexus/resources')],
+    datas=[(str(p), 'vanadiel_nexus/resources/' + str(p.parent.relative_to('vanadiel_nexus/resources')))
+           for p in Path('vanadiel_nexus/resources').rglob('*')
+           if p.is_file() and p.name not in {'world_map_data.json', 'Mote_Nexus_Hook.lua'}],
     # The Sets page runs GearSwap Lua in a spawned child: lupa's LuaJIT runtime and the child's entry module
     hiddenimports=['lupa.luajit21', 'vanadiel_nexus.core.gs_worker'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     # Not used by the app; keeps the exe smaller and startup faster
-    excludes=['tkinter', 'unittest', 'pydoc', 'PySide6.QtQml', 'PySide6.QtQuick', 'PySide6.QtPdf',
+    excludes=['vanadiel_nexus.core.world_map', 'vanadiel_nexus.core.world_map_export',
+              'vanadiel_nexus.ui.pages.world_map', 'tkinter', 'unittest', 'pydoc', 'PySide6.QtQml', 'PySide6.QtQuick', 'PySide6.QtPdf',
               'PySide6.QtOpenGL', 'PySide6.QtSql', 'PySide6.QtTest', 'PySide6.QtConcurrent', 'PySide6.QtDBus'],
     noarchive=False,
     optimize=0,

@@ -1,0 +1,2295 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27509,
+          "name": "Unmoving Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-hp-dt-meva"
+      ],
+      "context": {
+        "action": "Disengaged master defense; actual incoming damage type, current/maxHP, subjob maxMP (Odnowa/Tuisto conversions need actual MP) and automaton state checked",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 (Level 119 III, hand-to-hand) main with empty sub + exact Animator P +1 21457 in range: master idle/hybrid/maneuver role; the animator is required to Activate/command the automaton.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "Node 426 PUP - HP/DT/MEVA 352987 items and slots exactly (base Nyame, no path). Node leaves main empty; Nexus fixes pair H so idle does not drop the master weapon. Automat. Oil +3 in the node ammo slot is a consumable carried there, not an equipment stat: ammo deliberately empty. No DT cap inherited.",
+      "pair": "H"
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24270,
+          "name": "Null Masque",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27509,
+          "name": "Unmoving Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26969,
+          "name": "Vrikodara Jupon",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-refresh",
+        "node-hp-dt-meva"
+      ],
+      "context": {
+        "job": "PUP99/WHM49",
+        "action": "Disengaged PUP99/WHM49 (String Theory backline support job) with learned Cure/Curaga/Haste/Stoneskin, positive usable subjob maxMP and an actual MP deficit; actual recast and target in range",
+        "weapon_pair": "Exact Kenkonken20511 (Level 119 III, hand-to-hand) main with empty sub + exact Animator P +1 21457 in range: master idle/hybrid/maneuver role; the animator is required to Activate/command the automaton.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "Nexus useful-MP recovery on the HP/DT/MEVA base: Vrikodara Jupon \"Refresh\"+2 and two physical Stikini Ring +1 copies (node 426 PUP - Refresh 352949), Fucho-no-Obi latent \"Refresh\"+1 (latent condition actual) and Null Masque \"Refresh\"+1. Node Herculean Refresh+1-2 (Dark Matter random) and Condemners main not inherited. BG String Theory (rev689269) Idle (Refresh) grid corroborates Vrikodara/two Stikini/Fucho-no-Obi but pairs them with Denouements, whose Refresh+4 is Automaton-labeled: not counted for the master. No refresh total certified.",
+      "pair": "H"
+    },
+    {
+      "key": "automaton-refresh-idle",
+      "target": "Automaton Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20516,
+          "name": "Denouements",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21459,
+          "name": "Animator P II +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23415,
+          "name": "Pitre Taj +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27509,
+          "name": "Unmoving Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28642,
+          "name": "Contriver's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-refresh",
+        "node-hp-dt-meva"
+      ],
+      "context": {
+        "action": "Disengaged or standing back with an actual mage automaton (actual Spiritreaver/Stormwaker/Soulsoother head and frame, actual maxMP and spell use) below max MP; actual Mana Tank/Dark Maneuver state",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Denouements20516 (hand-to-hand; Automaton \"Regen\"+4 \"Refresh\"+4) main with empty sub + exact Animator P II +1 21459: mage-automaton MP recovery (node 426 Pet Refresh).",
+        "recipient": "master and automaton (separate lines; never summed across recipients)",
+        "automaton": "Mage automaton with actual head/frame/attachments; Automaton: refresh lines apply to the automaton only."
+      },
+      "rationale": "Node 426 PUP - Pet Refresh 378366: Denouements (Automaton \"Regen\"+4 \"Refresh\"+4), Pitre Taj +3 (Automaton \"Regen\"+5 \"Refresh\"+5) and Contriver's Cape (Automaton adds \"Regen\" and \"Refresh\"); the node leaves other slots empty, Nexus fills them with the master HP/DT/MEVA base. Automaton recovery only; master MP not claimed. Range Animator P II +1 per node pet casting sets.",
+      "pair": "D"
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24167,
+          "name": "Duty Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26116,
+          "name": "Schere Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 24170,
+          "name": "Duty Cyclas",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10",
+              "DEX+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-kenkonken-25dt",
+        "node-tp-kenkonken"
+      ],
+      "context": {
+        "action": "Engaged master melee with Kenkonken Mythic aftermath (incl. automaton) actual; haste, target and automaton state checked; master TP is the priority",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 main with empty sub + exact Neo Animator 21433 in range (BG All Jobs grids lock Neo Animator; master Accuracy+10/WSD+5%, automaton Lv.119 DMG+10): master engaged/WS role.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "BG All Jobs Gear Sets/Puppetmaster (rev772450) \"Mythic AM3 TP set\" -25% DT grid exactly, Neo Animator locked; BG back annotation \"DEX, Store TP\" has no magnitudes, so the literal DEX/Acc-Atk/STP/DEX/PDT copy comes from node 426 TP (AM3) cape notes. Base Duty (source assumes Odyssey Rank 30; no rank inherited).",
+      "pair": "M"
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24167,
+          "name": "Duty Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 24170,
+          "name": "Duty Cyclas",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23571,
+          "name": "Karagoz Guanti +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10",
+              "DEX+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-kenkonken-50dt"
+      ],
+      "context": {
+        "action": "Engaged master mitigation alternative; actual incoming damage type, current/maxHP and haste checked",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 main with empty sub + exact Neo Animator 21433 in range (BG All Jobs grids lock Neo Animator; master Accuracy+10/WSD+5%, automaton Lv.119 DMG+10): master engaged/WS role.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "BG -50% DT Kenkonken grid: Alabaster Earring and Karagoz Guanti +3 on the balanced base, same literal cape. No DT cap or survival promise.",
+      "pair": "M"
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25521,
+          "name": "Pup. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26081,
+          "name": "Mache Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-kenkonken-25dt",
+        "node-dt-meva-tp",
+        "node-am3-sb"
+      ],
+      "context": {
+        "action": "Engaged master accuracy alternative; actual target evasion/hit rate unknown",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 main with empty sub + exact Neo Animator 21433 in range (BG All Jobs grids lock Neo Animator; master Accuracy+10/WSD+5%, automaton Lv.119 DMG+10): master engaged/WS role.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "Nexus accuracy alternative: Malignance set (node 426 DT/MEVA TP 378371), Pup. Collar +2 master Accuracy+30, Mache Earring +1 and Crep. Earring instead of Dedition (Accuracy-10), two physical Chirich Ring +1 copies (node AM3 SB), base Null Shawl and Klouskap Sash +1. Not capped accuracy; automaton lines on Pup. Collar/Klouskap not added to master.",
+      "pair": "M"
+    },
+    {
+      "key": "hybrid-engaged",
+      "target": "Hybrid Engaged",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25564,
+          "name": "Heyoka Cap +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23571,
+          "name": "Karagoz Guanti +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25904,
+          "name": "Heyoka Subligar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-dual-tp",
+        "node-dual-tp-godhands"
+      ],
+      "context": {
+        "action": "Master and actual melee automaton both engaged on the same target; actual master and automaton haste, Kenkonken aftermath (incl. automaton) and automaton HP checked",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 (Level 119 III, hand-to-hand) main with empty sub + exact Animator P +1 21457 in range: master idle/hybrid/maneuver role; the animator is required to Activate/command the automaton.",
+        "recipient": "master and automaton (separate lines; never summed across recipients)",
+        "automaton": "Actual melee automaton (frame/head/attachments actual) engaged; master and automaton lines separate."
+      },
+      "rationale": "Node 426 PUP - Dual TP 353038 items exactly. Kara. Earring +2 prints \"Right ear:\" so it is placed in ear2 (node puts it in ear1); Crep. Earring ear1. Pet cape augment (Pet: Acc/Atk/Haste/PDT) not inherited: base Visucius's Mantle. Heyoka Cap/Subligar haste lines are generic Pet:-labeled; node claims automaton haste, Nexus does not certify a pet haste cap.",
+      "pair": "H"
+    },
+    {
+      "key": "maneuver",
+      "target": "Maneuver",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25564,
+          "name": "Heyoka Cap +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 16282,
+          "name": "Bfn. Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27530,
+          "name": "Burana Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23504,
+          "name": "Kara. Farsetto +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23526,
+          "name": "Foire Dastanas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25904,
+          "name": "Heyoka Subligar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-maneuvers",
+        "bg-maneuver"
+      ],
+      "context": {
+        "action": "Maneuver job ability use: overload-threshold and \"Maneuver\" effect gear worn when the maneuver is used, then the previous set; actual burden per element, master vs automaton stat, Overdrive and Kenkonken effects actual",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 (Level 119 III, hand-to-hand) main with empty sub + exact Animator P +1 21457 in range: master idle/hybrid/maneuver role; the animator is required to Activate/command the automaton.",
+        "recipient": "master action (maneuver/burden) then automaton",
+        "automaton": "Actual maneuver element and automaton attachments; maneuver stat boost goes to the automaton."
+      },
+      "rationale": "Node 426 PUP - Maneuvers 378255 pieces (Bfn. Collar +1, Burana Earring, Kara. Farsetto +3, Foire Dastanas +3, Visucius) on the hybrid pair-H base so the weapon/animator are unchanged. BG Maneuver (rev675700): burden degrees depend on master vs automaton stats; threshold gear (Buffoon's Collar +5, Foire Dastanas +5, Karagoz Farsetto +40, Burana +1, Visucius +10) and Kenkonken degrees/3. No overload probability certified.",
+      "pair": "H"
+    },
+    {
+      "key": "pet-engaged-melee",
+      "target": "Pet Engaged Melee",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20535,
+          "name": "Ohtas",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25564,
+          "name": "Heyoka Cap +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28495,
+          "name": "Rimeice Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23482,
+          "name": "Pitre Tobe +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23571,
+          "name": "Karagoz Guanti +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25904,
+          "name": "Heyoka Subligar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-tp",
+        "node-pet-tp-nothur"
+      ],
+      "context": {
+        "action": "Pet-only melee: actual melee automaton deployed while the master stands back and is not building TP; actual automaton HP/TP/haste and target",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Ohtas20535 (hand-to-hand; Automaton \"Refresh\"+1 \"Regain\"+10) main with empty sub + exact Animator P +1 21457: pet-only melee role (node 426 Pet TP).",
+        "recipient": "automaton (Automaton:-labeled lines; generic Pet:-labeled lines recorded separately as pet-labeled, automaton applicability is the source guide's claim, not Nexus-certified; master lines never added to the automaton)",
+        "automaton": "Actual melee automaton (e.g. Valoredge frame; actual head/attachments); Ohtas Automaton \"Regain\" applies to the automaton only."
+      },
+      "rationale": "Node 426 PUP - Pet TP 368176 with Ohtas, Animator P +1, Shulmanu, Enmerkar, Rimeice, Pitre Tobe +3, C. Palug, Thur. Ring +1, Incarnation Sash and Mpaca's Boots. Taeon Chapeau/Gloves/Tights are only useful with random Pet Acc/DA/DT augments (base Taeon has no pet lines): Nexus substitutes Heyoka Cap +1, Karagoz Guanti +3 (Automaton STR/DEX/AGI/Accuracy) and Heyoka Subligar +1. Base Visucius (pet cape augment not inherited). No pet haste cap claim.",
+      "pair": "O"
+    },
+    {
+      "key": "pet-engaged-ranged",
+      "target": "Pet Engaged Ranged",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21526,
+          "name": "Xiucoatl",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21459,
+          "name": "Animator P II +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23415,
+          "name": "Pitre Taj +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23482,
+          "name": "Pitre Tobe +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23772,
+          "name": "Mpaca's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23638,
+          "name": "Kara. Pantaloni +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-ranged-tp"
+      ],
+      "context": {
+        "action": "Pet-only ranged: actual Sharpshot-frame automaton shooting from range while the master stands back; actual Companion's Roll/haste per node notes, not assumed",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Xiucoatl21526 (hand-to-hand; Automaton Accuracy/Ranged/Magic Accuracy+50) main with empty sub + exact Animator P II +1 21459 (long-distance animator): pet-only ranged role (node 426 Pet Ranged TP).",
+        "recipient": "automaton (Automaton:-labeled lines; generic Pet:-labeled lines recorded separately as pet-labeled, automaton applicability is the source guide's claim, not Nexus-certified; master lines never added to the automaton)",
+        "automaton": "Actual Sharpshot frame (ranged) with actual head/attachments."
+      },
+      "rationale": "Node 426 PUP - Pet Ranged TP 378252 items and slots exactly; only the pet cape augment is not inherited (base Visucius). Varar Ring +1 Avatar line ignored.",
+      "pair": "R"
+    },
+    {
+      "key": "overdrive-sharpshot",
+      "target": "Overdrive Sharpshot",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21526,
+          "name": "Xiucoatl",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23437,
+          "name": "Kara. Cappello +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28495,
+          "name": "Rimeice Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23772,
+          "name": "Mpaca's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25952,
+          "name": "Tali'ah Crackows +2",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-od-ss",
+        "automaton-actions"
+      ],
+      "context": {
+        "action": "Overdrive SP ability active (3:00, recast 1:00:00): actual Valoredge-head/Sharpshot-frame automaton per node notes; fulltimed for the duration; Bean Daifuku only if actually eaten",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Xiucoatl21526 main with empty sub + exact Animator P +1 21457: pet weapon skill and Overdrive (Sharpshot) role (node 426 Pet TP Bonus / OD).",
+        "recipient": "automaton (Automaton:-labeled lines; generic Pet:-labeled lines recorded separately as pet-labeled, automaton applicability is the source guide's claim, not Nexus-certified; master lines never added to the automaton)",
+        "automaton": "Overdrive active; actual Valoredge head + Sharpshot frame (node context), actual attachments."
+      },
+      "rationale": "Node 426 Nyame OD (SS) 382411 with base Nyame (Path D not inherited). Node requires a Dispersal Mantle \"TP Bonus+500\" augment that cannot be confirmed: Nexus uses base Visucius's Mantle (Automaton Lv.+1) instead. Kara. Earring +2 placed in ear2 for its \"Right ear:\" text. BG Overdrive (rev661623): automaton +25% magic haste, no overload while active. No haste cap certified.",
+      "pair": "W"
+    },
+    {
+      "key": "pet-durability",
+      "target": "Pet Durability",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20542,
+          "name": "Gnafron's Adargas",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23415,
+          "name": "Pitre Taj +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 16297,
+          "name": "Shepherd's Chain",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28491,
+          "name": "Handler's Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23459,
+          "name": "Foire Tobe +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23571,
+          "name": "Karagoz Guanti +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27552,
+          "name": "Overbearing Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28451,
+          "name": "Isa Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23593,
+          "name": "Foire Churidars +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-turtle-tank",
+        "node-turtle-tank-nothur"
+      ],
+      "context": {
+        "action": "Automaton tanking/sustain while the master stands back and is not building TP; actual automaton HP, damage type and enmity checked; raising maximum HP does not restore current HP",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Gnafron's Adargas20542 (hand-to-hand; Automaton: increases maximum HP and MP, skill effects) main with empty sub + exact Neo Animator 21433: automaton durability role (node 426 Turtle Tank).",
+        "recipient": "master and automaton (separate lines; never summed across recipients)",
+        "automaton": "Actual tank automaton (e.g. Valoredge frame; actual head/attachments and Strobe/Flashbulb use)."
+      },
+      "rationale": "Nexus durability composition on node 426 Turtle Tank 365470 weapon/animator (Gnafron's Adargas + Neo Animator) with its Shepherd's Chain, Enmerkar Earring, Thur. Ring +1, Overbearing Ring and Isa Belt. The node's Rao +1 Path C pieces carry their pet durability only in augments (base Rao has no pet lines): not borrowed. Nexus fills Pitre Taj +3 (Automaton \"Regen\"+5), Handler's Earring +1 (Pet PDT-4%), Foire Tobe +3 (Automaton HP+220 MP+220), Karagoz Guanti +3 and Mpaca's Boots (master DT), Foire Churidars +3 (Automaton DT-6%). No pet DT cap.",
+      "pair": "T"
+    },
+    {
+      "key": "pet-ws",
+      "target": "Pet Ws",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21526,
+          "name": "Xiucoatl",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21457,
+          "name": "Animator P +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23437,
+          "name": "Kara. Cappello +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27530,
+          "name": "Burana Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23772,
+          "name": "Mpaca's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27552,
+          "name": "Overbearing Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-tp-bonus-nyame"
+      ],
+      "context": {
+        "action": "Automaton weapon skill: the automaton chooses its own WS at >=1000 TP; GearSwap cannot intercept it, so the set is worn as automaton TP approaches 1000 (node notes) until the WS resolves",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Xiucoatl21526 main with empty sub + exact Animator P +1 21457: pet weapon skill and Overdrive (Sharpshot) role (node 426 Pet TP Bonus / OD).",
+        "recipient": "automaton (Automaton:-labeled lines; generic Pet:-labeled lines recorded separately as pet-labeled, automaton applicability is the source guide's claim, not Nexus-certified; master lines never added to the automaton)",
+        "automaton": "Actual WS depends on actual head/frame/attachments (node: Arcuballista/Daze Sharpshot, Bone Crusher Valoredge); none assumed."
+      },
+      "rationale": "Node 426 Pet TP Bonus (Nyame) 382410 with base Nyame: Kara. Cappello +3 Automaton \"TP Bonus\"+600, Burana Earring Automaton Attack+15, Overbearing Ring, Thur. Ring +1. Dispersal Mantle \"TP Bonus+500\" augment not confirmable: base Visucius instead. Kara. Earring +2 ear2.",
+      "pair": "W"
+    },
+    {
+      "key": "pet-magic",
+      "target": "Pet Magic",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21527,
+          "name": "Sakpata's Fists",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21459,
+          "name": "Animator P II +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23437,
+          "name": "Kara. Cappello +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25521,
+          "name": "Pup. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23504,
+          "name": "Kara. Farsetto +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23571,
+          "name": "Karagoz Guanti +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26210,
+          "name": "Tali'ah Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28432,
+          "name": "Ukko Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23638,
+          "name": "Kara. Pantaloni +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-macc"
+      ],
+      "context": {
+        "action": "Automaton spell casting (enfeebles/nukes) with an actual mage head; gear worn before the automaton begins casting (node notes it cannot be intercepted); target magic evasion actual",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Sakpata's Fists21527 (hand-to-hand; Automaton All Attr.+20, Accuracy/Ranged/Magic Accuracy+50) main with empty sub + exact Animator P II +1 21459: automaton magic role (node 426 Pet MACC).",
+        "recipient": "automaton (Automaton:-labeled lines; generic Pet:-labeled lines recorded separately as pet-labeled, automaton applicability is the source guide's claim, not Nexus-certified; master lines never added to the automaton)",
+        "automaton": "Actual mage head (Stormwaker/Spiritreaver/Soulsoother) and frame; spells and attachments actual."
+      },
+      "rationale": "Node 426 PUP - Pet MACC 378439 items exactly (Sakpata's Fists, Animator P II +1, Kara. Cappello/Farsetto/Pantaloni +3, Karagoz Guanti +3, Pup. Collar +2, Tali'ah Ring, C. Palug, Ukko Sash, Mpaca's Boots); Kara. Earring +2 moved to ear2 for \"Right ear:\", Enmerkar ear1; pet casting cape augment not inherited.",
+      "pair": "C"
+    },
+    {
+      "key": "stringing-pummel",
+      "target": "Stringing Pummel",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26116,
+          "name": "Schere Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23772,
+          "name": "Mpaca's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Crit.hit rate+10",
+              "STR+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23786,
+          "name": "Mpaca's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-stringing-pummel",
+        "bg-stringing-pummel"
+      ],
+      "context": {
+        "action": "Stringing Pummel: PUP main job, exact Kenkonken main (lists the WS) or completed \"Unlocking a Myth (Puppetmaster)\"; >=1000 usable TP; TP-varying critical rate",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 main with empty sub + exact Neo Animator 21433 in range (BG All Jobs grids lock Neo Animator; master Accuracy+10/WSD+5%, automaton Lv.119 DMG+10): master engaged/WS role.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "Node 426 PUP - Stringing Pummel 371667 items (Kenkonken stage there is the level-75 ID 18988; Nexus exact 20511) with the literal STR/Acc-Atk/Crit/STR/PDT copy from node cape notes; Kara. Earring +2 ear2. BG grids (Hoxne Earring Mastery-rank dependent, Ryuo Path A/D) kept as source options. No crit-rate total.",
+      "pair": "M"
+    },
+    {
+      "key": "asuran-fists",
+      "target": "Asuran Fists",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20511,
+          "name": "Kenkonken",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21433,
+          "name": "Neo Animator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23437,
+          "name": "Kara. Cappello +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26116,
+          "name": "Schere Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25524,
+          "name": "Kara. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26221,
+          "name": "Sroda Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26263,
+          "name": "Visucius's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Weapon skill damage +10%",
+              "STR+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-asuran-nyame",
+        "bg-asuran-fists"
+      ],
+      "context": {
+        "action": "Asuran Fists: PUP main job with skill 250 and completed \"The Walls of Your Mind\" (Kenkonken does not grant it; Karambit/Kaja Knuckles would); >=1000 usable TP",
+        "job": "PUP99 (actual subjob; usable support traits only; no dual wield for hand-to-hand)",
+        "weapon_pair": "Exact Kenkonken20511 main with empty sub + exact Neo Animator 21433 in range (BG All Jobs grids lock Neo Animator; master Accuracy+10/WSD+5%, automaton Lv.119 DMG+10): master engaged/WS role.",
+        "recipient": "master (master-worn lines only; Automaton:/Pet:-labeled lines are never added to master totals)",
+        "automaton": "Automaton deployed or not; actual head/frame/attachments irrelevant to master totals."
+      },
+      "rationale": "Node 426 Asuran Fists (Nyame) 382413 items with base Nyame (Path B not inherited) and the literal STR/Acc-Atk/WSD/STR/PDT copy; source weapon Karambit (+50% Asuran Fists) not transferred: fixed Kenkonken main keeps master TP. Kara. Earring +2 ear2.",
+      "pair": "M"
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:refresh-idle",
+          "nexus:pup:automaton-refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Master engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Master engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Master engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Master engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Master engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Master engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Hybrid engaged",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Hybrid engaged",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:hybrid-engaged"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Pet engaged",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Pet engaged",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:pet-engaged-melee",
+          "nexus:pup:pet-engaged-ranged",
+          "nexus:pup:overdrive-sharpshot"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Pet durability",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Pet durability",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:pet-durability"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "Pet actions",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "Pet actions",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:pet-ws",
+          "nexus:pup:pet-magic",
+          "nexus:pup:maneuver"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PUP",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PUP",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "16 bounded compositions on fixed hand-to-hand/animator pairs (Kenkonken with Animator P +1 or Neo Animator for master/hybrid; Ohtas, Xiucoatl, Gnafron's Adargas, Sakpata's Fists, Denouements with automaton-role animators); master/automaton/pet-labeled recipients, maneuver and automaton-action timing, WS access and useful MP explicit. Not complete job/weapon/head/frame/attachment/automaton-WS/Overdrive/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-PUP.md; FFXIAH node 426 (last modified 2022-11-26) and 21 recorded slot-grid item sets of 71 fetched, rendered BG All Jobs Gear Sets/Puppetmaster 772450 (6 grids), BG String Theory 689269, 22 mechanics/weapon pages, 26 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:pup:stringing-pummel",
+          "nexus:pup:asuran-fists"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Complete PUP progression, all haste/attack/accuracy/encounter/subjob brackets and every master weapon (Godhands/Verethragna/Varga Purnikawa/Karambit/Xiucoatl master TP, Condemners, Nibiru Sainti, Pitre Fists, Kaja Knife/Tauret dagger contexts)",
+    "Master WS Howling Fist, Shijin Spiral, Raging Fists, Victory Smite, Dragon Blow, Maru Kala, Evisceration, Aeolian Edge, Shoulder Tackle and PDL swaps (DA-resin cape string unconfirmed)",
+    "Automaton heads/frames/attachments and their specific WS (Bone Crusher, Arcuballista/Daze variants), Valoredge Overdrive, Bruiser/Dual Tankmaton/Pet Enmity (Strobe/Flashbulb), pet curing/nuking/idle-precast, Repair, Cooldown, Deus Ex Automata, Role Reversal, Ventriloquy, Tactical Switch, master enmity/fast cast/cure/waltz/stoneskin/phalanx, MDT/kiting/regen idle",
+    "Taeon/Herculean/Rao path/Odyssey/Nyame path/pet-cape/Dispersal TP Bonus augments, numeric caps (pet haste), overload probability, automaton damage/TP floors, HP/MP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initial pass (DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived."
+}

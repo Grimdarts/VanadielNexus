@@ -1,0 +1,2105 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23756,
+          "name": "Gleti's Mask",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23770,
+          "name": "Gleti's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 13658,
+          "name": "Shadow Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23777,
+          "name": "Gleti's Breeches",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23784,
+          "name": "Gleti's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bst-pdt",
+        "killer-dt"
+      ],
+      "context": {
+        "action": "Disengaged master defense; actual incoming damage type, current/maxHP, pet presence and pet HP checked",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "Node 227 BST PDT Gleti grid with Killer DT Defending/Gelatinous rings and Crepuscular Pebble; Nexus fixed master weapon pair. No Odnowa rank, killer-effect total or DT cap inherited.",
+      "pair": "A"
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26488,
+          "name": "Diamond Aspis",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24270,
+          "name": "Null Masque",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23770,
+          "name": "Gleti's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 13658,
+          "name": "Shadow Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28437,
+          "name": "Flume Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23777,
+          "name": "Gleti's Breeches",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23784,
+          "name": "Gleti's Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "idle-refresh",
+        "bst-pdt"
+      ],
+      "context": {
+        "job": "BST99/WHM49",
+        "action": "Disengaged BST99/WHM49 with learned Cure spells, positive usable subjob maxMP and actual MP deficit; actual recast, target in range",
+        "weapon_pair": "Exact Spalirisos21730 main + exact Diamond Aspis26488 shield (size 2); /WHM49 has no Dual Wield.",
+        "recipient": "master"
+      },
+      "rationale": "Nexus useful-MP recovery: Null Masque Refresh+1 and two physical Stikini Ring +1 copies on the Gleti DT base. BST main has no native MP; the MP pool and its use come only from the declared /WHM49. Sibyl Scarf requires Windurst citizenship and Valorous Refresh+2 is a random augment: neither selected. No refresh total certified.",
+      "pair": "S"
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24167,
+          "name": "Duty Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26029,
+          "name": "Anu Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 24170,
+          "name": "Duty Cyclas",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24173,
+          "name": "Duty Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-25dt",
+        "node-tp-ma"
+      ],
+      "context": {
+        "action": "Engaged master melee with actual /DNC49 DW II, haste and pet state checked; pet may or may not be engaged",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "BG All Jobs \"Spalirisos + Ikenga TP\" -25% DT grid (rev772439), identical to node 227 BST TP MA 381576: base Duty set only (source assumes Odyssey Rank 30; no rank inherited). Source Spalirisos is Level 119 II; Nexus fixes exact Level 119 III per node 227.",
+      "pair": "A"
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24167,
+          "name": "Duty Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26029,
+          "name": "Anu Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 24170,
+          "name": "Duty Cyclas",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24173,
+          "name": "Duty Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26234,
+          "name": "Murky Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Store TP\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28440,
+          "name": "Windbuffet Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-50dt"
+      ],
+      "context": {
+        "action": "Engaged master mitigation alternative; actual incoming damage type, current/maxHP and DW/haste checked",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "BG -50% DT grid: Alabaster Earring, Murky Ring, Windbuffet Belt +1 and a literal DEX/Acc-Atk/Acc/STP/PDT Artio's copy (node 227 cape note). No DT cap or survival promise.",
+      "pair": "A"
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24167,
+          "name": "Duty Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25467,
+          "name": "Bst. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 24170,
+          "name": "Duty Cyclas",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24173,
+          "name": "Duty Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "bg-tp-25dt",
+        "node-aymur-am3",
+        "node-tp-malignance"
+      ],
+      "context": {
+        "action": "Engaged master accuracy alternative; actual target evasion/hit rate unknown, actual DW/haste checked",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "Nexus accuracy alternative on the BG balanced base: Bst. Collar +2 (base, no rank), Crep. Earring instead of Dedition (Accuracy-10), two physical Chirich Ring +1 copies (node 227 AM3 grids) and Klouskap Sash +1. Not capped accuracy.",
+      "pair": "A"
+    },
+    {
+      "key": "blitz",
+      "target": "Blitz",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23926,
+          "name": "Ankusa Helm +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25467,
+          "name": "Bst. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23495,
+          "name": "Nukumi Gausape +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23993,
+          "name": "Tot. Gloves +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26221,
+          "name": "Sroda Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23696,
+          "name": "Nukumi Ocreae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-blitz",
+        "bg-blitz"
+      ],
+      "context": {
+        "action": "Blitz granted by exact Spalirisos (Level 119 II or higher; 21730 is III) in main hand; >=1000 usable TP and eligible enemy",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "Node 227 BST Blitz 391446 item list exactly (Ankusa Helm +4, Nukumi Gausape +3, Tot. Gloves +4, Nukumi Ocreae +3); Nukumi Earring +2 in the right ear its card requires; Moonshade Atk+4/TP Bonus+250 and STR/WSD Artio's literal copies. Nyame path and Sailfi rank not inherited. Prime aftermath not modeled.",
+      "pair": "A"
+    },
+    {
+      "key": "rampage",
+      "target": "Rampage",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25602,
+          "name": "Blistering Sallet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23770,
+          "name": "Gleti's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26221,
+          "name": "Sroda Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Crit.hit rate+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23777,
+          "name": "Gleti's Breeches",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23696,
+          "name": "Nukumi Ocreae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-rampage",
+        "bg-rampage"
+      ],
+      "context": {
+        "action": "Rampage native axe WS (BST55); >=1000 usable TP; TP-varying critical rate",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "Node 227 BST Rampage 333283 item list with literal STR/Acc-Atk/STR/Crit Artio's and Moonshade copies. BG Rampage grid (Lustratio Path D, Duty) not selected. No crit-rate total.",
+      "pair": "A"
+    },
+    {
+      "key": "mistral-axe",
+      "target": "Mistral Axe",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21723,
+          "name": "Ikenga's Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23926,
+          "name": "Ankusa Helm +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25467,
+          "name": "Bst. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23495,
+          "name": "Nukumi Gausape +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23993,
+          "name": "Tot. Gloves +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26221,
+          "name": "Sroda Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23696,
+          "name": "Nukumi Ocreae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-mistral",
+        "bg-mistral"
+      ],
+      "context": {
+        "action": "Mistral Axe requires BST (or WAR) main job; >=1000 usable TP; ranged-capable from 15 yalms",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 (Level 119 III) main + exact Ikenga's Axe21723 sub; dual wield from actual /DNC49 (DW II) or /NIN49 (DW III).",
+        "recipient": "master"
+      },
+      "rationale": "Node 227 BST Mistral Axe 347567 lists the same items as its Blitz set, so the Nexus composition is slot-identical to blitz; the distinct action context (main-job access, range) is the reason for a separate target. BG Tri-edge weapon context not transferred.",
+      "pair": "A"
+    },
+    {
+      "key": "ready-physical",
+      "target": "Ready Physical",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20793,
+          "name": "Aymur",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21430,
+          "name": "Hesperiidae",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25610,
+          "name": "Emicho Coronet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23562,
+          "name": "Nukumi Manoplas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26230,
+          "name": "Fickblix's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-ready-low",
+        "node-ready-high"
+      ],
+      "context": {
+        "action": "Physical Ready move issued with actual jug pet present, charges available and target in range; gear worn until the move resolves",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Aymur20793 (Level 119 II) main for its main-hand Mythic pet TP bonus/\"Sic\" and \"Ready\" enhancement + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "pet (master-worn pet lines only; master stats not added to pet)"
+      },
+      "rationale": "Node 227 Ready Low Acc 337061 accessories with base Emicho Coronet +1 (Path C not inherited), base Nyame (Path D not inherited) and base Artio's (Pet:Attack augment not inherited). Exact Aymur main supplies its main-hand pet TP bonus per BG Ready. Ready move fTP/TP scaling not certified.",
+      "pair": "B"
+    },
+    {
+      "key": "ready-multihit",
+      "target": "Ready Multihit",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20793,
+          "name": "Aymur",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21430,
+          "name": "Hesperiidae",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25610,
+          "name": "Emicho Coronet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25467,
+          "name": "Bst. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23562,
+          "name": "Nukumi Manoplas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26230,
+          "name": "Fickblix's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24176,
+          "name": "Duty Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-ready-multihit"
+      ],
+      "context": {
+        "action": "Multi-hit physical Ready move (node lists Sweeping Gouge, Tickling Tendrils, Chomp Rush, Pentapeck, Wing Slap, Pecking Flurry) with actual pet/charges",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Aymur20793 (Level 119 II) main for its main-hand Mythic pet TP bonus/\"Sic\" and \"Ready\" enhancement + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "pet"
+      },
+      "rationale": "Node 227 Multihit Ready 342233: Bst. Collar +2, C. Palug Ring, Duty Flanchard swaps on the physical base. Source Aymur Level 119 III (21751) and Valorous Pet:DA augments not transferred; exact Aymur 20793 kept.",
+      "pair": "B"
+    },
+    {
+      "key": "ready-magical",
+      "target": "Ready Magical",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20793,
+          "name": "Aymur",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21430,
+          "name": "Hesperiidae",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26028,
+          "name": "Adad Amulet",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27527,
+          "name": "Hija Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25788,
+          "name": "Udug Jacket",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23562,
+          "name": "Nukumi Manoplas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28473,
+          "name": "C. Palug Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26230,
+          "name": "Fickblix's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 27595,
+          "name": "Argocham. Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-ready-magic"
+      ],
+      "context": {
+        "action": "Magical Ready move with actual pet/charges; target magic evasion and move element/TP behavior actual",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Aymur20793 (Level 119 II) main for its main-hand Mythic pet TP bonus/\"Sic\" and \"Ready\" enhancement + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "pet"
+      },
+      "rationale": "Node 227 Magic Ready 333993 accessories (Adad Amulet, Hija Earring, Udug Jacket, Argocham. Mantle, C. Palug, Fickblix, Nukumi Manoplas +3, Hesperiidae). Augmented Kumbhakarna pair and Taupe-stone Valorous are not invented: Nexus pair B and base Nyame head/legs/feet fill.",
+      "pair": "B"
+    },
+    {
+      "key": "pet-accuracy",
+      "target": "Pet Accuracy",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21730,
+          "name": "Spalirisos",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21430,
+          "name": "Hesperiidae",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25467,
+          "name": "Bst. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26230,
+          "name": "Fickblix's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-ready-max",
+        "node-pet-macc"
+      ],
+      "context": {
+        "action": "Pet accuracy/magic accuracy priority for Ready moves or pet enfeebles; actual target evasion/magic evasion unknown",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Spalirisos21730 main (Ultimate pet accuracy/Lv lines main-hand only) + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "pet"
+      },
+      "rationale": "Node 227 Ready Max Acc 337064 items exactly (Spalirisos and Telopanos both listed without hands). Nexus decision: Spalirisos main because Ultimate job bonuses and Telopanos pet lines are both main-hand only (BG Dual Wield, Telopanos card); base Artio's, Nyame Path D not inherited.",
+      "pair": "C"
+    },
+    {
+      "key": "pet-durability",
+      "target": "Pet Durability",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20793,
+          "name": "Aymur",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 16297,
+          "name": "Shepherd's Chain",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28491,
+          "name": "Handler's Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28451,
+          "name": "Isa Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-pet-dt",
+        "node-pet-pdt"
+      ],
+      "context": {
+        "action": "Pet tanking/sustain while pet is engaged and master is not building TP; actual pet HP, damage type and pet presence checked",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Aymur20793 (Level 119 II) main for its main-hand Mythic pet TP bonus/\"Sic\" and \"Ready\" enhancement + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "pet and master (separate lines)"
+      },
+      "rationale": "Node 227 Pet DT 335128/Pet PDT 320353 accessories (Shepherd's Chain, Enmerkar, Handler's +1, Thur. Ring +1, Isa Belt, Nyame). Pangu/Izizoeksi pet-DT weapons, Artio's Pet:DT augment and Nyame Path D are not borrowed; Crepuscular Pebble and Defending Ring are Nexus master-DT fills. No pet DT cap or total.",
+      "pair": "B"
+    },
+    {
+      "key": "ready-precast",
+      "target": "Ready Precast",
+      "purpose": "Pet",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20793,
+          "name": "Aymur",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21738,
+          "name": "Telopanos Axe",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21430,
+          "name": "Hesperiidae",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25610,
+          "name": "Emicho Coronet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26026,
+          "name": "Shulmanu Collar",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25470,
+          "name": "Nukumi Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23562,
+          "name": "Nukumi Manoplas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26201,
+          "name": "Thur. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26230,
+          "name": "Fickblix's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26254,
+          "name": "Artio's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23777,
+          "name": "Gleti's Breeches",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24179,
+          "name": "Duty Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-sic-ready",
+        "bg-ready"
+      ],
+      "context": {
+        "action": "Ready command activation: recast reduction worn when Ready is used, then the move-specific pet set until resolution; actual charges",
+        "job": "BST99/DNC49",
+        "weapon_pair": "Exact Aymur20793 (Level 119 II) main for its main-hand Mythic pet TP bonus/\"Sic\" and \"Ready\" enhancement + exact Telopanos Axe21738 sub (its \"Main hand:\" pet lines inactive off-hand); dual wield from actual /DNC49 or /NIN49.",
+        "recipient": "master action (recast) then pet"
+      },
+      "rationale": "Gleti's Breeches \"Sic\"/\"Ready\" ability delay -5 (BG Ready/Sic, node 227 Sic & Ready 281814) on the physical base. Charmer's Merlin/Desultor Tassets not selected; Job Point gift and merit recast values actual. No minimum recast reached claim.",
+      "pair": "B"
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:blitz",
+          "nexus:bst:rampage",
+          "nexus:bst:mistral-axe"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Pet physical",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Pet physical",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:ready-physical",
+          "nexus:bst:ready-multihit"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Pet magical",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Pet magical",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:ready-magical"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Pet accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Pet accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:pet-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Pet durability",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Pet durability",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:pet-durability"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "BST",
+        "priority": "Ready precast",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BST",
+        "priority": "Ready precast",
+        "status": "included",
+        "reviewed": true,
+        "context": "14 bounded compositions on three fixed weapon pairs (Spalirisos/Ikenga master, Aymur/Telopanos pet, Spalirisos/Telopanos pet accuracy) plus Spalirisos/Diamond Aspis for /WHM refresh; master/pet recipients, Ready timing, WS access and useful MP explicit. Not complete job/weapon/pet/jug/Ready-move/tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-BST.md; FFXIAH node 227 (last modified 2026-06-25) and 21 linked item sets, rendered BG All Jobs Gear Sets/Beastmaster 772439 (5 grids), Ready/Sic/Dual Wield/Telopanos/Aymur/Spalirisos/Blitz/Rampage/Mistral Axe/Diamond Aspis pages, 36 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:bst:ready-precast"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Complete BST progression, all haste/attack/accuracy/encounter/subjob brackets, single-weapon (Fencer) and two-handed /DRK or /SAM scythe/great axe contexts",
+    "Other weapons/stages (Spalirisos II/I, Aymur 119 III/119, Guttler, Farsha, Tri-edge, Dolichenus, Agwu, Pangu, Izizoeksi, Skullrender, Kumbhakarna, Agwu's, Fernagu) and Decimation/Onslaught/Calamity/Ruinator/Bora Axe/Primal Rend/Cloudsplitter/Cloudsplitter WS sets",
+    "Reward, Call Beast, Charm, Killer Instinct, Feral Howl, Spur/Run Wild/Unleash/Familiar, Metallic Body, Waltz, Cure-received, fast cast, MDT/Shell, regen/regain idle, pet TP (Skullrender) and individual Ready-move/jug variants",
+    "Pet-cape and Odyssey/Valorous/Kumbhakarna augments, numeric caps, pet damage/TP/recast floors, HP/MP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initial passes (PUP, DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived."
+}

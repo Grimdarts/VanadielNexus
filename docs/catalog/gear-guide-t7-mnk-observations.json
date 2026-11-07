@@ -1,0 +1,469 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "idle",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Warder's Charm +1"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Tuisto Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "notes": "Source calls this incapacitated idle, distinct from Regen/DT/Regain grid. Missing hands are omissions."
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "b315d6c5641461d931ab9e1048342f45b09b2f1dde210015fee4f3bfb09ce471"
+    },
+    {
+      "key": "established",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [
+          "Godhands"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Bhikku Crown +3"
+        ],
+        "neck": [
+          "Mnk. Nodowa +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Schere Earring"
+        ],
+        "body": [
+          "Mpaca's Doublet"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Gere Ring"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Bhikku Hose +3"
+        ],
+        "feet": [
+          "Anch. Gaiters +4"
+        ]
+      },
+      "source_options": {
+        "notes": "Weapon chosen randomly per source; source claims SB50+25, not independently certified here. Schere/Mpaca augments not fixed in this grid.",
+        "back": "DEX20,Accuracy/Attack20,DEX10,DA10,PDT10"
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "7787067253b72d60d7dc3f3ba69d0107b083e05fc57ccdeb83e15a97bd7912bf"
+    },
+    {
+      "key": "dt",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Mnk. Nodowa +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "source_options": {
+        "back": "PDT; full cape recipe in preceding cape table"
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "bde6a53e10593bee5602dfcf1c12b6282b6a21a9a993f751344af0507844a644"
+    },
+    {
+      "key": "raging",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [
+          "Godhands"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Ken. Jinpachi +1"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Bhikku Gloves +3"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Mpaca's Hose"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "source_options": {
+        "body": "Path B",
+        "legs": "Attack25 PDL7 Acc10 MAcc10; other nearby grid says Acc5",
+        "feet": "Random STR/TA/Accuracy/Attack unspecified",
+        "ear2": "TP Bonus250",
+        "back": "STR/Accuracy/Attack/DA"
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "aa95107201c313277bbadd85c548e1b2c1b0651c2e63fab97565f515ef5d422c"
+    },
+    {
+      "key": "tornado",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [
+          "Godhands"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Mpaca's Cap"
+        ],
+        "neck": [
+          "Mnk. Nodowa +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Tatena. Harama. +1"
+        ],
+        "hands": [
+          "Bhikku Gloves +3"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Mpaca's Hose"
+        ],
+        "feet": [
+          "Anch. Gaiters +4"
+        ]
+      },
+      "source_options": {
+        "legs": "Attack25 PDL7 Acc10 MAcc10",
+        "ear2": "TP Bonus250",
+        "back": "STR30,Accuracy/Attack20,DA10,PDT10",
+        "notes": "Two grids both labelled Footwork UP despite different ammo; do not silently relabel second DOWN."
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "724f869780c243289a89efc6627e8263d46301eab1e5117aa8dffa298282c23e"
+    },
+    {
+      "key": "chakra",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Null Masque"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [
+          "Handler's Earring +1"
+        ],
+        "ear2": [
+          "Tuisto Earring"
+        ],
+        "body": [
+          "Anch. Cyclas +4"
+        ],
+        "hands": [
+          "Hesy. Gloves +4"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Latria Sash"
+        ],
+        "legs": [
+          "Tatena. Haidate +1"
+        ],
+        "feet": [
+          "Bhikku Gaiters +3"
+        ]
+      },
+      "source_options": {
+        "legs": "Path A",
+        "feet": "Path A printed under Bhikku Gaiters +3; not transferred to Nexus",
+        "back": "VIT; magnitude absent from grid"
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "a636893bfaa86670e4077dd8dbf5c0872fa6296b7464824e7dab2586c1f527e0"
+    },
+    {
+      "key": "counterstance",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Bhikku Crown +3"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Mpaca's Doublet"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Segomo's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Anch. Hose +4"
+        ],
+        "feet": [
+          "Hesy. Gaiters +4"
+        ]
+      },
+      "source_options": {
+        "back": "DT",
+        "notes": "Do not treat sustained counter gear as proof of activation-only enhancement or ignore defense penalty."
+      },
+      "method": "Scoped manual rendered grid reading; source placeholders/options are distinct from Nexus deliberate empties and substitutions.",
+      "observation_sha256": "e817aabb23a2860a5d7a90b423ebfef5c541bb7f3f7bef85e23ddb95628a2c3f"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Monk_Guide&oldid=781551",
+      "title": "Community Monk Guide",
+      "locator": "Original and rendered permanent781551, footer30October2026 20:55; guide opinion and mixed equipment generations",
+      "findings": [
+        "No complete usefulMP recovery grid; no blanket MNK exemption.",
+        "Cape table explicitly separates20/10 stats; sourceWSSTRCrit versus STRDA and mixed FinalHeaven STR/VIT retained, not automatically reconciled.",
+        "Guide /DRG prose needs actual sublevel: no /DRG49 WSDtrait or SuperJump50 credited.",
+        "Impetus body sustained; Footwork activation enhancement distinct from sustained kick damage.",
+        "Source +4 names and unquantified augments are not evidence that a +3 copy inherits them. No source cap/currentBiS or universal attack/haste bracket certified."
+      ],
+      "observation_sha256": "8f3ccb8e99a0eeabc1dfcb828fc77f5c427aa6471eed1ef1c5c53b12f3abc52c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Impetus&oldid=752306",
+      "title": "Impetus",
+      "locator": "Original and rendered permanent notes/equipment",
+      "findings": [
+        "Consecutive landed attacks build effect; miss resets, WS/counter hits and misses count.",
+        "Bhikku Cyclas+3 worn for sustained enhanced effect, not only activation; no50hit/maxJP assumption."
+      ],
+      "observation_sha256": "e4102e169a29bd18af06298b16bc4ab192fae3a4c0d9bea01e0a1058a9c6b1c0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Footwork&oldid=752301",
+      "title": "Footwork",
+      "locator": "Original and rendered permanent notes/equipment",
+      "findings": [
+        "Active buff changes kick damage and Dragon/TornadoKick; current weapon matters.",
+        "BhikkuGaiters+3 enhances attack modifier at activation; AnchGaiters sustained kick gear separate. Actual recast/duration and JP unknown."
+      ],
+      "observation_sha256": "56eaa8dfe0220757c2559c8160330c1fdd313aa23e55777bf43cf915de0072f8"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Subtle_Blow&oldid=754702",
+      "title": "Subtle Blow",
+      "locator": "Original and rendered permanent trait/equipment/notes",
+      "findings": [
+        "SubtleBlowI and II distinct; nativeMNK99 trait versus gifts separate; no cap certificate.",
+        "InhibitTP/Penance and AGI separate terms; no enemyTP/safeTPmove guarantee."
+      ],
+      "observation_sha256": "16b2f28a89c945fa15078e6915c78856066f6ad00baa7b4331bbb41edcb17381"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Chakra&oldid=752299",
+      "title": "Chakra",
+      "locator": "Original and rendered permanent notes/equipment",
+      "findings": [
+        "Self activation, VIT and actual maxHP/currentHP, jobpoints and equipment matter.",
+        "Exact+3AFbody/relichands listed; guide+4 not silently substituted as source choice; no fullheal guaranteed."
+      ],
+      "observation_sha256": "63edd22043e92e69a13d04f9578359f5292780c88389dfe696157c949118d954"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Cure_III",
+      "title": "Cure III",
+      "locator": "Rendered original spell/joblevel table",
+      "findings": [
+        "WHM21 accessible with actual learned spell on MNK99/WHM49;46MP and targetrange/recast apply.",
+        "UsefulMP deficit and positive maxMP are required; no nativeMNK casting or subjobSolace credited."
+      ],
+      "observation_sha256": "e8bda81d98134a13310d756c62da90459a7ca7b607c778dbc1801084da35cfe0"
+    },
+    {
+      "url": "https://www.ffxiah.com/node/173",
+      "title": "Historical iiPunch",
+      "locator": "Original intro/JA sections and dated historical lead",
+      "findings": [
+        "Notice warns proposed/DAT-mined changes; oldBoost/Footwork/Chakra advice not used as current mechanics.",
+        "333679 remains unresolved historical observation; no rewrite or promotion."
+      ],
+      "observation_sha256": "bf74b8c877dcdd3389d03f1d9b56cef8080ed9ba381b756eaea6275c2cfcdb18"
+    }
+  ],
+  "access": "BGweb403 recovered in ordinaryChrome original and rendered781551;fourmechanics permanentlinks,CureIII and11exactcards read. Historicalnode173 read,not currentmechanics. NoLuaexecution."
+}

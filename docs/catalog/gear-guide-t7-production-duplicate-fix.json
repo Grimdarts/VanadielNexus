@@ -1,0 +1,291 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "status": "Narrow production data fix applied: 11 missing second copies added to 10 BST guide sets",
+  "authorization": "Jason, 2026-11-05 chat, answering 'Decision 1: fix the 10 sets that list one copy where you need two?': '1. Yes fix.' Scope: only these copy gaps in vanadiel_nexus/resources/gear_guides.json. No schema, code, commit, push, build or release.",
+  "reason": "v1 set_rows counts repeated item IDs as required copies (gear_guides.py set_rows/equipment_status), so a single record let one owned copy show complete when the source grid selects two.",
+  "file": "vanadiel_nexus/resources/gear_guides.json",
+  "prior_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "sha256": "b57b6bb34bc0e969140610fa623efe00fbaef3379c23ab00d9a29db7b6be4300",
+  "prior_bytes": 2894204,
+  "bytes": 2900403,
+  "serializer": "json.dumps(indent=2, ensure_ascii=False) + LF; verified to reproduce the prior bytes exactly before editing",
+  "method": "Each inserted record is a deep copy of the existing record for that item, placed immediately after it; slot labels stay generic (left_ring/right_ring, left_ear/right_ear, main/sub) as in every v1 record.",
+  "records": [
+    {
+      "set_id": "264975",
+      "label": "BST Idle Refresh - Updated January 31st, 2025. 7+MP/tic Refresh. Valorous Armor w/Refresh +2 (Dark Matter).",
+      "url": "https://www.ffxiah.com/item-sets/264975",
+      "prior_record_sha256": "3999de50a7ba23ad372af80cb90ccaba91d750fa0503fa228802a95701868c25",
+      "record_sha256": "2cab4c45fe7c9289140fcdae192ecbe36a880c0b2b5e8b300c2a07ccc6fbf982",
+      "evidence_observation_id": "bst:second-pass:slots:264975:2026-11-05",
+      "evidence_observation_sha256": "7890a20d8182c166e81d503339890446490c2481d778e416d358e953297c67c6",
+      "evidence_packet": "gear-guide-t7-bst-second-pass-slots.json",
+      "inserted_copies": [
+        {
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 2,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "302857",
+      "label": "BST Killer DT - Updated June 12th, 2025. PDT-50%, MDT-36%, Killer Effects+40 (with 5/5 Killer Effect merits and appropriate Killer Instinct pet).",
+      "url": "https://www.ffxiah.com/item-sets/302857",
+      "prior_record_sha256": "60a3ca9553186654e006290ffd043e5af450a9b8eb77c91ace718d9f7e5836c5",
+      "record_sha256": "5226d614c784bf8c0a776cb43f851f06866f8149dd4f4b6725a2b88bade97fbb",
+      "evidence_observation_id": "bst:second-pass:slots:302857:2026-11-05",
+      "evidence_observation_sha256": "8070e5e45036d4502529ff2d988d2fe47e17e1e34d0d6d84890d405832990262",
+      "evidence_packet": "gear-guide-t7-bst-second-pass-slots.json",
+      "inserted_copies": [
+        {
+          "item_id": 14747,
+          "name": "Bird Earring",
+          "slot_label": "left_ear/right_ear",
+          "inserted_index": 6,
+          "grid_slots": [
+            "ear1",
+            "ear2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "371161",
+      "label": "BST DNC (Aymur AM3) - Updated February 21st, 2021. DNC subjob, Haste Samba active. Artio's Mantle: [DEX+20, Acc+30, Atk+20, STP+10, PDT-10%]",
+      "url": "https://www.ffxiah.com/item-sets/371161",
+      "prior_record_sha256": "33c9b73c606706eb4e2b92616b1a1d14d418a07e45f2df492929eba4a721e4b9",
+      "record_sha256": "6addfb6156b5ef92ccbceb970432757fe9ac0cffdcb2d1743db0511637deab20",
+      "evidence_observation_id": "bst:second-pass:slots:371161:2026-11-05",
+      "evidence_observation_sha256": "a264b8adc3870e285723c8ec3dffb7a34e57f82a81b95467da7c0c26314a2067",
+      "evidence_packet": "gear-guide-t7-bst-second-pass-slots.json",
+      "inserted_copies": [
+        {
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 3,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "333993",
+      "label": "BST Magic Ready - Updated May 30th, 2023. Kumbhakarnas augmented with Pet:MAB+20, Pet: TP Bonus+200. Valorous Armor Set augmented with Taupe stones: Pet:INT+15, Pet:MAB+30.",
+      "url": "https://www.ffxiah.com/item-sets/333993",
+      "prior_record_sha256": "ca39d50f261d758f560bacefb10d2a1ac1511e98ed8752d20bf114151b65f50f",
+      "record_sha256": "0b48910ea5def83776251de4edf441f5ff46175dc3a475467a7fcdbeeccfc6ea",
+      "evidence_observation_id": "bst:second-pass:slots:333993:2026-11-05",
+      "evidence_observation_sha256": "7a11d63bff31e71065afbc9e493a024e685a4cc5a70da658f293624b86e5fa2d",
+      "evidence_packet": "gear-guide-t7-bst-second-pass-slots.json",
+      "inserted_copies": [
+        {
+          "item_id": 20809,
+          "name": "Kumbhakarna",
+          "slot_label": "main/sub",
+          "inserted_index": 1,
+          "grid_slots": [
+            "main",
+            "sub"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "264979",
+      "label": "BST Pet TP - Updated June 12th, 2025. Skullrenders Path C. Valorous Armor w/Pet:Double Attack+5%, Artio's Mantle w/Pet:Haste+10%.",
+      "url": "https://www.ffxiah.com/item-sets/264979",
+      "prior_record_sha256": "a5d7387652edecbc5eb4cf9eea6b5a5f89f5cd403cdcd237dfa8e95b07fdbc91",
+      "record_sha256": "a6bc763ac52e0db6c9ffd686fe0bb808e43007596b983af45a6d6cc7e3c8adf6",
+      "evidence_observation_id": "bst:second-pass:slots:264979:2026-11-05",
+      "evidence_observation_sha256": "78a234822b273aaf81685a8a4332576d2ed1d84d1449dbc6617e0776cdf4368e",
+      "evidence_packet": "gear-guide-t7-bst-second-pass-slots.json",
+      "inserted_copies": [
+        {
+          "item_id": 20797,
+          "name": "Skullrender",
+          "slot_label": "main/sub",
+          "inserted_index": 1,
+          "grid_slots": [
+            "main",
+            "sub"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        },
+        {
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 3,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "378247",
+      "label": "BST NIN (Aymur AM3) - Updated February 21st, 2021. NIN subjob. Artio's Mantle: [DEX+20, Acc+30, Atk+20, STP+10, PDT-10%]",
+      "url": "https://www.ffxiah.com/item-sets/378247",
+      "prior_record_sha256": "151b36dcde26f7c73dcac4e4179c512931fc2d241ebb3411317986032daa9788",
+      "record_sha256": "67d602e82f7164e9e0d06e142bea223e417436ab7f589381e5163bc492be3852",
+      "evidence_observation_id": "bst:other27:grid:378247:2026-11-05",
+      "evidence_observation_sha256": "0f78f8fac1533c9dd84811911fe2e7d848ff64f2aa59de1d48f8893ab6dc3622",
+      "evidence_packet": "gear-guide-t7-bst-other27-audit.json",
+      "inserted_copies": [
+        {
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 9,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "333131",
+      "label": "BST Feral Howl - Updated June 12th, 2025. Nyame Path D has superior Magic Accuracy, but Empyrean+3 is available/storable by all players.",
+      "url": "https://www.ffxiah.com/item-sets/333131",
+      "prior_record_sha256": "4b586ffa0baad553cfca4b1a31168b5da974e5d477205b0c14a057ca347baf1f",
+      "record_sha256": "2bb52ea8b8b2bd7694e54f2a60b686ce6f03a0045dd64ba6c6e54b869be57483",
+      "evidence_observation_id": "bst:other27:grid:333131:2026-11-05",
+      "evidence_observation_sha256": "1d7b4368635cc4e20fe83afd961bd45c1bc40370274e713b4b86b6bda5e56eb5",
+      "evidence_packet": "gear-guide-t7-bst-other27-audit.json",
+      "inserted_copies": [
+        {
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 2,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "339931",
+      "label": "BST Ready Interm. - Kumbhakarna w/Acc+20, Taeon Tabard w/Acc+25, Pastoralist's Mantle w/Acc+20.",
+      "url": "https://www.ffxiah.com/item-sets/339931",
+      "prior_record_sha256": "a8d535f7eee13fa0147e65cf915f09070c66ce379c3926ea43a1d53b83433c41",
+      "record_sha256": "0a5cbfdcf5479e1bac3fe5db25d39ad543c5ee1b731678d5e10d6c683cfe9473",
+      "evidence_observation_id": "bst:other27:grid:339931:2026-11-05",
+      "evidence_observation_sha256": "46fa036f5a1882bd0a3da71fed236f631e06ec5b825d1386fb340d48de0389cd",
+      "evidence_packet": "gear-guide-t7-bst-other27-audit.json",
+      "inserted_copies": [
+        {
+          "item_id": 20809,
+          "name": "Kumbhakarna",
+          "slot_label": "main/sub",
+          "inserted_index": 1,
+          "grid_slots": [
+            "main",
+            "sub"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "339932",
+      "label": "BST Ready Advanced - Kumbhakarna w/Pet:TP Bonus+~180, Acc+20, Emicho Armor Path C, Taeon Tabard w/Pet:Acc+25, Artio's Mantle w/Pet:Acc+20, Atk+30. Valorous Hose w/Pet:Atk+~25",
+      "url": "https://www.ffxiah.com/item-sets/339932",
+      "prior_record_sha256": "3b5c05701ca303db406424e14c5f0151b1182c3de60a2087ee84d5fe08532077",
+      "record_sha256": "6dd52feebd5f27c0ca2c3d6fcfe3993cfbd03d70d854c1eaa5df975d948ef912",
+      "evidence_observation_id": "bst:other27:grid:339932:2026-11-05",
+      "evidence_observation_sha256": "de34a4e8d44e9b73f9d71aa1f98fdb316a11a04d79632275466cceea3abd9805",
+      "evidence_packet": "gear-guide-t7-bst-other27-audit.json",
+      "inserted_copies": [
+        {
+          "item_id": 20809,
+          "name": "Kumbhakarna",
+          "slot_label": "main/sub",
+          "inserted_index": 1,
+          "grid_slots": [
+            "main",
+            "sub"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    },
+    {
+      "set_id": "365917",
+      "label": "BST Reward Beginner - March 30, 2019. Beginner's Ready set.",
+      "url": "https://www.ffxiah.com/item-sets/365917",
+      "prior_record_sha256": "2f96df9987ae01d4acb832da8d1601d9c40f8ad4095c06dacd9de3f262a432fa",
+      "record_sha256": "3ad6acb5b1d7f26392329ada044f4557d5b7e8164a12cfca3a71032ff23f5610",
+      "evidence_observation_id": "bst:other27:grid:365917:2026-11-05",
+      "evidence_observation_sha256": "d731bbfab39bb8d8ba30bf152b3b3fa9963eeec6ecaaf284ad6bef2857c1b112",
+      "evidence_packet": "gear-guide-t7-bst-other27-audit.json",
+      "inserted_copies": [
+        {
+          "item_id": 27566,
+          "name": "Levia. Ring",
+          "slot_label": "left_ring/right_ring",
+          "inserted_index": 7,
+          "grid_slots": [
+            "ring1",
+            "ring2"
+          ],
+          "recorded_copies_before": 1,
+          "recorded_copies_after": 2
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "sets": 10,
+    "copies": 11,
+    "sets_total": 376,
+    "sets_changed": 10
+  },
+  "unchanged": {
+    "top_level_fields_except_sets": true,
+    "set_order": true,
+    "untouched_sets": 366,
+    "untouched_sets_sha256": "45c0581bc46b6c9ed9ef5a1c68e186ef535d061fed9657c85a79b50202a35d95"
+  },
+  "scope_limit": "Copy-by-copy comparison against source grids exists only for the 48 BST node 227 FFXIAH item sets. Other jobs' production v1 sets were not compared copy-by-copy; the T8 candidate replacement supersedes them.",
+  "known_ui_behaviour": [
+    "Each copy is its own row on the Guides page; both show n/2 copies.",
+    "Track-set adds one wishlist row per item ID (unchanged behaviour); a saved augment target keyed by item ID applies to both copies."
+  ],
+  "supersedes_recorded_only": [
+    "gear-guide-t7-bst-other27-audit.json production_record_amendments (production_mutation false at the time)",
+    "gear-guide-t7-bst-other27-audit.json not_in_scope_observed (five earlier sets)"
+  ],
+  "historical_records_unchanged": true,
+  "candidate_sha256": "ca787650965d61046e91323bd1e1c991d9245f4b2d7d340935159afc9f511926"
+}

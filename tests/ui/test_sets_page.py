@@ -62,6 +62,7 @@ def setup(qtbot, tmp_path, monkeypatch):
     tree = tmp_path / 'Windower'
     shutil.copytree(FIXTURE, tree)
     data = tree / 'addons' / 'GearSwap' / 'data'
+    data.mkdir(parents=True, exist_ok=True)  # empty folder named data/ isn't in git (.gitignore)
     (data / 'Alice_BLU.lua').write_text('-- test', encoding='utf-8')
     (data / 'Alice_RUN.lua').write_text('-- test', encoding='utf-8')
     (data / 'Bob_SMN.lua').write_text('-- test', encoding='utf-8')
@@ -401,7 +402,7 @@ def test_copy_slot_and_all_snippets_clipboard_status_and_open_file(qtbot, setup,
     page = make_page(qtbot, ctx)
     statuses, opened = [], []
     monkeypatch.setattr(page, 'status', statuses.append)
-    monkeypatch.setattr(os, 'startfile', opened.append)
+    monkeypatch.setattr(ctx, 'edit_file', opened.append)
     page._cell_clicked('head')
     select_replacement(page, 'Hashishin Kavuk +3')
     assert page.copy_btn.text() == 'Copy slot line'
@@ -477,7 +478,7 @@ def test_ambiguous_location_shows_candidates_and_still_opens_job_file(qtbot, set
     assert page.open_file_btn.text() == 'Open job file'
     assert 'Location ambiguous: check the candidate locations below before pasting.' in page.source_help.text()
     opened = []
-    monkeypatch.setattr(os, 'startfile', opened.append)
+    monkeypatch.setattr(ctx, 'edit_file', opened.append)
     page.open_file_btn.click()
     assert opened == [str(filename)]
 
@@ -488,7 +489,7 @@ def test_open_job_file_works_before_selecting_any_replacement(qtbot, setup, monk
     filename = fix_read(ctx, fake, sets=sets)
     page = make_page(qtbot, ctx)
     opened = []
-    monkeypatch.setattr(os, 'startfile', opened.append)
+    monkeypatch.setattr(ctx, 'edit_file', opened.append)
     assert page._copy_target is None and page.open_file_btn.isEnabled()
     page.open_file_btn.click()
     assert opened == [str(filename)]
@@ -537,8 +538,8 @@ def test_grid_context_menu_uses_the_clicked_item_and_all_existing_sites(qtbot, s
     event = QContextMenuEvent(QContextMenuEvent.Mouse, QPoint(2, 2), cell.mapToGlobal(QPoint(2, 2)))
     QApplication.sendEvent(cell, event)
     assert page.grid.selected() == 'neck' and page.current_slot == 'neck'
-    assert [a.text() for a in menus[-1].actions()] == ['Open on BG-Wiki ↗', 'Open on FFXIAH ↗', 'Open on FFXIclopedia ↗']
-    menus[-1].actions()[1].trigger()
+    assert [a.text() for a in menus[-1].actions()] == ['Item details (Alt+I)', 'Open on BG-Wiki ↗', 'Open on FFXIAH ↗', 'Open on FFXIclopedia ↗']
+    menus[-1].actions()[2].trigger()
     assert ctx.opened[-1] == 'https://www.ffxiah.com/item/23106'
     count = len(menus)
     cell = page.grid.cells['main']
@@ -773,3 +774,21 @@ def test_paired_slot_shortage_is_visible_before_bulk_copy(qtbot, setup):
     ctx.inventory_changed.emit()
     select_replacement(page, 'Sroda Ring')
     assert page.copy_warning.isHidden()
+
+
+def test_a_game_job_without_a_file_is_followed_once_not_on_every_update(qtbot, setup, monkeypatch):
+    ctx, _fake = setup
+    page = make_page(qtbot, ctx)
+    fills = []
+    real_fill = page._fill_jobs
+    monkeypatch.setattr(page, '_fill_jobs', lambda *a, **k: (fills.append(a), real_fill(*a, **k))[1])
+    ctx.bridge.state = {'player_name': 'Alice', 'main_job': 'PUP', 'sub_job': 'WAR'}  # Alice has no PUP file
+    for _ in range(3):
+        ctx.bridge.state_received.emit(ctx.bridge.state)
+    wait(qtbot, page)
+    assert len(fills) == 1
+    assert page.job_combo.currentData() != 'PUP'
+    ctx.bridge.state = {'player_name': 'Alice', 'main_job': 'RUN', 'sub_job': 'WAR'}  # a real change is followed
+    ctx.bridge.state_received.emit(ctx.bridge.state)
+    qtbot.waitUntil(lambda: not page._busy and page.read.job == 'RUN', timeout=5000)
+    assert len(fills) == 2

@@ -1,0 +1,122 @@
+{
+  "checked_on": "2026-11-04",
+  "status": "Bounded RUN candidate milestone; not production-ready",
+  "checks_passed": 25,
+  "checks": [
+    "315 pre-edit backups hash correctly",
+    "canonical bytes outside authorized docs/resources/hands/test counts preserved",
+    "earlier test edits exactly global counts authored-job lists and stable prior hand index",
+    "all312sets323revisions629sources unchanged append-only prefixes",
+    "late BG source preserves every first-save set revision and693sources",
+    "non-RUN coverage unchanged",
+    "prior metadata amendments and batches retained",
+    "eleven withdrawnBRD preserved335stored324effective",
+    "eight unresolved originals unchanged",
+    "DRG still0recommendations8gaps",
+    "332sets343revisions694sources225coverage20newRUN",
+    "nineRUN included147total78gaps9jobs zeroNA",
+    "whole candidate prepared with actual resources and previoushistory",
+    "all626detached item fields and descriptions match actual resources",
+    "all586prior resources descriptions metadata preserved",
+    "four upstream resource hashes and fingerprint unchanged",
+    "all34prior hand records ASTidentical only20761/21417/21694appended",
+    "20grids2facts43cards digest correctly",
+    "late rendered BG781614 recovery is explicit and source-linked",
+    "all43publiccard description hashes and sourcelocators verify",
+    "20saveddefinitions match revisions and7independentpresave fingerprint",
+    "observationonly right-ear25547 not selected or detached",
+    "public decoder hash unchanged",
+    "protectedproductionv1bytehash unchanged",
+    "originalbranch andHEAD8f91ca1preserved"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 315,
+  "candidate_records": {
+    "sets": 332,
+    "revisions": 343,
+    "sources": 694,
+    "coverage": 225
+  },
+  "new_run_recommendations": 20,
+  "stored_verified_flags": 335,
+  "effective_verified_compositions": 324,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "drg_gaps": 8,
+  "included_priorities": 147,
+  "gap_priorities": 78,
+  "remaining_jobs": 9,
+  "not_applicable": 0,
+  "resource_records": 626,
+  "hand_registry": "37 / hands.2026-11-04.v12",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-run-definitions.json": "4e01c986f70a3494e5dce53648b6fdc95d40b5bc6adfe692b8b84bc51e6febf9",
+    "gear-guide-t7-run-item-evidence.json": "b479d74bcea4bf9cdcfb965169404f6098c933de3af5d1cdfc1fece2ba5fcb8b",
+    "gear-guide-t7-run-observations.json": "04d617f4b05a0c8adb6fc9b5fe54e66a3a6a283d91a4ee72619b76ead5c5b4cd"
+  },
+  "deferred_plan": "Remaining initial job passes before BRD/DRG issues; neither resolved nor waived. Runtime retirement unimplemented. Stop afterRUN.",
+  "limits": "Offline composition/history/preservation only; no numeric caps,HPpreservingchains,ownership,bags,currentBiS or human/frozen/live acceptance.",
+  "validation": {
+    "presave": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 1.07
+    },
+    "presave_late_bg": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.84
+    },
+    "focused": {
+      "passed": 406,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 29.69
+    },
+    "full_native": {
+      "passed": 1164,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 140.75
+    },
+    "affected_tests_after_semantic_neutral_list_cleanup": {
+      "passed": 72,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 5.76
+    },
+    "initial_focused": {
+      "passed": 93,
+      "failed": 1,
+      "skipped": 0,
+      "seconds": 7.07,
+      "reason": "Stale global jobs_with_revisions count15->16; no validator/assertion weakened"
+    },
+    "scope": "Offline native source validation; fullsuite preceded semantic-neutral duplicateRUN test-list cleanup, affected72cases passed afterward; no live/frozen verification",
+    "git_diff_check": "passed",
+    "new_file_whitespace_check": "passed"
+  }
+}

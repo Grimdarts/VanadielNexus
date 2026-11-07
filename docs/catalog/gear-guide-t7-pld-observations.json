@@ -1,0 +1,798 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set_id": 397653,
+      "url": "https://www.ffxiah.com/item-sets/397653",
+      "grid": {
+        "main": [
+          "Brilliance"
+        ],
+        "sub": [
+          "Priwen"
+        ],
+        "ammo": [
+          "Eluder's Sachet"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Tuisto Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Provocare Ring"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Creed Baudrier"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20705,
+        "sub": 28648
+      },
+      "notes": "Original Brilliance/Priwen; Eluder increases damage taken. Nexus substitutes Staunch and Defending Ring; no source totals imported.",
+      "observation_sha256": "bcbcbf171de88e6c5b55f0fa60f5d313b87b95756dc613d94a483d87dfd19122"
+    },
+    {
+      "item_set_id": 397548,
+      "url": "https://www.ffxiah.com/item-sets/397548",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Chev. Armet +3"
+        ],
+        "neck": [
+          "Coatl Gorget +1"
+        ],
+        "ear1": [
+          "Etiolation Earring"
+        ],
+        "ear2": [
+          "Chev. Earring +1"
+        ],
+        "body": [
+          "Jumalik Mail"
+        ],
+        "hands": [
+          "Regal Gauntlets"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Carmine Cuisses +1"
+        ],
+        "feet": [
+          "Chev. Sabatons +3"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "b80a25d8f08c0b75e48165768390741140deed4d3bf19598ca42eeac6beade16"
+    },
+    {
+      "item_set_id": 397521,
+      "url": "https://www.ffxiah.com/item-sets/397521",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Loess Barbuta +1"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Trux Earring"
+        ],
+        "ear2": [
+          "Cryptic Earring"
+        ],
+        "body": [
+          "Souv. Cuirass +1"
+        ],
+        "hands": [
+          "Souv. Handsch. +1"
+        ],
+        "ring1": [
+          "Apeile Ring +1"
+        ],
+        "ring2": [
+          "Apeile Ring"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Creed Baudrier"
+        ],
+        "legs": [
+          "Souv. Diechlings +1"
+        ],
+        "feet": [
+          "Chev. Sabatons +3"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {
+        "body": [
+          "Souv. Cuirass +1",
+          "Souv. Cuirass +1"
+        ]
+      },
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26495
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "e0fb90e35271825141e8cc04ceb82b790caa8532a58bf14b4800380c67776c47"
+    },
+    {
+      "item_set_id": 397523,
+      "url": "https://www.ffxiah.com/item-sets/397523",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Loess Barbuta +1"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Trux Earring"
+        ],
+        "body": [
+          "Chev. Cuirass +3"
+        ],
+        "hands": [
+          "Souv. Handsch. +1"
+        ],
+        "ring1": [
+          "Apeile Ring +1"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Creed Baudrier"
+        ],
+        "legs": [
+          "Founder's Hose"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26495
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "8b4bfaf777bff89fcf1e1c453c21e8d5a096422287c4fa36dd9e45418e042bf0"
+    },
+    {
+      "item_set_id": 397522,
+      "url": "https://www.ffxiah.com/item-sets/397522",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Orunmila's Torque"
+        ],
+        "ear1": [
+          "Enchntr. Earring +1"
+        ],
+        "ear2": [
+          "Loquac. Earring"
+        ],
+        "body": [
+          "Rev. Surcoat +4"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Kishar Ring"
+        ],
+        "ring2": [
+          "Prolix Ring"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Sworn Brais"
+        ],
+        "feet": [
+          "Chev. Sabatons +3"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair. Live original has Rev. Surcoat+4; web reader stale snapshot showed+3. Original live table controls this observation.",
+      "observation_sha256": "f547fd1d1c48a880a96b8510566c702ab91b2cf7ab38310c01aec812f5f58eb8"
+    },
+    {
+      "item_set_id": 397524,
+      "url": "https://www.ffxiah.com/item-sets/397524",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Odyssean Helm"
+        ],
+        "neck": [
+          "Melic Torque"
+        ],
+        "ear1": [
+          "Mimir Earring"
+        ],
+        "ear2": [
+          "Chev. Earring +1"
+        ],
+        "body": [
+          "Odyss. Chestplate"
+        ],
+        "hands": [
+          "Souv. Handsch. +1"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Weard Mantle"
+        ],
+        "waist": [
+          "Flume Belt +1"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Souveran Schuhs +1"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26495
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "34b7ecb3a82630a0df5e1484f9a4056b70ba883c637f5fa46a2cb2668e10f7eb"
+    },
+    {
+      "item_set_id": 397921,
+      "url": "https://www.ffxiah.com/item-sets/397921",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Souv. Schaller +1"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Chev. Earring +1"
+        ],
+        "ear2": [
+          "Mimir Earring"
+        ],
+        "body": [
+          "Chev. Cuirass +3"
+        ],
+        "hands": [
+          "Souv. Handsch. +1"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Weard Mantle"
+        ],
+        "waist": [
+          "Audumbla Sash"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair. Source Chev. Earring+1 is in left ear1 despite right-ear property; retained as observation, Nexus uses legal earrings.",
+      "observation_sha256": "4bc6e0fad2201d5f81def9159d241a2abcfa7a70204d93b5af9fced698ccbbc0"
+    },
+    {
+      "item_set_id": 397525,
+      "url": "https://www.ffxiah.com/item-sets/397525",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Jumalik Helm"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Knightly Earring"
+        ],
+        "ear2": [
+          "Odnowa Earring +1"
+        ],
+        "body": [
+          "Rev. Surcoat +4"
+        ],
+        "hands": [
+          "Eschite Gauntlets"
+        ],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Asklepian Belt"
+        ],
+        "legs": [
+          "Founder's Hose"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "b8a87b010e40280101f383f18ef1db399f5ed19c9524c12887e38570124c816e"
+    },
+    {
+      "item_set_id": 397527,
+      "url": "https://www.ffxiah.com/item-sets/397527",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Souv. Schaller +1"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Chev. Earring +1"
+        ],
+        "body": [
+          "Souv. Cuirass +1"
+        ],
+        "hands": [
+          "Regal Gauntlets"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Founder's Hose"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "930919379bf30561129ececb2d462bfd63475e11e77603acab7a73eee9bab396"
+    },
+    {
+      "item_set_id": 397561,
+      "url": "https://www.ffxiah.com/item-sets/397561",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Souv. Schaller +1"
+        ],
+        "neck": [
+          "Sacro Gorget"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Chev. Earring +1"
+        ],
+        "body": [
+          "Souv. Cuirass +1"
+        ],
+        "hands": [
+          "Regal Gauntlets"
+        ],
+        "ring1": [
+          "Apeile Ring +1"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Audumbla Sash"
+        ],
+        "legs": [
+          "Founder's Hose"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "b22f15149eafc9f8e78384b4cf2a81d8af2a3d564eef27870080309753fd803c"
+    },
+    {
+      "item_set_id": 397528,
+      "url": "https://www.ffxiah.com/item-sets/397528",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [
+          "Crep. Earring"
+        ],
+        "ear2": [
+          "Chev. Earring +1"
+        ],
+        "body": [
+          "Crepuscular Mail"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Chirich Ring +1"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Chev. Cuisses +3"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "3f06aee16fd28ad6c2148ba3349ee8ac292ad5469bf517f30dc53dde6c2b2f30"
+    },
+    {
+      "item_set_id": 398105,
+      "url": "https://www.ffxiah.com/item-sets/398105",
+      "grid": {
+        "main": [
+          "Burtgang"
+        ],
+        "sub": [
+          "Duban"
+        ],
+        "ammo": [
+          "Crepuscular Pebble"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Kgt. Beads +2"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Thrud Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Cornelia's Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Rudianos's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ],
+        "range": []
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "method": "Manual literal final exported table observation read in ordinary Chrome; source Lua treated as text only, never executed. Options and source totals are not full Nexus recommendations.",
+      "competing_macro_values": {},
+      "exact_source_hand_links": {
+        "main": 20687,
+        "sub": 26493
+      },
+      "notes": "Duban exact source links differ between tables (26493/26495); stage properties cannot transfer. Nexus selects a separately reviewed Naegling/Priwen pair.",
+      "observation_sha256": "9cc75e58d15fd9befb1a73140974fe2853af43a43ee76c601033953eac3d1aa8"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/482",
+      "title": "The Divine Protector by Tetsouou",
+      "locator": "Gear sections: idle, enmity, JA overlays, FC, Phalanx, Enlight, self/other cures, engaged, Atonement/Savage; footer modified2026-08-28; page title2024 is not a current-BiS certification",
+      "findings": [
+        "Town Refresh397548 is safe-zone downtime, not exposed combat.",
+        "FC initiation and SIRD completion are distinct; gear/merit/Shell/HP totals are source model assumptions, not adopted.",
+        "Phalanx random rolls, SwornR30 and weapon substitutions are optional source prerequisites, not free base stats.",
+        "Self Cure and ally Cure distinguish caster potency from recipient bonuses and actual HP restored. Majesty is an actual active buff, not a permanent gear stat.",
+        "JA table maps CabBreeches23605 Invincible, RevLeggings23649 HolyCircle, CabGauntlets23538 ShieldBash, CabLeggings23672 Sentinel, CabSurcoat23471 and RevCoronet23381 Cover, CabCoronet23404 Rampart, CabSurcoat23471 Fealty, CabGauntlets23538 Chivalry, ChevSabatons23694 DivineEmblem. Effects/merit totals not certified.",
+        "Node top-tier grids use multiple Duban stages; source stage and aftermath properties remain unadopted.",
+        "Cure section prose and summary use different potency labels; no claim that Majesty adds to the same potency bucket or that101SIRD guarantees safety."
+      ],
+      "observation_sha256": "5cac67643b83df94467b810e3cdc6770ef83ed981db50413480bfab58cf1c230"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Paladin_Guide&oldid=780215",
+      "title": "Community Paladin Guide rendered permanent revision780215",
+      "locator": "Rendered header00:35,4October2026 by Alimere; shield notes, HP management, Phalanx/Reprisal and maximum-per-slot sections read in ordinary Chrome",
+      "findings": [
+        "Priwen size3; shield blocking requires actual facing and eligible attack. No universal block rate or Duban/Aegis property transfer.",
+        "HP swap ordering matters; maximum-per-slot FC/SIRD lists explicitly are not loadouts. No executable HP preservation inferred.",
+        "Phalanx received applies to the actual recipient; self cast skill and receiving another caster are distinct.",
+        "Reprisal shield skill behavior depends on current equipped skill, not a permanently snapshotted casting-skill total.",
+        "Duration options include fixed Shabti/Regal; source Colada/Ajax augment alternatives not selected.",
+        "/BLU49 requires actually learned/set spells; /RUN Foil has a higher sublevel/ML prerequisite and is not included here."
+      ],
+      "observation_sha256": "3b3dc53e48f2e6687c32bfc1a0b7cb416a3fed062fe653904de57a86917bd2ee"
+    }
+  ],
+  "access": "Web reader node482 unavailable,BG403,some grids unavailable/stale. OrdinaryChrome worked this session: original node482,12grids,46cards and rendered BG Permanentlink780215 read. No source Lua executed; manual scoped observations,not raw HTML or independent evidence from repeated thread text."
+}

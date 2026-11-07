@@ -1,0 +1,966 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "bst-pdt",
+      "url": "https://www.ffxiah.com/item-sets/323870",
+      "scope": "Node 227 linked set 323870 \"BST PDT\"",
+      "set_note": "Updated February 21st, 2021. PDT-50% ... Odnowa Earring +1 Rank 15.",
+      "item_ids": [
+        28437,
+        26002,
+        13658,
+        27555,
+        10773,
+        27549,
+        19782,
+        23756,
+        23763,
+        23770,
+        23777,
+        23784,
+        26112
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "8a3dfff318155fd6d7d813a9b8bad783ef6404988cfc00a56c51a9c43c61b42b"
+    },
+    {
+      "key": "mdt-shell",
+      "url": "https://www.ffxiah.com/item-sets/323871",
+      "scope": "Node 227 linked set 323871 \"BST MDT (Shell)\"",
+      "set_note": "Updated January 31st, 2025. Combined w/ Shell (I-V).",
+      "item_ids": [
+        14646,
+        28599,
+        28516,
+        21380,
+        28403,
+        28504,
+        23736,
+        23735,
+        23734,
+        27554,
+        23732,
+        23733,
+        28414
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "a501533be57abbf67c5ca3d97cea3339453f99ae2791435e54a2de1ec4ec743a"
+    },
+    {
+      "key": "idle-refresh",
+      "url": "https://www.ffxiah.com/item-sets/264975",
+      "scope": "Node 227 linked set 264975 \"BST Idle Refresh\"",
+      "set_note": "Updated January 31st, 2025. 7+MP/tic Refresh. Valorous Armor w/Refresh +2 (Dark Matter).",
+      "item_ids": [
+        26972,
+        26184,
+        26184,
+        27495,
+        27139,
+        25841,
+        25416,
+        24270
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "5b0b789c5668a44fa2b71bdc8d3ff059f29ad1848f85dc1c2f78e57e9af1edde"
+    },
+    {
+      "key": "killer-dt",
+      "url": "https://www.ffxiah.com/item-sets/302857",
+      "scope": "Node 227 linked set 302857 \"BST Killer DT\"",
+      "set_note": "Updated June 12th, 2025. PDT-50%, MDT-36%, Killer Effects+40 (5/5 merits and appropriate Killer Instinct pet).",
+      "item_ids": [
+        20811,
+        28437,
+        26002,
+        28657,
+        28657,
+        13566,
+        14747,
+        26254,
+        10769,
+        23495,
+        18257,
+        23775,
+        23789,
+        14747,
+        23926,
+        24038
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "7bd3adef022977173c30ff337add5f81c631fba9222853e6e9bb4d2064962cfc"
+    },
+    {
+      "key": "node-tp-malignance",
+      "url": "https://www.ffxiah.com/item-sets/381578",
+      "scope": "Node 227 linked set 381578 \"BST TP Malignance\"",
+      "set_note": "No update note.",
+      "item_ids": [
+        21431,
+        23732,
+        23763,
+        23736,
+        23735,
+        23734,
+        28471,
+        11651,
+        26321,
+        27540,
+        26084,
+        26254,
+        26020
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "739d47134e352cf5285b9be35003b3101486f3564f0f06cc0e365bd148e0bcf0"
+    },
+    {
+      "key": "node-tp-gleti-pdl",
+      "url": "https://www.ffxiah.com/item-sets/381577",
+      "scope": "Node 227 linked set 381577 \"BST TP Gleti PDL\"",
+      "set_note": "No update note.",
+      "item_ids": [
+        21431,
+        23756,
+        25467,
+        26084,
+        27540,
+        26190,
+        11651,
+        23777,
+        23763,
+        23784,
+        27114,
+        28428,
+        26254
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "8cb8819fdd6241695dab27b477e8b41f2a24b0754e45741c021947ff97bcf191"
+    },
+    {
+      "key": "node-tp-ma",
+      "url": "https://www.ffxiah.com/item-sets/381576",
+      "scope": "Node 227 linked set 381576 \"BST TP MA\"",
+      "set_note": "Updated May 30th, 2026.",
+      "item_ids": [
+        26029,
+        28471,
+        11651,
+        21431,
+        24167,
+        24170,
+        24173,
+        24176,
+        24179,
+        27544,
+        26084,
+        26274,
+        28428
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "92a65da71fe414bc64668983c24cb8aab8150f90552514c5ca4fcc6392bfd6dd"
+    },
+    {
+      "key": "node-aymur-am3",
+      "url": "https://www.ffxiah.com/item-sets/371161",
+      "scope": "Node 227 linked set 371161 \"BST DNC (Aymur AM3)\"",
+      "set_note": "Updated February 21st, 2021. DNC subjob, Haste Samba active. Artio's Mantle: [DEX+20, Acc+30, Atk+20, STP+10, PDT-10%]",
+      "item_ids": [
+        21751,
+        22298,
+        26182,
+        26182,
+        23736,
+        23732,
+        23734,
+        23733,
+        23735,
+        26254,
+        26020,
+        27544,
+        14739,
+        26361
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "5ae064120302336656b8fe29757844f586c0d38a956e607506c4e5a796cdd6cd"
+    },
+    {
+      "key": "node-rampage",
+      "url": "https://www.ffxiah.com/item-sets/333283",
+      "scope": "Node 227 linked set 333283 \"BST Rampage\"",
+      "set_note": "Updated March 10th, 2023. Atk/TP Bonus Moonshade Earring. Artio's w/STR+30, Acc/Atk+20, Crit Rate+10%.",
+      "item_ids": [
+        11697,
+        26254,
+        28420,
+        27510,
+        25602,
+        23763,
+        23770,
+        23777,
+        22300,
+        25470,
+        23696,
+        26221,
+        28471
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "b415f6f0bcffcd4cee70522803e9cd6d493bcfa0efcdd7e23a1b61be2b23782c"
+    },
+    {
+      "key": "node-mistral",
+      "url": "https://www.ffxiah.com/item-sets/347567",
+      "scope": "Node 227 linked set 347567 \"BST Mistral Axe\"",
+      "set_note": "Updated June 12th, 2025. Moonshade w/Atk+4, TP Bonus+250. Artio's w/STR+30, Acc/Atk+20, WS DMG+10%. Sailfi Belt +1 w/Rank 15 Odyssey augs.",
+      "item_ids": [
+        25467,
+        28428,
+        26214,
+        11697,
+        23696,
+        23495,
+        26221,
+        22300,
+        23782,
+        23926,
+        23993,
+        25470,
+        26254
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "38be10f7f7a09a7aed0a1deba610179a64c6ba5a4e8c9c53e0d6c7b079e28e1f"
+    },
+    {
+      "key": "node-blitz",
+      "url": "https://www.ffxiah.com/item-sets/391446",
+      "scope": "Node 227 linked set 391446 \"BST Blitz\"",
+      "set_note": "Updated June 12th, 2025. Nyame Path B, Artio's Mantle w/STR & WSD.",
+      "item_ids": [
+        21730,
+        25467,
+        11697,
+        23495,
+        28428,
+        26254,
+        23782,
+        22300,
+        25470,
+        26221,
+        26214,
+        23696,
+        23926,
+        23993
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "0f7e6db2a96fcd9e37c747ae8c8d1974286496871d8b15f79bf9f4d8039c0914"
+    },
+    {
+      "key": "node-ready-low",
+      "url": "https://www.ffxiah.com/item-sets/337061",
+      "scope": "Node 227 linked set 337061 \"BST Ready Low Acc\"",
+      "set_note": "Updated August 7th, 2026. Telopanos Rank 23+. Nyame Path D. Artio's Mantle with combined Pet:Attack+30 augment.",
+      "item_ids": [
+        20793,
+        28418,
+        26026,
+        26201,
+        21430,
+        23782,
+        25610,
+        26118,
+        25470,
+        23768,
+        26254,
+        23562,
+        26230,
+        24179,
+        21738
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "ae876ee81b6ba312850ccceade774a56133f4ed44960f86438921ab312add2b3"
+    },
+    {
+      "key": "node-ready-high",
+      "url": "https://www.ffxiah.com/item-sets/337063",
+      "scope": "Node 227 linked set 337063 \"BST Ready High Acc\"",
+      "set_note": "Updated August 7th, 2026. Telopanos Rank 23+. Nyame Path D. Artio's Mantle with combined Pet: Accuracy+30 augment.",
+      "item_ids": [
+        20793,
+        25641,
+        26254,
+        26336,
+        26201,
+        23768,
+        23782,
+        26026,
+        26118,
+        23562,
+        21430,
+        26230,
+        24179,
+        25470,
+        21738
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "ffd10b8ce92d82d271484d57d162d95bbb53381bee43d4c8582659ef0f2956de"
+    },
+    {
+      "key": "node-ready-max",
+      "url": "https://www.ffxiah.com/item-sets/337064",
+      "scope": "Node 227 linked set 337064 \"BST Ready Max Acc\"",
+      "set_note": "Updated August 7th, 2026. Nyame Path D. Artio's Mantle with combined Pet: Accuracy+30 augment.",
+      "item_ids": [
+        26336,
+        26254,
+        26201,
+        25467,
+        23782,
+        23775,
+        23761,
+        26083,
+        23768,
+        21430,
+        26230,
+        25470,
+        21738,
+        21730,
+        24179
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "6e4d049ef2cbc50306483bcc33d9abf3dcccb7f802a7b6441c6d71e79b9f8fc3"
+    },
+    {
+      "key": "node-ready-multihit",
+      "url": "https://www.ffxiah.com/item-sets/342233",
+      "scope": "Node 227 linked set 342233 \"BST Multihit Ready\"",
+      "set_note": "Updated August 7th, 2026. Telopanos Rank 23+.",
+      "item_ids": [
+        21751,
+        25610,
+        25717,
+        28418,
+        26254,
+        25467,
+        28473,
+        21430,
+        26118,
+        23562,
+        26230,
+        24176,
+        24179,
+        25470,
+        21738
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "c3734dbe560b5d2ebee6a13123abf76495169350405a3a5fe324ce920a63d1d8"
+    },
+    {
+      "key": "node-ready-magic",
+      "url": "https://www.ffxiah.com/item-sets/333993",
+      "scope": "Node 227 linked set 333993 \"BST Magic Ready\"",
+      "set_note": "Updated May 30th, 2023. Kumbhakarnas augmented with Pet:MAB+20, Pet: TP Bonus+200. Valorous Armor Set augmented with Taupe stones: Pet:INT+15, Pet:MAB+30.",
+      "item_ids": [
+        20809,
+        20809,
+        27595,
+        28418,
+        27527,
+        27495,
+        25841,
+        25641,
+        25788,
+        26028,
+        28473,
+        25470,
+        23562,
+        21430,
+        26230
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "5753b741c77b7713bb59065814e4e734af96cdd29c041acdc6c3380d24514248"
+    },
+    {
+      "key": "node-pet-pdt",
+      "url": "https://www.ffxiah.com/item-sets/320353",
+      "scope": "Node 227 linked set 320353 \"BST Pet PDT\"",
+      "set_note": "Updated December 12th, 2022. Pangu Route C. Kumbhakarna w/Pet:PDT-5%, DEF+25, VIT+14. Nyame Path D. Artio's Mantle augmented w/Pet:PDT-10%.",
+      "item_ids": [
+        28451,
+        26201,
+        26254,
+        21717,
+        26083,
+        20809,
+        28491,
+        27514,
+        23768,
+        23775,
+        23782,
+        23761,
+        23789
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "4987f33121270147476b8918e6a2b37cad4436538ac8c33302f29fc3bdb4ba1c"
+    },
+    {
+      "key": "node-pet-dt",
+      "url": "https://www.ffxiah.com/item-sets/335128",
+      "scope": "Node 227 linked set 335128 \"BST Pet DT\"",
+      "set_note": "Updated December 12th, 2022. Pangu Route C. Nyame Path D. Artio's Mantle w/Pet:DT-5% or Pet:MDT-10%.",
+      "item_ids": [
+        28451,
+        26083,
+        28495,
+        26201,
+        26254,
+        21717,
+        20812,
+        16297,
+        23782,
+        23768,
+        23761,
+        23775,
+        23789
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "68c497b9066975e26b33b714d6ea28fe7f1633abe33404fb18421ff08c504982"
+    },
+    {
+      "key": "node-pet-tp",
+      "url": "https://www.ffxiah.com/item-sets/264979",
+      "scope": "Node 227 linked set 264979 \"BST Pet TP\"",
+      "set_note": "Updated June 12th, 2025. Skullrenders Path C. Valorous Armor w/Pet:Double Attack+5%, Artio's Mantle w/Pet:Haste+10%.",
+      "item_ids": [
+        20797,
+        20797,
+        26180,
+        28418,
+        27495,
+        28505,
+        26180,
+        26254,
+        25467,
+        25573,
+        26083,
+        27114,
+        21430,
+        23971,
+        24061
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "ed01b7b949a7ce827b82b7801b84c838faedcb0dc4ac6c447aef35d2bbc304e6"
+    },
+    {
+      "key": "node-sic-ready",
+      "url": "https://www.ffxiah.com/item-sets/281814",
+      "scope": "Node 227 linked set 281814 \"BST Sic & Ready\"",
+      "set_note": "Updated February 21st, 2021. Sic & Ready recast-5. Before receiving the 100 Job Point Gift you can use Charmer's Merlin to cap Ready Recast timers.",
+      "item_ids": [
+        20792,
+        23777
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "4038443309382bdc03ff1eb4e154d0a22940dfb68aa89eacbb05b9dad9262258"
+    },
+    {
+      "key": "node-pet-macc",
+      "url": "https://www.ffxiah.com/item-sets/347643",
+      "scope": "Node 227 linked set 347643 \"BST Pet Magic Acc\"",
+      "set_note": "Updated July 3rd, 2026. Hesperiidae Rank 30 (Pet:INT+10). Handler's Earring Rank 15 via Odyssey. Nyame Armor: Path D.",
+      "item_ids": [
+        28418,
+        25467,
+        23782,
+        23775,
+        23761,
+        21430,
+        23784,
+        26234,
+        26119,
+        25470,
+        26230,
+        21738,
+        23768,
+        26254,
+        21730
+      ],
+      "composition_kind": "item_list",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 227; exact /item/<id> links transcribed in page order. Item sets carry no slot positions, ring/earring sides or augment strings beyond the note; quantities preserved (duplicates = two copies).",
+      "observation_sha256": "9cc9ed77411f882237a0df5c74ab03520517817036230a4448d88730689749e1"
+    },
+    {
+      "key": "bg-tp-50dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "scope": "Spalirisos + Ikenga TP: -50% DT (4.073 s)",
+      "grid": {
+        "main": [
+          "Spalirisos (Level 119 II)"
+        ],
+        "sub": [
+          "Ikenga's Axe"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Anu Torque"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Duty Gauntlets"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Artio's Mantle"
+        ],
+        "waist": [
+          "Windbuffet Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "annotation \"DEX, Store TP\" (stat magnitudes not printed)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; range cell is a Category:Ranged placeholder (omission, not intentional empty).",
+      "observation_sha256": "44ed18b7ced1bdd2d0b3d853b10fe145de887b67bf0a64d96233ce62149b9c99"
+    },
+    {
+      "key": "bg-tp-25dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "scope": "Spalirisos + Ikenga TP: -25% DT (3.838 s)",
+      "grid": {
+        "main": [
+          "Spalirisos (Level 119 II)"
+        ],
+        "sub": [
+          "Ikenga's Axe"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Anu Torque"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Dedition Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Duty Gauntlets"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; range cell is a Category:Ranged placeholder (omission, not intentional empty).",
+      "observation_sha256": "109b79118ef38daa5171cd8e42e845de45576a200f63d40d17b55fd25d6a4a79"
+    },
+    {
+      "key": "bg-blitz",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "scope": "Blitz*: Mid buff 41134 / High buff 57811 (two grids)",
+      "grid": {
+        "main": [
+          "Spalirisos (Level 119 II)"
+        ],
+        "sub": [
+          "Ikenga's Axe"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Ankusa Helm +4"
+        ],
+        "neck": [
+          "Bst. Collar +2"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Hoxne Earring"
+        ],
+        "body": [
+          "Nukumi Gausape +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Artio's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "\"STR, Weapon Skill Damage\"",
+        "high_buff": "Crepuscular Pebble, Nukumi Earring +1, Gleti's Cuirass, Tot. Gloves +4, Sroda Ring, Epaminondas's Ring, Nukumi Ocreae +3 swaps"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; range cell is a Category:Ranged placeholder (omission, not intentional empty).",
+      "observation_sha256": "d9b8384854c9aef6ca56ce2058c1b2494e393f7213c18536c1ef74ed14bbbc54"
+    },
+    {
+      "key": "bg-rampage",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "scope": "Rampage*: Mid buff 19301 (Spalirisos II) / High buff 22192 (Farsha Level 119 III main)",
+      "grid": {
+        "main": [
+          "Spalirisos (Level 119 II)"
+        ],
+        "sub": [
+          "Ikenga's Axe"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Blistering Sallet +1"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Hoxne Earring"
+        ],
+        "ear2": [
+          "Lugra Earring +1"
+        ],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [
+          "Duty Gauntlets"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Artio's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Gleti's Breeches"
+        ],
+        "feet": [
+          "Lustra. Leggings +1"
+        ]
+      },
+      "source_options": {
+        "back": "\"STR, Crit Rate\"",
+        "feet": "Path D (not inherited)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; range cell is a Category:Ranged placeholder (omission, not intentional empty).",
+      "observation_sha256": "011232abab2c251e4ce8a68e173e8600fd84fb05be28ae2f22f70e021fc92808"
+    },
+    {
+      "key": "bg-mistral",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "scope": "Mistral Axe*: Mid buff 36519 / High buff 48732 (Tri-edge main)",
+      "grid": {
+        "main": [
+          "Tri-edge"
+        ],
+        "sub": [
+          "Ikenga's Axe"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Ankusa Helm +4"
+        ],
+        "neck": [
+          "Rep. Plat. Medal"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Thrud Earring"
+        ],
+        "body": [
+          "Nukumi Gausape +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Sroda Ring"
+        ],
+        "ring2": [
+          "Gere Ring"
+        ],
+        "back": [
+          "Artio's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "\"STR, Weapon Skill Damage\"",
+        "notes": "Tri-edge (Empyrean-class) main not transferred"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; range cell is a Category:Ranged placeholder (omission, not intentional empty).",
+      "observation_sha256": "3dbb22f1ccc5a09ea0a6f50349a3a9561407e35de11d23fce3e490ba3c724224"
+    },
+    {
+      "key": "bg-ready",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG Ready (rev709840): Ready recast 30s per charge; minimum 10s per charge with all effects; Aymur (Level 75~119) Main slot Pet: TP Bonus+1000; Gleti's Breeches/Desultor Tassets/Charmer's Merlin Ready recast -5s; Nukumi Manoplas +3 Pet: TP Bonus+700.",
+        "Ready charge costs vary by move; no damage or TP model adopted."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "0ba8a952b16bc223c18a06a6d8bdc654bae1dfa9424c74f7f86cda7de6404af0"
+    },
+    {
+      "key": "node-inventory",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "48 node 227 item sets fetched (PDT, MDT, Idle Regen/Refresh/Regain, Killer DT, TP Malignance/Gleti PDL/MA, DW non-DM, TP max buffs, DNC/NIN Aymur AM3, eleven WS sets, Ready Low/High/Max acc, multihit, magic, Pet PDT/DT/TP, Sic & Ready, Pet Magic Acc, Metallic Body, Call Beast, Reward, Feral Howl, Charm, Fast Cast, Waltz, Stoneskin, Cure received and beginner/returning sets).",
+        "Selected scopes are a subset; unselected scopes (Reward, Call Beast, Charm, Killer Instinct utility, Metallic Body, beginner sets) are not rejections and remain later obligations."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "b0f28f2bca38dbf39f7908848f73a13997ba343c08af827f8e915d405d25a777"
+    },
+    {
+      "key": "community-guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG Community Beastmaster Guide (rev745000, footer 22 August 2025) is a prose stub with an empty Equipment section; support-job prose: /DNC and /NIN dual wield, /DRK and /SAM two-handed, /WHM best for pet-only, /RUN or /BLU for tanking.",
+        "No equipment set taken from it; job-trait and pet-level prose is opinion."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "af520edc65313f50bdc9e003f9083c81b9aac12f57206af1ec56eda4ab950674"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/227",
+      "title": "The Beastmaster Compendium (FFXIAH node 227)",
+      "locator": "FFXIAH node 227 \"The Beastmaster Compendium\" (Quetzalcoatl.Falkirk; forum topic 45830 \"Killer Instinct: The Beastmaster Compendium\"), rendered page \"Last Modified: 2026-06-25 20:01:27\"; FFXIAH exposes no revision id. 48 linked item-set pages fetched same-origin in the built-in browser on 2026-11-05.",
+      "findings": [
+        "Separates master melee/WS/defense, pet physical/multi-hit/magical Ready, pet accuracy, pet DT/PDT, Sic/Ready recast and utility sets; set notes carry Odyssey ranks, paths and random augments that Nexus does not inherit.",
+        "Damage Limit+ section lists Nukumi Earring and pet level+ gear; Compendium prose (BG guide) states pet level+ gear only affects iLvl pets: no pet-level total adopted."
+      ],
+      "observation_sha256": "73388d93a4ed2875ec65c6efcef6ad23e06ee7093ffd2fbf23a7966c21813163"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Beastmaster",
+      "title": "All Jobs Gear Sets/Beastmaster",
+      "locator": "Rendered current page; wgRevisionId/wgCurRevisionId 772439; footer 13 July 2026 21:45; notes \"Updated 2026 May 02\". Author guide (not collaborative). index.php oldid permanent link not used (Cloudflare bot check risk); revision rests on the rendered page's own wgRevisionId.",
+      "findings": [
+        "Master WS (Blitz, Decimation, Mistral Axe, Onslaught, Calamity, Rampage, Ruinator, Bora Axe, Primal Rend, Cloudsplitter) and Spalirisos+Ikenga TP grids only; no pet, idle or Ready sets.",
+        "Most Odyssey equipment assumes Rank 30, Nyame Rank 25 Path B; Fernagu excluded. Simulated damage figures are the author's, not adopted."
+      ],
+      "observation_sha256": "3529d1327ac4658835ed007c02b5e16280ed9d37ebac6b24c2fe67dc37072d24"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Community_Beastmaster_Guide",
+      "title": "Community Beastmaster Guide",
+      "locator": "Rendered revision 745000; footer 22 August 2025",
+      "findings": [
+        "Equipment section empty (stub).",
+        "Support-job and merit prose only."
+      ],
+      "observation_sha256": "d791dcad494fa54c0568ab438146e6e591ad22cd717447162630e96e2658961e"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Ready",
+      "title": "Ready",
+      "locator": "Rendered revision 709840; footer 31 July 2024",
+      "findings": [
+        "BST25; 30s per charge; minimum 10s per charge after merits/gifts/gear; jug pet Sic becomes Ready.",
+        "Aymur Main: Pet TP Bonus+1000; Nukumi Manoplas +3 Pet TP Bonus+700; Gleti's Breeches Ready recast -5s."
+      ],
+      "observation_sha256": "b1fb9fba6fd87cc41f04d4c393ce1f4c69ff26728efe43d43e1b20cfaa397f85"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Sic",
+      "title": "Sic",
+      "locator": "Rendered revision 753952; footer 22 December 2025",
+      "findings": [
+        "Sic recast 1:30; random move; pet uses move at 100% TP.",
+        "Same Aymur/Manoplas/Gleti modifiers as Ready."
+      ],
+      "observation_sha256": "e7a95bb121edffd48d73cb19266452b0f5fb1a8eddb6d45156a054cefd476b66"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Dual_Wield",
+      "title": "Dual Wield",
+      "locator": "Rendered revision 753673; footer 16 December 2025",
+      "findings": [
+        "DNC40 DW II (15%), NIN45 DW III (25%): /DNC49 and /NIN49 support dual wield; /WHM49 does not.",
+        "Main-hand only: TP Bonus (except Magian/Odyssey), Parrying/Magic Accuracy skill, unique Ultimate Weapon stats (job-specific Mythic bonuses, aftermath) and ultimate augments."
+      ],
+      "observation_sha256": "ee8d2852d74c81f8428b8945917dc18d15f8bd7baa3896d0ee9e0822c9fcf884"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Telopanos_Axe",
+      "title": "Telopanos Axe",
+      "locator": "Rendered revision 768660; footer 14 June 2026",
+      "findings": [
+        "BST; \"Main hand: Pet: Accuracy+32 Ranged Accuracy+32 Magic Accuracy+32 Lv.+2\"; base Haste+5%, PDL+10%, DT-5%.",
+        "Rank 30 augments (Pet dmg+5%) not inherited."
+      ],
+      "observation_sha256": "094f8fa8f0a3aafd6e826b17526348ca06834d67ff8b5fc50001e8346e3dcc62"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Aymur_(Level_119_II)",
+      "title": "Aymur (Level 119 II)",
+      "locator": "Rendered revision 565071; footer 19 September 2018; FFXIAH exact ID 20793",
+      "findings": [
+        "Pet: Attack Bonus V; Enhances \"Sic\" and \"Ready\" effect; Primal Rend; Afterglow.",
+        "Level 119 III (21751) is a different exact ID used by node 342233."
+      ],
+      "observation_sha256": "6358e7680d7eb91e7430aa7215c9250060b403595d366b2a554bab0e327e6d20"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Spalirisos_(Level_119_III)",
+      "title": "Spalirisos (Level 119 III)",
+      "locator": "Rendered revision 692670; footer 29 November 2023; FFXIAH exact ID 21730",
+      "findings": [
+        "Pet: Accuracy+35/Ranged/Magic Accuracy+35, Lv.+3; Blitz; Prime aftermath (incl. pets) PDL+.",
+        "Level 119 II is exact ID 21729 (BG All Jobs grids); Level 119 is 21728 with Sortie-only Blitz."
+      ],
+      "observation_sha256": "ad3be73d04fe0ac2ca6a0c1b845f0b80f4caf01107d86489e6c546aac6b5e018"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Blitz",
+      "title": "Blitz",
+      "locator": "Rendered revision 689650; footer 7 October 2023",
+      "findings": [
+        "Fivefold axe WS; BST99 via Spalirisos (Level 119) in Sortie, Level 119 II/III anywhere.",
+        "fTP 1.5/7/12.5; 32% STR/32% DEX."
+      ],
+      "observation_sha256": "4536e714e02199916b0fe918cee05b9d7f2ad9c63ee4bc70856dc69991af8134"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Rampage",
+      "title": "Rampage",
+      "locator": "Rendered revision 741040; footer 29 June 2025",
+      "findings": [
+        "Axe 175; WAR/BST55; five hits, crit rate varies with TP.",
+        "fTP replicating WS; 50% STR."
+      ],
+      "observation_sha256": "43e7f2ba3b4498033bc9f4ed063f7a21a72f0c1f6b257a810ee96c25b55334eb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Mistral_Axe",
+      "title": "Mistral Axe",
+      "locator": "Rendered revision 777215; footer 28 August 2026",
+      "findings": [
+        "Axe 225; BST65/WAR66 main job only (or Beryllium Pick main for DRK/RUN); ranged, usable from 15'.",
+        "Single hit, damage varies with TP; 50% STR."
+      ],
+      "observation_sha256": "1d102b0eff478a97a05770a0514e59087e1dba81276e741a9171509118a244c0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Diamond_Aspis",
+      "title": "Diamond Aspis",
+      "locator": "Rendered revision 770015; footer 23 June 2026",
+      "findings": [
+        "Shield size 2; WAR/WHM/RDM/THF/PLD/BST.",
+        "Ability-duration extension applies to self only."
+      ],
+      "observation_sha256": "d8b354ca70c746bfc155a06f619081892d1abc8916ff0c40f2f66100c0501bd3"
+    }
+  ],
+  "access": "Built-in browser rendered BG-Wiki /ffxi/ pages (All Jobs Gear Sets/Beastmaster wgRevisionId 772439; mechanics and item pages with their own revision ids) and FFXIAH node 227 plus its linked item-set pages (no revision ids; node last-modified stamp and per-set update notes recorded). No index.php oldid link was requested and no Cloudflare/bot check was completed or bypassed. No Lua execution or inventory loading."
+}

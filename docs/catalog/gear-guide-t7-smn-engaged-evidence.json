@@ -1,0 +1,2086 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Nova alone",
+  "node": {
+    "capture": {
+      "url": "https://www.ffxiah.com/node/380",
+      "status": 200,
+      "retrieved_at": "2026-11-05T16:48:40.183822+00:00",
+      "body_sha256": "037fd07b7271179fed86574250c808884905600a7a764bd09081435755a3bd1d",
+      "last_modified": null,
+      "etag": null
+    },
+    "author_update_label": "Updated Jan 2026",
+    "date_last_modified": "2026-01-31 11:48:12",
+    "melee_context": "Guide links401864/401863/401865 and states /SAM Hasso or /WAR Double Attack alternatives. No complete buff/haste requirement, accuracy target or master staff/grip is supplied. Nexus chooses /WAR low-buff, avatar alive, no numeric haste/delay guarantee."
+  },
+  "observations": [
+    {
+      "id": "smn:second-pass:grid:401864:2026-11-05",
+      "item_set_id": 401864,
+      "capture": {
+        "url": "https://www.ffxiah.com/item-sets/401864",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:48:40.343882+00:00",
+        "body_sha256": "975e6341d301661ff421378d5c1be49a329c94a4d5f42dcdacb2443bfbe948ef",
+        "last_modified": null,
+        "etag": null
+      },
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          25573
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          14813
+        ],
+        "ear2": [
+          26118
+        ],
+        "body": [
+          25796
+        ],
+        "hands": [
+          25834
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26181
+        ],
+        "back": [
+          26260
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          25885
+        ],
+        "feet": [
+          28292
+        ]
+      },
+      "cells": [
+        {
+          "slot": "main",
+          "index": 1,
+          "item_ids": [],
+          "placeholder_number": 1,
+          "cell_sha256": "5f82da5cb5b0ff3a5d32603344c5330e76fa42a077e736b474c595f8e6894ebe"
+        },
+        {
+          "slot": "sub",
+          "index": 2,
+          "item_ids": [],
+          "placeholder_number": 2,
+          "cell_sha256": "3702e7d76c804f0a6febef07f6159bd0bea5308061fbcbb06edb55f597503ea0"
+        },
+        {
+          "slot": "range",
+          "index": 3,
+          "item_ids": [],
+          "placeholder_number": 3,
+          "cell_sha256": "e83df75d69750b130b27c53f43038f374494019208dc56f54bc1d01905382987"
+        },
+        {
+          "slot": "ammo",
+          "index": 4,
+          "item_ids": [],
+          "placeholder_number": 4,
+          "cell_sha256": "127f9c17b27f17f1a12cc71cd537246987f397eea96bece7eee5992974ddeb6b"
+        },
+        {
+          "slot": "head",
+          "index": 5,
+          "item_ids": [
+            25573
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "4b59a76c7987a2b04ee8a10d95d28844328a854cf654e71f6ff7b9934ee890ca"
+        },
+        {
+          "slot": "neck",
+          "index": 6,
+          "item_ids": [
+            26004
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "4852196d0b0a33a822823725ed314c3f31c8f4df5e7628a7d0da1d402f1b3e6e"
+        },
+        {
+          "slot": "ear1",
+          "index": 7,
+          "item_ids": [
+            14813
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "b326d56998ebb2f55ee0288d9ccec3546712152bb228aa0ffe285b4c70faad95"
+        },
+        {
+          "slot": "ear2",
+          "index": 8,
+          "item_ids": [
+            26118
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f6bf14a54b9b83d44821ef5032513851eb5fc43ed2088e7ad62f0460eac4be97"
+        },
+        {
+          "slot": "body",
+          "index": 9,
+          "item_ids": [
+            25796
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "ed1c32710bddec96df5a992426767c204959fae43181aeabdc8564dbc5d23e60"
+        },
+        {
+          "slot": "hands",
+          "index": 10,
+          "item_ids": [
+            25834
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "d12de7803b7b43fedb14968d9881f7029fc40474ea4ed36e19371fdb9bd0f048"
+        },
+        {
+          "slot": "ring1",
+          "index": 11,
+          "item_ids": [
+            10772
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "98674ae8db2f8bd5716629635af009b12ff5ce04449cb298d9fb21a51277d674"
+        },
+        {
+          "slot": "ring2",
+          "index": 12,
+          "item_ids": [
+            26181
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "4c7c8648bcd12ba046872d5b0f486b6c7bceb90a6e3b7577a9885780450ba66e"
+        },
+        {
+          "slot": "back",
+          "index": 13,
+          "item_ids": [
+            26260
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "c8634405983daada6ec976c429b0a6d074debf463da0f282d65fdcf7d3002810"
+        },
+        {
+          "slot": "waist",
+          "index": 14,
+          "item_ids": [
+            28408
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "38e404a5a2e164cd8d0381e3e481cb25327fdc5a689f8976cdb4eab8809fa0a6"
+        },
+        {
+          "slot": "legs",
+          "index": 15,
+          "item_ids": [
+            25885
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "9daf0dec35841f0a13d0c1e73f3f2544ea418bc1aa79164bb6cf9be7b4ff5828"
+        },
+        {
+          "slot": "feet",
+          "index": 16,
+          "item_ids": [
+            28292
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "0aefb9853f0cf6e9b583c7534ff2ec69aebf11e4358a2189ebe238e05d5dcc32"
+        }
+      ],
+      "equipment_macro_lines": [
+        {
+          "slot": "body",
+          "name": "Tali'ah Manteel +2"
+        },
+        {
+          "slot": "ring1",
+          "name": "Petrov Ring"
+        },
+        {
+          "slot": "ear1",
+          "name": "Brutal Earring"
+        },
+        {
+          "slot": "neck",
+          "name": "Lissome Necklace"
+        },
+        {
+          "slot": "back",
+          "name": "Campestres's Cape"
+        },
+        {
+          "slot": "hands",
+          "name": "Tali'ah Gages +2"
+        },
+        {
+          "slot": "legs",
+          "name": "Tali'ah Sera. +2"
+        },
+        {
+          "slot": "feet",
+          "name": "Battlecast Gaiters"
+        },
+        {
+          "slot": "ear2",
+          "name": "Sroda Earring"
+        },
+        {
+          "slot": "head",
+          "name": "Tali'ah Turban +2"
+        },
+        {
+          "slot": "waist",
+          "name": "Grunfeld Rope"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring"
+        }
+      ],
+      "current_set_note": null,
+      "title": "Starter Melee SMN",
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "boundary": "Omitted weapons/ammo/range are source omissions, not a complete loadout or instructions to clear equipped items. No page revision/Last-Modified supplied; current raw capture does not prove table currency or upstream drift.",
+      "observation_sha256": "9e05efffce038e3518388bf87671cb62bd6cc3cdd400604f2b530cab1c3b6b5e"
+    },
+    {
+      "id": "smn:second-pass:grid:401863:2026-11-05",
+      "item_set_id": 401863,
+      "capture": {
+        "url": "https://www.ffxiah.com/item-sets/401863",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:48:40.543612+00:00",
+        "body_sha256": "9c61393aadc0660bb25b7d11fede9b737a7a9c86bc70463a89a8e26cf2ba66f0",
+        "last_modified": null,
+        "etag": null
+      },
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23760
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          26119
+        ],
+        "ear2": [
+          26118
+        ],
+        "body": [
+          25796
+        ],
+        "hands": [
+          23774
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26274
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "cells": [
+        {
+          "slot": "main",
+          "index": 1,
+          "item_ids": [],
+          "placeholder_number": 1,
+          "cell_sha256": "5f82da5cb5b0ff3a5d32603344c5330e76fa42a077e736b474c595f8e6894ebe"
+        },
+        {
+          "slot": "sub",
+          "index": 2,
+          "item_ids": [],
+          "placeholder_number": 2,
+          "cell_sha256": "3702e7d76c804f0a6febef07f6159bd0bea5308061fbcbb06edb55f597503ea0"
+        },
+        {
+          "slot": "range",
+          "index": 3,
+          "item_ids": [],
+          "placeholder_number": 3,
+          "cell_sha256": "e83df75d69750b130b27c53f43038f374494019208dc56f54bc1d01905382987"
+        },
+        {
+          "slot": "ammo",
+          "index": 4,
+          "item_ids": [],
+          "placeholder_number": 4,
+          "cell_sha256": "127f9c17b27f17f1a12cc71cd537246987f397eea96bece7eee5992974ddeb6b"
+        },
+        {
+          "slot": "head",
+          "index": 5,
+          "item_ids": [
+            23760
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "89eb656b71fe486145c1dfcacc41223ac229d2170ca8f73a8efb601f880b2e84"
+        },
+        {
+          "slot": "neck",
+          "index": 6,
+          "item_ids": [
+            26004
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "4852196d0b0a33a822823725ed314c3f31c8f4df5e7628a7d0da1d402f1b3e6e"
+        },
+        {
+          "slot": "ear1",
+          "index": 7,
+          "item_ids": [
+            26119
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "87a7a6eec70d2fe929656f7dd04f03ffa9f3410a9a55e2e65a87cb9df0deb5c5"
+        },
+        {
+          "slot": "ear2",
+          "index": 8,
+          "item_ids": [
+            26118
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f6bf14a54b9b83d44821ef5032513851eb5fc43ed2088e7ad62f0460eac4be97"
+        },
+        {
+          "slot": "body",
+          "index": 9,
+          "item_ids": [
+            25796
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "ed1c32710bddec96df5a992426767c204959fae43181aeabdc8564dbc5d23e60"
+        },
+        {
+          "slot": "hands",
+          "index": 10,
+          "item_ids": [
+            23774
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "5fa0f025fefe0997ca792e0b1c50ae0c463101d728f7bd07f2126c680b71bde2"
+        },
+        {
+          "slot": "ring1",
+          "index": 11,
+          "item_ids": [
+            10772
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "98674ae8db2f8bd5716629635af009b12ff5ce04449cb298d9fb21a51277d674"
+        },
+        {
+          "slot": "ring2",
+          "index": 12,
+          "item_ids": [
+            26182
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "e4c13d2f20ecc2878c9c46dbc514ef208cd3a411082cf5d68ee5e9f07af731bd"
+        },
+        {
+          "slot": "back",
+          "index": 13,
+          "item_ids": [
+            26274
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f063caf4c68b1227521265973adcc41d05e4a5581ce715fe2f60620859de14a8"
+        },
+        {
+          "slot": "waist",
+          "index": 14,
+          "item_ids": [
+            28440
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f8886bbe4b1248b84d93791631eca54a7ee8f815c34f27deb2cc0184dd2d8aa6"
+        },
+        {
+          "slot": "legs",
+          "index": 15,
+          "item_ids": [
+            23782
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "a1028f8db219116f19136dfacb56f25ba7b6a5da3590c0ec2347d27de7368b83"
+        },
+        {
+          "slot": "feet",
+          "index": 16,
+          "item_ids": [
+            23789
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "c33eaa590580bd077a479504f634b98da11096de111e58012218bd57671b1ce6"
+        }
+      ],
+      "equipment_macro_lines": [
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat"
+        },
+        {
+          "slot": "body",
+          "name": "Tali'ah Manteel +2"
+        },
+        {
+          "slot": "hands",
+          "name": "Bunzi's Gloves"
+        },
+        {
+          "slot": "legs",
+          "name": "Nyame Flanchard"
+        },
+        {
+          "slot": "feet",
+          "name": "Nyame Sollerets"
+        },
+        {
+          "slot": "neck",
+          "name": "Lissome Necklace"
+        },
+        {
+          "slot": "back",
+          "name": "Null Shawl"
+        },
+        {
+          "slot": "ear1",
+          "name": "Alabaster Earring"
+        },
+        {
+          "slot": "ear2",
+          "name": "Sroda Earring"
+        },
+        {
+          "slot": "waist",
+          "name": "Windbuffet Belt +1"
+        },
+        {
+          "slot": "ring1",
+          "name": "Petrov Ring"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring +1"
+        }
+      ],
+      "current_set_note": null,
+      "title": "SMN Melee",
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "boundary": "Omitted weapons/ammo/range are source omissions, not a complete loadout or instructions to clear equipped items. No page revision/Last-Modified supplied; current raw capture does not prove table currency or upstream drift.",
+      "observation_sha256": "1065c837e4cc99678400b022412109a93b24ac8368d192fe70d51d6f2a4adf29"
+    },
+    {
+      "id": "smn:second-pass:grid:401865:2026-11-05",
+      "item_set_id": 401865,
+      "capture": {
+        "url": "https://www.ffxiah.com/item-sets/401865",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:48:40.723571+00:00",
+        "body_sha256": "5bedb35eb826adf3209a390fa759120f955c43a9e097b1e746192b9bc05b2d1b",
+        "last_modified": null,
+        "etag": null
+      },
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23760
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          26118
+        ],
+        "ear2": [
+          27544
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23774
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26274
+        ],
+        "waist": [
+          11729
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "cells": [
+        {
+          "slot": "main",
+          "index": 1,
+          "item_ids": [],
+          "placeholder_number": 1,
+          "cell_sha256": "5f82da5cb5b0ff3a5d32603344c5330e76fa42a077e736b474c595f8e6894ebe"
+        },
+        {
+          "slot": "sub",
+          "index": 2,
+          "item_ids": [],
+          "placeholder_number": 2,
+          "cell_sha256": "3702e7d76c804f0a6febef07f6159bd0bea5308061fbcbb06edb55f597503ea0"
+        },
+        {
+          "slot": "range",
+          "index": 3,
+          "item_ids": [],
+          "placeholder_number": 3,
+          "cell_sha256": "e83df75d69750b130b27c53f43038f374494019208dc56f54bc1d01905382987"
+        },
+        {
+          "slot": "ammo",
+          "index": 4,
+          "item_ids": [],
+          "placeholder_number": 4,
+          "cell_sha256": "127f9c17b27f17f1a12cc71cd537246987f397eea96bece7eee5992974ddeb6b"
+        },
+        {
+          "slot": "head",
+          "index": 5,
+          "item_ids": [
+            23760
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "89eb656b71fe486145c1dfcacc41223ac229d2170ca8f73a8efb601f880b2e84"
+        },
+        {
+          "slot": "neck",
+          "index": 6,
+          "item_ids": [
+            26004
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "4852196d0b0a33a822823725ed314c3f31c8f4df5e7628a7d0da1d402f1b3e6e"
+        },
+        {
+          "slot": "ear1",
+          "index": 7,
+          "item_ids": [
+            26118
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f6bf14a54b9b83d44821ef5032513851eb5fc43ed2088e7ad62f0460eac4be97"
+        },
+        {
+          "slot": "ear2",
+          "index": 8,
+          "item_ids": [
+            27544
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "b931b83f5a7831117bfc69fb1e4ea6e3802750ad4eeb37e563f200dfb5789cdf"
+        },
+        {
+          "slot": "body",
+          "index": 9,
+          "item_ids": [
+            23768
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "a21bd1c9ce796612908959bd19a3f67b0bad7b8de5721353ab765dc78d677dc5"
+        },
+        {
+          "slot": "hands",
+          "index": 10,
+          "item_ids": [
+            23774
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "5fa0f025fefe0997ca792e0b1c50ae0c463101d728f7bd07f2126c680b71bde2"
+        },
+        {
+          "slot": "ring1",
+          "index": 11,
+          "item_ids": [
+            10772
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "98674ae8db2f8bd5716629635af009b12ff5ce04449cb298d9fb21a51277d674"
+        },
+        {
+          "slot": "ring2",
+          "index": 12,
+          "item_ids": [
+            26182
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "e4c13d2f20ecc2878c9c46dbc514ef208cd3a411082cf5d68ee5e9f07af731bd"
+        },
+        {
+          "slot": "back",
+          "index": 13,
+          "item_ids": [
+            26274
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "f063caf4c68b1227521265973adcc41d05e4a5581ce715fe2f60620859de14a8"
+        },
+        {
+          "slot": "waist",
+          "index": 14,
+          "item_ids": [
+            11729
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "50ba55453c1b5f6e35c246d162c18ece51b36ac282bac7bebd6285a726149132"
+        },
+        {
+          "slot": "legs",
+          "index": 15,
+          "item_ids": [
+            23782
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "a1028f8db219116f19136dfacb56f25ba7b6a5da3590c0ec2347d27de7368b83"
+        },
+        {
+          "slot": "feet",
+          "index": 16,
+          "item_ids": [
+            23789
+          ],
+          "placeholder_number": null,
+          "cell_sha256": "c33eaa590580bd077a479504f634b98da11096de111e58012218bd57671b1ce6"
+        }
+      ],
+      "equipment_macro_lines": [
+        {
+          "slot": "body",
+          "name": "Nyame Mail"
+        },
+        {
+          "slot": "legs",
+          "name": "Nyame Flanchard"
+        },
+        {
+          "slot": "feet",
+          "name": "Nyame Sollerets"
+        },
+        {
+          "slot": "hands",
+          "name": "Bunzi's Gloves"
+        },
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat"
+        },
+        {
+          "slot": "neck",
+          "name": "Lissome Necklace"
+        },
+        {
+          "slot": "ear1",
+          "name": "Sroda Earring"
+        },
+        {
+          "slot": "back",
+          "name": "Null Shawl"
+        },
+        {
+          "slot": "ring1",
+          "name": "Petrov Ring"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring +1"
+        },
+        {
+          "slot": "ear2",
+          "name": "Dedition Earring"
+        },
+        {
+          "slot": "waist",
+          "name": "Goading Belt"
+        }
+      ],
+      "current_set_note": null,
+      "title": "SMN Melee v2",
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "boundary": "Omitted weapons/ammo/range are source omissions, not a complete loadout or instructions to clear equipped items. No page revision/Last-Modified supplied; current raw capture does not prove table currency or upstream drift.",
+      "observation_sha256": "c78ba2685f6162653dfa56f6dc33c48a039dfdf9e3df59aa872a7e2825f2ddde"
+    }
+  ],
+  "items": [
+    {
+      "id": "smn:second-pass:item:10772:2026-11-05",
+      "item_id": 10772,
+      "name": "Petrov Ring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/10772",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:21.790926+00:00",
+        "body_sha256": "463eff085484c9b935192c6921cf668d7c5e2cec335b3794d671a486c5e02c52",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Finger] All Races STR+3 DEX+3 VIT+3 AGI+3 Enmity+4\n\"Double Attack\"+1% \"Store TP\"+5 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 10772,
+        "en": "Petrov Ring",
+        "enl": "petrov ring",
+        "category": "Armor",
+        "slots": 24576,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63572,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "011875e9bac0d0686d094ad1abaeac47b70527b70eb7722cb9d6b205793e7625",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:13566:2026-11-05",
+      "item_id": 13566,
+      "name": "Defending Ring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/13566",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:22.165373+00:00",
+        "body_sha256": "b097a18a2acb88a76cd38117e97aa7b1e095f639307583a70095f2d2f53f223d",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Finger] All Races Damage taken-10% LV 70 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 13566,
+        "en": "Defending Ring",
+        "enl": "defending ring",
+        "category": "Armor",
+        "slots": 24576,
+        "jobs": 8388606,
+        "level": 70,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63568,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "03f8699a6c4bc7d5622c8c9c46d5b37ae2379f543340c3a93ff936fd82c95ec0",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:21381:2026-11-05",
+      "item_id": 21381,
+      "name": "Seraphicaller",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/21381",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:22.457262+00:00",
+        "body_sha256": "f6026a1802875d6ce1023655412d73108887a33ba926a014ec91046aeb674abc",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Ammo] All Races \"Blood Pact\" recast time II -5\nAvatar: Lv. 119 LV 99 SMN",
+      "resource": {
+        "id": 21381,
+        "en": "Seraphicaller",
+        "enl": "seraphicaller",
+        "category": "Weapon",
+        "slots": 8,
+        "jobs": 32768,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63572,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "a58de8bbf863e602e1c1d3a45dff7313b6095f92bf58f148bd520a906ab0b7c6",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:22100:2026-11-05",
+      "item_id": 22100,
+      "name": "Mpaca's Staff",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/22100",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:22.734788+00:00",
+        "body_sha256": "15af1936056660c1d3e19e3f97a2604e1937c460c7cfd4a5e3516e3789fe9b19",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Main] All Races DPS: 4000 DMG:268 Delay:402\nMP+50 INT+15 MND+15\nAccuracy+40 Magic Accuracy+40\n\"Magic Atk. Bonus\"+35\nMagic Damage+263\nStaff skill +242\nParrying skill +242\nMagic Accuracy skill +255\nMagic burst damage II +2\n\"Fast Cast\"+5% \"Refresh\"+2 LV 99 WHM BLM RDM BRD SMN SCH GEO",
+      "resource": {
+        "id": 22100,
+        "en": "Mpaca's Staff",
+        "enl": "Mpaca's staff",
+        "category": "Weapon",
+        "slots": 1,
+        "jobs": 3179576,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 12,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "ed686b77467c386d6b8dde102e52e3668df943fd57d8f2af80200b3e1aad006e",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": "Public Main/Staves and Sub/Grips matched existing reviewed exact-ID hand registry."
+    },
+    {
+      "id": "smn:second-pass:item:22218:2026-11-05",
+      "item_id": 22218,
+      "name": "Khonsu",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/22218",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:23.040292+00:00",
+        "body_sha256": "2aec41dad2afdcd39da44cf64650d48f63e2ee9e8db384e20a1712166fd28e8a",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Sub] All Races Accuracy+30 Magic Accuracy+30\nHaste+4% Enmity-5\nDamage taken -6% LV 99 WAR BLM DRK SAM DRG SMN SCH GEO RUN",
+      "resource": {
+        "id": 22218,
+        "en": "Khonsu",
+        "enl": "Khonsu",
+        "category": "Weapon",
+        "slots": 2,
+        "jobs": 7393554,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "02483ec3621a1b51a4a02d3b3aa461f1035330becc2cd3bb1ed182d8e670b073",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": "Public Main/Staves and Sub/Grips matched existing reviewed exact-ID hand registry."
+    },
+    {
+      "id": "smn:second-pass:item:23760:2026-11-05",
+      "item_id": 23760,
+      "name": "Bunzi's Hat",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/23760",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:23.354260+00:00",
+        "body_sha256": "edcd1fe327d3824588f3fd936a69ea6bdacf1e209f50750fdd3638d2c88f4479",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Head] All Races DEF:131 HP+50 MP+44\nSTR+16 DEX+16 VIT+16\nINT+34 MND+33 CHR+30\nAccuracy+40 Attack+40\nMagic Accuracy+40\n\"Magic Atk. Bonus\"+30\nMagic Damage+30\nEvasion+63 Magic Evasion+123\n\"Magic Def. Bonus\"+8\nHaste+6% Enmity-7\nMagic burst damage +7\n\"Fast Cast\"+10% Damage taken-7%\nPet: Accuracy+50\nRanged Accuracy+50\nMagic Accuracy+50 LV 99 WHM RDM BRD SMN",
+      "resource": {
+        "id": 23760,
+        "en": "Bunzi's Hat",
+        "enl": "Bunzi's hat",
+        "category": "Armor",
+        "slots": 16,
+        "jobs": 33832,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "8ee3f2460290884cbd68b59ceefbad4f8ccf3164b92f5ea666ba6eb4689947a5",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:23768:2026-11-05",
+      "item_id": 23768,
+      "name": "Nyame Mail",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/23768",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:23.818129+00:00",
+        "body_sha256": "863629634da88f11dfb7bd0bf68975e5af7046dda5cda4ca4a0046380ce36a77",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Body] All Races DEF:189 HP+136 MP+88 STR+35 DEX+24\nVIT+35 AGI+33 INT+42 MND+37 CHR+35\nAccuracy+40 Attack+30\nRanged Accuracy+40\nRanged Attack+30\nMagic Accuracy+40\n\"Magic Atk. Bonus\"+30\nEvasion+102 Magic Evasion+139\n\"Magic Def. Bonus\"+8 Haste+3%\nMagic burst damage +7\n\"Skillchain Bonus\"+7\nDamage taken-9%\nPet: Acc.+50\nRanged Acc.+50\nMagic Acc.+50 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 23768,
+        "en": "Nyame Mail",
+        "enl": "Nyame mail",
+        "category": "Armor",
+        "slots": 32,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "f645c1aa17e5419f3f19b3014b599efb76ed0783edb6c248ba477924a160bc2a",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:23774:2026-11-05",
+      "item_id": 23774,
+      "name": "Bunzi's Gloves",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/23774",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:24.124416+00:00",
+        "body_sha256": "d38b495710937aee1a3f78a5e7b5b80b24e2c6f4e53ca33fa33861fc5ec3581f",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Hands] All Races DEF:119 HP+50 MP+53 STR+10\nDEX+29 VIT+26 AGI+7\nINT+34 MND+47 CHR+30\nAccuracy+40 Attack+40\nMagic Accuracy+40\n\"Magic Atk. Bonus\"+30\nMagic Damage+30\nEvasion+52 Magic Evasion+112\n\"Magic Def. Bonus\"+7\nHaste+3% Enmity-8\n\"Double Attack\"+8%\nMagic burst damage +8\nDamage taken-8%\nPet: Accuracy+50\nRanged Acc.+50\nMagic Acc.+50 LV 99 WHM RDM BRD SMN",
+      "resource": {
+        "id": 23774,
+        "en": "Bunzi's Gloves",
+        "enl": "Bunzi's gloves",
+        "category": "Armor",
+        "slots": 64,
+        "jobs": 33832,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "164ec52e539e1e54ab9aece90006cf2d3304347246c52038a0dfeba6775142e3",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:23782:2026-11-05",
+      "item_id": 23782,
+      "name": "Nyame Flanchard",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/23782",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:24.403899+00:00",
+        "body_sha256": "bc40126f7d5e29b0ab769623dee284d63d7b0b31d8eb02f2d99d912ff7dcf8b3",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Legs] All Races DEF:169 HP+114 MP+59 STR+43 VIT+30\nAGI+34 INT+44 MND+32 CHR+24\nAccuracy+40 Attack+30\nRanged Accuracy+40\nRanged Attack+30\nMagic Accuracy+40\n\"Magic Atk. Bonus\"+30\nEvasion+85 Magic Evasion+150\n\"Magic Def. Bonus\"+7 Haste+5%\nMagic burst damage +6\n\"Skillchain Bonus\"+6\nDamage taken-8%\nPet: Acc.+50\nRanged Acc.+50\nMagic Acc.+50 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 23782,
+        "en": "Nyame Flanchard",
+        "enl": "Nyame flanchard",
+        "category": "Armor",
+        "slots": 128,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "42277122a433fba3bb02e384ae5407c03bad7750eb5a820d747975d8fbe6195f",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:23789:2026-11-05",
+      "item_id": 23789,
+      "name": "Nyame Sollerets",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/23789",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:24.702173+00:00",
+        "body_sha256": "26541b400a840a19e57fd8ead447b6e84244bde8c2456d0d0ce26681d2502f24",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Feet] All Races DEF:122 HP+68 MP+44 STR+23 DEX+26\nVIT+24 AGI+46 INT+25 MND+26 CHR+38\nAccuracy+40 Attack+30\nRanged Accuracy+40\nRanged Attack+30\nMagic Accuracy+40\n\"Magic Atk. Bonus\"+30\nEva.+119 Magic Eva.+150\n\"Magic Def. Bonus\"+5 Haste+3%\nMagic burst damage +5\n\"Skillchain Bonus\"+5\nDamage taken-7%\nPet: Acc.+50\nRanged Acc.+50\nMagic Acc.+50 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 23789,
+        "en": "Nyame Sollerets",
+        "enl": "Nyame sollerets",
+        "category": "Armor",
+        "slots": 256,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 59456,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "d8bbb4dd175a1a5867095dd9f580f5b60547147965e6527d261defa4816d3de0",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:25573:2026-11-05",
+      "item_id": 25573,
+      "name": "Tali'ah Turban +2",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/25573",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:25.028207+00:00",
+        "body_sha256": "66c6e0a838e93b0f413bf636686922d6ccb2821be9bbe1cdc4f5692bcd5d14d4",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Head] All Races DEF:111 HP+57 MP+38 STR+20\nDEX+34 VIT+30 AGI+23\nINT+15 MND+14 CHR+15\nAccuracy+44 Magic Accuracy+44\nEvasion+33 Magic Evasion+53\n\"Magic Def. Bonus\"+3 Haste+8%\nPet: Accuracy+42\nRanged Accuracy+42\nMagic Accuracy+42\n\"Store TP\"+7\nSet: Increases Dexterity,\nVitality, and Charisma LV 99 BST SMN PUP",
+      "resource": {
+        "id": 25573,
+        "en": "Tali'ah Turban +2",
+        "enl": "tali'ah turban +2",
+        "category": "Armor",
+        "slots": 16,
+        "jobs": 295424,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "dfe2cc1d184322ea71fffb569b0bd9610373e65523fa3d21e1e0d7db551b7942",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:25796:2026-11-05",
+      "item_id": 25796,
+      "name": "Tali'ah Manteel +2",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/25796",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:25.334323+00:00",
+        "body_sha256": "6b1f0d84a561370740b39c79a1b9aba4f9fc5486274218e1f74a16be0daf312a",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Body] All Races DEF:129 HP+70 MP+73 STR+28\nDEX+45 VIT+37 AGI+33\nINT+21 MND+20 CHR+21\nAccuracy+46 Magic Accuracy+46\nEvasion+38 Magic Evasion+64\n\"Magic Def. Bonus\"+6\nHaste+4% \"Triple Attack\"+6%\nPet: Accuracy+46\nRanged Accuracy+46\nMagic Accuracy+46\nSet: Increases Dexterity,\nVitality, and Charisma LV 99 BST SMN PUP",
+      "resource": {
+        "id": 25796,
+        "en": "Tali'ah Manteel +2",
+        "enl": "tali'ah manteel +2",
+        "category": "Armor",
+        "slots": 32,
+        "jobs": 295424,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "9de822db524d44f43a276844b8e445380dd44564ee99d9ec0b27c76fd1bed9dd",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:25834:2026-11-05",
+      "item_id": 25834,
+      "name": "Tali'ah Gages +2",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/25834",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:25.637372+00:00",
+        "body_sha256": "efdddc7726eb7b20b9b816b433b7f0e3e3d0d47a2b00be5fce2ddd7c32ad868b",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Hands] All Races DEF:88 HP+27 MP+20 STR+16\nDEX+50 VIT+44 AGI+11\nINT+14 MND+26 CHR+19\nAccuracy+43 Magic Accuracy+43\nEvasion+19 Magic Evasion+37\n\"Magic Def. Bonus\"+2 Haste+5%\nCritical hit rate+8%\nPet: Accuracy+43\nRanged Accuracy+43\nMagic Accuracy+43\nSet: Increases Dexterity,\nVitality, and Charisma LV 99 BST SMN PUP",
+      "resource": {
+        "id": 25834,
+        "en": "Tali'ah Gages +2",
+        "enl": "tali'ah gages +2",
+        "category": "Armor",
+        "slots": 64,
+        "jobs": 295424,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "ce2d3bbe211c39aba7be3551eab24bd7938a0dee24078e9256b05466bb5096c3",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:25885:2026-11-05",
+      "item_id": 25885,
+      "name": "Tali'ah Sera. +2",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/25885",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:25.971411+00:00",
+        "body_sha256": "d21fbcea5381b6b3a96638cc4463b3ffbe83c5ca58d0f05892905d657c4b780e",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Legs] All Races DEF:110 HP+57 MP+53 STR+33\nDEX+11 VIT+30 AGI+34\nINT+29 MND+15 CHR+10\nAccuracy+45 Magic Accuracy+45\nEvasion+24 Magic Evasion+69\n\"Magic Def. Bonus\"+5 Haste+6%\nPet: Accuracy+45\nRanged Accuracy+45\nMagic Accuracy+45\nDamage taken-5%\nSet: Increases Dexterity,\nVitality, and Charisma LV 99 BST SMN PUP",
+      "resource": {
+        "id": 25885,
+        "en": "Tali'ah Sera. +2",
+        "enl": "tali'ah seraweels +2",
+        "category": "Armor",
+        "slots": 128,
+        "jobs": 295424,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "291719ca6dd61fb2075ab3d152f408e9ec2d4455737df66e38451f40dab6d728",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26002:2026-11-05",
+      "item_id": 26002,
+      "name": "Loricate Torque +1",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26002",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:26.271455+00:00",
+        "body_sha256": "f596f62b46d9d5d89b7b2b5094b0165238a8e7c3200a5ae0d96ccf14d49dc741",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Neck] All Races Damage taken-6%\nUnity Ranking: DEF:+10～15 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 26002,
+        "en": "Loricate Torque +1",
+        "enl": "loricate torque +1",
+        "category": "Armor",
+        "slots": 512,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63569,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "0071c43e3743726de2d8d893b0b595e1365981f0d384dc52f9661ee7c374f6d0",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26004:2026-11-05",
+      "item_id": 26004,
+      "name": "Lissome Necklace",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26004",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:26.587225+00:00",
+        "body_sha256": "92b21b9cb7e1c6e93f601a982114f20cf4aa9b8082c71495d4748eda89b4feb3",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Neck] All Races Accuracy+8 \"Store TP\"+4\n\"Double Attack\"+1% \"Regen\"+1 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 26004,
+        "en": "Lissome Necklace",
+        "enl": "lissome necklace",
+        "category": "Armor",
+        "slots": 512,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63572,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "82e318eade04297c8788ae4dee2c1d6239e5b6d494e79d6117ca2a780e0a5417",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26118:2026-11-05",
+      "item_id": 26118,
+      "name": "Sroda Earring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26118",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:26.897949+00:00",
+        "body_sha256": "fb33bf8dc7ddba6a10cd11cefa35f7b964a6f83ffd076251f8a794f1704ed19b",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Ear] All Races Evasion-10 Magic Evasion-10\nPet Alive: \"Double Attack\"+7%\nPet melee attack DMG+10 LV 99 BST DRG SMN PUP",
+      "resource": {
+        "id": 26118,
+        "en": "Sroda Earring",
+        "enl": "sroda earring",
+        "category": "Armor",
+        "slots": 6144,
+        "jobs": 311808,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 34820,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "6c645f083f2d7e8930b144e89e39ca4456124d7e344ee89b4dbc0126824559c6",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26119:2026-11-05",
+      "item_id": 26119,
+      "name": "Alabaster Earring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26119",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:27.224464+00:00",
+        "body_sha256": "6ca8309cbd52063309f1180f0e67a44a7f0c7885f22bad6e40d864853548cf46",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Ear] All Races DEF:10 HP+100\nHaste+5% Damage taken-5%\nPet: Accuracy+15\nRanged Accuracy+15\nMagic Accuracy+15 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 26119,
+        "en": "Alabaster Earring",
+        "enl": "alabaster earring",
+        "category": "Armor",
+        "slots": 6144,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63552,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "43bcd839aee90280c5967c197bf75c7740cf9fb5939b55df832e3d83cf0af124",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26182:2026-11-05",
+      "item_id": 26182,
+      "name": "Chirich Ring +1",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26182",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:27.529464+00:00",
+        "body_sha256": "cad395f82efe2b2f1abce7a6aea690eda21fc1fae62c71e2a8095b8517d5858a",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Finger] All Races Accuracy+10 \"Store TP\"+6\n\"Subtle Blow\"+10 \"Regen\"+2 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 26182,
+        "en": "Chirich Ring +1",
+        "enl": "chirich ring +1",
+        "category": "Armor",
+        "slots": 24576,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 2080,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "02e04167bd0ff4e8166cd416fdd7a3038e6d9af65d8e667a92fc7c742f7ef48c",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:26274:2026-11-05",
+      "item_id": 26274,
+      "name": "Null Shawl",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/26274",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:27.801750+00:00",
+        "body_sha256": "32f2424e58027cd872374025f51ca7223444eb3043be82c5260de95b4a47ccd7",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Back] All Races Accuracy+50 Ranged Accuracy+50\nMagic Accuracy+50\nEvasion+50 Magic Evasion+50\n\"Double Attack\"+7%\n\"Store TP\"+7 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 26274,
+        "en": "Null Shawl",
+        "enl": "null shawl",
+        "category": "Armor",
+        "slots": 32768,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63568,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "92a52bf96e6f5df09178c3a022a8b73d6cb70829e0de5532c124ce52155f36b9",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:27541:2026-11-05",
+      "item_id": 27541,
+      "name": "Cessance Earring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/27541",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:28.095870+00:00",
+        "body_sha256": "5e02af44fcb2e7b53be41accbce5903fcf55defc3f75de50be09191026245fd9",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Ear] All Races Accuracy+6 \"Double Attack\"+3%\n\"Store TP\"+3 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 27541,
+        "en": "Cessance Earring",
+        "enl": "cessance earring",
+        "category": "Armor",
+        "slots": 6144,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63572,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "89e7352e6a6046306bdf5ccbf0ed0e2caecc17bb4c12061c05fd34e5b7f1f8a1",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:27545:2026-11-05",
+      "item_id": 27545,
+      "name": "Telos Earring",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/27545",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:28.366736+00:00",
+        "body_sha256": "7f6b31cf3130b7ba5521d72fa6abed5efda30c501b2270807613647e8dfed9d0",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Ear] All Races Accuracy+10 Attack+10\nRanged Accuracy+10\nRanged Attack+10\n\"Double Attack\"+1% \"Store TP\"+5 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 27545,
+        "en": "Telos Earring",
+        "enl": "telos earring",
+        "category": "Armor",
+        "slots": 6144,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 63568,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "03cbccd8de98575eb527a26158e08cc2e09e82152c60c5da82f38840dc2d6bd1",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    },
+    {
+      "id": "smn:second-pass:item:28440:2026-11-05",
+      "item_id": 28440,
+      "name": "Windbuffet Belt +1",
+      "capture": {
+        "url": "https://www.ffxiah.com/item/28440",
+        "status": 200,
+        "retrieved_at": "2026-11-05T16:50:28.660991+00:00",
+        "body_sha256": "39447618c75890d9d59823d4bcbb41d126fcc30a4dd19ae54d3be903f9460ad2",
+        "last_modified": null,
+        "etag": null
+      },
+      "printed_stats": "[Waist] All Races DEF:9 Accuracy+2 \"Triple Attack\"+2%\n\"Quadruple Attack\"+2% LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "resource": {
+        "id": 28440,
+        "en": "Windbuffet Belt +1",
+        "enl": "windbuffet belt +1",
+        "category": "Armor",
+        "slots": 1024,
+        "jobs": 8388606,
+        "level": 99,
+        "races": 510,
+        "superior_level": 0,
+        "flags": 34820,
+        "skill": 0,
+        "shield_size": 0
+      },
+      "resource_description_sha256": "0880aaabfa0b0e881484af498da9fc39684d80224b6812ef0eab5c0df99b22de",
+      "scope": "Independent original public card: exact ID/name/slot/SMN99 eligibility and printed base properties, not random rank/path/augment effects or ownership. No source player Lua execution.",
+      "hand_review": null
+    }
+  ],
+  "nexus_reconciliation": [
+    {
+      "definition_key": "engaged-balanced",
+      "source_id": "smn:second-pass:grid:401864:2026-11-05",
+      "same_slots": [
+        "neck",
+        "ear2",
+        "body",
+        "ring1"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "head",
+          "source_item_id": 25573,
+          "nexus_item_id": 23760
+        },
+        {
+          "slot": "ear1",
+          "source_item_id": 14813,
+          "nexus_item_id": 26119
+        },
+        {
+          "slot": "hands",
+          "source_item_id": 25834,
+          "nexus_item_id": 23774
+        },
+        {
+          "slot": "ring2",
+          "source_item_id": 26181,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "back",
+          "source_item_id": 26260,
+          "nexus_item_id": 26274
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 28408,
+          "nexus_item_id": 28440
+        },
+        {
+          "slot": "legs",
+          "source_item_id": 25885,
+          "nexus_item_id": 23782
+        },
+        {
+          "slot": "feet",
+          "source_item_id": 28292,
+          "nexus_item_id": 23789
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-balanced",
+      "source_id": "smn:second-pass:grid:401863:2026-11-05",
+      "same_slots": [
+        "head",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "hands",
+        "ring1",
+        "ring2",
+        "back",
+        "waist",
+        "legs",
+        "feet"
+      ],
+      "nexus_substitutions": [],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-balanced",
+      "source_id": "smn:second-pass:grid:401865:2026-11-05",
+      "same_slots": [
+        "head",
+        "neck",
+        "hands",
+        "ring1",
+        "ring2",
+        "back",
+        "legs",
+        "feet"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "ear1",
+          "source_item_id": 26118,
+          "nexus_item_id": 26119
+        },
+        {
+          "slot": "ear2",
+          "source_item_id": 27544,
+          "nexus_item_id": 26118
+        },
+        {
+          "slot": "body",
+          "source_item_id": 23768,
+          "nexus_item_id": 25796
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 11729,
+          "nexus_item_id": 28440
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-dt",
+      "source_id": "smn:second-pass:grid:401864:2026-11-05",
+      "same_slots": [
+        "ear2"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "head",
+          "source_item_id": 25573,
+          "nexus_item_id": 23760
+        },
+        {
+          "slot": "neck",
+          "source_item_id": 26004,
+          "nexus_item_id": 26002
+        },
+        {
+          "slot": "ear1",
+          "source_item_id": 14813,
+          "nexus_item_id": 26119
+        },
+        {
+          "slot": "body",
+          "source_item_id": 25796,
+          "nexus_item_id": 23768
+        },
+        {
+          "slot": "hands",
+          "source_item_id": 25834,
+          "nexus_item_id": 23774
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 13566
+        },
+        {
+          "slot": "ring2",
+          "source_item_id": 26181,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "back",
+          "source_item_id": 26260,
+          "nexus_item_id": 26274
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 28408,
+          "nexus_item_id": 28440
+        },
+        {
+          "slot": "legs",
+          "source_item_id": 25885,
+          "nexus_item_id": 23782
+        },
+        {
+          "slot": "feet",
+          "source_item_id": 28292,
+          "nexus_item_id": 23789
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-dt",
+      "source_id": "smn:second-pass:grid:401863:2026-11-05",
+      "same_slots": [
+        "head",
+        "ear1",
+        "ear2",
+        "hands",
+        "ring2",
+        "back",
+        "waist",
+        "legs",
+        "feet"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "neck",
+          "source_item_id": 26004,
+          "nexus_item_id": 26002
+        },
+        {
+          "slot": "body",
+          "source_item_id": 25796,
+          "nexus_item_id": 23768
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 13566
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-dt",
+      "source_id": "smn:second-pass:grid:401865:2026-11-05",
+      "same_slots": [
+        "head",
+        "body",
+        "hands",
+        "ring2",
+        "back",
+        "legs",
+        "feet"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "neck",
+          "source_item_id": 26004,
+          "nexus_item_id": 26002
+        },
+        {
+          "slot": "ear1",
+          "source_item_id": 26118,
+          "nexus_item_id": 26119
+        },
+        {
+          "slot": "ear2",
+          "source_item_id": 27544,
+          "nexus_item_id": 26118
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 13566
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 11729,
+          "nexus_item_id": 28440
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-accuracy",
+      "source_id": "smn:second-pass:grid:401864:2026-11-05",
+      "same_slots": [
+        "head",
+        "neck",
+        "body",
+        "hands",
+        "legs"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "ear1",
+          "source_item_id": 14813,
+          "nexus_item_id": 27545
+        },
+        {
+          "slot": "ear2",
+          "source_item_id": 26118,
+          "nexus_item_id": 27541
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "ring2",
+          "source_item_id": 26181,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "back",
+          "source_item_id": 26260,
+          "nexus_item_id": 26274
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 28408,
+          "nexus_item_id": 28440
+        },
+        {
+          "slot": "feet",
+          "source_item_id": 28292,
+          "nexus_item_id": 23789
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-accuracy",
+      "source_id": "smn:second-pass:grid:401863:2026-11-05",
+      "same_slots": [
+        "neck",
+        "body",
+        "ring2",
+        "back",
+        "waist",
+        "feet"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "head",
+          "source_item_id": 23760,
+          "nexus_item_id": 25573
+        },
+        {
+          "slot": "ear1",
+          "source_item_id": 26119,
+          "nexus_item_id": 27545
+        },
+        {
+          "slot": "ear2",
+          "source_item_id": 26118,
+          "nexus_item_id": 27541
+        },
+        {
+          "slot": "hands",
+          "source_item_id": 23774,
+          "nexus_item_id": 25834
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "legs",
+          "source_item_id": 23782,
+          "nexus_item_id": 25885
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    },
+    {
+      "definition_key": "engaged-accuracy",
+      "source_id": "smn:second-pass:grid:401865:2026-11-05",
+      "same_slots": [
+        "neck",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "nexus_substitutions": [
+        {
+          "slot": "head",
+          "source_item_id": 23760,
+          "nexus_item_id": 25573
+        },
+        {
+          "slot": "ear1",
+          "source_item_id": 26118,
+          "nexus_item_id": 27545
+        },
+        {
+          "slot": "ear2",
+          "source_item_id": 27544,
+          "nexus_item_id": 27541
+        },
+        {
+          "slot": "body",
+          "source_item_id": 23768,
+          "nexus_item_id": 25796
+        },
+        {
+          "slot": "hands",
+          "source_item_id": 23774,
+          "nexus_item_id": 25834
+        },
+        {
+          "slot": "ring1",
+          "source_item_id": 10772,
+          "nexus_item_id": 26182
+        },
+        {
+          "slot": "waist",
+          "source_item_id": 11729,
+          "nexus_item_id": 28440
+        },
+        {
+          "slot": "legs",
+          "source_item_id": 23782,
+          "nexus_item_id": 25885
+        }
+      ],
+      "nexus_fills": [
+        {
+          "slot": "main",
+          "item_id": 22100,
+          "state": "selected"
+        },
+        {
+          "slot": "sub",
+          "item_id": 22218,
+          "state": "selected"
+        },
+        {
+          "slot": "range",
+          "item_id": null,
+          "state": "intentional empty"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 21381,
+          "state": "selected"
+        }
+      ]
+    }
+  ],
+  "source_currency": "FFXIAH no revision IDs or HTTP Last-Modified/ETag returned; each exact raw response hash/time retained. Guide footer is page-specific, not verification date for every grid. No historical drift claim.",
+  "access": [
+    "Ordinary public HTTPS succeeded with native network access; sandbox DNS failed. Initial task script required unavailable requests; switched to standard urllib without installing anything.",
+    "Web reader BG Heretical/Mpaca failed403; no fresh BG mechanics read or new BG revision established. Browser automation remains disabled; no settings/bot checks changed. Existing SMN historical BG records retained only at their original scope."
+  ],
+  "limits": [
+    "Niche master staff engagement only; no other weapon/subjob/haste tier, WS, pact, Ward or ability variants",
+    "No caps/totals, HP preservation, current BiS, ownership/bags or human/frozen/live acceptance"
+  ]
+}

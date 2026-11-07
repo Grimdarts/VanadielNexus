@@ -1,0 +1,3470 @@
+{
+  "checked_on": "2026-11-05",
+  "definitions": [
+    {
+      "key": "dt-idle-greataxe",
+      "target": "Dt Idle Greataxe",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered",
+        "hybrid"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Disengaged defensive idle; actual incomingdamage and current/maxHP assessed"
+      },
+      "rationale": "Nexus fixed Sakpata hands/accessories replace source rank/Shadow chance terms; complete hands and waist. No maximumDT,elementalresist or guaranteed survival."
+    },
+    {
+      "key": "dt-idle-fencer",
+      "target": "Dt Idle Fencer",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered",
+        "hybrid"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Disengaged defensive idle; actual incomingdamage and current/maxHP assessed"
+      },
+      "rationale": "Nexus fixed Sakpata hands/accessories replace source rank/Shadow chance terms; complete hands and waist. No maximumDT,elementalresist or guaranteed survival."
+    },
+    {
+      "key": "refresh-idle-greataxe",
+      "target": "Refresh Idle Greataxe",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered",
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Disengaged WAR99/DRK49 actual MP deficit and positive usable maxMP; recovery useful for learned Stun/other accessible subjob spells"
+      },
+      "rationale": "Nexus MP-subjob alternative; two physical Stikini copies, NyameMP body. NativeWAR has no MP spells, but this context does. No N/A waiver or guaranteed replenishment/safe swap."
+    },
+    {
+      "key": "refresh-idle-fencer",
+      "target": "Refresh Idle Fencer",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered",
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Disengaged WAR99/DRK49 actual MP deficit and positive usable maxMP; recovery useful for learned Stun/other accessible subjob spells"
+      },
+      "rationale": "Nexus MP-subjob alternative; two physical Stikini copies, NyameMP body. NativeWAR has no MP spells, but this context does. No N/A waiver or guaranteed replenishment/safe swap."
+    },
+    {
+      "key": "engaged-balanced-greataxe",
+      "target": "Engaged Balanced Greataxe",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23420,
+          "name": "Boii Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23487,
+          "name": "Boii Lorica +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23576,
+          "name": "Pumm. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23643,
+          "name": "Pumm. Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "twohand4",
+        "single4"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Ordinary engaged attacks; no external haste/attack buffs or SP assumed"
+      },
+      "rationale": "Nexus twohand base; Fencer uses same selected armor as a separate legal alternative to sourceHjarrandi body. Fixed ammo/earrings/waist avoid Coiste/Schere/Sailfi/Boii augment assumptions. DEX20+10 is explicit Nexus variant of sourceDEX20/Acc10."
+    },
+    {
+      "key": "engaged-balanced-fencer",
+      "target": "Engaged Balanced Fencer",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23420,
+          "name": "Boii Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23487,
+          "name": "Boii Lorica +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23576,
+          "name": "Pumm. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23643,
+          "name": "Pumm. Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "twohand4",
+        "single4"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Ordinary engaged attacks; no external haste/attack buffs or SP assumed"
+      },
+      "rationale": "Nexus twohand base; Fencer uses same selected armor as a separate legal alternative to sourceHjarrandi body. Fixed ammo/earrings/waist avoid Coiste/Schere/Sailfi/Boii augment assumptions. DEX20+10 is explicit Nexus variant of sourceDEX20/Acc10."
+    },
+    {
+      "key": "engaged-dt-greataxe",
+      "target": "Engaged Dt Greataxe",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "hybrid",
+        "layered"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Engaged defensive alternative; actual buffs,target and incomingdamage assessed"
+      },
+      "rationale": "Nexus complete defensive accessories with unaugmented Cichol base; no capeDT augment or mitigation/haste cap credited."
+    },
+    {
+      "key": "engaged-dt-fencer",
+      "target": "Engaged Dt Fencer",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "hybrid",
+        "layered"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Engaged defensive alternative; actual buffs,target and incomingdamage assessed"
+      },
+      "rationale": "Nexus complete defensive accessories with unaugmented Cichol base; no capeDT augment or mitigation/haste cap credited."
+    },
+    {
+      "key": "engaged-accuracy-greataxe",
+      "target": "Engaged Accuracy Greataxe",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23420,
+          "name": "Boii Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23487,
+          "name": "Boii Lorica +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23576,
+          "name": "Pumm. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23643,
+          "name": "Pumm. Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "twohand4",
+        "single4"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Engaged accuracy alternative; actual targetevasion and hitrate unknown"
+      },
+      "rationale": "Nexus twoChirich fixedaccuracy alternative; no targethitrate guarantee or gearhastecap. Actual accuracy priorities can differ by target."
+    },
+    {
+      "key": "engaged-accuracy-fencer",
+      "target": "Engaged Accuracy Fencer",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23420,
+          "name": "Boii Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23487,
+          "name": "Boii Lorica +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23576,
+          "name": "Pumm. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23643,
+          "name": "Pumm. Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "twohand4",
+        "single4"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Engaged accuracy alternative; actual targetevasion and hitrate unknown"
+      },
+      "rationale": "Nexus twoChirich fixedaccuracy alternative; no targethitrate guarantee or gearhastecap. Actual accuracy priorities can differ by target."
+    },
+    {
+      "key": "upheaval-wsd",
+      "target": "Upheaval Wsd",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23554,
+          "name": "Boii Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "VIT+20",
+              "Accuracy+20 Attack+20",
+              "VIT+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "source_grids": [
+        "upheaval2"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "action": "Upheaval with exact Chango grant or actual merits; >=1000 usableTP, actual effectiveTP and eligible target"
+      },
+      "rationale": "Nexus unrankedPathB checkpoint and fixed waist; sourcehighTP threshold not certified for this composition. No R20/ChangoR15/attackcap/aftermath promised."
+    },
+    {
+      "key": "upheaval-multihit",
+      "target": "Upheaval Multihit",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23420,
+          "name": "Boii Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23487,
+          "name": "Boii Lorica +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23576,
+          "name": "Pumm. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23643,
+          "name": "Pumm. Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "upheavalA",
+        "twohand4"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "action": "Upheaval exact Chango grant or actual merits; >=1000 usableTP, actual effectiveTP and eligible target"
+      },
+      "rationale": "Nexus fixed multiattack alternative to source lowTP example. Source1000~1749 versus1750+ thresholds are source claims, not rawTP switch rules with Chango bonuses."
+    },
+    {
+      "key": "kings-justice",
+      "target": "Kings Justice",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23554,
+          "name": "Boii Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "source_grids": [
+        "upheaval2",
+        "upheavalA"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "action": "Permanently unlocked King's Justice, actual great axe skill, >=1000 usableTP and eligible target; Chango does not grant King's Justice"
+      },
+      "rationale": "Nexus STR/WSD alternative independently attributed; source Upheaval copy suggestion is not an automatic VIT-to-STR conversion of all effects. No Conqueror or skillchain/aftermath assumption."
+    },
+    {
+      "key": "savage-blade",
+      "target": "Savage Blade",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23398,
+          "name": "Agoge Mask +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25419,
+          "name": "War. Beads +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23554,
+          "name": "Boii Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "source_grids": [
+        "savage3"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Actual native Fencer and equipment only; no computed effectiveTP cap",
+        "action": "Savage Blade granted by mainhand Naegling or actual permanent unlock; >=1000 usableTP and eligible target; Fencer only while singleweapon/shield"
+      },
+      "rationale": "Nexus fixed waist and unrankedPathB; no sourceR20,neckPathA,maximumgiftTPbonus/attackcap or universal zerg ranking adopted."
+    },
+    {
+      "key": "retaliation-sustained-greataxe",
+      "target": "Retaliation Sustained Greataxe",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23509,
+          "name": "Pumm. Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23688,
+          "name": "Boii Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "retaliation"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Sustained active Retaliation, facing eligible melee attacker; actually received damage remains; cannot proc on shieldblocked attack"
+      },
+      "rationale": "Nexus completes partial retaliation grid; hands/feet retained for eligible retaliationdamage, not activation-only snapshot. No receiveddamage negation/proc rate/safety/TPloop claimed."
+    },
+    {
+      "key": "retaliation-sustained-fencer",
+      "target": "Retaliation Sustained Fencer",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23509,
+          "name": "Pumm. Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23688,
+          "name": "Boii Calligae +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "retaliation"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Sustained active Retaliation, facing eligible melee attacker; actually received damage remains; cannot proc on shieldblocked attack"
+      },
+      "rationale": "Nexus completes partial retaliation grid; hands/feet retained for eligible retaliationdamage, not activation-only snapshot. No receiveddamage negation/proc rate/safety/TPloop claimed."
+    },
+    {
+      "key": "provoke-greataxe",
+      "target": "Provoke Greataxe",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23509,
+          "name": "Pumm. Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15895,
+          "name": "Trance Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "enmity"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Provoke activation; actual recast, valid enemy and range, master generates enmity"
+      },
+      "rationale": "Nexus fixed defensive enmity alternative replacing sourceSouveranPathC/Apeile/capeEnmity assumptions. Activation only; no sustained hate guarantee or enmitytotal."
+    },
+    {
+      "key": "provoke-fencer",
+      "target": "Provoke Fencer",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23509,
+          "name": "Pumm. Mufflers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15895,
+          "name": "Trance Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "enmity"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Provoke activation; actual recast, valid enemy and range, master generates enmity"
+      },
+      "rationale": "Nexus fixed defensive enmity alternative replacing sourceSouveranPathC/Apeile/capeEnmity assumptions. Activation only; no sustained hate guarantee or enmitytotal."
+    },
+    {
+      "key": "defender-greataxe",
+      "target": "Defender Greataxe",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "Defender self activation; actual recast and desired defense-for-attack tradeoff; sustained buff distinct from gear snapshot"
+      },
+      "rationale": "Nexus defensive activation composition with no enhancing relic hands credited; no damage mitigation/survival cap or sustained attacking suitability."
+    },
+    {
+      "key": "defender-fencer",
+      "target": "Defender Fencer",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "layered"
+      ],
+      "context": {
+        "job": "WAR99/DRG49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "Defender self activation; actual recast and desired defense-for-attack tradeoff; sustained buff distinct from gear snapshot"
+      },
+      "rationale": "Nexus defensive activation composition with no enhancing relic hands credited; no damage mitigation/survival cap or sustained attacking suitability."
+    },
+    {
+      "key": "precast-greataxe",
+      "target": "Precast Greataxe",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10394,
+          "name": "Orunmila's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25716,
+          "name": "Odyss. Chestplate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26162,
+          "name": "Rahab Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "HP+60",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25840,
+          "name": "Odyssean Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "WAR99/DRK49 spell initiation only; learned accessible spell, actual MP,recast,target/range"
+      },
+      "rationale": "Nexus fixedbase Odyssean/Leyline, no randomFC; complete hands/waist and HP/FC cape. Spell initiation is not interruption-safe completion or cappedFC."
+    },
+    {
+      "key": "precast-fencer",
+      "target": "Precast Fencer",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10394,
+          "name": "Orunmila's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25716,
+          "name": "Odyss. Chestplate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26162,
+          "name": "Rahab Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26246,
+          "name": "Cichol's Mantle",
+          "requirements": {
+            "augments": [
+              "HP+60",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25840,
+          "name": "Odyssean Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "WAR99/DRK49 spell initiation only; learned accessible spell, actual MP,recast,target/range"
+      },
+      "rationale": "Nexus fixedbase Odyssean/Leyline, no randomFC; complete hands/waist and HP/FC cape. Spell initiation is not interruption-safe completion or cappedFC."
+    },
+    {
+      "key": "stun-subjob-greataxe",
+      "target": "Stun Subjob Greataxe",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "breaks",
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "greataxe",
+        "fencer": "Inactive for twohand weapon; no Fencer or shield effect",
+        "action": "WAR99/DRK49 learned Stun completion; actual MP/recast,range and valid susceptible enemy; subjob darkskill and targetresistance matter"
+      },
+      "rationale": "Nexus defensive magicaccuracy assembly, not a source Stun grid. No guaranteed interrupt/landing/SIRD; two physical Stikini copies. DRK49 does not grant LastResort50 or nativeDRK99 traits/spells."
+    },
+    {
+      "key": "stun-subjob-fencer",
+      "target": "Stun Subjob Fencer",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27644,
+          "name": "Blurred Shield +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "breaks",
+        "fc"
+      ],
+      "context": {
+        "job": "WAR99/DRK49",
+        "weapon_family": "fencer",
+        "fencer": "Eligible singleweapon/shield only; actual native trait and equipment; no numerical TPbonus/crit cap or JP gifts assumed",
+        "action": "WAR99/DRK49 learned Stun completion; actual MP/recast,range and valid susceptible enemy; subjob darkskill and targetresistance matter"
+      },
+      "rationale": "Nexus defensive magicaccuracy assembly, not a source Stun grid. No guaranteed interrupt/landing/SIRD; two physical Stikini copies. DRK49 does not grant LastResort50 or nativeDRK99 traits/spells."
+    },
+    {
+      "key": "breaks",
+      "target": "Breaks",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20843,
+          "name": "Chango",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28415,
+          "name": "Eschan Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "breaks"
+      ],
+      "context": {
+        "job": "WAR99/SAM49",
+        "weapon_family": "greataxe",
+        "action": "Armor Break/Full Break with actual great axe skill/WS access, >=1000 usableTP, valid susceptible enemy; resistance and buff overwrite matter"
+      },
+      "rationale": "Nexus fixed Nyame magicaccuracy alternative, unaugmented Metamor base and unaugmented Cichol base. No guaranteed defense/evasion/attackdown duration or sourcePathA credited."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:dt-idle-greataxe",
+          "nexus:war:dt-idle-fencer"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:refresh-idle-greataxe",
+          "nexus:war:refresh-idle-fencer"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:engaged-balanced-greataxe",
+          "nexus:war:engaged-balanced-fencer"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:engaged-dt-greataxe",
+          "nexus:war:engaged-dt-fencer"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:engaged-accuracy-greataxe",
+          "nexus:war:engaged-accuracy-fencer"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Physical WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Physical WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:upheaval-wsd",
+          "nexus:war:upheaval-multihit",
+          "nexus:war:kings-justice",
+          "nexus:war:savage-blade"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "WAR",
+        "priority": "Defensive utility",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "WAR",
+        "priority": "Defensive utility",
+        "status": "included",
+        "reviewed": true,
+        "context": "25 bounded Chango/Utu or Naegling/shield contexts; SAM49/DRG49 and usefulMP DRK49 explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-WAR.md; BG78133311grids,mechanics permanentlinks,originalParthenon and18independentcards; Nexus completions/substitutions attributed.",
+        "set_ids": [
+          "nexus:war:retaliation-sustained-greataxe",
+          "nexus:war:retaliation-sustained-fencer",
+          "nexus:war:provoke-greataxe",
+          "nexus:war:provoke-fencer",
+          "nexus:war:defender-greataxe",
+          "nexus:war:defender-fencer",
+          "nexus:war:precast-greataxe",
+          "nexus:war:precast-fencer",
+          "nexus:war:stun-subjob-greataxe",
+          "nexus:war:stun-subjob-fencer",
+          "nexus:war:breaks"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "All progressiontiers/encounters/attack/haste brackets and completeWARcoverage",
+    "Otherweaponfamilies/dualwield/Prime/REMAstages,Disaster,Ukko,FellCleave,SteelCyclone,Resolution,Judgment,Decimation,hybrid/magicalWS",
+    "AllJAactivationoverlays:Warcry/BloodRage/Berserk/Aggressor/Restraint/MightyStrikes/BrazenRush/WarriorsCharge/Tomahawk;sourceeffects not automatically credited",
+    "Fullsubjob/ML/recipientvariants;Utsusemi/SIRDcompletion,SubtleBlow,evasion and everyBreak/resistance case",
+    "All numericcaps,effectiveTPthresholds,HP/MPpreservation,survival,currentBiS,ownership/bags,human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initialpasses first;later secondpass ALL22jobs for issues with ANYjob;notstarted. BRD/DRG and all declaredissues deferred,notresolved/waived."
+}

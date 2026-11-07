@@ -397,7 +397,11 @@ class LayoutPage(Page):
     def pick_background(self) -> None:
         path, _ = QFileDialog.getOpenFileName(self, "Pick an FFXI screenshot", "",
                                               "Images (*.png *.jpg *.jpeg *.bmp)")
-        self.ctx.settings.set("layout_background", path or "")
+        if not path:  # Cancel keeps the current background unless the player chooses to remove it
+            if not self.ctx.settings.get("layout_background") or not self.confirm(
+                    "Background", "Remove the current background picture?"):
+                return
+        self.ctx.settings.set("layout_background", path)
         self._build()
 
     def use_default(self) -> None:

@@ -1,0 +1,332 @@
+{
+  "checked_on": "2026-11-03",
+  "scope": "Public niche melee evidence and exact Nexus choices",
+  "recommendation_definitions": [
+    {
+      "set_id": "nexus:whm:tp-shield",
+      "revision_id": "nexus:whm:tp-shield:2026-11-03:b03f212e08ba",
+      "choices": {
+        "main": 22031,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22262,
+        "head": 23760,
+        "neck": 26015,
+        "ear1": 27544,
+        "ear2": 27545,
+        "body": 23768,
+        "hands": 23774,
+        "ring1": 26182,
+        "ring2": 13566,
+        "back": 26248,
+        "waist": 28460,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "back": {
+          "augments": [
+            "DEX+20",
+            "\"Dbl.Atk.\"+10"
+          ]
+        }
+      }
+    },
+    {
+      "set_id": "nexus:whm:tp-dt-shield",
+      "revision_id": "nexus:whm:tp-dt-shield:2026-11-03:1d8a1bef18df",
+      "choices": {
+        "main": 22031,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 23761,
+        "neck": 26002,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 26268,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "set_id": "nexus:whm:tp-accuracy-shield",
+      "revision_id": "nexus:whm:tp-accuracy-shield:2026-11-03:814c687144aa",
+      "choices": {
+        "main": 22031,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22262,
+        "head": 23760,
+        "neck": 26015,
+        "ear1": 27545,
+        "ear2": 26081,
+        "body": 23768,
+        "hands": 27151,
+        "ring1": 26182,
+        "ring2": 26182,
+        "back": 26248,
+        "waist": 28408,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "hands": {
+          "rank": 15
+        },
+        "back": {
+          "augments": [
+            "DEX+20",
+            "\"Dbl.Atk.\"+10"
+          ]
+        }
+      }
+    },
+    {
+      "set_id": "nexus:whm:black-halo-shield",
+      "revision_id": "nexus:whm:black-halo-shield:2026-11-03:a1bb99d562c8",
+      "choices": {
+        "main": 22031,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22302,
+        "head": 23761,
+        "neck": 26015,
+        "ear1": 27537,
+        "ear2": 14813,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 26214,
+        "ring2": 26184,
+        "back": 26248,
+        "waist": 28408,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "head": {
+          "rank": 15,
+          "path": "B"
+        },
+        "body": {
+          "rank": 15,
+          "path": "B"
+        },
+        "hands": {
+          "rank": 15,
+          "path": "B"
+        },
+        "legs": {
+          "rank": 15,
+          "path": "B"
+        },
+        "feet": {
+          "rank": 15,
+          "path": "B"
+        },
+        "back": {
+          "augments": [
+            "MND+20",
+            "Weapon skill damage +10%"
+          ]
+        }
+      }
+    },
+    {
+      "set_id": "nexus:whm:tp-dual",
+      "revision_id": "nexus:whm:tp-dual:2026-11-03:d5cc937fe8c4",
+      "choices": {
+        "main": 22031,
+        "sub": 22040,
+        "range": null,
+        "ammo": 22262,
+        "head": 23760,
+        "neck": 26015,
+        "ear1": 27540,
+        "ear2": 27545,
+        "body": 23768,
+        "hands": 23774,
+        "ring1": 26182,
+        "ring2": 26182,
+        "back": 26248,
+        "waist": 28460,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "back": {
+          "augments": [
+            "DEX+20",
+            "\"Dual Wield\"+10"
+          ]
+        }
+      }
+    },
+    {
+      "set_id": "nexus:whm:tp-dt-dual",
+      "revision_id": "nexus:whm:tp-dt-dual:2026-11-03:15c7456e53de",
+      "choices": {
+        "main": 22031,
+        "sub": 22040,
+        "range": null,
+        "ammo": 22279,
+        "head": 23761,
+        "neck": 26002,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 26268,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "set_id": "nexus:whm:tp-accuracy-dual",
+      "revision_id": "nexus:whm:tp-accuracy-dual:2026-11-03:9e325dbf2f3e",
+      "choices": {
+        "main": 22031,
+        "sub": 22040,
+        "range": null,
+        "ammo": 22262,
+        "head": 23760,
+        "neck": 26015,
+        "ear1": 27545,
+        "ear2": 26081,
+        "body": 23768,
+        "hands": 27151,
+        "ring1": 26182,
+        "ring2": 26182,
+        "back": 26248,
+        "waist": 28408,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "hands": {
+          "rank": 15
+        },
+        "back": {
+          "augments": [
+            "DEX+20",
+            "\"Dual Wield\"+10"
+          ]
+        }
+      }
+    },
+    {
+      "set_id": "nexus:whm:black-halo-dual",
+      "revision_id": "nexus:whm:black-halo-dual:2026-11-03:f332b6a6403e",
+      "choices": {
+        "main": 22031,
+        "sub": 22040,
+        "range": null,
+        "ammo": 22302,
+        "head": 23761,
+        "neck": 26015,
+        "ear1": 27537,
+        "ear2": 14813,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 26214,
+        "ring2": 26184,
+        "back": 26248,
+        "waist": 28408,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {
+        "head": {
+          "rank": 15,
+          "path": "B"
+        },
+        "body": {
+          "rank": 15,
+          "path": "B"
+        },
+        "hands": {
+          "rank": 15,
+          "path": "B"
+        },
+        "legs": {
+          "rank": 15,
+          "path": "B"
+        },
+        "feet": {
+          "rank": 15,
+          "path": "B"
+        },
+        "back": {
+          "augments": [
+            "MND+20",
+            "Weapon skill damage +10%"
+          ]
+        }
+      }
+    }
+  ],
+  "source_observation": {
+    "url": "https://www.ffxiah.com/item-sets/374390",
+    "title": "WHM TP Acc Swaps",
+    "slots": [
+      {
+        "slot": "sub",
+        "item_id": 27641,
+        "name": "Deliverance +1"
+      },
+      {
+        "slot": "neck",
+        "item_id": 26015,
+        "name": "Combatant's Torque"
+      },
+      {
+        "slot": "ear1",
+        "item_id": 27545,
+        "name": "Telos Earring"
+      },
+      {
+        "slot": "ear2",
+        "item_id": 26081,
+        "name": "Mache Earring +1"
+      },
+      {
+        "slot": "hands",
+        "item_id": 27151,
+        "name": "Gazu Bracelets +1"
+      },
+      {
+        "slot": "ring1",
+        "item_id": 26182,
+        "name": "Chirich Ring +1"
+      },
+      {
+        "slot": "ring2",
+        "item_id": 10771,
+        "name": "Cacoethic Ring +1"
+      },
+      {
+        "slot": "waist",
+        "item_id": 28408,
+        "name": "Grunfeld Rope"
+      }
+    ],
+    "note": "Macro/generated blocks agree on eight selected swap slots; main omitted. These swaps are not a standalone source loadout."
+  },
+  "nyame_rank_scope": "All five exact item pages had Path B tables expanded in browser; rank 15 explicitly inspected. No rank-16+ Double Attack assumed.",
+  "optional_supporting_item_sources": [
+    "whm:t7b3:moonbeam:2026-11-03",
+    "whm:t7b3:gende:2026-11-03",
+    "whm:t7b3:meili:2026-11-03",
+    "whm:t7b3:kishar:2026-11-03"
+  ]
+}

@@ -1,0 +1,3630 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397653
+      ],
+      "context": {
+        "action": "Disengaged defensive idle; actual frontal shield opportunity only"
+      },
+      "rationale": "Nexus replaces Brilliance/Eluder/Provocare and augmented cape with Naegling/Priwen, Staunch, Defending and fixed Moonlight. No source capped defense, augment or HP model inherited."
+    },
+    {
+      "key": "town-refresh-idle",
+      "target": "Town Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23426,
+          "name": "Chev. Armet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28363,
+          "name": "Coatl Gorget +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26972,
+          "name": "Jumalik Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27207,
+          "name": "Carmine Cuisses +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397548
+      ],
+      "context": {
+        "action": "Safe-town downtime; native PLD MP deficit and positive usable maximumMP required"
+      },
+      "rationale": "Nexus retains town-only purpose and two physical Stikini copies, changes weapon pair and replaces right-ear random JSE with fixed Odnowa. Base Jumalik has no assumed augment; recovery is deliberately modest, not source Refresh6 or movement guarantee."
+    },
+    {
+      "key": "combat-refresh-idle",
+      "target": "Combat Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397548,
+        397653
+      ],
+      "context": {
+        "action": "Disengaged exposed recovery checkpoint with MP deficit; manual exposure assessment"
+      },
+      "rationale": "Nexus defensive alternative retains Sakpata armor and fixed shield while selecting printed Regal and two Stikini recovery pieces. Town gear is not silently reused for combat; no mitigation/MP total or HP floor promised."
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27509,
+          "name": "Unmoving Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23798,
+          "name": "Crepuscular Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26252,
+          "name": "Rudianos's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23627,
+          "name": "Chev. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397528
+      ],
+      "context": {
+        "action": "Engaged Naegling/Priwen auto-attacks; no external buffs or haste bracket assumed"
+      },
+      "rationale": "Nexus sword/shield alternative replaces random JSE earring with Telos and explicitly requires a DEX/DA cape. No capped accuracy, TP loop or enmity retention total."
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23426,
+          "name": "Chev. Armet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23627,
+          "name": "Chev. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397653,
+        397528
+      ],
+      "context": {
+        "action": "Engaged defensive sword/shield; facing and enemy block eligibility remain actual conditions"
+      },
+      "rationale": "Nexus fixed defensive checkpoint; no Burtgang special reduction or ultimate shield block properties inherited."
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23798,
+          "name": "Crepuscular Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23771,
+          "name": "Sakpata's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26252,
+          "name": "Rudianos's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23627,
+          "name": "Chev. Cuisses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23785,
+          "name": "Sakpata's Leggings",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397528
+      ],
+      "context": {
+        "action": "Engaged accuracy-oriented alternative; actual target evasion/hit rate unknown"
+      },
+      "rationale": "Nexus trades the source HP neck/ring for accuracy pieces and two distinct Chirich copies; does not certify accuracy cap."
+    },
+    {
+      "key": "enmity-ja",
+      "target": "Enmity Ja",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Generic available PLD enmity JA activation, actual target/recast required"
+      },
+      "rationale": "Nexus unaugmented Souveran checkpoint, no source cape/Unity/Abjuration rank credited. Dedicated JA effects use separate overlays."
+    },
+    {
+      "key": "flash-enmity",
+      "target": "Flash Enmity",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Learned Flash completion on enemy, actual MP/recast/range required; separate from initiation"
+      },
+      "rationale": "Nexus Flash completion only; no landing rate/enmity total or interruption guarantee."
+    },
+    {
+      "key": "precast",
+      "target": "Precast",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26679,
+          "name": "Carmine Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10394,
+          "name": "Orunmila's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23946,
+          "name": "Rev. Surcoat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26252,
+          "name": "Rudianos's Mantle",
+          "requirements": {
+            "augments": [
+              "HP+60",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24146,
+          "name": "Sworn Brais",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397522
+      ],
+      "context": {
+        "action": "Spell initiation only; no completion SIRD or HP-preserving chain guaranteed"
+      },
+      "rationale": "Nexus fixed Naegling/Priwen and literal HP/FC cape checkpoint. Carmine/Leyline base only, no random FC augments or caps credited. Live original Rev+4 replaces stale web-reader+3."
+    },
+    {
+      "key": "sird-completion",
+      "target": "Sird Completion",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14758,
+          "name": "Knightly Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23493,
+          "name": "Chev. Cuirass +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397523
+      ],
+      "context": {
+        "action": "Long spell completion, including actually learned/set /BLU49 Geist Wall; actual MP/recast and legal target required"
+      },
+      "rationale": "Nexus substitutes fixed Souv head, Knightly and Audumbla for source enmity choices. Odyssean base20SIRD only. No 102cap, merits or immunity assertion."
+    },
+    {
+      "key": "self-phalanx",
+      "target": "Self Phalanx",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26012,
+          "name": "Melic Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24036,
+          "name": "Rev. Breeches +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27375,
+          "name": "Souveran Schuhs +1",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397524
+      ],
+      "context": {
+        "action": "Native learned Phalanx self completion; PLD is caster and recipient at resolution"
+      },
+      "rationale": "Nexus fixed received-bonus Priwen/Souveran and skill pieces replace random Odyssean/Weard rolls; no Sakpata sword/R30 body/maxskill or maximum absorption promise."
+    },
+    {
+      "key": "phalanx-received",
+      "target": "Phalanx Received",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23757,
+          "name": "Sakpata's Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23764,
+          "name": "Sakpata's Plate",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23778,
+          "name": "Sakpata's Cuisses",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27375,
+          "name": "Souveran Schuhs +1",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397524
+      ],
+      "context": {
+        "action": "PLD receives another actual caster Phalanx/PhalanxII; recipient wears received gear at resolution"
+      },
+      "rationale": "Nexus recipient snapshot; PLD enhancing skill does not replace the actual caster skill/merits. No self spell/recipient conflation."
+    },
+    {
+      "key": "self-phalanx-sird",
+      "target": "Self Phalanx Sird",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14758,
+          "name": "Knightly Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23493,
+          "name": "Chev. Cuirass +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27375,
+          "name": "Souveran Schuhs +1",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397921
+      ],
+      "context": {
+        "action": "Self Phalanx completion with interruption resistance tradeoff"
+      },
+      "rationale": "Nexus legal earring replacement and fixed Phalanx received hands/feet; source left-ear Chev error and random rolls not imported. No capped SIRD or maximum Phalanx certified."
+    },
+    {
+      "key": "cure-self",
+      "target": "Cure Self",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27509,
+          "name": "Unmoving Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28485,
+          "name": "Nourish. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397527
+      ],
+      "context": {
+        "action": "Learned CureIII/IV completion on self with actual missingHP; Majesty inactive baseline"
+      },
+      "rationale": "Nexus fixed recipient checkpoint. Souveran base only: no pathD received augment or claimed heal total. No lowHP precast trigger or synthetic HP gap implemented."
+    },
+    {
+      "key": "cure-other",
+      "target": "Cure Other",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26039,
+          "name": "Sacro Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28485,
+          "name": "Nourish. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26245,
+          "name": "Solemnity Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397561
+      ],
+      "context": {
+        "action": "Learned CureIII/IV completion on another valid party/ally recipient with actual missingHP; Majesty inactive"
+      },
+      "rationale": "Nexus caster potency alternative changes cape/earring; caster Cure received cannot be credited to another recipient. No guaranteed amount or SIRD cap."
+    },
+    {
+      "key": "majesty-cure",
+      "target": "Majesty Cure",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26039,
+          "name": "Sacro Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28485,
+          "name": "Nourish. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26245,
+          "name": "Solemnity Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397561
+      ],
+      "context": {
+        "action": "Cure completion with actually active Majesty; actual selected recipient and eligible AoE recipients require missingHP/range checks"
+      },
+      "rationale": "Nexus same fixed caster gear in distinct active-buff context. Majesty not presumed permanent, no potency-bucket addition or actual cure-enmity total modeled."
+    },
+    {
+      "key": "savage-blade",
+      "target": "Savage Blade",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26252,
+          "name": "Rudianos's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "source_grids": [
+        398105
+      ],
+      "context": {
+        "action": "Savage Blade with Naegling and actual sword/WS access and >=1000 usableTP; valid melee enemy"
+      },
+      "rationale": "Nexus sword/shield alternative with literal STR20+10/WSD cape, Moonshade and NyamePathB without invented rank. Source R30, PDL/attack/cap and Burtgang properties not inherited."
+    },
+    {
+      "key": "atonement",
+      "target": "Atonement",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Permanently unlocked Atonement, sword equipped and >=1000 usableTP; actual current CE/VE and valid enemy required"
+      },
+      "rationale": "Nexus enmity checkpoint on Naegling; no Burtgang grant, aftermath, capped enmity or damage formula inferred."
+    },
+    {
+      "key": "shield-bash",
+      "target": "Shield Bash",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23538,
+          "name": "Cab. Gauntlets +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Shield Bash against valid enemy with equipped Priwen; stun/dispel is not guaranteed"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "sentinel",
+      "target": "Sentinel",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23672,
+          "name": "Cab. Leggings +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Sentinel activation; actual recast, Guardian merits and currentHP independently checked"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "cover",
+      "target": "Cover",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23381,
+          "name": "Rev. Coronet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23471,
+          "name": "Cab. Surcoat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Cover actual eligible party ally, positioning and interception rules; not passive party mitigation"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "rampart",
+      "target": "Rampart",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23404,
+          "name": "Cab. Coronet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Rampart activation; actual eligible party recipients and range, no IronWill merit assumed"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "chivalry",
+      "target": "Chivalry",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23538,
+          "name": "Cab. Gauntlets +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Actually merit-unlocked Chivalry; usableTP consumed, missingMP and positive usable maxMP required"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "divine-emblem",
+      "target": "Divine Emblem",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25636,
+          "name": "Loess Barbuta +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26847,
+          "name": "Souv. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27023,
+          "name": "Souv. Handsch. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27560,
+          "name": "Apeile Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11750,
+          "name": "Creed Baudrier",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27199,
+          "name": "Souv. Diechlings +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23694,
+          "name": "Chev. Sabatons +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397521
+      ],
+      "context": {
+        "action": "Divine Emblem activation; subsequent eligible divine spell completion separately required"
+      },
+      "rationale": "Nexus complete JA overlay from original node482 table; exact selected +3 item, no inferred +4 or augment/merit maximum. No HP-preserving transition implemented."
+    },
+    {
+      "key": "enlight-ii",
+      "target": "Enlight Ii",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25603,
+          "name": "Jumalik Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14758,
+          "name": "Knightly Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23946,
+          "name": "Rev. Surcoat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27097,
+          "name": "Eschite Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26327,
+          "name": "Asklepian Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28191,
+          "name": "Founder's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397525
+      ],
+      "context": {
+        "action": "Actually merit-unlocked EnlightII self completion; actual Divine skill/EnlightJP and MP/recast required"
+      },
+      "rationale": "Nexus fixed divine-skill checkpoint; base Eschite only. No source570skill, JP20, cappedSIRD or attack/accuracy bonus certified."
+    },
+    {
+      "key": "reprisal",
+      "target": "Reprisal",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14758,
+          "name": "Knightly Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 27892,
+          "name": "Shab. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24036,
+          "name": "Rev. Breeches +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397523
+      ],
+      "context": {
+        "action": "Learned Reprisal self completion; selected Priwen and actual MP/recast; current shield skill/block conditions"
+      },
+      "rationale": "Nexus duration alternative from rendered BG Reprisal options; no maxslot total, snapshotted skill, guaranteed block or permanent shield buff."
+    },
+    {
+      "key": "crusade",
+      "target": "Crusade",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 28648,
+          "name": "Priwen",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26671,
+          "name": "Souv. Schaller +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14758,
+          "name": "Knightly Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 27892,
+          "name": "Shab. Cuirass +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27561,
+          "name": "Apeile Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24036,
+          "name": "Rev. Breeches +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27494,
+          "name": "Odyssean Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        397523
+      ],
+      "context": {
+        "action": "Learned native Crusade self completion; actual MP/recast"
+      },
+      "rationale": "Nexus duration checkpoint using fixed Shabti/Regal; not received Refresh and no modeled duration/enmity cap."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:town-refresh-idle",
+          "nexus:pld:combat-refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Tank / engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:savage-blade",
+          "nexus:pld:atonement"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Enmity",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Enmity",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:enmity-ja",
+          "nexus:pld:flash-enmity",
+          "nexus:pld:shield-bash",
+          "nexus:pld:sentinel",
+          "nexus:pld:cover",
+          "nexus:pld:rampart",
+          "nexus:pld:chivalry",
+          "nexus:pld:divine-emblem"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "FC / SIRD",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "FC / SIRD",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:precast",
+          "nexus:pld:sird-completion"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Phalanx",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Phalanx",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:self-phalanx",
+          "nexus:pld:phalanx-received",
+          "nexus:pld:self-phalanx-sird",
+          "nexus:pld:enlight-ii",
+          "nexus:pld:reprisal",
+          "nexus:pld:crusade"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "PLD",
+        "priority": "Cures",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "PLD",
+        "priority": "Cures",
+        "status": "included",
+        "reviewed": true,
+        "context": "27 bounded Naegling/Priwen contexts only; no complete job/tier/action/recipient coverage or HP-preserving runtime chain. See per-definition prerequisites and explicit residual limits.",
+        "evidence": "GEAR-GUIDE-T7-PLD.md; original node482,12 grids,46 exact public cards and rendered BG Permanentlink780215; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:pld:cure-self",
+          "nexus:pld:cure-other",
+          "nexus:pld:majesty-cure"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Every progression tier, attack/accuracy/haste bracket and encounter; complete PLD coverage",
+    "Burtgang/Duban/Aegis/Ochain/prime stages, Oboro augments, weapon ranks/aftermaths; alternate club/dagger/greatsword/polearm loadouts",
+    "AeolianEdge/SanguineBlade/CDC/KoR/Requiescat/Imperator and every WS; all magical offense/utility spells, subjob/ML variants",
+    "Invincible/HolyCircle/Fealty/SP and other JA overlays not authored; additional learned/enemy/party-recipient contexts",
+    "Random Phalanx/cape/armor rolls, SwornR30, all HP/MP preservation/safety chains, lowHP Cure trigger",
+    "Exact total/cap/HPfloor/blockrate/heal/enmity/duration/currentBiS, ownership/bags or human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initial passes first; later second pass ALL22jobs to address issues with any job; not started here. BRD/DRG deferred,not resolved/waived."
+}

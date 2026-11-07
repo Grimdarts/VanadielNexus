@@ -1,0 +1,830 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "key": "odyssey1",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Odyssey_&_Sortie",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Flam. Zucchetto +2"
+        ],
+        "neck": [
+          "Abyssal Beads +2"
+        ],
+        "ear1": [
+          "Cessance Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Ioskeha Belt +1"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Flam. Gambieras +2"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "source_options": {
+        "neck": "STR25/STP7/PDL10",
+        "back": "DEX20,Acc/Att20,Acc10,DA10,PDT10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "9871c995cc5d632795c9ecd240159c32106931533f85b4fbfffb2c9cc1fa5cdb"
+    },
+    {
+      "key": "hybrid4",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#DT_&_TP_Hybrid_Builds",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "Abyssal Beads +1"
+        ],
+        "ear1": [
+          "Cessance Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Moonbeam Ring"
+        ],
+        "ring2": [
+          "Moonbeam Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "neck": "STR20/STP6/PDL8",
+        "back": "DEX20,Acc/Att20,Acc10,DA10,PDT10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "aa2d28f56069a2be8b7975fe397dfc4d947885d47595e34d7fafacc51e5de2ba"
+    },
+    {
+      "key": "torcleaver3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Torcleaver",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Abyssal Beads +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Ignominy Cuirass +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Fall. Flanchard +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "source_options": {
+        "head/hands/feet": "NyamePathB,sourceR20",
+        "neck": "STR25/STP7/PDL10",
+        "ear2": "TP Bonus250",
+        "back": "VIT20+10,Acc/Att20,WSD10,PDT10",
+        "waist": "STR15,DA5"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "098b66879d756f382c89c5b6dfb4598bd11a1a1bbb570b13e75e29606416022f"
+    },
+    {
+      "key": "resolution3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Resolution",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Flam. Zucchetto +2"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Balder Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Flam. Gambieras +2"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "source_options": {
+        "ammo": "Attack15/STR5",
+        "body/hands/legs": "sourceR20",
+        "ear1": "TP Bonus250",
+        "back": "STR20+10,Acc/Att20,DA10,PDT10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "e79d1087883ea754dc39a6e97fee3632335a48b2cd24edb134a324309c749e86"
+    },
+    {
+      "key": "crossreaper3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Cross_Reaper",
+      "grid": {
+        "main": [
+          "Anguta"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Abyssal Beads +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Ignominy Cuirass +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Fall. Flanchard +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "source_options": {
+        "main": "AngutaR15 terms damage17/Entropy10/AccMAcc30",
+        "head/hands/feet": "NyamePathB,sourceR20",
+        "back": "STR20+10,Acc/Att20,WSD10,PDT10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "c1f66b41e7d091aa7152a160a8b6a71c37e8d061c6290c9cfed307b9994badc9"
+    },
+    {
+      "key": "entropy3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Entropy",
+      "grid": {
+        "main": [
+          "Anguta"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Abyssal Beads +2"
+        ],
+        "ear1": [
+          "Lugra Earring +1"
+        ],
+        "ear2": [
+          "Balder Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Ratri Cuisses +1"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "source_options": {
+        "main": "Anguta augmented damage17/Entropy10/AccMAcc30",
+        "back": "SOURCE MIXED STR20,INT10,WSD10; not the INT20+10/DA option in earlier tables",
+        "legs": "source prose says Ratri Leggings despite selected Cuisses"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "8234810b7b83cfb0dab18f0b7d7c485a5a57b681e42a60fcde744047cde3c204"
+    },
+    {
+      "key": "fc3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Fast_Cast",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Orunmila's Torque"
+        ],
+        "ear1": [
+          "Malignance Earring"
+        ],
+        "ear2": [
+          "Loquac. Earring"
+        ],
+        "body": [
+          "Fall. Cuirass +3"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Kishar Ring"
+        ],
+        "ring2": [
+          "Rahab Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Odyssean Cuisses"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "waist"
+      ],
+      "source_options": {
+        "head": "CarminePathD terms",
+        "hands": "randomFC3",
+        "legs/feet": "randomFC6",
+        "back": "FC10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "76975d05b3012c20cd5f678b9f7756f22b01470c885bc3b877400c0d6c2facf9"
+    },
+    {
+      "key": "endark3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Endark",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Ig. Burgeonet +3"
+        ],
+        "neck": [
+          "Incanter's Torque"
+        ],
+        "ear1": [
+          "Abyssal Earring"
+        ],
+        "ear2": [
+          "Mani Earring"
+        ],
+        "body": [
+          "Carm. Sc. Mail +1"
+        ],
+        "hands": [
+          "Fall. Fin. Gaunt. +3"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Evanescence Ring"
+        ],
+        "back": [
+          "Niht Mantle"
+        ],
+        "waist": [
+          "Casso Sash"
+        ],
+        "legs": [
+          "Heath. Flanchard +3"
+        ],
+        "feet": [
+          "Rat. Sollerets +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "back": "Niht dark skill10 augment"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "40e234f68cb363cadf978fe6fb0d5c1e6b3fe5b3e59ad077e6dcf65ebda0e62e"
+    },
+    {
+      "key": "stun3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Stun",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Fall. Burgeonet +3"
+        ],
+        "neck": [
+          "Erra Pendant"
+        ],
+        "ear1": [
+          "Digni. Earring"
+        ],
+        "ear2": [
+          "Malignance Earring"
+        ],
+        "body": [
+          "Fall. Cuirass +3"
+        ],
+        "hands": [
+          "Fall. Fin. Gaunt. +3"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Kishar Ring"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Eschan Stone"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Rat. Sollerets +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "back": "INT20,MagicAccDamage20,FC10,PDT10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "e2fa497480cb4c6105abee1d81e7da441249bfe081b05f5ecb539be8e928cb94"
+    },
+    {
+      "key": "drain2",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Drain",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Pixie Hairpin +1"
+        ],
+        "neck": [
+          "Erra Pendant"
+        ],
+        "ear1": [
+          "Nehalennia Earring"
+        ],
+        "ear2": [
+          "Hirudinea Earring"
+        ],
+        "body": [
+          "Carm. Sc. Mail +1"
+        ],
+        "hands": [
+          "Fall. Fin. Gaunt. +3"
+        ],
+        "ring1": [
+          "Evanescence Ring"
+        ],
+        "ring2": [
+          "Archon Ring"
+        ],
+        "back": [
+          "Niht Mantle"
+        ],
+        "waist": [
+          "Austerity Belt +1"
+        ],
+        "legs": [
+          "Eschite Cuisses"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "back": "Niht dark skill10 augment",
+        "legs": "Eschite path terms"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "56d5ba81400731a942dd767451c7d11aeac404b5c34151f17bcd64be8c47074b"
+    },
+    {
+      "key": "drain3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Drain",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Fall. Burgeonet +3"
+        ],
+        "neck": [
+          "Erra Pendant"
+        ],
+        "ear1": [
+          "Nehalennia Earring"
+        ],
+        "ear2": [
+          "Hirudinea Earring"
+        ],
+        "body": [
+          "Carm. Sc. Mail +1"
+        ],
+        "hands": [
+          "Fall. Fin. Gaunt. +3"
+        ],
+        "ring1": [
+          "Evanescence Ring"
+        ],
+        "ring2": [
+          "Archon Ring"
+        ],
+        "back": [
+          "Niht Mantle"
+        ],
+        "waist": [
+          "Austerity Belt +1"
+        ],
+        "legs": [
+          "Heath. Flanchard +3"
+        ],
+        "feet": [
+          "Rat. Sollerets +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "back": "Niht dark skill10 augment",
+        "conditions": "Guide assumes actual Dark Seal/Nether Void for DrainII/III"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "1c3c885df8afa61e5d55ec8c2da0b5b823088103ac1add2712e7833392628729"
+    },
+    {
+      "key": "dread3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Dread_Spikes",
+      "grid": {
+        "main": [
+          "Crepuscular Scythe"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Happy Egg"
+        ],
+        "head": [
+          "Ratri Sallet +1"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Odnowa Earring +1"
+        ],
+        "body": [
+          "Heath. Cuirass +3"
+        ],
+        "hands": [
+          "Rat. Gadlings +1"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Ratri Cuisses +1"
+        ],
+        "feet": [
+          "Rat. Sollerets +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "source_options": {
+        "main": "Crepuscular source-only, not selected",
+        "neck/ear2/ring2": "Unity/augment terms not free base stats",
+        "label": "Dread Spikes III is a gear-table label, not a native spell tier"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "da6506705f10d518da9fe7c1de54c7e53df4a69549025737433cae45379ec7de"
+    },
+    {
+      "key": "enfeeble3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942#Enfeebling_Magic",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Incanter's Torque"
+        ],
+        "ear1": [
+          "Malignance Earring"
+        ],
+        "ear2": [
+          "Digni. Earring"
+        ],
+        "body": [
+          "Ignominy Cuirass +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Kishar Ring"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Ankou's Mantle"
+        ],
+        "waist": [
+          "Casso Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "source_options": {
+        "head": "Carmine path terms",
+        "back": "INT20,MagicAccDamage20,FC10,PDT10,MagicAcc10"
+      },
+      "method": "Manual scoped rendered grid observation in ordinary Chrome; placeholders remain omissions, source shorthand not native augment encoding; not a complete attributed Nexus loadout.",
+      "observation_sha256": "78f62f4ff9a85224c51069ba4b9c48f6444332ed058f5cd0e06d95ed9d73415b"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Dark_Knight_Guide&oldid=770942",
+      "title": "Community DRK guide permanent revision770942",
+      "locator": "Rendered header00:12,1July2026,Brahmsz; weapon options,TP/hybrid,WS,casting and utility sections",
+      "findings": [
+        "Opinion guide with mixed-era examples, not a latestBiS certification. No universal DT/TP build.",
+        "Montante+1 is a listed greatsword option. Scythe/GS and alternative stage contexts stay distinct.",
+        "Absorb section explicitly unfinished. FC example leaves waist and main/sub unspecified; not a full loadout or cap proof.",
+        "Entropy third cape mixes STR/INT/WSD and legs prose disagrees with grid. Nexus INT/DA alternative is independently attributed.",
+        "DrainII/III HP boost, missingHP recovery and DSNV duration/merits are separate; source numerical maxima not adopted.",
+        "DreadSpikes labels I/II/III are gear examples, not three learned spells. Ratri pieces increase damage taken; source HP sum and survival not certified.",
+        "ScarletDelirium damage-taking grids are situational, not defensive idle; not selected."
+      ],
+      "observation_sha256": "bff0259e75882f076899b2a157745c2fb1cf796eb69a4a8113920fecc29c471e"
+    },
+    {
+      "url": "https://www.ffxiah.com/node/52",
+      "title": "Quetzacoatl historical DRK guide",
+      "locator": "Original ordinaryChrome read; footer2017-05-18; JA,trait,magic and merit contexts only",
+      "findings": [
+        "Historical discovery only, not current gear rankings or capped JA/trait totals.",
+        "LastResort activation and sustained DesperateBlows with a twohand weapon require actual buff/merits; /SAM Hasso is not automatic.",
+        "Souleater consumes HP during attacks; StalwartSoul mitigation not a no-cost assumption.",
+        "DrainIII/EndarkII require actual gifts; DarkSeal actual merit access; actual MP/recast and target required.",
+        "AbsorbTP depends on enemy usableTP; Aspir depends on target MP. HP recovery and MP recovery not interchangeable."
+      ],
+      "observation_sha256": "e87c9fc9f1568ae526fd4c7d236ff3e276196fa17ca96bb6a383a896037446bc"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/35174/dont-fear-the-reaper-a-dark-knight-guide/223/",
+      "title": "October11,2026 Buukki/Vyre DRK discussion",
+      "locator": "Original contemporary page; read webreader and ordinaryChrome",
+      "findings": [
+        "Damage-oriented and dark-magic/control use cases differ; no independently supplied idle loadout.",
+        "Weapon-specific Origin/Caladbolg/Liberator/Apocalypse claims cannot transfer to selected Montante+1/Anguta.",
+        "Actual support,buffs,target and timing determine action usefulness; no reply ranking adopted as currentBiS."
+      ],
+      "observation_sha256": "6558d84867550ba61d3971e99688785da66e3ac5b736689c38369519f127dab3"
+    }
+  ],
+  "access": "Webreader BG403;ordinaryChrome worked:original BG and renderedPermanentlink770942,13scoped grids,node52/discussion223,35publiccards read. Manual observations,not rawHTML. No sourceLua executed."
+}

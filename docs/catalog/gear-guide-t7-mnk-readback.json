@@ -1,0 +1,130 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Bounded MNK initialpass;notproductionready;stopafterMNK and successor prompt",
+  "checks_passed": 28,
+  "checks": [
+    "345 pre-edit bytebackups hash correctly",
+    "all existing canonical bytes outside scoped docs packets and testcounts unchanged",
+    "prior test edits exactly globalcounts and authoredjoblist",
+    "422sets433revisions839sources immutable prefixes preserved",
+    "all nonMNK coverage rows unchanged",
+    "prior batches amendments and other metadata unchanged",
+    "11withdrawnBRD retained442stored431effective",
+    "eight unresolved originals unchanged",
+    "DRG zero recommendations eightgaps retained",
+    "439sets450revisions864sources225rows17MNK",
+    "7MNKincluded179total46gaps5jobszeroNA",
+    "wholecandidate actualresource immutablehistory preparation passes",
+    "exactGodhands20515 reviewedH2H independently known",
+    "722detached resourcefields descriptions match actualresources",
+    "712priorresources descriptions and metadata unchanged",
+    "four upstream hashes fingerprint unchanged",
+    "42handrecords v15 registry protectedbytes unchanged",
+    "7grids7facts11cards canonical digests verify",
+    "renderedBG781551 and fourmechanics permanent provenance retained",
+    "11card descriptionhashes/source locators verify",
+    "17saved definitions match revisions independent presavefingerprint",
+    "7actualMNKrows independently reconciled",
+    "17complete16slot compositions fixedGodhands20515 empty sub/range",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "all22secondpass WorldMap protectedbytes unchanged",
+    "all4WARpackets protectedbytes and declaredbaseline verify"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "tests/core/test_guide_war_batch.py"
+  ],
+  "baseline_file_count": 345,
+  "candidate_records": {
+    "sets": 439,
+    "revisions": 450,
+    "sources": 864,
+    "coverage": 225
+  },
+  "new_mnk_recommendations": 17,
+  "stored_verified_flags": 442,
+  "effective_verified_compositions": 431,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "drg_gaps": 8,
+  "included_priorities": 179,
+  "gap_priorities": 46,
+  "remaining_jobs": 5,
+  "not_applicable": 0,
+  "resource_records": 722,
+  "hand_registry": "42 / hands.2026-11-05.v15 unchanged",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-mnk-definitions.json": "814f401354eaeaf74547f88b8fdbf8638878f3555d0ed341adb24c4d6150e60c",
+    "gear-guide-t7-mnk-item-evidence.json": "36655be18983a1b37bb67c688330a542846f30d2e7e347be2c8fbf165a340904",
+    "gear-guide-t7-mnk-observations.json": "22161db124b0d2df3d4ac1e8245a7d7ff52075877a71e2100554f25f9875f408"
+  },
+  "deferred_plan": "Remaining initialpasses first;later secondpass ALL22jobs for issues with ANYjob;notstarted. BRD/DRG and all declaredissues deferred,notresolved/waived.",
+  "limits": "Offlinecomposition/history/preservation;notHPpreservation,caps,ownership/bags,currentBiS,human/frozen/live acceptance",
+  "validation": {
+    "presave": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.83
+    },
+    "focused": {
+      "passed": 494,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 33.04,
+      "native": true
+    },
+    "full_native": {
+      "passed": 1308,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 135.8
+    },
+    "initial_focused": {
+      "passed": 473,
+      "failed": 21,
+      "skipped": 0,
+      "seconds": 31.99,
+      "reason": "Four stale aggregate joblist expectations;17instances of newtest empty-sub diagnostic assumption. Corrected tests, no catalog/runtimebehavior change."
+    },
+    "environment": "Fresh MNK-local real-file launcher;TEMP/TMP/VN_DATA_DIR/basetemp,fictional discovery and disabled inventoryseeding;known Python3.14. Full suite ran with native permissions.",
+    "source_limits": "Offline source/evidence/composition only;no frozen/live/HPpreservation/cap/currentBiS/ownership certification",
+    "whitespace": {
+      "diff_exit": 0,
+      "checked_files": 40,
+      "trailing_whitespace": [],
+      "limits": "Scoped edited/new canonical documents/packets/tests and MNK-local scripts; pre-existing unrelated whitespace untouched"
+    },
+    "final_prompt_sha256": "ecb0e9b1c6593aa640690c8229981e883edb805d2bbd9f33c49669b5dcd05d28",
+    "focused_sandbox": {
+      "passed": 494,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 33.05
+    },
+    "prompt_location_correction": "Jason clarified: run in the chat/window where pasted; no new session creation required. Prompt and THF kickoff corrected after MNK validation; candidate/test/runtime bytes unchanged."
+  }
+}

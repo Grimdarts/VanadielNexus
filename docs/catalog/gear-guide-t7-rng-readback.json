@@ -1,0 +1,247 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Offline composition/history/resources only; no numeric caps, ownership, bag readiness, timing or live ammo protection",
+  "baseline_files": [
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-baseline-manifest.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-blm-baseline-manifest.json",
+      "sha256": "dfbd7fd5079d64c47a1ab0df9e894ba7f78e886d04fc1248aa813dad8a725895"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-definitions.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-blm-definitions.json",
+      "sha256": "45b1e6d14f24b3f4724fe0416eb42760ff3978e6758f84cdb8548278bea15674"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-item-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-blm-item-evidence.json",
+      "sha256": "5695b26c1f73a3641c4cc188b2ab9b98de50d907017360b0eb8f1fa455031fb5"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-blm-observations.json",
+      "sha256": "17c9daf422979d3ed2334f8b7f1ac95e0c1e37d3de705f97270b5e59d3b80343"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-augment-amendments.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-augment-amendments.json",
+      "sha256": "073a07bb9c4124938f1c9083ed6b7ed9f9525a193fb18f2987a2fc15c216c8b4"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-definitions.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-definitions.json",
+      "sha256": "52735f7c83cd450daedf6c972397182db4d6026f723233668e0efadac1ea3e19"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-item-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-item-evidence.json",
+      "sha256": "b5569268548f9231266d2f237d628916696a7efa5c1c7ec14ea8268f89b7a083"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-observations.json",
+      "sha256": "03af6fef6451ea7f9fe516959a1e55968a3befef529d7b602787d3b197a26dc3"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-readback.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-readback.json",
+      "sha256": "9c3322a8f2681b42dcb0e2604a0ea68f1ba1976a1a23a40725980be701d026a9"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-brd-reader-access.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-brd-reader-access.json",
+      "sha256": "9ef2bee7075567d517a3529ccff00b23b2c4777827f3a9ebe6fd4f9f81dffc57"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-candidate.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-candidate.json",
+      "sha256": "d57267de74e15f5e1d6ac4b7159db5f71ebaf2716d60974a084ff67ac7a1a8fb"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-geo-definitions.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-geo-definitions.json",
+      "sha256": "fb28bd1fde08101baa6800ae7a4d1d8d52e9e2c45ba0920b5b5d82d034224171"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-geo-item-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-geo-item-evidence.json",
+      "sha256": "66458311e0fea70ff4004a64a56d6e993f3e6754afa3ec2126105af5698c5753"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-geo-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-geo-observations.json",
+      "sha256": "9e47826e23dc69986b025383ee857c2763e7e450bf03a81cc4655a6822dd53f9"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-geo-readback.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-geo-readback.json",
+      "sha256": "1e03afbb1ed3b8af34a2aad58fed171eac8707d6e994f94367bc59c7fe8650f2"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-geo-source-captures.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-geo-source-captures.json",
+      "sha256": "0cab913297a78f00a09ac5f99f70e2e88a42d7098d425931ca9138133feb2740"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-observations.json",
+      "sha256": "3afee1672449c9cce5549a1f615ad56a8abf9761c28885eb13eb245dcbc81784"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-definitions.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-rdm-definitions.json",
+      "sha256": "ac9a3f98dbd18cfc04f372055ec31513049670bb349f302e4c31cf3abe3a418f"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-item-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-rdm-item-evidence.json",
+      "sha256": "9651a54b5cb5a43a37655726c7a637b80254362917f0c59f42822acf1f5a6703"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-rdm-observations.json",
+      "sha256": "0649623711bf2f31ed6f3aef6e9e3a5aa459716d7f882b4ef614c219f550a6e8"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-readback.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-rdm-readback.json",
+      "sha256": "d3d00e3099447e1304f573644d1d89512df5091b74a352de5451da97eb9ab1aa"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-resource-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-resource-evidence.json",
+      "sha256": "de97aeaeed4dbd7ae4f2648cb0ec1d4a32aa380bdf48642dd52c6b073ecd858c"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-sch-definitions.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-sch-definitions.json",
+      "sha256": "6c09787de1e17ea969c5a56863580f3c89c56b2dfd8a245a7dfa67a82aaf6058"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-sch-observations.json",
+      "sha256": "c7ec1f53d92c1653b157a997a5f0fe1bcd0b882ce058b98ccdb115b3265af98d"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-whm-melee-evidence.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-whm-melee-evidence.json",
+      "sha256": "c63d033a7aa9644b963224558ef64763805f50937cc604f49ba8a7b1cd21c62b"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "backup": ".t7-rng-checks/baseline/docs__catalog__gear-guide-t7-whm-observations.json",
+      "sha256": "751d89b25841b1f9f63444797986b7dc18d9f6662711470eec54b76f7832fc5d"
+    },
+    {
+      "path": "tests/core/test_guide_blm_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_blm_batch.py",
+      "sha256": "c5c806594730e9ffefce89d7a9a4c5804a0776bef3087c64e7f463d8273c335b"
+    },
+    {
+      "path": "tests/core/test_guide_brd_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_brd_batch.py",
+      "sha256": "06dcb4f8d1c83f5f32b138f5b237c7ed9d557230a49c07f7fd559f8311a2ca5b"
+    },
+    {
+      "path": "tests/core/test_guide_geo_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_geo_batch.py",
+      "sha256": "98afa482d508b3890be1c783330f69e9b2e99968c2d897b77489b2521a2387df"
+    },
+    {
+      "path": "tests/core/test_guide_rdm_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_rdm_batch.py",
+      "sha256": "35100f921107547929bc2d0daab1def03008a5957230058af841e1dfc1038785"
+    },
+    {
+      "path": "tests/core/test_guide_sch_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_sch_batch.py",
+      "sha256": "8858d2a4468d81890f72b39c23971688b829e2606c91121d0fb15cf166370ba5"
+    },
+    {
+      "path": "tests/core/test_guide_whm_batch.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_whm_batch.py",
+      "sha256": "988e682edb23310dce6244011cfc309415740a28ef85f110a870f9383f9afb3a"
+    },
+    {
+      "path": "tests/core/test_guide_authoring.py",
+      "backup": ".t7-rng-checks/baseline/tests__core__test_guide_authoring.py",
+      "sha256": "7271a21e1fdb9a8160d3b105795a38c2acfb2519712215a112abeaa3a416a81f"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-HANDOFF.md",
+      "backup": ".t7-rng-checks/baseline/docs__GEAR-GUIDE-T7-HANDOFF.md",
+      "sha256": "aa37e5332f25660430330ef0080194f0a9a1034e4076f9915e4b04dd512b1752"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+      "backup": ".t7-rng-checks/baseline/docs__GEAR-GUIDE-T7-EVIDENCE.md",
+      "sha256": "253071f3c0caf7bc9ea47edbeddd342101a93cd329472502003bd155d183cc45"
+    },
+    {
+      "path": "vanadiel_nexus/core/equipment_hands.py",
+      "backup": ".t7-rng-checks/baseline/vanadiel_nexus__core__equipment_hands.py",
+      "sha256": "f2648c6301481df758640729a484ad051aa8fe14315fd3ec87468e5ce98440d9"
+    },
+    {
+      "path": "vanadiel_nexus/resources/gear_guides.json",
+      "backup": ".t7-rng-checks/baseline/vanadiel_nexus__resources__gear_guides.json",
+      "sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85"
+    }
+  ],
+  "preserved_prior_records": {
+    "sets": 164,
+    "revisions": 175,
+    "sources": 278
+  },
+  "current_records": {
+    "sets": 194,
+    "revisions": 205,
+    "sources": 345,
+    "coverage": 225
+  },
+  "effective_verified_compositions": 186,
+  "stored_verified_flags": 197,
+  "withdrawn_brd_encodings": 11,
+  "rng_compositions": 30,
+  "unresolved_originals": 8,
+  "selected_slots": 3081,
+  "intentional_empty_slots": 173,
+  "included_priorities": 86,
+  "gap_priorities": 139,
+  "remaining_jobs": [
+    "BLU",
+    "BST",
+    "COR",
+    "DNC",
+    "DRG",
+    "DRK",
+    "MNK",
+    "NIN",
+    "PLD",
+    "PUP",
+    "RUN",
+    "SAM",
+    "SMN",
+    "THF",
+    "WAR"
+  ],
+  "resource_records": 437,
+  "preserved_resource_records": 380,
+  "resource_files": {
+    "items.lua": "92f32adb795f71645b241cf6764a6b89d4a953c69d4b9330e9fddbc334efb36f",
+    "item_descriptions.lua": "160d5e6c2562e49c4004e1add78575e8ac30b5d64f2fb89d6fdea7eb6457388c",
+    "jobs.lua": "88d1561636a15e03337a5c704b06491faf35e965965822ca9ca4da26606c1585",
+    "skills.lua": "968e212ddfe488b348a1d59e2ea219335e79e7651e635a940f36034c8198920f"
+  },
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "hand_registry": "22 / hands.2026-11-04.v6; prior19 AST-identical; Perun20805/Malevolence20595/Nusku26421 appended",
+  "prior_amendments_unchanged": true,
+  "protected_existing_inputs_unchanged": true,
+  "head": "5657f2092c0e0d84331d0741b1518669201e25d4",
+  "authoring_artifact_sha256": {
+    "gear-guide-t7-rng-definitions.json": "84b9f4e3a9e923c31ee4515cd9c14b3c80dc0158405b6f4bb1f0098e38867d7f",
+    "gear-guide-t7-rng-item-evidence.json": "62d11ad4b7a945174228134cfb493dc8879c2635cf7fe787d7cfe2f0a8fc7a82",
+    "gear-guide-t7-rng-observations.json": "f958f5fcdf38fbd310492350aaba2b1e264c9c557f7b3af56863b1cac0955f2e"
+  }
+}

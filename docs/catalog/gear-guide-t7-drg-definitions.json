@@ -1,0 +1,135 @@
+{
+  "checked_on": "2026-11-04",
+  "status": "no full DRG definitions admitted; no candidate save attempted",
+  "definitions": [],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "402151/402152 are niche/pet/absorb examples, omit exact main context and have unresolved copy/cape/stage conditions. No full independently verified DRG idle recommendation authored.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "Useful DRG/WHM or other MP-using subjob recovery must be separately authored with real spell/MP access. Regen, wyvern Regen and Regain are not master Refresh. No full source grid verified.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "382735 omits main/sub/range and gives only a cape summary. Modern polearm stages, exact augments and public cards still need independent checks.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "402150 Shell/wyvern context and Gae Buide stage/rank unknown; generic full-DT label does not prove capped master or pet defense.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "Historical Ryu/Gungnir/non-RME grids and /SAM assumptions cannot establish a modern accuracy checkpoint or hit-rate cap.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "Physical Stardiver/Drakesbane/Sonic/Camlann roles read historically; contemporary Shining One/Trishula opinion read. No full exact contemporary composition verified. Raiden magical/hybrid classification/composition remains unread; staff Cataclysm/Earth Crusher niche is separate.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Jumps",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "Four original Ryu grids preserved with different labels/feet/rings and AM3/wyvern context. No exact current weapon-stage/public-card/decoded-augment checks sufficient for full recommendations. High/Super enmity utility remains separate.",
+      "nexus_set_ids": []
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Wyvern support / breath",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "disposition": "gap retained unchanged",
+      "reason": "Call Wyvern, Spirit Link, healing/damage breath, Deep Breathing, Steady Wing and timing/wyvern state require independent original grids/cards; historical role prose and master WS tables are insufficient.",
+      "nexus_set_ids": []
+    }
+  ],
+  "additional_obligations": [
+    "Angon: unlocked merit ability and consumable; independent hands/utility evidence required.",
+    "Ancient Circle and Dragon Breaker target/action context; no borrowed damage-WS proof.",
+    "Mage subjob precast, recovery and defensive completion; exact access/MP/timing required.",
+    "Wyvern presence/alive, level/HP/TP, Deep Breathing next-use state and gear-at-call versus breath resolution timing must be explicit.",
+    "Ryunohige/Gungnir/Trishula/Shining One/prime stages and aftermath cannot share inferred requirements. No new hand registry evidence admitted."
+  ],
+  "pre_save_gate": "No requirements proposed or saved. New DRG augment families still require independent literal fictional-copy oracles before any later save, including20/10 parts, combined/repeated strings and native punctuation. Existing BRD withdrawn encodings/successors are unchanged."
+}

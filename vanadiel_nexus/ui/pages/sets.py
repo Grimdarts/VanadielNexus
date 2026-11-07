@@ -20,7 +20,7 @@ from PySide6.QtCore import QEasingCurve, QEvent, QObject, QPoint, QPropertyAnima
 from PySide6.QtGui import QColor, QFont, QKeySequence, QShortcut
 from PySide6.QtWidgets import (
     QAbstractItemView, QApplication, QComboBox, QFrame, QHBoxLayout, QHeaderView, QLabel, QLineEdit, QMenu, QPlainTextEdit, QScrollArea, QSplitter,
-    QStackedWidget, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QWidget,
+    QStackedWidget, QTabWidget, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QWidget,
 )
 
 from ...core import gearswap_files, gearswap_reader, item_res, set_manager
@@ -28,6 +28,7 @@ from ...core.jobs import ALL_FFXI_JOBS
 from .. import theme, widgets
 from ..equip_grid import SLOT_LABELS, CellData, EquipGrid, describe
 from ..item_links import add_open_actions
+from ..equipment_analyzer import EquipmentAnalyzer
 from .base import Page
 
 JOBS = [job for job in ALL_FFXI_JOBS if job != 'All']
@@ -180,6 +181,7 @@ class SetsPage(Page):
         self._shown_once = False
         self._filter_installed = False
         self.pinned = False
+        self._followed = None  # the last game (character, job, sub) this page tried to follow
         self.read = None
         self.views = []
         self.view_by_path = {}
@@ -316,6 +318,9 @@ class SetsPage(Page):
             self.attention_rows.append(row)
             cl.addWidget(row)
         cl.addWidget(self.more_label)
+        self._analyzer = None
+        self.equipment_tabs = None
+        self._centre_layout = cl
         cl.addStretch(1)
         self.centre_scroll = QScrollArea()
         self.centre_scroll.setWidgetResizable(True)
@@ -463,12 +468,34 @@ class SetsPage(Page):
             shortcut.activated.connect(action)
 
         ctx.inventory_changed.connect(self._inventory_changed)
+        self.item_details_shortcut = QShortcut(QKeySequence('Alt+I'), self,
+                                             activated=lambda: self.analyzer.show_item(self.grid.focused_slot(), self.grid))
         ctx.windower_changed.connect(self._windower_changed)
         ctx.bridge.state_received.connect(self._game_state)
         self._clear_panel()
-        self._apply_label_styles()
+        self._labels_styled = False
 
     # --- helpers ------------------------------------------------------------
+    @property
+    def analyzer(self):
+        # Construction stays cheap for startup/sidebar enumeration. Materialize
+        # this consumer at first actual Sets use, before requesting its source.
+        if self._analyzer is None:
+            self._analyzer = EquipmentAnalyzer(self.ctx, self)
+            self._analyzer.attach_grid(self.grid)
+            index = self._centre_layout.indexOf(self.attention_title)
+            attention_page = QWidget()
+            layout = QVBoxLayout(attention_page)
+            layout.setContentsMargins(0, 8, 0, 0)
+            for widget in (self.attention_title, *self.attention_rows, self.more_label):
+                self._centre_layout.removeWidget(widget)
+                layout.addWidget(widget)
+            self.equipment_tabs = QTabWidget()
+            self.equipment_tabs.addTab(attention_page, 'Attention & copy fixes')
+            self.equipment_tabs.addTab(self._analyzer, 'Equipment analysis')
+            self._centre_layout.insertWidget(index, self.equipment_tabs)
+        return self._analyzer
+
     def _scale(self) -> float:
         try:
             return float(self.ctx.settings.get('text_scale') or 1.0)
@@ -476,6 +503,7 @@ class SetsPage(Page):
             return 1.0
 
     def _apply_label_styles(self) -> None:
+        self._labels_styled = True
         scale = self._scale()
         # Keep focus visible even for ghost buttons and trees whose native outline
         # is suppressed by the app theme. Scope this pass to Sets.
@@ -521,11 +549,12 @@ class SetsPage(Page):
 
     # --- showing the page -------------------------------------------------
     def on_shown(self) -> None:
+        self.analyzer.activate()
         if not self._filter_installed and self.window() is not self:
             self.window().installEventFilter(self)
             self._filter_installed = True
         scale = self._scale()
-        if abs(scale - self.grid.scale) > 0.001:
+        if not self._labels_styled or abs(scale - self.grid.scale) > 0.001:
             self.grid.set_scale(scale)
             self._apply_label_styles()
         if not self._shown_once:
@@ -633,7 +662,10 @@ class SetsPage(Page):
         """Follow the game's character and job unless a job was picked by hand (design D12)."""
         name, job, sub = self._live()
         if self._shown_once and not self.pinned and self._copy_target is None and name and job:
-            if (name, job, sub) != self._context():
+            # A game job with no file can't be selected, so the context never matches; follow each game
+            # state once instead of re-searching every job file on every update from the game.
+            if (name, job, sub) != self._context() and (name, job, sub) != self._followed:
+                self._followed = (name, job, sub)
                 if self.character_combo.findText(name) < 0:
                     self.character_combo.addItem(name)
                 self.character_combo.setCurrentText(name)
@@ -644,6 +676,7 @@ class SetsPage(Page):
     def _follow_game(self) -> None:
         self._reset_copy()
         self.pinned = False
+        self._followed = None
         self._game_state(self.ctx.bridge.state or {})
 
     def _update_follow(self) -> None:
@@ -660,6 +693,7 @@ class SetsPage(Page):
         character, job, sub = self._context()
         if not character or not job:
             return
+        self.analyzer.invalidate()
         key = (self._windower(), character, job, sub)
         choice = None
         if preserve_replacement and not force and key == self._read_key and self._copy_target is not None:
@@ -782,6 +816,9 @@ class SetsPage(Page):
         self._update_freshness()
 
     def _windower_changed(self, _path: str) -> None:
+        self.analyzer.invalidate('Equipment source changed')
+        if self._shown_once:
+            self.analyzer.activate()
         self._focus_choice = None
         self._clear_panel()
         self._generation += 1
@@ -937,6 +974,10 @@ class SetsPage(Page):
         view = self.view_by_path.get(path)
         changed_set = path != self.current_path
         self.current_path = path
+        if self.read is not None and not self._busy and (self._windower(), *self._context()) == self._read_key:
+            self.analyzer.set_selection(self.read, path)
+        else:
+            self.analyzer.invalidate()
         if view is None:
             self.grid.set_cells({})
             self._set_verdict('', theme.TEXT)
@@ -1007,6 +1048,7 @@ class SetsPage(Page):
     # --- panel ------------------------------------------------------------
     def _cell_clicked(self, slot: str) -> None:
         self.current_slot = slot
+        self.analyzer.selected_slot = slot
         self._show_slot(slot)
         if not self._wide:
             self._open_panel()
@@ -1031,6 +1073,7 @@ class SetsPage(Page):
             self._show_slot(slot)
         if row:
             menu = QMenu(self)
+            menu.addAction('Item details (Alt+I)', lambda: self.analyzer.show_item(slot, self.grid))
             add_open_actions(menu, self.ctx, row)
             menu.exec(global_pos)
             menu.deleteLater()
@@ -1350,7 +1393,7 @@ class SetsPage(Page):
         path = self._open_file_path()
         if path and not self._busy:
             try:
-                os.startfile(path)
+                self.ctx.edit_file(path)  # never 'open': that can run the Lua (see AppContext.edit_file)
             except OSError as error:
                 self.status(f'Couldn’t open file: {error}')
 

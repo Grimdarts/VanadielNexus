@@ -3,6 +3,16 @@ import os
 
 os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
 
+# Legacy item-target settings and tier-picker regressions use the exact v1 snapshot.
+# Current production v2 loader/page/adoption are exercised in test_guide_production_v2.
+import pytest
+from tests.guide_bundle_fixtures import LEGACY
+
+@pytest.fixture(autouse=True)
+def retained_v1_bundle(monkeypatch):
+    from vanadiel_nexus.core import gear_guides
+    monkeypatch.setattr(gear_guides, 'resource_path', lambda *_: str(LEGACY))
+
 SITE_ACTIONS = ['Open on BG-Wiki ↗', 'Open on FFXIAH ↗', 'Open on FFXIclopedia ↗']
 
 

@@ -1,0 +1,73 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Offline exact-file and detached-public-resource readback; no game/live readiness claim",
+  "preserved_prior_items": 285,
+  "readback_items": 327,
+  "preserved_prior_hand_records": 15,
+  "hand_records": 18,
+  "sources": 188,
+  "sets": 119,
+  "revisions": 119,
+  "selected_slots": 1767,
+  "intentional_empty_slots": 111,
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "resource_fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "resource_files": {
+    "items.lua": "92f32adb795f71645b241cf6764a6b89d4a953c69d4b9330e9fddbc334efb36f",
+    "item_descriptions.lua": "160d5e6c2562e49c4004e1add78575e8ac30b5d64f2fb89d6fdea7eb6457388c",
+    "jobs.lua": "88d1561636a15e03337a5c704b06491faf35e965965822ca9ca4da26606c1585",
+    "skills.lua": "968e212ddfe488b348a1d59e2ea219335e79e7651e635a940f36034c8198920f"
+  },
+  "baseline_files": [
+    {
+      "path": "docs/catalog/gear-guide-t7-candidate.json",
+      "sha256": "2ae9ffc79c44fc3c78445199f5a92caf982ebb9b73c3f704a48bcec43b79ee93",
+      "backup": ".t7-rdm-checks\\baseline\\docs__catalog__gear-guide-t7-candidate.json"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-resource-evidence.json",
+      "sha256": "d526904036de5a6be91cf84eb094897591f9e25c5ba3f36de00991bc4ace5f59",
+      "backup": ".t7-rdm-checks\\baseline\\docs__catalog__gear-guide-t7-resource-evidence.json"
+    },
+    {
+      "path": "vanadiel_nexus/core/equipment_hands.py",
+      "sha256": "3523d218ada2777b0b30e7d1bc9665db924cd4a9489793a9497701d43cb17a91",
+      "backup": ".t7-rdm-checks\\baseline\\vanadiel_nexus__core__equipment_hands.py"
+    },
+    {
+      "path": "tests/core/test_guide_authoring.py",
+      "sha256": "4a7fbb56be88eda454a7d7e0349398af2906fa2ae4e31e786864a511fec8f553",
+      "backup": ".t7-rdm-checks\\baseline\\tests__core__test_guide_authoring.py"
+    },
+    {
+      "path": "tests/core/test_guide_sch_batch.py",
+      "sha256": "57435d613115f3eea4d4861bcbdfd3ef0ac71a92c996a1949c70193d076a03a3",
+      "backup": ".t7-rdm-checks\\baseline\\tests__core__test_guide_sch_batch.py"
+    },
+    {
+      "path": "tests/core/test_guide_blm_batch.py",
+      "sha256": "1ba44c2519f66c70c7ac40b38e74593b71c1e1007afc7e7f67cf70ec56aa81aa",
+      "backup": ".t7-rdm-checks\\baseline\\tests__core__test_guide_blm_batch.py"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-HANDOFF.md",
+      "sha256": "8b79dced7915eaea79cf9a00c4ab993369d4ec3388a3029b389b8fefc0012b88",
+      "backup": ".t7-rdm-checks\\baseline\\docs__GEAR-GUIDE-T7-HANDOFF.md"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+      "sha256": "ac52abd2a83edfaa6871ce590c838a0cb467b8e6d0e16ecf87cdf15ba75e4156",
+      "backup": ".t7-rdm-checks\\baseline\\docs__GEAR-GUIDE-T7-EVIDENCE.md"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T1-COVERAGE.md",
+      "sha256": "b2de5ee4108cfd7f02d0f07ff4ec21d496bcf0520acbd2dc30a7c65842b0d657",
+      "backup": ".t7-rdm-checks\\baseline\\docs__GEAR-GUIDE-T1-COVERAGE.md"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-BLM.md",
+      "sha256": "34a60ed7b5ae9e8008c943f7c33793e169b5c6dc0d6eda57636374f5d44811cf",
+      "backup": ".t7-rdm-checks\\baseline\\docs__GEAR-GUIDE-T7-BLM.md"
+    }
+  ]
+}

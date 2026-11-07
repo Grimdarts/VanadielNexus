@@ -1,0 +1,2134 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "DT Idle - master club/shield",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316322
+      ],
+      "rationale": "Nexus base Nyame/Defending/Moonbeam master defense assembly. No pet mitigation or effective DT cap is attributed to it.",
+      "context": {
+        "recipient": "Master",
+        "luopan": "No active luopan durability priority"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle - fixed base recovery",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27017,
+          "name": "Bagua Mitaines +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23726,
+          "name": "Volte Gaiters",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        371134,
+        371132
+      ],
+      "rationale": "Nexus selects fixed base Refresh pieces and two physical Stikini +1 rings; no Homiliary, Moonshade augment, Fucho latent, maximum Unity or random Merlinic augment. Retains Dunna; ammo deliberately empty.",
+      "context": {
+        "recipient": "Master",
+        "luopan": "No claimed pet-defense sufficiency"
+      }
+    },
+    {
+      "key": "refresh-jse",
+      "target": "Refresh Idle - JSE defense/recovery",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23507,
+          "name": "Azimuth Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23552,
+          "name": "Bagua Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        371132
+      ],
+      "rationale": "Separate Nexus Azimuth +3/Bagua +3 checkpoint; sacrifices some ordinary recovery choices for JSE defensive pieces. Base effects only; no superior tier/BiS or capped recovery claim.",
+      "context": {
+        "recipient": "Master",
+        "luopan": "Only explicitly described base pet effects; not a pet-defense cap"
+      }
+    },
+    {
+      "key": "geomancy-skill",
+      "target": "Geomancy / Indi - base skill checkpoint",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28476,
+          "name": "Calamitous Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23485,
+          "name": "Bagua Tunic +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28637,
+          "name": "Lifestream Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23619,
+          "name": "Bagua Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        346417,
+        341832
+      ],
+      "rationale": "Replace historical mixed augment-dependent skill/conserve assembly with explicit unaugmented base Solstice/Dunna, Azimuth +3, Bagua +3, Geo +3, Lifestream and two Stikini +1. No 900-skill or Conserve MP benchmark inherited.",
+      "context": {
+        "spell": "Learned self Indi or Geo spell",
+        "recipient": "Self aura or newly created luopan",
+        "skill": "No merits, gifts, ML or exact skill total assumed"
+      }
+    },
+    {
+      "key": "indi-duration",
+      "target": "Indi duration - self",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28476,
+          "name": "Calamitous Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23485,
+          "name": "Bagua Tunic +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26266,
+          "name": "Nantosuelta's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23619,
+          "name": "Bagua Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        346417
+      ],
+      "rationale": "Nexus keeps base duration pieces Solstice, Bagua pants, Azimuth gaiters and Nantosuelta cape while retaining skill pieces. No hidden cape augments or source Conserve MP percentage.",
+      "context": {
+        "spell": "Learned Indi spell",
+        "recipient": "Self; Entrust inactive",
+        "duration": "No duration total or cap certified"
+      }
+    },
+    {
+      "key": "entrust",
+      "target": "Indi duration - Entrust recipient",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28476,
+          "name": "Calamitous Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23485,
+          "name": "Bagua Tunic +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26266,
+          "name": "Nantosuelta's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23619,
+          "name": "Bagua Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        346417
+      ],
+      "rationale": "Separate other-recipient context. Guide states Entrust does not benefit from Geomancy+ or Bolster. Retain skill/duration pieces without claiming potency from Dunna Geomancy+.",
+      "context": {
+        "spell": "Learned Indi spell with usable Entrust",
+        "recipient": "Eligible party member",
+        "ability": "Entrust active; no Bolster/Geomancy+ potency attributed",
+        "duration": "Application and duration remain unmeasured"
+      }
+    },
+    {
+      "key": "geocolure",
+      "target": "Geocolure casting - skill and master defense",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28476,
+          "name": "Calamitous Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23485,
+          "name": "Bagua Tunic +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28637,
+          "name": "Lifestream Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        346417,
+        341832
+      ],
+      "rationale": "Separate creation-time Geo spell assembly. Skill pieces retained; Nyame legs/feet chosen for master protection rather than Indi-only duration. Luopan idle is a separate aftercast checkpoint.",
+      "context": {
+        "spell": "Learned Geo spell",
+        "recipient": "New luopan",
+        "sequence": "Cast checkpoint -> separately selected luopan idle; no runtime automation"
+      }
+    },
+    {
+      "key": "luopan-durability",
+      "target": "Luopan durability - non-Idris base hybrid",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28451,
+          "name": "Isa Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23686,
+          "name": "Bagua Sandals +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        333672,
+        316322
+      ],
+      "rationale": "Nexus Solstice/shield instead of source Sucellus/Idris dual-wield, no inherited Idris effect. Dunna/Geo +3 hands/Isa and head/feet luopan Regen kept with master Nyame/Moonbeam. No Telchine/cape augments or pet cap/perpetuation promise.",
+      "context": {
+        "recipient": "Luopan plus separately described master effects",
+        "luopan": "Active; non-Idris",
+        "scope": "Pet effects must not be reclassified as master DT/Refresh"
+      }
+    },
+    {
+      "key": "luopan-recovery",
+      "target": "Luopan durability - master MP recovery tradeoff",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23463,
+          "name": "Geomancy Tunic +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23530,
+          "name": "Geo. Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28451,
+          "name": "Isa Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23686,
+          "name": "Bagua Sandals +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        333672,
+        371132
+      ],
+      "rationale": "Same explicit non-Idris pet core with Geomancy Tunic +3 base Refresh replacing Nyame body; master protection changes. No Regen/perpetuation break-even or capped pet DT claim.",
+      "context": {
+        "recipient": "Active luopan and master MP recovery",
+        "luopan": "Active; non-Idris",
+        "tradeoff": "Master body defense reduced for Refresh"
+      }
+    },
+    {
+      "key": "fast-cast",
+      "target": "Precast - base Fast Cast with handbell",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27635,
+          "name": "Chanter's Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28637,
+          "name": "Lifestream Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23597,
+          "name": "Geomancy Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23726,
+          "name": "Volte Gaiters",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316497
+      ],
+      "rationale": "Nexus base FC armor with unaugmented Lifestream cape; no Fi Follet base-FC fiction, Merlinic random FC7, Solstice path D or subjob-trait cap. Preserve handbell and shield legality.",
+      "context": {
+        "spell": "Learned spell",
+        "sequence": "Precast only; switch to correct midcast",
+        "traits": "No /RDM trait magnitude or effective cap counted"
+      }
+    },
+    {
+      "key": "fast-cast-defense",
+      "target": "Precast - threatened defense tradeoff",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21085,
+          "name": "Solstice",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21372,
+          "name": "Dunna",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23574,
+          "name": "Azimuth Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23597,
+          "name": "Geomancy Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316497
+      ],
+      "rationale": "Separate defensive precast assembly gives up casting pieces for Genmei/Azimuth/Defending/Moonbeam. No equal casting speed or numeric SIRD/FC cap claim.",
+      "context": {
+        "spell": "Learned spell while threatened",
+        "sequence": "Precast checkpoint only"
+      }
+    },
+    {
+      "key": "free-nuke",
+      "target": "Casting potency - base Agwu",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23759,
+          "name": "Agwu's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316509,
+        354155
+      ],
+      "rationale": "Nexus Daybreak/shield and unaugmented Agwu base MAB/INT choices. Null Shawl used for fixed accuracy without an invented INT/MAB cape. No rank effects, maximum Unity, weather/day/direction or source damage inherited.",
+      "context": {
+        "spell": "Learned elemental spell outside burst",
+        "target": "Neutral unassumed day/weather/direction",
+        "access": "High-tier spells require their own learned/JP access; not supplied by gear"
+      }
+    },
+    {
+      "key": "free-nuke-jse",
+      "target": "Casting potency - JSE checkpoint",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23507,
+          "name": "Azimuth Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23552,
+          "name": "Bagua Mitaines +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23641,
+          "name": "Azimuth Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        354155
+      ],
+      "rationale": "Separate Nexus Azimuth +3 and Bagua +3 base caster checkpoint, not asserted universally stronger. No relic merit augment assumed.",
+      "context": {
+        "spell": "Learned elemental spell outside burst",
+        "target": "Neutral unassumed day/weather/direction"
+      }
+    },
+    {
+      "key": "magic-burst",
+      "target": "Magic burst - Ea/JSE base assembly",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25554,
+          "name": "Ea Hat +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28379,
+          "name": "Mizu. Kubikazari",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26530,
+          "name": "Ea Houppe. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11672,
+          "name": "Mujin Band",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23641,
+          "name": "Azimuth Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        354155
+      ],
+      "rationale": "Nexus selects explicit Ea +1 head/body, Mujin and base burst-bearing armor; no cape augment, Odyssey rank, MB total/cap or damage guarantee. Ea +1 Su3 access is explicit.",
+      "context": {
+        "spell": "Learned elemental spell in compatible burst window",
+        "access": "Ea +1 requires GEO Superior level 3 / 500 Job Points",
+        "target": "No Cardinal Chant direction, weather or day bonus assumed"
+      }
+    },
+    {
+      "key": "magic-accuracy",
+      "target": "Magic accuracy - elemental checkpoint",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23507,
+          "name": "Azimuth Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23574,
+          "name": "Azimuth Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23641,
+          "name": "Azimuth Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23708,
+          "name": "Azimuth Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        354155,
+        316507
+      ],
+      "rationale": "Nexus fixed base magic accuracy and skill choices with two distinct Stikini +1 copies. No landing-rate, resistance-floor or max Unity benchmark.",
+      "context": {
+        "spell": "Learned elemental spell with accuracy priority",
+        "target": "Target-dependent resistances unquantified"
+      }
+    },
+    {
+      "key": "enfeebling-mnd",
+      "target": "Magic accuracy - MND enfeebling",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23507,
+          "name": "Azimuth Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23574,
+          "name": "Azimuth Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23641,
+          "name": "Azimuth Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23686,
+          "name": "Bagua Sandals +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316507,
+        319965
+      ],
+      "rationale": "Nexus native enfeebling skill hands/feet and fixed accuracy accessories; source MND/INT distinction retained without inventing cape augments or a potency total.",
+      "context": {
+        "spell": "Available MND-based enfeebling spell",
+        "access": "Spell must be learned and accessible through main/subjob",
+        "recipient": "Enemy"
+      }
+    },
+    {
+      "key": "enfeebling-int",
+      "target": "Magic accuracy - INT enfeebling",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23440,
+          "name": "Azimuth Hood +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23507,
+          "name": "Azimuth Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23574,
+          "name": "Azimuth Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23641,
+          "name": "Azimuth Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23686,
+          "name": "Bagua Sandals +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        316507,
+        319965
+      ],
+      "rationale": "Separate INT-based context chooses Metamor +1 and one Stikini +1. No Unity maximum, Odyssey augment or fixed landing-rate claim.",
+      "context": {
+        "spell": "Available INT-based enfeebling spell",
+        "access": "Spell must be learned and accessible through main/subjob",
+        "recipient": "Enemy"
+      }
+    }
+  ]
+}

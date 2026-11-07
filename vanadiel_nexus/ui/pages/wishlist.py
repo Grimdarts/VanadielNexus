@@ -2,7 +2,7 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QComboBox, QInputDialog, QMenu, QSplitter
 
-from ...core import materials, gear_guides
+from ...core import gear_guides, item_res, materials
 from ...core.database import new_id
 from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import parse_wiki_url_or_name
@@ -47,6 +47,8 @@ class WishlistPage(Page):
                          widgets.button("Add item", "primary", self._add))
 
         self.owned = {}
+        self._have = {}  # id(row) -> Have text, worked out once per refresh
+        self._have_character = None
         self.table = DataTable([
             Column("Item", "name", 220, tone=lambda r: theme.ACCENT if r.get("pinned") else None),
             Column("Have", self._ownership, 145,
@@ -89,11 +91,24 @@ class WishlistPage(Page):
     def items(self):
         return self.ctx.db.data["wishlist"]
 
+    def _guide_character(self) -> str:
+        """Same order as Guide upgrades: the character logged in now, then the last one picked there.
+        '' (no character known yet) compares against every character's bags."""
+        return self.ctx.bridge.state.get('player_name', '') or self.ctx.settings.get('guide_character') or ''
+
     def _ownership(self, row):
+        # The Have column asks on every repaint; refresh() works each row out once.
+        cached = self._have.get(id(row))
+        return cached if cached is not None else self._compute_ownership(row, self.ctx.all_inventory())
+
+    def _compute_ownership(self, row, inventory) -> str:
         if row.get('guideTarget'):
-            character = self.ctx.settings.get('guide_character') or self.ctx.bridge.state.get('player_name', '') or 'Someonesmall'
-            return gear_guides.equipment_status(row['guideTarget'], self.ctx.all_inventory(), character)[0]
+            return gear_guides.equipment_status(row['guideTarget'], inventory, self._guide_character())[0]
         return 'In your bags' if self.owned.get(str(row.get('name', '')).lower()) else ''
+
+    def on_shown(self) -> None:
+        if self._have_character != self._guide_character():  # e.g. a different pick on Guide upgrades
+            self.refresh()
 
     def _sync_job(self, job: str) -> None:
         self.job_combo.blockSignals(True)
@@ -104,7 +119,10 @@ class WishlistPage(Page):
     def refresh(self) -> None:
         job = "" if self.job_combo.currentText() == "All jobs" else self.job_combo.currentText()
         rows = [w for w in self.items if not job or w.get("job") in (job, "All", "", None)]
-        self.owned = materials.inventory_totals(self.ctx.all_inventory())
+        inventory = self.ctx.all_inventory()
+        self.owned = materials.inventory_totals(inventory)
+        self._have_character = self._guide_character()
+        self._have = {id(row): self._compute_ownership(row, inventory) for row in rows}
         rows.sort(key=lambda w: (not w.get("pinned"), str(w.get("name", "")).lower()))
         sources = sorted({w.get("sourceType", "") for w in rows if w.get("sourceType")}, key=str.lower)
         current = self.source_combo.currentText()
@@ -153,12 +171,27 @@ class WishlistPage(Page):
         self.status(f"{row.get('name')} added to Gear → Goals.")
 
     def _catalog_prefill(self, name: str) -> dict:
-        return dict(self.ctx.db.data["catalog_db"].get(name, {}))
+        """Your own catalog entry if you have one, else the slot from the game's item data."""
+        saved = self.ctx.db.data["catalog_db"].get(name)
+        if saved:
+            return dict(saved)
+        if not self.ctx.windower_dir:
+            return {}
+        ids = item_res.by_name(self.ctx.windower_dir).get(name.casefold())  # wiki links lose capitals
+        item = item_res.items(self.ctx.windower_dir).get(ids[0]) if ids else None
+        return {"name": item.en, "slot": item_res.slot_label(item)} if item else {}
+
+    def _suggestions(self) -> list:
+        """Item names to autocomplete: every piece of equipment in Windower's res/items.lua, plus your catalog."""
+        names = set(self.ctx.db.data["catalog_db"])
+        if self.ctx.windower_dir:
+            names.update(item_res.equipment_names(self.ctx.windower_dir))
+        return list(names)
 
     def _add(self, prefill=None) -> None:
         values = FormDialog.ask(self, "Add to wishlist", FIELDS,
                                 {"job": self.ctx.job or "All", **(prefill or {})},
-                                completions=list(self.ctx.db.data["catalog_db"].keys()),
+                                completions=self._suggestions(),
                                 on_complete=self._catalog_prefill)
         if values:
             values["id"] = new_id("wl")

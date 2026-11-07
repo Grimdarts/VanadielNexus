@@ -1,0 +1,960 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set": 363883,
+      "url": "https://www.ffxiah.com/item-sets/363883",
+      "title_summary": "Mid-Cast Song Buffs",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "main",
+          "name": "Carnwenhan",
+          "source_text": "input /equip main \"Carnwenhan\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Genmei Shield",
+          "source_text": "input /equip sub \"Genmei Shield\";"
+        },
+        {
+          "slot": "range",
+          "name": "Gjallarhorn",
+          "source_text": "input /equip range \"Gjallarhorn\";"
+        },
+        {
+          "slot": "head",
+          "name": "Fili Calot +1",
+          "source_text": "input /equip head \"Fili Calot +1\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Mnbw. Whistle +1",
+          "source_text": "input /equip neck \"Mnbw. Whistle +1\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Etiolation Earring",
+          "source_text": "input /equip ear1 \"Etiolation Earring\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Genmei Earring",
+          "source_text": "input /equip ear2 \"Genmei Earring\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Fili Manchettes +1",
+          "source_text": "input /equip hands \"Fili Manchettes +1\";"
+        },
+        {
+          "slot": "body",
+          "name": "Fili Hongreline +1",
+          "source_text": "input /equip body \"Fili Hongreline +1\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Defending Ring",
+          "source_text": "input /equip ring1 \"Defending Ring\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Gelatinous Ring +1",
+          "source_text": "input /equip ring2 \"Gelatinous Ring +1\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Flume Belt +1",
+          "source_text": "input /equip waist \"Flume Belt +1\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Inyanga Shalwar +2",
+          "source_text": "input /equip legs \"Inyanga Shalwar +2\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Brioso Slippers +3",
+          "source_text": "input /equip feet \"Brioso Slippers +3\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Carnwenhan and named relic/empyrean instrument stage cannot be selected from a display name alone. Nexus uses independently checked exact IDs instead."
+      ],
+      "observation_sha256": "813d15814e277245943c39a12af20736ae47e15820a9c990e9b76ea0edb810a7"
+    },
+    {
+      "item_set": 363887,
+      "url": "https://www.ffxiah.com/item-sets/363887",
+      "title_summary": "Precast FC Songs - source title claims 80% casting reduction",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Kishar Ring",
+          "source_text": "input /equip ring1 \"Kishar Ring\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Enchntr. Earring +1",
+          "source_text": "input /equip ear1 \"Enchntr. Earring +1\";"
+        },
+        {
+          "slot": "body",
+          "name": "Inyanga Jubbah +2",
+          "source_text": "input /equip body \"Inyanga Jubbah +2\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Shinjutsu-no-Obi +1",
+          "source_text": "input /equip waist \"Shinjutsu-no-Obi +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Gelatinous Ring +1",
+          "source_text": "input /equip ring2 \"Gelatinous Ring +1\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Orunmila's Torque",
+          "source_text": "input /equip neck \"Orunmila's Torque\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Etiolation Earring",
+          "source_text": "input /equip ear2 \"Etiolation Earring\";"
+        },
+        {
+          "slot": "main",
+          "name": "Barfawc",
+          "source_text": "input /equip main \"Barfawc\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Genmei Shield",
+          "source_text": "input /equip sub \"Genmei Shield\";"
+        },
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat",
+          "source_text": "input /equip head \"Bunzi's Hat\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Bunzi's Gloves",
+          "source_text": "input /equip hands \"Bunzi's Gloves\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Bunzi's Pants",
+          "source_text": "input /equip legs \"Bunzi's Pants\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Bunzi's Sabots",
+          "source_text": "input /equip feet \"Bunzi's Sabots\";"
+        }
+      ],
+      "occupied_entry_count": 14,
+      "omitted_slots": [
+        "range",
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Title cast-time claims and 550JP gift do not establish FC/recast for today's changed table or Nexus replacements. Range and ammo omitted."
+      ],
+      "observation_sha256": "7e1cf111fb50ed9cd64f466cab6dfb8b8cc4e908f2816dbb2edbd7151bc39c90"
+    },
+    {
+      "item_set": 363900,
+      "url": "https://www.ffxiah.com/item-sets/363900",
+      "title_summary": "Precast FC Generic - source title claims 80% Fast Cast / 9% Quick Cast",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "body",
+          "name": "Inyanga Jubbah +2",
+          "source_text": "input /equip body \"Inyanga Jubbah +2\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Leyline Gloves",
+          "source_text": "input /equip hands \"Leyline Gloves\";"
+        },
+        {
+          "slot": "range",
+          "name": "Linos",
+          "source_text": "input /equip range \"Linos\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Witful Belt",
+          "source_text": "input /equip waist \"Witful Belt\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Weather. Ring +1",
+          "source_text": "input /equip ring1 \"Weather. Ring +1\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Volte Brais",
+          "source_text": "input /equip legs \"Volte Brais\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Volte Gaiters",
+          "source_text": "input /equip feet \"Volte Gaiters\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Orunmila's Torque",
+          "source_text": "input /equip neck \"Orunmila's Torque\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Enchntr. Earring +1",
+          "source_text": "input /equip ear1 \"Enchntr. Earring +1\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Loquac. Earring",
+          "source_text": "input /equip ear2 \"Loquac. Earring\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Lebeche Ring",
+          "source_text": "input /equip ring2 \"Lebeche Ring\";"
+        },
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat",
+          "source_text": "input /equip head \"Bunzi's Hat\";"
+        }
+      ],
+      "occupied_entry_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "observation_sha256": "73f0b7b3e8166b03ddb4bd820d347a79572e08991ea719d984ad832024f553a2"
+    },
+    {
+      "item_set": 363884,
+      "url": "https://www.ffxiah.com/item-sets/363884",
+      "title_summary": "Mid-Cast Song Debuff",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "main",
+          "name": "Carnwenhan",
+          "source_text": "input /equip main \"Carnwenhan\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Ammurapi Shield",
+          "source_text": "input /equip sub \"Ammurapi Shield\";"
+        },
+        {
+          "slot": "range",
+          "name": "Gjallarhorn",
+          "source_text": "input /equip range \"Gjallarhorn\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Brioso Cannions +3",
+          "source_text": "input /equip legs \"Brioso Cannions +3\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Regal Earring",
+          "source_text": "input /equip ear1 \"Regal Earring\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Brioso Slippers +3",
+          "source_text": "input /equip feet \"Brioso Slippers +3\";"
+        },
+        {
+          "slot": "body",
+          "name": "Brioso Justau. +3",
+          "source_text": "input /equip body \"Brioso Justau. +3\";"
+        },
+        {
+          "slot": "head",
+          "name": "Brioso Roundlet +3",
+          "source_text": "input /equip head \"Brioso Roundlet +3\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Digni. Earring",
+          "source_text": "input /equip ear2 \"Digni. Earring\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Mnbw. Whistle +1",
+          "source_text": "input /equip neck \"Mnbw. Whistle +1\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Inyan. Dastanas +2",
+          "source_text": "input /equip hands \"Inyan. Dastanas +2\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Acuity Belt +1",
+          "source_text": "input /equip waist \"Acuity Belt +1\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Carnwenhan and named relic/empyrean instrument stage cannot be selected from a display name alone. Nexus uses independently checked exact IDs instead."
+      ],
+      "observation_sha256": "29b32b76194a018ba14268d0857cd38635f73a97b9b19d5484521338d6ab914c"
+    },
+    {
+      "item_set": 369352,
+      "url": "https://www.ffxiah.com/item-sets/369352",
+      "title_summary": "FoeLullaby",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "range",
+          "name": "Gjallarhorn",
+          "source_text": "input /equip range \"Gjallarhorn\";"
+        },
+        {
+          "slot": "main",
+          "name": "Carnwenhan",
+          "source_text": "input /equip main \"Carnwenhan\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Ammurapi Shield",
+          "source_text": "input /equip sub \"Ammurapi Shield\";"
+        },
+        {
+          "slot": "head",
+          "name": "Bihu Roundlet +3",
+          "source_text": "input /equip head \"Bihu Roundlet +3\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Mnbw. Whistle +1",
+          "source_text": "input /equip neck \"Mnbw. Whistle +1\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Regal Earring",
+          "source_text": "input /equip ear1 \"Regal Earring\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Digni. Earring",
+          "source_text": "input /equip ear2 \"Digni. Earring\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Brioso Cuffs +3",
+          "source_text": "input /equip hands \"Brioso Cuffs +3\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Brioso Slippers +3",
+          "source_text": "input /equip feet \"Brioso Slippers +3\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Acuity Belt +1",
+          "source_text": "input /equip waist \"Acuity Belt +1\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Inyanga Shalwar +2",
+          "source_text": "input /equip legs \"Inyanga Shalwar +2\";"
+        },
+        {
+          "slot": "body",
+          "name": "Fili Hongreline +1",
+          "source_text": "input /equip body \"Fili Hongreline +1\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Carnwenhan and named relic/empyrean instrument stage cannot be selected from a display name alone. Nexus uses independently checked exact IDs instead."
+      ],
+      "observation_sha256": "138425ac678696c930283c3829152c7eb2c2563e258232640b6620f939282103"
+    },
+    {
+      "item_set": 369355,
+      "url": "https://www.ffxiah.com/item-sets/369355",
+      "title_summary": "HordeLullaby",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "main",
+          "name": "Carnwenhan",
+          "source_text": "input /equip main \"Carnwenhan\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Ammurapi Shield",
+          "source_text": "input /equip sub \"Ammurapi Shield\";"
+        },
+        {
+          "slot": "range",
+          "name": "Daurdabla",
+          "source_text": "input /equip range \"Daurdabla\";"
+        },
+        {
+          "slot": "head",
+          "name": "Brioso Roundlet +3",
+          "source_text": "input /equip head \"Brioso Roundlet +3\";"
+        },
+        {
+          "slot": "body",
+          "name": "Brioso Justau. +3",
+          "source_text": "input /equip body \"Brioso Justau. +3\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Brioso Slippers +3",
+          "source_text": "input /equip feet \"Brioso Slippers +3\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Mnbw. Whistle +1",
+          "source_text": "input /equip neck \"Mnbw. Whistle +1\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Inyan. Dastanas +2",
+          "source_text": "input /equip hands \"Inyan. Dastanas +2\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Inyanga Shalwar +2",
+          "source_text": "input /equip legs \"Inyanga Shalwar +2\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Regal Earring",
+          "source_text": "input /equip ear1 \"Regal Earring\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Gersemi Earring",
+          "source_text": "input /equip ear2 \"Gersemi Earring\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Harfner's Sash",
+          "source_text": "input /equip waist \"Harfner's Sash\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Carnwenhan and named relic/empyrean instrument stage cannot be selected from a display name alone. Nexus uses independently checked exact IDs instead."
+      ],
+      "observation_sha256": "6755a71e7348fed6eefb234638aacd738cfa96dfcc8befe77340596e8484aa2d"
+    },
+    {
+      "item_set": 363878,
+      "url": "https://www.ffxiah.com/item-sets/363878",
+      "title_summary": "Idle DT",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Genmei Shield",
+          "source_text": "input /equip sub \"Genmei Shield\";"
+        },
+        {
+          "slot": "range",
+          "name": "Linos",
+          "source_text": "input /equip range \"Linos\";"
+        },
+        {
+          "slot": "main",
+          "name": "Daybreak",
+          "source_text": "input /equip main \"Daybreak\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Moonlight Ring",
+          "source_text": "input /equip ring1 \"Moonlight Ring\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Shadow Ring",
+          "source_text": "input /equip ring2 \"Shadow Ring\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Warder's Charm +1",
+          "source_text": "input /equip neck \"Warder's Charm +1\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Bunzi's Gloves",
+          "source_text": "input /equip hands \"Bunzi's Gloves\";"
+        },
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat",
+          "source_text": "input /equip head \"Bunzi's Hat\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Bunzi's Pants",
+          "source_text": "input /equip legs \"Bunzi's Pants\";"
+        },
+        {
+          "slot": "body",
+          "name": "Bunzi's Robe",
+          "source_text": "input /equip body \"Bunzi's Robe\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Bunzi's Sabots",
+          "source_text": "input /equip feet \"Bunzi's Sabots\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Tuisto Earring",
+          "source_text": "input /equip ear1 \"Tuisto Earring\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Arete del Luna +1",
+          "source_text": "input /equip ear2 \"Arete del Luna +1\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Carrier's Sash",
+          "source_text": "input /equip waist \"Carrier's Sash\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "observation_sha256": "cc24caa678e76d2eef291a9b4cce9ab6ba2cfca565b7ba2b837478a8bae3438e"
+    },
+    {
+      "item_set": 363874,
+      "url": "https://www.ffxiah.com/item-sets/363874",
+      "title_summary": "Idle Refresh",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "ring1",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring1 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Stikini Ring +1",
+          "source_text": "input /equip ring2 \"Stikini Ring +1\";"
+        },
+        {
+          "slot": "body",
+          "name": "Kaykaus Bliaut +1",
+          "source_text": "input /equip body \"Kaykaus Bliaut +1\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Fucho-no-Obi",
+          "source_text": "input /equip waist \"Fucho-no-Obi\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Assid. Pants +1",
+          "source_text": "input /equip legs \"Assid. Pants +1\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Chrys. Torque",
+          "source_text": "input /equip neck \"Chrys. Torque\";"
+        },
+        {
+          "slot": "sub",
+          "name": "Oneiros Grip",
+          "source_text": "input /equip sub \"Oneiros Grip\";"
+        },
+        {
+          "slot": "range",
+          "name": "Linos",
+          "source_text": "input /equip range \"Linos\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Etiolation Earring",
+          "source_text": "input /equip ear1 \"Etiolation Earring\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Halasz Earring",
+          "source_text": "input /equip ear2 \"Halasz Earring\";"
+        },
+        {
+          "slot": "back",
+          "name": "Moonlight Cape",
+          "source_text": "input /equip back \"Moonlight Cape\";"
+        },
+        {
+          "slot": "head",
+          "name": "Volte Beret",
+          "source_text": "input /equip head \"Volte Beret\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Volte Gloves",
+          "source_text": "input /equip hands \"Volte Gloves\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Volte Gaiters",
+          "source_text": "input /equip feet \"Volte Gaiters\";"
+        },
+        {
+          "slot": "main",
+          "name": "Mpaca's Staff",
+          "source_text": "input /equip main \"Mpaca's Staff\";"
+        }
+      ],
+      "occupied_entry_count": 15,
+      "omitted_slots": [
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "Published staff/grip and Fucho latent are not the Nexus Daybreak/shield recovery assembly. Random Chironic requirement in guide is not on this current table."
+      ],
+      "observation_sha256": "dae054fa2959b958e341a67c9dccfe154cf8630347776ffa015c1bf63ac6bd56"
+    },
+    {
+      "item_set": 363865,
+      "url": "https://www.ffxiah.com/item-sets/363865",
+      "title_summary": "TP sub NIN AM3",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Bard's Charm +2",
+          "source_text": "input /equip neck \"Bard's Charm +2\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Volte Tights",
+          "source_text": "input /equip legs \"Volte Tights\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Chirich Ring +1",
+          "source_text": "input /equip ring1 \"Chirich Ring +1\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring +1",
+          "source_text": "input /equip ring2 \"Chirich Ring +1\";"
+        },
+        {
+          "slot": "range",
+          "name": "Linos",
+          "source_text": "input /equip range \"Linos\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Balder Earring +1",
+          "source_text": "input /equip ear1 \"Balder Earring +1\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Eabani Earring",
+          "source_text": "input /equip ear2 \"Eabani Earring\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Reiki Yotai",
+          "source_text": "input /equip waist \"Reiki Yotai\";"
+        },
+        {
+          "slot": "head",
+          "name": "Bunzi's Hat",
+          "source_text": "input /equip head \"Bunzi's Hat\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Volte Mittens",
+          "source_text": "input /equip hands \"Volte Mittens\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Volte Spats",
+          "source_text": "input /equip feet \"Volte Spats\";"
+        },
+        {
+          "slot": "body",
+          "name": "Ashera Harness",
+          "source_text": "input /equip body \"Ashera Harness\";"
+        }
+      ],
+      "occupied_entry_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "conflicts": [
+        "AM3 /NIN title with no main/sub selections. Does not establish an exact weapon, haste, aftermath or dual-wield composition."
+      ],
+      "observation_sha256": "87575cd83cf35f633df6efa3262e98482886c17c60eda4944af76caa3410ecc8"
+    },
+    {
+      "item_set": 363903,
+      "url": "https://www.ffxiah.com/item-sets/363903",
+      "title_summary": "WS Savage Blade",
+      "representation": "Ordered Equipment Macros manually transcribed from browser rendered DOM; not raw HTML/full DOM capture",
+      "ordered_macro_entries": [
+        {
+          "slot": "range",
+          "name": "Linos",
+          "source_text": "input /equip range \"Linos\";"
+        },
+        {
+          "slot": "back",
+          "name": "Intarabus's Cape",
+          "source_text": "input /equip back \"Intarabus's Cape\";"
+        },
+        {
+          "slot": "ear1",
+          "name": "Moonshade Earring",
+          "source_text": "input /equip ear1 \"Moonshade Earring\";"
+        },
+        {
+          "slot": "body",
+          "name": "Bihu Jstcorps. +3",
+          "source_text": "input /equip body \"Bihu Jstcorps. +3\";"
+        },
+        {
+          "slot": "ring1",
+          "name": "Epaminondas's Ring",
+          "source_text": "input /equip ring1 \"Epaminondas's Ring\";"
+        },
+        {
+          "slot": "neck",
+          "name": "Bard's Charm +2",
+          "source_text": "input /equip neck \"Bard's Charm +2\";"
+        },
+        {
+          "slot": "ear2",
+          "name": "Ishvara Earring",
+          "source_text": "input /equip ear2 \"Ishvara Earring\";"
+        },
+        {
+          "slot": "ring2",
+          "name": "Ifrit Ring +1",
+          "source_text": "input /equip ring2 \"Ifrit Ring +1\";"
+        },
+        {
+          "slot": "main",
+          "name": "Naegling",
+          "source_text": "input /equip main \"Naegling\";"
+        },
+        {
+          "slot": "waist",
+          "name": "Sailfi Belt +1",
+          "source_text": "input /equip waist \"Sailfi Belt +1\";"
+        },
+        {
+          "slot": "legs",
+          "name": "Nyame Flanchard",
+          "source_text": "input /equip legs \"Nyame Flanchard\";"
+        },
+        {
+          "slot": "head",
+          "name": "Nyame Helm",
+          "source_text": "input /equip head \"Nyame Helm\";"
+        },
+        {
+          "slot": "hands",
+          "name": "Nyame Gauntlets",
+          "source_text": "input /equip hands \"Nyame Gauntlets\";"
+        },
+        {
+          "slot": "feet",
+          "name": "Nyame Sollerets",
+          "source_text": "input /equip feet \"Nyame Sollerets\";"
+        }
+      ],
+      "occupied_entry_count": 14,
+      "omitted_slots": [
+        "sub",
+        "ammo"
+      ],
+      "repeated_slots": {},
+      "scope": "Source observation only; omitted slots and unspecified weapon/instrument stages/augments remain unresolved",
+      "observation_sha256": "222d85200b116111ed9a8b3a60185c016909c1d2c5c08fc85b54a51eed3b9b1e"
+    }
+  ],
+  "guide_observations": [
+    {
+      "section": "Currency",
+      "observation": "BG Community Bard Guide permalink oldid781483; browser footer last edited 2026-10-30 00:55. Briko node355 footer 2022-05-10 and internal 2022-04-01. Date is not proof that every table or opinion is current.",
+      "observation_sha256": "db373399cff2235eaabdfd7fe38603a2db591f6390dc06c68d931af761ff7008"
+    },
+    {
+      "section": "Instruments / Playability",
+      "observation": "Extra song capacity, song potency and instrument-locked access are distinct. Terpander supplies one slot; Daurdabla99 supplies two; capacity effects do not stack. Establish low-duration dummy songs then replace them using potency gear before expiry; song loss/dispel/death may require reestablishing slots. Clarion Call is separate.",
+      "observation_sha256": "4dfbcdb018f1ab7d2b61059ff42dbf71cc234dbb63e5c04747334e0975adcfe9"
+    },
+    {
+      "section": "Singing / Song+ Effects",
+      "observation": "Use matching song-family pieces: Fili head Madrigal, body Minuet, hands March, legs Ballad, feet Scherzo; Intarabus base Madrigal/Prelude; Brioso head Paeon and hands Lullaby. Mousai pieces address Etude/Threnody/Carol/Minne/Mambo. Ballad and Minne legs displace Inyanga duration; Scherzo/Mambo feet displace Brioso duration.",
+      "observation_sha256": "1fdd520850fadc4eac6a84ef807b382bac4dcfe32cd2548dadba39a842611778"
+    },
+    {
+      "section": "Song Accuracy / Horde Lullaby II",
+      "observation": "Accuracy uses CHR, magic accuracy, Singing and the equipped instrument skill; exact relative weighting uncertain. String skill affects Horde Lullaby II radius, with separate ML/augment/skill prerequisites; wind skill does not establish that radius.",
+      "observation_sha256": "f904b087e5905817ccc99f720368e84607f6cb628ed32e6ed7551658b5678d58"
+    },
+    {
+      "section": "Fast Cast",
+      "observation": "Song spellcasting-time reduction and Fast Cast are different; the former does not itself reduce recast. Generic magic, ordinary songs and instrument-locked Honor March need explicit contexts; title totals/550JP gift not certified for substitutions.",
+      "observation_sha256": "314235e137397a438a3826b9e8189192dbd91bbf199d6d1610e18d2db3476412"
+    },
+    {
+      "section": "Weapons / Offhands",
+      "observation": "Kali base duration is distinct from its Path D skills. Guide lists Naegling and shields as useful choices; source dual-wield Centovente accuracy/TP bonus and Carnwenhan aftermath do not transfer to Nexus single-sword/shield.",
+      "observation_sha256": "22db3c568f0b2be2ece3f08058e51781367a26592cf9e335976041c66989a480"
+    },
+    {
+      "section": "Instruments / REMAP / Special Note",
+      "observation": "Fully upgraded Loughnashade combines song potency/capacity and Aria access; unspecified stages cannot inherit final-stage effects. Miracle Cheer fixes duration under separate rules. Neither is authored in this bounded batch.",
+      "observation_sha256": "797dcb6b1e8c552996566ecbf66db2ee9715d9ccf69e8d30582871e5ee5525f3"
+    },
+    {
+      "section": "Engaged / WS / Briko augment notes",
+      "observation": "BG TP Linos asks for Accuracy+Attack15, Store TP4, Quadruple Attack3. Briko TP cape asks for DEX30, Accuracy+Attack20, Store TP10, DT-5. Briko Savage Blade Linos asks Accuracy+Attack15, STR8, WSD3; cape STR30, Accuracy+Attack20, WSD10, DT-5; Nyame Path B. These are separate copies/requirements, not one generic Linos/cape.",
+      "observation_sha256": "c150173f36cf5ac4d3d8f2aeee0832ac44daa62c74775c6b7ddebd0014aafe03"
+    },
+    {
+      "section": "Fast Cast / Song Accuracy / Briko notes",
+      "observation": "FC cape requires FC10 and generic FC Linos FC6. BG song accuracy cape requires CHR20 and magic accuracy20+10. No optional augments from an owned copy are assumed on base targets.",
+      "observation_sha256": "796b0d2402e83f8748879be858795bb15c99a2a0f72d44dd09eaa0764fa9c406"
+    },
+    {
+      "section": "Idle / Idle Refresh Options / item25416",
+      "observation": "Keep instrument equipped and ammo empty to avoid unnecessary instrument/ammo TP transitions. Refresh options are partial. Sibyl Scarf Refresh requires Windurst citizenship; excluded rather than assuming nationality. Linos has no base Refresh; Fucho latent requires low MP; random Chironic Refresh is not base.",
+      "observation_sha256": "642a4481a560159a2ebb436882c3056ee7738438e1365112e5556dad21f88334"
+    },
+    {
+      "section": "Local resource / public NQ cards",
+      "observation": "Installed resource snapshot contains NQ Mousai Manteel/Seraweels/Crackows but not their +1 records. Explicit Nexus NQ checkpoints use public NQ cards; HQ effects not imported. No resource replacement or completeness claim.",
+      "observation_sha256": "5014fc7113746d96e91b509f3e2992cc474a7ed2ae796f001e9cca112305dd8c"
+    }
+  ],
+  "access": "Reader failed for named tables and BG (403); ordinary Chrome succeeded. Browser observations are transcriptions/paraphrases, not raw HTML or full DOM captures. No settings changed."
+}

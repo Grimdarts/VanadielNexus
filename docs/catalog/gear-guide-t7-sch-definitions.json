@@ -1,0 +1,3685 @@
+{
+  "checked_on": "2026-11-03",
+  "scope": "Explicit Nexus definitions, separate from original source observations",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "DT Idle — staff",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus selects five base Nyame pieces, a fixed Moonbeam Cape, Loricate and Defending Ring. Uses Mpaca/Khonsu instead of Malignance Pole, retaining the same staff as casting/melee and its base Refresh; gives up the pole DT. Nyame legs replace the guide Agwu legs as its explicit unaugmented defensive alternative. Stikini replaces the chance-based Shadow Ring with base recovery/skill utility. No effective cap or safe tanking claim.",
+      "source_tables": [
+        "DT",
+        "Refresh Idle Example"
+      ],
+      "context": {},
+      "extra_source_ids": []
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle — staff; no Sublimation charging",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22268,
+          "name": "Homiliary",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23718,
+          "name": "Volte Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23726,
+          "name": "Volte Gaiters",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Build from the Refresh Idle Example: Mpaca, Homiliary, Befouled, Volte, Arbatel and two Stikini copies. Nexus takes Arbatel +3 body and retains defensive Nyame legs instead of Unity-dependent Assiduity, Loricate instead of citizenship-dependent Sibyl and Moonbeam. Sacrifices some maximum recovery for fewer conditional prerequisites; switch to defensive idle when threatened. This is gear Refresh, not casting Refresh or claiming spell Refresh stacks with Sublimation.",
+      "source_tables": [
+        "Refresh Idle Example",
+        "More Ideal Refresh Idle"
+      ],
+      "context": {
+        "sublimation": "Not charging; gear recovery objective"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "sublimation",
+      "target": "Sublimation charging — retained staff",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23395,
+          "name": "Acad. Mortar. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11722,
+          "name": "Savant's Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23484,
+          "name": "Peda. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Complete the six-slot Sublimation reference with the defensive idle shell. Select Acad head, Peda body, Savant ear and Embla for charging. Deliberately omit Siriti and Woltaris: preserve the established staff and avoid a mission-ring choice. Reduced optimization versus every Sublimation item; no charge time, HP capacity or recovery total claimed.",
+      "source_tables": [
+        "Sublimation",
+        "DT"
+      ],
+      "context": {
+        "sublimation": "Charging; not complete/ready"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "fast-cast",
+      "target": "General Fast Cast — no aligned-Arts bonus required",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "D"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26536,
+          "name": "Pinga Tunic +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23529,
+          "name": "Acad. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25900,
+          "name": "Pinga Pants +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 28274,
+          "name": "Regal Pumps +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use fixed base Fast Cast pieces and explicit Vanya D15/FC10 cape. Mpaca/Khonsu is legal; this does not repair or reattribute Alternative Fast Cast Hvergelmir/shield. Avoid random Merlinic and Quick Magic choices. No 80% attainment or cast/recast time claim; Regal Unity contribution remains conditional.",
+      "source_tables": [
+        "80% Fast Cast Example",
+        "Highest Fast Cast Per Slot",
+        "Alternative 80% Fast Cast"
+      ],
+      "context": {
+        "arts": "Any; no Grimoire casting multiplier assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "grimoire-precast",
+      "target": "Aligned Arts precast — no Celerity/Alacrity",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23417,
+          "name": "Peda. M.Board +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26536,
+          "name": "Pinga Tunic +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23529,
+          "name": "Acad. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25900,
+          "name": "Pinga Pants +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23663,
+          "name": "Acad. Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Replace the general head/feet with Peda mortarboard and Acad loafers for aligned-Arts spellcasting. These effects are conditional, not ordinary additive FC, and do not stack with casting-time stratagems per guide. No automatic overlay or timing formula implemented.",
+      "source_tables": [
+        "Grimoire Casting Fast Cast"
+      ],
+      "context": {
+        "arts": "Spell aligned with Light or Dark Arts",
+        "stratagems": "Celerity/Alacrity inactive"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "celerity-alacrity-precast",
+      "target": "Aligned Arts precast — Celerity/Alacrity and matching weather",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "D"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26536,
+          "name": "Pinga Tunic +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23529,
+          "name": "Acad. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25900,
+          "name": "Pinga Pants +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23685,
+          "name": "Peda. Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use general FC head with Peda loafers for their weather-conditioned Celerity/Alacrity effect; omit incompatible Grimoire head/feet bonus assumptions. No reduction or recast result calculated. Source distinguishes these conditional categories.",
+      "source_tables": [
+        "Grimoire Casting Fast Cast",
+        "Stun Alacrity Acc"
+      ],
+      "context": {
+        "arts": "Spell aligned",
+        "stratagems": "Celerity or Alacrity active",
+        "weather": "Matches spell element"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "cure",
+      "target": "Cure — Light Arts; no weather bonus required",
+      "purpose": "Healing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28474,
+          "name": "Mendi. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26098,
+          "name": "Meili Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23551,
+          "name": "Peda. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23596,
+          "name": "Acad. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus combines base Daybreak, Arbatel body, Peda +3 healing/potency-II hands, Acad pants and Vanya B15 hood with support accessories. Ammurapi is a fixed enhancing/accuracy shield retained across support actions rather than a Sors potency copy; Moonbeam adds defense instead of a random cape. Two Stikini copies fill the rings for recovery/skill. No Kaykaus augments, Cure cap or MP-efficiency result assumed. Peda +3 is a deliberate exact tier, not the +4 live 378846 snapshot.",
+      "source_tables": [
+        "Intermediate Healing Set",
+        "Hybrid Potency/DT Build"
+      ],
+      "context": {
+        "arts": "Light Arts; single target Cure; Rapture inactive"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "cure-weather",
+      "target": "Cure — Light Arts; light weather",
+      "purpose": "Healing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 18633,
+          "name": "Chatoyant Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28474,
+          "name": "Mendi. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26098,
+          "name": "Meili Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23551,
+          "name": "Peda. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 16259,
+          "name": "Twilight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28419,
+          "name": "Hachirin-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23596,
+          "name": "Acad. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use the explicitly published light-weather weapon/cape/belt combination on the Nexus cure shell: Chatoyant, Khonsu, Twilight and Hachirin. Requires favorable light weather without conflicting day assumptions. Gives up Daybreak and defensive cape; no universal upgrade or multiplier total claimed.",
+      "source_tables": [
+        "Light Weather",
+        "Hybrid Potency/DT Build"
+      ],
+      "context": {
+        "arts": "Light Arts; Rapture inactive",
+        "weather": "Light weather; no conflicting day bonus assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "rapture-cure",
+      "target": "Cure — Rapture active",
+      "purpose": "Healing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23439,
+          "name": "Arbatel Bonnet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28474,
+          "name": "Mendi. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26098,
+          "name": "Meili Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23551,
+          "name": "Peda. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23596,
+          "name": "Acad. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Replace Vanya head with exact Arbatel +3 for Rapture while keeping the weather-independent cure shell. Gives up Vanya skill/Conserve MP; conditional Rapture enhancement is not added as ordinary Cure potency. Spell access, charge and efficacy must be established in play.",
+      "source_tables": [
+        "Healing Magic",
+        "Hybrid Potency/DT Build"
+      ],
+      "context": {
+        "arts": "Light Arts",
+        "stratagems": "Rapture active on Cure"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "cursna",
+      "target": "Cursna — separate skill/effect action",
+      "purpose": "Healing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10393,
+          "name": "Debilis Medallion",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28474,
+          "name": "Mendi. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 10298,
+          "name": "Beatific Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23484,
+          "name": "Peda. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 10325,
+          "name": "Hieros Mittens",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10791,
+          "name": "Haoma's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26215,
+          "name": "Menelaus's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28596,
+          "name": "Oretan. Cape +1",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10820,
+          "name": "Bishop's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23596,
+          "name": "Acad. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Complete the source Cursna grid using Daybreak/Ammurapi and Pemphredo for omitted weapon/ammo slots. Retain Peda gown, Hieros, Haoma/Menelaus, Debilis, Meili/Beatific, Oretania and Bishop accessories with Vanya B15 head/feet. Menelaus negative FC is a midcast tradeoff. No augmented Gada, Doom removal guarantee or success percentage.",
+      "source_tables": [
+        "Cursna"
+      ],
+      "context": {
+        "arts": "Light Arts; Cursna, not ordinary -na or Cure"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "enhancing-duration",
+      "target": "Enhancing duration — Perpetuance",
+      "purpose": "Enhancing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21111,
+          "name": "Bolelabunga",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26736,
+          "name": "Telchine Cap",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23484,
+          "name": "Peda. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 27610,
+          "name": "Fi Follet Cape +1",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27235,
+          "name": "Telchine Braconi",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27405,
+          "name": "Telchine Pigaches",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        }
+      ],
+      "rationale": "Complete the SU5 source support shell using legal Bolelabunga/Ammurapi instead of unspecified-rank Musa; no Musa or Gada duration bonus is claimed. Telchine duration10 head/legs/feet, Peda body and Arbatel hands remain explicit. Choose Pemphredo in omitted ammo for Conserve MP. Retain skill accessories and two Stikini copies. Gives up ranked Musa duration; no maximum-duration or skill-cap claim.",
+      "source_tables": [
+        "Enhancing Duration SU5",
+        "Regen Duration & Potency"
+      ],
+      "context": {
+        "arts": "Light Arts",
+        "stratagems": "Perpetuance active; eligible enhancing spell"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "regen",
+      "target": "Regen — potency/duration balance; Perpetuance",
+      "purpose": "Enhancing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21111,
+          "name": "Bolelabunga",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23439,
+          "name": "Arbatel Bonnet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26894,
+          "name": "Telchine Chas.",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27235,
+          "name": "Telchine Braconi",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27405,
+          "name": "Telchine Pigaches",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        }
+      ],
+      "rationale": "Complete the Bolelabunga/Ammurapi Regen core with skill/Conserve MP accessories and duplicate Stikini rings. Arbatel bonnet supplies the Regen objective; Telchine duration10 body/legs/feet, Arbatel hands and base Lugh cape preserve duration. No Regen potency augments or Musa C rank are inferred. No tick amount, duration or Light Arts bonus calculated.",
+      "source_tables": [
+        "Regen Duration & Potency"
+      ],
+      "context": {
+        "arts": "Light Arts; Regen V available",
+        "stratagems": "Perpetuance active"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "regen-duration",
+      "target": "Regen — duration priority; Perpetuance",
+      "purpose": "Enhancing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21111,
+          "name": "Bolelabunga",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26736,
+          "name": "Telchine Cap",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26894,
+          "name": "Telchine Chas.",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27235,
+          "name": "Telchine Braconi",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27405,
+          "name": "Telchine Pigaches",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        }
+      ],
+      "rationale": "Replace the Regen bonnet with Telchine duration10 head. Bolelabunga/shield is the explicit retained legal weapon pair instead of ranked Musa. Gives up bonnet potency for duration; not the source Max Duration composition or a numeric maximum.",
+      "source_tables": [
+        "Regen Max Duration",
+        "Regen Duration & Potency"
+      ],
+      "context": {
+        "arts": "Light Arts; Regen V available",
+        "stratagems": "Perpetuance active"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "stoneskin",
+      "target": "Stoneskin — effect accessories",
+      "purpose": "Enhancing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21111,
+          "name": "Bolelabunga",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26736,
+          "name": "Telchine Cap",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11037,
+          "name": "Earthcry Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23484,
+          "name": "Peda. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 27610,
+          "name": "Fi Follet Cape +1",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15960,
+          "name": "Siegel Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 10329,
+          "name": "Shedir Seraweels",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27405,
+          "name": "Telchine Pigaches",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        }
+      ],
+      "rationale": "Complete the partial Stoneskin accessory reference with the duration shell. Select Nodens, Earthcry, Siegel and Shedir explicitly; the latter replaces Telchine duration legs. Skill and effect accessories serve different purposes; no absorption cap or amount established.",
+      "source_tables": [
+        "Stoneskin",
+        "Enhancing Duration SU5"
+      ],
+      "context": {
+        "arts": "Light Arts; Stoneskin available",
+        "stratagems": "Perpetuance if applicable"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "aquaveil",
+      "target": "Aquaveil — effect accessories",
+      "purpose": "Enhancing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21111,
+          "name": "Bolelabunga",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23484,
+          "name": "Peda. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 27610,
+          "name": "Fi Follet Cape +1",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11753,
+          "name": "Emphatikos Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 10329,
+          "name": "Shedir Seraweels",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27405,
+          "name": "Telchine Pigaches",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        }
+      ],
+      "rationale": "Complete the partial Aquaveil reference with the duration shell, retaining Bolelabunga/shield rather than an unreviewed rod. Select base Amalric Coif +1, Regal Cuffs, Emphatikos and Shedir. No path A stats assumed; Aquaveil is in base head text. Hands give up Perpetuance enhancement; no 102% SIRD, interruption count or whole-party immunity claim.",
+      "source_tables": [
+        "Aquaveil",
+        "Enhancing Duration SU5"
+      ],
+      "context": {
+        "arts": "Light Arts; Aquaveil available",
+        "stratagems": "Accession only when deliberately used; no automatic AoE"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "free-nuke",
+      "target": "Free nuke — matching weather; Klimaform",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23759,
+          "name": "Agwu's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28419,
+          "name": "Hachirin-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23640,
+          "name": "Arbatel Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23707,
+          "name": "Arbatel Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus uses Mpaca/Khonsu as the source-supported any-rank staff alternative and Pemphredo instead of a rank-dependent Ghastly. Base Agwu cap, Arbatel +3 body/hands/legs/feet, unranked Argute and Metamor are concrete minimums. Cape uses explicit INT20/MAcc20-MDmg20/MAB10 target augments, without dye/resin assumptions. Hachirin and Arbatel feet require matching weather/Klimaform. Gives up R30 bonuses; no source numeric caption or superiority imported.",
+      "source_tables": [
+        "H. Tier Fr. Nuke"
+      ],
+      "context": {
+        "arts": "Dark Arts",
+        "stratagems": "Ebullience inactive",
+        "weather": "Matches element; Klimaform active; no conflicting day assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "magic-burst",
+      "target": "Magic burst — matching weather; no Ebullience",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23759,
+          "name": "Agwu's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11672,
+          "name": "Mujin Band",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28419,
+          "name": "Hachirin-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23707,
+          "name": "Arbatel Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use base Agwu hands/legs and Mujin Band for a burst-oriented alternative; retain Arbatel body/feet, staff and fixed ammo. No Agwu rank is required for the base burst properties; this deliberately falls below source R25/R30 equipment. No MBD cap or extra II augments assumed. Free nuke and burst remain distinct objectives.",
+      "source_tables": [
+        "Magic Burst High End",
+        "Magic Burst with Agwu"
+      ],
+      "context": {
+        "arts": "Dark Arts; burst window",
+        "stratagems": "Ebullience inactive",
+        "weather": "Matches element; Klimaform active"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "ebullience-burst",
+      "target": "Magic burst — Ebullience active",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23439,
+          "name": "Arbatel Bonnet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11672,
+          "name": "Mujin Band",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28419,
+          "name": "Hachirin-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23707,
+          "name": "Arbatel Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use Arbatel bonnet for Ebullience, base Agwu body/hands/legs and Mujin Band. Exact declared condition controls the head choice; no multiplicative enhancement or burst-cap formula is enabled. Retain fixed staff/ammo and explicitly selected cape minimums rather than unspecified ranks.",
+      "source_tables": [
+        "Ebullience Magic Burst"
+      ],
+      "context": {
+        "arts": "Dark Arts; burst window",
+        "stratagems": "Ebullience active",
+        "weather": "Matches element; Klimaform active"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "helix-free",
+      "target": "Free Helix II — non-light/dark; no burst",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23759,
+          "name": "Agwu's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26213,
+          "name": "Mallquis Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23707,
+          "name": "Arbatel Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Assemble the free Helix objective with base Agwu body/hands/legs and Mallquis Ring. Choose Acuity +1 base instead of Hachirin: no ordinary weather multiplier is presumed for Helix. Unranked Argute Stole still has its base Helix-duration property. Mpaca is a fixed supported staff; specialized light/dark/wind affinity weapons are separate unclaimed contexts. No duration maximum or initial/DoT damage claim.",
+      "source_tables": [
+        "Free Helix HQ",
+        "Free Helix NQ"
+      ],
+      "context": {
+        "arts": "Dark Arts",
+        "spell": "Non-light/dark Helix II; free cast",
+        "stratagems": "Ebullience inactive"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "helix-burst",
+      "target": "Helix II burst — non-light/dark",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23417,
+          "name": "Peda. M.Board +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11672,
+          "name": "Mujin Band",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23707,
+          "name": "Arbatel Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use Peda mortarboard, base Agwu body/hands/legs and Mujin/Freke for the distinct burst Helix context. Replace source unknown-augment Arbatel earring with fixed Regal/Malignance and retain base Acuity rather than weather obi. Cape minimums are explicit. No assumed Sortie earring augments, max ranked armor or burst/duration totals.",
+      "source_tables": [
+        "Helix Burst"
+      ],
+      "context": {
+        "arts": "Dark Arts; burst window",
+        "spell": "Non-light/dark Helix II",
+        "stratagems": "Ebullience inactive"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "enfeebling",
+      "target": "Enfeebling accuracy — Dark Arts",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23395,
+          "name": "Acad. Mortar. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23462,
+          "name": "Acad. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23529,
+          "name": "Acad. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23640,
+          "name": "Arbatel Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23663,
+          "name": "Acad. Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Complete an accuracy-focused staff alternative using Mpaca/Khonsu, Acad head/body/hands/feet, Arbatel pants and two Stikini copies. Replace augment-dependent Aurist/Obstinate with the explicit magic cape and base Acuity. Gives up duration-focused Kishar/Regal Cuffs and possible Immunobreak legs. No guaranteed landing, all-school skill conversion or Light Arts equivalence.",
+      "source_tables": [
+        "Dark Arts Enfeebling"
+      ],
+      "context": {
+        "arts": "Dark Arts; black-magic enfeebles",
+        "stratagems": "Focalization not assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "drain-aspir",
+      "target": "Drain / Aspir — potency and skill",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26030,
+          "name": "Erra Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 16054,
+          "name": "Hirudinea Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26094,
+          "name": "Mani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23506,
+          "name": "Arbatel Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23573,
+          "name": "Arbatel Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26160,
+          "name": "Evanescence Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28636,
+          "name": "Bookworm's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23618,
+          "name": "Peda. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Retain Mpaca staff/Khonsu for a legal known staff alternative, sacrificing Rubicundity potency. Select Pixie, Erra, Hirudinea/Mani, Evanescence/Archon, Peda pants and base Agwu feet from the source objective. Use fixed Arbatel body/hands instead of unspecified Merlinic +11 augments; base Bookworm cape and Acuity replace ambiguous Fucho activation. No assertion that affinity affects Aspir the same as Drain; no drain amount or recovery formula.",
+      "source_tables": [
+        "Drain/Aspir"
+      ],
+      "context": {
+        "arts": "Dark Arts; Drain/Aspir available; no burst",
+        "stratagems": "No casting-time stratagem assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "stun",
+      "target": "Stun — Alacrity; matching weather",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23395,
+          "name": "Acad. Mortar. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23462,
+          "name": "Acad. Gown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23529,
+          "name": "Acad. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10826,
+          "name": "Witful Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23596,
+          "name": "Acad. Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23685,
+          "name": "Peda. Loafers +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Adapt the Alacrity accuracy grid with Mpaca/Khonsu instead of unspecified Musa and the explicitly augmented cape. Keep Acad head/body/hands/pants, Peda feet, two Stikini and Witful. Weather/Alacrity foot effect is conditional; not a Grimoire casting-time stack. No recast number, stun lock or landing guarantee.",
+      "source_tables": [
+        "Stun Alacrity Acc"
+      ],
+      "context": {
+        "arts": "Dark Arts; Stun available",
+        "stratagems": "Alacrity active",
+        "weather": "Matches spell element"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "kaustra",
+      "target": "Kaustra — Tabula Rasa; dark weather",
+      "purpose": "Casting",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25533,
+          "name": "Argute Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23766,
+          "name": "Agwu's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28419,
+          "name": "Hachirin-no-Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Use the source dark-affinity head/ring with base Agwu body/hands/legs/feet and fixed staff/ammo. This gives up specifically augmented Amalric pieces for known base effects. Require Tabula Rasa and favorable dark weather; no burst or duration calculation assumed. Separate from Drain/Aspir and Helix.",
+      "source_tables": [
+        "Kaustra"
+      ],
+      "context": {
+        "arts": "Dark Arts",
+        "spell": "Kaustra; Tabula Rasa active",
+        "weather": "Dark; no conflicting day assumed"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "tp-balanced",
+      "target": "Engaged Balanced — niche staff",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27151,
+          "name": "Gazu Bracelets +1",
+          "requirements": {
+            "rank": 15
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Adapt Engaged TP with fixed Mpaca/Khonsu instead of the published Gozuki pair and base Nyame head instead of augmented Blistering. Require Gazu R15 and DEX20/Acc20-Att20/STP10 cape; choose no unspecified Nyame path bonuses. Two Chirich copies. A support mage niche when safe to engage, not a dedicated-DD ranking or delay/accuracy cap.",
+      "source_tables": [
+        "Engaged TP"
+      ],
+      "context": {
+        "role": "Niche staff melee; SCH level 99; support duties take priority"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "tp-dt",
+      "target": "Engaged DT — niche staff",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Keep Mpaca/Khonsu but use five base Nyame pieces, Loricate, Defending and Moonbeam from defensive idle. Gives up Gazu/cape offense and one Chirich copy for fixed protective effects. Not a claim of capped DT or immunity, and no automated defense/weapon lock changes.",
+      "source_tables": [
+        "Engaged TP",
+        "DT"
+      ],
+      "context": {
+        "role": "Niche staff melee under threat"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "tp-accuracy",
+      "target": "Engaged Accuracy — niche staff",
+      "purpose": "TP",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23439,
+          "name": "Arbatel Bonnet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27151,
+          "name": "Gazu Bracelets +1",
+          "requirements": {
+            "rank": 15
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Store TP\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23640,
+          "name": "Arbatel Pants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Replace base Nyame helm with Arbatel +3 bonnet and legs with Arbatel +3 pants for their explicit base accuracy/DEX, retaining Gazu R15, paired Chirich, Amar and accuracy cape. Gives up Nyame physical-defense/evasion properties; no accuracy/hit-rate or superiority claim. Exact alternatives are chosen by Nexus, not attributed to the author.",
+      "source_tables": [
+        "Engaged TP"
+      ],
+      "context": {
+        "role": "Niche staff melee; accuracy priority"
+      },
+      "extra_source_ids": []
+    },
+    {
+      "key": "shattersoul",
+      "target": "Shattersoul — niche physical staff WS",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26265,
+          "name": "Lugh's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Use exact Mpaca/Khonsu rather than Khatvanga with five Nyame B15 targets and explicit INT20/WSD10 cape. Base Metamor, fixed Ishvara/Regal and Fotia accessories avoid a guessed Moonshade or unspecified rank. Multi-hit physical WS has distinct priorities from magical WS; no universal best, damage/TP-return or debuff-duration result is claimed. Requires unlocked/merited Shattersoul and sufficient staff skill.",
+      "source_tables": [
+        "Shattersoul"
+      ],
+      "context": {
+        "role": "Niche staff physical WS",
+        "ability": "Martial Mastery unlocked; Shattersoul merited; staff skill at least 357; SCH level 99"
+      },
+      "extra_source_ids": []
+    }
+  ]
+}

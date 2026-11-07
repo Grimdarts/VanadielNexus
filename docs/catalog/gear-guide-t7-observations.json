@@ -1,0 +1,320 @@
+{
+  "accessed_on": "2026-11-03",
+  "status": "Partial public-source observations; not playable recommendations",
+  "observations": [
+    {
+      "job": "WHM",
+      "external_set_id": "373999",
+      "title": "Whm Idle Refresh v3",
+      "url": "https://www.ffxiah.com/item-sets/373999",
+      "guide_url": "https://www.ffxiah.com/node/408",
+      "purpose": "Idle",
+      "target": "Refresh Idle",
+      "context": {
+        "role": "Backline MP recovery",
+        "selection_behavior": "idle priority"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Moonshade augment selection is unspecified; no Refresh augment assumed.",
+        "Alaunus cape augment requirements remain unspecified.",
+        "Fucho activation boundary is unresolved; Unity standing is an independent condition.",
+        "Missing range remains omitted; this is not a complete defensive idle recommendation."
+      ],
+      "selected_names": {
+        "main": "Daybreak",
+        "sub": "Genmei Shield",
+        "ammo": "Homiliary",
+        "head": "Inyanga Tiara +2",
+        "neck": "Loricate Torque +1",
+        "ear1": "Moonshade Earring",
+        "ear2": "Etiolation Earring",
+        "body": "Ebers Bliaut +3",
+        "hands": "Inyan. Dastanas +2",
+        "ring1": "Inyanga Ring",
+        "ring2": "Defending Ring",
+        "back": "Alaunus's Cape",
+        "waist": "Fucho-no-Obi",
+        "legs": "Assid. Pants +1",
+        "feet": "Inyan. Crackows +2"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "f9cd4cdb743d8ee15edce3e829504e0a1a72e56d66fa187c53d1f691ce0ea59c"
+    },
+    {
+      "job": "DNC",
+      "external_set_id": "367871",
+      "title": "DT Shell V - DNC",
+      "url": "https://www.ffxiah.com/item-sets/367871",
+      "guide_url": "https://www.ffxiah.com/node/373",
+      "purpose": "Defense",
+      "target": "DT with Shell V",
+      "context": {
+        "role": "Partial defensive selection",
+        "buff_assumption": "Shell V",
+        "selection_behavior": "defensive priority"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Six slots omitted; source does not establish a complete DT Idle loadout.",
+        "No exact neck augment/rank supplied; none inferred.",
+        "Shell V is a source assumption, not a measured buff or cap certificate."
+      ],
+      "selected_names": {
+        "ammo": "Yamarang",
+        "head": "Malignance Chapeau",
+        "neck": "Warder's Charm +1",
+        "body": "Malignance Tabard",
+        "hands": "Malignance Gloves",
+        "ring1": "Moonlight Ring",
+        "ring2": "Moonlight Ring",
+        "waist": "Engraved Belt",
+        "legs": "Malignance Tights",
+        "feet": "Malignance Boots"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "65e7cdaa0ffea9261d66c6a43ccbf3371775e237021a80f3c5678c21dd41192e"
+    },
+    {
+      "job": "MNK",
+      "external_set_id": "333679",
+      "title": "MNK PDT",
+      "url": "https://www.ffxiah.com/item-sets/333679",
+      "guide_url": "https://www.ffxiah.com/node/176",
+      "purpose": "Defense",
+      "target": "PDT reference",
+      "context": {
+        "role": "Historical physical defense",
+        "weapon": "Godhands; exact ID 20515",
+        "selection_behavior": "defensive priority"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Exact Herculean, Samnuha and Adhemar augment/path requirements need guide-level reconciliation.",
+        "Do not infer current Impetus/Footwork, Subtle Blow, engaged balance or accuracy coverage.",
+        "Historical guide modification date does not date live edits to this table."
+      ],
+      "selected_names": {
+        "main": "Godhands",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Genmei Kabuto",
+        "neck": "Loricate Torque +1",
+        "ear1": "Genmei Earring",
+        "ear2": "Telos Earring",
+        "body": "Ken. Samue +1",
+        "hands": "Adhemar Wrist. +1",
+        "ring1": "Defending Ring",
+        "ring2": "Gelatinous Ring +1",
+        "back": "Moonlight Cape",
+        "waist": "Moonbow Belt +1",
+        "legs": "Samnuha Tights",
+        "feet": "Herculean Boots"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "af506385d07dbded2bc0f4d6d49202bfe373daeb6395ed6f05dde13eb396e87d"
+    },
+    {
+      "job": "SCH",
+      "external_set_id": "378846",
+      "title": "1Cure Weather",
+      "url": "https://www.ffxiah.com/item-sets/378846",
+      "guide_url": "https://www.ffxiah.com/forum/topic/32145/a-scholars-education-guide/103/",
+      "purpose": "Midcast: healing",
+      "target": "Cure - weather",
+      "context": {
+        "role": "Weather-oriented healing",
+        "weapon": "Chatoyant Staff + Khonsu",
+        "selection_behavior": "spell action",
+        "weather_assumption": "Appropriate healing element day/weather; not guaranteed"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Kaykaus paths/ranks and earring augments remain unspecified.",
+        "Current hands are Peda. Bracers +4; do not equate live contents to the April 2026 discussion snapshot.",
+        "No weather multiplier, cure total or cap attainment certified."
+      ],
+      "selected_names": {
+        "main": "Chatoyant Staff",
+        "sub": "Khonsu",
+        "ammo": "Pemphredo Tathlum",
+        "head": "Kaykaus Mitra +1",
+        "neck": "Incanter's Torque",
+        "ear1": "Arbatel Earring +2",
+        "ear2": "Meili Earring",
+        "body": "Kaykaus Bliaut +1",
+        "hands": "Peda. Bracers +4",
+        "ring1": "Mephitas's Ring +1",
+        "ring2": "Naji's Loop",
+        "back": "Twilight Cape",
+        "waist": "Hachirin-no-Obi",
+        "legs": "Kaykaus Tights +1",
+        "feet": "Kaykaus Boots +1"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "f1d5cd71ce84def650da6b54eb856fa5a6e965e0505cb36d134b094d0833d452"
+    },
+    {
+      "job": "SAM",
+      "external_set_id": "365416",
+      "title": "Sam PDT - Augmented Valorous: PDT -5% > Cape: PDT -10%",
+      "url": "https://www.ffxiah.com/item-sets/365416",
+      "guide_url": "https://www.ffxiah.com/node/125",
+      "purpose": "Defense",
+      "target": "PDT reference",
+      "context": {
+        "role": "Partial physical defense",
+        "selection_behavior": "defensive priority"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Title still mentions augmented Valorous while selected armor is Kasuga/Nyame; reconcile title and guide context.",
+        "Cape PDT -10% is explicit in the title; other cape and earring augments remain unspecified.",
+        "Weapon/sub/range omitted. No complete idle, engaged or cap claim."
+      ],
+      "selected_names": {
+        "ammo": "Staunch Tathlum +1",
+        "head": "Kasuga Kabuto +3",
+        "neck": "Moonlight Nodowa",
+        "ear1": "Telos Earring",
+        "ear2": "Kasuga Earring +1",
+        "body": "Kasuga Domaru +3",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Niqmaddu Ring",
+        "ring2": "Chirich Ring +1",
+        "back": "Smertrios's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Kasuga Haidate +3",
+        "feet": "Nyame Sollerets"
+      },
+      "explicit_requirements": {
+        "back": {
+          "augments": [
+            "Phys. dmg. taken -10%"
+          ]
+        }
+      },
+      "observation_sha256": "15ca7ef02669e311d0674b292ef95fd63b74048c46e300b498eccd3d17c9fa6a"
+    },
+    {
+      "job": "PUP",
+      "external_set_id": "352991",
+      "title": "PUP - Pet Nuking",
+      "url": "https://www.ffxiah.com/item-sets/352991",
+      "guide_url": "https://www.ffxiah.com/node/426",
+      "purpose": "Pet",
+      "target": "Automaton nuking",
+      "context": {
+        "role": "Automaton magic",
+        "selection_behavior": "pet action",
+        "weapon": "Sakpata's Fists",
+        "recipient": "automaton"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Head/frame, attachments, food/roll and maneuver conditions require exact section reconciliation.",
+        "Herculean, cape, collar and earring augment requirements remain unresolved.",
+        "Automaton Oil is a published ammo choice, not authorization to consume or move it.",
+        "This is pet nuking, not pet idle or master casting; the source locator must not be misclassified."
+      ],
+      "selected_names": {
+        "main": "Sakpata's Fists",
+        "range": "Animator P II +1",
+        "ammo": "Automat. Oil +3",
+        "head": "Herculean Helm",
+        "neck": "Pup. Collar +2",
+        "ear1": "Kara. Earring +2",
+        "ear2": "Burana Earring",
+        "body": "Udug Jacket",
+        "hands": "Herculean Gloves",
+        "ring1": "Tali'ah Ring",
+        "ring2": "C. Palug Ring",
+        "back": "Visucius's Mantle",
+        "waist": "Ukko Sash",
+        "legs": "Pitre Churidars +3",
+        "feet": "Pitre Babouches +3"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "6372a729804ee5895830a1fb82427e8c57c79e4cccdff59d798aabf3e588a413"
+    },
+    {
+      "job": "GEO",
+      "external_set_id": "371134",
+      "title": "2020: Refresh NQ",
+      "url": "https://www.ffxiah.com/item-sets/371134",
+      "guide_url": "https://www.ffxiah.com/node/112",
+      "purpose": "Idle",
+      "target": "Refresh Idle - historical",
+      "context": {
+        "role": "Master MP recovery",
+        "selection_behavior": "idle priority",
+        "weapon": "Solstice + Genmei Shield"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Moonshade, Solstice and cape augment/path requirements need exact source reconciliation.",
+        "Fucho/Unity conditions stay unresolved; no full recovery total inferred.",
+        "Dunna occupies range; ammo is omitted, not intentionally empty.",
+        "Do not attribute luopan effects to master recovery or treat the 2020 title as current."
+      ],
+      "selected_names": {
+        "main": "Solstice",
+        "sub": "Genmei Shield",
+        "range": "Dunna",
+        "head": "Befouled Crown",
+        "neck": "Sanctity Necklace",
+        "ear1": "Moonshade Earring",
+        "ear2": "Infused Earring",
+        "body": "Jhakri Robe +1",
+        "hands": "Bagua Mitaines +1",
+        "ring1": "Sheltered Ring",
+        "ring2": "Paguroidea Ring",
+        "back": "Nantosuelta's Cape",
+        "waist": "Fucho-no-Obi",
+        "legs": "Assid. Pants +1",
+        "feet": "Coalrake Sabots"
+      },
+      "explicit_requirements": {},
+      "observation_sha256": "9f1b78de6cb03fb1ee66fefc4c9944ee8af10d9279606fc9dc230a4a31058646"
+    },
+    {
+      "job": "COR",
+      "external_set_id": "357015",
+      "title": "Idle - Refresh",
+      "url": "https://www.ffxiah.com/item-sets/357015",
+      "guide_url": "https://www.ffxiah.com/node/326",
+      "purpose": "Idle",
+      "target": "Refresh Idle - MP subjob",
+      "context": {
+        "role": "Recovery when an MP-using subjob is in use",
+        "selection_behavior": "idle priority"
+      },
+      "accessed_on": "2026-11-03",
+      "evidence_scope": "Published macro and Gearswap slot blocks inspected; exact local identity and eligibility checked. Composition requirements remain unresolved.",
+      "gaps": [
+        "Eleven omitted slots require independently justified composition; this does not fill complete idle coverage.",
+        "Rawhide Trousers Path D is explicitly sourced from node 326 Idle Sets; no rank magnitude assumed.",
+        "Other augment prerequisites and current alternatives need verification."
+      ],
+      "selected_names": {
+        "head": "Rawhide Mask",
+        "body": "Mekosu. Harness",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "legs": "Rawhide Trousers"
+      },
+      "explicit_requirements": {
+        "legs": {
+          "path": "D"
+        }
+      },
+      "observation_sha256": "1892e4df5c545b86a76fda511a7f02642b8bd7e8dbb87d7f7bf30d7818057f6c"
+    }
+  ]
+}

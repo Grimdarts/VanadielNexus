@@ -339,8 +339,9 @@ def clear_cache(windower_dir: str = None) -> None:
         _CACHE.clear()
         return
     folder = os.path.normcase(os.path.abspath(windower_dir))
-    for key in [k for k in _CACHE if k[0] == folder]:
-        del _CACHE[key]
+    # Reads run on a worker thread while the GUI thread may clear: snapshot the keys (list() is atomic).
+    for key in [k for k in list(_CACHE) if k[0] == folder]:
+        _CACHE.pop(key, None)
 
 
 def read_job(windower_dir: str, character: str, job: str, sub_job: str = '', force: bool = False,
@@ -365,11 +366,16 @@ def read_job(windower_dir: str, character: str, job: str, sub_job: str = '', for
             'sub_job': sub_job, 'sub_job_long': gearswap_files.JOB_LONG.get(sub_job, sub_job),
             'sub_job_id': JOB_IDS.get(sub_job, 0), 'job_path': search.path, 'appdata': appdata}
     args.update(_test or {})
+    started = time.time_ns()
     raw = _spawn(args, timeout)
+    finished = time.time_ns()
 
     files = {}
     for path in [search.path] + list(raw.get('files') or []):
         files.setdefault(os.path.normpath(path), _mtime(path))
+    # A file saved while the child was reading has a new mtime but maybe old content: don't cache that read.
+    # (Only inside the read's own window, so a future-dated file from clock skew still caches.)
+    edited_during_read = any(m is not None and started <= m <= finished for m in files.values())
     includes = list(raw.get('includes') or [])
     error = raw.get('error') or ''
     details = raw.get('error_details') or ''
@@ -383,6 +389,6 @@ def read_job(windower_dir: str, character: str, job: str, sub_job: str = '', for
                    absent_deps=list(raw.get('absent_deps') or []), sets=sets, error=error, error_details=details,
                    partial=bool(raw.get('partial')) and bool(error), includes=includes, read_at=time.time())
     transient = error.startswith(('took too long', 'the Lua runtime')) or error == gs_worker.LUPA_MISSING
-    if not transient and not _test:  # process problems are worth retrying; Lua errors stay until a file changes
+    if not transient and not _test and not edited_during_read:  # process problems are worth retrying; Lua errors stay until a file changes
         _CACHE[key] = (read, res)
     return read

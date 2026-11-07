@@ -1,0 +1,4733 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "node-348198",
+      "url": "https://www.ffxiah.com/item-sets/348198",
+      "scope": "Node 373 linked set 348198 \"Dream Tier Evi\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26108
+        ],
+        "body": [
+          25791
+        ],
+        "hands": [
+          25836
+        ],
+        "ring1": [
+          26186
+        ],
+        "ring2": [
+          26191
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          27197
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "ba89220c74b6d90732774c0b6b5cd5d26d8f552b90bbcf115f50d62dfdf967cc"
+    },
+    {
+      "key": "node-348201",
+      "url": "https://www.ffxiah.com/item-sets/348201",
+      "scope": "Node 373 linked set 348201 \"DT No Shell V\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          26002
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26190
+        ],
+        "back": [],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "ae0b583be8fae554a0f4857c277be644d8d6bba21c6c20dec7265d5e67886b04"
+    },
+    {
+      "key": "node-356844",
+      "url": "https://www.ffxiah.com/item-sets/356844",
+      "scope": "Node 373 linked set 356844 \"PDL Swaps - Eviscera\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          23762
+        ],
+        "hands": [],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [],
+        "feet": [
+          23783
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "7eedfe5da391432a257b15f34223b442abfa927a80254ac0d769c4663a27245c"
+    },
+    {
+      "key": "node-359173",
+      "url": "https://www.ffxiah.com/item-sets/359173",
+      "scope": "Node 373 linked set 359173 \"PK Striking Flourish\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22264
+        ],
+        "head": [
+          26669
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          26935
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          26191
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27373
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "86ed4f4ca18fe73a9a6ab662fb120a07a40acb15ee4f0c9863ae1aa60e4d860b"
+    },
+    {
+      "key": "node-359608",
+      "url": "https://www.ffxiah.com/item-sets/359608",
+      "scope": "Node 373 linked set 359608 \"Starting DNC TP\"",
+      "slot_grid": {
+        "main": [
+          20619
+        ],
+        "sub": [
+          20597
+        ],
+        "range": [],
+        "ammo": [
+          21371
+        ],
+        "head": [
+          25613
+        ],
+        "neck": [
+          28402
+        ],
+        "ear1": [
+          27541
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          26950
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          10772
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          28438
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27365
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "07defedb68b0d211692a2f51c9e3abea3fe3255a0c2e83938ed69a9c9bbd5b6e"
+    },
+    {
+      "key": "node-359671",
+      "url": "https://www.ffxiah.com/item-sets/359671",
+      "scope": "Node 373 linked set 359671 \"Dream Tier AE\"",
+      "slot_grid": {
+        "main": [
+          20594
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22271
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          26003
+        ],
+        "ear1": [
+          28514
+        ],
+        "ear2": [
+          11697
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          26199
+        ],
+        "ring2": [
+          27575
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26359
+        ],
+        "legs": [
+          23617
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "7570664f4efd449fba56a21b4676b43426e5b6bc83ca65e7b101016fff3a4d73"
+    },
+    {
+      "key": "node-359849",
+      "url": "https://www.ffxiah.com/item-sets/359849",
+      "scope": "Node 373 linked set 359849 \"DNC TP AM3\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          20579
+        ],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26115
+        ],
+        "body": [
+          25798
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          26175
+        ],
+        "ring2": [
+          26212
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          25908
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "182ac19b3b6383c7f117452715a6331784b32c295c1d5174280438e338b978b1"
+    },
+    {
+      "key": "node-367714",
+      "url": "https://www.ffxiah.com/item-sets/367714",
+      "scope": "Node 373 linked set 367714 \"Steps\"",
+      "slot_grid": {
+        "main": [
+          21584
+        ],
+        "sub": [
+          21584
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          23393
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26081
+        ],
+        "ear2": [
+          26081
+        ],
+        "body": [
+          23460
+        ],
+        "hands": [
+          23527
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28442
+        ],
+        "legs": [
+          23594
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "e94b7c96fed30830db35bd0a77a431a3cf656d09c241d37e348b5bf16f4d5583"
+    },
+    {
+      "key": "node-367803",
+      "url": "https://www.ffxiah.com/item-sets/367803",
+      "scope": "Node 373 linked set 367803 \"Waltz\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          11488
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          28494
+        ],
+        "ear2": [
+          28491
+        ],
+        "body": [
+          23460
+        ],
+        "hands": [
+          25826
+        ],
+        "ring1": [
+          27577
+        ],
+        "ring2": [
+          27577
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          11745
+        ],
+        "legs": [
+          25849
+        ],
+        "feet": [
+          23661
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "eaeb2949cbf75032ffb64b06d80c2c2fb350d5dbce56c3ce91a4b7d2ba626568"
+    },
+    {
+      "key": "node-367804",
+      "url": "https://www.ffxiah.com/item-sets/367804",
+      "scope": "Node 373 linked set 367804 \"Voilent Flourish\"",
+      "slot_grid": {
+        "main": [
+          21584
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25570
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          27547
+        ],
+        "ear2": [
+          28477
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          25836
+        ],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26184
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28415
+        ],
+        "legs": [
+          23617
+        ],
+        "feet": [
+          25954
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "a522426dbfdda1d1938a4c2adf636408cac769ccd680041ac35d1d8688be9b6c"
+    },
+    {
+      "key": "node-367805",
+      "url": "https://www.ffxiah.com/item-sets/367805",
+      "scope": "Node 373 linked set 367805 \"Reverse Flourish\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          27089
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          28635
+        ],
+        "waist": [],
+        "legs": [],
+        "feet": []
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "54d50dddca383c88906a66449da7043d151e5e55aca48c4f5580bee586b2d19a"
+    },
+    {
+      "key": "node-367807",
+      "url": "https://www.ffxiah.com/item-sets/367807",
+      "scope": "Node 373 linked set 367807 \"Dream Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26115
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "5b7ce8b87f464f50439ad57dbe1a7da1939736da01a8817cbf226261b42118d5"
+    },
+    {
+      "key": "node-367808",
+      "url": "https://www.ffxiah.com/item-sets/367808",
+      "scope": "Node 373 linked set 367808 \"Mid Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          21565
+        ],
+        "sub": [
+          20596
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25630
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          10772
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "b64acf194c9a2e09046a96d4904afd8196a3e4d923e2e37ffae9d5a3c125680c"
+    },
+    {
+      "key": "node-367809",
+      "url": "https://www.ffxiah.com/item-sets/367809",
+      "scope": "Node 373 linked set 367809 \"Dream Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          23393
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26115
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "c1f65fa0cec9691d1a2da2586d7ee2e3685f3d389c3679a6289c48e33f1bfde8"
+    },
+    {
+      "key": "node-367810",
+      "url": "https://www.ffxiah.com/item-sets/367810",
+      "scope": "Node 373 linked set 367810 \"Swaps for Terpsichor\"",
+      "slot_grid": {
+        "main": [
+          18969
+        ],
+        "sub": [
+          19398
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23732
+        ],
+        "neck": [],
+        "ear1": [
+          27544
+        ],
+        "ear2": [
+          27545
+        ],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          26182
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "0ab84ab517b36e115c4baa6dcc4797b3763911352ed11f3a2f1eb468a989606b"
+    },
+    {
+      "key": "node-367811",
+      "url": "https://www.ffxiah.com/item-sets/367811",
+      "scope": "Node 373 linked set 367811 \"Mid Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          21565
+        ],
+        "sub": [
+          20596
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25630
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          27545
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26321
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "568407016f813987b3c9bb118758a0ee947e5fef86063d2cf5137975cfcb81ba"
+    },
+    {
+      "key": "node-367812",
+      "url": "https://www.ffxiah.com/item-sets/367812",
+      "scope": "Node 373 linked set 367812 \"Starter\"",
+      "slot_grid": {
+        "main": [
+          20597
+        ],
+        "sub": [
+          20619
+        ],
+        "range": [],
+        "ammo": [
+          21371
+        ],
+        "head": [
+          25613
+        ],
+        "neck": [
+          28402
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          26950
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          10772
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          28438
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27365
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "47e4a86b63ffc2388b906067dddb041dbbf023cbd3c122f92075f693e92fb21b"
+    },
+    {
+      "key": "node-367813",
+      "url": "https://www.ffxiah.com/item-sets/367813",
+      "scope": "Node 373 linked set 367813 \"Dream Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          27540
+        ],
+        "body": [
+          25687
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26321
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "18d10d11a93c62155bc6ce26bd897dc6ca6b989c539ad537b0300fb94ea68440"
+    },
+    {
+      "key": "node-367814",
+      "url": "https://www.ffxiah.com/item-sets/367814",
+      "scope": "Node 373 linked set 367814 \"Mid Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          20596
+        ],
+        "sub": [
+          21565
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25630
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          27540
+        ],
+        "body": [
+          25686
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "db73ed68f67e218e6e60c5d3ea96100ecfdcf570c09cdf1dd771998cc20654e0"
+    },
+    {
+      "key": "node-367815",
+      "url": "https://www.ffxiah.com/item-sets/367815",
+      "scope": "Node 373 linked set 367815 \"Starter\"",
+      "slot_grid": {
+        "main": [
+          20619
+        ],
+        "sub": [
+          20597
+        ],
+        "range": [],
+        "ammo": [
+          21371
+        ],
+        "head": [
+          25630
+        ],
+        "neck": [
+          11603
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          25686
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          10772
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          28438
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27365
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "3e6478052a708c2f3534fa41fed64d64a2e715041eb45d1034202632b7768441"
+    },
+    {
+      "key": "node-367816",
+      "url": "https://www.ffxiah.com/item-sets/367816",
+      "scope": "Node 373 linked set 367816 \"Swaps for Terpsichor\"",
+      "slot_grid": {
+        "main": [
+          18969
+        ],
+        "sub": [
+          19398
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23732
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          26182
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "81517e66aca7d2e86cbccc6f6450af5c6c9da20353570d2c20065710b625a196"
+    },
+    {
+      "key": "node-367817",
+      "url": "https://www.ffxiah.com/item-sets/367817",
+      "scope": "Node 373 linked set 367817 \"Dream Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          23393
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25687
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26321
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "b9ff0c0f9bee99859b3553327ef5f6bfb8447c5a44e3c0be1560a34e54e664a7"
+    },
+    {
+      "key": "node-367818",
+      "url": "https://www.ffxiah.com/item-sets/367818",
+      "scope": "Node 373 linked set 367818 \"Mid Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          21565
+        ],
+        "sub": [
+          20596
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          23058
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          27540
+        ],
+        "body": [
+          25686
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26321
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "ad6f71564793de9d1547a9ce2aa9fe19a5494a7637da2dfc5d10c67eb8e56c88"
+    },
+    {
+      "key": "node-367819",
+      "url": "https://www.ffxiah.com/item-sets/367819",
+      "scope": "Node 373 linked set 367819 \"Starter TP\"",
+      "slot_grid": {
+        "main": [
+          20619
+        ],
+        "sub": [
+          20597
+        ],
+        "range": [],
+        "ammo": [
+          21371
+        ],
+        "head": [
+          26735
+        ],
+        "neck": [
+          11603
+        ],
+        "ear1": [
+          14739
+        ],
+        "ear2": [
+          27540
+        ],
+        "body": [
+          25686
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          15543
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          10838
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          27404
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "465ebb5010ca1e53a35e150c7e5108f0b7f5d420691b07ad745607896f03f116"
+    },
+    {
+      "key": "node-367820",
+      "url": "https://www.ffxiah.com/item-sets/367820",
+      "scope": "Node 373 linked set 367820 \"Dream Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          16179
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26115
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "e6b88a86488a62e303d2d80c2e2e86d4eb1e5c660f98d5cd550d674f39eb58d7"
+    },
+    {
+      "key": "node-367821",
+      "url": "https://www.ffxiah.com/item-sets/367821",
+      "scope": "Node 373 linked set 367821 \"Mid Tier - TP\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          16179
+        ],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25630
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          27545
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27117
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "a7bd15476a4a31899df78542388d390a099a5c67e2f1e706323d389fc8a3f8fe"
+    },
+    {
+      "key": "node-367832",
+      "url": "https://www.ffxiah.com/item-sets/367832",
+      "scope": "Node 373 linked set 367832 \"Acc Swaps - TP Max\"",
+      "slot_grid": {
+        "main": [
+          21584
+        ],
+        "sub": [
+          19398
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [
+          26081
+        ],
+        "ear2": [
+          26081
+        ],
+        "body": [
+          23460
+        ],
+        "hands": [],
+        "ring1": [
+          26182
+        ],
+        "ring2": [
+          26191
+        ],
+        "back": [],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23594
+        ],
+        "feet": []
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "d8ed635c8e7138326d358bd57e3734931712b65e3dd681e84d13a2f10d3e1631"
+    },
+    {
+      "key": "node-367833",
+      "url": "https://www.ffxiah.com/item-sets/367833",
+      "scope": "Node 373 linked set 367833 \"Acc Swaps - TP\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [
+          26081
+        ],
+        "ear2": [],
+        "body": [],
+        "hands": [],
+        "ring1": [
+          26182
+        ],
+        "ring2": [],
+        "back": [],
+        "waist": [
+          28413
+        ],
+        "legs": [],
+        "feet": []
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "36322011cffd59cafe0fadc57d3006a0f9830afe174a04192cbfc2ac30d9fbee"
+    },
+    {
+      "key": "node-367834",
+      "url": "https://www.ffxiah.com/item-sets/367834",
+      "scope": "Node 373 linked set 367834 \"Hybrid Swaps\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23732
+        ],
+        "neck": [
+          26002
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          13566
+        ],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "4c3af1792f92194e92d10e33c847c83e562f04c5bbf27d5e8e8a3acf35d66c34"
+    },
+    {
+      "key": "node-367835",
+      "url": "https://www.ffxiah.com/item-sets/367835",
+      "scope": "Node 373 linked set 367835 \"Mid Tier Clim Rudra\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          26777
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          27537
+        ],
+        "ear2": [
+          11697
+        ],
+        "body": [
+          25791
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          27587
+        ],
+        "ring2": [
+          26191
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "2a74b170a7fc26720766844ec91acbde3255123f4ab2dfb32120ce65b37c8651"
+    },
+    {
+      "key": "node-367838",
+      "url": "https://www.ffxiah.com/item-sets/367838",
+      "scope": "Node 373 linked set 367838 \"Mid Tier Rudra\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          27587
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "984b5a84e86735b5a8f11ede7c0209c23682201fd900d2cd9cee7dc9a94d8382"
+    },
+    {
+      "key": "node-367839",
+      "url": "https://www.ffxiah.com/item-sets/367839",
+      "scope": "Node 373 linked set 367839 \"Starter Rudra\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          26735
+        ],
+        "neck": [
+          27523
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          27537
+        ],
+        "body": [
+          26893
+        ],
+        "hands": [
+          25803
+        ],
+        "ring1": [
+          27569
+        ],
+        "ring2": [
+          27569
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          27404
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "6bcf9f1ba4e0af3faf9e9569e8337e9b1c86fc14e99e549e0412466c6592875f"
+    },
+    {
+      "key": "node-367840",
+      "url": "https://www.ffxiah.com/item-sets/367840",
+      "scope": "Node 373 linked set 367840 \"Climactic Starter Ru\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          26776
+        ],
+        "neck": [
+          27523
+        ],
+        "ear1": [
+          27537
+        ],
+        "ear2": [
+          11697
+        ],
+        "body": [
+          26893
+        ],
+        "hands": [
+          25803
+        ],
+        "ring1": [
+          27569
+        ],
+        "ring2": [
+          27569
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          27404
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "d242958d685a894a84d3cb70a8bf2f249cbd4b91242f9067479c31a21b2e918b"
+    },
+    {
+      "key": "node-367841",
+      "url": "https://www.ffxiah.com/item-sets/367841",
+      "scope": "Node 373 linked set 367841 \"PK Starter\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22264
+        ],
+        "head": [
+          27783
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          14813
+        ],
+        "ear2": [
+          27541
+        ],
+        "body": [
+          26950
+        ],
+        "hands": [
+          25821
+        ],
+        "ring1": [
+          27565
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          27600
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          25861
+        ],
+        "feet": [
+          27460
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "da33732f63ce311ba774625f26caf7992375d4bf441eaf09c6124b253b787715"
+    },
+    {
+      "key": "node-367842",
+      "url": "https://www.ffxiah.com/item-sets/367842",
+      "scope": "Node 373 linked set 367842 \"Mid Tier Evi\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25613
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26080
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          25798
+        ],
+        "hands": [
+          25836
+        ],
+        "ring1": [
+          26212
+        ],
+        "ring2": [
+          26172
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          25954
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "605148ea91477625e87f835eb3d94c7cb7e546e1e6a90685fddadf8b6d384104"
+    },
+    {
+      "key": "node-367843",
+      "url": "https://www.ffxiah.com/item-sets/367843",
+      "scope": "Node 373 linked set 367843 \"Starter Evi\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25582
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          14813
+        ],
+        "ear2": [
+          27541
+        ],
+        "body": [
+          25782
+        ],
+        "hands": [
+          25821
+        ],
+        "ring1": [
+          26212
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          28635
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          25876
+        ],
+        "feet": [
+          25943
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "8f25ced1d89ea3c7c7aa333eb1a3d14b72cf2e55ae7ed6a24a93922c9a0a4f65"
+    },
+    {
+      "key": "node-367845",
+      "url": "https://www.ffxiah.com/item-sets/367845",
+      "scope": "Node 373 linked set 367845 \"Mid Tier AE\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22271
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          26023
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          28514
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          27575
+        ],
+        "ring2": [
+          27587
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28415
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "dac672b249f21207b32a95352029ac4d5dc2c4749045fe1a23e75ba5cbd585f6"
+    },
+    {
+      "key": "node-367846",
+      "url": "https://www.ffxiah.com/item-sets/367846",
+      "scope": "Node 373 linked set 367846 \"Exenterator\"",
+      "slot_grid": {
+        "main": [
+          20594
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22286
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26186
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          25880
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "a7b744adfc8a941258fe674bb5c4200138fd87722b2d9a83fcbc880ce04d066f"
+    },
+    {
+      "key": "node-367847",
+      "url": "https://www.ffxiah.com/item-sets/367847",
+      "scope": "Node 373 linked set 367847 \"Mid Tier Exent\"",
+      "slot_grid": {
+        "main": [
+          20594
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          14813
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          27573
+        ],
+        "ring2": [
+          27573
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "01f3161b55c82843924e8438b83572075f6487370b6886aac8c32e42a0009f06"
+    },
+    {
+      "key": "node-367866",
+      "url": "https://www.ffxiah.com/item-sets/367866",
+      "scope": "Node 373 linked set 367866 \"FC Set\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22252
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          10394
+        ],
+        "ear1": [
+          14812
+        ],
+        "ear2": [
+          28494
+        ],
+        "body": [
+          25687
+        ],
+        "hands": [
+          27135
+        ],
+        "ring1": [
+          26162
+        ],
+        "ring2": [
+          10752
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "95f79641e0a78c646187a7ed207736aecbfe6644f983f1c54fe30f1740c26851"
+    },
+    {
+      "key": "node-367868",
+      "url": "https://www.ffxiah.com/item-sets/367868",
+      "scope": "Node 373 linked set 367868 \"Utsusemi\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22252
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          11627
+        ],
+        "ear1": [
+          14812
+        ],
+        "ear2": [
+          28494
+        ],
+        "body": [
+          25687
+        ],
+        "hands": [
+          27135
+        ],
+        "ring1": [
+          26162
+        ],
+        "ring2": [
+          10752
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "ee9d17a214ad23a4602f703b1f42f0950476597d460f55116790a1c331007937"
+    },
+    {
+      "key": "node-367869",
+      "url": "https://www.ffxiah.com/item-sets/367869",
+      "scope": "Node 373 linked set 367869 \"Enmity\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19782
+        ],
+        "head": [
+          25653
+        ],
+        "neck": [
+          27509
+        ],
+        "ear1": [
+          28483
+        ],
+        "ear2": [
+          28514
+        ],
+        "body": [
+          26871
+        ],
+        "hands": [
+          23550
+        ],
+        "ring1": [
+          10785
+        ],
+        "ring2": [
+          10798
+        ],
+        "back": [
+          26244
+        ],
+        "waist": [
+          28456
+        ],
+        "legs": [
+          27231
+        ],
+        "feet": [
+          25920
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "d138f6e66a2b6e642f3917061bbf76b4c76649a9090b03b7b51602700658eb61"
+    },
+    {
+      "key": "node-367870",
+      "url": "https://www.ffxiah.com/item-sets/367870",
+      "scope": "Node 373 linked set 367870 \"Regen\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          25575
+        ],
+        "neck": [
+          27518
+        ],
+        "ear1": [
+          28512
+        ],
+        "ear2": [
+          28475
+        ],
+        "body": [
+          25791
+        ],
+        "hands": [
+          25829
+        ],
+        "ring1": [
+          26182
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          25880
+        ],
+        "feet": [
+          25947
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "e691857a868f4d2ff0205dc09cc7c8e7674419b0b7604dbeb71cdb396e8a7a13"
+    },
+    {
+      "key": "node-367871",
+      "url": "https://www.ffxiah.com/item-sets/367871",
+      "scope": "Node 373 linked set 367871 \"DT Shell V\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          27505
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26190
+        ],
+        "back": [],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "c25a1f2aef17cadcca6d0572bb768c21d2d7f1b7ab4051408ad801c12f023a1c"
+    },
+    {
+      "key": "node-367872",
+      "url": "https://www.ffxiah.com/item-sets/367872",
+      "scope": "Node 373 linked set 367872 \"MEVA\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          27505
+        ],
+        "ear1": [
+          11051
+        ],
+        "ear2": [
+          28516
+        ],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          27554
+        ],
+        "ring2": [
+          28574
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "708cd09e5439305f55068f046b6041469a3c7d938b537fa376a0820e36d70144"
+    },
+    {
+      "key": "node-367874",
+      "url": "https://www.ffxiah.com/item-sets/367874",
+      "scope": "Node 373 linked set 367874 \"Resist\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [],
+        "neck": [
+          27509
+        ],
+        "ear1": [
+          11051
+        ],
+        "ear2": [],
+        "body": [
+          23483
+        ],
+        "hands": [],
+        "ring1": [
+          28574
+        ],
+        "ring2": [
+          14646
+        ],
+        "back": [
+          26245
+        ],
+        "waist": [],
+        "legs": [
+          23725
+        ],
+        "feet": [
+          23729
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "a60a25cdaa32463f786885be7f179753991094d765a3ef7b1103c55be3592807"
+    },
+    {
+      "key": "node-367915",
+      "url": "https://www.ffxiah.com/item-sets/367915",
+      "scope": "Node 373 linked set 367915 \"Dream Tier - Shark\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          23527
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26214
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          23617
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "170f5b5489a5e8d820aacbda11da4b52f13f16dc2c4709d79449f7b734d187c8"
+    },
+    {
+      "key": "node-367916",
+      "url": "https://www.ffxiah.com/item-sets/367916",
+      "scope": "Node 373 linked set 367916 \"Dream Tier - Dancing\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          26669
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26081
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27021
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          27197
+        ],
+        "feet": [
+          27373
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "85f8e545889ee338fe04b0059f6b7885b1b1ff3f4fe3387be17ab6e7da67fc8e"
+    },
+    {
+      "key": "node-367917",
+      "url": "https://www.ffxiah.com/item-sets/367917",
+      "scope": "Node 373 linked set 367917 \"Mid Tier - Dancing\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          26668
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          14813
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27020
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          27196
+        ],
+        "feet": [
+          27372
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "f83cf7f7254c30b2b0f4f84e7cc1620acedb660fc8f97dc3ba37a318093155e7"
+    },
+    {
+      "key": "node-367918",
+      "url": "https://www.ffxiah.com/item-sets/367918",
+      "scope": "Node 373 linked set 367918 \"Mid Tier - Shark\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          25642
+        ],
+        "neck": [
+          25526
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25718
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          27587
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "439affdb74e88339f22c7cee4af330d47ce3cd12cb597f1bb642a958bf66deea"
+    },
+    {
+      "key": "node-370439",
+      "url": "https://www.ffxiah.com/item-sets/370439",
+      "scope": "Node 373 linked set 370439 \"Dream Tier TP\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          23393
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          27540
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          23483
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          28471
+        ],
+        "ring2": [
+          11651
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "e8df839c00ab62a4f6ff5fb01ebc79d99a4fb4cebed75071127e64d079641fbb"
+    },
+    {
+      "key": "node-371413",
+      "url": "https://www.ffxiah.com/item-sets/371413",
+      "scope": "Node 373 linked set 371413 \"Dream Tier - TP 15\"",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26115
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          25687
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          11651
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          26321
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          23684
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "9323f6624abd6c38bb5949ffe637df51b7dac747f98d4121459b744fe2fdb8dd"
+    },
+    {
+      "key": "node-380094",
+      "url": "https://www.ffxiah.com/item-sets/380094",
+      "scope": "Node 373 linked set 380094 \"Rudra Dream att. cap\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22300
+        ],
+        "head": [
+          23438
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          25530
+        ],
+        "body": [
+          23763
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26214
+        ],
+        "ring2": [
+          26191
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "85acd3950bdcbc40c2cf5ffbf891c64e63068ddf06e772596d0c3aef456d1f71"
+    },
+    {
+      "key": "node-380096",
+      "url": "https://www.ffxiah.com/item-sets/380096",
+      "scope": "Node 373 linked set 380096 \"PK Dream Att. cap\"",
+      "slot_grid": {
+        "main": [
+          20584
+        ],
+        "sub": [
+          21567
+        ],
+        "range": [],
+        "ammo": [
+          22300
+        ],
+        "head": [
+          23756
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          25530
+        ],
+        "body": [
+          23763
+        ],
+        "hands": [
+          23770
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          23639
+        ],
+        "feet": [
+          27373
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "d89df94936f2b6c0ef751a6281bbe18e838319d163db75e1620827d7494f4838"
+    },
+    {
+      "key": "node-380097",
+      "url": "https://www.ffxiah.com/item-sets/380097",
+      "scope": "Node 373 linked set 380097 \"PK Dream Att. uncapp\"",
+      "slot_grid": {
+        "main": [
+          20584
+        ],
+        "sub": [
+          21567
+        ],
+        "range": [],
+        "ammo": [
+          21431
+        ],
+        "head": [
+          23438
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26081
+        ],
+        "body": [
+          23505
+        ],
+        "hands": [
+          23572
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          27373
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "161511dd76dc9940f2fc30776d70731f56f558d9552d206c70b24b3cb05e2e0c"
+    },
+    {
+      "key": "node-380993",
+      "url": "https://www.ffxiah.com/item-sets/380993",
+      "scope": "Node 373 linked set 380993 \"Rudra Dream att. unc\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          22298
+        ],
+        "head": [
+          23438
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          25530
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26186
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "790b785769ba7ffdfd026cbf039d5b3bd9e5b907b92f9129cffd08a2d781cf3f"
+    },
+    {
+      "key": "node-380994",
+      "url": "https://www.ffxiah.com/item-sets/380994",
+      "scope": "Node 373 linked set 380994 \"Clim. Rudra att. cap\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23438
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          26108
+        ],
+        "ear2": [
+          11697
+        ],
+        "body": [
+          23763
+        ],
+        "hands": [
+          23527
+        ],
+        "ring1": [
+          26214
+        ],
+        "ring2": [
+          26218
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23617
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "fdeb3b9efaba7a565e215e1918d4f7f3cd1816615d3ebf9e4f9c58606acf4464"
+    },
+    {
+      "key": "node-380995",
+      "url": "https://www.ffxiah.com/item-sets/380995",
+      "scope": "Node 373 linked set 380995 \"Clim. Rudra att. unc\"",
+      "slot_grid": {
+        "main": [
+          19398
+        ],
+        "sub": [
+          19874
+        ],
+        "range": [],
+        "ammo": [
+          19256
+        ],
+        "head": [
+          23103
+        ],
+        "neck": [
+          25527
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          25530
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26214
+        ],
+        "back": [
+          26264
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 373; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders whose N equals the slot index (source omissions, not Nexus empties). Augments, ranks and paths exist only as unmagnituded node notes and are not inherited.",
+      "observation_sha256": "ce829b808afefc4ea7a35c056e1c39a08ccd5a52fce3a2a681a7ebd482aac884"
+    },
+    {
+      "key": "cdg-steps",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Steps \"Also high Accuracy\"",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Maxixi Tiara +4"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Mache Earring +1"
+        ],
+        "ear2": [
+          "Mache Earring +1"
+        ],
+        "body": [
+          "Maxixi Casaque +4"
+        ],
+        "hands": [
+          "Maxixi Bangles +4"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Chirich Ring +1"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Maxixi Tights +4"
+        ],
+        "feet": [
+          "Horos Toe Sh. +4"
+        ]
+      },
+      "source_options": {
+        "waist": "annotation \"DEX +10\" (not printed on base Kentarch Belt +1; not inherited)",
+        "back": "annotation \"DEX +20, ACC +30\" (partial aggregate; not inherited)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "ec9a2e2aa7c8f8330cc64a3a0c9ca50977e9d60de2e108686e8b6808c36704c9"
+    },
+    {
+      "key": "cdg-waltz",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Waltz \"Potency Capped\"",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Horos Tiara +4"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sjofn Earring"
+        ],
+        "ear2": [
+          "Roundel Earring"
+        ],
+        "body": [
+          "Maxixi Casaque +4"
+        ],
+        "hands": [
+          "Herculean Gloves"
+        ],
+        "ring1": [
+          "Valseur's Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Toetapper Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Dashing Subligar"
+        ],
+        "feet": [
+          "Maxixi Toe Sh. +4"
+        ]
+      },
+      "source_options": {
+        "hands": "annotation \"11 Waltz Potency\" (random Herculean augment; base Herculean Gloves print none)",
+        "ring2": "placeholder",
+        "waist": "placeholder"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "3e539f6e01b9a554448476ce935051041ca2af70e0c0b2b13bc311c879369912"
+    },
+    {
+      "key": "cdg-violent-flourish",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Violent Flourish \"(Magic Accuracy)\"",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Maculele Tiara +3"
+        ],
+        "neck": [
+          "Null Loop"
+        ],
+        "ear1": [
+          "Digni. Earring"
+        ],
+        "ear2": [
+          "Crep. Earring"
+        ],
+        "body": [
+          "Horos Casaque +4"
+        ],
+        "hands": [
+          "Macu. Bangles +3"
+        ],
+        "ring1": [
+          "Metamor. Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Null Belt"
+        ],
+        "legs": [
+          "Maxixi Tights +4"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "ring1": "annotation \"+10 Magic Accuracy\" (Metamor. Ring +1 path/Unity; not inherited)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "d6e2963c0b44f66b8263b8258cd190c42b5790f7dff1162306a576054b77db1e"
+    },
+    {
+      "key": "cdg-reverse-flourish",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Reverse Flourish (partial)",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          "Macu. Bangles +3"
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          "Toetapper Mantle"
+        ],
+        "waist": [],
+        "legs": [],
+        "feet": []
+      },
+      "source_options": {
+        "back": "annotation \"Reverse Flourish +30\" (augment; base Toetapper Mantle prints no Reverse Flourish line)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "70db8035fa7da3483729ca3d6f09dcbcbbfa3c26a8f2ecd13251dc71ffdcad32"
+    },
+    {
+      "key": "cdg-tp-starter",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "TP Starter Set",
+      "grid": {
+        "main": [
+          "Kaja Knife"
+        ],
+        "sub": [
+          "Polyhymnia"
+        ],
+        "range": [],
+        "ammo": [
+          "Ginsen"
+        ],
+        "head": [
+          "Taeon Chapeau"
+        ],
+        "neck": [
+          "Asperity Necklace"
+        ],
+        "ear1": [
+          "Brutal Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Taeon Tabard"
+        ],
+        "hands": [
+          "Mummu Wrists +2"
+        ],
+        "ring1": [
+          "Petrov Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Meg. Chausses +2"
+        ],
+        "feet": [
+          "Macu. Toe Shoes +1"
+        ]
+      },
+      "source_options": {
+        "head/body": "Taeon random augments",
+        "back": "\"DEX30 + ACC/ATT 20+10DW\""
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "4d9cee6802af693c72e4b23dbb37c664d3383de3d5c92cbac65d85f4e21ec476"
+    },
+    {
+      "key": "cdg-tp",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "TP (Twashtar/Centovente)",
+      "grid": {
+        "main": [
+          "Twashtar (Level 119 III)"
+        ],
+        "sub": [
+          "Centovente"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Horos Casaque +4"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "hands": "Path A",
+        "legs": "\"10DEX+10STR+3DA+3TA\" random",
+        "back": "\"DEX30 + ACC/ATT 20+10DA -10% PDT\"",
+        "sub": "Centovente TP Bonus +1000 is a Magian augment path; not transferred"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "013b6dc37c094649c3f3a5d82adaf29612b49417243ea6350ffa69f61cd6b352"
+    },
+    {
+      "key": "cdg-acc-tp",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Acc TP",
+      "grid": {
+        "main": [
+          "Twashtar (Level 119 III)"
+        ],
+        "sub": [
+          "Setan Kober"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Macu. Casaque +3"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Chirich Ring +1"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "back": "\"DEX20 + ACC 30 + ATT 20+10DA\" (aggregate)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "f41dd34171e11ce120728888065f61d00b3436bc5d5fd32adfaae7dbef1c3dec"
+    },
+    {
+      "key": "cdg-tp-twashtar",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "TP Twashtar (single wield /WAR Fencer)",
+      "grid": {
+        "main": [
+          "Twashtar (Level 119 III)"
+        ],
+        "sub": [
+          "Airy Buckler"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Horos Casaque +3"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "note": "shield sub: no Dual Wield; /WAR Fencer context"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "81ef032975b98441bd83131b086c3a381c2cca26f6d111b3796a0865e9f8e6da"
+    },
+    {
+      "key": "cdg-tp-am3",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "TP AM3 Up",
+      "grid": {
+        "main": [
+          "Twashtar (Level 119 III)"
+        ],
+        "sub": [
+          "Skinflayer"
+        ],
+        "range": [],
+        "ammo": [
+          "Charis Feather"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Brutal Earring"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Mummu Jacket +2"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Mummu Ring"
+        ],
+        "ring2": [
+          "Hetairoi Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Turms Subligar +1"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "787ca305622de975e92a651bd7feb5925e7d1d067d7b305088df16d9b32b103e"
+    },
+    {
+      "key": "cdg-tp-terpsichore",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "TP Terpsichore",
+      "grid": {
+        "main": [
+          "Terpsichore (Level 119 III)"
+        ],
+        "sub": [
+          "Twashtar (Level 119 III)"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Horos Casaque +4"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Epona's Ring"
+        ],
+        "ring2": [
+          "Gere Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "head": "\"(Path B) STR+12+DEX+12+ Attack+20\" (not inherited)",
+        "hands": "\"(Path A):DEX+12, AGI+12, Accuracy+20\" (not inherited)",
+        "legs": "\"10DEX+10STR+3DA+3TA\" random (not inherited)",
+        "back": "\"DEX30 + ACC/ATT 20+10STP\" aggregate presentation (not inherited)",
+        "note": "\"This set provides 72+15=87 STP when /SAM\""
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "8a5ff3e14a5276ede7a77a1eac193bd0fe90b637a436a5454c43bb7c88cea1c1"
+    },
+    {
+      "key": "cdg-dw-0",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Dual Wield scenario 0% Haste",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maxixi Tiara +3"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Eabani Earring"
+        ],
+        "body": [
+          "Macu. Casaque +3"
+        ],
+        "hands": [
+          "Herculean Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "back": "\"DEX30 + ACC/ATT 20+10STP+5DT\""
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "e787ea415e8c752a861c22626f2ce3b0bfde996d74b03c69a079a6838bb11cd2"
+    },
+    {
+      "key": "cdg-dw-10",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Dual Wield scenario 10% Haste",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maxixi Tiara +3"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Eabani Earring"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "80fc98552504bc497e37c12cb1d823375a375c83ccc97d4234ca59dd72fe4135"
+    },
+    {
+      "key": "cdg-dw-40",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Dual Wield scenario 40% Haste",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maxixi Tiara +3"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Horos Casaque +4"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "d3244a1af0f948ecbb525427f231bf3bdea472f9a6193f1b5bc813d5f6d2f827"
+    },
+    {
+      "key": "cdg-climactic-rudra",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Climactic Rudra",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Charis Feather"
+        ],
+        "head": [
+          "Maculele Tiara +3"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Maculele Earring"
+        ],
+        "body": [
+          "Meg. Cuirie +2"
+        ],
+        "hands": [
+          "Maxixi Bangles +4"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Horos Tights +4"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "ear1": "annotation \"3ACC+250 TP Bonus\" (Moonshade Earring stats are reward augments; BG Moonshade rev777274; local base description empty)",
+        "back": "\"DEX30 + ACC/ATT 20+10WSD\" aggregate"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "438f6c47ed0e50a6bef8909fd60de9f6c4a4bbcec7f487dcc4b4a2ec9daa1af7"
+    },
+    {
+      "key": "cdg-normal-rudra",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Normal Rudra",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maculele Tiara +3"
+        ],
+        "neck": [
+          "Etoile Gorget +2"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Maculele Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Maxixi Bangles +4"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Maculele Tights +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "ear1": "\"3ACC+250 TP Bonus\" augment",
+        "back": "\"DEX30 + ACC/ATT 20+10%WSD\" aggregate"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "4a33478f492036df823a44ba36e0abf015a8a3a3487d98be00d6d49918d77831"
+    },
+    {
+      "key": "cdg-starter-rudra",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Starter Rudra's Storm",
+      "grid": {
+        "main": [
+          "Polyhymnia"
+        ],
+        "sub": [
+          "Kaja Knife"
+        ],
+        "range": [],
+        "ammo": [
+          "Charis Feather"
+        ],
+        "head": [
+          "Mummu Bonnet +2"
+        ],
+        "neck": [
+          "Caro Necklace"
+        ],
+        "ear1": [
+          "Ishvara Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Meg. Cuirie +2"
+        ],
+        "hands": [
+          "Meg. Gloves +2"
+        ],
+        "ring1": [
+          "Ramuh Ring"
+        ],
+        "ring2": [
+          "Mummu Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Grunfeld Rope"
+        ],
+        "legs": [
+          "Mummu Kecks +2"
+        ],
+        "feet": [
+          "Mummu Gamash. +2"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "ab67378cc928ed26b1ffd643084bb67b474f8958c1d029344a3984234571ab37"
+    },
+    {
+      "key": "cdg-evisceration",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Evisceration",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Charis Feather"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Odr Earring"
+        ],
+        "ear2": [
+          "Maculele Earring"
+        ],
+        "body": [
+          "Meg. Cuirie +2"
+        ],
+        "hands": [
+          "Gleti's Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Gere Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Gleti's Breeches"
+        ],
+        "feet": [
+          "Gleti's Boots"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "1da2c341f374827ad0018f7db478ebbf90aafe246548331fb8d664b27ebe45e1"
+    },
+    {
+      "key": "cdg-starter-evisceration",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Starter Evisceration",
+      "grid": {
+        "main": [
+          "Kaja Knife"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Charis Feather"
+        ],
+        "head": [
+          "Mummu Bonnet +2"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Cessance Earring"
+        ],
+        "ear2": [
+          "Brutal Earring"
+        ],
+        "body": [
+          "Meg. Cuirie +2"
+        ],
+        "hands": [
+          "Mummu Wrists +2"
+        ],
+        "ring1": [
+          "Ramuh Ring"
+        ],
+        "ring2": [
+          "Mummu Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Mummu Kecks +2"
+        ],
+        "feet": [
+          "Mummu Gamash. +2"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "98a48d9ec5d30ccf2f56421d7c0fde230d4a452bfd2f9a894d48bcd0a91968a0"
+    },
+    {
+      "key": "cdg-pyrrhic-kleos",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Pyrrhic Kleos",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maculele Tiara +3"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Maculele Earring"
+        ],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [
+          "Maxixi Bangles +4"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Maculele Tights +3"
+        ],
+        "feet": [
+          "Lustra. Leggings +1"
+        ]
+      },
+      "source_options": {
+        "feet": "Path D (not inherited)",
+        "back": "\"STR30 + ACC/ATT 20+10DA\" aggregate"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "c8ac4ee0371e939d600ac5ed4782247d5cc64bd3d03502d181af1871a87bd448"
+    },
+    {
+      "key": "cdg-pk-starter",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "PK Starter",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Oshasha's Treatise"
+        ],
+        "head": [
+          "Skormoth Mask"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Brutal Earring"
+        ],
+        "ear2": [
+          "Cessance Earring"
+        ],
+        "body": [
+          "Rawhide Vest"
+        ],
+        "hands": [
+          "Mummu Wrists +2"
+        ],
+        "ring1": [
+          "Mummu Ring"
+        ],
+        "ring2": [
+          "Epona's Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Meg. Chausses +2"
+        ],
+        "feet": [
+          "Rawhide Boots"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "4cca31e5d71765b99308e868088286d40cd1345d579087f661096cda7f0b0da1"
+    },
+    {
+      "key": "cdg-exenterator",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Exenterator",
+      "grid": {
+        "main": [
+          "Aeneas"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Maculele Tiara +3"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Maculele Earring"
+        ],
+        "body": [
+          "Horos Casaque +3"
+        ],
+        "hands": [
+          "Maxixi Bangles +4"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Horos Tights +4"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "de3adb0c7274ad1e6e8df4d73d300e3fa3dc1f289e37cc27762b6b01363b6099"
+    },
+    {
+      "key": "cdg-aeolian-edge",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Aeolian Edge",
+      "grid": {
+        "main": [
+          "Aeneas"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Baetyl Pendant"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Friomisi Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Shiva Ring +1"
+        ],
+        "ring2": [
+          "Metamor. Ring +1"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Eschan Stone"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "f8e0047335eded51d2699dfd57422d118fbc0784e070a8c89ee478d4d7f10fda"
+    },
+    {
+      "key": "cdg-mdt",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "MDT",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Warder's Charm +1"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Odnowa Earring"
+        ],
+        "body": [
+          "Macu. Casaque +3"
+        ],
+        "hands": [
+          "Turms Mittens +1"
+        ],
+        "ring1": [
+          "Purity Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "back": "\"INT 20+ EVA 20+ MEVA 45\"",
+        "ears": "Odnowa earrings convert MP to HP (useful MP actual)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "9ed9c3ff4792338373d63a30a09be618a8e6fab99b4bf6694f17220b05a730c8"
+    },
+    {
+      "key": "cdg-pdt",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "PDT",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Genmei Earring"
+        ],
+        "ear2": [],
+        "body": [
+          "Macu. Casaque +3"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Macu. Toe Sh. +3"
+        ]
+      },
+      "source_options": {
+        "back": "\"VIT 30+ EVA/MEVA 20+ DEF 50\"",
+        "ear2/waist": "placeholders"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "5a6aaaf7e3e2ee8449ec59a155551816c6fa2fd96224b1ea981fed9f433f3f73"
+    },
+    {
+      "key": "cdg-meva",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "MEVA",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Warder's Charm +1"
+        ],
+        "ear1": [
+          "Sanare Earring"
+        ],
+        "ear2": [
+          "Hearty Earring"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Purity Ring"
+        ],
+        "ring2": [
+          "Icecrack Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "98906f9b566759493dfca1b380a0fc8d1b14eac7bfa7035b150b1903b8009464"
+    },
+    {
+      "key": "cdg-fc",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "FC",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Herculean Helm"
+        ],
+        "neck": [
+          "Orunmila's Torque"
+        ],
+        "ear1": [
+          "Enchntr. Earring +1"
+        ],
+        "ear2": [
+          "Loquac. Earring"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Rahab Ring"
+        ],
+        "ring2": [
+          "Prolix Ring"
+        ],
+        "back": [
+          "Senuna's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Herculean Trousers"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "source_options": {
+        "note": "FC lines on Herculean/Adhemar/Leyline/Senuna are augments; Magoraga Beads for Utsusemi"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "2d49e4cf45dbedbdc3538ad080e6432577dba31e193b7c9125ad278de49516b1"
+    },
+    {
+      "key": "cdg-enmity",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "scope": "Enmity",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Iron Gobbet"
+        ],
+        "head": [
+          "Halitus Helm"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Emet Harness +1"
+        ],
+        "hands": [
+          "Horos Bangles +3"
+        ],
+        "ring1": [
+          "Provocare Ring"
+        ],
+        "ring2": [
+          "Eihwaz Ring"
+        ],
+        "back": [
+          "Agema Cape"
+        ],
+        "waist": [
+          "Kasiri Belt"
+        ],
+        "legs": [
+          "Zoar Subligar +1"
+        ],
+        "feet": [
+          "Ahosi Leggings"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles in FFXI slot order plus printed span annotations; Category placeholder cells are omissions.",
+      "observation_sha256": "b66c7bbbb2fa79d4ea7686609215e35ccb8f6aabc62a752c7ce62fe559fca1be"
+    },
+    {
+      "key": "node-inventory",
+      "url": "https://www.ffxiah.com/node/373",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "58 distinct node 373 item sets fetched: four ability sets (Waltz, Steps, Violent Flourish, partial Reverse Flourish); TP sets for four Haste Samba/magic haste tiers with Dream/Mid/Starter/Terpsichore-swap variants; accuracy and hybrid swaps; Rudra (capped/uncapped attack, Climactic), Pyrrhic Kleos (incl. Striking Flourish), Evisceration, Aeolian Edge, Exenterator, Shark Bite, Dancing Edge; idle DT No Shell V/DT Shell V/MEVA/Resist; FC, Utsusemi, Enmity, Regen.",
+        "Node group annotations (no magnitudes): Abilities: Waltz \"Cape: CHR\", \"Anwig Salade: CHR+4 Waltz ability delay -2\"; Steps \"Cape: DEX/Acc\"; Violent Flourish \"Cape: INT/Macc\"; Reverse Flourish \"Cape: Reverse Flourish 30\". TP groups (with/without Haste Samba; 45%/30%/15%/0% magic haste needing 0/8/13/35% Dual Wield): \"Adhemar: Path B or A\", \"Cape (/SAM): DEX/Acc/STP\", \"Cape (/WAR): DEX/Acc/DA\", \"Herc DEX/Acc/TA\", \"Rawhide: Path D\", \"Cape: DEX/Acc/DW\", \"Taeon DEX/Acc/DW\". PK: \"Lust: Path D\", \"Cape: STR/Att/Acc/DA\". Idle: \"Cape: INT/Meva\". Utility: \"Adhemar : D\", \"Herc: FC\", \"Cape: FC\". Ambuscade capes: \"Resin augments are up to your discretion. -PDT 10% ... and Magic Evasion +15 tend to be the most useful\".",
+        "Node TP and WS sets name Twashtar as ID 19398 (local level-80 stage, DMG42) and Terpsichore as 18969 (level 75) in two swap sets; the selected Nexus stages are BG iLevel 119 III IDs 20587 and 20584. Node PK sets use Terpsichore 20584 with Gleti's Knife.",
+        "Partial sets (Reverse Flourish, Hybrid/Acc swaps, PDL swaps) are swap lists, not loadouts; their placeholders are omissions."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "01f36b6a3e55c5bcc833875a5a1a9fa713b3422136d2ee426355e82f94197f68"
+    },
+    {
+      "key": "ability-mechanics",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Steps cost 100 TP each (shared 5 s recast); first Step sets Daze 1:00, each later Step +0:30 to 2:00; each successful Step grants 2 Finishing Moves below Daze level 10 (+1 with Terpsichore), 1 at cap; Presto +50 accuracy and +2 Daze levels per CDG (BG Presto rev640417: up to +5 levels, 6 FM, 7 with Terpsichore, not consumed on miss). Feather Step is main-job only.",
+        "Waltz Potency caps at 50%, Waltz Potency Received at 30% (CDG and BG Waltz rev774384). BG Waltz equation multiplies the healer's Waltz Potency gear and the TARGET's Waltz Potency Received; Curing Waltz targets anyone in range, Divine Waltz party AoE, Healing Waltz removes an ailment; Contradance doubles the next Waltz.",
+        "Flourishes I/II/III consume Finishing Moves: Violent Flourish 1 (stun magic accuracy dependent), Reverse Flourish 1-5 converts FMs to TP, Climactic 1-5 forces a critical first hit of X rounds (Maculele Tiara +3 at activation adds one; worn during the hits +crit damage), Striking 2 and Ternary 3 force a double/triple attack; Climactic/Striking/Ternary/Sneak Attack are mutually exclusive (BG Striking/Ternary).",
+        "Saber Dance (Double Attack 50%->20%) renders Waltzes unusable; Fan Dance (PDT reduction 90%->20%, Enmity+15) renders Sambas unusable; they cancel each other. Haste Samba gives JA haste to attackers of the dazed target; Samba duration gear applies at activation."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "2955c8d0b9ead65a1802636ff27bde2ad95d71ce43c1a4126e2b434fbf017009"
+    },
+    {
+      "key": "stage-conflicts",
+      "url": "https://www.ffxiah.com/node/373",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Node 373 links Twashtar ID 19398 (local level 80 \"DMG:42 Delay:176\" with no Rudra's Storm line) and Terpsichore ID 18969 (level 75); BG CDG/AJGS name iLevel 119 III stages whose BG pages link FFXIAH 20587 and 20584. Nexus fixes 20584/20587 and records the node IDs as conflicts, not as recommended stages.",
+        "BG CDG \"TP Twashtar\" uses an Airy Buckler shield sub (single wield, /WAR Fencer); \"Acc TP\" uses Setan Kober; \"TP\" uses Centovente (Magian TP Bonus augment path). None is transferred: the fixed Nexus pair is the CDG \"TP Terpsichore\" pair.",
+        "Moonshade Earring (BG rev777274) has no FFXIAH link and its stats are reward augments; local base description is empty, so it is not selected. CDG ear annotations \"3ACC+250 TP Bonus\" are not inherited."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "774088c98e883a3ffdccfb0dd5705d2b83a79e99f215a64bdb20736c0d2c2ddd"
+    },
+    {
+      "key": "dual-wield",
+      "url": "https://www.bg-wiki.com/ffxi/Dual_Wield",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG Dual Wield rev753673: DNC20 I 10%, DNC40 II 15%, DNC60 III 25%, DNC80 IV 30%, DNC99 V 35% with the 550 JP gift; subject to the 80% global delay cap (1-DW)(1-Haste)>=0.2. CDG trait table lists Dual Wield \"Combined delay -30%\" plus a JP gift \"Dual Wield Effect 5%\".",
+        "CDG and node TP sets assume capped delay with Haste Samba/magic haste; low-haste DW scenario grids are recorded but not authored."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "a4aed6ae48623a108be2b43fb84cb29ba4994c59f3cc1a291d8f970ec76291ad"
+    },
+    {
+      "key": "ws-access",
+      "url": "https://www.bg-wiki.com/ffxi/Rudra%27s_Storm",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG Rudra's Storm rev776638: THF/BRD/DNC main job, level 85 via Twashtar/Daka/Khandroma or quest \"Kupofried's Weapon Skill Moogle Magic\".",
+        "BG Pyrrhic Kleos rev741065: DNC main job only; level 75 with quest \"Unlocking a Myth (Dancer)\", or via Terpsichore (CDG). Terpsichore 90+ PK damage bonuses listed.",
+        "Nexus does not assert that a sub-hand Twashtar grants Rudra's Storm; actual access is an input."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "38adcf21fc82ed32830ad6db0bad5db9de4ecb438c66cbec98564c8a76a164ed"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/373",
+      "title": "Dancer guide (FFXIAH node 373)",
+      "locator": "FFXIAH node 373 Dancer guide (Author: kate99; Collaborators: SimonSes), rendered \"[ Last Update: June 12, 2020 ]\", footer \"Date Created: 2019-07-23 08:30:12\", \"Date Last Modified: 2022-10-17 11:19:10\", Updates: 60; FFXIAH exposes no revision id. All 58 distinct linked item-set pages fetched same-origin in the built-in browser on 2026-11-05. The T1 note names the guide Katriina/SimonSes; the rendered author line reads kate99.",
+      "findings": [
+        "Subjobs WAR, SAM, RUN, NIN, DRG, DRK, THF with traits/abilities; no mage subjob is recommended, so no source supplies a useful-MP Dancer context.",
+        "Waltz Potency gear caps 50%, received 30%; Curing Waltz IV/V fixed enmity; Saber/Fan Dance, Presto, No Foot Rise, Closed Position and Flourish recommendations; group TP sets by haste tier."
+      ],
+      "observation_sha256": "4d9186fca2b6992e321858a9de82c0836fd5b931603e044696a0c7cd30bfce44"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dancer_Guide",
+      "title": "Community Dancer Guide (BG)",
+      "locator": "Rendered current page; wgRevisionId/wgCurRevisionId 774984; footer \"last edited on 6 August 2026, at 04:02\"; community collaborative guide (\"guides are works of opinion\"); 27 table.EquipmentSet grids. index.php oldid permanent link not used (Cloudflare bot check risk).",
+      "findings": [
+        "Roles, traits (Dual Wield combined delay -30%), JP gifts (Dual Wield Effect 5%, maximum Finishing Moves 9), Steps/Presto, Waltz, Flourishes I-III, SP abilities, merits, support jobs (WAR, DRG, DRK, SAM, NIN, RUN), weapons (Terpsichore, Twashtar, Aeneas, Mpu Gandring, Tauret, Centovente).",
+        "27 grids: four ability, nine TP/DW, nine WS, three defensive, FC, Enmity; augment annotations are aggregates or path/random notes."
+      ],
+      "observation_sha256": "fc54f87a3aba83568c7be13fbf4217fde52ca9f6d46c2aaf49986bada97f0e40"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Dancer",
+      "title": "All Jobs Gear Sets/Dancer",
+      "locator": "Rendered revision 772443; footer 13 July 2026 21:46; author guide with 17 EquipmentSet grids (Ruthless Stroke, Rudra's Storm, Pyrrhic Kleos and other master WS/TP); \"Haste Samba and Lv10 Box Step enabled\"; Odyssey Rank 30 and Nyame Rank 25 Path B assumptions. Links \"Last Dance III: A Dancer's Guide\" (FFXIAH), not read in this pass.",
+      "findings": [
+        "Corroborates Maculele Tiara +3/Maxixi Bangles +4/Etoile Gorget +2/Epaminondas's/Regal Rudra pieces and Terpsichore with Gleti's Knife for Pyrrhic Kleos.",
+        "Grids not transcribed beyond this lead; second-pass obligation."
+      ],
+      "observation_sha256": "3e974a8ce031f01857b23f35d11f5c370ee3391c70217550b9e610d46e2debd9"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Terpsichore_(Level_119_III)",
+      "title": "Terpsichore (Level 119 III)",
+      "locator": "Rendered revision 700774; footer 1 June 2024; FFXIAH exact ID 20584",
+      "findings": [
+        "Dagger; DNC only; DMG128 Delay205; Steps accuracy V/Augments Steps V; Pyrrhic Kleos; Aftermath 3 occasionally attacks twice (40%) or thrice (20%).",
+        "Stages Lv.75 through iLevel 119 III are distinct IDs."
+      ],
+      "observation_sha256": "b1f873813e3da3daeceb771a2e6c83023cfe72c0c32e277f0e59b2e1d251daf2"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Twashtar_(Level_119_III)",
+      "title": "Twashtar (Level 119 III)",
+      "locator": "Rendered revision 713481; footer 27 August 2024; FFXIAH exact ID 20587",
+      "findings": [
+        "Dagger; THF/BRD/DNC; DMG124 Delay176 DEX+50; Rudra's Storm; Aftermath triple damage on Twashtar.",
+        "Aftermath and WS grant tied to the empyrean; not asserted for the sub hand."
+      ],
+      "observation_sha256": "2c7a05573e5d7aa0b4530657ca15bb7c3c7f04b9b27a9b3e8561f810baa9c968"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Waltz",
+      "title": "Waltz",
+      "locator": "Rendered revision 774384; footer 31 July 2026",
+      "findings": [
+        "HP Cured = floor((Waltz Potency gear + Waltz Potency Received) x floor(M x (User CHR + Target VIT) + B + 2 x JP tiers)); M halved when DNC is subbed.",
+        "Potency gear cap 50%, received cap 30%; recast caps per Waltz; Gleti's Knife, Dashing Subligar, Roundel Earring, Etoile pieces listed."
+      ],
+      "observation_sha256": "bad519d726c96dd6442935b834a95704760ddecd86c3bc851d13bf75455eb332"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Curing_Waltz",
+      "title": "Curing Waltz",
+      "locator": "Rendered revision 588493; footer 24 October 2019",
+      "findings": [
+        "Level 15; 200 TP; recast 6 s; range 20'; heals a party member; formula floor((CHR+VIT)/4)+60.",
+        "Job ability: usable while silenced."
+      ],
+      "observation_sha256": "e0e6871525b528a9bd47e21f5b744458a8d9b8afcd1036f13b4503c6536ac29c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Presto",
+      "title": "Presto",
+      "locator": "Rendered revision 640417; footer 23 March 2022",
+      "findings": [
+        "Next Step: up to 5 Daze levels, 6 Finishing Moves (7 with Terpsichore), +50 Step accuracy; not consumed on a miss.",
+        "Duration 0:30, recast 0:15."
+      ],
+      "observation_sha256": "515da842b23bc7e0acebcd80a45692c0fe3bcf91065ec0bbbcc17d2b17a64eec"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Quickstep",
+      "title": "Quickstep",
+      "locator": "Rendered revision 764050; footer 29 April 2026",
+      "findings": [
+        "100 TP, 5 s Step recast; Lethargic Daze up to 10 (5 with DNC subjob); evasion reduction (level+1)x4; 2 FM on hit, 1 at cap or as subjob.",
+        "Can miss, be Blinked or Utsusemi-ed."
+      ],
+      "observation_sha256": "3ec43b4d5567bc6cf5aa9b47d2c8e72dcb511d56b971b6e4195852ca9a53a1eb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Finishing_Move",
+      "title": "Finishing Move",
+      "locator": "Rendered revision 757034; footer 25 January 2026",
+      "findings": [
+        "Base 1 FM per Step, +1 main-job DNC below max Daze, +4 Presto, +1 Terpsichore main hand; maximum 5 raised to 9 by the 100/1200 JP gifts; No Foot Rise grants FM per merit.",
+        "Flourish effects scale with FMs held."
+      ],
+      "observation_sha256": "55d21789427e4685ef836d80290f7ed9d52708130f0dafd8d34cbdca9e61f0c3"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Violent_Flourish",
+      "title": "Violent Flourish",
+      "locator": "Rendered revision 698541; footer 2 May 2024",
+      "findings": [
+        "1 FM; recast 20 s; one non-crit hit with +100 accuracy; Stun resist depends on magic accuracy.",
+        "Activation-time gear only."
+      ],
+      "observation_sha256": "3d06b39a123781d05a2bcc574652585828121a0b8ede55c10ee4e1a66f173473"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Reverse_Flourish",
+      "title": "Reverse Flourish",
+      "locator": "Rendered revision 774499; footer 1 August 2026",
+      "findings": [
+        "1-5 FM to TP: (95 + 2xcategory + Reverse Flourish Bonus) x FM + Square Mod x FM^2 + 30 x merit.",
+        "\"Fully geared with Maculele bangles +3 and JSE cape with +30 reverse flourish\" — the +30 is a cape augment."
+      ],
+      "observation_sha256": "18cf1e43369e8c68d11c82a4ef5036857851aacc4248bb2ebb646420cbab2e4c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Climactic_Flourish",
+      "title": "Climactic Flourish",
+      "locator": "Rendered revision 752283; footer 9 December 2025",
+      "findings": [
+        "1-5 FM; recast 1:30; forces the first swing of the next X rounds critical with +50% CHR base damage; works on a WS first hit.",
+        "Gear bonuses apply at activation and on the forced hits respectively."
+      ],
+      "observation_sha256": "4d421b2e0c9581e782f6e6d5394c66e49c2659a3ef094d260372b5489cd24706"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Striking_Flourish",
+      "title": "Striking Flourish",
+      "locator": "Rendered revision 725963; footer 6 January 2025",
+      "findings": [
+        "2 FM; forced double attack with 100% CHR on the first swing; Maculele Casaque raises its critical rate.",
+        "Mutually exclusive with Climactic/Ternary/Sneak Attack."
+      ],
+      "observation_sha256": "cbc5c4828e634beb0915c389ab7e9efb7fa5c18de91d4ae1de6a0c0d60584c4b"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Ternary_Flourish",
+      "title": "Ternary Flourish",
+      "locator": "Rendered revision 588514; footer 24 October 2019",
+      "findings": [
+        "3 FM; forced triple attack with 100% CHR on the first swing.",
+        "Mutually exclusive with Climactic/Striking/Sneak Attack."
+      ],
+      "observation_sha256": "242e2092b5f52763730508cd953340ce47eb8eac5bbb91225ca5f958d40b64cb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Saber_Dance",
+      "title": "Saber Dance",
+      "locator": "Rendered revision 752275; footer 9 December 2025",
+      "findings": [
+        "Double Attack 50% decaying to 20%; Waltzes unusable while active; cancels Fan Dance.",
+        "Samba duration merit bonus."
+      ],
+      "observation_sha256": "2730bc098c5b4be8b5adbea5122c47d071bbeda17f386042206487efc6f0f744"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Fan_Dance",
+      "title": "Fan Dance",
+      "locator": "Rendered revision 752276; footer 9 December 2025",
+      "findings": [
+        "PDT reduction from 90% decaying to 20% per hit, multiplied outside the 50% PDT cap; Enmity+15; Sambas unusable.",
+        "Cancels Saber Dance."
+      ],
+      "observation_sha256": "07711461e19642ca95cff9bdb382dbb8f5224a3904b859e10db2eb682a287b06"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Haste_Samba",
+      "title": "Haste Samba",
+      "locator": "Rendered revision 588482; footer 24 October 2019",
+      "findings": [
+        "350 TP; 1:30 duration; attackers of the dazed target gain 5% JA haste (10% with merits).",
+        "Samba duration gear applies at use."
+      ],
+      "observation_sha256": "96b50ae024c26a50e2aef3461ad8f3f993b7c66ca4a0d0ef443216d70c50d8bb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Spectral_Jig",
+      "title": "Spectral Jig",
+      "locator": "Rendered revision 776116; footer 17 August 2026",
+      "findings": [
+        "Self Sneak and Invisible; 3:00; recast 0:30; Jig duration gear extends at use.",
+        "No effect if Sneak is still active."
+      ],
+      "observation_sha256": "e6d96ce232dbc378af50a489f849c96f91cbb4a0b39899ca1c47e215fcd30621"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Dual_Wield",
+      "title": "Dual Wield",
+      "locator": "Rendered revision 753673; footer 16 December 2025",
+      "findings": [
+        "DNC tiers 20/40/60/80 and DNC99 550 JP for V.",
+        "80% global delay cap."
+      ],
+      "observation_sha256": "dabb20b856b7b5db8bb5701782e4f20d2a1e07c774d0a5d5ee42b743611915a6"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Rudra%27s_Storm",
+      "title": "Rudra's Storm",
+      "locator": "Rendered revision 776638; footer 21 August 2026",
+      "findings": [
+        "THF/BRD/DNC main job; via Twashtar etc. or Kupofried quest.",
+        "80% DEX."
+      ],
+      "observation_sha256": "6be1d84259918b81620fe3a1c9eb663a5c0a812180b58aa680cdefc7a76e034f"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Pyrrhic_Kleos",
+      "title": "Pyrrhic Kleos",
+      "locator": "Rendered revision 741065; footer 29 June 2025",
+      "findings": [
+        "DNC main job only; quest Unlocking a Myth (Dancer).",
+        "Fourfold; 40% STR/40% DEX."
+      ],
+      "observation_sha256": "73eb8960085fbd4348b88c14329d67c42e8e69c3050130f2c387b2b03aec42a6"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Moonshade_Earring",
+      "title": "Moonshade Earring",
+      "locator": "Rendered revision 777274; footer 28 August 2026; no FFXIAH link on the page",
+      "findings": [
+        "Reward augments chosen from two sets; not selected.",
+        "Local base description empty."
+      ],
+      "observation_sha256": "4edac26412b605b53325e1516e4e14f7f77f87356143c03efce3c5d7e8edb791"
+    }
+  ],
+  "access": "Built-in browser rendered BG-Wiki /ffxi/ pages (Community Dancer Guide wgRevisionId 774984; All Jobs Gear Sets/Dancer 772443; mechanics and item pages with their own revision ids) and FFXIAH node 373 plus its 58 linked item-set pages (no revision ids; node last-modified stamp recorded; all 58 grids re-fetched and matched cell for cell, 928 cells). No index.php oldid link was requested and no Cloudflare/bot check was completed or bypassed. No Lua execution or inventory loading."
+}

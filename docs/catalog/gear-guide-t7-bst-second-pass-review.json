@@ -1,0 +1,2307 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Nova",
+  "inventory_sha256": "f4f15d5a7cc2bb6ecb823fcd15f40b2e6c5b8fa0db70a1cc8640dd3ed52254ec",
+  "slot_packet_sha256": "f2ed05675c0200dff4175f04aeb869bcc1d88fb3f896b3f6e415b01beff229ae",
+  "issue_id": "BST-SP-035",
+  "status": "Bounded source-grid slice complete; candidate propagation remains a separate pending slice",
+  "fixed": [
+    {
+      "item": "21 false no-slot-position methods and BST report assertion",
+      "resolution": "Explicit observation amendments point from retained old keys/hashes to 21 exact-grid successors; old report remains immutable",
+      "evidence": "gear-guide-t7-bst-second-pass-slots.json:source_observation_amendments"
+    },
+    {
+      "item": "Killer DT 302857 duplicate Kaidate listing",
+      "resolution": "Current grid has one shield in sub; current Equipment Macros repeat the same sub command twice. Both command lines retained; never interpreted as two simultaneous shields.",
+      "evidence": "gear-guide-t7-bst-second-pass-slots.json:observations[3]"
+    },
+    {
+      "item": "Refresh ring sides and quantity",
+      "resolution": "264975 has distinct ring1/ring2 Stikini Ring +1 cells. Existing Nexus refresh already selects two copies; no gear change required.",
+      "evidence": "gear-guide-t7-bst-second-pass-slots.json:observations[2]"
+    }
+  ],
+  "unresolved": [
+    {
+      "item": "Candidate source-ledger propagation",
+      "classification": "fixable now",
+      "detail": "The 21 correction/amendment records are in a separate evidence packet. Candidate sources and revision IDs remain byte-identical; a next bounded BST integration slice must append exact corrected source references and revise affected provenance without deleting prior observations or pretending runtime retirement exists."
+    },
+    {
+      "item": "Pet-accuracy rationale says both source axes were listed without hands",
+      "classification": "fixable now",
+      "revision_id": "nexus:bst:pet-accuracy:2026-11-05:9b5f5fed53c5",
+      "detail": "337064 and 347643 explicitly place Telopanos 21738 main / Spalirisos 21730 sub. The Nexus choice reverses them intentionally. Preserve the gear and annotate actual source positions through an append-only successor; do not claim source omitted hands."
+    },
+    {
+      "item": "Engaged-balanced rationale says identical to node TP MA",
+      "classification": "fixable now",
+      "detail": "381576 has Sherida 27544 ear1 / Telos 26084 ear2; current Nexus swaps those positions. Both are legal generic ear slots, but exact source-slot identity is unproven. Clarify source versus Nexus attribution in next append-only provenance correction."
+    },
+    {
+      "item": "Other node 227 scopes and all declared BST variants",
+      "classification": "explicitly deferred",
+      "detail": "21 already-scoped sets corrected; the other 27 linked sets are not converted here. Other weapon/WS/pet/action/augment obligations remain in inventory."
+    }
+  ],
+  "source_limited": [
+    {
+      "item": "FFXIAH temporal evidence",
+      "detail": "No revision id or Last-Modified HTTP header was supplied. Node footer says Date Last Modified 2026-06-25 20:01:27; each item page has its own update note and retrieval timestamp/raw-body hash. Earlier notes were sometimes shortened summaries."
+    },
+    {
+      "item": "set_note_changed interpretation correction",
+      "detail": "In the slot packet, set_note_changed only means raw current note text differs from earlier recorded summary text. It is not proof of an upstream edit. Historical-page drift has not been established."
+    },
+    {
+      "item": "Killer DT historical list discrepancy",
+      "detail": "The extra old Kaidate entry is fully explained by a repeated current macro. No historical raw HTML was recovered here, so no unchanged-past-page or upstream-change claim is made."
+    }
+  ],
+  "explicitly_deferred": [
+    "Complete BST progression, all haste/attack/accuracy/encounter/subjob brackets, single-weapon (Fencer) and two-handed /DRK or /SAM scythe/great axe contexts",
+    "Other weapons/stages (Spalirisos II/I, Aymur 119 III/119, Guttler, Farsha, Tri-edge, Dolichenus, Agwu, Pangu, Izizoeksi, Skullrender, Kumbhakarna, Agwu's, Fernagu) and Decimation/Onslaught/Calamity/Ruinator/Bora Axe/Primal Rend/Cloudsplitter/Cloudsplitter WS sets",
+    "Reward, Call Beast, Charm, Killer Instinct, Feral Howl, Spur/Run Wild/Unleash/Familiar, Metallic Body, Waltz, Cure-received, fast cast, MDT/Shell, regen/regain idle, pet TP (Skullrender) and individual Ready-move/jug variants",
+    "Pet-cape and Odyssey/Valorous/Kumbhakarna augments, numeric caps, pet damage/TP/recast floors, HP/MP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance"
+  ],
+  "not_reproduced": [
+    "No missing second physical Stikini copy in the existing Nexus Refresh target",
+    "No current DRG zero-recommendation/eight-gap state",
+    "No selected-gear legality defect established by the BST source-grid correction"
+  ],
+  "catalog_changed": false,
+  "new_requirements": 0,
+  "new_resources": 0,
+  "new_hands": 0,
+  "inventory_locator_amendments": [
+    {
+      "issue_id": "WHM-SP-002",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.observations[0]"
+    },
+    {
+      "issue_id": "WHM-SP-003",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.observations[1]"
+    },
+    {
+      "issue_id": "WHM-SP-004",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.observations[2]"
+    },
+    {
+      "issue_id": "WHM-SP-005",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.observations[3]"
+    },
+    {
+      "issue_id": "WHM-SP-006",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.observations[4]"
+    },
+    {
+      "issue_id": "WHM-SP-007",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.observations[5]"
+    },
+    {
+      "issue_id": "WHM-SP-008",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.observations[6]"
+    },
+    {
+      "issue_id": "WHM-SP-009",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.observations[7]"
+    },
+    {
+      "issue_id": "WHM-SP-010",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.observations[8]"
+    },
+    {
+      "issue_id": "WHM-SP-011",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.observations[9]"
+    },
+    {
+      "issue_id": "WHM-SP-012",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.observations[10]"
+    },
+    {
+      "issue_id": "WHM-SP-013",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.observations[11]"
+    },
+    {
+      "issue_id": "WHM-SP-014",
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.observations[12]"
+    },
+    {
+      "issue_id": "SCH-SP-002",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.observations[0]"
+    },
+    {
+      "issue_id": "SCH-SP-003",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.observations[1]"
+    },
+    {
+      "issue_id": "SCH-SP-004",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.observations[2]"
+    },
+    {
+      "issue_id": "SCH-SP-005",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.observations[3]"
+    },
+    {
+      "issue_id": "SCH-SP-006",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.observations[4]"
+    },
+    {
+      "issue_id": "SCH-SP-007",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.observations[5]"
+    },
+    {
+      "issue_id": "SCH-SP-008",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.observations[6]"
+    },
+    {
+      "issue_id": "SCH-SP-009",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.observations[7]"
+    },
+    {
+      "issue_id": "SCH-SP-010",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.observations[8]"
+    },
+    {
+      "issue_id": "SCH-SP-011",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.observations[9]"
+    },
+    {
+      "issue_id": "SCH-SP-012",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.observations[10]"
+    },
+    {
+      "issue_id": "SCH-SP-013",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.observations[11]"
+    },
+    {
+      "issue_id": "SCH-SP-014",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.observations[12]"
+    },
+    {
+      "issue_id": "SCH-SP-015",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.observations[13]"
+    },
+    {
+      "issue_id": "SCH-SP-016",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.observations[14]"
+    },
+    {
+      "issue_id": "SCH-SP-017",
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.observations[15]"
+    },
+    {
+      "issue_id": "GEO-SP-002",
+      "path": "docs/catalog/gear-guide-t7-geo-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.observations[6]"
+    },
+    {
+      "issue_id": "GEO-SP-003",
+      "path": "docs/catalog/gear-guide-t7-geo-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.observations[7]"
+    },
+    {
+      "issue_id": "GEO-SP-004",
+      "path": "docs/catalog/gear-guide-t7-geo-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.observations[9]"
+    },
+    {
+      "issue_id": "BRD-SP-004",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "BRD-SP-005",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "BRD-SP-006",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "BRD-SP-007",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "BRD-SP-008",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "BRD-SP-009",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "BRD-SP-010",
+      "path": "docs/catalog/gear-guide-t7-brd-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "RNG-SP-003",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "RNG-SP-004",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "RNG-SP-005",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "RNG-SP-006",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "RNG-SP-007",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "RNG-SP-008",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "RNG-SP-009",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "RNG-SP-010",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "RNG-SP-011",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "RNG-SP-012",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "RNG-SP-013",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "RNG-SP-014",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "RNG-SP-015",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "RNG-SP-016",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "RNG-SP-017",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "RNG-SP-018",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "RNG-SP-019",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "RNG-SP-020",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "RNG-SP-021",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "RNG-SP-022",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "RNG-SP-023",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[20]",
+      "exact_json_path": "$.table_observations[20]"
+    },
+    {
+      "issue_id": "RNG-SP-024",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[21]",
+      "exact_json_path": "$.table_observations[21]"
+    },
+    {
+      "issue_id": "RNG-SP-025",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[22]",
+      "exact_json_path": "$.table_observations[22]"
+    },
+    {
+      "issue_id": "RNG-SP-026",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[23]",
+      "exact_json_path": "$.table_observations[23]"
+    },
+    {
+      "issue_id": "RNG-SP-027",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[24]",
+      "exact_json_path": "$.table_observations[24]"
+    },
+    {
+      "issue_id": "RNG-SP-028",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[25]",
+      "exact_json_path": "$.table_observations[25]"
+    },
+    {
+      "issue_id": "RNG-SP-029",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[26]",
+      "exact_json_path": "$.table_observations[26]"
+    },
+    {
+      "issue_id": "RNG-SP-030",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[27]",
+      "exact_json_path": "$.table_observations[27]"
+    },
+    {
+      "issue_id": "RNG-SP-031",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[28]",
+      "exact_json_path": "$.table_observations[28]"
+    },
+    {
+      "issue_id": "RNG-SP-032",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[29]",
+      "exact_json_path": "$.table_observations[29]"
+    },
+    {
+      "issue_id": "RNG-SP-033",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[30]",
+      "exact_json_path": "$.table_observations[30]"
+    },
+    {
+      "issue_id": "RNG-SP-034",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[31]",
+      "exact_json_path": "$.table_observations[31]"
+    },
+    {
+      "issue_id": "RNG-SP-035",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[32]",
+      "exact_json_path": "$.table_observations[32]"
+    },
+    {
+      "issue_id": "RNG-SP-036",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[33]",
+      "exact_json_path": "$.table_observations[33]"
+    },
+    {
+      "issue_id": "RNG-SP-037",
+      "path": "docs/catalog/gear-guide-t7-rng-observations.json",
+      "prior_locator": "$.table_observations/observations[34]",
+      "exact_json_path": "$.table_observations[34]"
+    },
+    {
+      "issue_id": "SAM-SP-002",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "SAM-SP-003",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "SAM-SP-004",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "SAM-SP-005",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "SAM-SP-006",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "SAM-SP-007",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "SAM-SP-008",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "SAM-SP-009",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "SAM-SP-010",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "SAM-SP-011",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "SAM-SP-012",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "SAM-SP-013",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "SAM-SP-014",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "SAM-SP-015",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "SAM-SP-016",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "SAM-SP-017",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "SAM-SP-018",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "SAM-SP-019",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "SAM-SP-020",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "SAM-SP-021",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "SAM-SP-022",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[20]",
+      "exact_json_path": "$.table_observations[20]"
+    },
+    {
+      "issue_id": "SAM-SP-023",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[21]",
+      "exact_json_path": "$.table_observations[21]"
+    },
+    {
+      "issue_id": "SAM-SP-024",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[22]",
+      "exact_json_path": "$.table_observations[22]"
+    },
+    {
+      "issue_id": "SAM-SP-025",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[23]",
+      "exact_json_path": "$.table_observations[23]"
+    },
+    {
+      "issue_id": "SAM-SP-026",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[24]",
+      "exact_json_path": "$.table_observations[24]"
+    },
+    {
+      "issue_id": "SAM-SP-027",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[25]",
+      "exact_json_path": "$.table_observations[25]"
+    },
+    {
+      "issue_id": "SAM-SP-028",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[26]",
+      "exact_json_path": "$.table_observations[26]"
+    },
+    {
+      "issue_id": "SAM-SP-029",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[27]",
+      "exact_json_path": "$.table_observations[27]"
+    },
+    {
+      "issue_id": "SAM-SP-030",
+      "path": "docs/catalog/gear-guide-t7-sam-observations.json",
+      "prior_locator": "$.table_observations/observations[28]",
+      "exact_json_path": "$.table_observations[28]"
+    },
+    {
+      "issue_id": "NIN-SP-002",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "NIN-SP-003",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "NIN-SP-004",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "NIN-SP-005",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "NIN-SP-006",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "NIN-SP-007",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "NIN-SP-008",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "NIN-SP-009",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "NIN-SP-010",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "NIN-SP-011",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "NIN-SP-012",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "NIN-SP-013",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "NIN-SP-014",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "NIN-SP-015",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "NIN-SP-016",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "NIN-SP-017",
+      "path": "docs/catalog/gear-guide-t7-nin-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "SMN-SP-007",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "SMN-SP-008",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "SMN-SP-009",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "SMN-SP-010",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "SMN-SP-011",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "SMN-SP-012",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "SMN-SP-013",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "SMN-SP-014",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "SMN-SP-015",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "SMN-SP-016",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "SMN-SP-017",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "SMN-SP-018",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "SMN-SP-019",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "SMN-SP-020",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "SMN-SP-021",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "SMN-SP-022",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "SMN-SP-023",
+      "path": "docs/catalog/gear-guide-t7-smn-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "BLU-SP-009",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "BLU-SP-010",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "BLU-SP-011",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "BLU-SP-012",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "BLU-SP-013",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "BLU-SP-014",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "BLU-SP-015",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "BLU-SP-016",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "BLU-SP-017",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "BLU-SP-018",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "BLU-SP-019",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "BLU-SP-020",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "BLU-SP-021",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "BLU-SP-022",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "BLU-SP-023",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "BLU-SP-024",
+      "path": "docs/catalog/gear-guide-t7-blu-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "COR-SP-009",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "COR-SP-010",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "COR-SP-011",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "COR-SP-012",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "COR-SP-013",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "COR-SP-014",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "COR-SP-015",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "COR-SP-016",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "COR-SP-017",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "COR-SP-018",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "COR-SP-019",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "COR-SP-020",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "COR-SP-021",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "COR-SP-022",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "COR-SP-023",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "COR-SP-024",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "COR-SP-025",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "COR-SP-026",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "COR-SP-027",
+      "path": "docs/catalog/gear-guide-t7-cor-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "RUN-SP-008",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "RUN-SP-009",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "RUN-SP-010",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "RUN-SP-011",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "RUN-SP-012",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "RUN-SP-013",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "RUN-SP-014",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "RUN-SP-015",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "RUN-SP-016",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "RUN-SP-017",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "RUN-SP-018",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "RUN-SP-019",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "RUN-SP-020",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "RUN-SP-021",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "RUN-SP-022",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "RUN-SP-023",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "RUN-SP-024",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "RUN-SP-025",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "RUN-SP-026",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "RUN-SP-027",
+      "path": "docs/catalog/gear-guide-t7-run-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "PLD-SP-007",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "PLD-SP-008",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "PLD-SP-009",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "PLD-SP-010",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "PLD-SP-011",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "PLD-SP-012",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "PLD-SP-013",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "PLD-SP-014",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "PLD-SP-015",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "PLD-SP-016",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "PLD-SP-017",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "PLD-SP-018",
+      "path": "docs/catalog/gear-guide-t7-pld-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "DRK-SP-007",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "DRK-SP-008",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "DRK-SP-009",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "DRK-SP-010",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "DRK-SP-011",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "DRK-SP-012",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "DRK-SP-013",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "DRK-SP-014",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "DRK-SP-015",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "DRK-SP-016",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "DRK-SP-017",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "DRK-SP-018",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "DRK-SP-019",
+      "path": "docs/catalog/gear-guide-t7-drk-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "WAR-SP-006",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "WAR-SP-007",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "WAR-SP-008",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "WAR-SP-009",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "WAR-SP-010",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "WAR-SP-011",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "WAR-SP-012",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "WAR-SP-013",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "WAR-SP-014",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "WAR-SP-015",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "WAR-SP-016",
+      "path": "docs/catalog/gear-guide-t7-war-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "MNK-SP-006",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "MNK-SP-007",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "MNK-SP-008",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "MNK-SP-009",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "MNK-SP-010",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "MNK-SP-011",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "MNK-SP-012",
+      "path": "docs/catalog/gear-guide-t7-mnk-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "THF-SP-005",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "THF-SP-006",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "THF-SP-007",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "THF-SP-008",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "THF-SP-009",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "THF-SP-010",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "THF-SP-011",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "THF-SP-012",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "THF-SP-013",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "THF-SP-014",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "THF-SP-015",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "THF-SP-016",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "THF-SP-017",
+      "path": "docs/catalog/gear-guide-t7-thf-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "DRG-SP-005",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "DRG-SP-006",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "DRG-SP-007",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "DRG-SP-008",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "DRG-SP-009",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "DRG-SP-010",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "DRG-SP-011",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "DRG-SP-012",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "DRG-SP-013",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "DRG-SP-014",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "DRG-SP-015",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "DRG-SP-016",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "DRG-SP-017",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "DRG-SP-018",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "DRG-SP-019",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "DRG-SP-020",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "DRG-SP-021",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "DRG-SP-022",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "DRG-SP-023",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "DRG-SP-024",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "DRG-SP-025",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[20]",
+      "exact_json_path": "$.table_observations[20]"
+    },
+    {
+      "issue_id": "DRG-SP-026",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[21]",
+      "exact_json_path": "$.table_observations[21]"
+    },
+    {
+      "issue_id": "DRG-SP-027",
+      "path": "docs/catalog/gear-guide-t7-drg-authoring-observations.json",
+      "prior_locator": "$.table_observations/observations[22]",
+      "exact_json_path": "$.table_observations[22]"
+    },
+    {
+      "issue_id": "DRG-SP-028",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "DRG-SP-029",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "DRG-SP-030",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "DRG-SP-031",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "DRG-SP-032",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "DRG-SP-033",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "DRG-SP-034",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "DRG-SP-035",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "DRG-SP-036",
+      "path": "docs/catalog/gear-guide-t7-drg-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "BST-SP-005",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "BST-SP-006",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "BST-SP-007",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "BST-SP-008",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "BST-SP-009",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "BST-SP-010",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "BST-SP-011",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "BST-SP-012",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "BST-SP-013",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "BST-SP-014",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "BST-SP-015",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "BST-SP-016",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "BST-SP-017",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "BST-SP-018",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "BST-SP-019",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "BST-SP-020",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "BST-SP-021",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "BST-SP-022",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "BST-SP-023",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "BST-SP-024",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "BST-SP-025",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[20]",
+      "exact_json_path": "$.table_observations[20]"
+    },
+    {
+      "issue_id": "BST-SP-026",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[21]",
+      "exact_json_path": "$.table_observations[21]"
+    },
+    {
+      "issue_id": "BST-SP-027",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[22]",
+      "exact_json_path": "$.table_observations[22]"
+    },
+    {
+      "issue_id": "BST-SP-028",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[23]",
+      "exact_json_path": "$.table_observations[23]"
+    },
+    {
+      "issue_id": "BST-SP-029",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[24]",
+      "exact_json_path": "$.table_observations[24]"
+    },
+    {
+      "issue_id": "BST-SP-030",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[25]",
+      "exact_json_path": "$.table_observations[25]"
+    },
+    {
+      "issue_id": "BST-SP-031",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[26]",
+      "exact_json_path": "$.table_observations[26]"
+    },
+    {
+      "issue_id": "BST-SP-032",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[27]",
+      "exact_json_path": "$.table_observations[27]"
+    },
+    {
+      "issue_id": "BST-SP-033",
+      "path": "docs/catalog/gear-guide-t7-bst-observations.json",
+      "prior_locator": "$.table_observations/observations[28]",
+      "exact_json_path": "$.table_observations[28]"
+    },
+    {
+      "issue_id": "PUP-SP-005",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[0]",
+      "exact_json_path": "$.table_observations[0]"
+    },
+    {
+      "issue_id": "PUP-SP-006",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[1]",
+      "exact_json_path": "$.table_observations[1]"
+    },
+    {
+      "issue_id": "PUP-SP-007",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[2]",
+      "exact_json_path": "$.table_observations[2]"
+    },
+    {
+      "issue_id": "PUP-SP-008",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[3]",
+      "exact_json_path": "$.table_observations[3]"
+    },
+    {
+      "issue_id": "PUP-SP-009",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[4]",
+      "exact_json_path": "$.table_observations[4]"
+    },
+    {
+      "issue_id": "PUP-SP-010",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[5]",
+      "exact_json_path": "$.table_observations[5]"
+    },
+    {
+      "issue_id": "PUP-SP-011",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[6]",
+      "exact_json_path": "$.table_observations[6]"
+    },
+    {
+      "issue_id": "PUP-SP-012",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[7]",
+      "exact_json_path": "$.table_observations[7]"
+    },
+    {
+      "issue_id": "PUP-SP-013",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[8]",
+      "exact_json_path": "$.table_observations[8]"
+    },
+    {
+      "issue_id": "PUP-SP-014",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[9]",
+      "exact_json_path": "$.table_observations[9]"
+    },
+    {
+      "issue_id": "PUP-SP-015",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[10]",
+      "exact_json_path": "$.table_observations[10]"
+    },
+    {
+      "issue_id": "PUP-SP-016",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[11]",
+      "exact_json_path": "$.table_observations[11]"
+    },
+    {
+      "issue_id": "PUP-SP-017",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[12]",
+      "exact_json_path": "$.table_observations[12]"
+    },
+    {
+      "issue_id": "PUP-SP-018",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[13]",
+      "exact_json_path": "$.table_observations[13]"
+    },
+    {
+      "issue_id": "PUP-SP-019",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[14]",
+      "exact_json_path": "$.table_observations[14]"
+    },
+    {
+      "issue_id": "PUP-SP-020",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[15]",
+      "exact_json_path": "$.table_observations[15]"
+    },
+    {
+      "issue_id": "PUP-SP-021",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[16]",
+      "exact_json_path": "$.table_observations[16]"
+    },
+    {
+      "issue_id": "PUP-SP-022",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[17]",
+      "exact_json_path": "$.table_observations[17]"
+    },
+    {
+      "issue_id": "PUP-SP-023",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[18]",
+      "exact_json_path": "$.table_observations[18]"
+    },
+    {
+      "issue_id": "PUP-SP-024",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[19]",
+      "exact_json_path": "$.table_observations[19]"
+    },
+    {
+      "issue_id": "PUP-SP-025",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[20]",
+      "exact_json_path": "$.table_observations[20]"
+    },
+    {
+      "issue_id": "PUP-SP-026",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[21]",
+      "exact_json_path": "$.table_observations[21]"
+    },
+    {
+      "issue_id": "PUP-SP-027",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[22]",
+      "exact_json_path": "$.table_observations[22]"
+    },
+    {
+      "issue_id": "PUP-SP-028",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[23]",
+      "exact_json_path": "$.table_observations[23]"
+    },
+    {
+      "issue_id": "PUP-SP-029",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[24]",
+      "exact_json_path": "$.table_observations[24]"
+    },
+    {
+      "issue_id": "PUP-SP-030",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[25]",
+      "exact_json_path": "$.table_observations[25]"
+    },
+    {
+      "issue_id": "PUP-SP-031",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[26]",
+      "exact_json_path": "$.table_observations[26]"
+    },
+    {
+      "issue_id": "PUP-SP-032",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[27]",
+      "exact_json_path": "$.table_observations[27]"
+    },
+    {
+      "issue_id": "PUP-SP-033",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[28]",
+      "exact_json_path": "$.table_observations[28]"
+    },
+    {
+      "issue_id": "PUP-SP-034",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[29]",
+      "exact_json_path": "$.table_observations[29]"
+    },
+    {
+      "issue_id": "PUP-SP-035",
+      "path": "docs/catalog/gear-guide-t7-pup-observations.json",
+      "prior_locator": "$.table_observations/observations[30]",
+      "exact_json_path": "$.table_observations[30]"
+    },
+    {
+      "issue_id": "DNC-SP-005",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[58]",
+      "exact_json_path": "$.table_observations[58]"
+    },
+    {
+      "issue_id": "DNC-SP-006",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[59]",
+      "exact_json_path": "$.table_observations[59]"
+    },
+    {
+      "issue_id": "DNC-SP-007",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[60]",
+      "exact_json_path": "$.table_observations[60]"
+    },
+    {
+      "issue_id": "DNC-SP-008",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[61]",
+      "exact_json_path": "$.table_observations[61]"
+    },
+    {
+      "issue_id": "DNC-SP-009",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[62]",
+      "exact_json_path": "$.table_observations[62]"
+    },
+    {
+      "issue_id": "DNC-SP-010",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[63]",
+      "exact_json_path": "$.table_observations[63]"
+    },
+    {
+      "issue_id": "DNC-SP-011",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[64]",
+      "exact_json_path": "$.table_observations[64]"
+    },
+    {
+      "issue_id": "DNC-SP-012",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[65]",
+      "exact_json_path": "$.table_observations[65]"
+    },
+    {
+      "issue_id": "DNC-SP-013",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[66]",
+      "exact_json_path": "$.table_observations[66]"
+    },
+    {
+      "issue_id": "DNC-SP-014",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[67]",
+      "exact_json_path": "$.table_observations[67]"
+    },
+    {
+      "issue_id": "DNC-SP-015",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[68]",
+      "exact_json_path": "$.table_observations[68]"
+    },
+    {
+      "issue_id": "DNC-SP-016",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[69]",
+      "exact_json_path": "$.table_observations[69]"
+    },
+    {
+      "issue_id": "DNC-SP-017",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[70]",
+      "exact_json_path": "$.table_observations[70]"
+    },
+    {
+      "issue_id": "DNC-SP-018",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[71]",
+      "exact_json_path": "$.table_observations[71]"
+    },
+    {
+      "issue_id": "DNC-SP-019",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[72]",
+      "exact_json_path": "$.table_observations[72]"
+    },
+    {
+      "issue_id": "DNC-SP-020",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[73]",
+      "exact_json_path": "$.table_observations[73]"
+    },
+    {
+      "issue_id": "DNC-SP-021",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[74]",
+      "exact_json_path": "$.table_observations[74]"
+    },
+    {
+      "issue_id": "DNC-SP-022",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[75]",
+      "exact_json_path": "$.table_observations[75]"
+    },
+    {
+      "issue_id": "DNC-SP-023",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[76]",
+      "exact_json_path": "$.table_observations[76]"
+    },
+    {
+      "issue_id": "DNC-SP-024",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[77]",
+      "exact_json_path": "$.table_observations[77]"
+    },
+    {
+      "issue_id": "DNC-SP-025",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[78]",
+      "exact_json_path": "$.table_observations[78]"
+    },
+    {
+      "issue_id": "DNC-SP-026",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[79]",
+      "exact_json_path": "$.table_observations[79]"
+    },
+    {
+      "issue_id": "DNC-SP-027",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[80]",
+      "exact_json_path": "$.table_observations[80]"
+    },
+    {
+      "issue_id": "DNC-SP-028",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[81]",
+      "exact_json_path": "$.table_observations[81]"
+    },
+    {
+      "issue_id": "DNC-SP-029",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[82]",
+      "exact_json_path": "$.table_observations[82]"
+    },
+    {
+      "issue_id": "DNC-SP-030",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[83]",
+      "exact_json_path": "$.table_observations[83]"
+    },
+    {
+      "issue_id": "DNC-SP-031",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[84]",
+      "exact_json_path": "$.table_observations[84]"
+    },
+    {
+      "issue_id": "DNC-SP-032",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[85]",
+      "exact_json_path": "$.table_observations[85]"
+    },
+    {
+      "issue_id": "DNC-SP-033",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[86]",
+      "exact_json_path": "$.table_observations[86]"
+    },
+    {
+      "issue_id": "DNC-SP-034",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[87]",
+      "exact_json_path": "$.table_observations[87]"
+    },
+    {
+      "issue_id": "DNC-SP-035",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[88]",
+      "exact_json_path": "$.table_observations[88]"
+    },
+    {
+      "issue_id": "DNC-SP-036",
+      "path": "docs/catalog/gear-guide-t7-dnc-observations.json",
+      "prior_locator": "$.table_observations/observations[89]",
+      "exact_json_path": "$.table_observations[89]"
+    }
+  ],
+  "inventory_counts_boundary": "493 classified review entries are not 493 product bugs; many are recorded partial source scopes and declared variants.",
+  "next": "Continue BST candidate provenance integration in current chat; do not automatically start SMN or another job"
+}

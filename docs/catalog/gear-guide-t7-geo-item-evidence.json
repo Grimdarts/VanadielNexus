@@ -1,0 +1,171 @@
+{
+  "checked_on": "2026-11-04",
+  "items": [
+    {
+      "item_id": 23440,
+      "name": "Azimuth Hood +3",
+      "url": "https://www.ffxiah.com/item/23440/azimuth-hood-3",
+      "capture_id": "geo-web-08",
+      "public_card_block_sha256": "1cf1b164cf054c7b8e6fa23294e6f105acf6a69697d5c8a5a194eb6dc75795e6",
+      "resource_description_sha256": "d93aef16208a7675b3f00a115467692992d3d8cf55d1f0caca9a3a5dcb07d77e",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "0364fba6a490c7ea47d3bb202edd457d45a91fb45838fa3e149c546cbec97b90"
+    },
+    {
+      "item_id": 23463,
+      "name": "Geomancy Tunic +3",
+      "url": "https://www.ffxiah.com/item/23463/geomancy-tunic-3",
+      "capture_id": "geo-web-10",
+      "public_card_block_sha256": "0485acd4c1e41e265081739401b361ccc889b5baf9ca1466af45b299b6aa177e",
+      "resource_description_sha256": "f3e624002ca17f00ad81c121a1dc2c9dd83ee69c4c265dc5441c8847fb18b3b1",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "71b743bd3604f8c729dd46d4e5ec53e34784c121f65064661c4568a8ff9b0eb2"
+    },
+    {
+      "item_id": 23485,
+      "name": "Bagua Tunic +3",
+      "url": "https://www.ffxiah.com/item/23485/bagua-tunic-3",
+      "capture_id": "geo-web-10",
+      "public_card_block_sha256": "be4c7cb88ed2a4e638ecc0a9b17fab3c120c5656593afe8e6aecc4bb452079a8",
+      "resource_description_sha256": "c1e7ca9b289dbf3d465fc32c0f5b516bc1ed923d94d5880a47c14aa14761aa39",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "9f5ce9651f941f1d23cd6b6201d3e0184aaa9c1b207357d04cb1b71d3e22042f"
+    },
+    {
+      "item_id": 23507,
+      "name": "Azimuth Coat +3",
+      "url": "https://www.ffxiah.com/item/23507/azimuth-coat-3",
+      "capture_id": "geo-web-08",
+      "public_card_block_sha256": "a2de8fd9c0dd9e0c6f983667577cb450ff308bb2b718342ae63aaaf7de65237f",
+      "resource_description_sha256": "11ea850a8f825b04b4b14f37d4adc61819b814336d0fe1587affa3478272b89d",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "aa2a6ded0538652e1cee4c66199e2e8f48dbe29bb1eacf978ae309fb568b1084"
+    },
+    {
+      "item_id": 23530,
+      "name": "Geo. Mitaines +3",
+      "url": "https://www.ffxiah.com/item/23530/geo-mitaines-3",
+      "capture_id": "geo-web-08",
+      "public_card_block_sha256": "ba2e1260c8de9cd8d58a6c923fe74d5f5a26040487e177c39dbd5417725fb760",
+      "resource_description_sha256": "6dc8bb5ca823b5310909df34d90e8d754cdf2740fb7b93cf5b3916f6753b8cac",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "a645f308a10d3cee1be82a2a0881c5e2e599e118a6b0599596545d4244a6566e"
+    },
+    {
+      "item_id": 23552,
+      "name": "Bagua Mitaines +3",
+      "url": "https://www.ffxiah.com/item/23552/bagua-mitaines-3",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "d9be1060e60f4b000fe971d8cfb2bd465b29cee6fd449b213bbdbc1fa269ebb0",
+      "resource_description_sha256": "b3e8e356163dab75c633a376ec6b1e6ba79a88444ac8e2fb35ee0915d14c3654",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "1a49d9ac7f8dec3a9f68aefcef0c58e98a7f32c389c23100caa7e379c703cb66"
+    },
+    {
+      "item_id": 23574,
+      "name": "Azimuth Gloves +3",
+      "url": "https://www.ffxiah.com/item/23574",
+      "capture_id": "geo-web-07",
+      "public_card_block_sha256": "d3e7e77b15699f753f332f6816ad341a81be602c46c5497c23ac19b1945e64c9",
+      "resource_description_sha256": "70c1601b63147ba7c58156c45cae8558aa45af232c4917217fe860bc8344ef3c",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "4e936f81de58a07f680c6f23e5e2f8cc77ad69137d538d609decaba06eb6a3a0"
+    },
+    {
+      "item_id": 23597,
+      "name": "Geomancy Pants +3",
+      "url": "https://www.ffxiah.com/item/23597/geomancy-pants-3",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "ca3a1b64f398c7795e02091228a89a4b3572c8abe1c045dd253099cf793d72c6",
+      "resource_description_sha256": "1cef3d7f280ea1b96197250487c4d0c10b35137b45db9081ea59eeeaca5d352a",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "783271a50e06c99515420ccc992a823fed0d9613825dac3267ded2bcdbeec66f"
+    },
+    {
+      "item_id": 23619,
+      "name": "Bagua Pants +3",
+      "url": "https://www.ffxiah.com/item/23619/bagua-pants-3",
+      "capture_id": "geo-web-08",
+      "public_card_block_sha256": "c577392be208283dbac80e8964b9cc84da2157ed8ae7abd12ad0d80c1da4e3c2",
+      "resource_description_sha256": "28a04f2b2fd1a8f6c18b8b079ee8c08f7979f869e0f57cdd5797e10a233f0a8b",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "82b60e28c0cedfec6ff910c2de893b77e2cd426ed933b09f0664aeb8ffd95235"
+    },
+    {
+      "item_id": 23641,
+      "name": "Azimuth Tights +3",
+      "url": "https://www.ffxiah.com/item/23641",
+      "capture_id": "geo-web-07",
+      "public_card_block_sha256": "696ec15809107481377c05a4a3196f40d9649701cea2cb89f14bcbfe01edaa3c",
+      "resource_description_sha256": "74f04fb51d7e285d9962c664b4f20631bbcc0d6b65bf085d564c8aa88d62c5fd",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "b86edea5793a9f2ea6e6efea30b55c54fbce9bc1662164d86a7cdf9226c338f3"
+    },
+    {
+      "item_id": 23686,
+      "name": "Bagua Sandals +3",
+      "url": "https://www.ffxiah.com/item/23686/bagua-sandals-3",
+      "capture_id": "geo-web-08",
+      "public_card_block_sha256": "a18617293ffaf532c1aca8252b4649a9d00c8f036a7c4e6a9509b6a29e5c8c3a",
+      "resource_description_sha256": "ebd3742d807e7d94921d77ae5837a5fcc0d0ba79d739b98ed5974b9e2cfbf30a",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "8b9af36e8b7dccb939e0bd830cb1bd0494f7befbbc506737e323a607408ede1b"
+    },
+    {
+      "item_id": 23708,
+      "name": "Azimuth Gaiters +3",
+      "url": "https://www.ffxiah.com/item/23708",
+      "capture_id": "geo-web-07",
+      "public_card_block_sha256": "887dc3386aa33cdbc6b188b8bfd657c9eb637f236a82da816340e62a5cba4bd9",
+      "resource_description_sha256": "97a0719a37aef974d337749c2e391182a956a2509d6ab5c61ecbbdeedcf71481",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "2248a5ec6c8d47dfc24e77489cc70e369557c01189832f53ab2a789e0c4f7038"
+    },
+    {
+      "item_id": 26320,
+      "name": "Kobo Obi",
+      "url": "https://www.ffxiah.com/item/26320/kobo-obi",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "601fc4b696993af23350d73a14c8d61ccabf4798f9dd9782fcbf1042c731f00d",
+      "resource_description_sha256": "1fe88220208fb49e7e1c6ba81141a115c6fcc88db3155c4e14508c6097952e30",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "3fab8e6775e5787e0d41f8c06d2ec06c59361c7169e1aab872e6e52c0c47daa0"
+    },
+    {
+      "item_id": 28451,
+      "name": "Isa Belt",
+      "url": "https://www.ffxiah.com/item/28451/isa-belt",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "2936b21498104cf0602b365ed577fd4a3e49702dde4b983ffd0126e9c6199f88",
+      "resource_description_sha256": "7ec30b54f25f7ecd2105e679d8b73a3345da40aa9d92c364cc660027b48e7fb6",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "93cbf6233438f7665707e046381e8b5d874386ddcbe0e26a6c6a7aaf60dd4ff7"
+    },
+    {
+      "item_id": 28476,
+      "name": "Calamitous Earring",
+      "url": "https://www.ffxiah.com/item/28476/calamitous-earring",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "ea01e098d6384d4d8a04db9eb8182da3304bfddd671486203632f6735229c507",
+      "resource_description_sha256": "c6d884b128bc17691fbc3dcebac90dea8e89851bf09809933cf40e929e83766a",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "83f2fc3f42bfb63b8bce9eeb1828faecf69ef1e580de595d0affa9ec8b3b271e"
+    },
+    {
+      "item_id": 28637,
+      "name": "Lifestream Cape",
+      "url": "https://www.ffxiah.com/item/28637/lifestream-cape",
+      "capture_id": "geo-web-09",
+      "public_card_block_sha256": "e35b7da89745c63599434bcbf3f8fed7be5fa9cb3c9ce4ef3d38b219acf0f50a",
+      "resource_description_sha256": "b3fe1fd04699d20485e79e4fcf8e30967512a4e07c08fd86fe543418eb474a89",
+      "scope": "Exact-ID public base card name, slot/GEO eligibility and described effects inspected; no path/rank/augment effects inferred",
+      "observation_sha256": "f979f670af70c57a6fbad96046b71f528eee3b6dfbe23639ca3e18a6ed17c38a"
+    }
+  ],
+  "scope": "Parsed public cards; existing 327 records reused unchanged",
+  "source_access": {
+    "bgwiki": "403; no successful BG read claimed",
+    "browser": "Work settings disabled ordinary browser access",
+    "http": "Prior direct HTTPS attempts returned 403; parsed web-reader original-site representations used with crawl limits"
+  }
+}

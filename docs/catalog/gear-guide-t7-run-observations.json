@@ -1,0 +1,1214 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set_id": 372997,
+      "title": "Regular Idle",
+      "url": "https://www.ffxiah.com/item-sets/372997",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Null Masque"
+        ],
+        "neck": [
+          "Futhark Torque +2"
+        ],
+        "ear1": [
+          "Erilaz Earring +1"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Runeist Coat +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Gurebu's Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Left-ear JSE conflict, missing weapons/range; source cape roll not quantified.",
+      "competing_macro_values": {
+        "hands": [
+          "Regal Gauntlets",
+          "Nyame Gauntlets"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "c42d8e03a9733b983204c8f7c695b7fbf0b572f98a2651291132eb6476efd84a"
+    },
+    {
+      "item_set_id": 372998,
+      "title": "Def/VIT Idle",
+      "url": "https://www.ffxiah.com/item-sets/372998",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Refined Grip +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Sworn Crown"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Odnowa Earring +1"
+        ],
+        "body": [
+          "Adamantite Armor"
+        ],
+        "hands": [
+          "Sworn Gauntlets"
+        ],
+        "ring1": [
+          "Paguroidea Ring"
+        ],
+        "ring2": [
+          "Gelatinous Ring +1"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Sworn Brais"
+        ],
+        "feet": [
+          "Sworn Sabatons"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "notes": "Main/range omitted; no complete weapon pairing.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "36c2f2473bd19517420f36786aea1478dc38c6e9573617d04a443031b74c6d41"
+    },
+    {
+      "item_set_id": 372999,
+      "title": "Refresh Idle",
+      "url": "https://www.ffxiah.com/item-sets/372999",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Homiliary"
+        ],
+        "head": [
+          "Null Masque"
+        ],
+        "neck": [
+          "Bathy Choker +1"
+        ],
+        "ear1": [
+          "Tuisto Earring"
+        ],
+        "ear2": [
+          "Etiolation Earring"
+        ],
+        "body": [
+          "Runeist Coat +4"
+        ],
+        "hands": [
+          "Regal Gauntlets"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Gurebu's Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Flume Belt"
+        ],
+        "legs": [
+          "Herculean Trousers"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Two Stikini macro entries followed by Gurebu ring2. No Herculean Refresh roll established.",
+      "competing_macro_values": {
+        "ring2": [
+          "Stikini Ring +1",
+          "Gurebu's Ring"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "e37693de2cb638df273f341412fe609811522fa7817ffe4cbd98dd8a896db847"
+    },
+    {
+      "item_set_id": 372679,
+      "title": "Magic Evasion based tanking",
+      "url": "https://www.ffxiah.com/item-sets/372679",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Sworn Crown"
+        ],
+        "neck": [
+          "Futhark Torque +2"
+        ],
+        "ear1": [
+          "Erilaz Earring +1"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Runeist Coat +4"
+        ],
+        "hands": [
+          "Turms Mittens +1"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Right-ear-only Erilaz in ear1 retained. Capped defense title is an unverified source claim.",
+      "competing_macro_values": {
+        "legs": [
+          "Eri. Leg Guards +2",
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +2",
+          "Erilaz Greaves +3"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "7afc4fdb007427f34491483e491129a5f65a77e8073c8462ef6e9b5edcb472ca"
+    },
+    {
+      "item_set_id": 372761,
+      "title": "Tank Hybrid",
+      "url": "https://www.ffxiah.com/item-sets/372761",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Sworn Crown"
+        ],
+        "neck": [
+          "Anu Torque"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Sworn Platemail"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Windbuffet Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "range"
+      ],
+      "notes": "Main omitted; duplicate rings explicit.",
+      "competing_macro_values": {
+        "legs": [
+          "Meg. Chausses +2",
+          "Nyame Flanchard"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "3b98684ef7a695393fc4dadd9c6e3afdb759c026a165c6e94653cf30cc5d2157"
+    },
+    {
+      "item_set_id": 372680,
+      "title": "5 Hit TP No Samuras Roll",
+      "url": "https://www.ffxiah.com/item-sets/372680",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Anu Torque"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Sworn Platemail"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Ilabrat Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Sworn Sabatons"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Five-hit label not certified; armor/random path prerequisites unknown.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "2b2a4ae791d714f0fc17555e862c6e7cfa038fec815abc8cb78d61e93e7a9bea"
+    },
+    {
+      "item_set_id": 372677,
+      "title": "Max Accuracy Hybrid",
+      "url": "https://www.ffxiah.com/item-sets/372677",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Sworn Crown"
+        ],
+        "neck": [
+          "Anu Torque"
+        ],
+        "ear1": [
+          "Telos Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Sworn Platemail"
+        ],
+        "hands": [
+          "Turms Mittens +1"
+        ],
+        "ring1": [
+          "Murky Ring"
+        ],
+        "ring2": [
+          "Chirich Ring +1"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Sworn Brais"
+        ],
+        "feet": [
+          "Sworn Sabatons"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Master/no-R15/1350-no-food label is source model, not equipment verification.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "fef794813e138f0a75d6cbe15685b442ba7a460caa820fedf754a04f04c364a8"
+    },
+    {
+      "item_set_id": 372671,
+      "title": "Dimidiation",
+      "url": "https://www.ffxiah.com/item-sets/372671",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Rep. Plat. Medal"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Hoxne Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Ilabrat Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Header mentions Herculean although final grid is Nyame; main/sub/range omitted, no rank/path in table.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "73bdbb53c8b67d1812b0e9fed465874093a50a572e256ae97639c01e9abec26f"
+    },
+    {
+      "item_set_id": 376359,
+      "title": "DT Dimidiation",
+      "url": "https://www.ffxiah.com/item-sets/376359",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Rep. Plat. Medal"
+        ],
+        "ear1": [
+          "Ishvara Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Ilabrat Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Grunfeld Rope"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "notes": "Main/sub/range/ammo omitted.",
+      "competing_macro_values": {
+        "body": [
+          "Herculean Vest",
+          "Nyame Mail"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "ed4d31db46fabe938b14e02f61a96e8051700eaf7568feb3995c1c164a78f4ba"
+    },
+    {
+      "item_set_id": 397818,
+      "title": "R25+ Nyame Reso",
+      "url": "https://www.ffxiah.com/item-sets/397818",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Crepuscular Pebble"
+        ],
+        "head": [
+          "Blistering Sallet +1"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Sroda Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Source R25 label not imported; no exact weapon, random rolls or path established.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "0a7e93eba7a41e4e6cbeffc0a4af5d69ae723ec349ee2055b418a9a6455055f7"
+    },
+    {
+      "item_set_id": 372675,
+      "title": "Max Enmity",
+      "url": "https://www.ffxiah.com/item-sets/372675",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Halitus Helm"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Cryptic Earring"
+        ],
+        "ear2": [
+          "Trux Earring"
+        ],
+        "body": [
+          "Emet Harness +1"
+        ],
+        "hands": [
+          "Kurys Gloves"
+        ],
+        "ring1": [
+          "Supershear Ring"
+        ],
+        "ring2": [
+          "Eihwaz Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Trance Belt"
+        ],
+        "legs": [
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "0c05816ea35b8e1826af2bd9020a2ca722d984514ef28559aaea931e02a97ada"
+    },
+    {
+      "item_set_id": 372664,
+      "title": "DT HP Enmity",
+      "url": "https://www.ffxiah.com/item-sets/372664",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Halitus Helm"
+        ],
+        "neck": [
+          "Futhark Torque +2"
+        ],
+        "ear1": [
+          "Trux Earring"
+        ],
+        "ear2": [
+          "Tuisto Earring"
+        ],
+        "body": [
+          "Emet Harness +1"
+        ],
+        "hands": [
+          "Kurys Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Trance Belt"
+        ],
+        "legs": [
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Source cappedPDT/70enmity and cape aggregate not certified.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "63419551de9dc03e635cf7c3d9cd79a47729797ccdd0b2f51cccdbe58ef8cd8e"
+    },
+    {
+      "item_set_id": 372765,
+      "title": "PC Fast Cast",
+      "url": "https://www.ffxiah.com/item-sets/372765",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Rune. Bandeau +3"
+        ],
+        "neck": [
+          "Orunmila's Torque"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Etiolation Earring"
+        ],
+        "body": [
+          "Erilaz Surcoat +3"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [],
+        "legs": [
+          "Agwu's Slops"
+        ],
+        "feet": [
+          "Carmine Greaves +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "waist"
+      ],
+      "notes": "HP/FC cape label; no numeric source roll specified.",
+      "competing_macro_values": {
+        "body": [
+          "Adhemar Jacket +1",
+          "Erilaz Surcoat +3"
+        ],
+        "legs": [
+          "Aya. Cosciales +2",
+          "Agwu's Slops"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "3d032f9360ada0529c811597442640770a629fbccdf0b014e023c7b700baa55e"
+    },
+    {
+      "item_set_id": 372768,
+      "title": "MC SIRD",
+      "url": "https://www.ffxiah.com/item-sets/372768",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Erilaz Galea +3"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Magnetic Earring"
+        ],
+        "ear2": [
+          "Halasz Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Rawhide Gloves"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Audumbla Sash"
+        ],
+        "legs": [
+          "Carmine Cuisses +1"
+        ],
+        "feet": [
+          "Erilaz Greaves +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Source104with10merits not certified; unspecified SIRD cape values.",
+      "competing_macro_values": {
+        "head": [
+          "Fu. Bandeau +3",
+          "Erilaz Galea +3"
+        ],
+        "body": [
+          "Futhark Coat +3",
+          "Nyame Mail"
+        ]
+      },
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "a3d0d671702247575a10562832fdeb5073ce20fb6bd54073b801ec80cfa237ed"
+    },
+    {
+      "item_set_id": 372663,
+      "title": "Enhancing skill",
+      "url": "https://www.ffxiah.com/item-sets/372663",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Hoxne Torque"
+        ],
+        "ear1": [
+          "Andoaa Earring"
+        ],
+        "ear2": [
+          "Mimir Earring"
+        ],
+        "body": [
+          "Manasa Chasuble"
+        ],
+        "hands": [
+          "Rune. Mitons +4"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [],
+        "waist": [
+          "Olympus Sash"
+        ],
+        "legs": [
+          "Carmine Cuisses +1"
+        ],
+        "feet": []
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "back",
+        "feet"
+      ],
+      "notes": "",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "9bd2b6858176fd7b6a85685fcbfba570848dbad99774881b109b3e2517d3c4c7"
+    },
+    {
+      "item_set_id": 368747,
+      "title": "Phalanx Max Skill",
+      "url": "https://www.ffxiah.com/item-sets/368747",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Fu. Bandeau +3"
+        ],
+        "neck": [
+          "Hoxne Torque"
+        ],
+        "ear1": [
+          "Andoaa Earring"
+        ],
+        "ear2": [
+          "Mimir Earring"
+        ],
+        "body": [
+          "Taeon Tabard"
+        ],
+        "hands": [
+          "Taeon Gloves"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Merciful Cape"
+        ],
+        "waist": [
+          "Olympus Sash"
+        ],
+        "legs": [
+          "Taeon Tights"
+        ],
+        "feet": [
+          "Taeon Boots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "notes": "No exact Taeon random Phalanx roll established.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "880b976966a93ea0ebffd87835871aad8268854760003361ac2e18051e95f563"
+    },
+    {
+      "item_set_id": 372665,
+      "title": "Phalanx HP DT",
+      "url": "https://www.ffxiah.com/item-sets/372665",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Fu. Bandeau +4"
+        ],
+        "neck": [
+          "Futhark Torque +2"
+        ],
+        "ear1": [
+          "Saxnot Earring"
+        ],
+        "ear2": [
+          "Erilaz Earring +1"
+        ],
+        "body": [
+          "Taeon Tabard"
+        ],
+        "hands": [
+          "Taeon Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Taeon Tights"
+        ],
+        "feet": [
+          "Taeon Boots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "445skill/1900JP/33Phalanx/41defense title not adopted; random Phalanx unspecified.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "2a35082001d7a56bd77f4600ab0c0250153765f785bbc9d93fcfcaa1ea2e91eb"
+    },
+    {
+      "item_set_id": 402038,
+      "title": "Dream Phalanx ML50",
+      "url": "https://www.ffxiah.com/item-sets/402038",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Fu. Bandeau +4"
+        ],
+        "neck": [
+          "Futhark Torque +2"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Mimir Earring"
+        ],
+        "body": [
+          "Sworn Platemail"
+        ],
+        "hands": [
+          "Sworn Gauntlets"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Ogma's Cape"
+        ],
+        "waist": [
+          "Engraved Belt"
+        ],
+        "legs": [
+          "Sworn Brais"
+        ],
+        "feet": [
+          "Sworn Sabatons"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "notes": "Taru/BLU ML50 HP/MP source model not adopted.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "b1db3d13a0456653a73afb316b46894e615e5cce5e8f9fcc1335938312de94cf"
+    },
+    {
+      "item_set_id": 372673,
+      "title": "Enhancing duration",
+      "url": "https://www.ffxiah.com/item-sets/372673",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Erilaz Galea +3"
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          "Regal Gauntlets"
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [
+          "Gishdubar Sash"
+        ],
+        "legs": [
+          "Futh. Trousers +4"
+        ],
+        "feet": []
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "ring1",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "notes": "Four-piece overlay, twelve omissions; no universal spell potency inferred.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "00371e94a95b86187ed39c672040ed59f009d0c224a4e65c679066447ae941b0"
+    },
+    {
+      "item_set_id": 372667,
+      "title": "Vivacious Pulse Divine",
+      "url": "https://www.ffxiah.com/item-sets/372667",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Erilaz Galea +3"
+        ],
+        "neck": [
+          "Hoxne Torque"
+        ],
+        "ear1": [
+          "Beatific Earring"
+        ],
+        "ear2": [
+          "Saxnot Earring"
+        ],
+        "body": [],
+        "hands": [],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Altruistic Cape"
+        ],
+        "waist": [
+          "Bishop's Sash"
+        ],
+        "legs": [
+          "Rune. Trousers +4"
+        ],
+        "feet": []
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "body",
+        "hands",
+        "feet"
+      ],
+      "notes": "Divine-skill MP context, not cure spell potency or guaranteed status removal.",
+      "competing_macro_values": {},
+      "method": "Manual scoped transcription of final exported table; macro conflicts separate. Not raw HTML or proof of currency.",
+      "observation_sha256": "892ec96c167affd8a17fe26c47a9f489c63044937d57cac0fcf807f4929b86f9"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/397",
+      "title": "Destiny's Device",
+      "locator": "Equipment, idle/misc/WS, abilities, gifts",
+      "notes": "Separate tank, DD, recovery, spell and ability purposes; base Aettir distinct from Epeolatry. Temper unlock550JP, Turms Su3; actual rune element/count and recipients matter. Vallation/Valiance, Gambit and Rayke use equipment overlays. Source cape aggregates and capped attack/accuracy, model totals, merit maxima and gear superlatives not adopted. Mixed-era tables; page/crawl date is not revision evidence.",
+      "access": "Readable original public guide via web reader; manual scoped paraphrase, not HTML",
+      "observation_sha256": "2f52ee81f2c592eb29a91b7273cfa2f96e4a11ae2d3baaa782442a18103fa525"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Rune_Fencer_Guide&oldid=781614",
+      "title": "Community Rune Fencer Guide",
+      "locator": "Rendered Permanent link; revision as of18:01,31October2026 byBrahmsz; cape/tanking/enmity/FC/SIRD/enhancing/utility sections",
+      "notes": "Browser access recovered after user setting confirmation and cua session reset. Guide separates casting phases, actual Inspiration merits and dispel state; max-per-slot SIRD list is explicitly not a loadout. HP models assume race/merits/ML. Random Phalanx rolls, Epeolatry and augmented weapon/neck/accessory contexts cannot transfer to base checkpoints. Parry requires engagement/facing. HP dips and TP loss on grip changes require judgment. Later sections contain January2022/June2024 labels; whole-page date does not certify every set. No additional composition or numeric cap adopted.",
+      "access": "OrdinaryChrome original article and rendered Permanent link actually read after first candidate save; manual scoped paraphrase, not HTML. Supersedes earlier access limitation only.",
+      "observation_sha256": "48c28d3b943d141be16cdf05a6bc49c4cbdb407dcd52ebbef672f44bcfbf478e"
+    }
+  ],
+  "access": "Original FFXIAHguide and20selectedgrids read via web reader; initial372998/372679 recovered through original links. BG403. OrdinaryChrome attempted three times including user-requested retry; tool still reports local browser use disabled in Work settings. No BG content/revision/Permanentlink read, no security bypass or private-server source. Manual observations, not HTML snapshots. Later: user confirmed browser setting ON; resetting cua session recovered ordinary Chrome. Original BG article and rendered Permanentlink781614 read successfully; earlier limitation is historical, no longer current. No security bypass."
+}

@@ -169,7 +169,10 @@ class HotkeysPage(Page):
     def _open_file(self) -> None:
         e = self.table.selected_row()
         if e:
-            self.ctx.open_path(e.get("source_file", ""))
+            try:
+                self.ctx.edit_file(e.get("source_file", ""))
+            except OSError as error:
+                self.status(f"Couldn't open file: {error}")
 
     def _rebind(self) -> None:
         e = self.table.selected_row()

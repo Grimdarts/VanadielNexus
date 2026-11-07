@@ -1,0 +1,156 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "status": "Bounded BST initial pass; not production ready; stop after BST and prompt",
+  "checks_passed": 34,
+  "checks": [
+    "365 bytebackups hash correctly",
+    "all existing bytes outside scoped files unchanged",
+    "prior test changes exactly aggregate counts BSTstatus hands48 and authored joblist",
+    "changed files keep baseline line-ending style and add no trailing whitespace",
+    "469sets480revisions967sources immutableprefixes",
+    "all nonBST coverage unchanged",
+    "prior batches amendments metadata unchanged",
+    "11withdrawnBRD 486stored475effective",
+    "eight unresolved originals unchanged",
+    "PUP10 DNC9 gaps zero Nexus recommendations",
+    "483sets494revisions1045sources225rows14BST",
+    "11BSTincluded206total19gaps2jobszeroNA",
+    "delivery_status keeps all22jobs token",
+    "actualresource wholecandidate appendonly preparation",
+    "five exact weapon hands reviewed BSTeligible",
+    "43prior handrecords ASTidentical plus5 appended v17",
+    "802detachedresourcefields descriptions equal actual",
+    "766priorresources descriptions and metadata unchanged",
+    "fourupstreamhashes fingerprint unchanged",
+    "29source scopes13facts36cards independentdigests",
+    "publiclocators exactlocaldescription hashes and 36newids",
+    "rendered772439 node227 provenance sourceoptions and accesslimits retained",
+    "14saveddefinitions matchrevision slots presavefingerprint",
+    "11actualBSTrows reconcile independently",
+    "14complete16slot exactfixedpairs rangeempty BSTeligibility",
+    "master pet recipients dualwield and subjob explicit",
+    "literal cape and moonshade fictional independent readback; pet capes base",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "secondpass WorldMap protectedbytes unchanged",
+    "both DRG artifact sets byteidentical",
+    "allfourTHFpackets protectedbytes",
+    "instruction change recorded: no new chat/window wording"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-BST-START.md",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drg_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_mnk_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "tests/core/test_guide_thf_batch.py",
+    "tests/core/test_guide_war_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 365,
+  "candidate_records": {
+    "sets": 483,
+    "revisions": 494,
+    "sources": 1045,
+    "coverage": 225
+  },
+  "new_bst_recommendations": 14,
+  "stored_verified_flags": 486,
+  "effective_verified_compositions": 475,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "included_priorities": 206,
+  "gap_priorities": 19,
+  "remaining_jobs": 2,
+  "not_applicable": 0,
+  "resource_records": 802,
+  "hand_registry": "48 / hands.2026-11-05.v17; 43 prior AST identical, 5 BST records appended",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-bst-definitions.json": "881d145af1739218afa59c1f25322179a6541ee830957193f3fb8931b5e05cdc",
+    "gear-guide-t7-bst-item-evidence.json": "85fb8c970593859c8f382202ae8ba0f4a525127b537ac4c37b71de1f78d94473",
+    "gear-guide-t7-bst-observations.json": "6c8df8013693d4a1a87e49570b91e6053b20033fd20dc9801ed1c1eb27da9d5a"
+  },
+  "deferred_plan": "Remaining initial passes (PUP, DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived.",
+  "remaining_initial_queue": [
+    {
+      "job": "PUP",
+      "recommendations": 0,
+      "gaps": 10
+    },
+    {
+      "job": "DNC",
+      "recommendations": 0,
+      "gaps": 9
+    }
+  ],
+  "limits": "Offline composition/history/preservation; not pet effects, HP preservation, caps, ownership/bags, current BiS, human/frozen/live acceptance",
+  "validation": {
+    "presave_first": {
+      "passed": 10,
+      "failed": 1,
+      "skipped": 0,
+      "seconds": 0.94,
+      "reason": "Own presave test expected exact-set augment matching; requirements_match uses subset semantics (a copy with an extra PDT part still has every required part). Test corrected to the real semantics and a reverse four-part-vs-five-part negative added; validator unchanged."
+    },
+    "presave": {
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": [
+        0.74,
+        0.74
+      ],
+      "note": "Run after the correction and again immediately before the single save"
+    },
+    "focused_initial": {
+      "passed": 562,
+      "failed": 1,
+      "skipped": 0,
+      "seconds": 37.9,
+      "reason": "New BST batch test asserted the phrase 'not completed or bypassed'; the access note says 'no Cloudflare/bot check was completed or bypassed'. Only the new test's expected phrase was corrected; candidate, packets and prior tests unchanged."
+    },
+    "focused": {
+      "passed": 563,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 39.76
+    },
+    "full_native": {
+      "passed": 1377,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 140.95,
+      "environment": "Fresh BST-local isolation (TEMP/TMP/VN_DATA_DIR/basetemp under .t7-bst-checks), real-file launcher, fictional Windower discovery, inventory seeding disabled; repository tests unchanged except declared aggregate/BST-status/hands48/job-list expectations and the new BST batch test"
+    },
+    "log_sha256": {
+      "presave-first-failed.log": "27ab495d1fe166406d8658054f4b64f40f4b4e3155ca3068526424edc0099b3f",
+      "presave-second.log": "e7e18aef3df21b5a64331bbf1e753b2c5371efd97be59ac0e38d543857d309c6",
+      "presave-before-save.log": "e7e18aef3df21b5a64331bbf1e753b2c5371efd97be59ac0e38d543857d309c6",
+      "focused-initial.log": "535f4ec241231b507761be4e05cebde3b7f16f24dca14c495b4760d80f3f2593",
+      "focused.log": "dff2011b1ea8503ba02bb151d20118de203986b1c7488a370e12c48be5620eda",
+      "full-native.log": "c823b184351e82352cee1b92aa65ee509a3173790da5a6f4c7eb6479f509c5a4"
+    }
+  }
+}

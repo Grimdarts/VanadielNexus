@@ -1,0 +1,2395 @@
+{
+  "checked_on": "2026-11-05",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "idle"
+      ],
+      "context": {
+        "action": "Disengaged defensive idle; actual exposure,current/maxHP assessed",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus fixed neck/waist rather than sourceWarder/Engraved conditional effects; exact baseNyame, no path/rank assumed."
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "idle"
+      ],
+      "context": {
+        "job": "MNK99/WHM49",
+        "action": "Disengaged MNK99/WHM49 with positive usable maxMP and actual MP deficit for learned Cure III (46MP) or other accessible spell; recipient self or eligible ally"
+      },
+      "rationale": "Nexus usefulMP context; NyameMailMP and two physical Stikini copies. No nativeMNK MP exemption, no guaranteed complete recovery or safeHP swap."
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "established"
+      ],
+      "context": {
+        "action": "Ordinary engaged attacks with Impetus and Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus baseMpaca/fixedammo/Telos/BhikkuFeet alternative; source+4 feet and Schere/Coiste terms not inherited. No cap/haste/TPloop guaranteed."
+    },
+    {
+      "key": "engaged-impetus",
+      "target": "Engaged Impetus",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23488,
+          "name": "Bhikku Cyclas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "established"
+      ],
+      "context": {
+        "action": "Sustained active Impetus, Footwork inactive; consecutive hit/miss state unknown",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus retains Bhikku body throughout eligible attacks/WS; not activation-only. Miss resets count. No maximum effect presumed."
+    },
+    {
+      "key": "engaged-footwork",
+      "target": "Engaged Footwork",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23644,
+          "name": "Anch. Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "established",
+        "tornado"
+      ],
+      "context": {
+        "action": "Sustained active Footwork with Impetus inactive; kick damage gear retained",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus exact+3 feet substitute for guide+4; no+4 properties. Activation BhikkuFeet enhancement requires actual preceding activation; not presumed."
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "dt",
+        "counterstance"
+      ],
+      "context": {
+        "action": "Engaged defensive alternative; Impetus/Footwork inactive; actual damage types and current/maxHP assessed",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus Bhikku head/legs/feet defensive alternative with fixed accessories. No mitigation cap/countercap or safety promise."
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "dt",
+        "established"
+      ],
+      "context": {
+        "action": "Engaged accuracy alternative; Impetus/Footwork inactive; actual targetevasion/hitrate unknown",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus twoChirich alternative, sacrificing NiqmadduSBII; needs two distinct copies. No capped accuracy or universal improvement."
+    },
+    {
+      "key": "raging-fists",
+      "target": "Raging Fists",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "raging"
+      ],
+      "context": {
+        "action": "Raging Fists with actual hand-to-hand skill/access, >=1000 usableTP, actual effectiveTP and eligible enemy; Impetus/Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus fixed baseMpaca/ Nyamefeet replace unquantified sourceHerculean augments/AdhemarPathB; no rank or attackcap assumed. GodhandsTPbonus is not usableTP."
+    },
+    {
+      "key": "howling-fist",
+      "target": "Howling Fist",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "raging"
+      ],
+      "context": {
+        "action": "Howling Fist with actual hand-to-hand skill/access, >=1000 usableTP, actual effectiveTP and eligible enemy; Impetus/Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus fixed baseMpaca/ Nyamefeet replace unquantified sourceHerculean augments/AdhemarPathB; no rank or attackcap assumed. GodhandsTPbonus is not usableTP."
+    },
+    {
+      "key": "shijin-spiral",
+      "target": "Shijin Spiral",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "raging",
+        "dt"
+      ],
+      "context": {
+        "action": "Shijin Spiral via exactGodhands grant or actual merits/access; >=1000 usableTP and eligible enemy; Impetus/Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus DEX/magicaccuracy variant, not guarantee of Plague landing/duration. No sourceMaxDamage or magicaccuracycap claimed."
+    },
+    {
+      "key": "victory-smite-impetus",
+      "target": "Victory Smite Impetus",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23488,
+          "name": "Bhikku Cyclas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "raging"
+      ],
+      "context": {
+        "action": "Victory Smite actual permanent unlock required: Godhands does not grant it; >=1000 usableTP and eligible enemy; sustained active Impetus, Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus Godhands alternative to sourceVerethragna. Bhikku body retained for current hitcount-dependent effect; no empyreanAM/rank inherited."
+    },
+    {
+      "key": "victory-smite-neutral",
+      "target": "Victory Smite Neutral",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "raging"
+      ],
+      "context": {
+        "action": "Victory Smite actual permanent unlock required: Godhands does not grant it; >=1000 usableTP and eligible enemy; Impetus/Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus fixed STR/DA alternative to guideSTRCrit cape andKendatsuba body; not a sourceexact copy or optimum/criticalcap assertion."
+    },
+    {
+      "key": "tornado-kick-footwork",
+      "target": "Tornado Kick Footwork",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23644,
+          "name": "Anch. Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "tornado"
+      ],
+      "context": {
+        "action": "Tornado Kick actual skill/access, >=1000 usableTP and eligible enemy; sustained Footwork active, Impetus inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus exact+3 sustained kickfeet and fixed body replace source+4/rankterms. BhikkuFeet activation effect requires actual priorJA; not assumed."
+    },
+    {
+      "key": "tornado-kick-neutral",
+      "target": "Tornado Kick Neutral",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23758,
+          "name": "Mpaca's Cap",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23555,
+          "name": "Bhikku Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23779,
+          "name": "Mpaca's Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "tornado"
+      ],
+      "context": {
+        "action": "Tornado Kick actual skill/access, >=1000 usableTP and eligible enemy; Footwork/Impetus inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus separate neutral alternative; second sourcegrid also saysUP and is not relabelled DOWN. No activeFootwork kickbase bonus credited."
+    },
+    {
+      "key": "subtle-blow",
+      "target": "Subtle Blow",
+      "purpose": "Defense",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25425,
+          "name": "Mnk. Nodowa +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23765,
+          "name": "Mpaca's Doublet",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23533,
+          "name": "Hes. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "established",
+        "dt"
+      ],
+      "context": {
+        "action": "Engaged reduced enemyTP feed priority; nativeMNK99 trait and actual gifts only; Impetus/Footwork inactive",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus fixed SB I/II selections; no computed cap or enemyTP/safeaction guarantee. Penance and AGI terms distinct. BaseMpaca only, noR30/PDL credited."
+    },
+    {
+      "key": "footwork-activation",
+      "target": "Footwork Activation",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23421,
+          "name": "Bhikku Crown +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26247,
+          "name": "Segomo's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26341,
+          "name": "Moonbow Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23622,
+          "name": "Bhikku Hose +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23689,
+          "name": "Bhikku Gaiters +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "tornado"
+      ],
+      "context": {
+        "action": "Footwork self JA activation with actual recast/access; sustained kickfeet may differ",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus defensive activation snapshot; exactBhikku+3 activation modifier separate from subsequently wornAnch+3 kickgear. No automatic switch/overlay implemented."
+    },
+    {
+      "key": "chakra",
+      "target": "Chakra",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20515,
+          "name": "Godhands",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "empty"
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23443,
+          "name": "Anch. Cyclas +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23533,
+          "name": "Hes. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "chakra"
+      ],
+      "context": {
+        "action": "Chakra self activation with actual recast, current/maxHP,VIT,JP/merits and removable status; no MP/TP cost assumed",
+        "job": "MNK99/WAR49"
+      },
+      "rationale": "Nexus exact+3 AFbody/relichands alternative to guide+4. No fullheal formula/curetotal,HPfloor or Invigorate merits assumed. Printed maxHP is not healed currentHP."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:engaged-balanced",
+          "nexus:mnk:engaged-impetus",
+          "nexus:mnk:engaged-footwork"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Physical WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Physical WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:raging-fists",
+          "nexus:mnk:howling-fist",
+          "nexus:mnk:shijin-spiral",
+          "nexus:mnk:victory-smite-impetus",
+          "nexus:mnk:victory-smite-neutral",
+          "nexus:mnk:tornado-kick-footwork",
+          "nexus:mnk:tornado-kick-neutral"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "MNK",
+        "priority": "Subtle Blow",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "MNK",
+        "priority": "Subtle Blow",
+        "status": "included",
+        "reviewed": true,
+        "context": "17 bounded exactGodhands contexts; actual Impetus/Footwork/subjobMP/traits/access explicit. Not completejob/tier/action/buff/recipient or safeHP coverage.",
+        "evidence": "GEAR-GUIDE-T7-MNK.md; renderedBG781551 seven scoped grids/four mechanics permanents,CureIII,11independentcards; Nexus completions separately attributed.",
+        "set_ids": [
+          "nexus:mnk:subtle-blow",
+          "nexus:mnk:footwork-activation",
+          "nexus:mnk:chakra"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "CompleteMNK gameplay/progression/attack/haste/encounter/recipient coverage",
+    "OtherREMA/Prime/staff/club stages or weapon families;FinalHeaven/AsceticFury/Asuran/DragonKick/allWS variants",
+    "Impetus+Footwork simultaneous alternative,allbuffcombinations,allJAactivation overlays and sustained costs,Counterstance defensepenalty/Counter/Guard/PerfectCounter/Mantra/Formless/SP contexts",
+    "Completecasting/Utsusemi/SIRD/ChiBlastPenance/otherMPsubjob or MLtraits; no new runtime controls",
+    "Allnumericcaps,enemyTPfeed,effectiveTPthresholds,HP/MPpreservation,survival,currentBiS,ownership/bags,human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initialpasses first;later secondpass ALL22jobs for issues with ANYjob;notstarted. BRD/DRG and all declaredissues deferred,notresolved/waived."
+}

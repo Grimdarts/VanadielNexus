@@ -28,11 +28,20 @@ def audit_archive(executable):
         raise ValueError('Conflicting Windows system DLLs bundled: '+', '.join(invalid))
 
 
-def check(executable, timeout=30):
+def check(executable, timeout=30, resource_evidence=None):
     executable = Path(executable).resolve()
     audit_archive(executable)
     with tempfile.TemporaryDirectory(prefix='vn-startup-') as temporary:
         root = Path(temporary)
+        if resource_evidence:
+            evidence=json.loads(Path(resource_evidence).read_text(encoding='utf-8'))
+            res=root/'test-windower'/'res'
+            res.mkdir(parents=True)
+            def value(v):
+                return json.dumps(v,ensure_ascii=False) if isinstance(v,str) else str(v)
+            (res/'items.lua').write_text('return {\n'+''.join(
+                '    ['+str(row['id'])+'] = {'+','.join(k+'='+value(v) for k,v in row.items())+'},\n'
+                for row in evidence['items'])+'}\n',encoding='utf-8')
         result = root/'result.json'
         env = dict(os.environ, VN_DATA_DIR=str(root/'data'),
                    QT_QPA_PLATFORM='windows' if os.name=='nt' else 'offscreen')
@@ -50,8 +59,12 @@ def check(executable, timeout=30):
         if code or not result.exists():
             raise RuntimeError(f'Frozen startup failed: exit {code}, result exists={result.exists()}')
         payload = json.loads(result.read_text(encoding='utf-8'))
-        if not payload.get('ok') or not {'gear','sets','guides','g13','map'}.issubset(payload.get('pages',[])):
+        if not payload.get('ok') or not {'gear','sets','guides','g13'}.issubset(payload.get('pages',[])):
             raise RuntimeError('Incomplete frozen startup: '+str(payload))
+        if 'map' in payload.get('pages',[]):
+            raise RuntimeError('World Map is excluded from this release')
+        if resource_evidence and not (payload.get('guide_catalog') or {}).get('ok'):
+            raise RuntimeError('Frozen production catalog failed validation: '+str(payload))
         if not (payload.get('spawn') or {}).get('ok'):  # the Sets page's Lua child process (multiprocessing spawn)
             raise RuntimeError('Frozen spawn check failed: '+str(payload.get('spawn')))
         return payload
@@ -60,5 +73,6 @@ def check(executable, timeout=30):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('executable')
+    parser.add_argument('--resource-evidence',type=Path)
     args=parser.parse_args()
-    print(json.dumps(check(args.executable),indent=2))
+    print(json.dumps(check(args.executable,resource_evidence=args.resource_evidence),indent=2))

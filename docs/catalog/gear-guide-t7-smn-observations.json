@@ -1,0 +1,2030 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set_id": 366315,
+      "url": "https://www.ffxiah.com/item-sets/366315",
+      "title": "Idle Starter",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Gridarvor"
+        ],
+        [
+          "sub",
+          "Oneiros Grip"
+        ],
+        [
+          "ring1",
+          "Evoker's Ring"
+        ],
+        [
+          "waist",
+          "Lucidity Sash"
+        ],
+        [
+          "feet",
+          "Apogee Pumps"
+        ],
+        [
+          "body",
+          "Shomonjijoe +1"
+        ],
+        [
+          "hands",
+          "Asteria Mitts +1"
+        ],
+        [
+          "neck",
+          "Caller's Pendant"
+        ],
+        [
+          "ear1",
+          "Evans Earring"
+        ],
+        [
+          "head",
+          "Beckoner's Horn"
+        ],
+        [
+          "legs",
+          "Assid. Pants +1"
+        ],
+        [
+          "ammo",
+          "Seraphicaller"
+        ],
+        [
+          "ear2",
+          "Moonshade Earring"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Gridarvor"
+        ],
+        "sub": [
+          "Oneiros Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Seraphicaller"
+        ],
+        "head": [
+          "Beckoner's Horn"
+        ],
+        "neck": [
+          "Caller's Pendant"
+        ],
+        "ear1": [
+          "Evans Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Shomonjijoe +1"
+        ],
+        "hands": [
+          "Asteria Mitts +1"
+        ],
+        "ring1": [
+          "Evoker's Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Lucidity Sash"
+        ],
+        "legs": [
+          "Assid. Pants +1"
+        ],
+        "feet": [
+          "Apogee Pumps"
+        ]
+      },
+      "omitted_slots": [
+        "range",
+        "ring2"
+      ],
+      "conflicting_slots": {},
+      "notes": "Ring2/range omitted; Moonshade Refresh augment not proven by name.",
+      "observation_sha256": "89ed85cbfa04832cbcc6c49c7477e1b015f25f6380b29c110c46cca642781cb7"
+    },
+    {
+      "item_set_id": 366317,
+      "url": "https://www.ffxiah.com/item-sets/366317",
+      "title": "Idle Advanced",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "body",
+          "Apo. Dalmatica +1"
+        ],
+        [
+          "legs",
+          "Assid. Pants +1"
+        ],
+        [
+          "hands",
+          "Asteria Mitts +1"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Evoker's Ring"
+        ],
+        [
+          "head",
+          "Convoker's Horn +3"
+        ],
+        [
+          "neck",
+          "Caller's Pendant"
+        ],
+        [
+          "feet",
+          "Baaya. Sabots +1"
+        ],
+        [
+          "waist",
+          "Fucho-no-Obi"
+        ],
+        [
+          "ear1",
+          "C. Palug Earring"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ear2",
+          "Beck. Earring +2"
+        ],
+        [
+          "back",
+          "Null Shawl"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Convoker's Horn +3"
+        ],
+        "neck": [
+          "Caller's Pendant"
+        ],
+        "ear1": [
+          "C. Palug Earring"
+        ],
+        "ear2": [
+          "Beck. Earring +2"
+        ],
+        "body": [
+          "Apo. Dalmatica +1"
+        ],
+        "hands": [
+          "Asteria Mitts +1"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Evoker's Ring"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Fucho-no-Obi"
+        ],
+        "legs": [
+          "Assid. Pants +1"
+        ],
+        "feet": [
+          "Baaya. Sabots +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Nirvana link is item18985, not a specified119 stage; Fucho latent, Unity and Epitaph/JSE ranks remain unverified.",
+      "observation_sha256": "b62e08e875720e58743a58d9c8765fadde209442f5e9592a577e017e81514d8f"
+    },
+    {
+      "item_set_id": 378463,
+      "url": "https://www.ffxiah.com/item-sets/378463",
+      "title": "Idle MEVA",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "hands",
+          "Bunzi's Gloves"
+        ],
+        [
+          "feet",
+          "Bunzi's Sabots"
+        ],
+        [
+          "body",
+          "Bunzi's Robe"
+        ],
+        [
+          "head",
+          "Bunzi's Hat"
+        ],
+        [
+          "legs",
+          "Bunzi's Pants"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "ring1",
+          "Inyanga Ring"
+        ],
+        [
+          "ear1",
+          "Eabani Earring"
+        ],
+        [
+          "ring2",
+          "Defending Ring"
+        ],
+        [
+          "neck",
+          "Warder's Charm +1"
+        ],
+        [
+          "waist",
+          "Carrier's Sash"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Bunzi's Hat"
+        ],
+        "neck": [
+          "Warder's Charm +1"
+        ],
+        "ear1": [
+          "Eabani Earring"
+        ],
+        "ear2": [],
+        "body": [
+          "Bunzi's Robe"
+        ],
+        "hands": [
+          "Bunzi's Gloves"
+        ],
+        "ring1": [
+          "Inyanga Ring"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Carrier's Sash"
+        ],
+        "legs": [
+          "Bunzi's Pants"
+        ],
+        "feet": [
+          "Bunzi's Sabots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "ear2"
+      ],
+      "conflicting_slots": {},
+      "notes": "Main/sub/ammo/ear2/range omitted; source title cannot certify capped DT.",
+      "observation_sha256": "57f992aeb046e68aecf35586241ba04f50da956abfcf613def43f64c4837c7a4"
+    },
+    {
+      "item_set_id": 366325,
+      "url": "https://www.ffxiah.com/item-sets/366325",
+      "title": "BP Precast Elite",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "hands",
+          "Baayami Cuffs +1"
+        ],
+        [
+          "legs",
+          "Baayami Slops +1"
+        ],
+        [
+          "feet",
+          "Baaya. Sabots +1"
+        ],
+        [
+          "body",
+          "Baayami Robe +1"
+        ],
+        [
+          "ammo",
+          "Sancus Sachet +1"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "ring2",
+          "Evoker's Ring"
+        ],
+        [
+          "back",
+          "Conveyance Cape"
+        ],
+        [
+          "neck",
+          "Incanter's Torque"
+        ],
+        [
+          "waist",
+          "Kobo Obi"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "ear1",
+          "C. Palug Earring"
+        ],
+        [
+          "ear2",
+          "Lodurr Earring"
+        ],
+        [
+          "head",
+          "Beckoner's Horn +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Sancus Sachet +1"
+        ],
+        "head": [
+          "Beckoner's Horn +3"
+        ],
+        "neck": [
+          "Incanter's Torque"
+        ],
+        "ear1": [
+          "C. Palug Earring"
+        ],
+        "ear2": [
+          "Lodurr Earring"
+        ],
+        "body": [
+          "Baayami Robe +1"
+        ],
+        "hands": [
+          "Baayami Cuffs +1"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Evoker's Ring"
+        ],
+        "back": [
+          "Conveyance Cape"
+        ],
+        "waist": [
+          "Kobo Obi"
+        ],
+        "legs": [
+          "Baayami Slops +1"
+        ],
+        "feet": [
+          "Baaya. Sabots +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Guide prose still discusses Horn+1 and locked weapon/skill totals; selected head is+3. Random cape skill/delay unknown; no21s total adopted.",
+      "observation_sha256": "a7a67ace290cdb6a53c6e3ca96b82a40cf781ca4257bd5c6b10e190f8e1aa865"
+    },
+    {
+      "item_set_id": 366324,
+      "url": "https://www.ffxiah.com/item-sets/366324",
+      "title": "Ward Duration Elite",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "hands",
+          "Baayami Cuffs +1"
+        ],
+        [
+          "head",
+          "Baayami Hat +1"
+        ],
+        [
+          "body",
+          "Baayami Robe +1"
+        ],
+        [
+          "legs",
+          "Baayami Slops +1"
+        ],
+        [
+          "feet",
+          "Baaya. Sabots +1"
+        ],
+        [
+          "main",
+          "Espiritus"
+        ],
+        [
+          "back",
+          "Conveyance Cape"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Evoker's Ring"
+        ],
+        [
+          "sub",
+          "Vox Grip"
+        ],
+        [
+          "waist",
+          "Kobo Obi"
+        ],
+        [
+          "ear1",
+          "C. Palug Earring"
+        ],
+        [
+          "ear2",
+          "Lodurr Earring"
+        ],
+        [
+          "neck",
+          "Hoxne Torque"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Espiritus"
+        ],
+        "sub": [
+          "Vox Grip"
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Baayami Hat +1"
+        ],
+        "neck": [
+          "Hoxne Torque"
+        ],
+        "ear1": [
+          "C. Palug Earring"
+        ],
+        "ear2": [
+          "Lodurr Earring"
+        ],
+        "body": [
+          "Baayami Robe +1"
+        ],
+        "hands": [
+          "Baayami Cuffs +1"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Evoker's Ring"
+        ],
+        "back": [
+          "Conveyance Cape"
+        ],
+        "waist": [
+          "Kobo Obi"
+        ],
+        "legs": [
+          "Baayami Slops +1"
+        ],
+        "feet": [
+          "Baaya. Sabots +1"
+        ]
+      },
+      "omitted_slots": [
+        "range",
+        "ammo"
+      ],
+      "conflicting_slots": {},
+      "notes": "Ammo omitted; title staffB/cape skill5 requirements distinct from Nexus base Espiritus/Campestres and Incanter substitutions.",
+      "observation_sha256": "e64c800fdaf0d73b96bb4baa2d3ba445a23a6e22fadb4238b6d0c01f17196395"
+    },
+    {
+      "item_set_id": 366342,
+      "url": "https://www.ffxiah.com/item-sets/366342",
+      "title": "Physical Advanced v4",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "legs",
+          "Apogee Slacks +1"
+        ],
+        [
+          "feet",
+          "Apogee Pumps +1"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "waist",
+          "Incarnation Sash"
+        ],
+        [
+          "head",
+          "Helios Band"
+        ],
+        [
+          "hands",
+          "Merlinic Dastanas"
+        ],
+        [
+          "ear1",
+          "Lugalbanda Earring"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ear2",
+          "Beck. Earring +2"
+        ],
+        [
+          "hands",
+          "Indom. Gloves"
+        ],
+        [
+          "feet",
+          "Helios Boots"
+        ],
+        [
+          "body",
+          "Beck. Doublet +3"
+        ],
+        [
+          "ring1",
+          "C. Palug Ring"
+        ],
+        [
+          "ring2",
+          "Fickblix's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Helios Band"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Lugalbanda Earring"
+        ],
+        "ear2": [
+          "Beck. Earring +2"
+        ],
+        "body": [
+          "Beck. Doublet +3"
+        ],
+        "hands": [
+          "Merlinic Dastanas",
+          "Indom. Gloves"
+        ],
+        "ring1": [
+          "C. Palug Ring"
+        ],
+        "ring2": [
+          "Fickblix's Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Incarnation Sash"
+        ],
+        "legs": [
+          "Apogee Slacks +1"
+        ],
+        "feet": [
+          "Apogee Pumps +1",
+          "Helios Boots"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {
+        "hands": [
+          "Merlinic Dastanas",
+          "Indom. Gloves"
+        ],
+        "feet": [
+          "Apogee Pumps +1",
+          "Helios Boots"
+        ]
+      },
+      "notes": "17 cells; competing hands/feet retained, never treated as two occupied hands slots; rank/cape/random rolls unresolved.",
+      "observation_sha256": "cd5cbc41e9e6c0a8bb7b9e1db4fc7539571215735ea76b6089a798a6514e4dd0"
+    },
+    {
+      "item_set_id": 381134,
+      "url": "https://www.ffxiah.com/item-sets/381134",
+      "title": "Pet Magic Accuracy",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "waist",
+          "Regal Belt"
+        ],
+        [
+          "ring1",
+          "C. Palug Ring"
+        ],
+        [
+          "ear1",
+          "Enmerkar Earring"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "main",
+          "Grioavolr"
+        ],
+        [
+          "hands",
+          "Lamassu Mitts +1"
+        ],
+        [
+          "ring2",
+          "Evoker's Ring"
+        ],
+        [
+          "body",
+          "Beck. Doublet +3"
+        ],
+        [
+          "feet",
+          "Beck. Pigaches +3"
+        ],
+        [
+          "head",
+          "Beckoner's Horn +3"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ear2",
+          "Beck. Earring +2"
+        ],
+        [
+          "legs",
+          "Con. Spats +4"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Grioavolr"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Beckoner's Horn +3"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Enmerkar Earring"
+        ],
+        "ear2": [
+          "Beck. Earring +2"
+        ],
+        "body": [
+          "Beck. Doublet +3"
+        ],
+        "hands": [
+          "Lamassu Mitts +1"
+        ],
+        "ring1": [
+          "C. Palug Ring"
+        ],
+        "ring2": [
+          "Evoker's Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Regal Belt"
+        ],
+        "legs": [
+          "Con. Spats +4"
+        ],
+        "feet": [
+          "Beck. Pigaches +3"
+        ]
+      },
+      "omitted_slots": [
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Sub omitted; guide specifies handsR15. No random Grio/cape magnitudes inferred.",
+      "observation_sha256": "1800747ee43a86d85c64596ff45b3b19993c484262446a7802accbb66e2db6e9"
+    },
+    {
+      "item_set_id": 366319,
+      "url": "https://www.ffxiah.com/item-sets/366319",
+      "title": "Hybrid Advanced Flaming Crush",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "ring1",
+          "Varar Ring +1"
+        ],
+        [
+          "feet",
+          "Apogee Pumps +1"
+        ],
+        [
+          "legs",
+          "Apogee Slacks +1"
+        ],
+        [
+          "waist",
+          "Regal Belt"
+        ],
+        [
+          "hands",
+          "Merlinic Dastanas"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "ear1",
+          "Lugalbanda Earring"
+        ],
+        [
+          "ear2",
+          "Gelos Earring"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "head",
+          "C. Palug Crown"
+        ],
+        [
+          "body",
+          "Apo. Dalmatica +1"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ring2",
+          "Fickblix's Ring"
+        ],
+        [
+          "sub",
+          "Opashoro"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1",
+          "Opashoro"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "C. Palug Crown"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Lugalbanda Earring"
+        ],
+        "ear2": [
+          "Gelos Earring"
+        ],
+        "body": [
+          "Apo. Dalmatica +1"
+        ],
+        "hands": [
+          "Merlinic Dastanas"
+        ],
+        "ring1": [
+          "Varar Ring +1"
+        ],
+        "ring2": [
+          "Fickblix's Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Regal Belt"
+        ],
+        "legs": [
+          "Apogee Slacks +1"
+        ],
+        "feet": [
+          "Apogee Pumps +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {
+        "sub": [
+          "Elan Strap +1",
+          "Opashoro"
+        ]
+      },
+      "notes": "Conflicting sub cells; main-only staff Opashoro in sub is illegal. Source prime stage/AM3 opinions retained as unverified; Nexus does not repair source history.",
+      "observation_sha256": "ef5abecfd625cf142d0a7651276038e5ef0965a460ec90fa8b27d45f187e88f6"
+    },
+    {
+      "item_set_id": 366418,
+      "url": "https://www.ffxiah.com/item-sets/366418",
+      "title": "Physical High Accuracy",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "head",
+          "Apogee Crown +1"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "ear1",
+          "Lugalbanda Earring"
+        ],
+        [
+          "ear2",
+          "Kyrene's Earring"
+        ],
+        [
+          "ring1",
+          "Varar Ring +1"
+        ],
+        [
+          "ring2",
+          "Varar Ring +1"
+        ],
+        [
+          "waist",
+          "Incarnation Sash"
+        ],
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "legs",
+          "Apogee Slacks +1"
+        ],
+        [
+          "hands",
+          "Con. Bracers +4"
+        ],
+        [
+          "body",
+          "Con. Doublet +4"
+        ],
+        [
+          "feet",
+          "Con. Pigaches +4"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Apogee Crown +1"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Lugalbanda Earring"
+        ],
+        "ear2": [
+          "Kyrene's Earring"
+        ],
+        "body": [
+          "Con. Doublet +4"
+        ],
+        "hands": [
+          "Con. Bracers +4"
+        ],
+        "ring1": [
+          "Varar Ring +1"
+        ],
+        "ring2": [
+          "Varar Ring +1"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Incarnation Sash"
+        ],
+        "legs": [
+          "Apogee Slacks +1"
+        ],
+        "feet": [
+          "Con. Pigaches +4"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Two physical Varar+1 copies; no cape/neck rank or Apogee path supplied by macro.",
+      "observation_sha256": "ee59f92be40467f922019dbe54ea26bdcb06b412f149e912bdfdd1e7c55367b3"
+    },
+    {
+      "item_set_id": 401897,
+      "url": "https://www.ffxiah.com/item-sets/401897",
+      "title": "Physical Single Hit",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Opashoro"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "waist",
+          "Regal Belt"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "head",
+          "Apogee Crown +1"
+        ],
+        [
+          "body",
+          "Con. Doublet +4"
+        ],
+        [
+          "feet",
+          "Con. Pigaches +4"
+        ],
+        [
+          "hands",
+          "Merlinic Dastanas"
+        ],
+        [
+          "ear1",
+          "Lugalbanda Earring"
+        ],
+        [
+          "ear2",
+          "Beck. Earring +2"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ring1",
+          "Fickblix's Ring"
+        ],
+        [
+          "ring2",
+          "Varar Ring +1"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "legs",
+          "Apogee Slacks +1"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Opashoro"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Apogee Crown +1"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Lugalbanda Earring"
+        ],
+        "ear2": [
+          "Beck. Earring +2"
+        ],
+        "body": [
+          "Con. Doublet +4"
+        ],
+        "hands": [
+          "Merlinic Dastanas"
+        ],
+        "ring1": [
+          "Fickblix's Ring"
+        ],
+        "ring2": [
+          "Varar Ring +1"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Regal Belt"
+        ],
+        "legs": [
+          "Apogee Slacks +1"
+        ],
+        "feet": [
+          "Con. Pigaches +4"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Prime stage, random gloves/cape/JSE rolls and ranks unresolved; example, not universal single-hit optimum.",
+      "observation_sha256": "56fd5f5f8ce0ddc62943974ff565b81de27c607bc658d0f36ebe98348db7aec7"
+    },
+    {
+      "item_set_id": 401864,
+      "url": "https://www.ffxiah.com/item-sets/401864",
+      "title": "Starter Melee",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "body",
+          "Tali'ah Manteel +2"
+        ],
+        [
+          "ring1",
+          "Petrov Ring"
+        ],
+        [
+          "ear1",
+          "Brutal Earring"
+        ],
+        [
+          "neck",
+          "Lissome Necklace"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "hands",
+          "Tali'ah Gages +2"
+        ],
+        [
+          "legs",
+          "Tali'ah Sera. +2"
+        ],
+        [
+          "feet",
+          "Battlecast Gaiters"
+        ],
+        [
+          "ear2",
+          "Sroda Earring"
+        ],
+        [
+          "head",
+          "Tali'ah Turban +2"
+        ],
+        [
+          "waist",
+          "Grunfeld Rope"
+        ],
+        [
+          "ring2",
+          "Chirich Ring"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Tali'ah Turban +2"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "ear1": [
+          "Brutal Earring"
+        ],
+        "ear2": [
+          "Sroda Earring"
+        ],
+        "body": [
+          "Tali'ah Manteel +2"
+        ],
+        "hands": [
+          "Tali'ah Gages +2"
+        ],
+        "ring1": [
+          "Petrov Ring"
+        ],
+        "ring2": [
+          "Chirich Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Grunfeld Rope"
+        ],
+        "legs": [
+          "Tali'ah Sera. +2"
+        ],
+        "feet": [
+          "Battlecast Gaiters"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "conflicting_slots": {},
+      "notes": "Weapons and ammo omitted. No full engaged recommendation admitted; buff/haste/accuracy state and exact weapon remain open.",
+      "observation_sha256": "115fac1cea1ed421841d73998af2710203a5495464ef63784e0b0deb0899b92e"
+    },
+    {
+      "item_set_id": 401873,
+      "url": "https://www.ffxiah.com/item-sets/401873",
+      "title": "Retribution",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Xoanon"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "body",
+          "Nyame Mail"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "waist",
+          "Fotia Belt"
+        ],
+        [
+          "neck",
+          "Fotia Gorget"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "ring1",
+          "Epaminondas's Ring"
+        ],
+        [
+          "ammo",
+          "Crepuscular Pebble"
+        ],
+        [
+          "ear1",
+          "Sroda Earring"
+        ],
+        [
+          "ear2",
+          "Moonshade Earring"
+        ],
+        [
+          "ring2",
+          "Metamor. Ring +1"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Xoanon"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Crepuscular Pebble"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Sroda Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Epaminondas's Ring"
+        ],
+        "ring2": [
+          "Metamor. Ring +1"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Sub omitted; source STR cape summary/Moonshade rolls unspecified. Nexus uses reviewed Mpaca/Khonsu, Seraphicaller and Ishvara to avoid pet-alive Sroda/ammo conflict.",
+      "observation_sha256": "f364d55a9c14790960a84c37ec83150a82aa400cebbaddd6b362f32de9b6faa3"
+    },
+    {
+      "item_set_id": 374268,
+      "url": "https://www.ffxiah.com/item-sets/374268",
+      "title": "Wind's Blessing",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "legs",
+          "Assid. Pants +1"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "hands",
+          "Lamassu Mitts +1"
+        ],
+        [
+          "head",
+          "Baayami Hat +1"
+        ],
+        [
+          "feet",
+          "Baaya. Sabots +1"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Evoker's Ring"
+        ],
+        [
+          "ear1",
+          "Lodurr Earring"
+        ],
+        [
+          "ear2",
+          "C. Palug Earring"
+        ],
+        [
+          "waist",
+          "Kobo Obi"
+        ],
+        [
+          "sub",
+          "Vox Grip"
+        ],
+        [
+          "body",
+          "Shomonjijoe +1"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Vox Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Baayami Hat +1"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Lodurr Earring"
+        ],
+        "ear2": [
+          "C. Palug Earring"
+        ],
+        "body": [
+          "Shomonjijoe +1"
+        ],
+        "hands": [
+          "Lamassu Mitts +1"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Evoker's Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Kobo Obi"
+        ],
+        "legs": [
+          "Assid. Pants +1"
+        ],
+        "feet": [
+          "Baaya. Sabots +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Guide hands/legsR15 and optional petMND15 Merlinic sacrifice duration; potency requirements not independently verified. No healing Ward recommendation authored.",
+      "observation_sha256": "1764aa4e0919fad9aae4b50673faa301b2c5d19d189cd16416143c89f2c24aa1"
+    },
+    {
+      "item_set_id": 366311,
+      "url": "https://www.ffxiah.com/item-sets/366311",
+      "title": "Magical Advanced",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Grioavolr"
+        ],
+        [
+          "feet",
+          "Apogee Pumps +1"
+        ],
+        [
+          "legs",
+          "Enticer's Pants"
+        ],
+        [
+          "ring1",
+          "Varar Ring +1"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "waist",
+          "Regal Belt"
+        ],
+        [
+          "ear1",
+          "Gelos Earring"
+        ],
+        [
+          "ear2",
+          "Lugalbanda Earring"
+        ],
+        [
+          "hands",
+          "Merlinic Dastanas"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "body",
+          "Apo. Dalmatica +1"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "head",
+          "C. Palug Crown"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ],
+        [
+          "ring2",
+          "Fickblix's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Grioavolr"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "C. Palug Crown"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Gelos Earring"
+        ],
+        "ear2": [
+          "Lugalbanda Earring"
+        ],
+        "body": [
+          "Apo. Dalmatica +1"
+        ],
+        "hands": [
+          "Merlinic Dastanas"
+        ],
+        "ring1": [
+          "Varar Ring +1"
+        ],
+        "ring2": [
+          "Fickblix's Ring"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Regal Belt"
+        ],
+        "legs": [
+          "Enticer's Pants"
+        ],
+        "feet": [
+          "Apogee Pumps +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Guide numeric TP/merit crossover and random staff/gloves/cape requirements remain source opinions, not candidate totals.",
+      "observation_sha256": "70e11533be513b808ae3ded8fffc7518df0bc598e6aa1803c666391cf9ba4c61"
+    },
+    {
+      "item_set_id": 366330,
+      "url": "https://www.ffxiah.com/item-sets/366330",
+      "title": "Physical Advanced v2",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Nirvana"
+        ],
+        [
+          "body",
+          "Con. Doublet +3"
+        ],
+        [
+          "hands",
+          "Convo. Bracers +3"
+        ],
+        [
+          "head",
+          "Apogee Crown +1"
+        ],
+        [
+          "ring1",
+          "Varar Ring +1"
+        ],
+        [
+          "ring2",
+          "Varar Ring +1"
+        ],
+        [
+          "sub",
+          "Elan Strap +1"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "waist",
+          "Incarnation Sash"
+        ],
+        [
+          "ear1",
+          "Kyrene's Earring"
+        ],
+        [
+          "ear2",
+          "Lugalbanda Earring"
+        ],
+        [
+          "legs",
+          "Apogee Slacks +1"
+        ],
+        [
+          "feet",
+          "Apogee Pumps +1"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Nirvana"
+        ],
+        "sub": [
+          "Elan Strap +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Apogee Crown +1"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "Kyrene's Earring"
+        ],
+        "ear2": [
+          "Lugalbanda Earring"
+        ],
+        "body": [
+          "Con. Doublet +3"
+        ],
+        "hands": [
+          "Convo. Bracers +3"
+        ],
+        "ring1": [
+          "Varar Ring +1"
+        ],
+        "ring2": [
+          "Varar Ring +1"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Incarnation Sash"
+        ],
+        "legs": [
+          "Apogee Slacks +1"
+        ],
+        "feet": [
+          "Apogee Pumps +1"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Guide ApogeeB/D paths and generic pet cape are distinct from selected exact base Beckoner/Convoker checkpoints.",
+      "observation_sha256": "13b64ccad3da7a10ceb5e64d0e776f6d5599ff4e64d26e1cc8ca9db32e8bfce4"
+    },
+    {
+      "item_set_id": 401874,
+      "url": "https://www.ffxiah.com/item-sets/401874",
+      "title": "Idle MEVA Perpetuation",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "body",
+          "Beck. Doublet +3"
+        ],
+        [
+          "head",
+          "Beckoner's Horn +3"
+        ],
+        [
+          "hands",
+          "Bunzi's Gloves"
+        ],
+        [
+          "ring1",
+          "Murky Ring"
+        ],
+        [
+          "feet",
+          "Beck. Pigaches +3"
+        ],
+        [
+          "legs",
+          "Bunzi's Pants"
+        ],
+        [
+          "waist",
+          "Carrier's Sash"
+        ],
+        [
+          "neck",
+          "Smn. Collar +2"
+        ],
+        [
+          "back",
+          "Campestres's Cape"
+        ],
+        [
+          "ring2",
+          "Stikini Ring +1"
+        ],
+        [
+          "ear1",
+          "C. Palug Earring"
+        ],
+        [
+          "ear2",
+          "Beck. Earring +2"
+        ],
+        [
+          "ammo",
+          "Epitaph"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Epitaph"
+        ],
+        "head": [
+          "Beckoner's Horn +3"
+        ],
+        "neck": [
+          "Smn. Collar +2"
+        ],
+        "ear1": [
+          "C. Palug Earring"
+        ],
+        "ear2": [
+          "Beck. Earring +2"
+        ],
+        "body": [
+          "Beck. Doublet +3"
+        ],
+        "hands": [
+          "Bunzi's Gloves"
+        ],
+        "ring1": [
+          "Murky Ring"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Campestres's Cape"
+        ],
+        "waist": [
+          "Carrier's Sash"
+        ],
+        "legs": [
+          "Bunzi's Pants"
+        ],
+        "feet": [
+          "Beck. Pigaches +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": {},
+      "notes": "Main/sub omitted; current base Beckoner selection differs from old prose. No universal caps claimed.",
+      "observation_sha256": "325835969c61d7c06d6096a1cc91fd2efe33246701963c926307d4857491c499"
+    },
+    {
+      "item_set_id": 366308,
+      "url": "https://www.ffxiah.com/item-sets/366308",
+      "title": "BP Precast Advanced",
+      "method": "Manual transcription of ordinary Chrome rendered Equipment Macros; no HTML capture or Lua execution",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Sancus Sachet +1"
+        ],
+        [
+          "head",
+          "Beckoner's Horn +1"
+        ],
+        [
+          "back",
+          "Conveyance Cape"
+        ],
+        [
+          "body",
+          "Con. Doublet +3"
+        ],
+        [
+          "waist",
+          "Lucidity Sash"
+        ],
+        [
+          "ring1",
+          "Evoker's Ring"
+        ],
+        [
+          "neck",
+          "Caller's Pendant"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sancus Sachet +1"
+        ],
+        "head": [
+          "Beckoner's Horn +1"
+        ],
+        "neck": [
+          "Caller's Pendant"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Con. Doublet +3"
+        ],
+        "hands": [],
+        "ring1": [
+          "Evoker's Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Conveyance Cape"
+        ],
+        "waist": [
+          "Lucidity Sash"
+        ],
+        "legs": [],
+        "feet": []
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ear1",
+        "ear2",
+        "hands",
+        "ring2",
+        "legs",
+        "feet"
+      ],
+      "conflicting_slots": {},
+      "notes": "Only seven occupied slots; missing slots are omissions, not intentional empties.",
+      "observation_sha256": "9d4776f1c79b9c3ce908c1d3dfac9faef0965d168ee2e670b0500a8af0892706"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/380",
+      "title": "Wotasu SMN guide",
+      "notes": "Ordinary Chrome read. Author claims January2026 update; footer January31,2026. Distinct recast, physical multihit/single, magical/TP/merit, Flaming Crush, skill Ward, idle/perpetuation, Siphon and master melee/WS roles. Prose head+1 versus selected+3 and variable augment/path/rank conditions retained. Numbers, rankings and all-tier currency not adopted.",
+      "observation_sha256": "b1d1ca5ac03deb3aa9d86284d25961cd8bb37dfd8b36e73315494079fab816dc"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Summoner&oldid=772456",
+      "title": "All Jobs SMN772456",
+      "notes": "Normal article successfully read in Chrome; Permanent link confirms772456, footer July13,2026. Four master WS groups Garland of Bliss/Shattersoul/Retribution/Gate of Tartarus; no pet-role grids. Source OdysseyR30/NyameR25B and Crimson Howl/Crystal Blessing/Ifrit Favor; Garland uses Shiva Favor. Cape labels lack decoded magnitudes; damage models not adopted.",
+      "observation_sha256": "a4d0f5221447513ddb3b19add4048491c964a363353163b928d30c367e423ead"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=The_Heretical_Art:_Comprehensive_Summoner_Guide&oldid=636075",
+      "title": "Heretical Art636075",
+      "notes": "Normal article read; Permanent link confirms636075; footer January22,2022. Later-looking prose is not proof of source currency. Older FC/merit/subjob arithmetic and Favor breakpoints not adopted. Distinct physical/hybrid/magical/enfeebling/enhancing/healing gear, pet TP/HP and maintained avatar level; skill gear is not universal healing potency. WS/idle omitted weapon/ammo cells deliberately preserve equipment. Broad subjob verdicts remain opinion; no blanket N/A.",
+      "observation_sha256": "e6691d19d5d30f520828411f8e580ebbeabe919683aad537a4c8d105ecf7b5e0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Campestres%27s_Cape&oldid=568479",
+      "title": "Campestres augment categories568479",
+      "notes": "Original table read in Chrome; permanent link confirms568479. Thread STR20, Dye STR10, Dust combined master accuracy/attack20, Sap FC10/WSD10 and Resin masterDT5/petDT5 are separate selectable categories. Specific candidate rolls Nexus-authored; no pet MAB Sap claimed. Native punctuation independently read from public extdata only.",
+      "observation_sha256": "0775e6c227d17445eacc714f78d364b3084d2a57d226c9700b0183de5e1014f9"
+    }
+  ],
+  "access": "BG reader403 and some FFXIAH reader accessibility failures; ordinary Chrome succeeded for original guides/grids/cards. Permanent links independently confirmed. No security bypass. Manual structured observations, not raw HTML/full DOM captures."
+}

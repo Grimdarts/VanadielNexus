@@ -34,6 +34,7 @@ def startup_check(app, output):
     data.mkdir(parents=True,exist_ok=True)
     (data/'settings.json').write_text(json.dumps({'windower_dir':str(game),'setup_dismissed':True}),encoding='utf-8')
     updater.check=lambda _version: None
+    AppContext._seed_inventory_from_addon_files=lambda self: None
     ctx=AppContext(__version__)
     ctx.bridge.request_scan=lambda: None
     theme.apply(app)
@@ -46,8 +47,15 @@ def startup_check(app, output):
     window.close()
     QThreadPool.globalInstance().waitForDone(5000)
     app.processEvents()
+    guides=next(page for page in window.pages if page.key=='guides')
+    catalog=guides.catalog
+    guide_check={'ok':guides.catalog_error is None,'error':guides.catalog_error,
+        'schema':catalog.get('schema_version'),'sets':len(catalog['sets']),
+        'revisions':len(catalog.get('revisions',[])),
+        'retired':len(catalog.get('_retirements',{}))}
     Path(output).write_text(json.dumps({'ok':True,'version':__version__,
-        'pyside':qt_binding_version,'pages':pages,'spawn':spawn}),encoding='utf-8')
+        'pyside':qt_binding_version,'pages':pages,'spawn':spawn,
+        'guide_catalog':guide_check}),encoding='utf-8')
     return 0
 
 

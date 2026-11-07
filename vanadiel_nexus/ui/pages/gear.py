@@ -8,6 +8,7 @@ from ...core.jobs import ALL_FFXI_JOBS
 from ...core.wiki import SITES
 from .. import theme, widgets
 from ..item_links import add_open_actions, open_item
+from ..equipment_details import TableItemDetails
 from ..forms import Field, FormDialog
 from ..guide_panel import GuidePanel
 from ..widgets import Column, DataTable
@@ -101,13 +102,15 @@ class GearPage(Page):
         self.plus_btn = widgets.button("+1", on_click=lambda: self._step_goal(1), tooltip="Goal progress +1")
         self.wiki_btn = widgets.button("Open wiki ↗", "ghost", lambda: self._open_wiki())
         self.remove_btn = widgets.button("Remove", "danger", self._remove)
+        self.item_details = TableItemDetails(self, ctx, (self.jse, self.weapons))
+        self.item_details_btn = widgets.button('Item details', on_click=lambda: self.item_details.show(self._table()))
 
         self.layout_.addLayout(widgets.hbox(self.tabs, None))
         self.layout_.addWidget(self.cards)
         self.layout_.addWidget(self.toolbar)
         self.layout_.addWidget(self.split, 1)
         self.layout_.addLayout(widgets.hbox(self.count, None, self.minus_btn, self.plus_btn, self.edit_btn,
-                                            self.wiki_btn, self.remove_btn))
+                                            self.item_details_btn, self.wiki_btn, self.remove_btn))
 
         ctx.db_changed.connect(self.refresh)
         ctx.inventory_changed.connect(self.refresh)
@@ -116,6 +119,9 @@ class GearPage(Page):
         self._switch(0)
 
     # --- data -------------------------------------------------------------
+    def on_shown(self):
+        self.item_details.activate()
+
     @property
     def db(self):
         return self.ctx.db.data
@@ -225,6 +231,7 @@ class GearPage(Page):
 
     def _update_footer(self) -> None:
         t = self._table()
+        self.item_details_btn.setVisible(t in self.item_details.tables)
         self.count.setText(f"{t.visible_count()} shown")
 
     # --- actions ----------------------------------------------------------
@@ -310,6 +317,8 @@ class GearPage(Page):
         if self._table().selected_row() is None:
             return
         menu = QMenu(self)
+        if self._table() in self.item_details.tables:
+            menu.addAction('Item details (Alt+I)', lambda: self.item_details.show(self._table()))
         menu.addAction("Edit", self._edit)
         menu.addAction("Edit materials", self._edit_materials)
         add_open_actions(menu, self.ctx, self._table().selected_row())

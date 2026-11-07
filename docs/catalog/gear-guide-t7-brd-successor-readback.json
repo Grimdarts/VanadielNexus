@@ -1,0 +1,117 @@
+{
+  "slice": "brd-effective-successor-audit-readback-2026-11-05",
+  "checks": [
+    {
+      "name": "candidate unchanged ca7876",
+      "pass": true
+    },
+    {
+      "name": "production unchanged b57b6b",
+      "pass": true
+    },
+    {
+      "name": "extdata unchanged",
+      "pass": true
+    },
+    {
+      "name": "only handoff/evidence/prompt changed among 351 baseline files: ['docs/GEAR-GUIDE-T7-EVIDENCE.md', 'docs/GEAR-GUIDE-T7-HANDOFF.md', 'docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md']",
+      "pass": true
+    },
+    {
+      "name": "hands 55 / v19",
+      "pass": true
+    },
+    {
+      "name": "resources 863 + fingerprint",
+      "pass": true
+    },
+    {
+      "name": "HEAD unchanged",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md CRLF only",
+      "pass": true
+    },
+    {
+      "name": "prompt says current chat and no new window",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-EVIDENCE.md CRLF only",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-EVIDENCE.md prior bytes retained byte-for-byte at end",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-HANDOFF.md CRLF only",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-HANDOFF.md prior bytes retained byte-for-byte at end",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-BRD-SUCCESSOR-AUDIT.md LF only, final newline, no trailing whitespace",
+      "pass": true
+    },
+    {
+      "name": "docs/GEAR-GUIDE-T7-RUNTIME-RETIREMENT-DESIGN.md LF only, final newline, no trailing whitespace",
+      "pass": true
+    },
+    {
+      "name": "docs/catalog/gear-guide-t7-brd-successor-audit.json LF only, final newline, no trailing whitespace",
+      "pass": true
+    },
+    {
+      "name": "packet 11 confirmed / 0 other",
+      "pass": true
+    },
+    {
+      "name": "packet audit test hash current",
+      "pass": true
+    },
+    {
+      "name": "counts 520/547/1331, 539 verified, 27 retired, 512 effective",
+      "pass": true
+    },
+    {
+      "name": "delivery_status keeps all22jobs and DNC",
+      "pass": true
+    },
+    {
+      "name": "node355 raw capture hash",
+      "pass": true
+    },
+    {
+      "name": "audit all passed, no failed/skipped/error: 31 passed in 0.74s",
+      "pass": true
+    },
+    {
+      "name": "focused-native all passed, no failed/skipped/error: 709 passed in 55.43s",
+      "pass": true
+    },
+    {
+      "name": "full-native all passed, no failed/skipped/error: 1505 passed in 162.65s (0:02:42)",
+      "pass": true
+    },
+    {
+      "name": "tracked modifications identical to before",
+      "pass": true
+    }
+  ],
+  "passed": 25,
+  "total": 25,
+  "validation": {
+    "audit": "31 passed in 0.74s",
+    "focused-native": "709 passed in 55.43s",
+    "full-native": "1505 passed in 162.65s (0:02:42)"
+  },
+  "candidate_sha256": "ca787650965d61046e91323bd1e1c991d9245f4b2d7d340935159afc9f511926",
+  "production_sha256": "b57b6bb34bc0e969140610fa623efe00fbaef3379c23ab00d9a29db7b6be4300",
+  "audit_packet_sha256": "1ce4aaafbcf6d853f27c72ef9211a6a38efa2ae8982e501fe792ee15294689d2",
+  "design_sha256": "bd1e7426d87269ce44bd667bfa3f8761043e166c74e7565939e533958e581a10",
+  "report_sha256": "b8b86e903d69bd1e1c21789b18963accbc95b89e4d1664b83f401bef47dca2f3"
+}

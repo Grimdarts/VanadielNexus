@@ -1,0 +1,2040 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "physical-multihit",
+      "target": "Physical Multihit",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26082,
+          "name": "Lugalbanda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23999,
+          "name": "Con. Bracers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24044,
+          "name": "Con. Spats +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Convoker hands select printed avatar Double Attack; Convoker legs select avatar Store TP/accuracy.",
+      "context": {
+        "action": "Ramuh Volt Strike, Garuda Predator Claws or Siren Hysteric Assault; corresponding avatar present and pact actually usable",
+        "pet_tp": "Actual pet TP unknown; no TP threshold or damage ratio assumed",
+        "burst": "No magic burst credited",
+        "abilities": "Ordinary Rage resolution; Astral Flow, Astral Conduit and Apogee inactive; no aftermath"
+      }
+    },
+    {
+      "key": "physical-single",
+      "target": "Physical Single",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26082,
+          "name": "Lugalbanda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23568,
+          "name": "Beck. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24044,
+          "name": "Con. Spats +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Beckoner hands trade avatar multihit for printed pact damage; no universal single-hit optimum.",
+      "context": {
+        "action": "Ifrit Punch as a separately learned/usable single-hit physical Rage example; Ifrit present",
+        "pet_tp": "Actual pet TP unknown",
+        "burst": "No magic burst credited",
+        "abilities": "Ordinary Rage; no Astral Flow/Conduit/Apogee or aftermath assumed"
+      }
+    },
+    {
+      "key": "physical-accuracy",
+      "target": "Physical Accuracy",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23568,
+          "name": "Beck. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24044,
+          "name": "Con. Spats +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Enmerkar sacrifices Lugalbanda pact damage for pet Store TP/DT while preserving accuracy; this is an accuracy/utility checkpoint, not a proven accuracy maximum.",
+      "context": {
+        "action": "Usable physical Rage; Ramuh Volt Strike example with Ramuh present",
+        "pet_tp": "Actual pet TP unknown",
+        "burst": "No burst",
+        "abilities": "Ordinary Rage; no special ability active"
+      }
+    },
+    {
+      "key": "magical-pact",
+      "target": "Magical Pact",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26082,
+          "name": "Lugalbanda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27107,
+          "name": "Asteria Mitts +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11739,
+          "name": "Caller's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23635,
+          "name": "Beck. Spats +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Base Espiritus and Asteria supply avatar MAB; Beckoner legs supply avatar TP Bonus. Source Apogee/Enticer TP crossover is not imported.",
+      "context": {
+        "action": "Shiva Heavenly Strike, Ramuh Thunderstorm or another actually unlocked compatible magical Rage; exact avatar present",
+        "pet_tp": "Actual pet TP and merit count must be known by player; no crossover or capped TP assumed",
+        "burst": "Free magical pact; no skillchain window assumed",
+        "abilities": "Ordinary Rage; no Astral Flow/Conduit/Apogee"
+      }
+    },
+    {
+      "key": "magical-accuracy",
+      "target": "Magical Accuracy",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23568,
+          "name": "Beck. Bracers +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28418,
+          "name": "Incarnation Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23635,
+          "name": "Beck. Spats +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Swaps base MAB hands/sash for explicit avatar accuracy on Beckoner and pet magic accuracy on Incarnation; no resist-rate guarantee.",
+      "context": {
+        "action": "Actually unlocked magical Rage against resistant target; corresponding avatar present",
+        "pet_tp": "Pet TP/merits unknown",
+        "burst": "No burst assumed",
+        "abilities": "No special ability/aftermath active"
+      }
+    },
+    {
+      "key": "flaming-crush",
+      "target": "Flaming Crush",
+      "purpose": "Blood Pact",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 11619,
+          "name": "Caller's Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26082,
+          "name": "Lugalbanda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27107,
+          "name": "Asteria Mitts +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26180,
+          "name": "Varar Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11739,
+          "name": "Caller's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24044,
+          "name": "Con. Spats +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base-only alternative to variable source weapon stages, ranked necks, Epitaph, random JSE earrings and Merlinic/Helios rolls. Exact Seraphicaller retained for avatar level; no optimality claim. Legal Espiritus/Vox pair replaces source Nirvana/Opashoro sub conflict. Asteria and Espiritus favor magical portion while retaining pet accuracy and pact gear.",
+      "context": {
+        "action": "Ifrit Flaming Crush only; Ifrit present and pact usable; physical and magical portions remain distinct",
+        "pet_tp": "Actual pet TP unknown; no transfer of merit-pact TP formula",
+        "burst": "No burst multiplier assumed",
+        "abilities": "Ordinary Rage; no Astral Flow/Conduit/Apogee; no prime/mythic aftermath"
+      }
+    },
+    {
+      "key": "ward-skill",
+      "target": "Ward Skill",
+      "purpose": "Blood Pact Ward",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25566,
+          "name": "Baayami Hat +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26087,
+          "name": "C. Palug Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26099,
+          "name": "Lodurr Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26542,
+          "name": "Baayami Robe +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25993,
+          "name": "Baayami Cuffs +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 14625,
+          "name": "Evoker's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25906,
+          "name": "Baayami Slops +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25973,
+          "name": "Baaya. Sabots +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus full skill checkpoint based on366324. Base Espiritus only: Path B +15 and random Conveyance skill are deliberately uncredited; exact base Campestres fills back; sachet fills source omitted ammo.",
+      "context": {
+        "action": "Garuda Hastega II or another actually learned skill-duration Ward; corresponding avatar present",
+        "pet_tp": "No pet TP potency claim",
+        "burst": "Not applicable to skill-duration Ward, not a coverage N/A",
+        "abilities": "Ordinary Ward completion; not healing/debuff/Wind's Blessing universal rule",
+        "favor": "Favor may be active but no tier or duration total inferred",
+        "access": "Baayami +1 requires Su3 and500 SMN JP; actual Ward/JP access required"
+      }
+    },
+    {
+      "key": "bp-recast",
+      "target": "Bp Recast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26087,
+          "name": "C. Palug Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26099,
+          "name": "Lodurr Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23456,
+          "name": "Con. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25993,
+          "name": "Baayami Cuffs +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 14625,
+          "name": "Evoker's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26320,
+          "name": "Kobo Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25906,
+          "name": "Baayami Slops +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25973,
+          "name": "Baaya. Sabots +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus separates ability initiation/recast snapshot from pact resolution. Beckoner Favor head and Convoker delay body replace source locked Nirvana/Conveyance setup; no21s/22s or skill breakpoint asserted.",
+      "context": {
+        "action": "Before Blood Pact ability initiation, then use appropriate action-resolution snapshot",
+        "pet_tp": "Unknown, not used for recast certification",
+        "burst": "Not a burst set",
+        "favor": "Avatar's Favor active and maintained; actual strength/elapsed time, skill, JP gifts and recast unknown",
+        "abilities": "No Astral Conduit/Apogee recast override assumed",
+        "access": "Baayami +1 Su3/500 SMN JP; actual pact/ability access required"
+      }
+    },
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23635,
+          "name": "Beck. Spats +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus master-protection idle informed by sparse378463. Beckoner DT/Refresh head/body/legs and base Nyame hands/feet replace Bunzi source; no rank or DT cap claimed.",
+      "context": {
+        "action": "Stationary master idle with ordinary avatar present or dismissed",
+        "favor": "No Favor tier inferred",
+        "abilities": "No special ability active; base effects only"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23635,
+          "name": "Beck. Spats +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25973,
+          "name": "Baaya. Sabots +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus useful SMN MP recovery with two physical Stikini+1 copies and Baayami base Refresh; no Moonshade augment, low-MP Fucho latent or citizenship effect credited.",
+      "context": {
+        "action": "Stationary SMN MP recovery, avatar dismissed; master MP pool actually usable",
+        "favor": "Avatar dismissed; Favor inactive",
+        "abilities": "No special ability active",
+        "access": "Baayami+1 Su3/500 SMN JP; two Stikini copies required"
+      }
+    },
+    {
+      "key": "perpetuation",
+      "target": "Perpetuation",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21174,
+          "name": "Gridarvor",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27534,
+          "name": "Evans Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 14625,
+          "name": "Evoker's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23635,
+          "name": "Beck. Spats +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23702,
+          "name": "Beck. Pigaches +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Gridarvor/Evans/Evoker/Beckoner perpetuation checkpoint from366315/366317; no weather pendant reduction, matching-day hands, net MP total or free-avatar claim.",
+      "context": {
+        "action": "Ordinary persistent avatar summoned and alive; excludes Astral Flow-only Odin/Alexander and elementals",
+        "favor": "Favor state/strength unknown; no recast tier assumed",
+        "abilities": "No Astral Flow/Conduit/Apogee",
+        "pet_tp": "Regain/TP not master Refresh; no TP amount certified"
+      }
+    },
+    {
+      "key": "pet-durability",
+      "target": "Pet Durability",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23434,
+          "name": "Beckoner's Horn +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26083,
+          "name": "Enmerkar Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25504,
+          "name": "Beck. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23501,
+          "name": "Beck. Doublet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 14625,
+          "name": "Evoker's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {
+            "augments": [
+              "Pet: Damage taken -5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25906,
+          "name": "Baayami Slops +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25973,
+          "name": "Baaya. Sabots +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Independently Nexus-authored pet defense/recovery snapshot from public Enmerkar DT, exact pet-DT cape roll and Baayami avatar Regen. Master DT and pet-only defense stay separate; no capped pet DT/HP/regen total.",
+      "context": {
+        "action": "Persistent ordinary avatar alive under incoming damage; master outside melee",
+        "favor": "No Favor tier assumed",
+        "abilities": "No Astral Flow/Conduit/Apogee",
+        "pet_tp": "No pet TP cap claimed",
+        "access": "Baayami+1 Su3/500 SMN JP; exact pet-DT cape distinct from master/WS/FC variants"
+      }
+    },
+    {
+      "key": "summoning-precast",
+      "target": "Summoning Precast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21149,
+          "name": "Espiritus",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 19058,
+          "name": "Vox Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 27775,
+          "name": "Nahtirah Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26542,
+          "name": "Baayami Robe +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25993,
+          "name": "Baayami Cuffs +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10826,
+          "name": "Witful Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27287,
+          "name": "Psycloth Lappas",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27497,
+          "name": "Merlinic Crackows",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus general summoning-magic initiation snapshot from independent base FC cards. No random Merlinic augment or Psycloth path credited; Baayami hands provide skill/avatar Regen rather than FC; base Psycloth pet defense and Seraphicaller retain pet support.",
+      "context": {
+        "action": "Learned summoning spell initiation; Seraphicaller stays equipped through completion",
+        "abilities": "No guaranteed cast/recast cap or interruption immunity",
+        "favor": "No Favor tier assumed",
+        "access": "Baayami Su3/500 SMN JP; actual summon access required"
+      }
+    },
+    {
+      "key": "retribution",
+      "target": "Retribution",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26260,
+          "name": "Campestres's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Nexus master Retribution checkpoint from401873/BG772456; reviewed Mpaca staff/Khonsu replace Xoanon/omitted grip. Nyame Path B rank unspecified. STR20/10 cape and Moonshade native decoded parts independently tested.",
+      "context": {
+        "action": "Master Retribution learned via required quest; SMN/WAR99/49; exact staff equipped",
+        "pet_tp": "Master TP distinct from pet TP; actual effective master TP unknown",
+        "burst": "Physical master WS, not avatar pact",
+        "favor": "No Crimson Howl/Crystal Blessing/Favor model bonuses credited",
+        "abilities": "No aftermath/prime/mythic/relic effect; weapon swap can lose TP/aftermath"
+      }
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:dt-idle"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:refresh-idle"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Physical pact",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Physical pact",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:physical-multihit",
+          "nexus:smn:physical-single"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Magical pact",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Magical pact",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:magical-pact"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Hybrid pact",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Hybrid pact",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:flaming-crush"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Pact accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Pact accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:physical-accuracy",
+          "nexus:smn:magical-accuracy"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Ward / skill",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Ward / skill",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:ward-skill"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Perpetuation",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Perpetuation",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:perpetuation"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Pet durability",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Pet durability",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:pet-durability"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Precast",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Precast",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:bp-recast",
+          "nexus:smn:summoning-precast"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "SMN",
+        "priority": "Supported master WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "SMN",
+        "priority": "Supported master WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded base-stage ordinary-avatar contexts only; exact14 targets. Physical/magical/hybrid/accuracy, skill Ward, recast versus spell precast, pet defense versus master idle/MP recovery, one supported master WS. No full-tier/engaged/burst/special-ability/caps claim.",
+        "evidence": "GEAR-GUIDE-T7-SMN.md; node380, original grids, BG772456/636075 and public cards plus separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:smn:retribution"
+        ]
+      },
+      "limits": "Included in declared bounded contexts only; broader variants remain unclaimed, never N/A."
+    }
+  ],
+  "unclaimed": [
+    "Full master engaged Balanced/DT/Accuracy",
+    "Every tier/weapon/aftermath",
+    "Astral Flow/Conduit/Apogee",
+    "Dedicated magic-burst operation and action-specific TP/merit crossovers",
+    "Healing/enfeebling Wards including Wind's Blessing potency",
+    "Elemental Siphon/day/weather totals"
+  ]
+}

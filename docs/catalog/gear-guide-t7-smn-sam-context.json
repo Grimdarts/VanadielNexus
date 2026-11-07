@@ -1,0 +1,475 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Nova alone; Vesper unassigned",
+  "status": "Bounded SMN99/SAM49 Hasso evidence reconciliation complete; /SAM composition authoring remains source-limited",
+  "candidate_saved": false,
+  "candidate_sha256": "cf3868c2677c185982f98ddb8176c0badab34a507d43d3905759beda2f417162",
+  "input_review_path": ".t7-smn-sam-checks/input-review.json",
+  "input_review_sha256": "6c759f9240285c0ffb64201adda0d44f19fca0ff0f21b0c38d82b1a4f77d494b",
+  "captures": [
+    {
+      "url": "https://ffxiclopedia.fandom.com/wiki/Hasso",
+      "retrieved_at": "2026-11-05T17:59:35.035497+00:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "metadata_path": ".t7-smn-sam-checks/source-native/ffxiclopedia-fandom-com-wiki-Hasso.json"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Attack_Speed",
+      "retrieved_at": "2026-11-05T17:59:01.554582+00:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-bg-wiki-com-ffxi-Attack-Speed.json"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Hasso",
+      "retrieved_at": "2026-11-05T17:59:01.376857+00:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-bg-wiki-com-ffxi-Hasso.json"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Hastega_II",
+      "retrieved_at": "2026-11-05T17:59:01.672081+00:00",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-bg-wiki-com-ffxi-Hastega-II.json"
+    },
+    {
+      "url": "https://www.ffxiah.com/item/22100",
+      "retrieved_at": "2026-11-05T17:59:35.222186+00:00",
+      "status": 200,
+      "body_sha256": "2b6e0389cda72f5d368d827d198ce8693276abfe64dd61b1734a97eda0f8004b",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22100.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22100.html"
+    },
+    {
+      "url": "https://www.ffxiah.com/item/22218",
+      "retrieved_at": "2026-11-05T17:59:35.501892+00:00",
+      "status": 200,
+      "body_sha256": "31550aa9e2b98edf6b3c7834e59c2d8dcf1df6f4a95314e3cdfd9a418afd37db",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22218.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22218.html"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401863",
+      "retrieved_at": "2026-11-05T17:59:53.613224+00:00",
+      "status": 200,
+      "body_sha256": "5a9c4b4a6a190fd2385c080423c3787df5295df597c63ec43f1f48498d5dfd18",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401863.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401863.html"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401864",
+      "retrieved_at": "2026-11-05T17:59:53.797334+00:00",
+      "status": 200,
+      "body_sha256": "1e8dca4b04c707bb90ed2c4e366be2929b47969193a23c458132331f48d8d178",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401864.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401864.html"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401865",
+      "retrieved_at": "2026-11-05T17:59:54.011258+00:00",
+      "status": 200,
+      "body_sha256": "8305083a4c7076afc5192b964ffeedc950f633c0145fecc8364b323f1189a494",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401865.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401865.html"
+    },
+    {
+      "url": "https://www.ffxiah.com/node/380",
+      "retrieved_at": "2026-11-05T17:59:01.062853+00:00",
+      "status": 200,
+      "body_sha256": "839009d4b75a8ae7fc1d24f180de902eed068ac55401ba653c7afdeac9e42d3e",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-node-380.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-node-380.html"
+    },
+    {
+      "url": "https://www.playonline.com/ff11eu/polnews/news9989.shtml",
+      "retrieved_at": "2026-11-05T17:59:53.334279+00:00",
+      "status": 200,
+      "body_sha256": "1b0ab5dd7a1dc8a87d8d97b96bd377093363c01b63235bf3d79f795a2faf30f6",
+      "last_modified": null,
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-playonline-com-ff11eu-polnews-news9989-shtml.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-playonline-com-ff11eu-polnews-news9989-shtml.html"
+    },
+    {
+      "url": "https://www.playonline.com/pcd/update/ff11us/20061017UJ0a71/detail.html",
+      "retrieved_at": "2026-11-05T17:59:52.992578+00:00",
+      "status": 200,
+      "body_sha256": "e050edaff46086c396ff860af7d7ae0c1ab84c2729e81b3647cde2942a2631f1",
+      "last_modified": "Thu, 19 Oct 2006 05:49:59 GMT",
+      "etag": null,
+      "metadata_path": ".t7-smn-sam-checks/source-native/www-playonline-com-pcd-update-ff11us-20061017UJ0a71-detail-html.json",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-playonline-com-pcd-update-ff11us-20061017UJ0a71-detail-html.html"
+    }
+  ],
+  "grids": [
+    {
+      "item_set_id": 401863,
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23760
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          26119
+        ],
+        "ear2": [
+          26118
+        ],
+        "body": [
+          25796
+        ],
+        "hands": [
+          23774
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26274
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "matches_prior_selected_cells": true,
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "raw_sha256": "5a9c4b4a6a190fd2385c080423c3787df5295df597c63ec43f1f48498d5dfd18",
+      "macro_lines": [
+        "input /equip head \"Bunzi's Hat\";",
+        "input /equip body \"Tali'ah Manteel +2\";",
+        "input /equip hands \"Bunzi's Gloves\";",
+        "input /equip legs \"Nyame Flanchard\";",
+        "input /equip feet \"Nyame Sollerets\";",
+        "input /equip neck \"Lissome Necklace\";",
+        "input /equip back \"Null Shawl\";",
+        "input /equip ear1 \"Alabaster Earring\";",
+        "input /equip ear2 \"Sroda Earring\";",
+        "input /equip waist \"Windbuffet Belt +1\";",
+        "input /equip ring1 \"Petrov Ring\";",
+        "input /equip ring2 \"Chirich Ring +1\";"
+      ],
+      "currency": "No revision ID/HTTP Last-Modified/ETag returned; equality of inspected cells is not whole-page or recommendation currency."
+    },
+    {
+      "item_set_id": 401864,
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          25573
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          14813
+        ],
+        "ear2": [
+          26118
+        ],
+        "body": [
+          25796
+        ],
+        "hands": [
+          25834
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26181
+        ],
+        "back": [
+          26260
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          25885
+        ],
+        "feet": [
+          28292
+        ]
+      },
+      "matches_prior_selected_cells": true,
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "raw_sha256": "1e8dca4b04c707bb90ed2c4e366be2929b47969193a23c458132331f48d8d178",
+      "macro_lines": [
+        "input /equip body \"Tali'ah Manteel +2\";",
+        "input /equip ring1 \"Petrov Ring\";",
+        "input /equip ear1 \"Brutal Earring\";",
+        "input /equip neck \"Lissome Necklace\";",
+        "input /equip back \"Campestres's Cape\";",
+        "input /equip hands \"Tali'ah Gages +2\";",
+        "input /equip legs \"Tali'ah Sera. +2\";",
+        "input /equip feet \"Battlecast Gaiters\";",
+        "input /equip ear2 \"Sroda Earring\";",
+        "input /equip head \"Tali'ah Turban +2\";",
+        "input /equip waist \"Grunfeld Rope\";",
+        "input /equip ring2 \"Chirich Ring\";"
+      ],
+      "currency": "No revision ID/HTTP Last-Modified/ETag returned; equality of inspected cells is not whole-page or recommendation currency."
+    },
+    {
+      "item_set_id": 401865,
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23760
+        ],
+        "neck": [
+          26004
+        ],
+        "ear1": [
+          26118
+        ],
+        "ear2": [
+          27544
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23774
+        ],
+        "ring1": [
+          10772
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26274
+        ],
+        "waist": [
+          11729
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "matches_prior_selected_cells": true,
+      "source_omissions": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "raw_sha256": "8305083a4c7076afc5192b964ffeedc950f633c0145fecc8364b323f1189a494",
+      "macro_lines": [
+        "input /equip body \"Nyame Mail\";",
+        "input /equip legs \"Nyame Flanchard\";",
+        "input /equip feet \"Nyame Sollerets\";",
+        "input /equip hands \"Bunzi's Gloves\";",
+        "input /equip head \"Bunzi's Hat\";",
+        "input /equip neck \"Lissome Necklace\";",
+        "input /equip ear1 \"Sroda Earring\";",
+        "input /equip back \"Null Shawl\";",
+        "input /equip ring1 \"Petrov Ring\";",
+        "input /equip ring2 \"Chirich Ring +1\";",
+        "input /equip ear2 \"Dedition Earring\";",
+        "input /equip waist \"Goading Belt\";"
+      ],
+      "currency": "No revision ID/HTTP Last-Modified/ETag returned; equality of inspected cells is not whole-page or recommendation currency."
+    }
+  ],
+  "source_currency": {
+    "node_author_label": "Updated Jan 2026",
+    "node_footer": "2026-01-31 11:48:12",
+    "official_update": "2006-10-19 JST release notes; historical primary evidence, not a current comprehensive mechanics revision",
+    "official_support_job_notice": "2007-03-13 maintenance notice; explicitly describes Hasso effects with Samurai support job",
+    "fresh_bg_revision": null,
+    "drift": "No upstream gear-cell drift established. Dynamic full-response hashes differ; this is not set_note_changed or recommendation-drift evidence."
+  },
+  "findings": [
+    {
+      "id": "SMN-SAM-01",
+      "status": "confirmed within historical primary-source scope",
+      "detail": "Hasso was introduced at SAM25; official notes require a two-handed weapon and describe speed/accuracy/Strength benefits, mutually exclusive with Seigan. A second official notice explicitly describes Hasso under Samurai support job. SMN99/SAM49 access is a manual prerequisite: actual unlocked/leveled SAM, active support job and usable Hasso must be checked by the player; no live access discovered.",
+      "source_urls": [
+        "https://www.playonline.com/pcd/update/ff11us/20061017UJ0a71/detail.html",
+        "https://www.playonline.com/ff11eu/polnews/news9989.shtml"
+      ]
+    },
+    {
+      "id": "SMN-SAM-02",
+      "status": "exact hands independently rechecked",
+      "detail": "Fresh exact cards identify Mpaca22100 Main/Staves, SMN eligible, and Khonsu22218 Sub/Grips, SMN eligible. Retained reviewed registry classifies exact IDs two_handed/grip. This supports a lawful prospective staff/grip context, not recommended gear equivalence or ownership.",
+      "source_urls": [
+        "https://www.ffxiah.com/item/22100",
+        "https://www.ffxiah.com/item/22218"
+      ]
+    },
+    {
+      "id": "SMN-SAM-03",
+      "status": "source observation only; no numeric adoption",
+      "detail": "Original node380 calls Hasso JA haste and presents /SAM or /WAR alternatives. Its 10% and slower-TP comparison remain attributed guide observations. No verified category caps, combined delay formula, x-hit result, accuracy target or superiority is adopted.",
+      "source_urls": [
+        "https://www.ffxiah.com/node/380"
+      ]
+    },
+    {
+      "id": "SMN-SAM-04",
+      "status": "confirmed recast caution; casting details source-limited",
+      "detail": "Official notes impose a magic/song/ninjutsu recast penalty under Hasso. They do not establish a present numeric casting/recast multiplier, a summoning-spell schedule, or Blood Pact timing. FFXIclopedia search extract mentions casting as well; full article reads failed, so the extract is a lead only and no casting multiplier is adopted.",
+      "source_urls": [
+        "https://www.playonline.com/pcd/update/ff11us/20061017UJ0a71/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Hasso"
+      ]
+    },
+    {
+      "id": "SMN-SAM-05",
+      "status": "source-limited recommendation equivalence",
+      "detail": "All three fresh grids retain four omissions (main/sub/range/ammo). Guide alternatives do not prove the complete independently authored /WAR staff/grip/ammo fills or DT/Accuracy substitutions equivalent for /SAM. No /SAM-specific rebalancing, buff/recipient schedule or complete haste-tier comparison was established. Preserve /WAR identities and coverage unchanged; do not duplicate or silently widen them.",
+      "source_urls": [
+        "https://www.ffxiah.com/node/380",
+        "https://www.ffxiah.com/item-sets/401863",
+        "https://www.ffxiah.com/item-sets/401864",
+        "https://www.ffxiah.com/item-sets/401865"
+      ]
+    }
+  ],
+  "prospective_context": {
+    "status": "Evidence context only; not an authored recommendation or live mode",
+    "job": "SMN99/SAM49 with actual unlocked/leveled support job and usable Hasso",
+    "weapon": "Exact two-handed Mpaca22100 / grip Khonsu22218 established before TP building; no Dual Wield/shield",
+    "activation": "Hasso explicitly active, Seigan inactive; availability is not activation or continuous uptime",
+    "recipient": "Hasso applies to master; no Hasso inheritance by avatar, pact, pet accuracy or pet attack-speed assumption",
+    "pet": "Ordinary avatar alive for comparability only; Sroda conditional master DA remains separate from pet melee damage. No Favor, Crimson Howl, Crystal Blessing or avatar-supplied haste credited",
+    "haste_categories": {
+      "job_ability": "Hasso source-described JA effect only; no numeric value or category cap adopted",
+      "magic": "No Haste/HasteII/Hastega/HastegaII/March credited. Avatar alive does not prove a Ward was used or affects the master",
+      "equipment": "Printed base haste remains equipment evidence; no conversion into JA/magic haste or aggregate cap claim"
+    },
+    "buffs": "No Haste Samba, food, roll, song, external haste, Berserk, Aggressor or Warcry contribution credited. /WAR traits are not carried into /SAM; /SAM trait totals and main-job-only enhancements are unclaimed",
+    "transitions": "Hasso expiration/cancellation/Seigan overwrite/weapon swaps and spell-recast costs require separate state handling; none implemented, no source/player Lua execution",
+    "limits": "No full haste matrix, cap/delay total, x-hit/accuracy target, HP-safe transition, current BiS, ownership/bags or human/frozen/live acceptance"
+  },
+  "war_comparison": [
+    {
+      "set_id": "nexus:smn:engaged-balanced",
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "slots_sha256": "52679e55738d8abb0e895c6ecad31842b7a54926d895baba2888c8eff715f444",
+      "disposition": "Preserved /WAR-only recommendation; no retargeting or widening"
+    },
+    {
+      "set_id": "nexus:smn:engaged-dt",
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "slots_sha256": "d0d78508f0ce3389f57f5375b7c44f1fe03cf5b283bd07c16db399f3ae3e51da",
+      "disposition": "Preserved /WAR-only recommendation; no retargeting or widening"
+    },
+    {
+      "set_id": "nexus:smn:engaged-accuracy",
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "slots_sha256": "3c3b361c68e3d4c3b3c7c04009e3db8af9b37bbfe37a731cf140fec7c369e59b",
+      "disposition": "Preserved /WAR-only recommendation; no retargeting or widening"
+    }
+  ],
+  "decision": {
+    "selected": "Explicit source-limited context successor outside candidate; no candidate save",
+    "reason": "Positive evidence establishes the prospective activation/weapon/recipient boundary. It does not establish a separately supported /SAM counterpart for all three /WAR compositions. A complete numeric engine or capped haste is not required to author a bounded recommendation, but uncertain mechanics and gear equivalence must not be disguised as verified coverage.",
+    "alternatives": {
+      "separate_sam_compositions": "Not authored: selected gear/buff/timing assumptions not sufficiently reconciled",
+      "widen_war_contexts": "Rejected: immutable /WAR contexts and saved targets must remain intact",
+      "context_only": "Delivered with precise confirmed/source-limited distinctions; no N/A disposition"
+    }
+  },
+  "issue_dispositions": [
+    {
+      "issue_id": "SMN-SP-025",
+      "status": "Prior /WAR resolution retained; adjacent /SAM counterpart source-limited",
+      "detail": "Prior finding: common master-engaged Balanced/DT/Accuracy unclaimed outside dedicated rows. The engaged successor already resolved three rows only for /WAR. This slice investigates /SAM without changing those rows."
+    },
+    {
+      "issue_id": "SMN-SAM-MECHANICS",
+      "status": "source-limited",
+      "detail": "BG Hasso, Attack Speed and HastegaII fresh reader/native requests returned403; browser automation unavailable by task boundary. No settings change, challenge or alternate protected endpoint attempted."
+    },
+    {
+      "issue_id": "BST-ear-label-observation",
+      "status": "resolved by prior correction; not reopened",
+      "detail": "Current source Dedition27544 ear1 / Sherida26084 ear2; retained Nexus Sherida26084 ear1 / Dedition27544 ear2. Telos27545 absent. Historical reports/observations immutable; no gear-legality defect inferred."
+    }
+  ],
+  "delivery_status": "Partial all22jobs candidate, DNC retained. BST provenance integration preserved. SMN common master-engaged Balanced/DT/Accuracy included only for niche SMN99/WAR49 Mpaca/Khonsu low-buff avatar-alive context. Other SMN variants, all remaining all22jobs inventory obligations, BRD runtime retirement and DRG/RUN/PUP/DNC/BST limits remain open; no complete T1/job or production acceptance. Stop after SMN engaged and exact standalone current-chat successor prompt. BST engaged-balanced exact earring labels corrected by immutable successor only; all22jobs/DNC and original limitations retained. Jason authorized next SMN/SAM Hasso slice in a new local session after this correction, without concurrent integration.",
+  "remaining": "All22jobs and DNC retained in candidate delivery_status. Other27 BST linked sets, BRD runtime retirement, DRG/RUN/PUP/DNC/BST limits and original SMN pact/Ward/WS/ability/weapon contexts remain open. No automatic chain.",
+  "new_resources": 0,
+  "new_hands": 0,
+  "new_requirements": 0,
+  "new_recommendations": 0
+}

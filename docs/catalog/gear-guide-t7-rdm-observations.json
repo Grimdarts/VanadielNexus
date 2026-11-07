@@ -1,0 +1,1322 @@
+{
+  "checked_on": "2026-11-04",
+  "observations": [
+    {
+      "item_set": 375613,
+      "url": "https://www.ffxiah.com/item-sets/375613",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Colada",
+        "ammo": "Homiliary",
+        "ear1": "Etiolation Earring",
+        "ear2": "Moonshade Earring",
+        "hands": "Chironic Gloves",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Sucellos's Cape",
+        "waist": "Fucho-no-Obi",
+        "legs": "Chironic Hose",
+        "feet": "Chironic Slippers",
+        "body": "Lethargy Sayon +3",
+        "neck": "Sibyl Scarf",
+        "head": "Viti. Chapeau +4",
+        "sub": "Archduke's Shield"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "eb8faeb296fcfae966baca2d1a2ac1f92fb63fbf6054b6e0862873074f69589a"
+    },
+    {
+      "item_set": 402064,
+      "url": "https://www.ffxiah.com/item-sets/402064",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Daybreak",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Sworn Crown",
+        "body": "Sworn Platemail",
+        "hands": "Bunzi's Gloves",
+        "neck": "Warder's Charm +1",
+        "waist": "Null Belt",
+        "back": "Null Shawl",
+        "ear1": "Arete del Luna +1",
+        "ring1": "Icecrack Ring",
+        "legs": "Sworn Brais",
+        "feet": "Sworn Sabatons",
+        "ring2": "Wuji Ring",
+        "sub": "Archduke's Shield",
+        "ear2": "Etiolation Earring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "equipment_options",
+      "boundary": "Guide labels Turtle gear as mix-and-match options. Macro display is not evidence of a simultaneous author-recommended loadout.",
+      "observation_sha256": "e362b39166dcab746a92c7dd9c08b12ffc6d68da19bdbb059b45552e9ac41078"
+    },
+    {
+      "item_set": 375635,
+      "url": "https://www.ffxiah.com/item-sets/375635",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "range": "Ullr",
+        "ear1": "Regal Earring",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Metamor. Ring +1",
+        "hands": "Leth. Ganth. +3",
+        "waist": "Obstin. Sash",
+        "neck": "Null Loop",
+        "head": "Viti. Chapeau +4",
+        "body": "Atrophy Tabard +4",
+        "back": "Null Shawl",
+        "legs": "Atro. Tights +4",
+        "feet": "Atro. Boots +4",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "ammo"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "3bbe7b9b2932818f9a70a79d9e1e4cc95531f938ecfe259d4c08b370d2bd23b5"
+    },
+    {
+      "item_set": 391024,
+      "url": "https://www.ffxiah.com/item-sets/391024",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Contemplator +1",
+        "sub": "Mephitis Grip",
+        "ammo": "Regal Gem",
+        "head": "Viti. Chapeau +3",
+        "ear1": "Snotra Earring",
+        "hands": "Leth. Gantherots +1",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Sucellos's Cape",
+        "waist": "Obstin. Sash",
+        "feet": "Vitiation Boots +3",
+        "body": "Lethargy Sayon +1",
+        "neck": "Dls. Torque +2",
+        "ear2": "Malignance Earring",
+        "legs": "Chironic Hose"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "d11a209298129b46f8c4ff885b940f8cad09e8efcd0473b5708559d7ff2def2d"
+    },
+    {
+      "item_set": 391011,
+      "url": "https://www.ffxiah.com/item-sets/391011",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ammo": "Regal Gem",
+        "ear1": "Snotra Earring",
+        "neck": "Dls. Torque +2",
+        "body": "Lethargy Sayon +3",
+        "hands": "Leth. Ganth. +3",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Sucellos's Cape",
+        "waist": "Obstin. Sash",
+        "legs": "Leth. Fuseau +3",
+        "feet": "Viti. Boots +4",
+        "head": "Viti. Chapeau +4",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "e933b57834d6c6c9398ada847dd993f39de05b7f046c615b95146d1e1574a51f"
+    },
+    {
+      "item_set": 375636,
+      "url": "https://www.ffxiah.com/item-sets/375636",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ammo": "Regal Gem",
+        "neck": "Dls. Torque +2",
+        "ear1": "Snotra Earring",
+        "ring1": "Metamor. Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Sucellos's Cape",
+        "legs": "Chironic Hose",
+        "body": "Lethargy Sayon +3",
+        "hands": "Leth. Ganth. +3",
+        "head": "Viti. Chapeau +4",
+        "feet": "Viti. Boots +4",
+        "ear2": "Alabaster Earring",
+        "waist": "Obstin. Sash"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "706ba5e49033bbc241133bcb55e83b1894c60cd3467c154e8f0b9f5256576ffa"
+    },
+    {
+      "item_set": 404387,
+      "url": "https://www.ffxiah.com/item-sets/404387",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ammo": "Regal Gem",
+        "head": "Leth. Chappel +3",
+        "body": "Lethargy Sayon +3",
+        "hands": "Leth. Ganth. +3",
+        "feet": "Leth. Houseaux +3",
+        "ring1": "Kishar Ring",
+        "neck": "Dls. Torque +2",
+        "ring2": "Stikini Ring +1",
+        "legs": "Chironic Hose",
+        "ear1": "Snotra Earring",
+        "ear2": "Alabaster Earring",
+        "back": "Sucellos's Cape",
+        "waist": "Obstin. Sash"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "c2fd6d1b380e7e0ebaa612d9eb9785ee3a0ba05193226bd69abe55d5d37c1510"
+    },
+    {
+      "item_set": 375640,
+      "url": "https://www.ffxiah.com/item-sets/375640",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ring1": "Kishar Ring",
+        "neck": "Dls. Torque +2",
+        "ear1": "Snotra Earring",
+        "ring2": "Stikini Ring +1",
+        "waist": "Obstin. Sash",
+        "range": "Ullr",
+        "head": "Leth. Chappel +3",
+        "body": "Lethargy Sayon +3",
+        "feet": "Leth. Houseaux +3",
+        "legs": "Leth. Fuseau +3",
+        "hands": "Leth. Ganth. +3",
+        "back": "Null Shawl",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "ammo"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "c96ccf2766d5aa6250d50a47508865555f239f189197f131f7c519994c4b8f4d"
+    },
+    {
+      "item_set": 375641,
+      "url": "https://www.ffxiah.com/item-sets/375641",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "neck": "Dls. Torque +2",
+        "ring1": "Kishar Ring",
+        "ear1": "Snotra Earring",
+        "back": "Sucellos's Cape",
+        "ammo": "Regal Gem",
+        "waist": "Obstin. Sash",
+        "head": "Leth. Chappel +3",
+        "body": "Lethargy Sayon +3",
+        "feet": "Leth. Houseaux +3",
+        "legs": "Leth. Fuseau +3",
+        "hands": "Leth. Ganth. +3",
+        "ear2": "Alabaster Earring",
+        "ring2": "Weather. Ring +1"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "0554ff4352210b3259a4145441d47aaabe8cb27bb62123a07292424925aab883"
+    },
+    {
+      "item_set": 375642,
+      "url": "https://www.ffxiah.com/item-sets/375642",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "hands": "Kaykaus Cuffs +1",
+        "body": "Kaykaus Bliaut +1",
+        "head": "Kaykaus Mitra +1",
+        "feet": "Kaykaus Boots +1",
+        "legs": "Kaykaus Tights +1",
+        "main": "Daybreak",
+        "sub": "Ammurapi Shield",
+        "back": "Sucellos's Cape",
+        "waist": "Luminary Sash",
+        "neck": "Incanter's Torque",
+        "ear1": "Meili Earring",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Sirona's Ring",
+        "ammo": "Regal Gem",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "98d57cd358b0996f20b453249531f168eb138645dd86f792c9931e77d05d7fe1"
+    },
+    {
+      "item_set": 391717,
+      "url": "https://www.ffxiah.com/item-sets/391717",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "body": "Bunzi's Robe",
+        "ring1": "Defending Ring",
+        "head": "Kaykaus Mitra +1",
+        "hands": "Kaykaus Cuffs +1",
+        "legs": "Kaykaus Tights +1",
+        "feet": "Kaykaus Boots +1",
+        "waist": "Plat. Mog. Belt",
+        "ammo": "Staunch Tathlum +1",
+        "back": "Sucellos's Cape",
+        "neck": "Loricate Torque +1",
+        "ear1": "Sanare Earring",
+        "main": "Daybreak",
+        "sub": "Ammurapi Shield",
+        "ear2": "Alabaster Earring",
+        "ring2": "Murky Ring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "6ea3a8af92fa9275cf1aac7f0d90680631b109ca93d4618e1be546597f22e753"
+    },
+    {
+      "item_set": 375644,
+      "url": "https://www.ffxiah.com/item-sets/375644",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Prelatic Pole",
+        "sub": "Curatio Grip",
+        "head": "Vanya Hood",
+        "neck": "Debilis Medallion",
+        "ear1": "Beatific Earring",
+        "ear2": "Meili Earring",
+        "hands": "Hieros Mittens",
+        "ring1": "Menelaus's Ring",
+        "ring2": "Haoma's Ring",
+        "back": "Oretan. Cape +1",
+        "waist": "Bishop's Sash",
+        "legs": "Vanya Slops",
+        "feet": "Vanya Clogs",
+        "body": "Viti. Tabard +4",
+        "ammo": "Staunch Tathlum +1"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "6184dde09a2aceb1b95f5e4bc83be0119ddd465e939989ad709247e3780cd5bb"
+    },
+    {
+      "item_set": 404157,
+      "url": "https://www.ffxiah.com/item-sets/404157",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Jhakri Coronal +2",
+        "body": "Jhakri Robe +2",
+        "neck": "Sanctity Necklace",
+        "ear1": "Friomisi Earring",
+        "ear2": "Sortiarius Earring",
+        "ammo": "Ghastly Tathlum +1",
+        "ring1": "Jhakri Ring",
+        "ring2": "Shiva Ring",
+        "waist": "Salire Belt",
+        "hands": "Jhakri Cuffs +2",
+        "feet": "Jhakri Pigaches +2",
+        "legs": "Jhakri Slops +2",
+        "back": "Sucellos's Cape"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "366d59a2d587e895fd876bddf85c94731b712f0683234ef6b6258b18a98d9cb5"
+    },
+    {
+      "item_set": 404156,
+      "url": "https://www.ffxiah.com/item-sets/404156",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ring1": "Mujin Band",
+        "ring2": "Jhakri Ring",
+        "neck": "Mizu. Kubikazari",
+        "ear1": "Friomisi Earring",
+        "feet": "Jhakri Pigaches +2",
+        "ammo": "Ghastly Tathlum +1",
+        "legs": "Egbesu Slops",
+        "ear2": "Sortiarius Earring",
+        "head": "Jhakri Coronal +2",
+        "body": "Jhakri Robe +2",
+        "waist": "Salire Belt",
+        "hands": "Jhakri Cuffs +2",
+        "back": "Sucellos's Cape"
+      },
+      "occupied_slot_count": 14,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "f9ecab0a1c89bbfc0c9999ca62d9514dc13d8b143bb77bc6d1017e86385ab15d"
+    },
+    {
+      "item_set": 375665,
+      "url": "https://www.ffxiah.com/item-sets/375665",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Pukulatmuj +1",
+        "sub": "Forfend +1",
+        "head": "Befouled Crown",
+        "ear1": "Andoaa Earring",
+        "ear2": "Mimir Earring",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Ghostfyre Cape",
+        "waist": "Olympus Sash",
+        "ammo": "Staunch Tathlum +1",
+        "feet": "Leth. Houseaux +3",
+        "body": "Viti. Tabard +4",
+        "hands": "Viti. Gloves +4",
+        "legs": "Atro. Tights +4",
+        "neck": "Hoxne Torque"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "40e94fea59429e0397720b7f0623d8784516ab6b05796a03975d3987e3d62370"
+    },
+    {
+      "item_set": 375666,
+      "url": "https://www.ffxiah.com/item-sets/375666",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Colada",
+        "sub": "Ammurapi Shield",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Telchine Cap",
+        "neck": "Dls. Torque +2",
+        "back": "Ghostfyre Cape",
+        "waist": "Embla Sash",
+        "legs": "Telchine Braconi",
+        "ear1": "Leth. Earring +2",
+        "feet": "Leth. Houseaux +3",
+        "ring1": "Defending Ring",
+        "body": "Viti. Tabard +4",
+        "hands": "Atro. Gloves +4",
+        "ear2": "Alabaster Earring",
+        "ring2": "Murky Ring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "90e4b5b20ad5cf5419af9d336c5ecbb547749120ed1b4e8c99c43f0f36ac5408"
+    },
+    {
+      "item_set": 375667,
+      "url": "https://www.ffxiah.com/item-sets/375667",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Colada",
+        "sub": "Ammurapi Shield",
+        "neck": "Dls. Torque +2",
+        "back": "Ghostfyre Cape",
+        "waist": "Embla Sash",
+        "body": "Lethargy Sayon +3",
+        "head": "Leth. Chappel +3",
+        "legs": "Leth. Fuseau +3",
+        "feet": "Leth. Houseaux +3",
+        "ammo": "Staunch Tathlum +1",
+        "ring1": "Defending Ring",
+        "hands": "Atro. Gloves +4",
+        "ring2": "Murky Ring",
+        "ear1": "Leth. Earring +2",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "7409fec67e6e026647438248f378a17c7d97756ef5e7dceba3a6f1199963e899"
+    },
+    {
+      "item_set": 375668,
+      "url": "https://www.ffxiah.com/item-sets/375668",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Amalric Coif +1",
+        "main": "Colada",
+        "sub": "Ammurapi Shield",
+        "ammo": "Staunch Tathlum +1",
+        "neck": "Dls. Torque +2",
+        "back": "Ghostfyre Cape",
+        "waist": "Gishdubar Sash",
+        "ear1": "Leth. Earring +2",
+        "feet": "Leth. Houseaux +3",
+        "legs": "Leth. Fuseau +3",
+        "ring1": "Defending Ring",
+        "body": "Atrophy Tabard +4",
+        "hands": "Atro. Gloves +4",
+        "ring2": "Murky Ring",
+        "ear2": "Alabaster Earring"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "7934741914e07b5466528ab3c71cf67d6c069fc7d4770bcea6e73ef0cfb50e70"
+    },
+    {
+      "item_set": 404160,
+      "url": "https://www.ffxiah.com/item-sets/404160",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Amalric Coif +1",
+        "main": "Colada",
+        "sub": "Ammurapi Shield",
+        "ammo": "Staunch Tathlum +1",
+        "neck": "Dls. Torque +2",
+        "ear1": "Alabaster Earring",
+        "ear2": "Leth. Earring +2",
+        "body": "Atrophy Tabard +4",
+        "hands": "Atro. Gloves +4",
+        "ring1": "Murky Ring",
+        "ring2": "Defending Ring",
+        "back": "Ghostfyre Cape",
+        "waist": "Embla Sash",
+        "legs": "Leth. Fuseau +3",
+        "feet": "Leth. Houseaux +3"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "8122eb1fa40ca490ccf9330b12e0e4e78b83cd3ae7c2a1e53d96f1272f63fa0e"
+    },
+    {
+      "item_set": 375671,
+      "url": "https://www.ffxiah.com/item-sets/375671",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ammo": "Staunch Tathlum +1",
+        "head": "Taeon Chapeau",
+        "feet": "Taeon Boots",
+        "hands": "Taeon Gloves",
+        "body": "Taeon Tabard",
+        "legs": "Taeon Tights",
+        "neck": "Incanter's Torque",
+        "ear1": "Mimir Earring",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "waist": "Embla Sash",
+        "back": "Ghostfyre Cape",
+        "main": "Sakpata's Sword",
+        "sub": "Egeking",
+        "ear2": "Leth. Earring +2"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "3c09f9b4b8b272b14f70c4d9cce0e6fb87393d0bc50a1fce4b044d59ba9dfbbc"
+    },
+    {
+      "item_set": 402070,
+      "url": "https://www.ffxiah.com/item-sets/402070",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Chironic Hat",
+        "legs": "Chironic Hose",
+        "body": "Sworn Platemail",
+        "hands": "Sworn Gauntlets",
+        "feet": "Sworn Sabatons",
+        "back": "Ghostfyre Cape",
+        "neck": "Dls. Torque +2",
+        "waist": "Embla Sash",
+        "ring1": "Murky Ring",
+        "ring2": "Defending Ring",
+        "ear1": "Alabaster Earring",
+        "ear2": "Leth. Earring +2",
+        "ammo": "Staunch Tathlum +1",
+        "main": "Sakpata's Sword",
+        "sub": "Colada"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "fb9a647ea0582d89119629b4e4f463e9069f32638e4768e19ee7e7b98bc3e60d"
+    },
+    {
+      "item_set": 375669,
+      "url": "https://www.ffxiah.com/item-sets/375669",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Amalric Coif +1",
+        "hands": "Regal Cuffs",
+        "waist": "Emphatikos Rope",
+        "legs": "Shedir Seraweels"
+      },
+      "occupied_slot_count": 4,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "ring1",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "51e712630c47411a35f6acca324848bfffcb3900c08db7591bead52b4b22494c"
+    },
+    {
+      "item_set": 375675,
+      "url": "https://www.ffxiah.com/item-sets/375675",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "body": "Ros. Jaseran +1",
+        "hands": "Chironic Gloves",
+        "ammo": "Staunch Tathlum +1",
+        "feet": "Amalric Nails +1",
+        "ear1": "Halasz Earring",
+        "ring1": "Evanescence Ring",
+        "waist": "Rumination Sash",
+        "back": "Sucellos's Cape",
+        "ring2": "Freke Ring",
+        "ear2": "Magnetic Earring",
+        "sub": "Culminus",
+        "neck": "Loricate Torque +1",
+        "legs": "Bunzi's Pants"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "range",
+        "head"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "2cd10e9d4012c6cdea655ffb79a8079663d7e133e0efb17bfc3caaeeb7af200a"
+    },
+    {
+      "item_set": 375670,
+      "url": "https://www.ffxiah.com/item-sets/375670",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "main": "Pukulatmuj +1",
+        "neck": "Nodens Gorget",
+        "ear1": "Earthcry Earring",
+        "hands": "Stone Mufflers",
+        "waist": "Siegel Sash",
+        "legs": "Shedir Seraweels",
+        "head": "Umuthi Hat"
+      },
+      "occupied_slot_count": 8,
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo",
+        "ear2",
+        "body",
+        "ring1",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "9140ef50fdad652e0bdff619a3f668645f4fcad53d8e800edc50539db096ea8c"
+    },
+    {
+      "item_set": 375673,
+      "url": "https://www.ffxiah.com/item-sets/375673",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "hands": "Leyline Gloves",
+        "neck": "Orunmila's Torque",
+        "ear1": "Malignance Earring",
+        "ring1": "Weather. Ring +1",
+        "ring2": "Kishar Ring",
+        "main": "Crocea Mors",
+        "ammo": "Sapience Orb",
+        "waist": "Witful Belt",
+        "back": "Sucellos's Cape",
+        "sub": "Sakpata's Sword",
+        "ear2": "Leth. Earring +2",
+        "feet": "Merlinic Crackows",
+        "head": "Atro. Chapeau +4",
+        "body": "Viti. Tabard +4",
+        "legs": "Volte Brais"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "d818adbefedfdb39e9bc1a9a54eb5234584681bc4d5f484970e0aae30ce2802f"
+    },
+    {
+      "item_set": 404364,
+      "url": "https://www.ffxiah.com/item-sets/404364",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "feet": "Malignance Boots",
+        "legs": "Malignance Tights",
+        "hands": "Malignance Gloves",
+        "body": "Malignance Tabard",
+        "head": "Malignance Chapeau",
+        "ammo": "Ginsen",
+        "neck": "Lissome Necklace",
+        "back": "Sucellos's Cape",
+        "waist": "Sailfi Belt +1",
+        "ring1": "Chirich Ring",
+        "ring2": "Chirich Ring",
+        "ear1": "Steelflash Earring",
+        "ear2": "Bladeborn Earring"
+      },
+      "occupied_slot_count": 14,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "19c7b5b91a2325745f0253acf044fea2d2badaa53366d720cd214b69db447551"
+    },
+    {
+      "item_set": 404365,
+      "url": "https://www.ffxiah.com/item-sets/404365",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Bunzi's Hat",
+        "body": "Malignance Tabard",
+        "hands": "Malignance Gloves",
+        "legs": "Malignance Tights",
+        "feet": "Malignance Boots",
+        "back": "Null Shawl",
+        "waist": "Reiki Yotai",
+        "neck": "Anu Torque",
+        "ammo": "Coiste Bodhar",
+        "ear1": "Sherida Earring",
+        "ear2": "Eabani Earring",
+        "ring1": "Chirich Ring +1",
+        "ring2": "Chirich Ring +1"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "1a6ea5ef77ebafe3b97355789eff8fe01dae992572c20ec54068e416de5b3c80"
+    },
+    {
+      "item_set": 404366,
+      "url": "https://www.ffxiah.com/item-sets/404366",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Sworn Crown",
+        "body": "Sworn Platemail",
+        "hands": "Sworn Gauntlets",
+        "legs": "Sworn Brais",
+        "feet": "Sworn Sabatons",
+        "back": "Null Shawl",
+        "neck": "Ainia Collar",
+        "ammo": "Aurgelmir Orb +1",
+        "ear1": "Alabaster Earring",
+        "ear2": "Eabani Earring",
+        "waist": "Reiki Yotai",
+        "ring1": "Chirich Ring +1",
+        "ring2": "Chirich Ring +1"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "90553bc383d538edfd96f03226007340182ac6ad2af14e8caf26837067b24a41"
+    },
+    {
+      "item_set": 404162,
+      "url": "https://www.ffxiah.com/item-sets/404162",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "body": "Egbesu Frock",
+        "head": "Viti. Chapeau +2",
+        "back": "Sucellos's Cape",
+        "neck": "Caro Necklace",
+        "ear1": "Moonshade Earring",
+        "ring1": "Ifrit Ring",
+        "ammo": "Ginsen",
+        "waist": "Metalsinger Belt",
+        "hands": "Jhakri Cuffs +2",
+        "legs": "Jhakri Slops +2",
+        "ear2": "Ishvara Earring",
+        "ring2": "Rufescent Ring",
+        "feet": "Jhakri Pigaches +2"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "457908925557676864944100db760025eec6205005c56a1d56b8e96018fa75f8"
+    },
+    {
+      "item_set": 404165,
+      "url": "https://www.ffxiah.com/item-sets/404165",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "ammo": "Coiste Bodhar",
+        "head": "Viti. Chapeau +4",
+        "neck": "Rep. Plat. Medal",
+        "ear1": "Moonshade Earring",
+        "body": "Nyame Mail",
+        "hands": "Atro. Gloves +4",
+        "ring1": "Sroda Ring",
+        "ring2": "Epaminondas's Ring",
+        "back": "Sucellos's Cape",
+        "waist": "Sailfi Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Leth. Houseaux +3",
+        "ear2": "Hoxne Earring"
+      },
+      "occupied_slot_count": 13,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "7a3a61cf54d6306cc4258cebf8d75b6e695dd220ad007ebacc2b05ca470571dd"
+    },
+    {
+      "item_set": 399007,
+      "url": "https://www.ffxiah.com/item-sets/399007",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Pixie Hairpin +1",
+        "body": "Nyame Mail",
+        "legs": "Leth. Fuseau +3",
+        "feet": "Leth. Houseaux +3",
+        "ring1": "Archon Ring",
+        "hands": "Jhakri Cuffs +2",
+        "neck": "Baetyl Pendant",
+        "ammo": "Sroda Tathlum",
+        "ear1": "Malignance Earring",
+        "ear2": "Regal Earring",
+        "ring2": "Epaminondas's Ring",
+        "back": "Sucellos's Cape",
+        "waist": "Orpheus's Sash",
+        "main": "Crocea Mors"
+      },
+      "occupied_slot_count": 14,
+      "omitted_slots": [
+        "sub",
+        "range"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "41aa182ba9e6b92da32a923f4a1462f54ead376ad55ba625a7a194b4a0e38012"
+    },
+    {
+      "item_set": 399008,
+      "url": "https://www.ffxiah.com/item-sets/399008",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "head": "Leth. Chappel +3",
+        "body": "Nyame Mail",
+        "neck": "Baetyl Pendant",
+        "ear1": "Moonshade Earring",
+        "ear2": "Regal Earring",
+        "hands": "Jhakri Cuffs +2",
+        "ring1": "Epaminondas's Ring",
+        "ring2": "Weather. Ring +1",
+        "back": "Sucellos's Cape",
+        "waist": "Orpheus's Sash",
+        "legs": "Leth. Fuseau +3",
+        "feet": "Leth. Houseaux +3",
+        "ammo": "Sroda Tathlum",
+        "main": "Daybreak",
+        "sub": "Crocea Mors"
+      },
+      "occupied_slot_count": 15,
+      "omitted_slots": [
+        "range"
+      ],
+      "classification": "main_hand_action_conflict",
+      "boundary": "Guide section labels Seraph Blade but live macros put club Daybreak main and Crocea Mors sub. Sword WS needs a sword main; do not repair the original record by swapping hands silently. Nexus chooses a distinct sword-main recommendation.",
+      "observation_sha256": "e3add993d42c24fb95176384631ff1d29904bc61f075e823143241a60826d320"
+    },
+    {
+      "item_set": 404159,
+      "url": "https://www.ffxiah.com/item-sets/404159",
+      "checked_on": "2026-11-04",
+      "selected_names": {
+        "waist": "Oneiros Rope",
+        "legs": "Perdition Slops",
+        "body": "Merlinic Jubbah",
+        "hands": "Merlinic Dastanas",
+        "feet": "Merlinic Crackows",
+        "head": "Merlinic Hood"
+      },
+      "occupied_slot_count": 6,
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2",
+        "back"
+      ],
+      "classification": "source_macro_observation",
+      "boundary": "Exact live macro observations only; source date/context/augment conditions remain separate. Omitted slots are not intentional empties. No source full-loadout verification.",
+      "observation_sha256": "5ffe1ef6ab0ab13ce4fd2020b62ac83c63d82ade3de44b1314fa226aed558028"
+    }
+  ],
+  "initial_observation_boundary": "The 33 initial captures are historical. Repeated macro slots were flattened by the initial capture; the three appended corrections supersede those captures without erasing them. All other captures remain unchanged.",
+  "corrections": [
+    {
+      "item_set": 404156,
+      "url": "https://www.ffxiah.com/item-sets/404156",
+      "checked_on": "2026-11-04",
+      "supersedes_observation_sha256": "f9ecab0a1c89bbfc0c9999ca62d9514dc13d8b143bb77bc6d1017e86385ab15d",
+      "classification": "conflicting_macro_observation",
+      "macro_selections": [
+        {
+          "slot": "ring1",
+          "name": "Mujin Band"
+        },
+        {
+          "slot": "ring2",
+          "name": "Jhakri Ring"
+        },
+        {
+          "slot": "neck",
+          "name": "Mizu. Kubikazari"
+        },
+        {
+          "slot": "ear1",
+          "name": "Friomisi Earring"
+        },
+        {
+          "slot": "feet",
+          "name": "Jhakri Pigaches +2"
+        },
+        {
+          "slot": "ammo",
+          "name": "Pemphredo Tathlum"
+        },
+        {
+          "slot": "legs",
+          "name": "Egbesu Slops"
+        },
+        {
+          "slot": "ear2",
+          "name": "Sortiarius Earring"
+        },
+        {
+          "slot": "ammo",
+          "name": "Ghastly Tathlum +1"
+        },
+        {
+          "slot": "head",
+          "name": "Jhakri Coronal +2"
+        },
+        {
+          "slot": "body",
+          "name": "Jhakri Robe +2"
+        },
+        {
+          "slot": "waist",
+          "name": "Salire Belt"
+        },
+        {
+          "slot": "hands",
+          "name": "Jhakri Cuffs +2"
+        },
+        {
+          "slot": "back",
+          "name": "Sucellos's Cape"
+        }
+      ],
+      "macro_line_count": 14,
+      "occupied_slot_count": 13,
+      "slot_options": {
+        "ring1": [
+          "Mujin Band"
+        ],
+        "ring2": [
+          "Jhakri Ring"
+        ],
+        "neck": [
+          "Mizu. Kubikazari"
+        ],
+        "ear1": [
+          "Friomisi Earring"
+        ],
+        "feet": [
+          "Jhakri Pigaches +2"
+        ],
+        "ammo": [
+          "Pemphredo Tathlum",
+          "Ghastly Tathlum +1"
+        ],
+        "legs": [
+          "Egbesu Slops"
+        ],
+        "ear2": [
+          "Sortiarius Earring"
+        ],
+        "head": [
+          "Jhakri Coronal +2"
+        ],
+        "body": [
+          "Jhakri Robe +2"
+        ],
+        "waist": [
+          "Salire Belt"
+        ],
+        "hands": [
+          "Jhakri Cuffs +2"
+        ],
+        "back": [
+          "Sucellos's Cape"
+        ]
+      },
+      "duplicate_slots": {
+        "ammo": 2
+      },
+      "selected_names": {
+        "ring1": "Mujin Band",
+        "ring2": "Jhakri Ring",
+        "neck": "Mizu. Kubikazari",
+        "ear1": "Friomisi Earring",
+        "feet": "Jhakri Pigaches +2",
+        "legs": "Egbesu Slops",
+        "ear2": "Sortiarius Earring",
+        "head": "Jhakri Coronal +2",
+        "body": "Jhakri Robe +2",
+        "waist": "Salire Belt",
+        "hands": "Jhakri Cuffs +2",
+        "back": "Sucellos's Cape"
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "boundary": "Supersedes the incomplete first capture for repeated slots. All ordered macro lines retained; conflicting names are options, never last-write-wins authorship. Nexus selects equipment independently under its own attribution.",
+      "observation_sha256": "6892fa4bd01c6934baa03c7be7872c8235eafcecd22650de37e43064754b18d9"
+    },
+    {
+      "item_set": 375670,
+      "url": "https://www.ffxiah.com/item-sets/375670",
+      "checked_on": "2026-11-04",
+      "supersedes_observation_sha256": "9140ef50fdad652e0bdff619a3f668645f4fcad53d8e800edc50539db096ea8c",
+      "classification": "repeated_identical_macro",
+      "macro_selections": [
+        {
+          "slot": "main",
+          "name": "Pukulatmuj +1"
+        },
+        {
+          "slot": "neck",
+          "name": "Nodens Gorget"
+        },
+        {
+          "slot": "ear1",
+          "name": "Earthcry Earring"
+        },
+        {
+          "slot": "hands",
+          "name": "Stone Mufflers"
+        },
+        {
+          "slot": "waist",
+          "name": "Siegel Sash"
+        },
+        {
+          "slot": "legs",
+          "name": "Shedir Seraweels"
+        },
+        {
+          "slot": "legs",
+          "name": "Shedir Seraweels"
+        },
+        {
+          "slot": "head",
+          "name": "Umuthi Hat"
+        }
+      ],
+      "macro_line_count": 8,
+      "occupied_slot_count": 7,
+      "slot_options": {
+        "main": [
+          "Pukulatmuj +1"
+        ],
+        "neck": [
+          "Nodens Gorget"
+        ],
+        "ear1": [
+          "Earthcry Earring"
+        ],
+        "hands": [
+          "Stone Mufflers"
+        ],
+        "waist": [
+          "Siegel Sash"
+        ],
+        "legs": [
+          "Shedir Seraweels"
+        ],
+        "head": [
+          "Umuthi Hat"
+        ]
+      },
+      "duplicate_slots": {
+        "legs": 2
+      },
+      "selected_names": {
+        "main": "Pukulatmuj +1",
+        "neck": "Nodens Gorget",
+        "ear1": "Earthcry Earring",
+        "hands": "Stone Mufflers",
+        "waist": "Siegel Sash",
+        "legs": "Shedir Seraweels",
+        "head": "Umuthi Hat"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo",
+        "ear2",
+        "body",
+        "ring1",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "boundary": "Supersedes the incomplete first capture for repeated slots. All ordered macro lines retained; conflicting names are options, never last-write-wins authorship. Nexus selects equipment independently under its own attribution.",
+      "observation_sha256": "93f4b5c4c005fffabdf3b2c1b7864620aa4e922fa02be00dd0e9134e01973a1b"
+    },
+    {
+      "item_set": 404364,
+      "url": "https://www.ffxiah.com/item-sets/404364",
+      "checked_on": "2026-11-04",
+      "supersedes_observation_sha256": "19c7b5b91a2325745f0253acf044fea2d2badaa53366d720cd214b69db447551",
+      "classification": "conflicting_macro_observation",
+      "macro_selections": [
+        {
+          "slot": "feet",
+          "name": "Malignance Boots"
+        },
+        {
+          "slot": "legs",
+          "name": "Malignance Tights"
+        },
+        {
+          "slot": "hands",
+          "name": "Malignance Gloves"
+        },
+        {
+          "slot": "body",
+          "name": "Malignance Tabard"
+        },
+        {
+          "slot": "head",
+          "name": "Malignance Chapeau"
+        },
+        {
+          "slot": "ammo",
+          "name": "Ginsen"
+        },
+        {
+          "slot": "neck",
+          "name": "Lissome Necklace"
+        },
+        {
+          "slot": "back",
+          "name": "Sucellos's Cape"
+        },
+        {
+          "slot": "waist",
+          "name": "Grunfeld Rope"
+        },
+        {
+          "slot": "waist",
+          "name": "Sailfi Belt +1"
+        },
+        {
+          "slot": "ring1",
+          "name": "Chirich Ring"
+        },
+        {
+          "slot": "ring2",
+          "name": "Chirich Ring"
+        },
+        {
+          "slot": "ear1",
+          "name": "Steelflash Earring"
+        },
+        {
+          "slot": "ear2",
+          "name": "Bladeborn Earring"
+        }
+      ],
+      "macro_line_count": 14,
+      "occupied_slot_count": 13,
+      "slot_options": {
+        "feet": [
+          "Malignance Boots"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "ammo": [
+          "Ginsen"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "back": [
+          "Sucellos's Cape"
+        ],
+        "waist": [
+          "Grunfeld Rope",
+          "Sailfi Belt +1"
+        ],
+        "ring1": [
+          "Chirich Ring"
+        ],
+        "ring2": [
+          "Chirich Ring"
+        ],
+        "ear1": [
+          "Steelflash Earring"
+        ],
+        "ear2": [
+          "Bladeborn Earring"
+        ]
+      },
+      "duplicate_slots": {
+        "waist": 2
+      },
+      "selected_names": {
+        "feet": "Malignance Boots",
+        "legs": "Malignance Tights",
+        "hands": "Malignance Gloves",
+        "body": "Malignance Tabard",
+        "head": "Malignance Chapeau",
+        "ammo": "Ginsen",
+        "neck": "Lissome Necklace",
+        "back": "Sucellos's Cape",
+        "ring1": "Chirich Ring",
+        "ring2": "Chirich Ring",
+        "ear1": "Steelflash Earring",
+        "ear2": "Bladeborn Earring"
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "boundary": "Supersedes the incomplete first capture for repeated slots. All ordered macro lines retained; conflicting names are options, never last-write-wins authorship. Nexus selects equipment independently under its own attribution.",
+      "observation_sha256": "77e8b5c655d294d40d05279008da474e23c90c1ddb3f80931110fa27a264c702"
+    }
+  ]
+}

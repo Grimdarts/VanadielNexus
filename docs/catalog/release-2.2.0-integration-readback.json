@@ -1,0 +1,360 @@
+{
+  "checked_on": "2026-11-05",
+  "checks_passed": 13,
+  "checks": [
+    "All483 baseline backups hash exactly",
+    "Installed executable and addon bytes preserved",
+    "Head, branch and index unchanged",
+    "Candidate and production bytes exactly preserved",
+    "All preserved WorldMap and obsolete hook source bytes unchanged",
+    "All existing files retain own CRLF/LF style",
+    "All WIP test functions retained; only explicit release-side baseline renames allowed",
+    "Actual-resource production validates512effective22jobs27retirements",
+    "Staged executable bytes and bundled resource verified",
+    "Frozen startup opens10release pages and real production512set catalog",
+    "Cloud checklist same ID readback and12new tests confirmed",
+    "All current manual checklist boxes remain unchecked",
+    "git diff --check passes"
+  ],
+  "integration": {
+    "head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+    "release_tip": "260774924c55fe6c9e49cf47bd6330ad7bb96ab4",
+    "baseline_files": 483,
+    "integration": "Release delta applied to existing dirty working tree, no branch/index/ref changes",
+    "entries": [
+      {
+        "path": "README.md",
+        "status": "release bytes",
+        "sha256": "ba403b9613af02da9b6e1551d5d079d0071b139a9ac420626059174b2a5f2d42"
+      },
+      {
+        "path": "docs/USER-GUIDE.md",
+        "status": "release bytes",
+        "sha256": "c876d8f10063e5f136af762a29583c822a7d66e485f0b9574355cc3356989385"
+      },
+      {
+        "path": "docs/guide/addons.png",
+        "status": "release bytes",
+        "sha256": "13ae2161df7007d65d30769bc633ec08bbe29c70276de6a2ea2670978422b70e"
+      },
+      {
+        "path": "docs/guide/gear.png",
+        "status": "release bytes",
+        "sha256": "296ebb688ca5e87dc2613b2a6fdefc031dd7994400b579048d4b9ad784a9f021"
+      },
+      {
+        "path": "docs/guide/guides.png",
+        "status": "release bytes",
+        "sha256": "581bf1ac0e3cf13537cc130bce61ffe859345234f067e52b14d0a99f75622de1"
+      },
+      {
+        "path": "docs/guide/hotkeys.png",
+        "status": "release bytes",
+        "sha256": "606ce7a56b20f38e9e7e9c017a162e9bdd46932bdbb708d978f12d695c76cef0"
+      },
+      {
+        "path": "docs/guide/inventory.png",
+        "status": "release bytes",
+        "sha256": "da2f8612a5cb4a50d37242e85ff843316c7e1ec4cb5865467f70b4989bbde544"
+      },
+      {
+        "path": "docs/guide/map.png",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "docs/guide/sets.png",
+        "status": "release bytes",
+        "sha256": "7c3d25620d9741711295c4ee47d33a7823d428e49fa6d6383302627945cfb354"
+      },
+      {
+        "path": "docs/guide/setup.png",
+        "status": "release bytes",
+        "sha256": "026a585591d3288bcab60f0f0f8d5407281fd4c23a15bc7f3c564d1488f449ef"
+      },
+      {
+        "path": "docs/guide/wishlist.png",
+        "status": "release bytes",
+        "sha256": "18a074b896e8253cdd7444402589a75ef38cdcaceb5562ccd94b3c16529c730d"
+      },
+      {
+        "path": "tests/core/test_data.py",
+        "status": "three-way combined",
+        "sha256": "d638bd3cb9e90c8c4dd44c40f0ed6f12091c1602b2ca036e6ecb188780bfd826"
+      },
+      {
+        "path": "tests/core/test_gearswap_reader.py",
+        "status": "release bytes",
+        "sha256": "ac81a7b91d0314417a2d1afb70ea2701dc435dfaa7dd87bb2a0a3e5e74040018"
+      },
+      {
+        "path": "tests/core/test_gs_worker.py",
+        "status": "three-way combined",
+        "sha256": "6549c4dbd74ee0a5f6105099008da36b79a1ce5da3100ddaad7330db46fe8adc"
+      },
+      {
+        "path": "tests/core/test_item_res.py",
+        "status": "release bytes",
+        "sha256": "1e253c00c19890d2248e59bf20164a14c7c2bb7d9d4e290997679b3fc5f4d08d"
+      },
+      {
+        "path": "tests/core/test_world_map.py",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "tests/ui/test_edit_file.py",
+        "status": "release bytes",
+        "sha256": "25a0babc433fff3dd2be56e0fb5444f2329e35de2b61cc3bd22e04b50e6420b4"
+      },
+      {
+        "path": "tests/ui/test_guide_controls.py",
+        "status": "conflict",
+        "artifact": ".t7-release-integration-checks\\merge\\tests\\ui\\test_guide_controls.py.conflict"
+      },
+      {
+        "path": "tests/ui/test_layout.py",
+        "status": "release bytes",
+        "sha256": "c61b22637fb69fdd85a6f733c328052afd397c51893ee0da384d17c916e6510d"
+      },
+      {
+        "path": "tests/ui/test_sets_page.py",
+        "status": "three-way combined",
+        "sha256": "40aea7c75171403ce9fc9d1e8f42f1e519b0af09c9f3999f33366995107fc54b"
+      },
+      {
+        "path": "tests/ui/test_smoke.py",
+        "status": "release bytes",
+        "sha256": "66440ac0e1dacf3d5625bc943dd7e8b271f810161bc2a7aac0e1a31091b9912f"
+      },
+      {
+        "path": "tests/ui/test_wishlist_suggestions.py",
+        "status": "release bytes",
+        "sha256": "75c30385f6c8c57cf204267d8403d8cd059d0322ad99c2966684a8eac6c375cd"
+      },
+      {
+        "path": "tests/ui/test_world_map_page.py",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "vanadiel_nexus/core/gearswap_reader.py",
+        "status": "three-way combined",
+        "sha256": "39f78de97062a922351340fab5c1a9df5712874aca4cc3b02ca07b7e45127cd3"
+      },
+      {
+        "path": "vanadiel_nexus/core/item_res.py",
+        "status": "three-way combined",
+        "sha256": "d25f07224eae8330bbced2b31d5d688e47f7396989d8809d290e96b320d5fb84"
+      },
+      {
+        "path": "vanadiel_nexus/core/wiki.py",
+        "status": "three-way combined",
+        "sha256": "62eb395e40212c58de79d963605ed78f3b4d4e41035d2492537e744e92a5f190"
+      },
+      {
+        "path": "vanadiel_nexus/core/world_map.py",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "vanadiel_nexus/core/world_map_export.py",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "vanadiel_nexus/resources/Mote_Nexus_Hook.lua",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      },
+      {
+        "path": "vanadiel_nexus/resources/VanadielNexus.lua",
+        "status": "release bytes",
+        "sha256": "7d126ad4d8daf9ccb84b6816357aa87f16f8de6695762d30e60c9d79a1889f14"
+      },
+      {
+        "path": "vanadiel_nexus/resources/default_database.json",
+        "status": "three-way combined",
+        "sha256": "63c7ee21eb2b8e4f54ab5d03adbd514f700c45f3919ae7bcbc72da5f26282b02"
+      },
+      {
+        "path": "vanadiel_nexus/ui/context.py",
+        "status": "three-way combined",
+        "sha256": "311db1f24b6cb9972e4efc48aee2f918f0bbfb68f4f304c91a52b30154e600b5"
+      },
+      {
+        "path": "vanadiel_nexus/ui/layout_manager.py",
+        "status": "release bytes",
+        "sha256": "fbe783f2f94060ce35f5cbcbee49141880e8c7f306bfdadcf86b44e1ec31cbd3"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/guides.py",
+        "status": "three-way combined",
+        "sha256": "7c51c9a9aa0452f16f1597530adc64a067f89dcd279a6db240a67a38b4cb2f7e"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/hotkeys.py",
+        "status": "three-way combined",
+        "sha256": "dfd7f1d86b3302c9a5ac68ec2fac8d474b619eb0b9f4fb35eec017e02153b056"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/layout.py",
+        "status": "release bytes",
+        "sha256": "4e82eb2d39d6028b08f58495ac603e3c3aac56e588ae2b1ba1902367f0a5468e"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/sets.py",
+        "status": "three-way combined",
+        "sha256": "4deeba6624f667aac4aed7fbdd66a05933bace64534ccaba2e28b71400daba5c"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/wishlist.py",
+        "status": "release bytes",
+        "sha256": "377b87daf7628bc4808e22616468ea9282e8ac33eda06c2d9d4c8c4436ff7cbb"
+      },
+      {
+        "path": "vanadiel_nexus/ui/pages/world_map.py",
+        "status": "preserved/excluded",
+        "reason": "WorldMap deferred or obsolete Mote hook preserved in source, excluded from release packaging"
+      }
+    ]
+  },
+  "validation": {
+    "focused-native": {
+      "passed": 1002,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "144.02s (0:02:24)",
+      "log_sha256": "1ae34bb3f5a99c88b84b67ce001d8e34feb51ba25f2fb059a6512cf99db077c9"
+    },
+    "full-native": {
+      "passed": 1571,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "162.41s (0:02:42)",
+      "log_sha256": "d6f8e8e1dceaef10db886dedf1a172177fa795086d3a417e619a49e6298bc5a2"
+    }
+  },
+  "frozen": {
+    "executable": "C:\\Users\\Jason\\Games\\VanadielNexus\\.t7-release-integration-checks\\dist\\VanadielNexus.exe",
+    "sha256": "979e3a8d435f5fc275b3e3297e059d9156559c7d7c16a57d6c184189aaa466dd",
+    "bytes": 45470252,
+    "production_resource_sha256": "fa24c857b90cf6cf1db6a03b26fb99d2da9ec605e84d31219c76054945a586f1",
+    "world_map_and_mote_hook_excluded": true,
+    "required_guide_modules_present": true,
+    "startup": {
+      "ok": true,
+      "version": "2.2.0",
+      "pyside": "6.12.0",
+      "pages": [
+        "gear",
+        "sets",
+        "wishlist",
+        "inventory",
+        "addons",
+        "layout",
+        "hotkeys",
+        "guides",
+        "g13",
+        "settings"
+      ],
+      "spawn": {
+        "ok": true,
+        "seconds": 0.27,
+        "error": ""
+      },
+      "guide_catalog": {
+        "ok": true,
+        "error": null,
+        "schema": 2,
+        "sets": 512,
+        "revisions": 539,
+        "retired": 27
+      }
+    },
+    "protected_installed_files_unchanged": true
+  },
+  "checklist": {
+    "verified": true,
+    "file_id": "1oJH-Xlki_H5_iztOxPVJoEMCwZwHPYVe",
+    "url": "https://drive.google.com/file/d/1oJH-Xlki_H5_iztOxPVJoEMCwZwHPYVe/view?usp=drivesdk",
+    "title": "VanadielNexus - Test Checklist and Status (2026-11-04).md",
+    "modified_time": "2026-11-06T01:32:33.347Z",
+    "normalized_content_matches_uploaded_file": true,
+    "parent_ids": [
+      "1tfgGRJnpLY1JqcMG_TTmUuq59gG09E6U"
+    ],
+    "added_tests": 12
+  },
+  "checklist_delta": {
+    "file_id": "1oJH-Xlki_H5_iztOxPVJoEMCwZwHPYVe",
+    "added_test_ids": [
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26",
+      "A27"
+    ],
+    "retained_existing_checkbox_states": true,
+    "world_map_deferred_ids": [
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "prior_sha256": "f149fd98f613a9dfd4fdfdec99ae7eef6954c0ff4a9925e4a4db2cb669e33221",
+    "updated_sha256": "63cc9250ccfdd774440b32734ac2a2fcecf5c24b7876170dadc08b1f2681ee89",
+    "focused": {
+      "passed": 1002,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "144.02s (0:02:24)"
+    },
+    "full": {
+      "passed": 1571,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "162.41s (0:02:42)"
+    }
+  },
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/PRE-RELEASE-CHECKLIST-PENDING.md",
+    "tests/core/test_data.py",
+    "tests/core/test_gearswap_reader.py",
+    "tests/core/test_gs_worker.py",
+    "tests/core/test_item_res.py",
+    "tests/ui/test_guide_controls.py",
+    "tests/ui/test_layout.py",
+    "tests/ui/test_sets_page.py",
+    "tests/ui/test_smoke.py",
+    "tools/check_frozen.py",
+    "vanadiel_nexus/__main__.py",
+    "vanadiel_nexus/core/gearswap_reader.py",
+    "vanadiel_nexus/core/item_res.py",
+    "vanadiel_nexus/core/wiki.py",
+    "vanadiel_nexus/resources/default_database.json",
+    "vanadiel_nexus/resources/VanadielNexus.lua",
+    "vanadiel_nexus/ui/context.py",
+    "vanadiel_nexus/ui/layout_manager.py",
+    "vanadiel_nexus/ui/main_window.py",
+    "vanadiel_nexus/ui/pages/guides.py",
+    "vanadiel_nexus/ui/pages/hotkeys.py",
+    "vanadiel_nexus/ui/pages/layout.py",
+    "vanadiel_nexus/ui/pages/sets.py",
+    "vanadiel_nexus/ui/pages/wishlist.py",
+    "README.md",
+    "VanadielNexus.spec"
+  ],
+  "new_test": "tests/core/test_release_integration.py",
+  "installed_files_unchanged": true,
+  "limits": "Staged source/frozen evidence only. No installed app/addon swap, game command, live/human acceptance, ref/index/commit/push/release. All declared gear limits and BG access boundary remain open."
+}

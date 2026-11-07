@@ -1,0 +1,536 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "title": "Finans Utsusemi precast",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Sapience Orb",
+        "head": "Herculean Helm",
+        "neck": "Magoraga Beads",
+        "ear1": "Loquac. Earring",
+        "ear2": "Enchntr. Earring +1",
+        "body": "Adhemar Jacket +1",
+        "hands": "Leyline Gloves",
+        "ring1": "Prolix Ring",
+        "ring2": "Kishar Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Herculean Trousers",
+        "feet": "Herculean Boots"
+      },
+      "notes": "Herculean head/legs/feet FC6, Adhemar D, cape FC10. No full cape stat magnitudes given. Source preamble max augments/ML50; not a Nexus assumption.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "259b5f6e911371697599f2fe58d8559e9feb480c16b9eefd61218b005628dc15"
+    },
+    {
+      "title": "Finans Enhancing Ninjutsu",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Staunch Tathlum +1",
+        "head": "Null Masque",
+        "neck": "Loricate Torque +1",
+        "ear1": "Magnetic Earring",
+        "ear2": "Alabaster Earring",
+        "body": "Adamantite Armor",
+        "hands": "Mochi. Tekko +4",
+        "ring1": "Evanescence Ring",
+        "ring2": "Murky Ring",
+        "back": "Null Shawl",
+        "waist": "Audumbla Sash",
+        "legs": "Nyame Flanchard",
+        "feet": "Hattori Kyahan +2"
+      },
+      "notes": "Omitted hands/range. Enhancing utility does not establish enfeebling/potency/burst or an interruption cap. Nexus replaces body/earrings/rings/belt and exact weapons explicitly.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "e354580e9e1fe17fd4f096bd49b80d51a33ace66b1b7e8bcbfeede3fd71fa12b"
+    },
+    {
+      "title": "Finans Utsusemi",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Sapience Orb",
+        "head": "Herculean Helm",
+        "neck": "Orunmila's Torque",
+        "ear1": "Loquac. Earring",
+        "ear2": "Enchntr. Earring +1",
+        "body": "Adhemar Jacket +1",
+        "hands": "Mochi. Tekko +4",
+        "ring1": "Prolix Ring",
+        "ring2": "Kishar Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Herculean Trousers",
+        "feet": "Hattori Kyahan +3"
+      },
+      "notes": "FC56 is source label only. Leyline offered as alternate hands. Head/legs FC6, Adhemar D, cape FC10. Nexus relic body/Beads retained and separate defensive completion snapshot authored.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "41ced8c2b8ddeb3d891e1ddf1f224b98d60e2bc47fc571da10140edc0cfeb13f"
+    },
+    {
+      "title": "Finans Enfeebling",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Yamarang",
+        "head": "Hachi. Hatsu. +4",
+        "neck": "Null Loop",
+        "ear1": "Alabaster Earring",
+        "ear2": "Hattori Earring +1",
+        "body": "Hachi. Chain. +4",
+        "hands": "Hachiya Tekko +4",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Null Shawl",
+        "waist": "Null Belt",
+        "legs": "Hachiya Hakama +4",
+        "feet": "Hachiya Kyahan +4"
+      },
+      "notes": "Two physical Stikini copies. Weapons omitted; generic placeholders never establish a weapon pair. Right-ear Hattori condition and earring augments separate.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "7474794222ffa203f28967a7a997995a91a1b9e51623eb57d081610203e8d900"
+    },
+    {
+      "title": "Finans Elemental potency",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Mochi. Hatsu. +4",
+        "neck": "Sibyl Scarf",
+        "ear1": "Crematio Earring",
+        "ear2": "Friomisi Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Metamor. Ring +1",
+        "ring2": "Dingir Ring",
+        "back": "Null Shawl",
+        "waist": "Skrymir Cord +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Mochi. Kyahan +4"
+      },
+      "notes": "Nyame B/max augments/ML50 source preamble. Waist priority is matching Hachirin then Orpheus then Skrymir above8 yalms; Nexus unconditional base Skrymir checkpoint is separately authored. Sibyl citizenship Refresh not credited.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "ea16be8505564cbb7edbcf6b078e4c669991b0ca57ccd32763d698a2878d874a"
+    },
+    {
+      "title": "Finans Elemental burst",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Mochi. Hatsu. +4",
+        "neck": "Sibyl Scarf",
+        "ear1": "Crematio Earring",
+        "ear2": "Friomisi Earring",
+        "body": "Nyame Mail",
+        "hands": "Hattori Tekko +3",
+        "ring1": "Metamor. Ring +1",
+        "ring2": "Mujin Band",
+        "back": "Null Shawl",
+        "waist": "Skrymir Cord +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Mochi. Kyahan +4"
+      },
+      "notes": "Guide separately says Hattori hands with Futae. Compatible skillchain/timing/tools are not supplied by equipment. No max MB total imported.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "occupied_slot_count": 13,
+      "observation_sha256": "1da2fd07808ce849af12a50494cfb7d78cce10681bbbec94b224f5204ca1b210"
+    },
+    {
+      "title": "Finans Katana TP Mid DT",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Seki Shuriken",
+        "head": "Mpaca's Cap",
+        "neck": "Ninja Nodowa +2",
+        "ear1": "Alabaster Earring",
+        "ear2": "Dedition Earring",
+        "body": "Mpaca's Doublet",
+        "hands": "Adhemar Wrist. +1",
+        "ring1": "Epona's Ring",
+        "ring2": "Gere Ring",
+        "back": "Null Shawl",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Ryuo Hakama +1",
+        "feet": "Tatena. Sune. +1"
+      },
+      "notes": "Adhemar C/Ryuo D. Source time2.384s and32DT+5PDT not adopted; assumes Sam Roll XI, haste/accuracy caps and ML50/max augments. Nexus uses Malignance/base neck/belt/earring substitutions.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "6c6faa03ecebef2747739b5ef737f636e6fe6ac53c2bb72d462d45cae9627a66"
+    },
+    {
+      "title": "Finans Katana TP Full DT",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Seki Shuriken",
+        "head": "Mpaca's Cap",
+        "neck": "Ninja Nodowa +2",
+        "ear1": "Alabaster Earring",
+        "ear2": "Dedition Earring",
+        "body": "Mpaca's Doublet",
+        "hands": "Malignance Gloves",
+        "ring1": "Epona's Ring",
+        "ring2": "Gere Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Mpaca's Hose",
+        "feet": "Malignance Boots"
+      },
+      "notes": "Source cape DEX/DA/PDT10 without full magnitudes;24DT+26PDT/time2.595s not copied. Nexus DT cape instead declares exact DEX20/10,DA10,DT5 and different armor/ring.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "ab81592e10c3af9208fb648586fe1596391ef30db6568c184adb2d610b1cad41"
+    },
+    {
+      "title": "Finans TP Migawari",
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Seki Shuriken",
+        "head": "Mpaca's Cap",
+        "neck": "Ninja Nodowa +2",
+        "ear1": "Alabaster Earring",
+        "ear2": "Dedition Earring",
+        "body": "Hattori Ningi +3",
+        "hands": "Malignance Gloves",
+        "ring1": "Gere Ring",
+        "ring2": "Epona's Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Windbuffet Belt +1",
+        "legs": "Malignance Tights",
+        "feet": "Malignance Boots"
+      },
+      "notes": "Hattori body/cape distinguish Migawari utility. Source34DT+17PDT/time2.717s not adopted. No capped protection inferred.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "9c880f6538d41027e1d775febde0195aa42378931a4f2569dfaa9d7e284b60ed"
+    },
+    {
+      "title": "772448 Shun mid",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Yagyu Darkblade",
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Revelation Masque",
+        "neck": "Fotia Gorget",
+        "ear1": "Moonshade Earring",
+        "ear2": "Hattori Earring +1",
+        "body": "Revelation Plate.",
+        "hands": "Revelation Gaunt.",
+        "ring1": "Gere Ring",
+        "ring2": "Regal Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Fotia Belt",
+        "legs": "Mpaca's Hose",
+        "feet": "Revelation Sab."
+      },
+      "notes": "ML30 NIN/WAR1200TP; generic DEX/DA cape, no decoded magnitudes. R30 modern gear and modeled damage are not copied.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "adbfa3c5c9cb4c3d3e244dff3e0388ab04d50dce90ae1534290cee645a0da2e5"
+    },
+    {
+      "title": "772448 Ten mid",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Seeth. Bomblet +1",
+        "head": "Mpaca's Cap",
+        "neck": "Rep. Plat. Medal",
+        "ear1": "Moonshade Earring",
+        "ear2": "Hoxne Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Gere Ring",
+        "ring2": "Regal Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Hattori Kyahan +3"
+      },
+      "notes": "ML30 NIN/WAR1800TP; Hoxne MasteryRank7; STR/WSD cape unspecified magnitudes. Nexus fixed replacements explicit.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "ae872cec6979f0b2aa25a2af514c8c5f1f6d4bdf9aa553330380989324233930"
+    },
+    {
+      "title": "772448 Ten high",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Crepuscular Pebble",
+        "head": "Hachi. Hatsu. +4",
+        "neck": "Ninja Nodowa +2",
+        "ear1": "Moonshade Earring",
+        "ear2": "Hattori Earring +1",
+        "body": "Revelation Plate.",
+        "hands": "Revelation Gaunt.",
+        "ring1": "Sroda Ring",
+        "ring2": "Epaminondas's Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Hattori Kyahan +3"
+      },
+      "notes": "High-buff modeled attack/PDL context, not universal cap or minimum requirements. No direct high-buff Nexus composition claimed.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "3d83f3d97ca361d2d2eb9c861176349c846838b5df97aebe3ffb50008c574367"
+    },
+    {
+      "title": "772448 hybrid mid",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Heishi Shorinken",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Seeth. Bomblet +1",
+        "head": "Mochi. Hatsu. +4",
+        "neck": "Fotia Gorget",
+        "ear1": "Moonshade Earring",
+        "ear2": "Hoxne Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Epaminondas's Ring",
+        "ring2": "Gere Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Orpheus's Sash",
+        "legs": "Nyame Flanchard",
+        "feet": "Nyame Sollerets"
+      },
+      "notes": "ML30 NIN/WAR1800TP. STR/WSD cape summary. Nexus Skrymir/Friomisi/Regal and exact STR/magic cape are authored substitutions; no Orpheus distance assumed.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "cb234027be0301d8e4a53100ac6feba094dc0db429b18b43a8655fee8af91de2"
+    },
+    {
+      "title": "772448 free nuke",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Gokotai",
+        "sub": "Tauret",
+        "range": null,
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Mochi. Hatsu. +4",
+        "neck": "Sibyl Scarf",
+        "ear1": "Hoxne Earring",
+        "ear2": "Friomisi Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Metamor. Ring +1",
+        "ring2": "Dingir Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Orpheus's Sash",
+        "legs": "Nyame Flanchard",
+        "feet": "Mochi. Kyahan +4"
+      },
+      "notes": "Modeled Suiton San vs100% Resist Rank;5/5 magic-attack merits; ML30 NIN/WAR; Gyve excluded for zero macc. INT/MAB cape magnitudes absent; Nexus Kunimitsu casting offhand differs.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "219c735e31be60c3af88de1fdac2e19ba298cd349f839fdb67b6c7cd2e600a36"
+    },
+    {
+      "title": "772448 burst",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Gokotai",
+        "sub": "Kunimitsu",
+        "range": null,
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Mochi. Hatsu. +4",
+        "neck": "Sibyl Scarf",
+        "ear1": "Hoxne Earring",
+        "ear2": "Friomisi Earring",
+        "body": "Nyame Mail",
+        "hands": "Hattori Tekko +3",
+        "ring1": "Metamor. Ring +1",
+        "ring2": "Mujin Band",
+        "back": "Andartia's Mantle",
+        "waist": "Orpheus's Sash",
+        "legs": "Nyame Flanchard",
+        "feet": "Mochi. Kyahan +4"
+      },
+      "notes": "Same Suiton/San/merit/model conditions. Separate Futae table selects same hands; no modeled numbers or MB cap adopted.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "6c96dde6cf8181fc634803c9922385cb317825c30ea4d4b1e967e6a287613928"
+    },
+    {
+      "title": "772448 Savage Hitaki conflict",
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "grid": {
+        "main": "Naegling",
+        "sub": "Hitaki",
+        "range": null,
+        "ammo": "Seeth. Bomblet +1",
+        "head": "Hachi. Hatsu. +4",
+        "neck": "Rep. Plat. Medal",
+        "ear1": "Moonshade Earring",
+        "ear2": "Hoxne Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Beithir Ring",
+        "ring2": "Regal Ring",
+        "back": "Andartia's Mantle",
+        "waist": "Sailfi Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Hattori Kyahan +3"
+      },
+      "notes": "Displayed Hitaki contradicts blanket intro exclusion. Also Aeolian table uses Hitaki. Preserve conflict; neither selected in this batch; no blanket current-best offhand inferred.",
+      "representation": "Manual structured transcription of original rendered Chrome equipment grid; not raw HTML. Category placeholders recorded as null, not intentional empty.",
+      "omitted_slots": [
+        "range"
+      ],
+      "occupied_slot_count": 15,
+      "observation_sha256": "a40c59f86243866ca5fcac22d5e2e28ff4a7ba8bee3a52f8004be14ad0175ef3"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/35",
+      "title": "Retired original node35",
+      "currency": "retired",
+      "observation": "Internal gear May2020, retirement2021, footer June23 2021. Retains DW/haste distinctions, physical/hybrid/magical WS and precast/enfeebling/nuke/burst/defensive tool roles. No old targets removed or promoted to current.",
+      "observation_sha256": "4fdeb2fdaf121c3c1cc0033fcb58fca461119e51d41b3445d744d7a9f96a0bd8"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Ninja&oldid=772448",
+      "title": "Revision772448 verified through normal article",
+      "observation": "Normal /ffxi route read in Chrome; permanent link confirms772448 and July13 2026. Now includes ninjutsu and TP examples beyond WS; earlier narrow evidence summary was incomplete. Generic cape labels do not give exact rolls. Blanket Hitaki exclusion conflicts with selected Savage/Aeolian Hitaki cells. Current rank/model recommendations remain opinion.",
+      "observation_sha256": "7ca8507d4852ef311e2c2d12712a64fef48b472815358cdb249999b56a089715"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets",
+      "title": "Model parent",
+      "observation": "Automated damage-model output, synthetic target and buff assumptions, not measured gameplay. Mid support food/WHM songs+7 COR+7; high adds Marcato/GEO+10 Fury/Frailty with BoG. Odyssey R30, NyameR25B, LimbusR30, HoxneMastery7; no R30 Nyame, +2 Sortie ears or stage5 prime. No model code imported.",
+      "target": {
+        "evasion": 1350,
+        "defense": 1500,
+        "VIT": 340,
+        "AGI": 340,
+        "INT": 280,
+        "MND": 280
+      },
+      "mid": {
+        "food": "Grape Daifuku",
+        "whm": "Haste/Shell5/Dia2+Light Shot",
+        "brd": "Songs+7 Honor/Victory March,Minuet5/4",
+        "cor": "Rolls+7 with job bonuses;10 Chaos Crooked,9 Samurai"
+      },
+      "high": "Same plus Marcato Honor March and GEO+10 Fury/Frailty BoG20%",
+      "observation_sha256": "d453dc93dc00ff95b278ab644f5cb2e0e93a41954d0d85ae27c300bb6607ae5a"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Finans_Gearset_Guides/Ninja&oldid=780098",
+      "title": "Finans current780098",
+      "observation": "Footer October1 2026; personal tested sets, max augments/ML50 and NyameB. TP times assume SamRollXI/haste/accuracy cap. Exact omissions/alternate paths retained. No explicit DT Idle/Refresh Idle grid; independently authored base-defense/MP recovery targets use public cards.",
+      "observation_sha256": "a99a3a02e5f8d40caa1961ac4a546ba2c73a0453cb34d5a76b223af97f9aa00e"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/33470/the-sealed-dagger-a-ninja-guide/270/",
+      "title": "Contemporary March2026 discussion",
+      "observation": "Zeta March27 separates haste/DW overlays and actual weakened/debuffed context; aliases omit exact levels/augments/hands, not executable source. Hoxne sacrifices Daken; Hitaki/overflow depends on WS and accuracy. Opinions not imported as caps/automatic switching. No public or player Lua executed.",
+      "observation_sha256": "32f4d551f4b0525d81e20bbe3f3b9b07ffbf5d65da89d785f1e9e620b637bcd7"
+    },
+    {
+      "url": "https://github.com/NextGames2000/Spreadsheets",
+      "title": "Linked historical research lead",
+      "observation": "Node35 links this repository; no spreadsheet code/numeric rules imported or independently certified.",
+      "observation_sha256": "5fe6280685bbaa60b73cde983f230c1ffc31437d307764028ebd8832716fa7f5"
+    }
+  ],
+  "access": "Reader failures recovered through ordinary Chrome normal /ffxi routes. Direct php revision772448 remained security verification; normal article permanent link confirms same revision. No security bypass. Manual transcriptions/paraphrases, not raw HTML."
+}

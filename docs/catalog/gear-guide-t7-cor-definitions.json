@@ -1,0 +1,4173 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes sparse357016 with fixed base Nyame hands/accessories and exact sword/shield/gun/ammo. No absorb proc, Shell, cape augment or capped defense.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Disengaged; no roll or aftermath credited"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26794,
+          "name": "Rawhide Mask",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 27856,
+          "name": "Mekosu. Harness",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus useful MP-subjob completion of357015. Two physical Stikini+1 copies, base Rawhide mask/Mekosu Refresh; base Nyame legs deliberately replaces source PathD Rawhide. Sphere is separate from wearer Refresh; no net recovery total.",
+      "context": {
+        "job": "COR99/WHM49",
+        "dual_wield": false,
+        "action": "Disengaged with recoverable MP and actually usable WHM spells; no ML-only CuragaIII or self-cast Refresh assumed"
+      }
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26027,
+          "name": "Iskur Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus protective Malignance substitution for random/path-dependent356867. No title-derived haste requirement, source x-hit or DPS benchmark imported.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "action": "Melee autoattack Naegling main/Tauret sub; Tauret main-hand Evisceration property not active",
+        "haste": "Haste II active from external caster; no March, Samba, Embrava or other haste. No magic/gear haste or delay reduction cap asserted; no optimal DW amount inferred"
+      }
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus separate defensive neck/ring swaps; no capped DT or Shell assumed.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "action": "Melee autoattack Naegling main/Tauret sub; Tauret main-hand Evisceration property not active",
+        "haste": "Haste II active from external caster; no March, Samba, Embrava or other haste. No magic/gear haste or delay reduction cap asserted; no optimal DW amount inferred"
+      }
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26015,
+          "name": "Combatant's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus accuracy alternative drawing356886; two actual Chirich copies; no fixed target/hit-rate or source Rostam/Demersal paths inherited.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "action": "Melee autoattack Naegling main/Tauret sub; Tauret main-hand Evisceration property not active",
+        "haste": "Haste II active from external caster; no March, Samba, Embrava or other haste. No magic/gear haste or delay reduction cap asserted; no optimal DW amount inferred"
+      }
+    },
+    {
+      "key": "ranged-normal",
+      "target": "Ranged Normal",
+      "purpose": "Ranged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23755,
+          "name": "Ikenga's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26027,
+          "name": "Iskur Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23769,
+          "name": "Ikenga's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Rng.Acc.+20 Rng.Atk.+20",
+              "AGI+10",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28411,
+          "name": "Yemaya Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23637,
+          "name": "Chas. Culottes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23783,
+          "name": "Ikenga's Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus complete356894 with Naegling/sword-shield and exact unaugmented Fomalhaut; no RostamA or Ikenga rank assumptions.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal physical ranged attack completion against hostile target; sufficient disposable Chrono Bullets; not a WS",
+        "triple_shot": "Inactive",
+        "distance": "Actual target distance/visibility and enmity safety must be checked; no True Shot optimum or fixed x-hit threshold"
+      }
+    },
+    {
+      "key": "ranged-accuracy",
+      "target": "Ranged Accuracy",
+      "purpose": "Ranged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23755,
+          "name": "Ikenga's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23769,
+          "name": "Ikenga's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Rng.Acc.+20 Rng.Atk.+20",
+              "AGI+10",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26338,
+          "name": "K. Kachina Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23637,
+          "name": "Chas. Culottes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23783,
+          "name": "Ikenga's Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus RAcc substitutions and two Chirich copies; target evasion unknown, melee accuracy not substituted for RAcc.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal physical ranged attack completion against hostile target; sufficient disposable Chrono Bullets; not a WS",
+        "triple_shot": "Inactive",
+        "distance": "Actual target distance/visibility and enmity safety must be checked; no True Shot optimum or fixed x-hit threshold"
+      }
+    },
+    {
+      "key": "ranged-triple-shot",
+      "target": "Ranged Triple Shot",
+      "purpose": "Ranged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25550,
+          "name": "Oshosi Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26027,
+          "name": "Iskur Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23503,
+          "name": "Chasseur's Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23548,
+          "name": "Lanun Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Rng.Acc.+20 Rng.Atk.+20",
+              "AGI+10",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28411,
+          "name": "Yemaya Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25890,
+          "name": "Osh. Trousers +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25957,
+          "name": "Osh. Leggings +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes sparse356892 within ranged completion snapshot; TS active required, occasional Quad Shot separate. No proc total or guaranteed WS after each shot.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal physical ranged attack completion against hostile target; sufficient disposable Chrono Bullets; not a WS",
+        "triple_shot": "Actually active Triple Shot; sufficient bullets for multi-shot/occasional Quad Shot. Equipment does not grant TS or extend it to WS",
+        "distance": "Actual target distance/visibility and enmity safety must be checked; no True Shot optimum or fixed x-hit threshold"
+      }
+    },
+    {
+      "key": "last-stand",
+      "target": "Last Stand",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23570,
+          "name": "Chasseur's Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Rng.Acc.+20 Rng.Atk.+20",
+              "AGI+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Fomalhaut checkpoint for357137/BG772442. Original grid Earp has no stage; not adopted. BG mid STR cape versus high AGI is preserved; explicit AGI/RAcc/WSD cape is Nexus choice. No capped RAcc/RAtt.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Usable Last Stand from equipped exact Fomalhaut; actual1000+TP and sufficient Chrono bullets; physical two-hit ranged WS",
+        "triple_shot": "Does not apply to WS; inactive",
+        "aftermath": "Inactive before snapshot; no resulting Aeonic AM/Ultimate Skillchain effect modeled"
+      }
+    },
+    {
+      "key": "savage-blade",
+      "target": "Savage Blade",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23570,
+          "name": "Chasseur's Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Nexus Naegling MAIN/Tauret SUB preserves356928 reversed source order as conflict. Fomalhaut replaces Ataktos deliberately; its TP bonus is ranged-WS-only, never credited to Savage. No Bayeux source access or TP-bonus gun assumed.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "action": "Actually usable Savage Blade from Naegling main with1000+actualTP; no mythic/empyrean/prime AM"
+      }
+    },
+    {
+      "key": "evisceration",
+      "target": "Evisceration",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26108,
+          "name": "Odr Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26172,
+          "name": "Begrudging Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "Crit.hit rate+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Tauret MAIN/Naegling SUB with protective base Malignance instead of source356929 random/ranked pieces. Actual Tauret main-hand Evisceration property; no source damage optimum.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "action": "Usable Evisceration from main Tauret and1000+actualTP; physical dagger critical multi-hit, no Fomalhaut TP bonus applied"
+      }
+    },
+    {
+      "key": "leaden-salute",
+      "target": "Leaden Salute",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26357,
+          "name": "Skrymir Cord +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Fomalhaut/Chrono substitution for357347 DeathPenalty/Living. Dark-affinity hairpin/ring scope preserved; no mythic stage or damage benchmark.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "aftermath": "Inactive; exact Fomalhaut21485 no rank; no Death Penalty Leaden boost or Armageddon AM/Wildfire boost transferred",
+        "magic": "No day/weather/shot bonus, affinity proc, food, songs, rolls or geomancy assumed; target resistance and actual distance unknown",
+        "action": "Leaden Salute permanently unlocked by applicable quest/weapon route and usable1000+actualTP; dark magical ranged WS; sufficient Chrono bullets"
+      }
+    },
+    {
+      "key": "wildfire",
+      "target": "Wildfire",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28517,
+          "name": "Crematio Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26357,
+          "name": "Skrymir Cord +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Fomalhaut/Chrono substitution for357491 Armageddon/Living; no overflow benefit, AM or fire-shot bonus inferred. Literal AGI/WSD cape separately selected.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "aftermath": "Inactive; exact Fomalhaut21485 no rank; no Death Penalty Leaden boost or Armageddon AM/Wildfire boost transferred",
+        "magic": "No day/weather/shot bonus, affinity proc, food, songs, rolls or geomancy assumed; target resistance and actual distance unknown",
+        "action": "Wildfire permanently unlocked and actually usable1000+actualTP; fire magical ranged WS; sufficient Chrono bullets"
+      }
+    },
+    {
+      "key": "hot-shot",
+      "target": "Hot Shot",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus392957/BG772442 hybrid snapshot. Fomalhaut/Chrono and AGI cape deliberately selected; source BG mid STR/highAGI labels preserved. Physical accuracy and fire resistance distinct, no damage cap.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "aftermath": "Inactive; exact Fomalhaut21485 no rank; no Death Penalty Leaden boost or Armageddon AM/Wildfire boost transferred",
+        "magic": "No day/weather/shot bonus, affinity proc, food, songs, rolls or geomancy assumed; target resistance and actual distance unknown",
+        "action": "Actually usable Hot Shot with sufficient Marksmanship skill and1000+actualTP; physical plus fire hybrid ranged WS; sufficient Chrono bullets"
+      }
+    },
+    {
+      "key": "aeolian-edge",
+      "target": "Aeolian Edge",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26357,
+          "name": "Skrymir Cord +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes356974 with Tauret main/Naegling sub and Fomalhaut/Chrono replacing Ataktos/Hauksbok, Skrymir replaces distance-dependent Orpheus; no gun TP bonus applied to dagger WS.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "aftermath": "Inactive; exact Fomalhaut21485 no rank; no Death Penalty Leaden boost or Armageddon AM/Wildfire boost transferred",
+        "magic": "No day/weather/shot bonus, affinity proc, food, songs, rolls or geomancy assumed; target resistance and actual distance unknown",
+        "action": "Actually usable Aeolian Edge, sufficient dagger skill and1000+actualTP; wind magical AoE against susceptible targets; no guaranteed skillchain"
+      }
+    },
+    {
+      "key": "roll-initial",
+      "target": "Roll Initial",
+      "purpose": "Support",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21482,
+          "name": "Compensator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23414,
+          "name": "Lanun Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26038,
+          "name": "Regal Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23570,
+          "name": "Chasseur's Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 15810,
+          "name": "Luzaf's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes sparse355063 with Naegling/shield/Nyame; avoids RostamC/Desultor augment prerequisites. Ammo deliberately empty for roll-only Compensator snapshot.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "recipient": "Self and intended party members actually within Luzaf-extended AoE; same-zone relevant job presence separately checked. No alliance-wide or retroactive job bonus assumed",
+        "roll_effects": "Regal+7 is sole selected roll+n effect; only highest roll+n applies. Separate duration, job bonus, lucky/unlucky result, XI/Bust and Crooked Cards contexts; no total/cap/duration calculated",
+        "merits": "Winning Streak/Loaded Deck/other merits and JP unknown, no max bonuses assumed",
+        "transitions": "Compensator swap changes ranged weapon/TP/aftermath; establish before rolling, no automatic safety or runtime behavior",
+        "action": "Learned usable Chaos Roll or Samurai Roll initial application; sufficient roll slots/recast; actual result and DRK/SAM job bonus separately observed; Crooked Cards inactive"
+      }
+    },
+    {
+      "key": "roll-double-up",
+      "target": "Roll Double Up",
+      "purpose": "Support",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21482,
+          "name": "Compensator",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "empty"
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23414,
+          "name": "Lanun Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26038,
+          "name": "Regal Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23570,
+          "name": "Chasseur's Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 15810,
+          "name": "Luzaf's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Separate Double-Up snapshot with same potency gear; not a second initial roll. No guarantee of lucky/XI or immunity to Bust.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "recipient": "Self and intended party members actually within Luzaf-extended AoE; same-zone relevant job presence separately checked. No alliance-wide or retroactive job bonus assumed",
+        "roll_effects": "Regal+7 is sole selected roll+n effect; only highest roll+n applies. Separate duration, job bonus, lucky/unlucky result, XI/Bust and Crooked Cards contexts; no total/cap/duration calculated",
+        "merits": "Winning Streak/Loaded Deck/other merits and JP unknown, no max bonuses assumed",
+        "transitions": "Compensator swap changes ranged weapon/TP/aftermath; establish before rolling, no automatic safety or runtime behavior",
+        "action": "Double-Up actually usable inside active roll Double-Up window; existing roll,result,XI/Bust state and matching-job status from initial roll retained; Crooked Cards inactive"
+      }
+    },
+    {
+      "key": "quick-draw-damage",
+      "target": "Quick Draw Damage",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23755,
+          "name": "Ikenga's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28517,
+          "name": "Crematio Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27031,
+          "name": "Carmine Fin. Ga. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27579,
+          "name": "Fenrir Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26357,
+          "name": "Skrymir Cord +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus356986 with exact Fomalhaut/Chrono in omitted range slot and base Carmine. Nyame legs remain B, not source QD PathC; no rank/numeric benchmark transferred.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "charges": "At least one actual Quick Draw charge, usable gun and bullet equipped; corresponding elemental card or Trump Card available and consumed. QD itself does not consume bullet; normal attacks/WS can, no runtime ammo guard implemented",
+        "magic": "AGI/MAcc for accuracy; no Marksmanship accuracy or WS formula substitution. No DeathPenalty bonus, day/weather/roll/food/burst or guaranteed effect assumed",
+        "recast": "Actual charges and timer unknown; conflicting guide/BG recast caps preserved, none certified",
+        "action": "Fire Shot on susceptible hostile target; fire damage, no Light/Dark damage formula conflation"
+      }
+    },
+    {
+      "key": "quick-draw-elemental-window",
+      "target": "Quick Draw Elemental Window",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23755,
+          "name": "Ikenga's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28517,
+          "name": "Crematio Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27031,
+          "name": "Carmine Fin. Ga. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26187,
+          "name": "Dingir Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27579,
+          "name": "Fenrir Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26357,
+          "name": "Skrymir Cord +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23704,
+          "name": "Chass. Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus distinct next-magic elemental enhancement snapshot using Chasseur feet; no31% equipment-stat import or guaranteed follow-up damage. Source25%/31% prose conflict retained.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "charges": "At least one actual Quick Draw charge, usable gun and bullet equipped; corresponding elemental card or Trump Card available and consumed. QD itself does not consume bullet; normal attacks/WS can, no runtime ammo guard implemented",
+        "magic": "AGI/MAcc for accuracy; no Marksmanship accuracy or WS formula substitution. No DeathPenalty bonus, day/weather/roll/food/burst or guaranteed effect assumed",
+        "recast": "Actual charges and timer unknown; conflicting guide/BG recast caps preserved, none certified",
+        "action": "Successful Fire Shot followed by next eligible fire magic damage within actual window; window consumed by eligible hit, reapplication/failed effect separately checked"
+      }
+    },
+    {
+      "key": "light-shot",
+      "target": "Light Shot",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23391,
+          "name": "Laksa. Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23525,
+          "name": "Laksa. Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26338,
+          "name": "K. Kachina Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23776,
+          "name": "Ikenga's Trousers",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23659,
+          "name": "Laksa. Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus357009 legal earrings and fixed sword/dagger/gun/ammo; source right-earChasseur+2 in ear1 retained as conflict, no invented JSE roll.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "charges": "At least one actual Quick Draw charge, usable gun and bullet equipped; corresponding elemental card or Trump Card available and consumed. QD itself does not consume bullet; normal attacks/WS can, no runtime ammo guard implemented",
+        "magic": "AGI/MAcc for accuracy; no Marksmanship accuracy or WS formula substitution. No DeathPenalty bonus, day/weather/roll/food/burst or guaranteed effect assumed",
+        "recast": "Actual charges and timer unknown; conflicting guide/BG recast caps preserved, none certified",
+        "action": "Light Shot light sleep on susceptible target; no damage WS formula or guaranteed sleep; no Empyrean-feet window selected"
+      }
+    },
+    {
+      "key": "dark-shot",
+      "target": "Dark Shot",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23391,
+          "name": "Laksa. Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23525,
+          "name": "Laksa. Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "AGI+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26338,
+          "name": "K. Kachina Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23776,
+          "name": "Ikenga's Trousers",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23659,
+          "name": "Laksa. Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus separate dark dispel utility; no damage outcome or Empyrean bonus assumed from miss/no-effect.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "charges": "At least one actual Quick Draw charge, usable gun and bullet equipped; corresponding elemental card or Trump Card available and consumed. QD itself does not consume bullet; normal attacks/WS can, no runtime ammo guard implemented",
+        "magic": "AGI/MAcc for accuracy; no Marksmanship accuracy or WS formula substitution. No DeathPenalty bonus, day/weather/roll/food/burst or guaranteed effect assumed",
+        "recast": "Actual charges and timer unknown; conflicting guide/BG recast caps preserved, none certified",
+        "action": "Dark Shot with actual removable buff on susceptible hostile target; no guaranteed dispel or dark magic damage"
+      }
+    },
+    {
+      "key": "quick-draw-tp",
+      "target": "Quick Draw Tp",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21565,
+          "name": "Tauret",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23755,
+          "name": "Ikenga's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26027,
+          "name": "Iskur Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23762,
+          "name": "Ikenga's Vest",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23769,
+          "name": "Ikenga's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "AGI+20",
+              "Rng.Acc.+20 Rng.Atk.+20",
+              "AGI+10",
+              "\"Store TP\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28411,
+          "name": "Yemaya Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23637,
+          "name": "Chas. Culottes +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23783,
+          "name": "Ikenga's Clogs",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus STP subset of guide TP utility in distinct QD action; no Schutzen additive TP, fixed x-hit or QD damage optimum.",
+      "context": {
+        "job": "COR99/NIN49",
+        "dual_wield": true,
+        "charges": "At least one actual Quick Draw charge, usable gun and bullet equipped; corresponding elemental card or Trump Card available and consumed. QD itself does not consume bullet; normal attacks/WS can, no runtime ammo guard implemented",
+        "magic": "AGI/MAcc for accuracy; no Marksmanship accuracy or WS formula substitution. No DeathPenalty bonus, day/weather/roll/food/burst or guaranteed effect assumed",
+        "recast": "Actual charges and timer unknown; conflicting guide/BG recast caps preserved, none certified",
+        "action": "Fire Shot with actual charge/card and eligible target for TP gain; QD TP distinct from ordinary ranged attack/WS"
+      }
+    },
+    {
+      "key": "preshot-no-flurry",
+      "target": "Preshot No Flurry",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23436,
+          "name": "Chass. Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26526,
+          "name": "Oshosi Vest +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27031,
+          "name": "Carmine Fin. Ga. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "\"Snapshot\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11735,
+          "name": "Impulse Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27303,
+          "name": "Adhemar Kecks +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25947,
+          "name": "Meg. Jam. +2",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus356857 no-Flurry checkpoint. Source Snap60 title and assumed10%gift not candidate total; no AdhemarD roll silently adopted.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal ranged attack initiation only; sufficient Chrono Bullets, switch to completion snapshot before shot lands; no automatic macro implemented",
+        "triple_shot": "Inactive; no Triple Shot effects in timing totals",
+        "gifts": "No JP Snapshot gift credited; base Carmine/Adhemar/Pursuer without paths, no capped70% Snapshot or Rapid Shot rate/timing asserted",
+        "flurry": "None"
+      }
+    },
+    {
+      "key": "preshot-flurry1",
+      "target": "Preshot Flurry1",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23436,
+          "name": "Chass. Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23458,
+          "name": "Laksa. Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27031,
+          "name": "Carmine Fin. Ga. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "\"Snapshot\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28411,
+          "name": "Yemaya Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27303,
+          "name": "Adhemar Kecks +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25947,
+          "name": "Meg. Jam. +2",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus356858 distinct Snapshot/Rapid Shot snapshot under actually active FlurryI; no45% total or gift.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal ranged attack initiation only; sufficient Chrono Bullets, switch to completion snapshot before shot lands; no automatic macro implemented",
+        "triple_shot": "Inactive; no Triple Shot effects in timing totals",
+        "gifts": "No JP Snapshot gift credited; base Carmine/Adhemar/Pursuer without paths, no capped70% Snapshot or Rapid Shot rate/timing asserted",
+        "flurry": "Flurry I actually active from external caster, not FlurryII"
+      }
+    },
+    {
+      "key": "preshot-flurry2",
+      "target": "Preshot Flurry2",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23436,
+          "name": "Chass. Tricorne +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25515,
+          "name": "Comm. Charm +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23458,
+          "name": "Laksa. Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27031,
+          "name": "Carmine Fin. Ga. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {
+            "augments": [
+              "\"Snapshot\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28411,
+          "name": "Yemaya Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27303,
+          "name": "Adhemar Kecks +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27461,
+          "name": "Pursuer's Gaiters",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus356859 base Pursuer swap without PathD; source31/68 title remains unverified numeric observation.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Normal ranged attack initiation only; sufficient Chrono Bullets, switch to completion snapshot before shot lands; no automatic macro implemented",
+        "triple_shot": "Inactive; no Triple Shot effects in timing totals",
+        "gifts": "No JP Snapshot gift credited; base Carmine/Adhemar/Pursuer without paths, no capped70% Snapshot or Rapid Shot rate/timing asserted",
+        "flurry": "Flurry II actually active from external caster, not cumulative with FlurryI"
+      }
+    },
+    {
+      "key": "random-deal",
+      "target": "Random Deal",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23481,
+          "name": "Lanun Frac +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus action-specific defensive completion of original node326 JA notes; intrinsic JSE effect conditional, no fabricated merit/rank/augmented magnitude.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Random Deal ready; intended party recipients within actual AoE and relevant abilities on cooldown; Loaded Deck merits separately unknown; no SP reset guaranteed"
+      }
+    },
+    {
+      "key": "fold",
+      "target": "Fold",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23548,
+          "name": "Lanun Gants +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus action-specific defensive completion of original node326 JA notes; intrinsic JSE effect conditional, no fabricated merit/rank/augmented magnitude.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Actually learned usable merited Fold with roll/bust effect on self; no guaranteed second effect removal"
+      }
+    },
+    {
+      "key": "snake-eye",
+      "target": "Snake Eye",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23615,
+          "name": "Lanun Trews +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus action-specific defensive completion of original node326 JA notes; intrinsic JSE effect conditional, no fabricated merit/rank/augmented magnitude.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Actually learned usable merited Snake Eye for next roll; current roll total relevant; no guaranteedXI or zero recast"
+      }
+    },
+    {
+      "key": "wild-card",
+      "target": "Wild Card",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26421,
+          "name": "Nusku Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "selected",
+          "item_id": 21485,
+          "name": "Fomalhaut",
+          "requirements": {}
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21296,
+          "name": "Chrono Bullet",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26262,
+          "name": "Camulus's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23682,
+          "name": "Lanun Bottes +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus action-specific defensive completion of original node326 JA notes; intrinsic JSE effect conditional, no fabricated merit/rank/augmented magnitude.",
+      "context": {
+        "job": "COR99/WAR49",
+        "dual_wield": false,
+        "action": "Wild Card ready; actual party recipients within range, actual random result and JP separate; no guaranteed V/VI or reset"
+      }
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:dt-idle"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:refresh-idle"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:engaged-balanced"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:engaged-dt"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:engaged-accuracy"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Ranged",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Ranged",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:ranged-normal",
+          "nexus:cor:ranged-accuracy",
+          "nexus:cor:ranged-triple-shot"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Physical WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Physical WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:last-stand",
+          "nexus:cor:savage-blade",
+          "nexus:cor:evisceration"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Magical WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Magical WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:leaden-salute",
+          "nexus:cor:wildfire",
+          "nexus:cor:hot-shot",
+          "nexus:cor:aeolian-edge"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Rolls",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Rolls",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:roll-initial",
+          "nexus:cor:roll-double-up",
+          "nexus:cor:random-deal",
+          "nexus:cor:fold",
+          "nexus:cor:snake-eye",
+          "nexus:cor:wild-card"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Quick Draw",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Quick Draw",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:quick-draw-damage",
+          "nexus:cor:quick-draw-elemental-window",
+          "nexus:cor:light-shot",
+          "nexus:cor:dark-shot",
+          "nexus:cor:quick-draw-tp"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    },
+    {
+      "original_row": {
+        "job": "COR",
+        "priority": "Preshot",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "COR",
+        "priority": "Preshot",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded29 fixed contexts only: exact ranged/melee/ammo/weapon/subjob, Flurry/TS, roll/QD/JA/recipient/access distinctions. Included does not mean all stages,aftermaths,tiers,rolls or utility covered.",
+        "evidence": "GEAR-GUIDE-T7-COR.md; original node326,19 grids,BG772442 and independently checked supporting articles/exact cards; separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:cor:preshot-no-flurry",
+          "nexus:cor:preshot-flurry1",
+          "nexus:cor:preshot-flurry2"
+        ]
+      },
+      "limits": "Included for listed bounded targets only; broader variants explicit unclaimed gaps, neverN/A."
+    }
+  ],
+  "unclaimed": [
+    "Every progression tier and attack/accuracy/haste/DW bracket; no capped delay or gear requirement inferred",
+    "DP/Armageddon/Earp/Ataktos/Rostam stages paths ranks aftermaths and Terminus; sourceAM3crit/TrueShot/enmity sets unclaimed",
+    "Every roll including special Blitzer/Allies/Courser/Caster gear, CrookedCards variants, XI/Bust states and recipient groups; no roll formula or full duration result",
+    "DedicatedQuickDraw recast/charge timing, elemental/card/target immunity variants, sourceHauksbok/Living/Devastating access; no ammo guard implemented",
+    "Requiescat and other meleeWS, every skillchain/TP/weapon transition",
+    "Mage-subjob precast/completion/healing/enhancing/status and /DNCwaltz/step/jig utility; only usefulWHM MP recovery selected",
+    "Movement,enmity,tanking,subtleblow niches and guaranteed ability reset chains",
+    "Every randomaugment/path/rank, numeric cap, currentBiS, live readiness, ownership/bags and complete job coverage"
+  ]
+}

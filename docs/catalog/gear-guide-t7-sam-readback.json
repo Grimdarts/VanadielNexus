@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-11-04",
+  "preserved_prior_records": {
+    "sets": 194,
+    "revisions": 205,
+    "sources": 345
+  },
+  "current_records": {
+    "sets": 222,
+    "revisions": 233,
+    "sources": 396,
+    "coverage": 225
+  },
+  "effective_verified_compositions": 214,
+  "stored_verified_flags": 225,
+  "withdrawn_brd_encodings": 11,
+  "sam_compositions": 28,
+  "unresolved_originals": 8,
+  "included_priorities": 94,
+  "gap_priorities": 131,
+  "remaining_jobs": [
+    "BLU",
+    "BST",
+    "COR",
+    "DNC",
+    "DRG",
+    "DRK",
+    "MNK",
+    "NIN",
+    "PLD",
+    "PUP",
+    "RUN",
+    "SMN",
+    "THF",
+    "WAR"
+  ],
+  "resource_records": 456,
+  "preserved_resource_records": 437,
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "hand_registry": "26 / hands.2026-11-04.v7; prior22 AST-identical",
+  "prior_amendments_unchanged": true,
+  "protected_existing_inputs_unchanged": true,
+  "head": "5657f2092c0e0d84331d0741b1518669201e25d4",
+  "authoring_artifact_sha256": {
+    "gear-guide-t7-sam-definitions.json": "79bb2d6a36603ddb53cdc9016287dfec59a1210e71581c226c647cb3444578db",
+    "gear-guide-t7-sam-item-evidence.json": "1c97edc3c3ea513e24e07ae7016ca61e9444959882dbed15d66d8ce202036064",
+    "gear-guide-t7-sam-observations.json": "248f5ce4ae04e7fe0452e4b1835eaa138b3c9e598cdc8b23819463aedbbb8e81"
+  }
+}

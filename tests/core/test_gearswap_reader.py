@@ -197,3 +197,30 @@ def test_process_problems_are_not_cached(tree, monkeypatch):
     read(tree)
     read(tree)
     assert len(calls) == 2
+
+
+def test_a_file_saved_during_the_read_is_not_cached(tree, monkeypatch):
+    """The child may have read the old text; caching the new mtime would hide the edit until the next save."""
+    job = write(data(tree) / 'Alice_BLU.lua')
+    runs = []
+
+    def spawn(args, timeout):
+        runs.append(1)
+        result = gs_worker.run(args)
+        if len(runs) == 1:
+            os.utime(job, ns=(time.time_ns(), time.time_ns()))  # saved in an editor mid-read
+        return result
+    monkeypatch.setattr(reader, '_spawn', spawn)
+    read(tree)
+    read(tree)
+    assert len(runs) == 2  # re-read, not a stale cache hit
+    read(tree)
+    assert len(runs) == 2  # the second, clean read is cached
+
+
+def test_a_future_dated_file_still_caches(tree, in_process):
+    job = write(data(tree) / 'Alice_BLU.lua')
+    future = time.time_ns() + 3_600_000_000_000
+    os.utime(job, ns=(future, future))
+    first = read(tree)
+    assert read(tree) is first and len(in_process) == 1

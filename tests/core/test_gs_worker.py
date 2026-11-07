@@ -35,6 +35,7 @@ def quiet_faulthandler():
 def tree(tmp_path):
     root = tmp_path / 'Windower'
     shutil.copytree(FIXTURE, root)
+    (root / 'addons' / 'GearSwap' / 'data').mkdir(parents=True, exist_ok=True)  # data/ folders aren't in git
     return root
 
 

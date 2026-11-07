@@ -1,0 +1,446 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Three common master-engaged obligations included in one bounded context; no complete-job claim",
+  "baseline_candidate_sha256": "d468812af8202db254f6ef04aa6dca405cf7935e558f97e4fb7047dde9f0ee55",
+  "candidate_sha256": "195afca9b241ba1fcc87d1a6c292632bdeeb3e367b08564bb6e5bfe0a1048c87",
+  "definitions": [
+    {
+      "key": "engaged-balanced",
+      "priority": "Balanced",
+      "target": "Master engaged Balanced - Mpaca / WAR low-buff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23760,
+          "name": "Bunzi's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25796,
+          "name": "Tali'ah Manteel +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23774,
+          "name": "Bunzi's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10772,
+          "name": "Petrov Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28440,
+          "name": "Windbuffet Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "rationale": "Adapted from401863: preserve its12 armor/accessory cells; independently fill omitted main/sub with reviewed Mpaca/Khonsu, retain Seraphicaller and intentionally empty range. Base Bunzi/Nyame only, no Odyssey rank. Master multihit/TP utility balanced with base defenses; no optimality or delay target."
+    },
+    {
+      "key": "engaged-dt",
+      "priority": "DT",
+      "target": "Master engaged DT - Mpaca / WAR low-buff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23760,
+          "name": "Bunzi's Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23774,
+          "name": "Bunzi's Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28440,
+          "name": "Windbuffet Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "rationale": "Independently Nexus-authored master defense tradeoff from401863/401865 and exact base cards: Nyame body, Loricate neck and Defending ring replace Taliah body, Lissome and Petrov. DT lines belong to master; no Shell, capped DT, HP-safe swap or delay claim."
+    },
+    {
+      "key": "engaged-accuracy",
+      "priority": "Accuracy",
+      "target": "Master engaged Accuracy - Mpaca / WAR low-buff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21381,
+          "name": "Seraphicaller",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25573,
+          "name": "Tali'ah Turban +2",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27541,
+          "name": "Cessance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25796,
+          "name": "Tali'ah Manteel +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25834,
+          "name": "Tali'ah Gages +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28440,
+          "name": "Windbuffet Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25885,
+          "name": "Tali'ah Sera. +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "context": {
+        "job": "SMN99/WAR49; no master level/JP gifts inferred",
+        "role": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate",
+        "weapon_pair": "Exact Mpaca staff22100 / Khonsu grip22218 established before TP building; two-handed staff, no Dual Wield or shield; no weapon stage/path/rank or aftermath inferred",
+        "pet": "Ordinary persistent avatar alive; Seraphicaller21381 retained. Sroda Pet Alive conditional master Double Attack applies only while pet is alive; pet melee DMG is a pet line. No pet accuracy converted to master accuracy; no particular Favor bonus assumed",
+        "haste": "Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+        "buffs": "No Berserk, Aggressor, Warcry, food, roll, song, Crimson Howl, Crystal Blessing or Favor contribution credited. Support-job usable traits conditional on actual subjob; no numeric trait total",
+        "access": "Actual level99 SMN and unlocked level49 WAR, lawful equipment access and usable ordinary avatar required; no inventory/ownership/action discovery",
+        "transitions": "Offline manual snapshot only. Staff/grip swaps may erase TP/aftermath. No HP preservation, live switching, ammo control, automatic actions or Lua implementation",
+        "effects": "Master and pet effects separated. Base Bunzi/Nyame only; no rank/path augment credited. Taliah multi-piece set bonus remains conditional, not an invented numeric addition; Regen is not Refresh"
+      },
+      "rationale": "Independently Nexus-authored master hit-oriented tradeoff from401864/401863 and exact cards: Taliah head/hands/legs, Telos/Cessance and two Chirich+1. Replaces Alabaster/Sroda and Petrov; no modeled hit rate, accuracy target or max-accuracy claim. Two non-Rare Chirich+1 require distinct physical copies; base Taliah set bonus is conditional and not numerically totaled."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "job": "SMN",
+      "priority": "Engaged Balanced",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/WAR49; no master level/JP gifts inferred; Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-ENGAGED.md; gear-guide-t7-smn-engaged-evidence.json exact grids/cards and independently attributed Nexus completion/substitutions.",
+      "set_ids": [
+        "nexus:smn:engaged-balanced"
+      ]
+    },
+    {
+      "job": "SMN",
+      "priority": "Engaged DT",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/WAR49; no master level/JP gifts inferred; Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-ENGAGED.md; gear-guide-t7-smn-engaged-evidence.json exact grids/cards and independently attributed Nexus completion/substitutions.",
+      "set_ids": [
+        "nexus:smn:engaged-dt"
+      ]
+    },
+    {
+      "job": "SMN",
+      "priority": "Engaged Accuracy",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/WAR49; no master level/JP gifts inferred; Comparable low-buff manual checkpoint for all three priorities: no external magic haste/March, Haste Samba or Hasso credited. /WAR has no Hasso. Printed equipment haste only; no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-ENGAGED.md; gear-guide-t7-smn-engaged-evidence.json exact grids/cards and independently attributed Nexus completion/substitutions.",
+      "set_ids": [
+        "nexus:smn:engaged-accuracy"
+      ]
+    }
+  ],
+  "evidence_sha256": "5ea0d0ff031bec439bd284933998496e66f2815affdac7aa2ce67838d86b0984",
+  "prior_obligation": "Historical SMN report/definitions and inventory remain unchanged. This successor resolves their common master-engaged unclaimed disposition only in the declared context.",
+  "unclaimed": [
+    "Other staff/club/dual-wield weapons, stages and aftermath",
+    "/SAM Hasso and every other subjob/haste/food/buff/accuracy-target context",
+    "All original SMN pact/Ward/WS/ability variants and remaining all22jobs inventory obligations",
+    "BRD runtime retirement; no automatic saved target retargeting"
+  ],
+  "new_resources": [
+    25573,
+    25796,
+    25834,
+    25885
+  ],
+  "new_hands": 0,
+  "new_requirements": 0
+}

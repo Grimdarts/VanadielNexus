@@ -32,6 +32,8 @@ class Item:
     races: int = 0
     superior_level: int = 0
     flags: int = 0
+    skill: int = 0
+    shield_size: int = 0
 
     @property
     def rare(self) -> bool:
@@ -99,8 +101,9 @@ def clear(windower_dir: str = None) -> None:
         _CACHE.clear()
         return
     prefix = os.path.normcase(os.path.abspath(os.path.join(windower_dir, 'res')))
-    for key in [k for k in _CACHE if k[1].startswith(prefix)]:
-        del _CACHE[key]
+    # Called from the Sets reader's worker thread while the GUI thread fills the cache: snapshot the keys.
+    for key in [k for k in list(_CACHE) if k[1].startswith(prefix)]:
+        _CACHE.pop(key, None)
 
 
 def all_items(windower_dir: str) -> dict[int, Item]:
@@ -113,7 +116,8 @@ def all_items(windower_dir: str) -> dict[int, Item]:
             result[row['id']] = Item(
                 id=row['id'], en=row['en'], enl=row.get('enl', ''), category=row.get('category', ''),
                 slots=row.get('slots', 0), jobs=row.get('jobs', 0), level=row.get('level', 0),
-                races=row.get('races', 0), superior_level=row.get('superior_level', 0), flags=row.get('flags', 0))
+                races=row.get('races', 0), superior_level=row.get('superior_level', 0), flags=row.get('flags', 0),
+                skill=row.get('skill', 0), shield_size=row.get('shield_size', 0))
         return result
     return cached('all_items', windower_dir, 'items.lua', build)
 
@@ -133,6 +137,29 @@ def by_name(windower_dir: str) -> dict[str, list[int]]:
                 names.setdefault(name, []).append(item_id)
         return names
     return cached('by_name', windower_dir, 'items.lua', build)
+
+
+def equipment_names(windower_dir: str) -> dict[str, Item]:
+    """`en` as the game spells it → the first equipment row with that name (for name suggestions)."""
+    def build(_path):
+        names = {}
+        for _item_id, item in sorted(items(windower_dir).items()):
+            names.setdefault(item.en, item)
+        return names
+    return cached('equipment_names', windower_dir, 'items.lua', build)
+
+
+# Wishlist-style slot names: an earring or ring fits either side, so each pair reads as one word.
+_SLOT_WORDS = (('Main', ('main',)), ('Sub', ('sub',)), ('Range', ('range',)), ('Ammo', ('ammo',)),
+               ('Head', ('head',)), ('Neck', ('neck',)), ('Earring', ('ear1', 'ear2')), ('Body', ('body',)),
+               ('Hands', ('hands',)), ('Ring', ('ring1', 'ring2')), ('Back', ('back',)), ('Waist', ('waist',)),
+               ('Legs', ('legs',)), ('Feet', ('feet',)))
+
+
+def slot_label(item: Item) -> str:
+    """'Earring', 'Main / Sub', … from the item's slot bits; '' for non-equipment."""
+    return ' / '.join(word for word, slots in _SLOT_WORDS
+                      if any(item.slots >> SLOT_BITS[s] & 1 for s in slots))
 
 
 def jobs(windower_dir: str) -> dict[str, tuple[int, str]]:

@@ -1,0 +1,1910 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set_id": 250766,
+      "url": "https://www.ffxiah.com/item-sets/250766",
+      "title": "Idle Defensive",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "neck",
+          "Loricate Torque +1"
+        ],
+        [
+          "waist",
+          "Carrier's Sash"
+        ],
+        [
+          "back",
+          "Shadow Mantle"
+        ],
+        [
+          "ring1",
+          "Shadow Ring"
+        ],
+        [
+          "ring2",
+          "Defending Ring"
+        ],
+        [
+          "ear1",
+          "Ethereal Earring"
+        ],
+        [
+          "ear2",
+          "Genmei Earring"
+        ],
+        [
+          "ammo",
+          "Staunch Tathlum +1"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "body",
+          "Hashishin Mintan +3"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Ethereal Earring"
+        ],
+        "ear2": [
+          "Genmei Earring"
+        ],
+        "body": [
+          "Hashishin Mintan +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Shadow Ring"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Shadow Mantle"
+        ],
+        "waist": [
+          "Carrier's Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Main/sub/range omitted, not intentional empty. Shadow proc gear is not constant DT. Original recovered in Chrome.",
+      "observation_sha256": "5a18d91fd3b8a4ba6a44ce367f9a934e298760d34c0fb697b6d0a8a6af7a3188"
+    },
+    {
+      "item_set_id": 385968,
+      "url": "https://www.ffxiah.com/item-sets/385968",
+      "title": "Idle Refresh",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "head",
+          "Rawhide Mask"
+        ],
+        [
+          "neck",
+          "Sibyl Scarf"
+        ],
+        [
+          "ear1",
+          "Ethereal Earring"
+        ],
+        [
+          "ear2",
+          "Genmei Earring"
+        ],
+        [
+          "ammo",
+          "Staunch Tathlum +1"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Defending Ring"
+        ],
+        [
+          "waist",
+          "Carrier's Sash"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "back",
+          "Shadow Mantle"
+        ],
+        [
+          "body",
+          "Hashishin Mintan +3"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Rawhide Mask"
+        ],
+        "neck": [
+          "Sibyl Scarf"
+        ],
+        "ear1": [
+          "Ethereal Earring"
+        ],
+        "ear2": [
+          "Genmei Earring"
+        ],
+        "body": [
+          "Hashishin Mintan +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Shadow Mantle"
+        ],
+        "waist": [
+          "Carrier's Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "No weapons/range. Guide citizenship neck and random Refresh alternatives are conditional; no cap claim adopted.",
+      "observation_sha256": "f33f4ce67a64f158a9b46b79a85844a8fe23ecb9aa8c12dcab7feadf8547ed67"
+    },
+    {
+      "item_set_id": 385979,
+      "url": "https://www.ffxiah.com/item-sets/385979",
+      "title": "TP Hybrid",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Aurgelmir Orb +1"
+        ],
+        [
+          "head",
+          "Malignance Chapeau"
+        ],
+        [
+          "body",
+          "Malignance Tabard"
+        ],
+        [
+          "hands",
+          "Malignance Gloves"
+        ],
+        [
+          "legs",
+          "Malignance Tights"
+        ],
+        [
+          "feet",
+          "Malignance Boots"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "waist",
+          "Reiki Yotai"
+        ],
+        [
+          "ear1",
+          "Suppanomimi"
+        ],
+        [
+          "ear2",
+          "Dedition Earring"
+        ],
+        [
+          "ring1",
+          "Epona's Ring"
+        ],
+        [
+          "ring2",
+          "Defending Ring"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Suppanomimi"
+        ],
+        "ear2": [
+          "Dedition Earring"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Epona's Ring"
+        ],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Weapons omitted. Source cape depends on mainhand; generic name does not establish rolls or usable Dual Wield.",
+      "observation_sha256": "af04fa4e08d0967d36357336b76aa163618d11d36a9ab2af7b74e0c3a341f9d4"
+    },
+    {
+      "item_set_id": 385973,
+      "url": "https://www.ffxiah.com/item-sets/385973",
+      "title": "Standard TP High",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Thibron"
+        ],
+        [
+          "ammo",
+          "Aurgelmir Orb +1"
+        ],
+        [
+          "head",
+          "Adhemar Bonnet +1"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Suppanomimi"
+        ],
+        [
+          "ear2",
+          "Dedition Earring"
+        ],
+        [
+          "body",
+          "Adhemar Jacket +1"
+        ],
+        [
+          "hands",
+          "Adhemar Wrist. +1"
+        ],
+        [
+          "ring1",
+          "Epona's Ring"
+        ],
+        [
+          "ring2",
+          "Petrov Ring"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Sailfi Belt +1"
+        ],
+        [
+          "legs",
+          "Samnuha Tights"
+        ],
+        [
+          "feet",
+          "Herculean Boots"
+        ],
+        [
+          "sub",
+          "Naegling"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Thibron"
+        ],
+        "sub": [
+          "Naegling"
+        ],
+        "range": [],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Suppanomimi"
+        ],
+        "ear2": [
+          "Dedition Earring"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Epona's Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Macro main Thibron/sub Naegling is reversed relative to guide main-hand Savage use. Preserve; do not silently swap. Random rolls/path/ranks not inferred.",
+      "observation_sha256": "6a75ea30557ae119918f4477e5a6a4631310eadda7fce12ae85c5c17afd030f2"
+    },
+    {
+      "item_set_id": 385978,
+      "url": "https://www.ffxiah.com/item-sets/385978",
+      "title": "TP Accuracy",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Honed Tathlum"
+        ],
+        [
+          "head",
+          "Carmine Mask +1"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Suppanomimi"
+        ],
+        [
+          "ear2",
+          "Telos Earring"
+        ],
+        [
+          "body",
+          "Adhemar Jacket +1"
+        ],
+        [
+          "hands",
+          "Adhemar Wrist. +1"
+        ],
+        [
+          "ring1",
+          "Epona's Ring"
+        ],
+        [
+          "ring2",
+          "Chirich Ring +1"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Olseni Belt"
+        ],
+        [
+          "feet",
+          "Carmine Greaves +1"
+        ],
+        [
+          "legs",
+          "Samnuha Tights"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Honed Tathlum"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Suppanomimi"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Epona's Ring"
+        ],
+        "ring2": [
+          "Chirich Ring +1"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Olseni Belt"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Carmine Greaves +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Weapons omitted; Carmine pairB/AdhemarA and max Samnuha prose are not base effects. No universal accuracy number.",
+      "observation_sha256": "34acb75a371e9599c66da5fbca2d840e58ae5fc0be672832d53bbd09a0765e98"
+    },
+    {
+      "item_set_id": 337124,
+      "url": "https://www.ffxiah.com/item-sets/337124",
+      "title": "Physical I",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ring1",
+          "Ifrit Ring +1"
+        ],
+        [
+          "waist",
+          "Prosilio Belt +1"
+        ],
+        [
+          "ring2",
+          "Shukuyu Ring"
+        ],
+        [
+          "ear1",
+          "Tati Earring +1"
+        ],
+        [
+          "ear2",
+          "Tati Earring +1"
+        ],
+        [
+          "legs",
+          "Herculean Trousers"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "hands",
+          "Luh. Bazubands +3"
+        ],
+        [
+          "feet",
+          "Luhlaza Charuqs +3"
+        ],
+        [
+          "head",
+          "Luh. Keffiyeh +3"
+        ],
+        [
+          "body",
+          "Luhlaza Jubbah +3"
+        ],
+        [
+          "ammo",
+          "Aurgelmir Orb +1"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Luh. Keffiyeh +3"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Tati Earring +1"
+        ],
+        "ear2": [
+          "Tati Earring +1"
+        ],
+        "body": [
+          "Luhlaza Jubbah +3"
+        ],
+        "hands": [
+          "Luh. Bazubands +3"
+        ],
+        "ring1": [
+          "Ifrit Ring +1"
+        ],
+        "ring2": [
+          "Shukuyu Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Prosilio Belt +1"
+        ],
+        "legs": [
+          "Herculean Trousers"
+        ],
+        "feet": [
+          "Luhlaza Charuqs +3"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Two Tati copies; unspecified weapons/rolls. Prose recommends Assimilator feet with Chain Affinity, but this source grid lists Luhlaza.",
+      "observation_sha256": "cf8a52e227f758c4a5088478c6fbac8cc1b54dc3e9269049ade618f60a48ecbe"
+    },
+    {
+      "item_set_id": 386009,
+      "url": "https://www.ffxiah.com/item-sets/386009",
+      "title": "Magical High",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Bunzi's Rod"
+        ],
+        [
+          "sub",
+          "Maxentius"
+        ],
+        [
+          "ammo",
+          "Ghastly Tathlum +1"
+        ],
+        [
+          "ear1",
+          "Regal Earring"
+        ],
+        [
+          "ear2",
+          "Friomisi Earring"
+        ],
+        [
+          "ring1",
+          "Metamor. Ring +1"
+        ],
+        [
+          "ring2",
+          "Shiva Ring +1"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Orpheus's Sash"
+        ],
+        [
+          "legs",
+          "Luhlaza Shalwar +3"
+        ],
+        [
+          "neck",
+          "Sibyl Scarf"
+        ],
+        [
+          "feet",
+          "Hashi. Basmak +3"
+        ],
+        [
+          "body",
+          "Hashishin Mintan +3"
+        ],
+        [
+          "hands",
+          "Hashi. Bazu. +3"
+        ],
+        [
+          "legs",
+          "Hashishin Tayt +3"
+        ],
+        [
+          "head",
+          "Hashishin Kavuk +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Bunzi's Rod"
+        ],
+        "sub": [
+          "Maxentius"
+        ],
+        "range": [],
+        "ammo": [
+          "Ghastly Tathlum +1"
+        ],
+        "head": [
+          "Hashishin Kavuk +3"
+        ],
+        "neck": [
+          "Sibyl Scarf"
+        ],
+        "ear1": [
+          "Regal Earring"
+        ],
+        "ear2": [
+          "Friomisi Earring"
+        ],
+        "body": [
+          "Hashishin Mintan +3"
+        ],
+        "hands": [
+          "Hashi. Bazu. +3"
+        ],
+        "ring1": [
+          "Metamor. Ring +1"
+        ],
+        "ring2": [
+          "Shiva Ring +1"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Orpheus's Sash"
+        ],
+        "legs": [
+          "Luhlaza Shalwar +3",
+          "Hashishin Tayt +3"
+        ],
+        "feet": [
+          "Hashi. Basmak +3"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [
+        "legs"
+      ],
+      "notes": "16 cells with competing legs; range omitted. Cohort prose differs from current Hashishin head/body. No source roll/rank or Orpheus distance inferred.",
+      "observation_sha256": "411cc7cdff796dbf6a12f25b5b012a49e14fac1e0aa47bddbc982a5645344110"
+    },
+    {
+      "item_set_id": 386022,
+      "url": "https://www.ffxiah.com/item-sets/386022",
+      "title": "Magic Accuracy",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Tizona"
+        ],
+        [
+          "sub",
+          "Sakpata's Sword"
+        ],
+        [
+          "ammo",
+          "Pemphredo Tathlum"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Digni. Earring"
+        ],
+        [
+          "ring1",
+          "Metamor. Ring +1"
+        ],
+        [
+          "ring2",
+          "Stikini Ring +1"
+        ],
+        [
+          "back",
+          "Aurist's Cape +1"
+        ],
+        [
+          "waist",
+          "Acuity Belt +1"
+        ],
+        [
+          "feet",
+          "Hashi. Basmak +3"
+        ],
+        [
+          "hands",
+          "Hashi. Bazu. +3"
+        ],
+        [
+          "legs",
+          "Hashishin Tayt +3"
+        ],
+        [
+          "body",
+          "Hashishin Mintan +3"
+        ],
+        [
+          "head",
+          "Hashishin Kavuk +3"
+        ],
+        [
+          "ear2",
+          "Hashi. Earring +2"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tizona"
+        ],
+        "sub": [
+          "Sakpata's Sword"
+        ],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Hashishin Kavuk +3"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Digni. Earring"
+        ],
+        "ear2": [
+          "Hashi. Earring +2"
+        ],
+        "body": [
+          "Hashishin Mintan +3"
+        ],
+        "hands": [
+          "Hashi. Bazu. +3"
+        ],
+        "ring1": [
+          "Metamor. Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Aurist's Cape +1"
+        ],
+        "waist": [
+          "Acuity Belt +1"
+        ],
+        "legs": [
+          "Hashishin Tayt +3"
+        ],
+        "feet": [
+          "Hashi. Basmak +3"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Unspecified Tizona stage, ranked accessories and random JSE rolls; no full source recommendation verification.",
+      "observation_sha256": "4b89e857995085fe23a55f3cf69333ff4098fafd0d70cc9da5594d12d004d44e"
+    },
+    {
+      "item_set_id": 386025,
+      "url": "https://www.ffxiah.com/item-sets/386025",
+      "title": "Magic Accuracy Defensive",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Tizona"
+        ],
+        [
+          "sub",
+          "Sakpata's Sword"
+        ],
+        [
+          "ammo",
+          "Staunch Tathlum +1"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Digni. Earring"
+        ],
+        [
+          "head",
+          "Malignance Chapeau"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Acuity Belt +1"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Metamor. Ring +1"
+        ],
+        [
+          "ear2",
+          "Hashi. Earring +2"
+        ],
+        [
+          "body",
+          "Hashishin Mintan +3"
+        ],
+        [
+          "hands",
+          "Hashi. Bazu. +3"
+        ],
+        [
+          "legs",
+          "Hashishin Tayt +3"
+        ],
+        [
+          "feet",
+          "Hashi. Basmak +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tizona"
+        ],
+        "sub": [
+          "Sakpata's Sword"
+        ],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Digni. Earring"
+        ],
+        "ear2": [
+          "Hashi. Earring +2"
+        ],
+        "body": [
+          "Hashishin Mintan +3"
+        ],
+        "hands": [
+          "Hashi. Bazu. +3"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Metamor. Ring +1"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Acuity Belt +1"
+        ],
+        "legs": [
+          "Hashishin Tayt +3"
+        ],
+        "feet": [
+          "Hashi. Basmak +3"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Defensive casting while attacked; distinct from maximum accuracy. PDT cape values not encoded by name.",
+      "observation_sha256": "9c259404e5d49490c62fa880dd1244680311a26448121d3de0aa306c73f7f192"
+    },
+    {
+      "item_set_id": 386024,
+      "url": "https://www.ffxiah.com/item-sets/386024",
+      "title": "Reaving Wind",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "head",
+          "Carmine Mask +1"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "body",
+          "Luhlaza Jubbah +3"
+        ],
+        [
+          "ring1",
+          "Metamor. Ring +1"
+        ],
+        [
+          "feet",
+          "Malignance Boots"
+        ],
+        [
+          "main",
+          "Sakpata's Sword"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Witful Belt"
+        ],
+        [
+          "ammo",
+          "Pemphredo Tathlum"
+        ],
+        [
+          "ring2",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Stikini Ring +1"
+        ],
+        [
+          "ear1",
+          "Hashi. Earring +2"
+        ],
+        [
+          "hands",
+          "Hashi. Bazu. +3"
+        ],
+        [
+          "legs",
+          "Hashishin Tayt +3"
+        ],
+        [
+          "ear2",
+          "Digni. Earring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Sakpata's Sword"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Hashi. Earring +2"
+        ],
+        "ear2": [
+          "Digni. Earring"
+        ],
+        "body": [
+          "Luhlaza Jubbah +3"
+        ],
+        "hands": [
+          "Hashi. Bazu. +3"
+        ],
+        "ring1": [
+          "Metamor. Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1",
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Witful Belt"
+        ],
+        "legs": [
+          "Hashishin Tayt +3"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "omitted_slots": [
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [
+        "ring2"
+      ],
+      "notes": "Repeated ring2, omitted sub/range, right-ear Hashishin in ear1. Preserve errors; no blanket TP-drain potency/recast or Mboze guarantee.",
+      "observation_sha256": "3e428108f64e7d2ff493b2fdee3c2e3969afd58e76ac398250854dbbfbcd412e"
+    },
+    {
+      "item_set_id": 386029,
+      "url": "https://www.ffxiah.com/item-sets/386029",
+      "title": "Skill",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Iris"
+        ],
+        [
+          "sub",
+          "Iris"
+        ],
+        [
+          "ammo",
+          "Mavi Tathlum"
+        ],
+        [
+          "head",
+          "Luh. Keffiyeh +3"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Njordr Earring"
+        ],
+        [
+          "ear2",
+          "Hashi. Earring +2"
+        ],
+        [
+          "body",
+          "Assim. Jubbah +3"
+        ],
+        [
+          "hands",
+          "Rawhide Gloves"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Renaye Ring +1"
+        ],
+        [
+          "back",
+          "Cornflower Cape"
+        ],
+        [
+          "feet",
+          "Luhlaza Charuqs +3"
+        ],
+        [
+          "legs",
+          "Hashishin Tayt +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Iris"
+        ],
+        "sub": [
+          "Iris"
+        ],
+        "range": [],
+        "ammo": [
+          "Mavi Tathlum"
+        ],
+        "head": [
+          "Luh. Keffiyeh +3"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Njordr Earring"
+        ],
+        "ear2": [
+          "Hashi. Earring +2"
+        ],
+        "body": [
+          "Assim. Jubbah +3"
+        ],
+        "hands": [
+          "Rawhide Gloves"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Renaye Ring +1"
+        ],
+        "back": [
+          "Cornflower Cape"
+        ],
+        "waist": [],
+        "legs": [
+          "Hashishin Tayt +3"
+        ],
+        "feet": [
+          "Luhlaza Charuqs +3"
+        ]
+      },
+      "omitted_slots": [
+        "range",
+        "waist"
+      ],
+      "conflicting_slots": [],
+      "notes": "Waist/range omitted; Iris skill paths/cape rolls not established by grid. Guide says options, not all pieces always cast together.",
+      "observation_sha256": "d5c480780588c4f8681d86b97b3f60b73bc8e076fc556a2f30b7706eee19f8ca"
+    },
+    {
+      "item_set_id": 386031,
+      "url": "https://www.ffxiah.com/item-sets/386031",
+      "title": "Fast Cast",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Sapience Orb"
+        ],
+        [
+          "head",
+          "Carmine Mask +1"
+        ],
+        [
+          "neck",
+          "Voltsurge Torque"
+        ],
+        [
+          "ear1",
+          "Loquac. Earring"
+        ],
+        [
+          "ear2",
+          "Enchntr. Earring +1"
+        ],
+        [
+          "body",
+          "Luhlaza Jubbah +3"
+        ],
+        [
+          "hands",
+          "Leyline Gloves"
+        ],
+        [
+          "ring1",
+          "Prolix Ring"
+        ],
+        [
+          "ring2",
+          "Kishar Ring"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Witful Belt"
+        ],
+        [
+          "legs",
+          "Aya. Cosciales +2"
+        ],
+        [
+          "feet",
+          "Carmine Greaves +1"
+        ],
+        [
+          "main",
+          "Sakpata's Sword"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Sakpata's Sword"
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Voltsurge Torque"
+        ],
+        "ear1": [
+          "Loquac. Earring"
+        ],
+        "ear2": [
+          "Enchntr. Earring +1"
+        ],
+        "body": [
+          "Luhlaza Jubbah +3"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Prolix Ring"
+        ],
+        "ring2": [
+          "Kishar Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Witful Belt"
+        ],
+        "legs": [
+          "Aya. Cosciales +2"
+        ],
+        "feet": [
+          "Carmine Greaves +1"
+        ]
+      },
+      "omitted_slots": [
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Sub/range omitted. Augmented Leyline/Carmine and spell-set FC assumptions distinct from base. Blue-specific Hashishin cast/recast differs from generic FC.",
+      "observation_sha256": "e7e1a655a58988452a0e99061924f9441a9891ce95d0e83b9a64d32fb5944408"
+    },
+    {
+      "item_set_id": 337111,
+      "url": "https://www.ffxiah.com/item-sets/337111",
+      "title": "Cures",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "body",
+          "Vrikodara Jupon"
+        ],
+        [
+          "feet",
+          "Medium's Sabots"
+        ],
+        [
+          "ring1",
+          "Levia. Ring +1"
+        ],
+        [
+          "ring2",
+          "Levia. Ring +1"
+        ],
+        [
+          "neck",
+          "Phalaina Locket"
+        ],
+        [
+          "hands",
+          "Telchine Gloves"
+        ],
+        [
+          "ear1",
+          "Lifestorm Earring"
+        ],
+        [
+          "ammo",
+          "Quartz Tathlum +1"
+        ],
+        [
+          "head",
+          "Carmine Mask +1"
+        ],
+        [
+          "waist",
+          "Luminary Sash"
+        ],
+        [
+          "ear2",
+          "Neptune's Pearl"
+        ],
+        [
+          "neck",
+          "Nuna Gorget +1"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "legs",
+          "Carmine Cuisses +1"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Quartz Tathlum +1"
+        ],
+        "head": [
+          "Carmine Mask +1"
+        ],
+        "neck": [
+          "Phalaina Locket",
+          "Nuna Gorget +1"
+        ],
+        "ear1": [
+          "Lifestorm Earring"
+        ],
+        "ear2": [
+          "Neptune's Pearl"
+        ],
+        "body": [
+          "Vrikodara Jupon"
+        ],
+        "hands": [
+          "Telchine Gloves"
+        ],
+        "ring1": [
+          "Levia. Ring +1"
+        ],
+        "ring2": [
+          "Levia. Ring +1"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Luminary Sash"
+        ],
+        "legs": [
+          "Carmine Cuisses +1"
+        ],
+        "feet": [
+          "Medium's Sabots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [
+        "neck"
+      ],
+      "notes": "Competing necks; weapons/range omitted. Source Telchine7/CarmineB/Medium maximum not assumed; cure potency differs from received potency and White Wind HP.",
+      "observation_sha256": "98fa5b4a5fd1875e5ce7039a70b7f10eab0430bdc1ef661108150691b2653c32"
+    },
+    {
+      "item_set_id": 379049,
+      "url": "https://www.ffxiah.com/item-sets/379049",
+      "title": "White Wind Recommended",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "legs",
+          "Telchine Braconi"
+        ],
+        [
+          "head",
+          "Telchine Cap"
+        ],
+        [
+          "feet",
+          "Telchine Pigaches"
+        ],
+        [
+          "body",
+          "Telchine Chas."
+        ],
+        [
+          "hands",
+          "Telchine Gloves"
+        ],
+        [
+          "back",
+          "Moonlight Cape"
+        ],
+        [
+          "ring1",
+          "Gelatinous Ring +1"
+        ],
+        [
+          "ring2",
+          "Meridian Ring"
+        ],
+        [
+          "waist",
+          "Gold Mog. Belt"
+        ],
+        [
+          "neck",
+          "Unmoving Collar +1"
+        ],
+        [
+          "ear1",
+          "Odnowa Earring +1"
+        ],
+        [
+          "ear2",
+          "Tuisto Earring"
+        ],
+        [
+          "ammo",
+          "Egoist's Tathlum"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Egoist's Tathlum"
+        ],
+        "head": [
+          "Telchine Cap"
+        ],
+        "neck": [
+          "Unmoving Collar +1"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Tuisto Earring"
+        ],
+        "body": [
+          "Telchine Chas."
+        ],
+        "hands": [
+          "Telchine Gloves"
+        ],
+        "ring1": [
+          "Gelatinous Ring +1"
+        ],
+        "ring2": [
+          "Meridian Ring"
+        ],
+        "back": [
+          "Moonlight Cape"
+        ],
+        "waist": [
+          "Gold Mog. Belt"
+        ],
+        "legs": [
+          "Telchine Braconi"
+        ],
+        "feet": [
+          "Telchine Pigaches"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Only source observation: Telchine HP50/Cure8 random augments and actual current/max HP unresolved. No White Wind recommendation.",
+      "observation_sha256": "f9e9f36eafd08ef79674c790d8f560f890548bd063798c7fa41d4058dbd3564a"
+    },
+    {
+      "item_set_id": 385987,
+      "url": "https://www.ffxiah.com/item-sets/385987",
+      "title": "Savage High ATK",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Naegling"
+        ],
+        [
+          "sub",
+          "Thibron"
+        ],
+        [
+          "ammo",
+          "Crepuscular Pebble"
+        ],
+        [
+          "body",
+          "Gleti's Cuirass"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "legs",
+          "Gleti's Breeches"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "waist",
+          "Sailfi Belt +1"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "neck",
+          "Mirage Stole +2"
+        ],
+        [
+          "ear1",
+          "Moonshade Earring"
+        ],
+        [
+          "ring1",
+          "Karieyh Ring +1"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ],
+        [
+          "ear2",
+          "Ishvara Earring"
+        ],
+        [
+          "head",
+          "Hashishin Kavuk +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Naegling"
+        ],
+        "sub": [
+          "Thibron"
+        ],
+        "range": [],
+        "ammo": [
+          "Crepuscular Pebble"
+        ],
+        "head": [
+          "Hashishin Kavuk +3"
+        ],
+        "neck": [
+          "Mirage Stole +2"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Ishvara Earring"
+        ],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Karieyh Ring +1"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Gleti's Breeches"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Attack-capped source scope, TP-bonus Thibron and augmented Nyame. Nexus substitutions separately attributed; no capped attack requirement inferred from a title.",
+      "observation_sha256": "ddb021c6e44307d9eba865329d241729cae87d34ba194f9df5ef21030c276df4"
+    },
+    {
+      "item_set_id": 386018,
+      "url": "https://www.ffxiah.com/item-sets/386018",
+      "title": "Sanguine High",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Ghastly Tathlum +1"
+        ],
+        [
+          "head",
+          "Pixie Hairpin +1"
+        ],
+        [
+          "ear1",
+          "Regal Earring"
+        ],
+        [
+          "ear2",
+          "Friomisi Earring"
+        ],
+        [
+          "hands",
+          "Jhakri Cuffs +2"
+        ],
+        [
+          "ring1",
+          "Archon Ring"
+        ],
+        [
+          "back",
+          "Rosmerta's Cape"
+        ],
+        [
+          "waist",
+          "Orpheus's Sash"
+        ],
+        [
+          "legs",
+          "Luhlaza Shalwar +3"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ],
+        [
+          "neck",
+          "Sibyl Scarf"
+        ],
+        [
+          "body",
+          "Nyame Mail"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Ghastly Tathlum +1"
+        ],
+        "head": [
+          "Pixie Hairpin +1"
+        ],
+        "neck": [
+          "Sibyl Scarf"
+        ],
+        "ear1": [
+          "Regal Earring"
+        ],
+        "ear2": [
+          "Friomisi Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Jhakri Cuffs +2"
+        ],
+        "ring1": [
+          "Archon Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Rosmerta's Cape"
+        ],
+        "waist": [
+          "Orpheus's Sash"
+        ],
+        "legs": [
+          "Luhlaza Shalwar +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Weapons/range omitted; guide INT/MAB/MagicDamage cape differs from BG INT/WSD cape label. Separately authored WSD choice; no universal optimum.",
+      "observation_sha256": "fd4b5b69bd9d400431559cb31f0e9beb61701cf5358f333377760cadcef56ddc"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/25",
+      "title": "The Beast Within - Prothescar",
+      "notes": "Chrome read role/equipment/ability/subjob sections and all16 selected linked grids. Footer last modified2024-03-25, not table currency proof. Casting, WS, weapon stage/AM, traits and haste context matter. BA/CA/Efflux/UL/UW/Azure Lore and Diffusion access distinct; no broad source rankings, caps, modeled spell effects or subjob opinions adopted.",
+      "observation_sha256": "7b0e77ec4ba5d4d0d7fa6fe5de12abbe328174255027119f8a2d088df51cce85"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Blue_Mage&oldid=772441",
+      "title": "All Jobs BLU772441",
+      "notes": "Chrome normal article read; rendered Permanent link verified772441, footer2026-07-13. Visible mid/high tables for Expiacion, CDC, Requiescat, Imperator, Savage, Sanguine, Red Lotus and AM3 Tizona/AM1 Caliburnus TP. Collapsed additional tables not inspected. OdysseyR30/NyameR25B, Thibron enabled, Ice Brand/Flametongue disabled unless specified. Zahak Reborn modeled spell/trait bonuses excluded from equipment. No modeled damage/DT/delay totals adopted.",
+      "observation_sha256": "1648c3f0563e1e30726caef8b81cb91465ede711561ae329bd92fa2c9128c7ff"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Rosmerta%27s_Cape&oldid=568490",
+      "title": "Rosmerta augment categories568490",
+      "notes": "Chrome normal article read; rendered Permanent link verified568490. Independent Thread20/Dye10 stat, Dust physicalAccAtk20 or magicalAccDamage20, Sap DA10/WSD10/MAB10/FC10/Cure10 and Resin DT5 choices. Exact cape variants Nexus-authored. Native decoded parts independently read from public extdata; no library execution.",
+      "observation_sha256": "6dfbd45c92feba2e6bea97a60be6cd96e2166d3f69a66e81a819478a19918ac5"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Blue_Mage_Job_Traits&oldid=751925",
+      "title": "BLU job traits751925",
+      "notes": "Normal article read in Chrome and rendered Permanent link verified751925. Each trait tier requires8 trait points, distinct from spell set cost. Delta Thrust and Barbed Crescent each give4 trait points and cost2 set points; both learned/actually set supply usable Dual Wield without a JP gift. Set-point table is not a trait-point threshold. Gifts100/1200 and full Zahak spell bonuses are not equipment and are not assumed.",
+      "observation_sha256": "50d3feabd9ff990af95775837b2da9c354a67b049c2202c951b5d78c99fe66db"
+    }
+  ],
+  "access": "BG reader403 recovered in ordinary Chrome for normal article routes. Rendered Permanent links verified772441/568490/751925. Original250766/385968 recovered; no security bypass. Manual structured transcriptions/paraphrases, not raw HTML/full DOM snapshots."
+}

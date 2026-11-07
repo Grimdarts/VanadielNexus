@@ -89,3 +89,19 @@ def test_full_names_keep_non_equipment_shortened_names():
     assert names[3000] == 'Tarutaru Folding Screen'  # not equipment, still kept (eng review D23)
     assert names[23115] == 'Tarutaru Maillot +1'
     assert 23100 not in names  # not shortened
+
+
+def test_slot_label_names_each_slot_once():
+    items = item_res.items(FIXTURE)
+    assert item_res.slot_label(items[16000]) == 'Main / Sub'
+    assert item_res.slot_label(items[23100]) == 'Head'
+    assert item_res.slot_label(items[23108]) == 'Earring'
+    assert item_res.slot_label(items[23110]) == 'Ring'
+    assert item_res.slot_label(item_res.Item(id=1, en='Potion')) == ''
+
+
+def test_equipment_names_use_the_game_spelling_and_skip_non_equipment():
+    names = item_res.equipment_names(FIXTURE)
+    assert names['Nyame Mail'].id == 23102 and "Epaminondas's Ring" in names
+    assert not any(item.slots == 0 for item in names.values())
+    assert item_res.equipment_names(FIXTURE + '-missing') == {}

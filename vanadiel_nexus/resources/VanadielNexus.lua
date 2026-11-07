@@ -1,6 +1,6 @@
 _addon.name = 'VanadielNexus'
 _addon.author = 'Vana\'diel Nexus'
-_addon.version = '1.5.0'
+_addon.version = '1.5.1'
 _addon.commands = {'vn', 'vanadielnexus', 'nexus'}
 
 local socket = require('socket')
@@ -17,21 +17,6 @@ pcall(function()
     udp_in:setsockname(UDP_HOST, UDP_LISTEN_PORT)
     udp_in:settimeout(0)
 end)
-
-local state_cache = {
-    mote_modes = {
-        OffenseMode = 'Normal',
-        HybridMode = 'Normal',
-        WeaponskillMode = 'Normal',
-        IdleMode = 'Normal',
-        CastingMode = 'Normal',
-        WeaponSet = 'Default'
-    },
-    magic_haste = 0,
-    gear_haste = 25.0,
-    dw_needed = 0,
-    haste_group = 'MaxHaste'
-}
 
 local BAG_DEFS = {
     {id = 0,  name = 'Inventory'},
@@ -329,14 +314,8 @@ local function build_and_send_state(include_bags)
         mat_json = '{' .. table.concat(mat_parts, ',') .. '}'
     end
 
-    local mote_parts = {}
-    for k, v in pairs(state_cache.mote_modes) do
-        table.insert(mote_parts, string.format('"%s":"%s"', json_escape(k), json_escape(v)))
-    end
-    local mote_json = '{' .. table.concat(mote_parts, ',') .. '}'
-
     local payload = string.format(
-        '{"type":"STATE_UPDATE","state":{"player_name":"%s","main_job":"%s","main_job_lvl":%d,"sub_job":"%s","sub_job_lvl":%d,"master_lvl":%d,"zone_name":"%s","magic_haste":%.2f,"gear_haste":%.1f,"dw_needed":%d,"haste_group":"%s","mote_modes":%s,"materials":%s,"equipped":%s,"inventory":%s}}',
+        '{"type":"STATE_UPDATE","state":{"player_name":"%s","main_job":"%s","main_job_lvl":%d,"sub_job":"%s","sub_job_lvl":%d,"master_lvl":%d,"zone_name":"%s","materials":%s,"equipped":%s,"inventory":%s}}',
         json_escape(p.name or 'Player'),
         json_escape(p.main_job or 'WAR'),
         p.main_job_level or 99,
@@ -344,11 +323,6 @@ local function build_and_send_state(include_bags)
         p.sub_job_level or 49,
         p.superior_level or 0,
         json_escape(zone_name),
-        state_cache.magic_haste,
-        state_cache.gear_haste,
-        state_cache.dw_needed,
-        json_escape(state_cache.haste_group),
-        mote_json,
         mat_json,
         eq_json,
         inv_json
@@ -562,11 +536,7 @@ end)
 windower.register_event('addon command', function(cmd, ...)
     cmd = cmd and cmd:lower() or 'help'
     local args = {...}
-    if cmd == 'hud' then
-        pcall(function()
-            udp_out:sendto('{"type":"TOGGLE_HUD"}', UDP_HOST, UDP_SEND_PORT)
-        end)
-    elseif cmd == 'scan' then
+    if cmd == 'scan' then
         build_and_send_state(true)
         windower.add_to_chat(207, '[VanadielNexus] Scanned all 17 bags and your storage slips and sent update to overlay.')
     elseif cmd == 'layout' then
@@ -579,13 +549,8 @@ windower.register_event('addon command', function(cmd, ...)
             send_message('LAYOUT_REQUEST')
             windower.add_to_chat(207, '[VanadielNexus] Asking the app for your layout. Vana\'diel Nexus must be open.')
         end
-    elseif cmd == 'mote_sync' and args[1] and args[2] then
-        local mode_name = args[1]
-        local mode_val = table.concat(args, ' ', 2)
-        state_cache.mote_modes[mode_name] = mode_val
-        build_and_send_state(false)
     else
-        windower.add_to_chat(207, '[VanadielNexus] Commands: //vn scan | //vn layout | //vn hud (No F8-F12 hotkeys bound).')
+        windower.add_to_chat(207, '[VanadielNexus] Commands: //vn scan | //vn layout (no keys are bound).')
     end
 end)
 

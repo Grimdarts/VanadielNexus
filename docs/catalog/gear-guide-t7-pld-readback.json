@@ -1,0 +1,109 @@
+{
+  "checked_on": "2026-11-04",
+  "status": "Bounded PLD candidate milestone;not production ready;stop afterPLD",
+  "checks_passed": 25,
+  "checks": [
+    "323 original byte backups hash correctly",
+    "all existing canonical bytes outside allowed evidence/resources/hands/test counts preserved",
+    "prior test changes exactly global counts and authored-job lists",
+    "all332sets343revisions694sources unchanged append-only prefixes",
+    "all nonPLD coverage byte-equivalent data preserved",
+    "prior metadata batches amendments retained",
+    "11withdrawnBRD preserved362stored351effective",
+    "eight unresolved originals unchanged",
+    "DRG remains0recommendations8gaps",
+    "359sets370revisions754sources225coverage27PLD",
+    "10PLD included157total68gaps8jobs zeroNA",
+    "whole candidate prepared against actual resources and priorhistory",
+    "all670detached resource fields/descriptions match actual source",
+    "all626prior resources descriptions metadata unchanged",
+    "four upstream public resource hashes fingerprint unchanged",
+    "all37prior hand records ASTidentical onlyPriwen28648 appended",
+    "12grids2facts46cards digest correctly",
+    "renderedBG780215 recovery linked as source",
+    "46 independent card hashes and source locators verify",
+    "27 saved definitions match revisions and independent presave fingerprint",
+    "sourceonlyChev right-ear not selected or detached",
+    "public native decoder bytes unchanged",
+    "productionv1 bytehash unchanged",
+    "original branch and HEAD preserved",
+    "second pass ALL22jobs still deferred"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 323,
+  "candidate_records": {
+    "sets": 359,
+    "revisions": 370,
+    "sources": 754,
+    "coverage": 225
+  },
+  "new_pld_recommendations": 27,
+  "stored_verified_flags": 362,
+  "effective_verified_compositions": 351,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "drg_gaps": 8,
+  "included_priorities": 157,
+  "gap_priorities": 68,
+  "remaining_jobs": 8,
+  "not_applicable": 0,
+  "resource_records": 670,
+  "hand_registry": "38 / hands.2026-11-04.v13",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-pld-definitions.json": "c928db00af97181029deab6ee195a5d416b3037a4ab9983e9f2a583deea1c684",
+    "gear-guide-t7-pld-item-evidence.json": "66c5a24555af9fa5e0f478167cdf97cb7d56a0be4c7cadf7711da00f4dc639a5",
+    "gear-guide-t7-pld-observations.json": "eb42effa238d9efc7e70b901a6a4b52653be9ad0a5f9432427cb2ebe73e571fd"
+  },
+  "deferred_plan": "Remaining initial passes first; later second pass ALL22jobs to address issues with any job; not started here. BRD/DRG deferred,not resolved/waived.",
+  "limits": "Offline composition/history/preservation;not caps,HPpreservation,ownership,bags,currentBiS or human/frozen/live acceptance",
+  "validation": {
+    "presave_initial": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 1.08
+    },
+    "presave_final_before_save": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 1.08
+    },
+    "focused": {
+      "passed": 443,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 34.13
+    },
+    "full_native": {
+      "passed": 1201,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 149.45
+    },
+    "git_diff_check": "passed",
+    "new_file_whitespace_check": "passed",
+    "scope": "Offline source/candidate validation, fresh PLD-local TEMP/TMP/VN_DATA_DIR/basetemp, fictional discovery and disabled player inventory seeding; no frozen/live acceptance"
+  }
+}

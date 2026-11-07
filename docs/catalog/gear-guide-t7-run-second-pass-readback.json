@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-11-05",
+  "checks_passed": 24,
+  "checks": [
+    "All 466 baseline backups retain their exact original hashes",
+    "Only candidate metadata, one hash-chain test and four current documents changed",
+    "docs/catalog/gear-guide-t7-candidate.json: original CRLF or LF style retained",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md: original CRLF or LF style retained",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md: complete old document is byte-identical suffix with history separator",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md: original CRLF or LF style retained",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md: complete old document is byte-identical suffix with history separator",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md: original CRLF or LF style retained",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md: complete old document is byte-identical suffix with history separator",
+    "docs/GEAR-GUIDE-T7-SECOND-PASS.md: original CRLF or LF style retained",
+    "docs/GEAR-GUIDE-T7-SECOND-PASS.md: complete old document is byte-identical suffix with history separator",
+    "tests/core/test_guide_second_pass.py: original CRLF or LF style retained",
+    "Candidate differs exclusively in delivery_status",
+    "No derived _retirements or other private keys saved",
+    "Counts 520 sets 547 revisions 1331 sources 27 retired 512 effective eight unresolved retained",
+    "Production v1 byte hash protected",
+    "All prior RUN packets and original issue register preserved",
+    "All 20 source grids unchanged and 43 exact public cards verified",
+    "Every one of 29 RUN historical register entries has a current explicit disposition",
+    "All seven context groups cover all 20 RUN compositions",
+    "Final logs agree with report",
+    "Original checkout branch and HEAD retained",
+    "git diff --check passes",
+    "New artifacts contain LF only and no trailing whitespace"
+  ],
+  "baseline_files": 466,
+  "changed_baseline_files": [
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/GEAR-GUIDE-T7-SECOND-PASS.md",
+    "tests/core/test_guide_second_pass.py"
+  ],
+  "hashes": {
+    "docs/catalog/gear-guide-t7-candidate.json": "d0b3af52d96f01ae2fe721ac9ef83d8150045a93c61d6f8a7c1c17a395b61f1a",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md": "c213d903d7492e493a15117f8f864cb9654424760dd69cb5e8667880b2ff8448",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md": "4fc475bac0776a5a2cf51aa16009aa6239dc8a8d0bb41a4fd37ee228b57799e7",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md": "0762a2c7fb6cffb330b4e597fc2222e477430d7b888639be42374268e8de39f1",
+    "docs/GEAR-GUIDE-T7-SECOND-PASS.md": "9bbac381a2ccfb605d80c16c2f16e0352060d9360b14f1ee2e23a830dea9af56",
+    "tests/core/test_guide_second_pass.py": "eefd8b915164c2c896bc9a3dfc1f1e1a28150e53aaa2217541ac557e3aeb509a",
+    "docs\\GEAR-GUIDE-T7-SECOND-PASS-RUN-AUDIT.md": "068a0ac15ca3bf0bcf5f2397d80e676f3128ca5c377114a65aa37077d20f6c77",
+    "docs\\catalog\\gear-guide-t7-run-second-pass-audit.json": "dbb8a540296333dbba702baa352a8be9c42d760bd585e818279fcd2124caca3e",
+    "docs\\catalog\\gear-guide-t7-run-status-correction.json": "38a123ef1f7e94a68db8f93c04ad4ee4d2cb714c3bb65889ccbf54ee06631bd6"
+  },
+  "validation": {
+    "literal-native": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "0.04s",
+      "log_sha256": "c39efe51cd313bd35a816020dcd8c7ac1446c3b68b8b6f37038ffea4140f72bf"
+    },
+    "focused-native": {
+      "passed": 811,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "69.59s (0:01:09)",
+      "log_sha256": "b776874d46604364f184b6ea1ccf76bcea446e277f0233d2a7da6389e15aa093"
+    },
+    "full-native": {
+      "passed": 1536,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "158.52s (0:02:38)",
+      "log_sha256": "068dac037b1ed1c01f89e148c8086c24ee98a4441d5952692196604bf0f156d9"
+    }
+  },
+  "limits": "Source/grid/identity/augments/context correctness within existing bounded sets only. Current BG refresh unavailable; no completeness, BiS, numeric caps/totals, HP-preserving chain, ownership/bags or human/frozen/live acceptance. Additional RUN variants and other job limits remain pending after 2.2.0."
+}

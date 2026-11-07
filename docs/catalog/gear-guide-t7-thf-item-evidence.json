@@ -1,0 +1,229 @@
+{
+  "checked_on": "2026-11-05",
+  "items": [
+    {
+      "item_id": 21565,
+      "name": "Tauret",
+      "url": "https://www.ffxiah.com/item/21565",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "7fec809b4738845b215f38c4b0ca9abf4ed0e64bbf0217cbd6ab394f0eaef064",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "ExactDMG125 Delay180 skill250; mainhandEvisceration grant/bonus; lowerTP critical effect actualTPdependent, not Rudra grant or universalTPthreshold.",
+      "observation_sha256": "a7fbd8f9ad5f0473e8487a2e2ed69cd12c6b27ce42f112d2e7d45212eaae97f7"
+    },
+    {
+      "item_id": 21567,
+      "name": "Gleti's Knife",
+      "url": "https://www.ffxiah.com/item/21567",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "413f082a65cc1a60af2f6ebdb992da564ca46739e7cf24efc7c0ca2bcd331ba4",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "BaseDMG133 Delay200 skill255; localslotmask3 corroborated by renderedretailguide offhand. SourceR20DMG10 versus publiccommentDMG9 discrepancy retained, not selected.",
+      "observation_sha256": "2fa0e3b95104b41d931888b134499400fdbeef78652db3a297b634615b3202e8"
+    },
+    {
+      "item_id": 22286,
+      "name": "C. Palug Stone",
+      "url": "https://www.ffxiah.com/item/22286",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "cbd2ad3d058a223837f6bdebbb027f4d5fd172a3a6f30be017274cd70076acb9",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "3cd23fbaed8f793ba4c1631bd62833a9c7763ea4ce43c5fdde156f4a2d009342"
+    },
+    {
+      "item_id": 23380,
+      "name": "Pill. Bonnet +3",
+      "url": "https://www.ffxiah.com/item/23380",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "3bca9cfe54603b47829dd58edb7b79a4500b7ac62bc7672245181c175b9764a0",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "4274aa3053590bbc87511b0c9de43c22042603c0c5ad3384c330c9b1cda529ad"
+    },
+    {
+      "item_id": 23425,
+      "name": "Skulker's Bonnet +3",
+      "url": "https://www.ffxiah.com/item/23425",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "d59f184e3058f2fdcd30e95d62f1f3e4d009d661e16da3076d7ed9882fd32edb",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "2dbfb9510636293f014664dce054e8ee2a92222333aced06563bb07872f2a0f3"
+    },
+    {
+      "item_id": 23447,
+      "name": "Pillager's Vest +3",
+      "url": "https://www.ffxiah.com/item/23447",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "4daff56a5981a7fe1ce19cd9f170b571fbc634770c2df097d366f895c15c9900",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "dddf9c7db3ba4c7c44f49e6f8b54ebeef23fd8211e2d3b14ab9ccf0e699d3772"
+    },
+    {
+      "item_id": 23470,
+      "name": "Plunderer's Vest +3",
+      "url": "https://www.ffxiah.com/item/23470",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "c4d2179e73806769ebdf53c08250f9f2a6fda50656f307c31be409c591b7320f",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "SA/TA modifying gear at hit-time, not an activation-only snapshot. Exact+3 only; no source+4 or older genericmagnitude transferred.",
+      "observation_sha256": "d64359a71f3dc2b24106da99973f18a4d01fa66ac6fd1cf4d16175a9cb1c5169"
+    },
+    {
+      "item_id": 23492,
+      "name": "Skulker's Vest +3",
+      "url": "https://www.ffxiah.com/item/23492",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "555edcf08bffdba2dcb3394154af6c1f17710fa98280e5c3a623b6116c8da987",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "7f51f5a717c56533d55361751865b0758decc4f18ded5822fe1da3514e4d0736"
+    },
+    {
+      "item_id": 23514,
+      "name": "Pill. Armlets +3",
+      "url": "https://www.ffxiah.com/item/23514",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "bc4c21d9c32b9279250138402dfce0fa31e409b0c66e3d8d96ccf40bbaa0ab85",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "SA/TA modifying gear at hit-time, not an activation-only snapshot. Exact+3 only; no source+4 or older genericmagnitude transferred.",
+      "observation_sha256": "dc77a666c9428f67ffa6f8edfdf8f7c471561a3a9be44949a32a919ee7525418"
+    },
+    {
+      "item_id": 23559,
+      "name": "Skulk. Armlets +3",
+      "url": "https://www.ffxiah.com/item/23559",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "c7338fec31f2b5b7646fd59f4834870906ccc8d22193d11dd946cc4e16b7c8c1",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "SA/TA modifying gear at hit-time, not an activation-only snapshot. Exact+3 only; no source+4 or older genericmagnitude transferred.",
+      "observation_sha256": "adf300d7d80cf343ec2ee2ed6f3b95cd83f869ed5f02770e2455012f795b6340"
+    },
+    {
+      "item_id": 23581,
+      "name": "Pill. Culottes +3",
+      "url": "https://www.ffxiah.com/item/23581",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "4f9448a3e13e1aabd315b0faa796f9ca7c4313ac41dfd292652a445238f4006c",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "c64848a49998b203dc5bfa3a67965c2db6ce645c9a5c0e37bb09ea37863d3500"
+    },
+    {
+      "item_id": 23604,
+      "name": "Plun. Culottes +3",
+      "url": "https://www.ffxiah.com/item/23604",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "2842c34d900f334660b9938ecfdc59d2159491c3661f1f06c0980dc12d42f407",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "e5bad35046e949e8a72b3cb2e77ddcf8d7f24ed965ffd9beae847f83b29ae84b"
+    },
+    {
+      "item_id": 23671,
+      "name": "Plun. Poulaines +3",
+      "url": "https://www.ffxiah.com/item/23671",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "9b94f6ac634e204687c549094b02745e881df0a6e82dd0aa9a81e06c710bd643",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "b4f03e0d178d03f368799e2a9104002b3488879ef52bd2569d1ed84d08ca919f"
+    },
+    {
+      "item_id": 23693,
+      "name": "Skulk. Poulaines +3",
+      "url": "https://www.ffxiah.com/item/23693",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "25b5ae1e0a01fe2b9d19028790bfbd0d8e27150728933391bee58c9bc2481426",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "BaseTH+5feet; actualhostileaction/nativeTHFIII distinct from appliedtargetlevel and laterupgrades. No guarantee of drop/proc/cap.",
+      "observation_sha256": "237e6349927ec8a6283097d7f45b76c8a8bd6d48110978365569fe1c519f47ee"
+    },
+    {
+      "item_id": 25449,
+      "name": "Asn. Gorget +2",
+      "url": "https://www.ffxiah.com/item/25449",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "9372d96fee3297f0af9a8ba79524073678ba726b156a5814cdb8c54c8deb7d76",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "680304eb0b959a0bad96aa18cd3530da4fbccf47016d78849338ad748217747a"
+    },
+    {
+      "item_id": 26251,
+      "name": "Toutatis's Cape",
+      "url": "https://www.ffxiah.com/item/26251",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "51076662828ccfbed829bebc285c59439f49d167a78e3b87c9b80d54684d5271",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "82780d969b233696d8698234b3cf77e69b116060bff6befe7442fffa5d0178c1"
+    },
+    {
+      "item_id": 27518,
+      "name": "Bathy Choker +1",
+      "url": "https://www.ffxiah.com/item/27518",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "99342e2ba0cf374999faa393d44bbe99ea4d71006f4f288a44bd5acabd1e384c",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "conditional": "UnityEvasion5to15 unresolved actualstanding; noR15Counter/Evasionaugment assumed.",
+      "observation_sha256": "28e69d1849b3b05df55ab7edb57c275acb4ffdbd305c0d66c93214b3cd0646d1"
+    },
+    {
+      "item_id": 28456,
+      "name": "Kasiri Belt",
+      "url": "https://www.ffxiah.com/item/28456",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Original exact-ID public card independently read in ordinaryChrome; identity/slot/THF eligibility/base text compared. Localdescription hash is not websitecapture.",
+      "resource_description_sha256": "025d462baa754becc99a61420037ec8b7f8af8f7ae4a90d9ff5b4c9779418423",
+      "limits": "No rank/path/augmentmaximum,ownership,bags,numericcap/currentBiS certification.",
+      "observation_sha256": "50248e4840d18fc2402f7790ee5d96fc85a4cad0ba3fc484a57ec56ddf93b490"
+    }
+  ],
+  "native_augment_evidence": {
+    "path": "Windower4/addons/libs/extdata.lua",
+    "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921",
+    "method": "Publicdecoderread-only,notexecuted;noinventory/playerLua",
+    "parts": [
+      "DEX+20",
+      "DEX+10",
+      "INT+20",
+      "INT+10",
+      "Accuracy+20 Attack+20",
+      "Mag. Acc+20 /Mag. Dmg.+20",
+      "\"Store TP\"+10",
+      "Crit.hit rate+10",
+      "Weapon skill damage +10%",
+      "Phys. dmg. taken -10%",
+      "Attack+4",
+      "TP Bonus +250"
+    ]
+  }
+}

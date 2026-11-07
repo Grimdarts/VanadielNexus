@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Three /SAM Hasso counterparts included in one bounded context; /WAR unchanged; no complete-job claim",
+  "baseline_candidate_sha256": "cf3868c2677c185982f98ddb8176c0badab34a507d43d3905759beda2f417162",
+  "candidate_sha256": "353a82ca85334eebedad99c44f6cb575c836336ddba2fd2ac7ad2142f004c658",
+  "evidence_sha256": "776caa6169daecd367a365b3ee294854104fa044fcd86e9695361eb455e2bee2",
+  "definitions": [
+    {
+      "set_id": "nexus:smn:engaged-sam-balanced",
+      "war_counterpart": "nexus:smn:engaged-balanced",
+      "revision_id": "nexus:smn:engaged-sam-balanced:2026-11-05:f1e5161bc27c",
+      "slots_sha256": "52679e55738d8abb0e895c6ecad31842b7a54926d895baba2888c8eff715f444"
+    },
+    {
+      "set_id": "nexus:smn:engaged-sam-dt",
+      "war_counterpart": "nexus:smn:engaged-dt",
+      "revision_id": "nexus:smn:engaged-sam-dt:2026-11-05:65ab2e7152c1",
+      "slots_sha256": "d0d78508f0ce3389f57f5375b7c44f1fe03cf5b283bd07c16db399f3ae3e51da"
+    },
+    {
+      "set_id": "nexus:smn:engaged-sam-accuracy",
+      "war_counterpart": "nexus:smn:engaged-accuracy",
+      "revision_id": "nexus:smn:engaged-sam-accuracy:2026-11-05:292de9fcf587",
+      "slots_sha256": "3c3b361c68e3d4c3b3c7c04009e3db8af9b37bbfe37a731cf140fec7c369e59b"
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "job": "SMN",
+      "priority": "Hasso Engaged Balanced",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/SAM49; actual unlocked and leveled SAM support job; no master level, level-50 support rows, job points or merits inferred; Hasso explicitly used and active on the master; Seigan inactive (each overwrites the other). Source 5:00 duration/1:00 recast; availability or earlier use is not continuous uptime; no automatic reapplication or live detection; Comparable low-buff manual checkpoint for all three priorities except master Hasso: Hasso credited only as source-described job-ability haste, a category separate from equipment and magic haste. No external magic haste/March, Hastega II or Haste Samba credited. Printed equipment haste only; no numeric Hasso value adopted, no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-HASSO.md; gear-guide-t7-smn-hasso-evidence.json browser-read current Hasso/Attack Speed/Samurai/Blood Pact revisions, node380 subjob statement and retained exact grids/cards.",
+      "set_ids": [
+        "nexus:smn:engaged-sam-balanced"
+      ]
+    },
+    {
+      "job": "SMN",
+      "priority": "Hasso Engaged DT",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/SAM49; actual unlocked and leveled SAM support job; no master level, level-50 support rows, job points or merits inferred; Hasso explicitly used and active on the master; Seigan inactive (each overwrites the other). Source 5:00 duration/1:00 recast; availability or earlier use is not continuous uptime; no automatic reapplication or live detection; Comparable low-buff manual checkpoint for all three priorities except master Hasso: Hasso credited only as source-described job-ability haste, a category separate from equipment and magic haste. No external magic haste/March, Hastega II or Haste Samba credited. Printed equipment haste only; no numeric Hasso value adopted, no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-HASSO.md; gear-guide-t7-smn-hasso-evidence.json browser-read current Hasso/Attack Speed/Samurai/Blood Pact revisions, node380 subjob statement and retained exact grids/cards.",
+      "set_ids": [
+        "nexus:smn:engaged-sam-dt"
+      ]
+    },
+    {
+      "job": "SMN",
+      "priority": "Hasso Engaged Accuracy",
+      "status": "included",
+      "reviewed": true,
+      "context": "Niche master staff auto-attacks against a selected enemy in melee reach; master is recipient of master melee/defense lines, ordinary persistent avatar is separate; SMN99/SAM49; actual unlocked and leveled SAM support job; no master level, level-50 support rows, job points or merits inferred; Hasso explicitly used and active on the master; Seigan inactive (each overwrites the other). Source 5:00 duration/1:00 recast; availability or earlier use is not continuous uptime; no automatic reapplication or live detection; Comparable low-buff manual checkpoint for all three priorities except master Hasso: Hasso credited only as source-described job-ability haste, a category separate from equipment and magic haste. No external magic haste/March, Hastega II or Haste Samba credited. Printed equipment haste only; no numeric Hasso value adopted, no aggregate haste/delay cap, x-hit build or minimum haste certified",
+      "evidence": "GEAR-GUIDE-T7-SECOND-PASS-SMN-HASSO.md; gear-guide-t7-smn-hasso-evidence.json browser-read current Hasso/Attack Speed/Samurai/Blood Pact revisions, node380 subjob statement and retained exact grids/cards.",
+      "set_ids": [
+        "nexus:smn:engaged-sam-accuracy"
+      ]
+    }
+  ],
+  "sources_added": [
+    "smn:hasso:bg:hasso:752340",
+    "smn:hasso:bg:attack-speed:757807",
+    "smn:hasso:bg:samurai:696531",
+    "smn:hasso:bg:blood-pact:745754",
+    "smn:hasso:ffxiclopedia:hasso:1542307"
+  ],
+  "unclaimed": [
+    "Other staff/club/dual-wield weapons, stages and aftermath",
+    "Every other subjob/haste/food/buff/accuracy-target context and numeric Hasso totals",
+    "Hasso/Blood Pact delay interaction; all original SMN pact/Ward/WS/ability variants and remaining all22jobs inventory obligations",
+    "BRD runtime retirement; no automatic saved target retargeting"
+  ],
+  "new_resources": 0,
+  "new_hands": 0,
+  "new_requirements": 0,
+  "presave_marker": {
+    "passed": 29,
+    "per_file": [
+      11,
+      5,
+      7,
+      6
+    ],
+    "candidate_draft_sha256": "353a82ca85334eebedad99c44f6cb575c836336ddba2fd2ac7ad2142f004c658",
+    "test_sha256": "2950c842aea1ebe99da1f831e22f5315fd20022b168d34e30d503b33e37c481d",
+    "log_sha256": "cc322c7098eb197a79eb5a049ee012cab49fb9f843ebd4d32ac319d122175bd5"
+  }
+}

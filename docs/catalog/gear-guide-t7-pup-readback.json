@@ -1,0 +1,153 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "status": "Bounded PUP initial pass; not production ready; stop after PUP and prompt",
+  "checks_passed": 40,
+  "checks": [
+    "372 bytebackups hash correctly",
+    "all existing bytes outside scoped files unchanged",
+    "prior test changes exactly aggregate counts PUPstatus hands53v18 and authored joblist",
+    "changed files keep baseline line-ending style; new files single-style; no trailing whitespace",
+    "483sets494revisions1045sources immutableprefixes",
+    "all nonPUP coverage unchanged",
+    "prior batches amendments metadata unchanged",
+    "11withdrawnBRD 502stored491effective",
+    "eight unresolved originals unchanged",
+    "DNC9 gaps zero DNC recommendations",
+    "499sets510revisions1127sources225rows16PUP",
+    "10PUPincluded216total9gaps1jobzeroNA",
+    "delivery_status keeps all22jobs token",
+    "actualresource wholecandidate appendonly preparation",
+    "six exact hand-to-hand mains reviewed PUPeligible; animators range-only",
+    "48prior handrecords ASTidentical plus5 appended v18",
+    "828detachedresourcefields descriptions equal actual",
+    "802priorresources descriptions and metadata unchanged",
+    "fourupstreamhashes fingerprint unchanged",
+    "31source scopes25facts26cards independentdigests",
+    "publiclocators exactlocaldescription hashes and 26newids",
+    "rendered772450 node426 StringTheory689269 provenance stageconflicts and accesslimits retained",
+    "21 node slot grids 16cells with empties as omissions; BG grids placeholders kept",
+    "16saveddefinitions matchrevision slots presavefingerprint",
+    "10actualPUProws reconcile independently",
+    "16complete16slot exactpairs subammoempty PUPeligibility",
+    "master automaton recipients subjob and inputs explicit",
+    "literal cape fictional independent readback; every other selection base",
+    "Kara. Earring +2 only in ear2 (Right ear:)",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "every prior tracked/untracked status path still present",
+    "secondpass WorldMap protectedbytes unchanged",
+    "both DRG artifact sets byteidentical",
+    "allfourTHFpackets protectedbytes",
+    "BST report four packets and BST-START byteidentical",
+    "PUP-START launch doc preserved byteidentical",
+    "successor prompt: DNC slice in current chat with final PUP baseline",
+    "validation logs exact counts zero skips"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_bst_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drg_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_mnk_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "tests/core/test_guide_thf_batch.py",
+    "tests/core/test_guide_war_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 372,
+  "candidate_records": {
+    "sets": 499,
+    "revisions": 510,
+    "sources": 1127,
+    "coverage": 225
+  },
+  "new_pup_recommendations": 16,
+  "stored_verified_flags": 502,
+  "effective_verified_compositions": 491,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "included_priorities": 216,
+  "gap_priorities": 9,
+  "remaining_jobs": 1,
+  "not_applicable": 0,
+  "resource_records": 828,
+  "hand_registry": "53 / hands.2026-11-05.v18; 48 prior AST identical, 5 PUP hand-to-hand records appended",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-pup-definitions.json": "2897c25719b8e21d70ef6793dfd66f9cb2aec487cf49713c32cbb96dd62bf9d5",
+    "gear-guide-t7-pup-item-evidence.json": "57dc08b287b2caf872dc918a84e317aa9c2bdd0dba9be4a61b5b6c214dbb447f",
+    "gear-guide-t7-pup-observations.json": "69f127f0fab5de7615bb9f15ed00fab3065cfd0203816c0f110d75f506b37cb2"
+  },
+  "deferred_plan": "Remaining initial pass (DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived.",
+  "remaining_initial_queue": [
+    {
+      "job": "DNC",
+      "recommendations": 0,
+      "gaps": 9
+    }
+  ],
+  "validation": {
+    "presave_first": {
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.76,
+      "note": "First run of the independent literal fictional augment tests (one whitespace/case assertion was rewritten before it ever ran, because identity() collapses whitespace and casefolds)"
+    },
+    "presave_before_save": {
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.74,
+      "note": "Rerun immediately before the single save, after a definitions scope-key edit"
+    },
+    "focused_initial": {
+      "passed": 570,
+      "failed": 16,
+      "skipped": 0,
+      "seconds": 43.14,
+      "reason": "All 16 failures were one line of the new PUP batch test, which expected the phrase 'never added to master'; the context says 'neither is ever added to master totals'. Only the new test's expected phrase was corrected; candidate, packets, validator and prior tests unchanged."
+    },
+    "focused": {
+      "passed": 586,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 43.82
+    },
+    "full_native": {
+      "passed": 1400,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 139.12,
+      "environment": "Fresh PUP-local isolation (TEMP/TMP/VN_DATA_DIR/basetemp under .t7-pup-checks), real-file launcher, fictional Windower discovery, inventory seeding disabled; repository tests unchanged except declared aggregate/PUP-status/hands53/job-list expectations and the new PUP batch test"
+    },
+    "log_sha256": {
+      "presave-first.log": "7f6d519dddac7c970d1c7b26682663798ac193ad2a7371bc6ea56e821543489f",
+      "presave-before-save.log": "82570e6925449b091ab5b8d7161f84a144380cd786796b54ea78d0629f2c56ee",
+      "focused-initial.log": "6e376d1e66a2e0cffb07f6d1bfc338042a316d33ce8ed0a3f39ea037c097aa72",
+      "focused.log": "8105dbf5ef022002cd7e8c8ec1d3c98650325366807cacb39f18eabefcdb1dc0",
+      "full-native.log": "49042bc6f8dbb0788dd3b354b74d127a77d34b7c87fd2b65632bf2238d4adb06"
+    }
+  },
+  "limits": "Offline composition/history/preservation; not automaton effects, overload, HP preservation, caps, ownership/bags, current BiS, human/frozen/live acceptance"
+}

@@ -109,6 +109,12 @@ class LayoutManager(QObject):
         if not (plan["write"] or plan["load"] or plan["unload"]):
             return plan
         commands = {ov.addon: ov.reload for ov in self.overlays() if ov.reload}
+        # Addons layouts never show or hide (GearSwap) have no 'shown' entry, so plan_switch can't tell
+        # they're loaded. They always are; one with its own reload command still needs it after a move.
+        addon_of = {ov.id: ov.addon for ov in self.overlays()}
+        for addon in sorted({addon_of[oid] for oid in plan["write"]}):
+            if addon in commands and not self.toggleable(addon) and addon not in plan["reload"]:
+                plan["reload"].append(addon)
         bridge = self.ctx.bridge
         if not bridge.connected:
             overlays.write_positions(self.overlays(), char, plan["write"], backup=backup)

@@ -1,0 +1,680 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "twohand4",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Boii Mask +3"
+        ],
+        "neck": [
+          "War. Beads +2"
+        ],
+        "ear1": [
+          "Schere Earring"
+        ],
+        "ear2": [
+          "Boii Earring +1"
+        ],
+        "body": [
+          "Boii Lorica +3"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Pumm. Cuisses +3"
+        ],
+        "feet": [
+          "Pumm. Calligae +3"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20 Att15 STR5",
+        "neck": "HP100 STR/DEX15 DA7",
+        "ear1": "Acc15 Att5",
+        "ear2": "Right Ear Acc11~15 Crit3~5",
+        "hands": "R20 Att20 STP5 Acc5",
+        "waist": "STR15 DA5",
+        "back": "DEX20,Acc/Att20,Acc10,DA10,DT5"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "1c78c405578c060951eaa554c3479053c7174d712d2ff1770c0bdbc37e02b53a"
+    },
+    {
+      "key": "single4",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Blurred Shield +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Boii Mask +3"
+        ],
+        "neck": [
+          "War. Beads +2"
+        ],
+        "ear1": [
+          "Schere Earring"
+        ],
+        "ear2": [
+          "Boii Earring +1"
+        ],
+        "body": [
+          "Hjarrandi Breast."
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Pumm. Cuisses +3"
+        ],
+        "feet": [
+          "Pumm. Calligae +3"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20 Att15 STR5",
+        "neck": "HP100 STR/DEX15 DA7",
+        "ear1": "Acc15 Att5",
+        "ear2": "Right Ear Acc11~15 Crit3~5",
+        "hands": "R20 Att20 STP5 Acc5",
+        "waist": "STR15 DA5",
+        "back": "DEX20,Acc/Att20,Acc10,DA10,DT5"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "9c245e6a4b9e34a5e465d86c7912c6e753c721bee90ccad821785af07b2c589f"
+    },
+    {
+      "key": "hybrid",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "War. Beads +2"
+        ],
+        "ear1": [
+          "Schere Earring"
+        ],
+        "ear2": [
+          "Boii Earring +1"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Chirich Ring +1"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20 Att15 STR5",
+        "neck": "HP100 STR/DEX15 DA7",
+        "ear1": "Acc15 Att5",
+        "ear2": "Right Ear Acc11~15 Crit3~5",
+        "waist": "STR15 DA5",
+        "back": "DEX20,Acc/Att20,Acc10,DA10,DT5"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "3f0d8593e749fdb4834efff177db8568d95588983c6cccac67e54d0400bf2eb4"
+    },
+    {
+      "key": "layered",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "Warder's Charm +1"
+        ],
+        "ear1": [
+          "Sanare Earring"
+        ],
+        "ear2": [
+          "Odnowa Earring +1"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Macabre Gaunt. +1"
+        ],
+        "ring1": [
+          "Shadow Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Shadow Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ]
+      },
+      "source_options": {
+        "body": "R20 ResistAll10",
+        "hands": "R15 ResistAll10",
+        "ring2": "Defending or Moonlight; Warden/Fortified optional",
+        "waist": "Carrier Sash or Plat Mog Belt; left to reader"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "ed840667f962a5d0f71a2197ace4fd799349318ab6970101af4f6a0af1af930a"
+    },
+    {
+      "key": "retaliation",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [],
+        "ear1": [
+          "Cryptic Earring"
+        ],
+        "ear2": [],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Pumm. Mufflers +3"
+        ],
+        "ring1": [],
+        "ring2": [
+          "Defending Ring"
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          "Sakpata's Cuisses"
+        ],
+        "feet": [
+          "Boii Calligae +3"
+        ]
+      },
+      "source_options": {
+        "notes": "Partial source grid; author unsure Counter interaction. Not proof damage negation or shield proc compatibility."
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "3d5a3a277124a1264cdf070da39d11f38ad6ac155de265fcc2c8729628072bac"
+    },
+    {
+      "key": "enmity",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Pummeler's Mask +3"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Cryptic Earring"
+        ],
+        "ear2": [
+          "Trux Earring"
+        ],
+        "body": [
+          "Souv. Cuirass +1"
+        ],
+        "hands": [
+          "Pumm. Mufflers +3"
+        ],
+        "ring1": [
+          "Apeile Ring"
+        ],
+        "ring2": [
+          "Apeile Ring +1"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Trance Belt"
+        ],
+        "legs": [
+          "Souv. Diechlings +1"
+        ],
+        "feet": [
+          "Souveran Schuhs +1"
+        ]
+      },
+      "source_options": {
+        "body/legs/feet": "Souveran PathC",
+        "ring2": "DEF20 MDB5",
+        "back": "Enmity10"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "7c4ebe3cffd08d03ee0b1bada9ed7fb1e54478ad947176107d633eca7e01be4d"
+    },
+    {
+      "key": "fc",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Sapience Orb"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "Orunmila's Torque"
+        ],
+        "ear1": [
+          "Loquac. Earring"
+        ],
+        "ear2": [
+          "Enchntr. Earring +1"
+        ],
+        "body": [
+          "Odyss. Chestplate"
+        ],
+        "hands": [
+          "Leyline Gloves"
+        ],
+        "ring1": [
+          "Prolix Ring"
+        ],
+        "ring2": [
+          "Rahab Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Odyssean Cuisses"
+        ],
+        "feet": [
+          "Odyssean Greaves"
+        ]
+      },
+      "source_options": {
+        "body/hands/legs/feet": "Unspecified random FastCast augments",
+        "back": "FC10"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "38690201cd708c9c4eefdab1773e029e33733e55c73bd7ec6b998d22ddc5ebf6"
+    },
+    {
+      "key": "upheaval2",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [
+          "Chango"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "War. Beads +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Boii Mufflers +3"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "head/body/legs/feet": "Nyame PathB R20",
+        "neck": "HP100 STR/DEX15 DA7",
+        "ear2": "TPBonus250",
+        "waist": "STR15 DA5",
+        "back": "VIT30 Acc20 Attack20 WSD10 DT5"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "7ee52ab1c27a381bc9f4c1c83816f6df1bc5878aa989ac9e00bd5589dea921dc"
+    },
+    {
+      "key": "upheavalA",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Seething Bomblet"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "War. Beads +1"
+        ],
+        "ear1": [
+          "Cessance Earring"
+        ],
+        "ear2": [
+          "Brutal Earring"
+        ],
+        "body": [
+          "Agoge Lorica +2"
+        ],
+        "hands": [
+          "Sulev. Gauntlets +2"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Agoge Cuisses +2"
+        ],
+        "feet": [
+          "Pumm. Calligae +2"
+        ]
+      },
+      "source_options": {
+        "neck": "HP75 STR/DEX12 DA6",
+        "back": "STR20 STR10 Acc/Att20 DA10 DT5",
+        "notes": "Source lowTP focus1000~1749 contrasted with1750+ WSD focus; effectiveTP and bonuses must be assessed separately."
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "34f0abdf7a0dee33f9706981ba1e9e0e8b288bd4630c0a44e5027790319e3f66"
+    },
+    {
+      "key": "savage3",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [
+          "Naegling"
+        ],
+        "sub": [
+          "Blurred Shield +1"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Agoge Mask +3"
+        ],
+        "neck": [
+          "War. Beads +2"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Thrud Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Boii Mufflers +3"
+        ],
+        "ring1": [
+          "Epaminondas's Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "body/legs/feet": "Nyame PathB R20",
+        "neck": "PathA",
+        "ear1": "TPBonus250",
+        "waist": "STR15 DA5",
+        "back": "STR30 Acc/Att20 WSD10 DT5"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "7ec42da056b1b5292e4dd1e89a2aa635acdd75cac2fc27af552737e5f454af7d"
+    },
+    {
+      "key": "breaks",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Pemphredo Tathlum"
+        ],
+        "head": [
+          "Sakpata's Helm"
+        ],
+        "neck": [
+          "Moonlight Necklace"
+        ],
+        "ear1": [
+          "Digni. Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Sakpata's Plate"
+        ],
+        "hands": [
+          "Sakpata's Gauntlets"
+        ],
+        "ring1": [
+          "Metamor. Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [
+          "Cichol's Mantle"
+        ],
+        "waist": [
+          "Eschan Stone"
+        ],
+        "legs": [
+          "Boii Cuisses +3"
+        ],
+        "feet": [
+          "Sakpata's Leggings"
+        ]
+      },
+      "source_options": {
+        "head/body/hands/feet": "Source PathA terms",
+        "ring1": "PathA",
+        "back": "No explicit augment in collapsed grid"
+      },
+      "method": "Scoped manual rendered 16-cell grid reading; placeholders remain omissions; not executed Lua or a complete Nexus recommendation.",
+      "observation_sha256": "a3d17425052a6958d5f8cb9c49b0ed21d08537f53a1311ffcd55f2bdea7bb91e"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Warrior_Guide&oldid=781333",
+      "title": "Community Warrior Guide",
+      "locator": "Rendered permanent781333; footer27Oct2026 00:34; mixed older prose and opinion, not a currentBiS certificate",
+      "findings": [
+        "Single/twohand/dualwield sections are separate; source numbers are benchmark labels, not invented Nexus tiers.",
+        "No complete MP-subjob recovery grid; no blanket WAR MP exemption.",
+        "Layered idle warns of large maxHP swings; sourceRetaliation is partial and Counter uncertain.",
+        "FC randomaugments remain unspecified; no completion SIRD cap implied.",
+        "Source SubtleBlow grid erroneously carries DEF20 MDB5 under Chirich; not adopted.",
+        "Merit/JP/gift maxima, haste, attackcaps, aftermath and source rank terms not free equipment properties."
+      ],
+      "observation_sha256": "235944e61289c70a524766a1d26453a8746e1d4ab576976d38bb0f46d133853c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Fencer&oldid=774904",
+      "title": "Fencer",
+      "locator": "Rendered original notes/trait table",
+      "findings": [
+        "Single mainhand weapon with empty offhand or shield; twohand/dualwield not eligible.",
+        "JP gift TPbonus requires actual gifts; no numeric cap inferred from selected gear."
+      ],
+      "observation_sha256": "713e91b0d03dc4f0782c41081aafd30d704df531a547ed2b8d6ce43d75ea19cf"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Retaliation&oldid=752293",
+      "title": "Retaliation",
+      "locator": "Rendered original notes/equipment",
+      "findings": [
+        "Facing attacker, does not negate receiveddamage; successful retaliation can giveTP.",
+        "Cannot proc on shieldblocked attack; movement penalty; published rate uncertainty retained.",
+        "PummMufflers/BoiiCalligae printed effects relate to retaliationdamage; not proven activation-only snapshot."
+      ],
+      "observation_sha256": "86240ca26f9120983575e90420f8828882758d073b2ce30dbc6d2819e899c4b0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Defender&oldid=752292",
+      "title": "Defender",
+      "locator": "Rendered original notes",
+      "findings": [
+        "Raises defense while lowering attack/rangedattack; duration/recast/JP/merits need actual state.",
+        "Activation snapshot distinct from sustained buff; no damage reduction/safety cap."
+      ],
+      "observation_sha256": "44ce64dd896054aba706fa97bceb288b088664fb3753cddc1bb4157691ba8464"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/35200/the-parthenon-a-warriors-kyklos/",
+      "title": "Ejiin Parthenon",
+      "locator": "Original guide introductory weapon/JA/gear sections; posting2012, prose2019, later set edits not globally dated",
+      "findings": [
+        "Berserk attack/defense tradeoff, Warcry versus BloodRage ordering, Retaliation receiveddamage and merit-dependent actions.",
+        "349896 source self-labels YOLO and warns of defensive exposure; not copied as defensive.",
+        "381945/322221/236360 rendered zeroitem pages in ordinaryChrome this session; no gear reconstructed from empty pages."
+      ],
+      "observation_sha256": "8e3cffdbf46cd3121faeed70c1026348161660fc400da8fb485a28218aa41926"
+    }
+  ],
+  "access": "Webreader BG403 recovered in ordinaryChrome original/rendered781333;Fencer774904,Retaliation752293,Defender752292 rendered and18publiccards. Three originalFFXIAHsets empty thisturn;349896 webreader readable. No Lua execution."
+}

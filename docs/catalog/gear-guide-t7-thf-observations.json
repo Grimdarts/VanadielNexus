@@ -1,0 +1,645 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "nyame-dt",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Asn. Gorget +1"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Moonbeam Ring"
+        ],
+        "ring2": [
+          "Moonbeam Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Patentia Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "DEX20,AccuracyAttack20,STP10,DT5,DEX10",
+        "neck": "DEX/AGI12 TA3; not base",
+        "notes": "Hands/range placeholders are source omissions; two explicitMoonbeam copies. ModelDT/HP totals not certified."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "1e4188aefdc839ce7bec244197c4ccb8480355597dcf44f962109ebe9a7e20b1"
+    },
+    {
+      "key": "malignance-dt",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Aurgelmir Orb +1"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Asn. Gorget +2"
+        ],
+        "ear1": [
+          "Dedition Earring"
+        ],
+        "ear2": [
+          "Skulk. Earring +2"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "source_options": {
+        "neck": "DEX/AGI15 Eva25 TA4",
+        "back": "DEX20+10,AccuracyAttack20,STP10,DT5",
+        "notes": "RankedMurky/augmentedSkulkear are not fixed by base descriptions."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "5cb9e6dc3f88f4e3b630b4b34048420e45445f7dae45299418f414fd4806ea9f"
+    },
+    {
+      "key": "hybrid-b",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Aeneas"
+        ],
+        "sub": [
+          "Gleti's Knife"
+        ],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Skulker's Bonnet +3"
+        ],
+        "neck": [
+          "Asn. Gorget +2"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Skulk. Earring +2"
+        ],
+        "body": [
+          "Pill. Vest +4"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Moonlight Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Reiki Yotai"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Plun. Poulaines +4"
+        ]
+      },
+      "source_options": {
+        "sub": "R20 DMG10 printed, unlike publicR20 cardcommentDMG9; unresolved",
+        "back": "DEX20+10,AccuracyAttack20,STP10,DT5",
+        "notes": "Body/feet+4 not transferred to+3; twoMoonlight copies; source totals not certified."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "ed284e5162236a146f6aa0ce9f3bf50e52d47dc910279af9a04683a1eb916030"
+    },
+    {
+      "key": "basic-evasion",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Yamarang"
+        ],
+        "head": [
+          "Malignance Chapeau"
+        ],
+        "neck": [
+          "Bathy Choker +1"
+        ],
+        "ear1": [
+          "Eabani Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Malignance Tabard"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Moonbeam Ring"
+        ],
+        "ring2": [
+          "Murky Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Kasiri Belt"
+        ],
+        "legs": [
+          "Malignance Tights"
+        ],
+        "feet": [
+          "Malignance Boots"
+        ]
+      },
+      "source_options": {
+        "back": "AGI20,EvaMEva20,STP10,Eva15+10",
+        "notes": "Bathy Unity value/augment separate; no source80percent avoidance or rough content thresholds certified."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "22613ea80b588889dd21fa7cb5fea2e48b1a3d08528b9be76fed9e92ac7656c6"
+    },
+    {
+      "key": "evisceration",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Tauret"
+        ],
+        "sub": [
+          "Gleti's Knife"
+        ],
+        "range": [],
+        "ammo": [
+          "Yetshila +1"
+        ],
+        "head": [
+          "Skulker's Bonnet +2"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Odr Earring"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Plunderer's Vest +3"
+        ],
+        "hands": [
+          "Gleti's Gauntlets"
+        ],
+        "ring1": [
+          "Hetairoi Ring"
+        ],
+        "ring2": [
+          "Gere Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Pill. Culottes +3"
+        ],
+        "feet": [
+          "Plun. Poulaines +3"
+        ]
+      },
+      "source_options": {
+        "hands": "R15 Attack20 STP4",
+        "back": "DEX30 AccuracyAttack20 Crit10 DT5",
+        "notes": "Source+2head and rankedhands replaced separately in Nexus."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "18775adc6dd8dbb7110cc710f0afc041e654a6834ea868ad38e76a8e4c8c6447"
+    },
+    {
+      "key": "rudra",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Aeneas"
+        ],
+        "sub": [
+          "Gleti's Knife"
+        ],
+        "range": [],
+        "ammo": [
+          "C. Palug Stone"
+        ],
+        "head": [
+          "Pill. Bonnet +3"
+        ],
+        "neck": [
+          "Asn. Gorget +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Skulker's Vest +2"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Epaminondas's Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Plun. Culottes +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "sub": "R15 DMG8 Attack30",
+        "neck": "DEXAGI15 Eva25 TA4",
+        "ear2": "TPBonus250",
+        "waist": "STRDEX10",
+        "back": "DEX30 AccuracyAttack20 WSD10 DT5",
+        "notes": "GuideWS preamble assumesNyamePathB; magnitude/rank not fixed here. Universal2750 switch not adopted."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "94e3d327ed46d65ead388509c3dce2941732948205c78814dd460cf8fa432dcf"
+    },
+    {
+      "key": "aeolian",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Aeneas"
+        ],
+        "sub": [
+          "Malevolence"
+        ],
+        "range": [],
+        "ammo": [
+          "Ghastly Tathlum +1"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Sibyl Scarf"
+        ],
+        "ear1": [
+          "Friomisi Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Metamor. Ring +1"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Orpheus's Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "sub": "MAcc10 MAB10 INT10",
+        "ammo": "MagicDamage10 INT5",
+        "ear2": "MATK4 TPBonus250",
+        "ring2": "R15 MAcc10 INTMNDCHR10",
+        "back": "INT30 MAccMDmg20 WSD10 PDTorDT",
+        "notes": "Nexus fixeddefensiveammo,physicalFotia neck/belt and twoShiva alternatives, not sourceexact or optimum."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "39f989203637217af119047cebc0e1ecc552ce4fd38b458ce4e60a7481d27364"
+    },
+    {
+      "key": "sneak-hit",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Vajra (Level 119 III)"
+        ],
+        "sub": [
+          "Twashtar (Level 119 III)"
+        ],
+        "range": [],
+        "ammo": [
+          "Yetshila +1"
+        ],
+        "head": [
+          "Pill. Bonnet +4"
+        ],
+        "neck": [
+          "Asn. Gorget +2"
+        ],
+        "ear1": [
+          "Hoxne Earring"
+        ],
+        "ear2": [
+          "Skulk. Earring +2"
+        ],
+        "body": [
+          "Plunderer's Vest +4"
+        ],
+        "hands": [
+          "Skulk. Armlets +3"
+        ],
+        "ring1": [
+          "Ilabrat Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Toutatis's Cape"
+        ],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [
+          "Pill. Culottes +4"
+        ],
+        "feet": [
+          "Plun. Poulaines +4"
+        ]
+      },
+      "source_options": {
+        "neck": "DEXAGI15 Eva25 TA4",
+        "waist": "STRDEX10",
+        "back": "DEX30 AccuracyAttack20 STP10 DT5",
+        "notes": "Skulkerfeet+3 named separately as THproc option; sourceVajra/Twashtar/+4/earring requirements not inherited."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "8660391b7697a1931c93024d985c294d8f7bc4fc31f0839e0defbd6ee2a20936"
+    },
+    {
+      "key": "trick-hit",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "grid": {
+        "main": [
+          "Vajra (Level 119 III)"
+        ],
+        "sub": [
+          "Gleti's Knife"
+        ],
+        "range": [],
+        "ammo": [
+          "Yetshila +1"
+        ],
+        "head": [
+          "Pill. Bonnet +4"
+        ],
+        "neck": [
+          "Asn. Gorget +2"
+        ],
+        "ear1": [
+          "Hoxne Earring"
+        ],
+        "ear2": [
+          "Skulk. Earring +2"
+        ],
+        "body": [
+          "Plunderer's Vest +4"
+        ],
+        "hands": [
+          "Pill. Armlets +4"
+        ],
+        "ring1": [
+          "Ilabrat Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Sacro Mantle"
+        ],
+        "waist": [
+          "Svelt. Gouriz +1"
+        ],
+        "legs": [
+          "Pill. Culottes +4"
+        ],
+        "feet": [
+          "Plun. Poulaines +4"
+        ]
+      },
+      "source_options": {
+        "neck": "DEXAGI15 Eva25 TA4",
+        "notes": "Skulkerfeet+3 named as THproc option; TA modifiers worn when blow lands; source+4 not+3."
+      },
+      "method": "Scoped manual rendered grid observation; source omissions and options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "02844fad9fc6419fb67ae753fffbae1538dec2e084e06c616d1dec576bdea5fc"
+    },
+    {
+      "key": "dual-wield",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "THF99 nativeDWIII, earned550JP giftDWIV; guide hastebrackets are conditional, not universal.",
+        "DisplayedDW11/7 versus prose11/6 nuance retained; no new numeric rule."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "d57194cb7b2e02ddf9ec8724e5a41d2ba079f12d971bc341ecdc059f48babfae"
+    },
+    {
+      "key": "idle-swaps",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Guide shows Regen and Regain swaps, not complete usefulMP recovery. Nexus WHM49 context independently authored."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "e4ea44c9d382a1b97ceae8bff6da7bab3b2b7adb5eeac38b421a7d3e4a083fd7"
+    },
+    {
+      "key": "th-options",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "NativeTHFIII and hostileaction required; TH+5feet listed, THapplication and upgrades distinct.",
+        "No guaranteed drop/proc effect or targetTHlevel from merely equipping gear."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "8a7cb6a5ad98c7e4e076c64f0bf7e90adc4ca23d952af37606abb13f646fcb06"
+    },
+    {
+      "key": "rudra-stacked",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Separate SA and TA grids with several generations; some source+4/rank/Vajra choices not transferred.",
+        "JAactivation does not snapshot hit-time hands/body; actual position and recipient required."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "d5bceb8e9e7ac8d0d58859a3decd4dde954e69954c7e017acec9c62728357901"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Thief_Guide&oldid=781560",
+      "title": "Community Thief Guide",
+      "locator": "Original and rendered781560;footer31October2026 00:12; equipment/TH/traits/cape/WS contexts",
+      "findings": [
+        "Mixed+3/+4/ranks,omissions and subjectivecap labels preserved; no completeusefulMP set.",
+        "Nexus fixedTauret/baseGleti alternatives not sourceexact; no claimed universalhaste/attack/TP threshold."
+      ],
+      "observation_sha256": "48b13b1514b19175e65260c2047b3776f72dd7a25c7cb2bc83c40176d2239ee6"
+    },
+    {
+      "url": "https://www.ffxiah.com/node/393",
+      "title": "Sevrina A Rogue Guide to the Precious",
+      "locator": "Original intro,traits,abilities and defensiveoptions; modified12September2020",
+      "findings": [
+        "375302/375304 explicitlyequipmentoptions,not playableloadouts; retained as such.",
+        "HistoricalgenericSA/TA enhancementvalues not copied to exact+3 versions."
+      ],
+      "observation_sha256": "24e80aef9f15d324e7d279393b985e5488c8293f70d833d1d480d5d581dbe0b4"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Sneak_Attack&oldid=752259",
+      "title": "Sneak Attack",
+      "locator": "Original plus rendered permanent notes/equipment",
+      "findings": [
+        "Selfactivation and hit-time equipment distinct; actual position or validBully/Hide condition.",
+        "Nextmeleeround/WS consumes; firstphysical/hybridhit effect not magicalWS; exact+3hands listed."
+      ],
+      "observation_sha256": "71d53c5596ad809abdb3009541d856f763436e50e1e26e09e13962986d21f27c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Trick_Attack",
+      "title": "Trick Attack",
+      "locator": "Original notes and equipment read; permanentlink attempt invalid and not retried",
+      "findings": [
+        "Actual intervening eligibleplayer receives enmity; nativeAssassin requires validlineup.",
+        "Gear retained at blow; exact+3hands/relicbody listed. Not activation-only."
+      ],
+      "observation_sha256": "bfdf8165ac71c14e7542c9abedbf602e28ae267761b158e994644ada886c3a52"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Treasure_Hunter&oldid=771461",
+      "title": "Treasure Hunter",
+      "locator": "Original and rendered permanent application/proc/equipment sections",
+      "findings": [
+        "NativeTHFIII and initialTH base limit distinct from latergiftdependentprocs; hostileaction needed.",
+        "Removinggear retains appliedeffect but canchange upgradechance; targetpassivity canclear. Damagefirsthit needed for upgrade; no exactprobability model adopted."
+      ],
+      "observation_sha256": "541cf6bbbcd9bc8ca7a6e1265acc8353c85c3aca7325b4322ef995242082cef7"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Rudra%27s_Storm",
+      "title": "Rudra's Storm",
+      "locator": "Original WSaccess and quest notes",
+      "findings": [
+        "Tauret doesnotgrantRudra; actual permanentunlock required with fixedTauret.",
+        "No Twashtar aftermath or stageproperties borrowed."
+      ],
+      "observation_sha256": "afa37fcf1942c3b0ea10c680945d17b1e725b7e8525d2eaf724a2e51d662a770"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Cure_III",
+      "title": "Cure III",
+      "locator": "Original spellcost/joblevel/range/recast",
+      "findings": [
+        "WHM21 learnedspell accessible atWHM49;46MP actualrange/recast and validrecipient.",
+        "THF99/WHM49 MPdeficit/positiveusablemaxMP usefulrecovery; no Solace50 granted."
+      ],
+      "observation_sha256": "f2b2e40757f593d70d0677c92b22c2e08c8f0c126c1e12dacbe6728ca91d5a80"
+    }
+  ],
+  "access": "OrdinaryChrome original/rendered781560,SA752259,TH771461 plus originalsTA/Rudra/CureIII/node393 and18exactcards read. TApermanent retrieval yieldedinvalidURL refusal;originalreadonly,not workaround/retried. NoLuaexecution/inventoryloading."
+}

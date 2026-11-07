@@ -1,0 +1,461 @@
+{
+  "scope": "Sanitized factual public-grid observations. Category placeholders remain omissions; no intentional empties, player data or copied guide prose.",
+  "observations": [
+    {
+      "locator": "Refresh Idle Example",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Mpaca's Staff",
+        "sub": "Khonsu",
+        "ammo": "Homiliary",
+        "head": "Befouled Crown",
+        "neck": "Sibyl Scarf",
+        "ear1": "Etiolation Earring",
+        "ear2": "Ethereal Earring",
+        "body": "Arbatel Gown +2",
+        "hands": "Volte Gloves",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Moonbeam Cape",
+        "waist": "Embla Sash",
+        "legs": "Assid. Pants +1",
+        "feet": "Volte Gaiters"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "15 occupied; Windurst citizenship for neck; Unity legs condition independent; no selected augment/rank inferred.",
+      "observation_sha256": "b4241666cb8cf19d9e937720602f2ca9b6e0ac1db73efbe01a34d091255cb499"
+    },
+    {
+      "locator": "Sublimation",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Siriti",
+        "head": "Acad. Mortar. +3",
+        "ear1": "Savant's Earring",
+        "body": "Peda. Gown +3",
+        "ring1": "Woltaris Ring +1",
+        "waist": "Embla Sash"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear2",
+        "hands",
+        "ring2",
+        "back",
+        "legs",
+        "feet"
+      ],
+      "evidence_notes": "Six selected slots. Source describes optional weapon/ring and loss of TP when changing weapons; no charge time certified.",
+      "observation_sha256": "e90541440b9c6a83b0ee8dd05be2e97279b37c876c35c4c3bc416645028cb416"
+    },
+    {
+      "locator": "Alternative 80% Fast Cast",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "conflicting_loadout",
+      "selected_names": {
+        "main": "Hvergelmir (Level 119 III)",
+        "sub": "Chanter's Shield",
+        "ammo": "Sapience Orb",
+        "head": "Psycloth Tiara",
+        "neck": "Voltsurge Torque",
+        "ear1": "Etiolation Earring",
+        "ear2": "Enchntr. Earring +1",
+        "body": "Merlinic Jubbah",
+        "hands": "Gende. Gages +1",
+        "ring1": "Jhakri Ring",
+        "ring2": "Kishar Ring",
+        "back": "Fi Follet Cape +1",
+        "waist": "Witful Belt",
+        "legs": "Psycloth Lappas",
+        "feet": "Regal Pumps +1"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Illegal simultaneous staff/shield. Individually eligible main ID 22064 and sub ID 27635 fail cross-slot legality. Preserved here only; not published as a playable revision.",
+      "observation_sha256": "87101240c9ec74acb641c72d0d650fd3d4b8e32c412fc7497b04dfa7b87592ee"
+    },
+    {
+      "locator": "Highest Fast Cast Per Slot",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "equipment_options",
+      "selected_names": {
+        "main": "Musa",
+        "sub": "Clerisy Strap +1",
+        "ammo": "Incantor Stone",
+        "head": "Merlinic Hood",
+        "neck": "Orunmila's Torque",
+        "ear1": "Malignance Earring",
+        "ear2": "Loquac. Earring",
+        "body": "Pinga Tunic +1",
+        "hands": "Acad. Bracers +3",
+        "ring1": "Weather. Ring +1",
+        "ring2": "Medada's Ring",
+        "back": "Lugh's Cape",
+        "waist": "Embla Sash",
+        "legs": "Pinga Pants +1",
+        "feet": "Acad. Loafers +3"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Explicit per-slot examples/options; not certified as an exact playable authored recommendation. No unspecified Merlinic augment or Musa path/rank filled.",
+      "observation_sha256": "c191ac47c8194d76e90a7e74de55c09c1fee0c88e8fd67b639770b47b32993e6"
+    },
+    {
+      "locator": "Hybrid Potency/DT Build",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Chatoyant Staff",
+        "sub": "Khonsu",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Kaykaus Mitra +1",
+        "neck": "Loricate Torque +1",
+        "ear1": "Mendi. Earring",
+        "ear2": "Magnetic Earring",
+        "body": "Arbatel Gown +3",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Mephitas's Ring +1",
+        "ring2": "Defending Ring",
+        "back": "Lugh's Cape",
+        "waist": "Hachirin-no-Obi",
+        "legs": "Acad. Pants +3",
+        "feet": "Kaykaus Boots +1"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Source assumes Aurorastorm II. Published caps remain source claims; Kaykaus/cape augment prerequisites are not invented here.",
+      "observation_sha256": "9819660aee66e3e2cfdcc365b4b62a16ba785a266c009148b9d0f9389afb4104"
+    },
+    {
+      "locator": "Cursna",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Gada",
+        "head": "Vanya Hood",
+        "neck": "Debilis Medallion",
+        "ear1": "Meili Earring",
+        "ear2": "Beatific Earring",
+        "body": "Peda. Gown +3",
+        "hands": "Hieros Mittens",
+        "ring1": "Haoma's Ring",
+        "ring2": "Menelaus's Ring",
+        "back": "Oretan. Cape +1",
+        "waist": "Bishop's Sash",
+        "legs": "Acad. Pants +3",
+        "feet": "Vanya Clogs"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "evidence_notes": "Partial: sub/range/ammo omitted. Exact simultaneous rings differ; no Gada augment supplied by this grid.",
+      "observation_sha256": "3e14ff4d23a083b015a0dddfc63a32aebd05ca1ec4cbfbc3270ab36b2450df9c"
+    },
+    {
+      "locator": "Regen Duration & Potency",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Bolelabunga",
+        "sub": "Ammurapi Shield",
+        "head": "Arbatel Bonnet +3",
+        "body": "Telchine Chas.",
+        "hands": "Arbatel Bracers +3",
+        "back": "Lugh's Cape",
+        "waist": "Embla Sash",
+        "legs": "Telchine Braconi",
+        "feet": "Telchine Pigaches"
+      },
+      "omitted_slots": [
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2"
+      ],
+      "evidence_notes": "Nine occupied slots; body/legs/feet duration+10. Other slots explicitly left for reader preference. Musa C is an alternative, not simultaneously equipped.",
+      "observation_sha256": "01f7dbac2753b3bd63c5aa3c805ddd0912cd14b7530810a5443af12d9f769533"
+    },
+    {
+      "locator": "Regen Max Duration",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Musa",
+        "head": "Telchine Cap",
+        "body": "Telchine Chas.",
+        "hands": "Arbatel Bracers +3",
+        "back": "Lugh's Cape",
+        "waist": "Embla Sash",
+        "legs": "Telchine Braconi",
+        "feet": "Telchine Pigaches"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2"
+      ],
+      "evidence_notes": "Eight occupied slots. Musa C and four Telchine duration10 pieces. Source has no exact Musa rank; Nexus avoids synthesizing one.",
+      "observation_sha256": "0c433c2204db0de597aa6ce68cf11e307021707f3c0513034bb32f2e11172cf0"
+    },
+    {
+      "locator": "Enhancing Duration SU5",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Musa",
+        "head": "Telchine Cap",
+        "neck": "Incanter's Torque",
+        "ear1": "Mimir Earring",
+        "ear2": "Andoaa Earring",
+        "body": "Peda. Gown +3",
+        "hands": "Arbatel Bracers +3",
+        "ring1": "Stikini Ring +1",
+        "ring2": "Stikini Ring +1",
+        "back": "Fi Follet Cape +1",
+        "waist": "Embla Sash",
+        "legs": "Telchine Braconi",
+        "feet": "Telchine Pigaches"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "evidence_notes": "13 occupied slots. Telchine head/legs/feet duration10. Hands tied to Perpetuance. Unspecified Musa path/rank and ammo/sub remain unfilled.",
+      "observation_sha256": "907d8d1a0022c7441f7856f011cd1737f35bf9e2555751ac0b55b0749e6b4352"
+    },
+    {
+      "locator": "Aquaveil",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Vadose Rod",
+        "head": "Amalric Coif +1",
+        "hands": "Regal Cuffs",
+        "waist": "Emphatikos Rope",
+        "legs": "Shedir Seraweels"
+      },
+      "omitted_slots": [
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "body",
+        "ring1",
+        "ring2",
+        "back",
+        "feet"
+      ],
+      "evidence_notes": "Five occupied slots; head Path A note is not silently a numeric rank. SIRD advice is a research lead, not an achieved value.",
+      "observation_sha256": "52748a69a79bf2684c0ef7dc2cac9809dffc181ea33edadaba80a4861fede426"
+    },
+    {
+      "locator": "H. Tier Fr. Nuke — Arbatel body/hands/legs/feet variant",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Bunzi's Rod",
+        "sub": "Ammurapi Shield",
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Agwu's Cap",
+        "neck": "Argute Stole +2",
+        "ear1": "Regal Earring",
+        "ear2": "Malignance Earring",
+        "body": "Arbatel Gown +3",
+        "hands": "Arbatel Bracers +3",
+        "ring1": "Freke Ring",
+        "ring2": "Metamor. Ring +1",
+        "back": "Lugh's Cape",
+        "waist": "Hachirin-no-Obi",
+        "legs": "Arbatel Pants +3",
+        "feet": "Arbatel Loafers +3"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Source has several identically titled H. Tier grids. This is the Arbatel variant. Ghastly and Metamor R15 notes, Agwu augment stats and cape INT30/magic20/MAB10/PDT10 remain source requirements, not inherited by Nexus minimums.",
+      "observation_sha256": "73f9c6640fcf39ab2d4c92635df109594343d3bf00c301e20972df1b2739491c"
+    },
+    {
+      "locator": "Helix Burst",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Bunzi's Rod",
+        "sub": "Ammurapi Shield",
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Peda. M.Board +3",
+        "neck": "Argute Stole +2",
+        "ear1": "Malignance Earring",
+        "ear2": "Arbatel Earring +2",
+        "body": "Agwu's Robe",
+        "hands": "Agwu's Gages",
+        "ring1": "Mujin Band",
+        "ring2": "Freke Ring",
+        "back": "Lugh's Cape",
+        "waist": "Skrymir Cord +1",
+        "legs": "Agwu's Slops",
+        "feet": "Arbatel Loafers +3"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "15 occupied; right-ear Sortie item does not prove any selected random augment. Cape magnitudes not fully specified. Nexus selects fixed earrings under its own authorship.",
+      "observation_sha256": "5f9eef6b011335f75282b9cc48f2a0ff689ae230fd9ac9c0c15a15b62ba0dd94"
+    },
+    {
+      "locator": "Drain/Aspir",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Rubicundity",
+        "sub": "Ammurapi Shield",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Pixie Hairpin +1",
+        "neck": "Erra Pendant",
+        "ear1": "Hirudinea Earring",
+        "ear2": "Mani Earring",
+        "body": "Merlinic Jubbah",
+        "hands": "Merlinic Dastanas",
+        "ring1": "Evanescence Ring",
+        "ring2": "Archon Ring",
+        "back": "Bookworm's Cape",
+        "waist": "Fucho-no-Obi",
+        "legs": "Peda. Pants +3",
+        "feet": "Agwu's Pigaches"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Merlinic body/hands specify Drain/Aspir potency11. Nexus deliberately avoids those random targets and ambiguous Fucho activation. Source pairing is club/shield; Nexus staff version is not an author correction.",
+      "observation_sha256": "de11b67243139a7410f06075a8a1fb4967ef7e40a863974ac41686ce17e6868f"
+    },
+    {
+      "locator": "DT",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Malignance Pole",
+        "sub": "Khonsu",
+        "ammo": "Staunch Tathlum +1",
+        "head": "Nyame Helm",
+        "neck": "Warder's Charm +1",
+        "ear1": "Etiolation Earring",
+        "ear2": "Ethereal Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Defending Ring",
+        "ring2": "Shadow Ring",
+        "back": "Moonlight Cape",
+        "waist": "Carrier's Sash",
+        "legs": "Agwu's Slops",
+        "feet": "Nyame Sollerets"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Source says Agwu legs need augments and suggests Nyame otherwise. No exact Agwu rank inferred. Author caps not certified. Nexus weapon and accessories differ explicitly.",
+      "observation_sha256": "78e9887f6e0134f5f070ef2e1bcebefba22f627c0c3ed721098713aeee94f00d"
+    },
+    {
+      "locator": "Engaged TP",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Gozuki Mezuki",
+        "sub": "Khonsu",
+        "ammo": "Amar Cluster",
+        "head": "Blistering Sallet +1",
+        "neck": "Lissome Necklace",
+        "ear1": "Crep. Earring",
+        "ear2": "Telos Earring",
+        "body": "Nyame Mail",
+        "hands": "Gazu Bracelet +1",
+        "ring1": "Chirich Ring +1",
+        "ring2": "Chirich Ring +1",
+        "back": "Lugh's Cape",
+        "waist": "Grunfeld Rope",
+        "legs": "Nyame Flanchard",
+        "feet": "Nyame Sollerets"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Exact source notes: Blistering/Gazu R15, Nyame body R25, legs/feet Path B without rank, cape DEX20/Acc30-Att20/STP10/PDT10. Weapon is situation-dependent. Nexus minimum versions do not inherit unspecified ranks or exact original cape.",
+      "observation_sha256": "cd857c7a3c9a16a1f34cfb4485999d6b72dec66db0e134986f5b9393ca161b56"
+    },
+    {
+      "locator": "Shattersoul",
+      "url": "https://www.bg-wiki.com/index.php?title=Community_Scholar_Guide&oldid=781558",
+      "checked_on": "2026-11-03",
+      "classification": "partial_loadout",
+      "selected_names": {
+        "main": "Khatvanga",
+        "sub": "Khonsu",
+        "ammo": "Ghastly Tathlum +1",
+        "head": "Nyame Helm",
+        "neck": "Argute Stole +2",
+        "ear1": "Regal Earring",
+        "ear2": "Malignance Earring",
+        "body": "Nyame Mail",
+        "hands": "Nyame Gauntlets",
+        "ring1": "Freke Ring",
+        "ring2": "Metamor. Ring +1",
+        "back": "Lugh's Cape",
+        "waist": "Fotia Belt",
+        "legs": "Nyame Flanchard",
+        "feet": "Nyame Sollerets"
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "evidence_notes": "Nyame Path B with unspecified rank; Ghastly/Metamor R15; cape INT30/magic20/WSD10/PDT10. Nexus chooses its own B15 checkpoint, staff and accessories; no silent rank conversion.",
+      "observation_sha256": "964db6475160f5e54e54dce419ad02757b3956114c9d94e1f3fb02a42ada5ee6"
+    }
+  ],
+  "live_healing_difference": {
+    "url": "https://www.ffxiah.com/item-sets/378846",
+    "hands_name": "Peda. Bracers +4",
+    "hands_id": 24027,
+    "old_bg_intermediate_hands": "Peda. Bracers +3",
+    "old_bg_hands_id": 23551,
+    "note": "Live set is not a recovered April 2026 snapshot. Historical unresolved catalog record is preserved."
+  }
+}

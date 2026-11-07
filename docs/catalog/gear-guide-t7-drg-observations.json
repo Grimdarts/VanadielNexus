@@ -1,0 +1,414 @@
+{
+  "checked_on": "2026-11-04",
+  "status": "evidence checkpoint; candidate authoring incomplete",
+  "table_observations": [
+    {
+      "item_set_id": 327951,
+      "title": "Ryu Jump - 891 Accuracy 20% Critical Hit Damage",
+      "url": "https://www.ffxiah.com/item-sets/327951",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": "Ryunohige",
+        "sub": "Bloodrain Strap",
+        "range": null,
+        "ammo": "Ginsen",
+        "head": "Yaoyotl Helm",
+        "neck": "Ganesha's Mala",
+        "ear1": "Brutal Earring",
+        "ear2": "Tripudio Earring",
+        "body": "Vishap Mail +1",
+        "hands": "Vishap F. G. +1",
+        "ring1": "K'ayres Ring",
+        "ring2": "Rajas Ring",
+        "back": "Updraft Mantle",
+        "waist": "Sweordfaetels +1",
+        "legs": "Lncr. Cuissots +2",
+        "feet": "Huginn Gambieras"
+      },
+      "notes": "Historical Ryu-specific context; weapon link stage and numeric title not independently certified. Parent says Ryu forces Jump/High Jump crit; do not apply this to other polearms.",
+      "source_omissions": [
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "360f0715000ada8bf9e4ef8ea8b993c6c2aee7d8828a8de586f0f322751cc4a5"
+    },
+    {
+      "item_set_id": 327952,
+      "title": "Ryu High Jump",
+      "url": "https://www.ffxiah.com/item-sets/327952",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": "Ryunohige",
+        "sub": "Bloodrain Strap",
+        "range": null,
+        "ammo": "Ginsen",
+        "head": "Yaoyotl Helm",
+        "neck": "Ganesha's Mala",
+        "ear1": "Brutal Earring",
+        "ear2": "Tripudio Earring",
+        "body": "Vishap Mail +1",
+        "hands": "Vishap F. G. +1",
+        "ring1": "K'ayres Ring",
+        "ring2": "Rajas Ring",
+        "back": "Updraft Mantle",
+        "waist": "Sweordfaetels +1",
+        "legs": "Lncr. Cuissots +2",
+        "feet": "Huginn Gambieras"
+      },
+      "notes": "Same displayed equipment as327951 but a different action and enmity role. Historical source is not a verified contemporary Ryu stage recommendation.",
+      "source_omissions": [
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "be4ebc2e17b960f3e4981b0925ef66c386a9ab75b2969cd19393208bbe5c905f"
+    },
+    {
+      "item_set_id": 327948,
+      "title": "Ryu Spirit Jump - Accuracy 855",
+      "url": "https://www.ffxiah.com/item-sets/327948",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": "Ryunohige",
+        "sub": "Bloodrain Strap",
+        "range": null,
+        "ammo": "Ginsen",
+        "head": "Yaoyotl Helm",
+        "neck": "Asperity Necklace",
+        "ear1": "Brutal Earring",
+        "ear2": "Tripudio Earring",
+        "body": "Lncr. Plackart +2",
+        "hands": "Ogier's Gauntlets",
+        "ring1": "Rajas Ring",
+        "ring2": "K'ayres Ring",
+        "back": "Tactical Mantle",
+        "waist": "Goading Belt",
+        "legs": "Lncr. Cuissots +2",
+        "feet": "Lncr. Schynbld. +2"
+      },
+      "notes": "Title notes AM3 favors STP. Source wyvern-presence bonuses and Jump shared timer must remain explicit; no AM3 equipment transfer to Shining One/Trishula.",
+      "source_omissions": [
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "b77a887e1c7a1fb23c29393cd0c147f06e0fba66f451fafe88a6a3ed2d9f5fee"
+    },
+    {
+      "item_set_id": 327950,
+      "title": "Ryu Soul Jump - 857 Accuracy",
+      "url": "https://www.ffxiah.com/item-sets/327950",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": "Ryunohige",
+        "sub": "Bloodrain Strap",
+        "range": null,
+        "ammo": "Ginsen",
+        "head": "Yaoyotl Helm",
+        "neck": "Asperity Necklace",
+        "ear1": "Brutal Earring",
+        "ear2": "Tripudio Earring",
+        "body": "Lncr. Plackart +2",
+        "hands": "Ogier's Gauntlets",
+        "ring1": "K'ayres Ring",
+        "ring2": "Rajas Ring",
+        "back": "Tactical Mantle",
+        "waist": "Goading Belt",
+        "legs": "Lncr. Cuissots +2",
+        "feet": "Mikinaak Greaves"
+      },
+      "notes": "Mikinaak A15 appears in parent notes, not decoded table parts. Soul differs from Spirit feet and shares High Jump timer. First response older reader representation; later response supplied Equipment Macros. Neither establishes current retail potency.",
+      "source_omissions": [
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "0a9f18dcacbff1d00261a538b1e2c9a138aa832214b080dfd6cad6b56ac7766d"
+    },
+    {
+      "item_set_id": 382735,
+      "title": "DRG Hybrid DT - 33DT/16PDT. 49% total w/ shell. DA/5dt cape.",
+      "url": "https://www.ffxiah.com/item-sets/382735",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Hjarrandi Helm",
+        "neck": "Dgn. Collar +2",
+        "ear1": "Sherida Earring",
+        "ear2": "Pel. Earring +2",
+        "body": "Gleti's Cuirass",
+        "hands": "Gleti's Gauntlets",
+        "ring1": "Lehko's Ring",
+        "ring2": "Murky Ring",
+        "back": "Brigantia's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Flam. Gambieras +2"
+      },
+      "notes": "Smobo personal niche set. Weapons omitted; cape DA/DT summary lacks remaining rolls. Shell-dependent title is source claim only. Pet stats on Gleti/Murky must not become master stats.",
+      "source_omissions": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "be6b7e2b15e27d4cdde80338f2d685e24a6a1942b249b528213a5e0d0164ec37"
+    },
+    {
+      "item_set_id": 402150,
+      "title": "DRG Full DT",
+      "url": "https://www.ffxiah.com/item-sets/402150",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": "Gae Buide",
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Nyame Helm",
+        "neck": "Dgn. Collar +2",
+        "ear1": "Pel. Earring +2",
+        "ear2": "Sherida Earring",
+        "body": "Gleti's Cuirass",
+        "hands": "Gleti's Gauntlets",
+        "ring1": "Lehko's Ring",
+        "ring2": "Murky Ring",
+        "back": "Brigantia's Mantle",
+        "waist": "Ioskeha Belt +1",
+        "legs": "Nyame Flanchard",
+        "feet": "Nyame Sollerets"
+      },
+      "notes": "Source calls for Shell and pet defense. Gae Buide stage unverified; no rank/cape/earring random augments inferred. Different ear ordering from382735 retained, not repaired.",
+      "source_omissions": [
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "7809a189234da243322ad604591975dfa9fac0606d5f6478a30e172ce63e24c8"
+    },
+    {
+      "item_set_id": 402151,
+      "title": "DRG Idle",
+      "url": "https://www.ffxiah.com/item-sets/402151",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": null,
+        "sub": null,
+        "range": null,
+        "ammo": "Staunch Tathlum +1",
+        "head": "Null Masque",
+        "neck": "Loricate Torque +1",
+        "ear1": "Pel. Earring +2",
+        "ear2": "Odnowa Earring +1",
+        "body": "Ptero. Mail +3",
+        "hands": "Gleti's Gauntlets",
+        "ring1": "Murky Ring",
+        "ring2": "Shneddick Ring",
+        "back": "Brigantia's Mantle",
+        "waist": "Null Belt",
+        "legs": "Gleti's Breeches",
+        "feet": "Gleti's Boots"
+      },
+      "notes": "Wyvern-support-body idle; parent mentions Geas Fete and uncertainty about zoning. Missing hands remain omissions. Repeated ear2 macro preserved separately; not two earrings in one slot.",
+      "source_omissions": [
+        "main",
+        "sub",
+        "range"
+      ],
+      "duplicate_macro_cells": [
+        {
+          "slot": "ear2",
+          "value": "Odnowa Earring +1",
+          "occurrences": 2
+        }
+      ],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "51b2ce87dbb6150ae13f178079de2030e25b93ea248e636101aa16cb316109f0"
+    },
+    {
+      "item_set_id": 402152,
+      "title": "DRG Arke Idle - stp cape, swap in chirich ring+1 if not kiting/gathering",
+      "url": "https://www.ffxiah.com/item-sets/402152",
+      "observation_variant": "reader-observation-1",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Arke Zuchetto +1",
+        "neck": "Dgn. Collar +2",
+        "ear1": "Dedition Earring",
+        "ear2": "Sherida Earring",
+        "body": "Arke Corazza +1",
+        "hands": "Regal Gloves",
+        "ring1": "Lehko's Ring",
+        "ring2": "Shneddick Ring",
+        "back": "Brigantia's Mantle",
+        "waist": "Gerdr Belt +1",
+        "legs": "Arke Cosc. +1",
+        "feet": "Ar. Gambieras +1"
+      },
+      "notes": "First reader response macros. Personal Aminon normal / mage-cleaving context, not universal DT idle. Cape STP summary incomplete; no main weapon.",
+      "source_omissions": [
+        "main",
+        "range"
+      ],
+      "duplicate_macro_cells": [],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "6ab3ff0e39aee4106e6b20878305a40df0c105cf2b86990f2252aa5db6b5f9ea"
+    },
+    {
+      "item_set_id": 402152,
+      "title": "DRG Arke Idle - stp cape, swap in chirich ring+1 if not kiting/gathering",
+      "url": "https://www.ffxiah.com/item-sets/402152",
+      "observation_variant": "reader-observation-2",
+      "method": "Manual structured transcription of web-reader Equipment Macros; not Chrome, raw HTML, player Lua or independently archived upstream snapshot.",
+      "grid": {
+        "main": null,
+        "sub": "Utu Grip",
+        "range": null,
+        "ammo": "Coiste Bodhar",
+        "head": "Arke Zuchetto +1",
+        "neck": "Dgn. Collar +2",
+        "ear1": "Dedition Earring",
+        "ear2": "Alabaster Earring",
+        "body": "Arke Corazza +1",
+        "hands": "Regal Gloves",
+        "ring1": "Moonlight Ring",
+        "ring2": "Moonlight Ring",
+        "back": "Brigantia's Mantle",
+        "waist": "Gerdr Belt +1",
+        "legs": "Arke Cosc. +1",
+        "feet": "Ar. Gambieras +1"
+      },
+      "notes": "Later reader response differs in both rings and ear2. No established edit time/order upstream; cache/crawl variance or live edits unresolved. Two Moonlight copies if this version is authored. Duplicate ear2 remains explicit. No preferred version selected.",
+      "source_omissions": [
+        "main",
+        "range"
+      ],
+      "duplicate_macro_cells": [
+        {
+          "slot": "ear2",
+          "value": "Alabaster Earring",
+          "occurrences": 2
+        }
+      ],
+      "currency": "unknown; independently changing embedded table content cannot be dated by parent guide footer",
+      "observation_sha256": "5d5f3cdf89dfd4e4f4babd6d161440cb34ba25b9f6f995985b8b012fc8290180"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/182",
+      "title": "Bleusummers historical node182",
+      "observed_footer": "2014-09-28 17:55:01",
+      "scope": "Historical role/condition evidence only",
+      "findings": [
+        "Distinct Ryu AM3 down/up, Gungnir accuracy and returning/non-RME contexts. /SAM Store TP/Hasso assumptions differ; no current weapon ranking adopted.",
+        "Jump/High Jump versus Spirit/Soul action and wyvern-presence distinctions. Spirit shares Jump timer; Soul shares High Jump timer. Source old numeric bonuses are not new Nexus rules.",
+        "Call Wyvern support-job gear at use/zoning, Spirit Link HP cost and Empathy/TP transfer, Deep Breathing next-breath state, Restoring versus Smiting Breath, Steady Wing, Angon consumables, Ancient Circle and precast are independent obligations.",
+        "Master accuracy, attack, HP, spell stats and pet-only HP/accuracy/breath effects must stay distinct. Original Healing Breath327925, Spirit Link327985, Angon328450 and FC327972 grids were not successfully read this turn."
+      ],
+      "observation_sha256": "7565330e23869e3955143a28d295623815ac9ce5fa6bfed06fc764927702f60d"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/44396/sigurds-descendants-the-art-of-dragon-slaying/",
+      "title": "Original Sigurd thread",
+      "findings": [
+        "Carbuncle Legato / user Bleusummers September9 2014 opening links node182; original attribution verified."
+      ],
+      "observation_sha256": "8182630562b870b6ba5d362f6a55442ab4bbf58b91f8ccdc1caed299810459ce"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/58853/uncommon-drg-sets-2026/1/",
+      "title": "Smobo February26 2026 personal niche sets",
+      "findings": [
+        "Author disclaims optimality and perfect augments. Wyvern idle, Arke/Aminon normal and mage Cataclysm/Earth Crusher contexts are separate from ordinary TP/WS.",
+        "Lehko debate is encounter-dependent: Arebati critical-hit benefits versus magic-evasion/defense risks, disagreement on necessity. No universal recommendation adopted.",
+        "Magical staff WS named in a niche post do not establish a polearm magical/hybrid WS composition or action access."
+      ],
+      "observation_sha256": "b0a743e6a8a53ee846ca1960033b739d4a6c2e71b8b17c24810a12d9f38bc399"
+    },
+    {
+      "url": "https://www.ffxiah.com/forum/topic/44396/sigurds-descendants-the-art-of-dragon-slaying/121/",
+      "title": "September2026 discussion",
+      "findings": [
+        "Martel correction, acknowledged by Galkapryme: Spirit/Soul do not reduce existing CE/VE; High/Super are distinguished. Conflicting quoted claim retained as an error, not a new gear rule.",
+        "Shadowmeld favors Shining One Impulse versus Trishula Stardiver outside skillchain contexts; this is conditional opinion, not measured universal DPS evidence.",
+        "Buukki timing examples depend on TP/aftermath/encounter/merits. Spirit Link can transfer wyvern TP; no fixed automatic rotation or TP thresholds implemented."
+      ],
+      "observation_sha256": "3ae9497320642ecbc391c3972cd89dfae075c4bd7bae7d9c17f6a23260cf9cd6"
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Finans_Gearset_Guides/Dragoon",
+      "reader": "403 Forbidden",
+      "ordinary_chrome_retry": "Requested via cua.createBrowserTab; Local browser use is disabled in Work settings. Native fallback found Chrome window2885816 minimized; getApp/launch retry could not restore it; activating desktop surface also failed.",
+      "permanent_link_verified": false,
+      "status": "unread; no revision claimed"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Brigantia%27s_Mantle",
+      "reader": "403 Forbidden",
+      "status": "unread; exact augment categories not independently read"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Raiden_Thrust",
+      "reader": "403 Forbidden",
+      "status": "unread; no magical/hybrid recommendation or action type certified"
+    },
+    {
+      "url": "https://www.ffxiah.com/item/21883",
+      "reader": "not accessible via this tool",
+      "status": "public card not independently re-read"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327925",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327985",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/328450",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327972",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327938",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327955",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/327953",
+      "reader": "not accessible via this tool",
+      "status": "unread grid; historical role prose only"
+    }
+  ]
+}

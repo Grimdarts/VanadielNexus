@@ -9,7 +9,9 @@ from collections import Counter
 from dataclasses import dataclass, field, replace
 
 from . import item_res
-from .gear_guides import PURPOSES, RANK_RE, identity
+from .gear_guides import PURPOSES
+from .equipment_matching import (identity, split_augments, augment_key, equip_match,
+                                 units as _units, maximum_matching as _kuhn)
 from .gearswap_reader import SLOT_ORDER, JobRead, Piece, SetRead, normalise_path, strip_comments
 from .item_res import bag_key
 
@@ -36,49 +38,6 @@ def snapshot_state(snapshot: dict, character: str) -> str:
         if not key.startswith('Imported: ') and key.casefold() == (character or '').casefold():
             return 'ok' if rows else 'empty'
     return 'absent'
-
-
-# ---------------------------------------------------------------- augments
-
-def split_augments(augments) -> list[str]:
-    """Snapshot rows join augments with ", "; sets hold lists. Synthetic "Rank N" parts are dropped."""
-    if isinstance(augments, str):
-        parts = [part.strip() for part in augments.split(', ')] if augments.strip() else []
-    else:
-        parts = [str(part) for part in augments or []]
-    return [part for part in parts if part and part != 'none' and not RANK_RE.fullmatch(part.strip())]
-
-
-def augment_key(augments) -> frozenset:
-    """Groups identical copies (never decides a match): identity per part, "Rank N" dropped, Path kept."""
-    return frozenset(identity(part).replace('“', "'").replace('”', "'").replace('"', "'")
-                     for part in split_augments(augments))
-
-
-def _aug_strip(text: str) -> str:
-    """extdata.compare_augments: str:lower():gsub('[^%-%w,]', '')."""
-    return re.sub(r'[^A-Za-z0-9,\-]', '', text.lower())
-
-
-def equip_match(goal, copy_augments, rare: bool = False) -> bool:
-    """Would GearSwap equip this copy for a piece asking for `goal` augments?
-
-    Mirrors extdata.compare_augments (addons/libs/extdata.lua:2262): every goal augment must be found in the
-    copy (duplicates consumed), compared lowercased with everything but letters, digits, '-' and ',' removed.
-    An empty goal matches any copy, and Rare items always match (equip_processing.lua:158).
-    """
-    goal = [g for g in split_augments(goal)]
-    if not goal or rare:
-        return True
-    current = [_aug_strip(part) for part in split_augments(copy_augments)]
-    if len(current) < len(goal):
-        return False
-    for part in goal:
-        stripped = _aug_strip(part)
-        if stripped not in current:
-            return False
-        current.remove(stripped)
-    return True
 
 
 # ---------------------------------------------------------------- game data per read
@@ -129,16 +88,6 @@ class SlotStatus:
 ATTENTION = ('unreachable', 'missing', 'other_character', 'unknown')
 
 
-def _units(rows):
-    for row in rows:
-        try:
-            count = max(1, int(row.get('count', 1) or 1))
-        except (TypeError, ValueError):
-            count = 1
-        for _ in range(count):
-            yield row
-
-
 def _matching(units, piece, ids, game, ignore_bag=False):
     wanted = set(ids)
     designated = bag_key(piece.bag) if piece.bag and not ignore_bag else ''
@@ -147,25 +96,6 @@ def _matching(units, piece, ids, game, ignore_bag=False):
             if row.get('item_id') in wanted
             and (not designated or bag_key(row.get('bag', '')) == designated)
             and equip_match(piece.augments, row.get('augments', ''), rare)]
-
-
-def _kuhn(slots, candidates):
-    """Maximum bipartite matching slot → unit, trying candidates in the order given (augmenting paths)."""
-    owner = {}
-
-    def augment(slot, seen):
-        for unit in candidates[slot]:
-            if unit in seen:
-                continue
-            seen.add(unit)
-            if unit not in owner or augment(owner[unit], seen):
-                owner[unit] = slot
-                return True
-        return False
-
-    for slot in slots:
-        augment(slot, set())
-    return {slot: unit for unit, slot in owner.items()}
 
 
 def _requirements_note(item_ids, game) -> str:

@@ -24,10 +24,13 @@ def test_read_falls_back_to_bak_when_main_is_corrupt(tmp_path):
 
 
 # --- database ---------------------------------------------------------------
-def test_new_database_is_seeded_from_defaults(tmp_path):
+def test_new_database_starts_empty(tmp_path):
+    """A new player's tracker has no sample gear, goals, wishlist items or catalog entries."""
     db = database.Database(str(tmp_path))
     assert db.data["schema_version"] == database.SCHEMA_VERSION
-    assert db.data["jse_by_job"]
+    for key in ("checkpoints", "rema_weapons", "wishlist"):
+        assert db.data[key] == []
+    assert db.data["jse_by_job"] == {} and db.data["catalog_db"] == {}
 
 
 def test_v1_database_is_migrated_and_backed_up(tmp_path):
@@ -39,7 +42,7 @@ def test_v1_database_is_migrated_and_backed_up(tmp_path):
     assert db.data["checkpoints"][0]["job"] == "WAR"
     assert db.data["wishlist"][0]["job"] == "SMN"
     assert db.data["player_extra"] == "kept"
-    assert "XYZ" in db.data["jse_by_job"] and "BLU" in db.data["jse_by_job"]
+    assert list(db.data["jse_by_job"]) == ["XYZ"]  # migration keeps the player's jobs and adds none
     assert json.load(open(tmp_path / "ffxi_database.v1-backup.json")) == v1
 
 

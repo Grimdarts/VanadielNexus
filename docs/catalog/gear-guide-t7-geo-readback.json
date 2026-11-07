@@ -1,0 +1,184 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Offline composition/history/resource readback only; not gameplay/caps/ownership",
+  "baseline_files": [
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-baseline-manifest.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-blm-baseline-manifest.json",
+      "sha256": "dfbd7fd5079d64c47a1ab0df9e894ba7f78e886d04fc1248aa813dad8a725895"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-definitions.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-blm-definitions.json",
+      "sha256": "45b1e6d14f24b3f4724fe0416eb42760ff3978e6758f84cdb8548278bea15674"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-item-evidence.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-blm-item-evidence.json",
+      "sha256": "5695b26c1f73a3641c4cc188b2ab9b98de50d907017360b0eb8f1fa455031fb5"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-blm-observations.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-blm-observations.json",
+      "sha256": "17c9daf422979d3ed2334f8b7f1ac95e0c1e37d3de705f97270b5e59d3b80343"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-candidate.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-candidate.json",
+      "sha256": "04a876cc7a348dead625eefc84b87191d60fc91059af32c03f0b0a2f2eee1d7a"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-observations.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-observations.json",
+      "sha256": "3afee1672449c9cce5549a1f615ad56a8abf9761c28885eb13eb245dcbc81784"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-definitions.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-rdm-definitions.json",
+      "sha256": "ac9a3f98dbd18cfc04f372055ec31513049670bb349f302e4c31cf3abe3a418f"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-item-evidence.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-rdm-item-evidence.json",
+      "sha256": "9651a54b5cb5a43a37655726c7a637b80254362917f0c59f42822acf1f5a6703"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-observations.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-rdm-observations.json",
+      "sha256": "0649623711bf2f31ed6f3aef6e9e3a5aa459716d7f882b4ef614c219f550a6e8"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-rdm-readback.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-rdm-readback.json",
+      "sha256": "d3d00e3099447e1304f573644d1d89512df5091b74a352de5451da97eb9ab1aa"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-resource-evidence.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-resource-evidence.json",
+      "sha256": "1f399124c00e265e1880138cc0b9f53674cafd81e93e8d72cc68f628fc7801e0"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-sch-definitions.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-sch-definitions.json",
+      "sha256": "6c09787de1e17ea969c5a56863580f3c89c56b2dfd8a245a7dfa67a82aaf6058"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-sch-observations.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-sch-observations.json",
+      "sha256": "c7ec1f53d92c1653b157a997a5f0fe1bcd0b882ce058b98ccdb115b3265af98d"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-whm-melee-evidence.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-whm-melee-evidence.json",
+      "sha256": "c63d033a7aa9644b963224558ef64763805f50937cc604f49ba8a7b1cd21c62b"
+    },
+    {
+      "path": "docs/catalog/gear-guide-t7-whm-observations.json",
+      "backup": ".t7-geo-checks/baseline/docs__catalog__gear-guide-t7-whm-observations.json",
+      "sha256": "751d89b25841b1f9f63444797986b7dc18d9f6662711470eec54b76f7832fc5d"
+    },
+    {
+      "path": "tests/core/test_guide_blm_batch.py",
+      "backup": ".t7-geo-checks/baseline/tests__core__test_guide_blm_batch.py",
+      "sha256": "3b9b0d57f9b91de5c39420792656af7edd63721131a744109114148fd24f779a"
+    },
+    {
+      "path": "tests/core/test_guide_rdm_batch.py",
+      "backup": ".t7-geo-checks/baseline/tests__core__test_guide_rdm_batch.py",
+      "sha256": "1e15dca925b5e21e48da11cce77607a685ef80d2764b2204358eab29874f969b"
+    },
+    {
+      "path": "tests/core/test_guide_sch_batch.py",
+      "backup": ".t7-geo-checks/baseline/tests__core__test_guide_sch_batch.py",
+      "sha256": "6bb34da24053ed367e562665993b8960acf25c64c2a2da07743e55c81b6d3561"
+    },
+    {
+      "path": "tests/core/test_guide_whm_batch.py",
+      "backup": ".t7-geo-checks/baseline/tests__core__test_guide_whm_batch.py",
+      "sha256": "988e682edb23310dce6244011cfc309415740a28ef85f110a870f9383f9afb3a"
+    },
+    {
+      "path": "tests/core/test_guide_authoring.py",
+      "backup": ".t7-geo-checks/baseline/tests__core__test_guide_authoring.py",
+      "sha256": "4076ebdb70ee2874cac3dc4c410590f06a83582e5769414542c981c40ae985dd"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-HANDOFF.md",
+      "backup": ".t7-geo-checks/baseline/docs__GEAR-GUIDE-T7-HANDOFF.md",
+      "sha256": "3bb9f9b1995ed1a9fa24c7ccf3aab0b6d4d5b361a23a2a30f6237ca54356badf"
+    },
+    {
+      "path": "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+      "backup": ".t7-geo-checks/baseline/docs__GEAR-GUIDE-T7-EVIDENCE.md",
+      "sha256": "bbb0298b80b223a1932fced99916becf17f6170c78a84509591c80c145ecbe53"
+    },
+    {
+      "path": "vanadiel_nexus/core/equipment_hands.py",
+      "backup": ".t7-geo-checks/baseline/vanadiel_nexus__core__equipment_hands.py",
+      "sha256": "0b618d70024a9c1ccca24717ccc4c52d5d81aa49be06535be703e2f8d0dd59b8"
+    },
+    {
+      "path": "vanadiel_nexus/resources/gear_guides.json",
+      "backup": ".t7-geo-checks/baseline/vanadiel_nexus__resources__gear_guides.json",
+      "sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85"
+    }
+  ],
+  "preserved_prior_records": {
+    "sets": 119,
+    "revisions": 119,
+    "sources": 188
+  },
+  "current_records": {
+    "sets": 136,
+    "revisions": 136,
+    "sources": 218,
+    "coverage": 225
+  },
+  "geo_revisions": 17,
+  "verified_revisions": 128,
+  "unresolved_revisions": 8,
+  "selected_slots": 2022,
+  "intentional_empty_slots": 128,
+  "included_priorities": 67,
+  "gap_priorities": 158,
+  "remaining_jobs": [
+    "BLU",
+    "BRD",
+    "BST",
+    "COR",
+    "DNC",
+    "DRG",
+    "DRK",
+    "MNK",
+    "NIN",
+    "PLD",
+    "PUP",
+    "RNG",
+    "RUN",
+    "SAM",
+    "SMN",
+    "THF",
+    "WAR"
+  ],
+  "resource_records": 343,
+  "preserved_resource_records": 327,
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "resource_files": {
+    "items.lua": "92f32adb795f71645b241cf6764a6b89d4a953c69d4b9330e9fddbc334efb36f",
+    "item_descriptions.lua": "160d5e6c2562e49c4004e1add78575e8ac30b5d64f2fb89d6fdea7eb6457388c",
+    "jobs.lua": "88d1561636a15e03337a5c704b06491faf35e965965822ca9ca4da26606c1585",
+    "skills.lua": "968e212ddfe488b348a1d59e2ea219335e79e7651e635a940f36034c8198920f"
+  },
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "hand_registry_changed": false,
+  "unexpected_protected_file_changes": [],
+  "unchanged_protected_files_checked": 222,
+  "vesper_artifacts_preserved": true,
+  "head": "5657f2092c0e0d84331d0741b1518669201e25d4",
+  "authoring_artifact_sha256": {
+    "gear-guide-t7-geo-definitions.json": "fb28bd1fde08101baa6800ae7a4d1d8d52e9e2c45ba0920b5b5d82d034224171",
+    "gear-guide-t7-geo-item-evidence.json": "66458311e0fea70ff4004a64a56d6e993f3e6754afa3ec2126105af5698c5753",
+    "gear-guide-t7-geo-observations.json": "9e47826e23dc69986b025383ee857c2763e7e450bf03a81cc4655a6822dd53f9",
+    "gear-guide-t7-geo-source-captures.json": "0cab913297a78f00a09ac5f99f70e2e88a42d7098d425931ca9138133feb2740"
+  }
+}

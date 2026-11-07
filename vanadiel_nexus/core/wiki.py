@@ -1,5 +1,4 @@
 """Wiki links: build BG-Wiki / FFXIAH / FFXIclopedia URLs and parse pasted URLs back into item names."""
-import os
 import re
 import urllib.parse
 

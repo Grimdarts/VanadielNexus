@@ -1,0 +1,2463 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes sparse250766 with exact Naegling/Sakpata and base cape; Hashishin Refresh/DT retained. No absorb proc, Shell or capped defense claim.",
+      "context": {
+        "action": "Disengaged, native BLU MP pool; no offensive ability active"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26794,
+          "name": "Rawhide Mask",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25416,
+          "name": "Sibyl Scarf",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus MP recovery alternative to385968; two physical Stikini+1 copies and printed Rawhide/Hashishin Refresh. No Windurst citizenship, random Herculean Refresh or capped DT assumed.",
+      "context": {
+        "action": "Disengaged with recoverable native BLU MP; useful MP recovery, no net MP total"
+      }
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus fixed defensive/offensive Malignance checkpoint based on385979; base Mirage neck, non-Tizona DA cape and Chirich ring replace unspecified ranked/tier alternatives.",
+      "context": {
+        "action": "Autoattack with exact Naegling main/Sakpata offhand; no mythic or prime aftermath",
+        "haste": "Erratic Flutter active; Mighty Guard, March, Samba and other haste buffs absent. No gear-haste, magic-haste or delay-reduction cap asserted",
+        "attack": "No Berserk, Warcry, food, songs, rolls or geomancy assumed; target evasion/defense unknown"
+      }
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Separately attributed defensive swap to385979; printed protection over offensive ring/ammo. No50% DT claim.",
+      "context": {
+        "action": "Autoattack with exact Naegling main/Sakpata offhand; no mythic or prime aftermath",
+        "haste": "Erratic Flutter active; Mighty Guard, March, Samba and other haste buffs absent. No gear-haste, magic-haste or delay-reduction cap asserted",
+        "attack": "No Berserk, Warcry, food, songs, rolls or geomancy assumed; target evasion/defense unknown"
+      }
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21389,
+          "name": "Honed Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14739,
+          "name": "Suppanomimi",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus accuracy alternative to385978 without unverified Carmine/Adhemar/Samnuha ranks; two Chirich+1 physical copies. No fixed target accuracy or landing rate.",
+      "context": {
+        "action": "Autoattack with exact Naegling main/Sakpata offhand; no mythic or prime aftermath",
+        "haste": "Erratic Flutter active; Mighty Guard, March, Samba and other haste buffs absent. No gear-haste, magic-haste or delay-reduction cap asserted",
+        "attack": "No Berserk, Warcry, food, songs, rolls or geomancy assumed; target evasion/defense unknown"
+      }
+    },
+    {
+      "key": "savage-blade",
+      "target": "Savage Blade",
+      "purpose": "Weapon Skill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22300,
+          "name": "Crepuscular Pebble",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Nexus physical WS alternative to385987/BG772441; Sakpata replaces TP-bonus Thibron; NyameB rank unspecified, no attack cap or ranked neck/ring assumed.",
+      "context": {
+        "action": "Savage Blade via Naegling main; actual1000+ TP and skill/action access; target hostile",
+        "haste": "No haste/attack buffs credited; no aftermath"
+      }
+    },
+    {
+      "key": "magical-free",
+      "target": "Magical Free",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22041,
+          "name": "Bunzi's Rod",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21344,
+          "name": "Ghastly Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25416,
+          "name": "Sibyl Scarf",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23569,
+          "name": "Hashi. Bazu. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27575,
+          "name": "Shiva Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23614,
+          "name": "Luhlaza Shalwar +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23703,
+          "name": "Hashi. Basmak +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus base Maxentius/Bunzi and Hashishin/Luhlaza alternative to386009. Conflicting source legs retained; unranked Ghastly/Metamor/Acuity base only. No Orpheus distance claim.",
+      "context": {
+        "action": "Learned and actually set Spectral Floe; free ice AoE against susceptible targets",
+        "abilities": "Burst Affinity, Convergence, Azure Lore inactive; no skillchain/burst bonus; UL/UW inactive"
+      }
+    },
+    {
+      "key": "magical-burst",
+      "target": "Magical Burst",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22041,
+          "name": "Bunzi's Rod",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21344,
+          "name": "Ghastly Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25416,
+          "name": "Sibyl Scarf",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23569,
+          "name": "Hashi. Bazu. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27575,
+          "name": "Shiva Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23591,
+          "name": "Assim. Shalwar +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23703,
+          "name": "Hashi. Basmak +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus separately conditions Assimilator legs and Hashishin feet on Burst Affinity; no numerical burst/BA potency inferred.",
+      "context": {
+        "action": "Learned/set Spectral Floe; compatible ice burst window must actually exist",
+        "abilities": "Burst Affinity active for next magical spell; Azure Lore/Convergence inactive; UL/UW inactive",
+        "burst": "Actual matching skillchain and timing required; gear does not open a burst window"
+      }
+    },
+    {
+      "key": "sanguine-blade",
+      "target": "Sanguine Blade",
+      "purpose": "Weapon Skill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21344,
+          "name": "Ghastly Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25416,
+          "name": "Sibyl Scarf",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25832,
+          "name": "Jhakri Cuffs +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23614,
+          "name": "Luhlaza Shalwar +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus complete dark magical WS based on386018/BG772441, fixed Naegling/Sakpata rather than source omitted weapons or Archduke/Ice Brand. No dark affinity total.",
+      "context": {
+        "action": "Sanguine Blade actually learned/usable on BLU/WAR99/49 with sufficient sword skill and1000+ TP",
+        "abilities": "Blue magic affinities, UL/UW and Azure Lore inactive; do not apply them to WS"
+      }
+    },
+    {
+      "key": "red-lotus-blade",
+      "target": "Red Lotus Blade",
+      "purpose": "Weapon Skill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21344,
+          "name": "Ghastly Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25416,
+          "name": "Sibyl Scarf",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28514,
+          "name": "Friomisi Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25832,
+          "name": "Jhakri Cuffs +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23614,
+          "name": "Luhlaza Shalwar +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus hybrid fire WS alternative informed by BG772441. Physical and magical portions distinct; no transfer of Sanguine darkness modifiers, ThibronTP1000, weapon stage or Orpheus effect.",
+      "context": {
+        "action": "Red Lotus Blade actually available with main sword, BLU/WAR99/49;1000+ TP, hostile susceptible target",
+        "abilities": "No aftermath/affinity/burst/UL/UW assumed"
+      }
+    },
+    {
+      "key": "physical-sinker",
+      "target": "Physical Sinker",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23413,
+          "name": "Luh. Keffiyeh +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28527,
+          "name": "Tati Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28527,
+          "name": "Tati Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23457,
+          "name": "Assim. Jubbah +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23547,
+          "name": "Luh. Bazubands +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27565,
+          "name": "Ifrit Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26161,
+          "name": "Shukuyu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28439,
+          "name": "Prosilio Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23636,
+          "name": "Hashishin Tayt +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23681,
+          "name": "Luhlaza Charuqs +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus STR/VIT physical spell checkpoint from337124, explicit AF body/Hashishin legs replace source Luhlaza body/random Herculean. WS damage gear is not a spell WSD multiplier; two Tati copies.",
+      "context": {
+        "action": "Learned and actually set Sinker Drill; target hostile",
+        "abilities": "Chain Affinity, Efflux and Azure Lore inactive; no burst/UL/UW"
+      }
+    },
+    {
+      "key": "physical-chain-efflux",
+      "target": "Physical Chain Efflux",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22298,
+          "name": "Aurgelmir Orb +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28527,
+          "name": "Tati Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28527,
+          "name": "Tati Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23457,
+          "name": "Assim. Jubbah +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23547,
+          "name": "Luh. Bazubands +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27565,
+          "name": "Ifrit Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26161,
+          "name": "Shukuyu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28439,
+          "name": "Prosilio Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23636,
+          "name": "Hashishin Tayt +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23658,
+          "name": "Assim. Charuqs +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus distinct next-spell completion snapshot for Chain Affinity and Efflux; Hashishin head/legs, Assimilator feet and Rosmerta retained. No TP/WSC magnitude or guaranteed skillchain.",
+      "context": {
+        "action": "Learned/set Sinker Drill; compatible skillchain opportunity only when actually present",
+        "abilities": "Chain Affinity and Efflux active on next physical spell; Azure Lore/UL/UW inactive; actual player TP separate from effective spell TP"
+      }
+    },
+    {
+      "key": "spell-accuracy",
+      "target": "Spell Accuracy",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23435,
+          "name": "Hashishin Kavuk +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25510,
+          "name": "Hashishin Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23569,
+          "name": "Hashi. Bazu. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "INT+10",
+              "\"Mag.Atk.Bns.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23636,
+          "name": "Hashishin Tayt +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23703,
+          "name": "Hashi. Basmak +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus magic accuracy checkpoint386022; exact NQ right-ear Hashishin avoids invented+2 rolls; base neck/belt/ring. Sudden Lunge physical hit versus stun resist remain separate checks.",
+      "context": {
+        "action": "Learned/set Dream Flower sleep or Sudden Lunge stun; susceptible hostile target; no guaranteed application",
+        "abilities": "No affinity, UL/UW, Convergence or Azure Lore"
+      }
+    },
+    {
+      "key": "skill-occultation",
+      "target": "Skill Occultation",
+      "purpose": "Blue Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 19255,
+          "name": "Mavi Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23413,
+          "name": "Luh. Keffiyeh +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25509,
+          "name": "Mirage Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26104,
+          "name": "Njordr Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25510,
+          "name": "Hashishin Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23457,
+          "name": "Assim. Jubbah +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27100,
+          "name": "Rawhide Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26196,
+          "name": "Renaye Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28632,
+          "name": "Cornflower Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10826,
+          "name": "Witful Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23636,
+          "name": "Hashishin Tayt +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23681,
+          "name": "Luhlaza Charuqs +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus skill checkpoint386029; reviewed Sakpata/Maxentius replace unspecified Iris paths. Base Rawhide/Cornflower only. No shadow count or skill breakpoint.",
+      "context": {
+        "action": "Learned/set Occultation or Magic Barrier on self; actual skill unknown",
+        "abilities": "No Diffusion or Unbridled state; no target healing potency inferred"
+      }
+    },
+    {
+      "key": "magic-fruit",
+      "target": "Magic Fruit",
+      "purpose": "Healing",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22041,
+          "name": "Bunzi's Rod",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21359,
+          "name": "Quartz Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26679,
+          "name": "Carmine Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10960,
+          "name": "Phalaina Locket",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28524,
+          "name": "Lifestorm Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11027,
+          "name": "Neptune's Pearl",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26969,
+          "name": "Vrikodara Jupon",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27048,
+          "name": "Telchine Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27567,
+          "name": "Levia. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27567,
+          "name": "Levia. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "MND+10",
+              "\"Cure\" potency +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27207,
+          "name": "Carmine Cuisses +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27493,
+          "name": "Medium's Sabots",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus Magic Fruit only based337111; base Telchine/Medium/Carmine avoids unverified7%/max/path assumptions. Two Levia+1 copies; Phalaina choice is Nexus, conflicting source Nuna preserved.",
+      "context": {
+        "action": "Learned/set Magic Fruit; living self or party recipient within range with missing HP; no received-potency cap/White Wind formula",
+        "abilities": "No Diffusion, UL/UW or Azure Lore; no day/weather support assumed"
+      }
+    },
+    {
+      "key": "general-precast",
+      "target": "General Precast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26679,
+          "name": "Carmine Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23480,
+          "name": "Luhlaza Jubbah +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10826,
+          "name": "Witful Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27383,
+          "name": "Carmine Greaves +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus386031 full initiation snapshot; base Leyline/Carmine with no rolls/path. Generic FC separate from blue-only cast/recast; no80% FC claim.",
+      "context": {
+        "action": "Usable ordinary BLU/WAR spell initiation; resolution needs action gear",
+        "abilities": "No Chainspell/affinity/UL/UW assumed"
+      }
+    },
+    {
+      "key": "blue-precast",
+      "target": "Blue Precast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26679,
+          "name": "Carmine Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23502,
+          "name": "Hashishin Mintan +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23569,
+          "name": "Hashi. Bazu. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26261,
+          "name": "Rosmerta's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10826,
+          "name": "Witful Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25884,
+          "name": "Aya. Cosciales +2",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27383,
+          "name": "Carmine Greaves +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus blue-specific initiation variant: Hashishin body cast time and hands recast delay are distinct properties; no automatic equip or recast/cast cap.",
+      "context": {
+        "action": "Learned/set blue spell initiation; completion uses appropriate action snapshot",
+        "abilities": "No special abilities inferred from equipment"
+      }
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:dt-idle"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:refresh-idle"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:engaged-balanced"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:engaged-dt"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:engaged-accuracy"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:savage-blade",
+          "nexus:blu:sanguine-blade",
+          "nexus:blu:red-lotus-blade"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Physical blue magic",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Physical blue magic",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:physical-sinker",
+          "nexus:blu:physical-chain-efflux"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Magical blue magic",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Magical blue magic",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:magical-free",
+          "nexus:blu:magical-burst"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Blue accuracy / skill",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Blue accuracy / skill",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:spell-accuracy",
+          "nexus:blu:skill-occultation"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Healing",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Healing",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:magic-fruit"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    },
+    {
+      "original_row": {
+        "job": "BLU",
+        "priority": "Precast",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "BLU",
+        "priority": "Precast",
+        "status": "included",
+        "reviewed": true,
+        "context": "Bounded17 fixed base/action targets only; explicit usable set-spell Dual Wield, weapon, haste/burst/affinity/Efflux/access/recipient contexts. Included does not mean every spell/trait/weapon/tier/ability covered.",
+        "evidence": "GEAR-GUIDE-T7-BLU.md; node25,16 original grids, BG772441/568490/751925, exact public cards and separately attributed Nexus substitutions.",
+        "set_ids": [
+          "nexus:blu:general-precast",
+          "nexus:blu:blue-precast"
+        ]
+      },
+      "limits": "Included only for listed bounded contexts; broader action variants remain unclaimed, never N/A."
+    }
+  ],
+  "unclaimed": [
+    "Every progression tier and all learned/set spells/traits",
+    "Tizona/Almace/Sequence/Thibron/prime stages and aftermath",
+    "Full Expiacion/CDC/Requiescat/Imperator/club WS contexts",
+    "White Wind HP/potency and self received-potency cap sets",
+    "Diffusion Mighty Guard/Erratic Flutter, UL/UW, Azure Lore and Convergence-specific gear/merits/timing",
+    "Dedicated Reaving Wind/Feather Tickle recast/accuracy, Cruel Joke/Absolute Terror/other Unbridled spells and immunity checks",
+    "Learning-chance, breath, enmity/tanking, subtle blow, movement and subjob utility spell sets",
+    "Every haste/DW/attack/evasion buff bracket, capped totals and runtime switching"
+  ]
+}

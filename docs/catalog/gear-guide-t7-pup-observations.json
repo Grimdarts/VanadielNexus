@@ -1,0 +1,1772 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "node-hp-dt-meva",
+      "url": "https://www.ffxiah.com/item-sets/352987",
+      "scope": "Node 426 linked set 352987 \"PUP - HP/DT/MEVA\"",
+      "set_note": "No note. Node: \"You can replace C. Palug Ring with Eihwaz Ring ... if you wish to cap MDT via Shell\"; Defensive Nyame: Any Path; cape HP+60/EVA&MEVA+20/Enmity+10/MEVA+10/MEVA+15.",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23761
+        ],
+        "neck": [
+          27509
+        ],
+        "ear1": [
+          27549
+        ],
+        "ear2": [
+          26112
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          10769
+        ],
+        "ring2": [
+          28473
+        ],
+        "back": [
+          26269
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "71bf05314df9528fd246580fd7b11542da96232b1dcf289e80d66bcfee179936"
+    },
+    {
+      "key": "node-refresh",
+      "url": "https://www.ffxiah.com/item-sets/352949",
+      "scope": "Node 426 linked set 352949 \"PUP - Refresh\"",
+      "set_note": "\"Condemners/Herculean: Refresh+2\"; node: Herculean Refresh+1-2 (Dark Matter).",
+      "slot_grid": {
+        "main": [
+          20505
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          25642
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          26969
+        ],
+        "hands": [
+          27140
+        ],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26184
+        ],
+        "back": [],
+        "waist": [
+          28452
+        ],
+        "legs": [
+          28135
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "ea67ab677404cc2bd383500bcac930045a29ec01f7b66585449c8c9bb34d1188"
+    },
+    {
+      "key": "node-pet-refresh",
+      "url": "https://www.ffxiah.com/item-sets/378366",
+      "scope": "Node 426 linked set 378366 \"PUP - Pet Refresh\"",
+      "set_note": "No note.",
+      "slot_grid": {
+        "main": [
+          20516
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23415
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          28642
+        ],
+        "waist": [],
+        "legs": [],
+        "feet": []
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "1c969fac5e624d871f5c280c99595cc3d0f9e94e48c74d744729ef042fa1a316"
+    },
+    {
+      "key": "node-tp-kenkonken",
+      "url": "https://www.ffxiah.com/item-sets/375075",
+      "scope": "Node 426 linked set 375075 \"PUP - TP (Kenkonken)\"",
+      "set_note": "\"Cape: Acc/Atk/Store TP\"; node TP (AM3) cape: DEX+20/ACC&ATK+20/STP+10/DEX+10/PDT-10%. Kenkonken link is ID 18988 (level 75 stage).",
+      "slot_grid": {
+        "main": [
+          18988
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          26015
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          27544
+        ],
+        "body": [
+          23765
+        ],
+        "hands": [
+          23571
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "a5199531585e68954cd34143bfb79566158668f37129e5abf0023ab4cd6abb13"
+    },
+    {
+      "key": "node-dt-meva-tp",
+      "url": "https://www.ffxiah.com/item-sets/378371",
+      "scope": "Node 426 linked set 378371 \"PUP - DT/MEVA TP\"",
+      "set_note": "No note.",
+      "slot_grid": {
+        "main": [],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          26002
+        ],
+        "ear1": [
+          27549
+        ],
+        "ear2": [
+          26116
+        ],
+        "body": [
+          23733
+        ],
+        "hands": [
+          23734
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          23735
+        ],
+        "feet": [
+          23736
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "7f61fbc784a26b9912cb983d592e080236a6293f1203f1b8bc880ecd5340838a"
+    },
+    {
+      "key": "node-am3-sb",
+      "url": "https://www.ffxiah.com/item-sets/378267",
+      "scope": "Node 426 linked set 378267 \"PUP - AM3 SB\"",
+      "set_note": "No note (Kenkonken ID 18988).",
+      "slot_grid": {
+        "main": [
+          18988
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23732
+        ],
+        "neck": [
+          27518
+        ],
+        "ear1": [
+          26116
+        ],
+        "ear2": [
+          27547
+        ],
+        "body": [
+          23715
+        ],
+        "hands": [
+          23719
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          23779
+        ],
+        "feet": [
+          23727
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "14ed6f1bbb26fb0c4ea011f194c8993ddf333a5082ed1ebcdcc0d5965f78303c"
+    },
+    {
+      "key": "node-dual-tp",
+      "url": "https://www.ffxiah.com/item-sets/353038",
+      "scope": "Node 426 linked set 353038 \"PUP - Dual TP\"",
+      "set_note": "\"Cape: Acc/Atk, Pet: Acc/Atk/Haste+\"; node all Dual TP sets cape Pet: ACC&ATK+20/ACC&ATK+20/Pet: Haste+10%/Pet: ACC+10/Pet: PDT-10% or PDT-10%.",
+      "slot_grid": {
+        "main": [
+          18988
+        ],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          25564
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26117
+        ],
+        "body": [
+          23765
+        ],
+        "hands": [
+          23571
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          25904
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "521e6ed3209d4fed9d75b3d3d98c621741d661375762dcdf678e25a9f3c14013"
+    },
+    {
+      "key": "node-dual-tp-godhands",
+      "url": "https://www.ffxiah.com/item-sets/382640",
+      "scope": "Node 426 linked set 382640 \"Dual TP (Godhands)\"",
+      "set_note": "No note.",
+      "slot_grid": {
+        "main": [
+          20515
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          25564
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26081
+        ],
+        "body": [
+          23765
+        ],
+        "hands": [
+          23571
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          25904
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "11ddd29faa4c6a336ce6e9bdf1354c765400731afb2670fcb2e726383d25b82f"
+    },
+    {
+      "key": "node-maneuvers",
+      "url": "https://www.ffxiah.com/item-sets/378255",
+      "scope": "Node 426 linked set 378255 \"PUP - Maneuvers\"",
+      "set_note": "No note (Kenkonken ID 18988; partial set).",
+      "slot_grid": {
+        "main": [
+          18988
+        ],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [
+          16282
+        ],
+        "ear1": [
+          27530
+        ],
+        "ear2": [],
+        "body": [
+          23504
+        ],
+        "hands": [
+          23526
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          26263
+        ],
+        "waist": [],
+        "legs": [],
+        "feet": []
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "b8d79d09d4605a3c8b6e77169859517e8e13663e2df46d54b5778a2cf23ecd76"
+    },
+    {
+      "key": "node-pet-tp",
+      "url": "https://www.ffxiah.com/item-sets/368176",
+      "scope": "Node 426 linked set 368176 \"PUP - Pet TP\"",
+      "set_note": "\"Taeon: Pet Acc/DA/DT Cape: Pet Acc/Atk/Haste\".",
+      "slot_grid": {
+        "main": [
+          20535
+        ],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          26735
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          26083
+        ],
+        "ear2": [
+          28495
+        ],
+        "body": [
+          23482
+        ],
+        "hands": [
+          27047
+        ],
+        "ring1": [
+          28473
+        ],
+        "ring2": [
+          26201
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28418
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "2aac7a02e7a5b320fc94054f527ea21d2e01367324c18abefe4db6490eee675f"
+    },
+    {
+      "key": "node-pet-tp-nothur",
+      "url": "https://www.ffxiah.com/item-sets/375081",
+      "scope": "Node 426 linked set 375081 \"PUP - Pet TP (No Thurandaut)\"",
+      "set_note": "No note.",
+      "slot_grid": {
+        "main": [
+          20535
+        ],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          26735
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26083
+        ],
+        "body": [
+          23482
+        ],
+        "hands": [
+          27047
+        ],
+        "ring1": [
+          26180
+        ],
+        "ring2": [
+          28473
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26336
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "9b9ccde718137aa5cee16e2845134618e660009dd74e279dcfddb26b52700145"
+    },
+    {
+      "key": "node-pet-ranged-tp",
+      "url": "https://www.ffxiah.com/item-sets/378252",
+      "scope": "Node 426 linked set 378252 \"PUP - Pet Ranged TP\"",
+      "set_note": "No note; node: Ranged TP relies on Companion's Roll for TP.",
+      "slot_grid": {
+        "main": [
+          21526
+        ],
+        "sub": [],
+        "range": [
+          21459
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23415
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          26083
+        ],
+        "ear2": [
+          26117
+        ],
+        "body": [
+          23482
+        ],
+        "hands": [
+          23772
+        ],
+        "ring1": [
+          26180
+        ],
+        "ring2": [
+          26201
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26336
+        ],
+        "legs": [
+          23638
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "cebf0a1826a26c0aa839642e46cd48a1c2f1d2c0f9341c3374df1eddb1f4c870"
+    },
+    {
+      "key": "node-od-ss",
+      "url": "https://www.ffxiah.com/item-sets/382411",
+      "scope": "Node 426 linked set 382411 \"Nyame OD (SS)\"",
+      "set_note": "No note; node: both Nyame OD sets require Bean Daifuku to cap pet gear haste; Nyame Path D; Sharpshot cape slot is Dispersal Mantle with a TP Bonus+500 augment.",
+      "slot_grid": {
+        "main": [
+          21526
+        ],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23437
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          28495
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23772
+        ],
+        "ring1": [
+          28473
+        ],
+        "ring2": [
+          26201
+        ],
+        "back": [
+          28634
+        ],
+        "waist": [
+          26336
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          25952
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "bd629e08479fae605eefba4d67cfe2349a3f3d90843b8cd183d9fc1c49bda196"
+    },
+    {
+      "key": "node-turtle-tank",
+      "url": "https://www.ffxiah.com/item-sets/365470",
+      "scope": "Node 426 linked set 365470 \"PUP - Turtle Tank\"",
+      "set_note": "\"Rao Path C; Cape: Pet Regen+10, DT-5%; switch to Anwig if more MDT is necessary\".",
+      "slot_grid": {
+        "main": [
+          20542
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          26675
+        ],
+        "neck": [
+          16297
+        ],
+        "ear1": [
+          26083
+        ],
+        "ear2": [
+          28495
+        ],
+        "body": [
+          26851
+        ],
+        "hands": [
+          27027
+        ],
+        "ring1": [
+          27552
+        ],
+        "ring2": [
+          26201
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28451
+        ],
+        "legs": [
+          27203
+        ],
+        "feet": [
+          27379
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "d88f79a44ff68e5375a096708542a345ff1f7fb5b45cf5909479741adbf38b35"
+    },
+    {
+      "key": "node-turtle-tank-nothur",
+      "url": "https://www.ffxiah.com/item-sets/378468",
+      "scope": "Node 426 linked set 378468 \"PUP - Turtle Tank (No Thurandaut)\"",
+      "set_note": "No note; Anwig Salade augment Pet: Haste+5%/Damage Taken-10% per node.",
+      "slot_grid": {
+        "main": [
+          20542
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          11488
+        ],
+        "neck": [
+          16297
+        ],
+        "ear1": [
+          26083
+        ],
+        "ear2": [
+          28495
+        ],
+        "body": [
+          26851
+        ],
+        "hands": [
+          27027
+        ],
+        "ring1": [
+          27552
+        ],
+        "ring2": [
+          28473
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28451
+        ],
+        "legs": [
+          27203
+        ],
+        "feet": [
+          27379
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "574b2ea6c3337648564699a45b2eda6f97ce18e57b097994778a5af24fc6f2a4"
+    },
+    {
+      "key": "node-pet-tp-bonus-nyame",
+      "url": "https://www.ffxiah.com/item-sets/382410",
+      "scope": "Node 426 linked set 382410 \"Pet TP Bonus (Nyame)\"",
+      "set_note": "No note; node: Nyame Path D, Dispersal Mantle with TP Bonus+500; \"Arcuballista and Daze ... benefit the most from TP Bonus\".",
+      "slot_grid": {
+        "main": [
+          21526
+        ],
+        "sub": [],
+        "range": [
+          21457
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23437
+        ],
+        "neck": [
+          26026
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          27530
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23772
+        ],
+        "ring1": [
+          27552
+        ],
+        "ring2": [
+          26201
+        ],
+        "back": [
+          28634
+        ],
+        "waist": [
+          26336
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "2111b2d8d5d8de8eba64fa519ed3ed71d834f34cc90532ba0b0219aaa4306cdf"
+    },
+    {
+      "key": "node-pet-macc",
+      "url": "https://www.ffxiah.com/item-sets/378439",
+      "scope": "Node 426 linked set 378439 \"PUP - Pet MACC\"",
+      "set_note": "No note; node pet casting cape Pet: MACC&MDMG+20/EVA&MEVA+20/Pet: Regen+10/Pet: MACC+10/Pet: DT-5%.",
+      "slot_grid": {
+        "main": [
+          21527
+        ],
+        "sub": [],
+        "range": [
+          21459
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23437
+        ],
+        "neck": [
+          25521
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26083
+        ],
+        "body": [
+          23504
+        ],
+        "hands": [
+          23571
+        ],
+        "ring1": [
+          26210
+        ],
+        "ring2": [
+          28473
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28432
+        ],
+        "legs": [
+          23638
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "bd904f05d24e1d4fa870784e03021245490224074c916368dc52abf00b9b1bc2"
+    },
+    {
+      "key": "node-stringing-pummel",
+      "url": "https://www.ffxiah.com/item-sets/371667",
+      "scope": "Node 426 linked set 371667 \"PUP - Stringing Pummel\"",
+      "set_note": "\"Use Ryuo +1 Path D unless your Herc feet have godly augments (STR+8-10, CritDmg+5%, high Acc/Atk)\"; node cape STR+20/ACC&ATK+20/Crit+10%/STR+10/PDT-10%. Kenkonken ID 18988.",
+      "slot_grid": {
+        "main": [
+          18988
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23758
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26116
+        ],
+        "body": [
+          23765
+        ],
+        "hands": [
+          23772
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          23779
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "b047338e814206d89b099d18d8def266510472fe3ba1ae04613da4a178ec1894"
+    },
+    {
+      "key": "node-asuran-nyame",
+      "url": "https://www.ffxiah.com/item-sets/382413",
+      "scope": "Node 426 linked set 382413 \"Asuran Fists (Nyame)\"",
+      "set_note": "No note; node: Nyame Path B; cape STR+20/ACC&ATK+20/WSD+10%/STR+10/PDT-10%.",
+      "slot_grid": {
+        "main": [
+          21519
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23437
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26116
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26221
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          23779
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "ee11f265145c416b98b8cfd2cc1c992412350bee041a96179a2211a7a4ee5a09"
+    },
+    {
+      "key": "node-pet-idle-precast",
+      "url": "https://www.ffxiah.com/item-sets/368252",
+      "scope": "Node 426 linked set 368252 \"PUP - Pet Idle/Precast\"",
+      "set_note": "No note; node: must be idled in before the automaton starts casting (Gearswap cannot predict/intercept). Unselected scope.",
+      "slot_grid": {
+        "main": [
+          20516
+        ],
+        "sub": [],
+        "range": [
+          21459
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          26793
+        ],
+        "neck": [
+          27514
+        ],
+        "ear1": [
+          27530
+        ],
+        "ear2": [],
+        "body": [
+          26949
+        ],
+        "hands": [
+          27099
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          26263
+        ],
+        "waist": [
+          28432
+        ],
+        "legs": [
+          23616
+        ],
+        "feet": [
+          27459
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "abf664a9dc7fec8418d7514a1b6fb94e6ba5f0bd1f0de739cae3f09bcb69a5e7"
+    },
+    {
+      "key": "node-victory-smite",
+      "url": "https://www.ffxiah.com/item-sets/352950",
+      "scope": "Node 426 linked set 352950 \"PUP - Victory Smite\"",
+      "set_note": "\"Augmented Mpaca head for Skillchain Bonus; Cape: STR+30/Accuracy+20/Attack+20/Critical Hit Rate+10%/PDT-10%\" (aggregate presentation, conflicts with the node body's per-augment STR+20 ... STR+10 list). Verethragna ID 19397 is the level-80 stage. Unselected.",
+      "slot_grid": {
+        "main": [
+          19397
+        ],
+        "sub": [],
+        "range": [
+          21433
+        ],
+        "ammo": [
+          19185
+        ],
+        "head": [
+          23758
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          25524
+        ],
+        "ear2": [
+          26116
+        ],
+        "body": [
+          23765
+        ],
+        "hands": [
+          23772
+        ],
+        "ring1": [
+          26185
+        ],
+        "ring2": [
+          28471
+        ],
+        "back": [
+          26263
+        ],
+        "waist": [
+          26341
+        ],
+        "legs": [
+          23779
+        ],
+        "feet": [
+          23786
+        ]
+      },
+      "composition_kind": "slot_grid",
+      "method": "Same-origin fetch of the FFXIAH item-set page linked from node 426; the 16 .ffxiah-equipbox cells transcribed in FFXI equipment order with exact /item/<id> links; empty cells are eqN.gif placeholders (source omissions, not Nexus empties). Augment strings exist only in notes; ranks/paths/random augments not inherited.",
+      "observation_sha256": "0a002bd6d5ec3e60577100c219c50e18b6ed6028054e96aaad0abbaa817bc0a3"
+    },
+    {
+      "key": "bg-tp-kenkonken-50dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Mythic AM3 TP set: -50% DT (3.619 s)",
+      "grid": {
+        "main": [
+          "Kenkonken (Level 119 III)"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Dedition Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Karagoz Guanti +3"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Visucius's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "annotation \"DEX, Store TP\" (magnitudes not printed)"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "db7cfa263fe6ac61eecb7a172365c82e95ea1577ccb792f2f123da7832902d94"
+    },
+    {
+      "key": "bg-tp-kenkonken-25dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Mythic AM3 TP set: -25% DT (3.545 s)",
+      "grid": {
+        "main": [
+          "Kenkonken (Level 119 III)"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "ear1": [
+          "Schere Earring"
+        ],
+        "ear2": [
+          "Dedition Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Malignance Gloves"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Visucius's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "annotation \"DEX, Store TP\""
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "1a541748919e37dc22b160db69c0b311f8130e3718a1f48345c0ac5ac6b96312"
+    },
+    {
+      "key": "bg-tp-varga-50dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Varga Purnikawa TP: -50% DT (3.712 s) - unselected option",
+      "grid": {
+        "main": [
+          "Varga Purnikawa (Level 119 II)"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Schere Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Karagoz Guanti +3"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Visucius's Mantle"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "\"DEX, Store TP\"",
+        "notes": "Prime weapon stage not transferred"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "c780aa69838299fd912ccb407dfd07131b6d5fdd948929d616184f0c8ddf0da0"
+    },
+    {
+      "key": "bg-tp-varga-25dt",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Varga Purnikawa TP: -25% DT (3.637 s) - unselected option",
+      "grid": {
+        "main": [
+          "Varga Purnikawa (Level 119 II)"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Duty Crown"
+        ],
+        "neck": [
+          "Lissome Necklace"
+        ],
+        "ear1": [
+          "Schere Earring"
+        ],
+        "ear2": [
+          "Alabaster Earring"
+        ],
+        "body": [
+          "Duty Cyclas"
+        ],
+        "hands": [
+          "Duty Gauntlets"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Moonbow Belt +1"
+        ],
+        "legs": [
+          "Duty Flanchard"
+        ],
+        "feet": [
+          "Duty Sollerets"
+        ]
+      },
+      "source_options": {},
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "8c649a4b9ed430892b0b2d68eb0b53c3409ecbd06d3e1f37a4043e9a58e1fdbe"
+    },
+    {
+      "key": "bg-stringing-pummel",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Stringing Pummel*: Mid buff 30371 / High buff 34506",
+      "grid": {
+        "main": [
+          "Kenkonken (Level 119 III)"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Mpaca's Cap"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Hoxne Earring"
+        ],
+        "body": [
+          "Mpaca's Doublet"
+        ],
+        "hands": [
+          "Ryuo Tekko +1"
+        ],
+        "ring1": [
+          "Gere Ring"
+        ],
+        "ring2": [
+          "Niqmaddu Ring"
+        ],
+        "back": [
+          "Visucius's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Mpaca's Hose"
+        ],
+        "feet": [
+          "Ryuo Sune-Ate +1"
+        ]
+      },
+      "source_options": {
+        "back": "\"STR, Crit Rate\"",
+        "hands": "Path A (not inherited)",
+        "feet": "Path D (not inherited)",
+        "ear2": "Hoxne Earring is Mastery Rank dependent (BG rev775328): not selected",
+        "high_buff": "Kara. Cappello +3, Duty Cyclas, Sroda Ring, Karagoz Scarpe +3 swaps"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "799be2ff87a794619709dc51d97ef7eb4e2257c7ea6c4f2cf17e9aabea9da7f4"
+    },
+    {
+      "key": "bg-asuran-fists",
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "scope": "Asuran Fists*: Mid buff 24745 / High buff 34261 (Karambit main)",
+      "grid": {
+        "main": [
+          "Karambit"
+        ],
+        "sub": [],
+        "range": [
+          "Neo Animator"
+        ],
+        "ammo": [],
+        "head": [
+          "Kara. Cappello +3"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Alabaster Earring"
+        ],
+        "ear2": [
+          "Hoxne Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Pitre Dastanas +4"
+        ],
+        "ring1": [
+          "Sroda Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Visucius's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Karagoz Scarpe +3"
+        ]
+      },
+      "source_options": {
+        "back": "\"STR, Weapon Skill Damage\"",
+        "main": "Karambit grants Asuran Fists and +50% damage; not transferred"
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span annotations; sub and ammo cells are Category placeholders (omissions).",
+      "observation_sha256": "04ee87e9cf15d811e4be850abfa154eb113039dd254460bf49fad2b8c240fa7c"
+    },
+    {
+      "key": "node-inventory",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "71 node 426 item sets fetched: idle (HP/DT/MEVA, MDT/MEVA, Kiting, Dual Regen, Refresh, Movement), master TP (Hybrid, DT/MEVA, GH/Xiu, Verethragna, Kenkonken, three Subtle Blow), Dual TP (Godhands, Dual TP, Dual Bruiser, Dual Tankmaton), pet-only TP (melee, ranged, store TP, No-Thurandaut variants), nine master WS sets plus PDL swaps, pet TP Bonus and Bone Crusher (Nyame/Herculean/Taeon variants), Turtle/Bruiser tank, Pet Enmity, pet Nuking/MACC/Curing/Idle-Precast/Refresh, four SS and three VE Overdrive sets, Maneuvers, Repair, Master Enmity, Fast Cast, Enfeebling, Cure, Waltz, Stoneskin, Phalanx.",
+        "Selected scopes are a subset; unselected scopes (Repair, Bone Crusher, Bruiser/Dual Tankmaton, Pet Enmity for Strobe/Flashbulb, Curing, Idle/Precast, VE Overdrive, MDT/Kiting/Regen idles, Subtle Blow, Aeolian Edge/Evisceration/Victory Smite/Shijin/Howling/Raging WS, utility casting) are not rejections and remain later obligations.",
+        "FFXIAH set pages show an equipbox slot grid; the BST packets recorded node 227 sets as unordered item lists. That is a second-pass review observation for BST only; no BST record is changed here."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "f3618d8e1cda28e4030ebb4fe76186915f5ce339b5a18859e66009f39214a4a5"
+    },
+    {
+      "key": "stage-conflicts",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Node 426 links Kenkonken as ID 18988 (level 75 stage; local text DMG+17 Delay+49, no Stringing Pummel line) and Verethragna as 19397 (level 80); BG All Jobs grids and BG Kenkonken (Level 119 III) rev778097 (FFXIAH link 20511) name the iLvl 119 III stage. Nexus fixes exact 20511 and records the node IDs as conflicts, not as the recommended stage.",
+        "BG String Theory pet Turtle grid uses Animator P +1 where node 426 Turtle Tank uses Neo Animator; Nexus keeps the node animator. String Theory Idle (Refresh) uses Denouements, whose Refresh+4 is Automaton-labeled: the master is not credited with it."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "fc6dd3c33c645d11b9425ab27703d59f55ad0f7bff3860307027610e0d851931"
+    },
+    {
+      "key": "bg-maneuver",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG Maneuver (rev675700): burden degrees per use depend on master vs automaton relevant stat (15 vs 20); base threshold 30; overload chance ~5% + degrees over threshold; threshold equipment Buffoon's Collar/+1 +5, Foire Dastanas +5, Karagoz Farsetto +40, Burana Earring +1, Dispersal Mantle +5, Visucius's Mantle +10, Kenkonken degrees per maneuver /3. Maneuver stat boost floor(PUP level/15)+1, +1 with Foire Dastanas, plus \"Enhances Maneuver\" effects.",
+        "No overload probability, burden total or stat boost certified by Nexus."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "731a6e70f7b5fc3d7cf018d7cfd1f0392b53bf39f0acfd57edb968e66a1bacb7"
+    },
+    {
+      "key": "automaton-actions",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "BG String Theory (rev689269) automaton WS table: Valoredge (Chimera Ripper, String Clipper, Cannibal Blade, Bone Crusher, String Shredder), Sharpshot (Arcuballista, Daze, Armor Piercer, Armor Shatterer), Harlequin/Stormwaker (Slapstick, Knockout, Magic Mortar); with no maneuvers the automaton uses its highest-skill WS; maneuvers influence the choice.",
+        "Node 426: pet WS sets are worn as automaton TP approaches 1000 because GearSwap cannot intercept automaton actions; the Pet Idle/Precast set must be worn before casting starts. Animator P +1 is Su2 (100 PUP job points) per String Theory. No timing snapshot certified."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "7925b6801df89110e986743933ce5595f8115e2bf305df8621574613612a1f1c"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/426",
+      "title": "PUP Gearsets (FFXIAH node 426)",
+      "locator": "FFXIAH node 426 \"PUP Gearsets\" (author Falsetto, collaborator Aerix), rendered page \"Last Update: October 20th 2022\", footer \"Date Last Modified: 2022-11-26 03:56:43\", 201 updates; FFXIAH exposes no revision id. All 71 linked item-set pages fetched same-origin in the built-in browser on 2026-11-05. The node states \"Assume anything that can be augmented is maxed rank\" and \"Cape augments order: Thread/Dust/Sap/Dye/Resin\".",
+      "findings": [
+        "Separates idle, master-only TP (\"completely ignore the Automaton\"), Dual TP (master fighting alongside the automaton, automaton haste), pet-only TP (melee/ranged/store TP), master WS, pet TP Bonus/Bone Crusher WS, Turtle/Bruiser/Enmity tanking, pet casting, Overdrive (SS and VE) and utility sets.",
+        "Set notes carry max-rank, path, Herculean/Taeon random and pet-cape augments that Nexus does not inherit; Animator P +1, P II +1 and Neo Animator are \"situationally useful depending on your Automaton\"."
+      ],
+      "observation_sha256": "8365df2119f4bb582084771511fe18b8c54d8fbc4b77ef1effa2b65a1fcb14f4"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/All_Jobs_Gear_Sets/Puppetmaster",
+      "title": "All Jobs Gear Sets/Puppetmaster",
+      "locator": "Rendered current page; wgRevisionId/wgCurRevisionId 772450; footer 13 July 2026 21:49; notes \"Updated 2026 May 03\". Author guide (not collaborative). \"Most Odyssey equipment assumes Rank 30. Nyame alone assumes Rank 25 Path B. Neo Animator was locked to the ranged slot.\" index.php oldid permanent link not used (Cloudflare bot check risk).",
+      "findings": [
+        "Master-only grids: Stringing Pummel, Maru Kala, Victory Smite, Shijin Spiral, Howling Fist, Dragon Blow, Asuran Fists (mid/high buff) and Kenkonken / Varga Purnikawa TP (-50%/-25% DT); no automaton, idle or pet sets.",
+        "Simulated damage/TP-time figures are the author's, not adopted."
+      ],
+      "observation_sha256": "be6ee18e1fa3f8362eebec63e4d4d73668a678fde5953f96f773c488ac46f6cd"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/String_Theory",
+      "title": "String Theory (BG PUP guide)",
+      "locator": "Rendered revision 689269; footer 26 September 2023 10:01; author guide with 40 EquipmentSet grids.",
+      "findings": [
+        "Roles, support jobs (/WAR master+automaton; /RUN magic sustain; /NIN; /DNC; /WHM and /SCH backline when the master stands away), frames, attachments, master and automaton WS, animators, idle/TP/WS/pet tanking/Overdrive/casting/utility grids.",
+        "Opinion guide (2023); grids are options, many on Herculean/Taeon/Rao augments; none transferred verbatim."
+      ],
+      "observation_sha256": "3a82ea6d6f6d8721149d3117ba2fbc179f17db1ce75d6701666d2f863e1f5ad7"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Kenkonken_(Level_119_III)",
+      "title": "Kenkonken (Level 119 III)",
+      "locator": "Rendered revision 778097; footer 8 September 2026; FFXIAH exact ID 20511",
+      "findings": [
+        "Hand-to-Hand; PUP; Enhances \"Martial Arts\" V; Suppresses \"Overload\"; Stringing Pummel; Aftermath (including Automaton) accuracy/attack/multi-attack; Afterglow.",
+        "Stages Lv.75 through iLevel 119 III are distinct IDs."
+      ],
+      "observation_sha256": "d80211851fac1f38a4aa6ed53c07092e4b9879c5d029238f0737430555b4aa44"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Xiucoatl",
+      "title": "Xiucoatl",
+      "locator": "Rendered revision 627527; footer 22 September 2021; FFXIAH exact ID 21526",
+      "findings": [
+        "Hand-to-Hand; PUP; Automaton: Accuracy/Ranged Accuracy/Magic Accuracy+50.",
+        "Path augments not inherited."
+      ],
+      "observation_sha256": "6f7f6dfb92dac8fbea7ec61e7d7d693edd25024d729aacd9eb4b39dfffa30f7c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Ohtas",
+      "title": "Ohtas",
+      "locator": "Rendered revision 582433; footer 22 August 2019; FFXIAH exact ID 20535",
+      "findings": [
+        "Hand-to-Hand; PUP; Enmity-10; Automaton: \"Refresh\"+1 \"Regain\"+10.",
+        "Automaton recipient only."
+      ],
+      "observation_sha256": "832dadb5fc489ecfb8d300563629ba92ecc7850d0bbee397b8936a770f1fdc9c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Gnafron%27s_Adargas",
+      "title": "Gnafron's Adargas",
+      "locator": "Rendered revision 658748; footer 16 September 2022; FFXIAH exact ID 20542",
+      "findings": [
+        "Hand-to-Hand; PUP; Automaton: increases maximum HP and MP, increases skill effects.",
+        "No magnitude certified."
+      ],
+      "observation_sha256": "e06c7e9be6bf5d837372eb3ff4965dde51724149ba503fbcc0201550ab57bf56"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Denouements",
+      "title": "Denouements",
+      "locator": "Rendered revision 586896; footer 20 September 2019; FFXIAH exact ID 20516",
+      "findings": [
+        "Hand-to-Hand; MNK/PUP; \"Quadruple Attack\"+3%; Automaton: \"Regen\"+4 \"Refresh\"+4.",
+        "Automaton recovery only."
+      ],
+      "observation_sha256": "f45f4b229b3d8afb3ebb979221235ed8aa427fe5302753d161e87b41d7e3d2b0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Sakpata%27s_Fists",
+      "title": "Sakpata's Fists",
+      "locator": "Rendered revision 665669; footer 13 December 2022; FFXIAH exact ID 21527 (already a reviewed hand record)",
+      "findings": [
+        "Hand-to-Hand; Automaton: All Attr.+20, Accuracy/Ranged/Magic Accuracy+50.",
+        "Master and automaton lines separate."
+      ],
+      "observation_sha256": "6c6b680541834877251e7e0ccd297f17207c5ef2f56175e633d65c41f7a9539c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Neo_Animator",
+      "title": "Neo Animator",
+      "locator": "Rendered revision 777476; footer 31 August 2026; FFXIAH exact ID 21433",
+      "findings": [
+        "Range-slot animator; Accuracy+10, Weapon skill damage +5%, Automaton: Lv.119 DMG:+10.",
+        "Odyssey Rank 30 automaton augments not inherited."
+      ],
+      "observation_sha256": "75d4f8191bf131315b6d62c3aaed4a6cbe6ddd9daba2789dbec7ea3ab7be7ba6"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Animator_P_%2B1",
+      "title": "Animator P +1",
+      "locator": "Rendered revision 777474; footer 31 August 2026; FFXIAH exact ID 21457",
+      "findings": [
+        "Automaton: Lv119 all attributes +20; Superior Level 2.",
+        "Animators are required to control the automaton and use maneuvers (String Theory)."
+      ],
+      "observation_sha256": "613062294f35b4726c86799272ef426e2e8de5547180d6a09ffb04d928005282"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Animator_P_II_%2B1",
+      "title": "Animator P II +1",
+      "locator": "Rendered revision 576579; footer 1 May 2019; FFXIAH exact ID 21459",
+      "findings": [
+        "Long-distance animator; Automaton: Lv119 all attributes +20.",
+        "Used by node 426 for ranged and casting automaton sets."
+      ],
+      "observation_sha256": "00c861c21eecd4e96bb9d1e7fe07b57620b54a6febb7bd99e62feb95899b793c"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Stringing_Pummel",
+      "title": "Stringing Pummel",
+      "locator": "Rendered revision 741058; footer 29 June 2025",
+      "findings": [
+        "Sixfold H2H WS, crit rate varies with TP, 32% STR/32% VIT; PUP75 with quest Unlocking a Myth (Puppetmaster); PUP main job only.",
+        "Kenkonken stages modify damage."
+      ],
+      "observation_sha256": "ec3e706ae54ea69baddd224da443d483d1679bf1e6d402085e6e702fb41834ba"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Asuran_Fists",
+      "title": "Asuran Fists",
+      "locator": "Rendered revision 740989; footer 29 June 2025",
+      "findings": [
+        "Eight-hit H2H WS (250 skill); PUP74 main job with quest The Walls of Your Mind, or any job with Kaja Knuckles/Karambit.",
+        "Karambit/Kaja Knuckles +50% damage."
+      ],
+      "observation_sha256": "85232bf74cd0c00df8aa5191658696b3b979448d9f8d21fb7cacbd91d174fc04"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Howling_Fist",
+      "title": "Howling Fist",
+      "locator": "Rendered revision 741054; footer 29 June 2025",
+      "findings": [
+        "MNK60/PUP62 main job only.",
+        "Not authored (DA-resin cape unconfirmed); later obligation."
+      ],
+      "observation_sha256": "309720e1a40595817b948d7eea36041f9be608f3fa0a1c1bf6215960fb958fa0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Shijin_Spiral",
+      "title": "Shijin Spiral",
+      "locator": "Rendered revision 741055; footer 29 June 2025",
+      "findings": [
+        "357 skill; MNK90/PUP93 main job; quest Martial Mastery.",
+        "Not authored; later obligation."
+      ],
+      "observation_sha256": "ccae9f6dcb7f20da1c5aa79714290b87d6a8d90ce478062d862c54cab03c6c5f"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Raging_Fists",
+      "title": "Raging Fists",
+      "locator": "Rendered revision 740987; footer 29 June 2025",
+      "findings": [
+        "MNK/PUP main or sub job; 125 skill.",
+        "Not authored; later obligation."
+      ],
+      "observation_sha256": "c49e7ec784f7ea4b8bf9b7d56475121e93e9b28ab9dbf62d962ee5ecfdfc6f70"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Maneuver",
+      "title": "Maneuver",
+      "locator": "Rendered revision 675700; footer 28 March 2023",
+      "findings": [
+        "Maneuvers grant elemental automaton stat bonuses and burden; overload wipes maneuvers; equipment raises overload threshold at use.",
+        "Duration 60s base up to 300s while deployed."
+      ],
+      "observation_sha256": "60fa938bc3682d5db0098bcb763ea5c9b595dd565a1b9134808685999f1b919b"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Overdrive",
+      "title": "Overdrive",
+      "locator": "Rendered revision 661623; footer 26 October 2022",
+      "findings": [
+        "SP ability: duration 3:00, recast 1:00:00; automaton parameters greatly increased, 25% magic haste; overload chance zero while active, burden still accumulates.",
+        "Pitre Tobe (non-+3) duration extensions listed; not modeled."
+      ],
+      "observation_sha256": "cbb548ef74465852dec0a8ccebbe9a4df397a854eb04f836ac1bd3b2ce03b414"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Automaton",
+      "title": "Automaton",
+      "locator": "Rendered revision 777440; footer 30 August 2026",
+      "findings": [
+        "Automaton traits come from attachments; frames, combat skills and stats depend on head/frame.",
+        "Attachment effects are inputs, never inferred."
+      ],
+      "observation_sha256": "38db51098804308a58363cc5792b417430e38d3ac9964b611381cf8bfc0e6f7b"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Activate",
+      "title": "Activate",
+      "locator": "Rendered revision 588463; footer 24 October 2019",
+      "findings": [
+        "Calls forth the automaton; recast 20:00; cannot be used with another pet.",
+        "Pet presence is an input."
+      ],
+      "observation_sha256": "511adb4fa0c83c537d9caf63c5058724eac9d94d640ef618089d215d906d7041"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Deploy",
+      "title": "Deploy",
+      "locator": "Rendered revision 763627; footer 24 April 2026",
+      "findings": [
+        "Orders the automaton to attack (range 17.5); required before it uses abilities; head type decides melee approach versus distance.",
+        "Deploy state is an input."
+      ],
+      "observation_sha256": "b8fb0ee2c4f0c9dc4c3eb686b1c7947024e8b2a183611571d384349af85ab17a"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Karagoz_Earring_%2B2",
+      "title": "Kara. Earring +2",
+      "locator": "Rendered revision 664277; footer 29 November 2022; FFXIAH exact ID 25524",
+      "findings": [
+        "Text begins \"Right ear:\"; always augmented with random Right Ear ranges.",
+        "Nexus places it in ear2 with no augment requirement."
+      ],
+      "observation_sha256": "5cbb3ab611f9f10bfbf1dcc64870cbc43d0538c55e33462cef2765bf3cd7ffdb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Hoxne_Earring",
+      "title": "Hoxne Earring",
+      "locator": "Rendered revision 775328; footer 11 August 2026; FFXIAH exact ID 26120",
+      "findings": [
+        "Mastery Rank: All BP -30 to +30 (rank 1-10).",
+        "Mastery rank is a player-specific input; not selected."
+      ],
+      "observation_sha256": "b2a1ec6e134bfd7437696b8db4353bbf17143f8f35ba5aa62f020611a2a82bff"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Visucius%27s_Mantle",
+      "title": "Visucius's Mantle",
+      "locator": "Rendered revision 568491; footer 25 November 2018; FFXIAH exact ID 26263",
+      "findings": [
+        "Base: DEF16, \"Overload\" rate -10, Automaton: Lv.+1; Ambuscade augmentable.",
+        "Only node-printed literal master builds are required; pet builds are base copies."
+      ],
+      "observation_sha256": "0e796b4253c43f22cfbdcb3abcac5170891e4cdfb21b6c272c1deb2379d9b9d2"
+    }
+  ],
+  "access": "Built-in browser rendered BG-Wiki /ffxi/ pages (All Jobs Gear Sets/Puppetmaster wgRevisionId 772450; String Theory 689269; mechanics and item pages with their own revision ids) and FFXIAH node 426 plus its 71 linked item-set pages (no revision ids; node last-modified stamp and per-set notes recorded; 21 recorded grids re-fetched and matched cell-for-cell). No index.php oldid link was requested and no Cloudflare/bot check was completed or bypassed. No Lua execution or inventory loading."
+}

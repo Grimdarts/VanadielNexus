@@ -1,0 +1,4905 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Explicit Nexus RDM definitions, separate from source macro observations/options",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "DT Idle — fixed club/shield",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        402064
+      ],
+      "rationale": "Nexus full Nyame/Defending/Moonbeam assembly; the source Turtle display is an options list, not this simultaneous loadout. Uses fixed Daybreak/Genmei; no rank, Unity maximum, proc or effective DT-cap assumption.",
+      "context": {
+        "role": "Threatened idle; no promised shield block rate"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle — fixed recovery",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22268,
+          "name": "Homiliary",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375613
+      ],
+      "rationale": "Choose fixed Daybreak/Homiliary, Vitiation +3 head, Lethargy +3 body and two Stikini +1 copies. Retain Nyame extremities and avoid source random Colada/Chironic Refresh2, Moonshade, Fucho threshold and +4-to-+3 equivalence. Gives up some ordinary DT protection.",
+      "context": {
+        "role": "Backline MP recovery; not maximum possible Refresh"
+      }
+    },
+    {
+      "key": "tp-balanced",
+      "target": "Engaged Balanced — sword/shield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        402064
+      ],
+      "rationale": "Nexus single-wield Naegling/Genmei checkpoint. Balanced uses fixed Malignance/Null; DT trades those for base Nyame/Defending/Moonbeam; Accuracy uses exact Lethargy physical accuracy. No DW gear, Unity maximum, attack support, delay-cap or target hit-rate result.",
+      "context": {
+        "role": "Single-wield sword; no Dual Wield trait assumed"
+      }
+    },
+    {
+      "key": "tp-dt",
+      "target": "Engaged DT — sword/shield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        402064
+      ],
+      "rationale": "Nexus single-wield Naegling/Genmei checkpoint. Balanced uses fixed Malignance/Null; DT trades those for base Nyame/Defending/Moonbeam; Accuracy uses exact Lethargy physical accuracy. No DW gear, Unity maximum, attack support, delay-cap or target hit-rate result.",
+      "context": {
+        "role": "Single-wield sword; no Dual Wield trait assumed"
+      }
+    },
+    {
+      "key": "tp-accuracy",
+      "target": "Engaged Accuracy — sword/shield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        402064
+      ],
+      "rationale": "Nexus single-wield Naegling/Genmei checkpoint. Balanced uses fixed Malignance/Null; DT trades those for base Nyame/Defending/Moonbeam; Accuracy uses exact Lethargy physical accuracy. No DW gear, Unity maximum, attack support, delay-cap or target hit-rate result.",
+      "context": {
+        "role": "Single-wield sword; no Dual Wield trait assumed"
+      }
+    },
+    {
+      "key": "tp-balanced-dw",
+      "target": "Engaged Balanced — sword/club dual wield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Dual Wield\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        404366
+      ],
+      "rationale": "Naegling main / Daybreak offhand with DEX20/accuracy20/attack20/DW10 cape. DT retains full base Nyame and Defending but replaces defensive cape for DW; Genmei protection does not carry over. No Thibron TP bonus, Crocea effects, copied DPS, exact delay cap or every-haste-state coverage.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning"
+      }
+    },
+    {
+      "key": "tp-dt-dw",
+      "target": "Engaged DT — sword/club dual wield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Dual Wield\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        404366
+      ],
+      "rationale": "Naegling main / Daybreak offhand with DEX20/accuracy20/attack20/DW10 cape. DT retains full base Nyame and Defending but replaces defensive cape for DW; Genmei protection does not carry over. No Thibron TP bonus, Crocea effects, copied DPS, exact delay cap or every-haste-state coverage.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning"
+      }
+    },
+    {
+      "key": "tp-accuracy-dw",
+      "target": "Engaged Accuracy — sword/club dual wield",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "\"Dual Wield\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404364,
+        404365,
+        404366
+      ],
+      "rationale": "Naegling main / Daybreak offhand with DEX20/accuracy20/attack20/DW10 cape. DT retains full base Nyame and Defending but replaces defensive cape for DW; Genmei protection does not carry over. No Thibron TP bonus, Crocea effects, copied DPS, exact delay cap or every-haste-state coverage.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning"
+      }
+    },
+    {
+      "key": "enspell",
+      "target": "Enspell I melee — ordinary sword/club",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20614,
+          "name": "Pukulatmuj +1",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 27721,
+          "name": "Umuthi Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27540,
+          "name": "Eabani Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28621,
+          "name": "Ghostfyre Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375665,
+        404364
+      ],
+      "rationale": "Pukulatmuj +1 base sword-enhancement damage, Umuthi and base Ghostfyre cape are fixed choices. Reiki/Eabani replace the DW cape contribution; actual tuning remains scenario-dependent. Cast tier-I Enspell in the separate enhancing-skill set before returning here. Not the 1-DMG dagger zero-TP-feed strategy, no Crocea or Pukulat R15 effects.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Ordinary DW melee; Reiki7/Eabani4 equipment contribution; no effective delay-cap claim",
+        "spell": "Tier-I Enspell already cast with enhancing-skill loadout; Composure active if deliberately chosen"
+      }
+    },
+    {
+      "key": "savage",
+      "target": "Savage Blade — sword/shield",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26171,
+          "name": "Rufescent Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404162,
+        404165
+      ],
+      "rationale": "Naegling main grants Savage Blade. Exact +3 JSE checkpoint, Nyame B15 body/legs, STR20/WSD10 cape and fixed accessories avoid Moonshade/Thibron/PDL assumptions. No damage, universal ranking or retained-TP result.",
+      "context": {
+        "ability": "Naegling main; Savage Blade usable; sufficient retained TP"
+      }
+    },
+    {
+      "key": "savage-dw",
+      "target": "Savage Blade — sword/club",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26171,
+          "name": "Rufescent Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404165
+      ],
+      "rationale": "Naegling remains main; Daybreak offhand has no Thibron TP Bonus. Same explicit B15 body/legs and STR20/WSD10 prerequisites. No inherited 1000TP spam benchmark or automatic weapon swap.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning",
+        "ability": "Savage Blade; sufficient retained TP; keep WS weapon equipped"
+      }
+    },
+    {
+      "key": "black-halo",
+      "target": "Black Halo — club/shield",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22031,
+          "name": "Maxentius",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26171,
+          "name": "Rufescent Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Accuracy+20 Attack+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404165
+      ],
+      "rationale": "Reviewed Maxentius main grants Black Halo; use an explicit MND20 physical WSD10 cape, not the Savage STR cape. No Thibron, Moonshade or damage comparison. Naegling Sword WS permissions do not transfer to a club.",
+      "context": {
+        "ability": "Maxentius main; Black Halo usable; sufficient retained TP"
+      }
+    },
+    {
+      "key": "sanguine",
+      "target": "Sanguine Blade — non-Crocea sword/club",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25832,
+          "name": "Jhakri Cuffs +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        399007
+      ],
+      "rationale": "Naegling sword main with Daybreak offhand; explicitly non-Crocea INT20/WSD10 cape, Pixie/Archon and fixed MAB pieces. Nyame body B15 only, no higher-rank magic effects. Does not inherit source Crocea Path C multipliers or full-cure claim.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning",
+        "ability": "Sanguine Blade learned/usable with sword main; sufficient TP",
+        "weather": "No favorable day/weather or Orpheus distance assumed"
+      }
+    },
+    {
+      "key": "seraph",
+      "target": "Seraph Blade — sword main / Daybreak offhand",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21621,
+          "name": "Naegling",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25832,
+          "name": "Jhakri Cuffs +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "Weapon skill damage +10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        399008
+      ],
+      "rationale": "Nexus selects Naegling sword main and Daybreak club offhand. Source macros reverse club/sword despite the Seraph Blade section; preserve that conflict rather than attributing a repair to the author. Use MND20/WSD10 cape and no Crocea, Moonshade, Weatherspoon ring or distance/weather assumptions.",
+      "context": {
+        "dual_wield": true,
+        "job": "RDM/NIN level 99/49; usable Dual Wield trait explicitly assumed",
+        "haste": "Declared capped-magic-haste scenario for DW10 recommendations; no numeric delay-cap certification or automatic haste tuning",
+        "ability": "Seraph Blade learned/usable with sword main; sufficient TP",
+        "weather": "No favorable day/weather or Orpheus distance assumed"
+      }
+    },
+    {
+      "key": "enfeebling-accuracy",
+      "target": "Enfeebling — landing accuracy",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23379,
+          "name": "Atrophy Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23446,
+          "name": "Atrophy Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375635
+      ],
+      "rationale": "Nexus Daybreak/Ammurapi completes omitted source hands; exact +3 checkpoint and two Stikini copies with Null Shawl. No Ullr, +4 effects, unlisted neck rank, Unity maximum or guaranteed landing. Use this when accuracy takes precedence over potency/duration.",
+      "context": {
+        "spell": "Dispel / Frazzle II landing context; not a universal potency set",
+        "saboteur": "Not assumed active; no active-only effect counted"
+      }
+    },
+    {
+      "key": "enfeebling-skill",
+      "target": "Frazzle III / Distract III — skill and effect",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        391024,
+        391011
+      ],
+      "rationale": "Choose exact +3 Lethargy/Vitiation, base Dls. Torque +2, Regal Gem and MND20/macc20 cape. No Contemplator rank, neck rank, master-level skill total or potency cap assumed. Lethargy hands retain their fixed skill even when Saboteur is inactive; active bonus stays conditional.",
+      "context": {
+        "spell": "Frazzle III or Distract III learned via 550-JP gift",
+        "saboteur": "May be inactive or active; active-only hands effect applies only during active Saboteur; no numeric bonus certified"
+      }
+    },
+    {
+      "key": "enfeebling-mnd",
+      "target": "Enfeebling — dMND potency / duration tradeoff",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375636
+      ],
+      "rationale": "MND20/macc20 cape and fixed MND accessories support Paralyze/Slow/Addle. Regal Cuffs choose duration over the inactive Saboteur hands contribution. Do not assume target dMND, stat caps, all +30 source augments, or a proc rate.",
+      "context": {
+        "spell": "Paralyze II / Slow II / Addle II; latter requires 550-JP gift",
+        "saboteur": "Inactive"
+      }
+    },
+    {
+      "key": "enfeebling-int",
+      "target": "Enfeebling — dINT potency / duration tradeoff",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375636
+      ],
+      "rationale": "Distinct INT20/macc20 physical cape requirement for Blind II, not the MND cape. Other fixed skill/effect accessories remain explicit; no target dINT, potency cap, or guaranteed Immunobreak.",
+      "context": {
+        "spell": "Blind II; dINT context",
+        "saboteur": "Inactive"
+      }
+    },
+    {
+      "key": "saboteur-mnd",
+      "target": "Saboteur — dMND enfeebling",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375636
+      ],
+      "rationale": "Wear exact Lethargy +3 hands during midcast while Saboteur is active. Gives up Regal Cuffs duration choice; active hands contribution is not a universal +114% or NM result. MND20 cape is required on one physical copy.",
+      "context": {
+        "spell": "Paralyze / Slow / Addle variants as learned",
+        "saboteur": "Active; exact hands retained at midcast"
+      }
+    },
+    {
+      "key": "saboteur-int",
+      "target": "Saboteur — dINT enfeebling",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23402,
+          "name": "Viti. Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23670,
+          "name": "Vitiation Boots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375636
+      ],
+      "rationale": "INT20 cape and exact Lethargy +3 midcast hands remain a distinct Saboteur-active scenario. Do not merge the MND and INT capes or promise monster/NM effect multipliers.",
+      "context": {
+        "spell": "Blind II; dINT context",
+        "saboteur": "Active; exact hands retained at midcast"
+      }
+    },
+    {
+      "key": "enfeebling-duration",
+      "target": "Enfeebling — duration",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375640,
+        375641
+      ],
+      "rationale": "Fixed duration accessories, Regal Cuffs, Kishar and four Lethargy pieces. Composure-related set behavior is conditional, not universal magic duration. No Weatherspoon or target immunity assumptions; no 30-minute or landed-duration claim.",
+      "context": {
+        "spell": "Silence / Sleep / Break / Bind duration context",
+        "composure": "Explicitly active for declared set-bonus context",
+        "saboteur": "Inactive; active Saboteur remains a separate scenario"
+      }
+    },
+    {
+      "key": "enfeebling-immunobreak",
+      "target": "Enfeebling — Immunobreak option",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21396,
+          "name": "Regal Gem",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25443,
+          "name": "Dls. Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26109,
+          "name": "Snotra Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "MND+20",
+              "Mag. Acc+20 /Mag. Dmg.+20"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26363,
+          "name": "Obstin. Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25844,
+          "name": "Chironic Hose",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375640,
+        404387
+      ],
+      "rationale": "Base Chironic Hose Immunobreak replaces Lethargy legs; no random INT/MND/macc augment assumed. Loses that Empyrean duration/set membership. Immunobreak is not guaranteed and cannot defeat every full immunity.",
+      "context": {
+        "spell": "Enfeebling spell/target for which Immunobreak is applicable; duration/landing tradeoff",
+        "composure": "Active for remaining applicable set pieces",
+        "saboteur": "Inactive"
+      }
+    },
+    {
+      "key": "enhancing-skill",
+      "target": "Enhancing — Enspell I / Temper skill",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20614,
+          "name": "Pukulatmuj +1",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23536,
+          "name": "Viti. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375665
+      ],
+      "rationale": "Base Pukulatmuj +1 skill11; Vitiation body/hands +3, Atrophy legs +3 and Lethargy feet +3. Ammurapi and base Sucellos favor duration over source Forfend/Ghostfyre augments. No 700 skill, capped Temper or Unity maximum. Snapshot tier-I Enspell skill at cast, not tier-II per-round behavior.",
+      "context": {
+        "spell": "Tier-I Enspell or Temper; Temper II requires 1200-JP gift",
+        "target": "Self",
+        "composure": "May be deliberately active; no implicit potency/duration result"
+      }
+    },
+    {
+      "key": "enhancing-self",
+      "target": "Enhancing — self duration",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26736,
+          "name": "Telchine Cap",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27235,
+          "name": "Telchine Braconi",
+          "requirements": {
+            "augments": [
+              "Enh. Mag. eff. dur. +10"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375666
+      ],
+      "rationale": "Self-target static buffs use Vitiation +3 body, Atrophy +3 hands, Lethargy +3 feet, exact Telchine cap/braconi duration10 and fixed Sucellos base duration. No Colada random duration or Ghostfyre augment inferred. No 30-minute or skill-cap promise.",
+      "context": {
+        "spell": "Self static-potency enhancing such as Haste; excludes Enspell skill/Temper/Gain/Refresh/Phalanx specialties",
+        "target": "Self",
+        "composure": "Active"
+      }
+    },
+    {
+      "key": "enhancing-others",
+      "target": "Enhancing — others with Composure",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375667
+      ],
+      "rationale": "Other-target static buffs use four exact Lethargy +3 pieces with Atrophy +3 hands and base Sucellos/Ammurapi. Empyrean Composure applicability differs from self body; recipient conditions stay explicit. No five-piece set membership or copied duration total.",
+      "context": {
+        "spell": "Haste / Flurry or other eligible static enhancing on another player",
+        "target": "Other player",
+        "composure": "Active"
+      }
+    },
+    {
+      "key": "gain",
+      "target": "Gain spells — self skill and effect",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20614,
+          "name": "Pukulatmuj +1",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23536,
+          "name": "Viti. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375665,
+        375666
+      ],
+      "rationale": "Retain exact Vitiation Gloves +3 Gain effect and skill-focused armor, rather than silently reusing duration hands. Shared equipment with Enspell/Temper has a distinct action context. No capped Gain+55 or 500-skill assertion.",
+      "context": {
+        "spell": "Learned Gain spell",
+        "target": "Self",
+        "composure": "Active if deliberately chosen; not a numeric cap claim"
+      }
+    },
+    {
+      "key": "refresh-self",
+      "target": "Refresh — self potency / duration",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23446,
+          "name": "Atrophy Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26323,
+          "name": "Gishdubar Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375668
+      ],
+      "rationale": "Atrophy Tabard +3 and Lethargy legs +3 potency, Amalric +1 head base potency, fixed Sucellos duration and Gishdubar self-received duration. No unlisted Amalric augments or refresh tick/duration total.",
+      "context": {
+        "spell": "Refresh I/II as learned; Refresh III requires 1200-JP gift",
+        "target": "Self",
+        "composure": "Active"
+      }
+    },
+    {
+      "key": "refresh-others",
+      "target": "Refresh — other-target potency / duration",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23446,
+          "name": "Atrophy Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23513,
+          "name": "Atrophy Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404160
+      ],
+      "rationale": "Replace Gishdubar self-received duration with Embla for other-target casting. Same exact potency pieces are deliberate; self-received equipment effects do not transfer to the recipient. No implicit Composure Empyrean set bonus because this is not the other-target full-duration assembly.",
+      "context": {
+        "spell": "Refresh I/II as learned; Refresh III requires 1200-JP gift",
+        "target": "Other player",
+        "composure": "Active; only applicable effects count"
+      }
+    },
+    {
+      "key": "phalanx-self",
+      "target": "Phalanx — self received",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21637,
+          "name": "Sakpata's Sword",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26735,
+          "name": "Taeon Chapeau",
+          "requirements": {
+            "augments": [
+              "Phalanx +3"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27047,
+          "name": "Taeon Gloves",
+          "requirements": {
+            "augments": [
+              "Phalanx +3"
+            ]
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27404,
+          "name": "Taeon Boots",
+          "requirements": {
+            "augments": [
+              "Phalanx +3"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        375671,
+        402070
+      ],
+      "rationale": "Sakpata Sword fixed Phalanx received5 and explicit Phalanx3 on each distinct Taeon head/hands/feet copy, plus skill body/legs. Does not inherit source two-sword or Sworn/random Chironic alternatives. Skill threshold/base mitigation uncalculated; received effects are for the wearer.",
+      "context": {
+        "spell": "Phalanx I; self cast and received",
+        "target": "Self",
+        "composure": "Active if chosen; no 500-skill or damage-reduction total"
+      }
+    },
+    {
+      "key": "phalanx-others",
+      "target": "Phalanx II — other-target skill / duration",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20614,
+          "name": "Pukulatmuj +1",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23536,
+          "name": "Viti. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375667
+      ],
+      "rationale": "Separate other-target skill/duration checkpoint. No Sakpata/Taeon Phalanx received from the caster is passed to another player. No shared -57 reduction, recipient equipment assumption or skill cap.",
+      "context": {
+        "spell": "Phalanx II merited/learned and usable",
+        "target": "Other player",
+        "composure": "Active; actual skill/recipient state remains external"
+      }
+    },
+    {
+      "key": "fast-cast",
+      "target": "Precast — fixed Fast Cast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23379,
+          "name": "Atrophy Chapeau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27142,
+          "name": "Chironic Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27497,
+          "name": "Merlinic Crackows",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375673
+      ],
+      "rationale": "Atrophy +3 head, Vitiation +3 body, fixed base Merlinic feet and explicit cape FC10. Other protective slots are deliberately completed by Nexus. No random Merlinic6 augment, Crocea/Sakpata dual-wield setup, Quick Magic or effective 80% cap assumed.",
+      "context": {
+        "spell": "General precast; requires actual learned spell; no Quick Magic promise"
+      }
+    },
+    {
+      "key": "stoneskin",
+      "target": "Stoneskin — self",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20614,
+          "name": "Pukulatmuj +1",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 27721,
+          "name": "Umuthi Hat",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11037,
+          "name": "Earthcry Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 15034,
+          "name": "Stone Mufflers",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15960,
+          "name": "Siegel Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 10329,
+          "name": "Shedir Seraweels",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375670
+      ],
+      "rationale": "Pukulatmuj/Umuthi casting choices, fixed Nodens/Earthcry/Stone Mufflers/Shedir/Siegel utility properties and explicit complete filler. Do not inherit the sparse source 475HP number or call skill/MND caps calculated.",
+      "context": {
+        "spell": "Stoneskin learned",
+        "target": "Self"
+      }
+    },
+    {
+      "key": "aquaveil",
+      "target": "Aquaveil — self",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25827,
+          "name": "Regal Cuffs",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11753,
+          "name": "Emphatikos Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 10329,
+          "name": "Shedir Seraweels",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375669
+      ],
+      "rationale": "Fixed Amalric +1 head, Regal Cuffs, Shedir legs and Emphatikos waist replace duration pieces only for Aquaveil. Base item utility is distinct from optional augments. No eight-interruption guarantee.",
+      "context": {
+        "spell": "Aquaveil learned",
+        "target": "Self"
+      }
+    },
+    {
+      "key": "sird",
+      "target": "Casting under pressure — SIRD checkpoint",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 27645,
+          "name": "Genmei Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27535,
+          "name": "Halasz Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26869,
+          "name": "Ros. Jaseran +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27142,
+          "name": "Chironic Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26160,
+          "name": "Evanescence Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "Spell interruption rate down -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28421,
+          "name": "Rumination Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23781,
+          "name": "Bunzi's Pants",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27476,
+          "name": "Amalric Nails +1",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        375675
+      ],
+      "rationale": "Fixed Ros. Jaseran +1, Chironic Gloves, Bunzi pants, Amalric feet and accessories plus SIRD10 cape. No random additional Chironic SIRD11 or effective 102% cap is inferred. Wear during casting; cannot replace spell-specific potency/skill equipment without a tradeoff.",
+      "context": {
+        "spell": "Applicable spell while interruption protection takes precedence; no universal potency set"
+      }
+    },
+    {
+      "key": "cure",
+      "target": "Cure — defensive weather-independent",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25618,
+          "name": "Kaykaus Mitra +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27524,
+          "name": "Nodens Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26098,
+          "name": "Meili Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23767,
+          "name": "Bunzi's Robe",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27122,
+          "name": "Kaykaus Cuffs +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        391717,
+        375642
+      ],
+      "rationale": "Fixed Daybreak/Ammurapi, Bunzi body, Kaykaus +1 head/hands and Atrophy +3 legs with base Vanya feet; no Kaykaus path augmentation counted. Keeps Defending/Moonbeam and protection where feasible. No cure amount, potency caps or weather gain promised.",
+      "context": {
+        "spell": "Native Cure I-IV as learned",
+        "weather": "No favorable weather/day assumed"
+      }
+    },
+    {
+      "key": "cursna",
+      "target": "Cursna — declared /SCH support",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26797,
+          "name": "Vanya Hood",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10393,
+          "name": "Debilis Medallion",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 10298,
+          "name": "Beatific Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26098,
+          "name": "Meili Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23469,
+          "name": "Viti. Tabard +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 10325,
+          "name": "Hieros Mittens",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10790,
+          "name": "Ephedra Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10790,
+          "name": "Ephedra Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26329,
+          "name": "Luminary Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23580,
+          "name": "Atrophy Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27463,
+          "name": "Vanya Clogs",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        }
+      ],
+      "source_tables": [
+        375644
+      ],
+      "rationale": "Exact Vanya B15 head/feet, Vitiation +3 body, Atrophy +3 legs and fixed Hieros/Debilis/two Ephedra copies. Replaces source Prelatic/Curatio and +4 body under Nexus authorship. No guaranteed Doom removal or source +70 total.",
+      "context": {
+        "spell": "Cursna available/learned as RDM/SCH 99/49 under Addendum: White",
+        "target": "Eligible player; actual removal success remains uncalculated"
+      }
+    },
+    {
+      "key": "free-nuke",
+      "target": "Elemental magic — free nuke",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23424,
+          "name": "Leth. Chappel +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26003,
+          "name": "Baetyl Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23491,
+          "name": "Lethargy Sayon +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23558,
+          "name": "Leth. Ganth. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404157
+      ],
+      "rationale": "Nexus Lethargy +3 fixed casting assembly with Daybreak/Ammurapi and explicit INT20/macc20/MAB10 cape. No current-BiS or unlisted +4 relic effects; higher-tier spells require their own learned/gift access. No favorable weather/distance assumptions.",
+      "context": {
+        "spell": "Learned elemental damage spell; no burst window",
+        "weather": "Neutral/unassumed day/weather"
+      }
+    },
+    {
+      "key": "burst",
+      "target": "Elemental magic — burst",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22040,
+          "name": "Daybreak",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 26419,
+          "name": "Ammurapi Shield",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25554,
+          "name": "Ea Hat +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28379,
+          "name": "Mizu. Kubikazari",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26530,
+          "name": "Ea Houppe. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27120,
+          "name": "Amalric Gages +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11672,
+          "name": "Mujin Band",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26250,
+          "name": "Sucellos's Cape",
+          "requirements": {
+            "augments": [
+              "INT+20",
+              "Mag. Acc+20 /Mag. Dmg.+20",
+              "\"Mag.Atk.Bns.\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23625,
+          "name": "Leth. Fuseau +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23692,
+          "name": "Leth. Houseaux +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        404156
+      ],
+      "rationale": "Exact Ea +1 head/body, base Amalric +1 hands, Lethargy +3 legs/feet and Mujin with explicit INT20/macc20/MAB10 cape. No Amalric pathD or rank effects, source maximum cap, distance or weather bonus is inherited.",
+      "context": {
+        "spell": "Learned elemental spell in compatible burst window",
+        "weather": "Neutral/unassumed day/weather"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1161 @@
+{
+  "checked_on": "2026-11-05",
+  "table_observations": [
+    {
+      "key": "endgame-tp",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "TP Sets: Endgame",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Vim Torque +1"
+        ],
+        "ear1": [
+          "Sroda Earring"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Pelt. Plackart +3"
+        ],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Ioskeha Belt +1"
+        ],
+        "legs": [
+          "Ptero. Brais +4"
+        ],
+        "feet": [
+          "Flam. Gambieras +2"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20 annotation; rank not inherited",
+        "back": "Dex/Str +20 Acc +30 Atk +20 DA +10% PDT -10% (thread stat ambiguous: Dex/Str)",
+        "notes": "Empty main is a source omission; Ptero. Brais +4 not transferred to +3 values."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "caa4c47f1925862c03dfa43f5ec24f222dc71e322bfeeb80ff03a957ed4b7227"
+    },
+    {
+      "key": "pre-ody-tp",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "TP Sets: Pre-Ody",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Ginsen"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Vim Torque +1"
+        ],
+        "ear1": [
+          "Sroda Earring"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Pelt. Plackart +2"
+        ],
+        "hands": [
+          "Pel. Vambraces +2"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Ioskeha Belt"
+        ],
+        "legs": [
+          "Ptero. Brais +3"
+        ],
+        "feet": [
+          "Flam. Gambieras +2"
+        ]
+      },
+      "source_options": {
+        "back": "Dex/Str +20 Acc +30 Atk +20 DA +10% PDT -10%",
+        "notes": "Ptero. Brais +3 exact tier present here; corroborates +3 substitution tier only, not numeric parity."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "28b6fdc80cb8425b6d4678fee275bdbda4601ba3d3dbe3d6633a7f0e36bb445d"
+    },
+    {
+      "key": "standard-tp",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo TP: Standard TP",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Flam. Zucchetto +2"
+        ],
+        "neck": [
+          "Vim Torque +1"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Sroda Earring"
+        ],
+        "body": [
+          "Pelt. Plackart +3"
+        ],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Null Shawl"
+        ],
+        "waist": [
+          "Ioskeha Belt +1"
+        ],
+        "legs": [
+          "Gleti's Breeches"
+        ],
+        "feet": [
+          "Flam. Gambieras +2"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20+",
+        "legs": "R25+",
+        "notes": "Null Shawl and ranked Gleti breeches not selected."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "496c446d16a008c3ee28b916d50c00d1d136b03519560350a1922e7bc58efab6"
+    },
+    {
+      "key": "dt-swaps",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo TP: DT Swaps",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          "Ptero. Brais +4"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "notes": "Partial swap grid; empty cells are omissions, not intentional empties. Ptero. Brais +4 not +3."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "fb0fd678b73b0b5f71acfa8bec1edda5d667cb9f9a50a3227853ff0c6bbd6eb2"
+    },
+    {
+      "key": "dt-no-wyvern",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Galkapryme (Under Construction): DT w/o Wyvern",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Ptero. Armet +3"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Odnowa Earring +1"
+        ],
+        "ear2": [
+          "Sherida Earring"
+        ],
+        "body": [
+          "Adamantite Armor"
+        ],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [
+          "Ephramad's Ring"
+        ],
+        "ring2": [
+          "Moonlight Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Ioskeha Belt +1"
+        ],
+        "legs": [
+          "Pelt. Cuissots +3"
+        ],
+        "feet": [
+          "Pelt. Schyn. +3"
+        ]
+      },
+      "source_options": {
+        "ammo": "R0+",
+        "neck": "DEF 45, SIRD 5% (augment annotation)",
+        "ear1": "DEF 30, DT -3% (augment annotation)",
+        "back": "DEX 30, Acc/Attk 20, DA 10, Counter 10",
+        "notes": "Section labelled Under Construction; Adamantite Armor not selected."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "9d09787a6f457688abcf953b01f040755a5361a2fc327dd1efac274534a99100"
+    },
+    {
+      "key": "acc-wyvern",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Galkapryme (Under Construction): Acc w/Wyvern",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Voluspa Tathlum"
+        ],
+        "head": [
+          "Peltast's Mezail +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Crep. Earring"
+        ],
+        "ear2": [
+          "Pel. Earring +2"
+        ],
+        "body": [
+          "Pelt. Plackart +3"
+        ],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [
+          "Ephramad's Ring"
+        ],
+        "ring2": [
+          "Varar Ring +1"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Klouskap Sash +1"
+        ],
+        "legs": [
+          "Pelt. Cuissots +3"
+        ],
+        "feet": [
+          "Pelt. Schyn. +3"
+        ]
+      },
+      "source_options": {
+        "neck": "STR/VIT 15, PDL 10, Wyv: DT 25 rank annotation",
+        "ear2": "random augment ranges 16~20 etc.; not inherited",
+        "back": "Dex+20, Att+20, Acc+30, DA+10%, PDT-10%",
+        "notes": "Varar Ring +1 pet/master applicability not inferred; Nexus substitutes Chirich Ring +1."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "865fcd1e074a3e1b2c98ed602973b7f3847ae205b96e8ba8b352abeb9baa2c4d"
+    },
+    {
+      "key": "meva",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Galkapryme (Under Construction): MEVA",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Staunch Tathlum +1"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Eabani Earring"
+        ],
+        "ear2": [
+          "Flashward Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Vengeful Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Carrier's Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "EVA. 20, M.EVA 30, MDT-10",
+        "notes": "Magic evasion niche; Carrier's Sash/Vengeful/Flashward not selected."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "f215e4501792134dcf033a5017f91bde7e05d2b51f1bf7a5c5d4d6d97248c939"
+    },
+    {
+      "key": "stardiver",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo WS: Stardiver",
+      "grid": {
+        "main": [
+          "Trishula"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Peltast's Mezail +3"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "ammo": "R20+",
+        "ear2": "TP Bonus +250",
+        "body": "R20+",
+        "back": "STR +30 Acc/Atk +20 DA +10% PDT -10%",
+        "legs": "R25+",
+        "feet": "R25+",
+        "notes": "Source Trishula main (Aeonic stages/TP bonus) not transferred to Shining One. Ranks not inherited."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "c66f299ae95900147b9a1a62f7cdec4c6001036546796565fecbc20dff67c167"
+    },
+    {
+      "key": "impulse-drive",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo WS: Impulse Drive",
+      "grid": {
+        "main": [
+          "Shining One"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Peltast's Mezail +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Gleti's Cuirass"
+        ],
+        "hands": [
+          "Ptero. Fin. G. +4"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Pelt. Cuissots +3"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "body": "R20+",
+        "back": "STR +30 Acc/Atk +20 (no 10% slot printed)",
+        "feet": "R20+",
+        "notes": "Exact Shining One + Utu Grip; Ptero. Fin. G. +4 not transferred to +3 values."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "d8f28aa08ac24f4c0addb65eacb0c98caa8dcac0ae8b30fb657313561d354b34"
+    },
+    {
+      "key": "camlann-sonic",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo WS: Camlann's Torment/Sonic Thrust",
+      "grid": {
+        "main": [
+          "Rhongomiant"
+        ],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Peltast's Mezail +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Ptero. Fin. G. +4"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "ear2": "TP Bonus +250",
+        "body": "R20+",
+        "back": "STR +30 Acc/Atk +20 WSDMG +10% PDT -10%",
+        "legs": "R20+",
+        "feet": "R20+",
+        "notes": "Rhongomiant main is a Camlann/Empyrean context; Sonic Thrust shares the grid. Weapon not transferred."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "31408a56ceeb02a7b5b58184fa7fce93fde4520a6376c7001b64c408bd9427ad"
+    },
+    {
+      "key": "sonic-community",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "WS Sets: Camlann's Torment/Sonic Thrust fourth grid",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Knobkierrie"
+        ],
+        "head": [
+          "Peltast's Mezail +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Thrud Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Ptero. Fin. G. +4"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "source_options": {
+        "back": "STR +30 Acc/Atk +20 WSD +10",
+        "notes": "Empty main; Regal ring variant of the Boposhopo grid."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "36c0e7ee914cf347b30826e3fc210811442e24f38e3d4ada3d7f416327e1923d"
+    },
+    {
+      "key": "jump",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo Jump: Jump/High Jump",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Hjarrandi Helm"
+        ],
+        "neck": [
+          "Vim Torque +1"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Telos Earring"
+        ],
+        "body": [
+          "Vishap Mail +4"
+        ],
+        "hands": [
+          "Vish. Fin. +4"
+        ],
+        "ring1": [
+          "Chirich Ring +1"
+        ],
+        "ring2": [
+          "Chirich Ring +1"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Ptero. Brais +4"
+        ],
+        "feet": [
+          "Ostro Greaves"
+        ]
+      },
+      "source_options": {
+        "back": "STR/DEX +20 Acc +30 Atk +20 STP +10 PDT -10% (thread stat ambiguous)",
+        "notes": "Vishap +4 body/hands; BG Jump-family pages print identical All Jumps TP bonus for +3 and +4 (39/34) but other stats differ; not a parity claim."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "b529068371223eab8726799eb134732ce8b537b3640ab65c9992395b9dfd4511"
+    },
+    {
+      "key": "jump-galkapryme",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Galkapryme (Under Construction): Jump",
+      "grid": {
+        "main": [],
+        "sub": [
+          "Utu Grip"
+        ],
+        "range": [],
+        "ammo": [
+          "Coiste Bodhar"
+        ],
+        "head": [
+          "Ptero. Armet +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [
+          "Sherida Earring"
+        ],
+        "ear2": [
+          "Crep. Earring"
+        ],
+        "body": [
+          "Ptero. Mail +3"
+        ],
+        "hands": [
+          "Vis. Fng. Gaunt. +3"
+        ],
+        "ring1": [
+          "Niqmaddu Ring"
+        ],
+        "ring2": [
+          "Ephramad's Ring"
+        ],
+        "back": [
+          "Brigantia's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Ptero. Brais +3"
+        ],
+        "feet": [
+          "Maenadic Gambieras"
+        ]
+      },
+      "source_options": {
+        "neck": "rank annotation",
+        "back": "Dex+20, Att+20, Acc+30, DA+10%, PDT-10%",
+        "waist": "R15, STR +15, DA +5",
+        "notes": "Under Construction; exact Vis. Fng. Gaunt. +3 and Ptero. Brais +3 tiers present."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "61a5dbe889bb90a4afb8d2c0257cddc1203be280ee0b0c1a548c5b2e8c69196a"
+    },
+    {
+      "key": "spirit-jump-swaps",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo Jump: Spirit Jump Swaps",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [
+          "Pelt. Cuissots +3"
+        ],
+        "feet": [
+          "Pelt. Schyn. +3"
+        ]
+      },
+      "source_options": {
+        "notes": "Two-slot swap only; remaining slots are omissions."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "0a66dbcd19bcc0ea761cf39a443ff3842ff0e112f02e9c59a65e39d274b1c2b2"
+    },
+    {
+      "key": "soul-jump-swaps",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Sets by Boposhopo Jump: Soul Jump Swaps",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Pelt. Plackart +3"
+        ],
+        "hands": [
+          "Gleti's Gauntlets"
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [],
+        "feet": [
+          "Valorous Greaves"
+        ]
+      },
+      "source_options": {
+        "feet": "STR/Acc/STP random augments not inherited",
+        "notes": "Three-slot swap only."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "f3c2cbf5eefa9b806b92658356fa355abc5b55d885a102420f8f58affa3cd6f8"
+    },
+    {
+      "key": "call-wyvern",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Utility Sets: Call Wyvern",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Ptero. Mail +3"
+        ],
+        "hands": [],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [],
+        "feet": []
+      },
+      "source_options": {
+        "notes": "Single body swap; Call Wyvern gear at time of use persists until wyvern dies/dismissed/zone (Call Wyvern page)."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "b26ea731c8393a7dd811577c078dfc00973ac725d2b54d2e6bf895e0d9adfaeb"
+    },
+    {
+      "key": "spirit-link",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Utility Sets: Spirit Link",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Vishap Armet +3"
+        ],
+        "neck": [],
+        "ear1": [
+          "Pratik Earring"
+        ],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          "Pel. Vambraces +3"
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [],
+        "feet": [
+          "Ptero. Greaves +3"
+        ]
+      },
+      "source_options": {
+        "feet": "Enhances Empathy Effect (source annotation; not in public +3 description text; not certified)",
+        "notes": "Four-slot swap only."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "7136c3e7d540a8a457127e832db9a2c6ae7781bcceada90fbb197da737cd21b2"
+    },
+    {
+      "key": "healing-breath",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Utility Sets: Healing Breath",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Ptero. Armet +3"
+        ],
+        "neck": [
+          "Dgn. Collar +2"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [],
+        "ring1": [
+          "Dreki Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Updraft Mantle"
+        ],
+        "waist": [
+          "Glassblower's Belt"
+        ],
+        "legs": [
+          "Vishap Brais +3"
+        ],
+        "feet": [
+          "Ptero. Greaves +3"
+        ]
+      },
+      "source_options": {
+        "back": "Breath +10 augment annotation; base Updraft card shows no breath line",
+        "notes": "Seven-slot swap only."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "873822b4ac8585441ec27a437031bb834d247b442880b926b79b57058c131e39"
+    },
+    {
+      "key": "steady-wing",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "scope": "Utility Sets: Steady Wing",
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Clemen. Somen"
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [],
+        "legs": [
+          "Vishap Brais +4"
+        ],
+        "feet": [
+          "Ptero. Greaves +4"
+        ]
+      },
+      "source_options": {
+        "notes": "Source +4 legs/feet; three-slot swap only."
+      },
+      "method": "Scoped DOM transcription of rendered table.EquipmentSet item-link titles plus span title annotations; source omissions/options are not intentional empty slots or Nexus selections.",
+      "observation_sha256": "04e6068073b7df4149435428ad87a97b7f9fb376ecc30549d03ac149168dcd61"
+    },
+    {
+      "key": "support-jobs",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Guide prose: /SAM standard for polearm (Hasso, Store TP/Zanshin traits); /WAR or /NIN for Naegling; /BLU solo defensive wyvern, /WHM and /RDM also arguable.",
+        "No subjob trait totals or master-level access adopted."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "9b17983a28394f3dce37cc5e6b00e317ea3fc4cc7d8fd07fb94ec199abf7c9f5"
+    },
+    {
+      "key": "weapons",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "Shining One described as best non-PREMA polearm; grants Impulse Drive and TP-scaled polearm WS critical chance.",
+        "PREMA tier list is opinion for common scenarios, not a DPS model; Ryunohige forced Jump crit and Gungnir/Trishula/Gae Buide properties not transferred."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "31fc375de0cd6cb54f2a2d26cdb2d286879f6741c854343de0b5b8ea5a63c072"
+    },
+    {
+      "key": "jse-table",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "JSE Yes/Maybe/No usage table lists Vishap/Ptero/Peltast +3/+4 roles (Spirit Link, Healing Breath, Angon, Spirit/Soul Jump, Ancient Circle, Steady Wing).",
+        "Role notes are source opinions; +4 tiers not transferred to +3."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "a674b6c17fb20d99b0268a96ecfc86f67ec9ba7d38a3944c97ce3837a44c6d29"
+    },
+    {
+      "key": "grid-inventory",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "composition_kind": "equipment_options",
+      "findings": [
+        "80 table.EquipmentSet grids observed; 9 Galkapryme grids are entirely empty placeholders; older Sulevia/Flamma progression grids retained but not selected.",
+        "Selected scopes above are a subset; omitted scopes are not rejections."
+      ],
+      "method": "Scoped contextual prose/options, not a complete loadout",
+      "observation_sha256": "24c62dd27333e21634993ad4fd4d4d24fa63a208d14af9e8e7e3d41fa5523156"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Community_Dragoon_Guide",
+      "title": "Community Dragoon Guide",
+      "locator": "Rendered current page; mw wgRevisionId/wgCurRevisionId 780419; footer 7 October 2026 18:06. index.php oldid=780419 permanent link returned a Cloudflare bot check (HTTP403) in the built-in browser; not completed or bypassed.",
+      "findings": [
+        "Mixed +3/+4/ranks/augment annotations, omissions and Under Construction sections preserved; no complete idle or useful-MP refresh set in the guide.",
+        "Nexus fixed Shining One/Utu Grip compositions are not source-exact; no universal haste/attack/TP threshold adopted."
+      ],
+      "observation_sha256": "d3ebbbda4fc1d6a01c5605ee5465ce94c86ea77186528b485af57fb1f393e870"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Impulse_Drive",
+      "title": "Impulse Drive",
+      "locator": "Rendered revision 741100; footer 29 June 2025",
+      "findings": [
+        "Polearm 240; DRG65; quest Methods Create Madness OR equipped Shining One/Kaja Lance regardless of job/skill/quest.",
+        "Shining One Impulse Drive damage +40% applies to all hits; fTP 1.0/3.0/5.5."
+      ],
+      "observation_sha256": "b20d18ea03825c13e9708b80535ad8316d071a6cd07e62df0f60c73c355017fb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Stardiver",
+      "title": "Stardiver",
+      "locator": "Rendered revision 741102; footer 29 June 2025",
+      "findings": [
+        "Polearm 357; DRG90 main job; requires Martial Mastery quest and at least one merit (73-85% STR by merits).",
+        "Fourfold attack; crit-evasion-down additional effect; Aeonic Aftermath property not available with Shining One."
+      ],
+      "observation_sha256": "799a3acb06c17c3b792a5703c521a7dbe3b2bbc6273d16dc974374791b2953ff"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Sonic_Thrust",
+      "title": "Sonic Thrust",
+      "locator": "Rendered revision 741101; footer 29 June 2025",
+      "findings": [
+        "Polearm 300; DRG80 native; conal/rectangular frontal area attack, 40% STR/40% DEX.",
+        "Area may engage additional targets; no damage ranking adopted."
+      ],
+      "observation_sha256": "bb53838110b3f61ad849e3a772677bb4f1500b2b1d88cf78fa339138ed2dbc22"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Shining_One",
+      "title": "Shining One",
+      "locator": "Rendered revision 766324; footer 25 May 2026",
+      "findings": [
+        "DMG333 Delay480 polearm, WAR/PAL/SAM/DRG; grants Impulse Drive; polearm WS crit +5/10/15% by TP consumed.",
+        "Ambuscade upgrade item; no stage/augment; does not grant Stardiver/Sonic Thrust access."
+      ],
+      "observation_sha256": "0746bbbff6af7d3914636caaad3070ce243bc14323de5d74a014e3b2ee9ab7a5"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Jump",
+      "title": "Jump",
+      "locator": "Rendered revision 779909; footer 26 September 2026",
+      "findings": [
+        "DRG10; 9.5 yalm; recast 1:00 base; Double/Triple Attack apply; jump TP-bonus gear returns TP even at 0 damage.",
+        "Ryunohige forced crit/attack bonus not transferred."
+      ],
+      "observation_sha256": "b1d4abfd97374abac5d2e88747abfddc45db237259a77a44748db0732d4c2972"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/High_Jump",
+      "title": "High Jump",
+      "locator": "Rendered revision 759209; footer 24 February 2026",
+      "findings": [
+        "DRG35; sheds 50% enmity as DRG main; recast 2:00 base.",
+        "Enmity-reduction gear separate from TP-return gear."
+      ],
+      "observation_sha256": "1bbe0ad9bd8281affddf4d2d6b1380d825132d0ffa8c19f24b2b36d4a89eb102"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Spirit_Jump",
+      "title": "Spirit Jump",
+      "locator": "Rendered revision 759214; footer 24 February 2026",
+      "findings": [
+        "DRG77; wyvern present: doubled TP return, forced critical, 25% attack bonus.",
+        "Peltast Schynbalds +3 TP+90 and Cuissots +3 attack+19% listed."
+      ],
+      "observation_sha256": "f80c7b628396f34e39b88353f63c2c7594d85bdeed7e0fe7d8a98f3b1adc8cb9"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Soul_Jump",
+      "title": "Soul Jump",
+      "locator": "Rendered revision 710287; footer 5 August 2024",
+      "findings": [
+        "DRG85; wyvern present: forced critical, triple TP return, 50% attack bonus.",
+        "Vishap Mail +3 TP+39 and Vishap F. Gauntlets +3 TP+34 listed; Peltast Cuissots +3 attack+19%."
+      ],
+      "observation_sha256": "06d641d36e215b1afcabcaf6ec89993403d6e129757e03b5c2df5821475140f9"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Call_Wyvern",
+      "title": "Call Wyvern",
+      "locator": "Rendered revision 707585; footer 15 July 2024",
+      "findings": [
+        "Wyvern trait modifications from equipment worn at time of use persist until wyvern dies/dismissed or DRG zones.",
+        "Pteroslaver Mail +3 adds support job traits to wyvern; Spirit Surge blocks Call Wyvern."
+      ],
+      "observation_sha256": "032f1f3f20eb49e37fe48c24292a6837cb850a873d181648b31a42639c556c3a"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Spirit_Link",
+      "title": "Spirit Link",
+      "locator": "Rendered revision 776970; footer 25 August 2026",
+      "findings": [
+        "DRG25; deducts 12-17% current master HP to heal wyvern; requires wyvern below 100% HP unless Empathy merited.",
+        "Empyrean hands add removal of erasable/listed ailments; armets do not increase TP transfer."
+      ],
+      "observation_sha256": "44b7addfeff0284c08798b5d0e855819a2f563d89bbc2bd40db2076e75d21d15"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Healing_Breath",
+      "title": "Wyvern (Dragoon Pet) - Healing Breath",
+      "locator": "Redirect to Wyvern_(Dragoon_Pet) rendered revision 763534; footer 23 April 2026",
+      "findings": [
+        "Healing Breath activates when DRG casts a spell below HP threshold (defensive wyvern: WHM/BLM/RDM/SMN/BLU/SCH/GEO 33.3%, AF head 50%); Restoring Breath forces it regardless of HP/subjob.",
+        "Enhances-breath equipment cap 96/256: Ptero. Armet +3 72/256, Brigantia's Mantle 38/256, Glassblower's Belt 5/256; Updraft Mantle breath+ is an augment (1~10/100). Recovery scales with wyvern max HP."
+      ],
+      "observation_sha256": "72b1a0db8dc9149b54b4b49d5a077ffa514a140033f3fa9612a426e435fb1c9d"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Restoring_Breath",
+      "title": "Restoring Breath",
+      "locator": "Rendered revision 570441; footer 25 January 2019",
+      "findings": [
+        "DRG90 pet command; recast 1:00; forces Healing Breath.",
+        "No gear snapshot rule printed on this page."
+      ],
+      "observation_sha256": "ec27b4836d52d92d46827ad340784848fcd2f79afe4d34db0075a4a9ca92ecae"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Steady_Wing",
+      "title": "Steady Wing",
+      "locator": "Rendered revision 669559; footer 1 February 2023",
+      "findings": [
+        "DRG95 pet command; stoneskin = 30% wyvern max HP + (max-current) HP.",
+        "Wyvern HP+ gear must stay equipped through a tic before use; macroing in at use does not improve it."
+      ],
+      "observation_sha256": "3e403f82e0c38afe2ff57d615c80a1800539d9fab754b018536efd42a206e0ed"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Cure_III",
+      "title": "Cure III",
+      "locator": "Rendered revision 606019; footer 1 November 2020",
+      "findings": [
+        "WHM21 learned spell, 46MP, 20 yalm range, 6s recast.",
+        "DRG99/WHM49 casting also satisfies defensive-wyvern Healing Breath trigger only when actual HP threshold holds."
+      ],
+      "observation_sha256": "bba2a43308b07d6bc549951905c86d47cd310a5d042fb525c18280955c583629"
+    }
+  ],
+  "access": "Built-in browser rendered /ffxi/ pages (Community Dragoon Guide wgRevisionId 780419; mechanics pages with their own revision ids) were readable. The index.php?oldid=780419 permanent link hit a Cloudflare bot check (HTTP403); it was not completed or bypassed, so revision identity rests on the rendered page's own wgRevisionId. Prior 2026-11-04 FFXIAH observations (node182, Sigurd thread, Smobo tables incl. both Arke 402152 variants) remain in the checkpoint packet and are not re-adjudicated. No Lua execution or inventory loading."
+}

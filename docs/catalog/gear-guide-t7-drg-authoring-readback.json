@@ -1,0 +1,155 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned while Nova paused)",
+  "status": "Bounded DRG initial pass; not production ready; stop after DRG and prompt",
+  "checks_passed": 30,
+  "checks": [
+    "359 bytebackups hash correctly",
+    "all existing bytes outside scoped files unchanged",
+    "prior test changes exactly aggregate counts DRGstatus and authored joblist",
+    "454sets465revisions902sources immutableprefixes",
+    "all nonDRG coverage unchanged",
+    "prior batches amendments metadata unchanged",
+    "11withdrawnBRD 472stored461effective",
+    "eight unresolved originals unchanged",
+    "BST11 PUP10 DNC9 gaps zero Nexus recommendations",
+    "469sets480revisions967sources225rows15DRG",
+    "8DRGincluded195total30gaps3jobszeroNA",
+    "actualresource wholecandidate appendonly preparation",
+    "exact ShiningOne two_handed polearm and UtuGrip grip DRGeligible",
+    "43handrecords ASTidentical noappend v16",
+    "766detachedresourcefields descriptions equal actual",
+    "739priorresources descriptions and metadata unchanged",
+    "fourupstreamhashes fingerprint unchanged",
+    "23source scopes15facts27cards independentdigests",
+    "publiclocators exactlocaldescription hashes and 27newids",
+    "renderedrevision780419 provenance sourceoptions and accesslimits retained",
+    "15saveddefinitions matchrevision slots presavefingerprint",
+    "8actualDRGrows reconcile independently",
+    "15complete16slot exactfixedhands rangeempty and DRGeligibility",
+    "fivecape literalfictional independent readback",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "secondpass WorldMap protectedbytes unchanged",
+    "DRGcheckpoint fourpackets and report byteidentical",
+    "allfourTHFpackets protectedbytes and THFbaseline valid"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-BST-START.md",
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_mnk_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_run_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "tests/core/test_guide_thf_batch.py",
+    "tests/core/test_guide_war_batch.py"
+  ],
+  "baseline_file_count": 359,
+  "candidate_records": {
+    "sets": 469,
+    "revisions": 480,
+    "sources": 967,
+    "coverage": 225
+  },
+  "new_drg_recommendations": 15,
+  "stored_verified_flags": 472,
+  "effective_verified_compositions": 461,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "included_priorities": 195,
+  "gap_priorities": 30,
+  "remaining_jobs": 3,
+  "not_applicable": 0,
+  "resource_records": 766,
+  "hand_registry": "43 / hands.2026-11-05.v16; unchanged, no append needed",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-drg-authoring-definitions.json": "2d43c03f336239b7bd760303c8d99b5aa5f8013eac66eb0f449a8c692edaadfc",
+    "gear-guide-t7-drg-authoring-item-evidence.json": "91fc83afe7d4df4f251b4a9a24e92796cc8224bfc00c055bf7342a0ab10ce9e3",
+    "gear-guide-t7-drg-authoring-observations.json": "e107fdc0cdf46a766cbe1f8792b6fac86cc1c4475436b2df8d5925ca25dccd93"
+  },
+  "deferred_plan": "Remaining initial passes (BST, PUP, DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived. The 2026-11-04 DRG checkpoint packets are preserved unchanged.",
+  "remaining_initial_queue": [
+    {
+      "job": "BST",
+      "recommendations": 0,
+      "gaps": 11
+    },
+    {
+      "job": "PUP",
+      "recommendations": 0,
+      "gaps": 10
+    },
+    {
+      "job": "DNC",
+      "recommendations": 0,
+      "gaps": 9
+    }
+  ],
+  "limits": "Offline composition/history/preservation; not HP preservation, caps, ownership/bags, current BiS, human/frozen/live acceptance",
+  "validation": {
+    "presave": {
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": [
+        0.82,
+        0.74,
+        0.75
+      ],
+      "note": "Run before first save, before the save, and before the deterministic re-save"
+    },
+    "focused_initial": {
+      "passed": 538,
+      "failed": 4,
+      "skipped": 0,
+      "seconds": 38.59,
+      "reason": "WAR/DRK/MNK/PLD batch tests expect token 'all22jobs' in delivery_status; first save wrote 'all-22-jobs'. Status text corrected and candidate re-saved from baseline; no test/validator changed for this."
+    },
+    "focused": {
+      "passed": 542,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 38.9
+    },
+    "full_native": {
+      "passed": 1356,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 136.61,
+      "environment": "Fresh DRG-local isolation; unchanged repository tests except declared aggregate/DRG-status/job-list expectations; fictional discovery, no inventory seeding"
+    },
+    "log_sha256": {
+      "presave-first.log": "8de99e02c37bfc700f9af3bda4e5594078d70d56cdea337fb3aef06e9c396750",
+      "presave.log": "46d0ac92fd08476882e3ebbe2aa7e7f85a57b0c494c0371f759fd5b6d7ca6991",
+      "focused-initial.log": "7e268946cde96dd2b270a92c959e4c9e497b64aef5d75a59313dda57e1b127a8",
+      "focused.log": "f2ab4c3bc907e1f6f874a9c5bf7135d74615ef3c2fe41ae211fb6e7985b39396",
+      "full-native.log": "c6e964a1820f7923d0dbcbcbe9e470f104191232fbd8a6e520a34cc319d6d69a"
+    },
+    "whitespace": {
+      "git_diff_check_exit": 0,
+      "new_files_trailing_whitespace": 0,
+      "note": "LF/CRLF warnings are pre-existing on files outside this task"
+    },
+    "final_prompt_sha256": "563975707b6c0b5fb83321e1258b597ec6f5e6f6afdda84d8fc60a25999fbe38"
+  }
+}

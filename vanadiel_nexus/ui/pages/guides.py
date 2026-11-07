@@ -8,22 +8,42 @@ from ...core import gear_guides
 from ..forms import Field, FormDialog
 from .. import widgets, theme
 from ..item_links import add_open_actions, open_item
+from ..equipment_details import TableItemDetails
 from ..widgets import Column, DataTable
+from ..guide_revisions import RevisionGuideMixin
 from .base import Page
 
 
-class GuidesPage(Page):
+class GuidesPage(RevisionGuideMixin, Page):
     title = 'Guide upgrades'
     key = 'guides'
 
-    def __init__(self, ctx):
+    def on_shown(self):
+        self.item_details.activate()
+
+    def __init__(self, ctx, *, catalog=None, workspace=None, items=None, bags=None):
         super().__init__(ctx)
-        self.catalog = gear_guides.load_catalog()
+        self._init_workspace(workspace, items, bags)
+        self.catalog_error = None
+        try:
+            # Explicit catalog injection is a prepared-candidate seam for offline
+            # integration tests; bundled catalogs always pass the real loader.
+            self.catalog = catalog if catalog is not None else gear_guides.load_catalog(windower_dir=ctx.windower_dir)
+        except (OSError, ValueError) as error:
+            self.catalog_error = str(error)
+            message = widgets.label(f'Guide catalog unavailable: {error}', 'Caption')
+            message.setWordWrap(True)
+            self.layout_.addWidget(message)
+            # Retained personal snapshots remain inspectable even when the
+            # bundled catalog is unusable. New mutations fail closed.
+            self.catalog = {'schema_version': 2, 'sets': [], 'revisions': [], 'sources': []}
+        self.is_v2 = self.catalog['schema_version'] == 2
         self.tree = {}
         self._sets_shown = []  # the chosen target's sets, best version first (one per version button)
         self.current_set = None
         self.job_combo = QComboBox()
-        self.job_combo.addItems([g['job'] for g in self.catalog['guides']])
+        jobs = sorted({j for s in self.catalog['sets'] for j in s['jobs']}) if self.is_v2 else [g['job'] for g in self.catalog['guides']]
+        self.job_combo.addItems(jobs)
         self.purpose_combo = QComboBox()
         self.purpose_combo.setMinimumContentsLength(16)
         self.target_combo = QComboBox()
@@ -45,25 +65,33 @@ class GuidesPage(Page):
         self.purpose_help.setWordWrap(True)
         self.table = DataTable([
             Column('Item', 'name', 220), Column('Status', 'status', 150,
-                tone=lambda r: theme.SUCCESS if r['status'] == 'Owned' else theme.WARNING),
+                tone=lambda r: theme.SUCCESS if r['status'] in ('Owned', 'Ready in snapshot') else theme.WARNING),
             Column('Slot', 'slot', 75), Column('Target / assumptions', 'requirement', stretch=True),
             Column('Inventory check', 'detail', 280)], name='guide_upgrades')
         self.toolbar.text_changed.connect(self.table.proxy.set_needle)
-        self.table.row_activated.connect(lambda row: open_item(self.ctx, row))
+        self.table.row_activated.connect(lambda row: open_item(self.ctx, row) if row.get('item_id') else None)
         self.table.setContextMenuPolicy(Qt.CustomContextMenu)
+        self.item_details = TableItemDetails(self, ctx, (self.table,))
         self.table.customContextMenuRequested.connect(self._context_menu)
         self.note = widgets.label('', 'Caption')
         self.note.setWordWrap(True)
         self.layout_.addWidget(self.toolbar)
         self.layout_.addWidget(self.versions)
         self.layout_.addWidget(self.purpose_help)
+        self._revision_controls()
         self.layout_.addWidget(self.table, 1)
         self.layout_.addWidget(self.note)
-        self.layout_.addLayout(widgets.hbox(
-            widgets.button('Track this set', 'primary', self._track),
-            widgets.button('Open equipment set ↗', on_click=self._open_set),
-            widgets.button('Set augment target…', on_click=self._requirements),
-            widgets.button('Open job guide ↗', on_click=self._open_guide), None))
+        actions = widgets.FlowLayout()
+        self.track_button = widgets.button('Track this set', 'primary', self._track)
+        self.source_button = widgets.button('Open equipment set ↗', on_click=self._open_set)
+        self.edit_button = widgets.button('Set augment target…', on_click=self._requirements)
+        self.item_details_btn = widgets.button('Item details', on_click=lambda: self.item_details.show(self.table))
+        self.job_source_button = widgets.button('Open job guide ↗', on_click=self._open_guide)
+        self.job_source_button.setVisible(not self.is_v2)
+        for button in (self.track_button, self.source_button, self.edit_button, self.item_details_btn, self.job_source_button,
+                       self.reload_workspace, self.recover_workspace):
+            actions.addWidget(button)
+        self.layout_.addLayout(actions)
         self.job_combo.currentTextChanged.connect(self._sets)
         self.purpose_combo.currentIndexChanged.connect(self._targets)
         self.target_combo.currentIndexChanged.connect(self._versions)
@@ -82,14 +110,18 @@ class GuidesPage(Page):
         current = self.character_combo.currentText()
         self.character_combo.blockSignals(True)
         self.character_combo.clear()
-        names = sorted({row.get('character', '') for row in self.ctx.all_inventory()} - {''})
+        saved = self.workspace.data or self.workspace.recovery or {}
+        names = sorted(({row.get('character', '') for row in self.ctx.all_inventory()} |
+                        {key for key in self.ctx.inventory_snapshot if not key.startswith('Imported: ')} |
+                        {t['character_key'] for t in saved.get('targets', [])}) - {''})
         self.character_combo.addItems(names or ['No inventory snapshot'])
-        preferred = self.ctx.bridge.state.get('player_name', '') or self.ctx.settings.get('guide_character') or 'Someonesmall'
+        preferred = self.ctx.bridge.state.get('player_name', '') or self.ctx.settings.get('guide_character') or ''
         self.character_combo.setCurrentText(current if current in names else preferred if preferred in names else names[0] if names else 'No inventory snapshot')
         self.character_combo.blockSignals(False)
         self.refresh()
 
     def _character_picked(self, character):
+        self._browse_revision()
         if character and character!='No inventory snapshot':
             self.ctx.settings.set('guide_character', character)
         self.refresh()
@@ -139,18 +171,22 @@ class GuidesPage(Page):
         combo.blockSignals(False)
 
     def _sets(self, *_):
-        self.tree = gear_guides.picker_tree(self.catalog, self.job_combo.currentText())
+        self._browse_revision()
+        self.tree = (gear_guides.revision_tree if self.is_v2 else gear_guides.picker_tree)(self.catalog, self.job_combo.currentText())
         self._fill(self.purpose_combo, [(f'{purpose} ({sum(len(v) for v in targets.values())})', purpose)
                                         for purpose, targets in self.tree.items()], self._pick('purpose'))
         self._targets()
 
     def _targets(self, *_):
+        self._browse_revision()
         targets = self.tree.get(self.purpose_combo.currentData(), {})
-        self._fill(self.target_combo, [(target, target) for target in targets], self._pick('target'))
+        self._fill(self.target_combo, [(entries[0]['group']['target'] if self.is_v2 else target, target)
+                                       for target, entries in targets.items()], self._pick('target'))
         self.purpose_help.setText(gear_guides.PURPOSES.get(self.purpose_combo.currentData(), ''))
         self._versions()
 
     def _versions(self, *_):
+        self._browse_revision()
         sets = self.tree.get(self.purpose_combo.currentData(), {}).get(self.target_combo.currentData(), [])
         for button in self.version_group.buttons():
             self.version_group.removeButton(button)
@@ -160,7 +196,7 @@ class GuidesPage(Page):
         wanted = next((i for i, e in enumerate(sets) if e['id'] == saved.get(self.target_combo.currentData())), 0)
         if len(sets) > 1:
             for i, entry in enumerate(sets):
-                button = QPushButton(entry.get('version') or 'Standard')
+                button = QPushButton(entry.get('equipment_version') or entry.get('version') or 'Standard')
                 button.setProperty('pill', True)
                 button.setCheckable(True)
                 button.setCursor(Qt.PointingHandCursor)
@@ -171,16 +207,31 @@ class GuidesPage(Page):
         self.versions.setVisible(len(sets) > 1)
         self._sets_shown = sets
         self.current_set = sets[wanted] if sets else None
+        # Opening a conceptual set shows the user's retained snapshot. Choosing
+        # an alternative version explicitly returns to catalog browsing.
+        saved_target = self._matching_target()
+        if saved_target:
+            self.view_target_id = saved_target['id']
+            retained = next((i for i, r in enumerate(sets) if r['id'] == saved_target['revision_id']), None)
+            if retained is not None:
+                self.current_set = sets[retained]
+            self.version_group.setExclusive(False)
+            for button in self.version_group.buttons():
+                button.setChecked(self.version_group.id(button) == retained)
+            self.version_group.setExclusive(True)
         self.refresh()
         self._remember()
 
     def _version_picked(self, index):
+        self._browse_revision()
         self.current_set = self._sets_shown[index]
         self.refresh()
         self._remember(version_picked=True)
 
     # -------------------------------------------------------------------------
     def refresh(self, *_):
+        if self._refresh_revision():
+            return
         row = self._merged_set()
         character = self.character_combo.currentText()
         rows = gear_guides.set_rows(row, self.ctx.all_inventory(), character) if row else []
@@ -201,12 +252,17 @@ class GuidesPage(Page):
         if row is None:
             return
         menu = QMenu(self)
-        add_open_actions(menu, self.ctx, row)
+        menu.addAction('Item details (Alt+I)', lambda: self.item_details.show(self.table))
+        if row.get('item_id'):
+            add_open_actions(menu, self.ctx, row)
         menu.addSeparator()
-        menu.addAction('Set augment target…', self._requirements)
+        action = menu.addAction(self.edit_button.text(), self._requirements)
+        action.setEnabled(self.edit_button.isEnabled() and row.get('state', 'selected') == 'selected')
         menu.exec(self.table.viewport().mapToGlobal(pos))
 
     def _track(self):
+        if self._track_revision():
+            return
         row = self._merged_set()  # carries augment targets set before tracking into the wishlist
         if row:
             count = gear_guides.track_set(self.ctx.db.data, row, self.job_combo.currentText())
@@ -214,6 +270,8 @@ class GuidesPage(Page):
             self.status(f'{count} guide targets added to Wishlist; existing goals preserved.')
 
     def _requirements(self):
+        if self._edit_revision():
+            return
         row=self.table.selected_row()
         equipment_set=self.current_set
         if not row or not equipment_set:
@@ -244,9 +302,14 @@ class GuidesPage(Page):
         self.refresh()
 
     def _open_set(self):
+        if self._open_revision_sources():
+            return
         if self.current_set:
             self.ctx.open_url(self.current_set['url'])
 
     def _open_guide(self):
+        if self._revision_context()[0] is not None:
+            self._open_revision_sources()
+            return
         guide = next(g for g in self.catalog['guides'] if g['job'] == self.job_combo.currentText())
         self.ctx.open_url(guide['url'])

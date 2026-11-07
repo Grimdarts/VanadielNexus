@@ -1,0 +1,2118 @@
+{
+  "checked_on": "2026-11-04",
+  "table_observations": [
+    {
+      "item_set_id": 357015,
+      "url": "https://www.ffxiah.com/item-sets/357015",
+      "title": "Idle - Refresh",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "body",
+          "Mekosu. Harness"
+        ],
+        [
+          "head",
+          "Rawhide Mask"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "legs",
+          "Rawhide Trousers"
+        ],
+        [
+          "ring2",
+          "Stikini Ring +1"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Rawhide Mask"
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Mekosu. Harness"
+        ],
+        "hands": [],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Stikini Ring +1"
+        ],
+        "back": [],
+        "waist": [],
+        "legs": [
+          "Rawhide Trousers"
+        ],
+        "feet": []
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "hands",
+        "back",
+        "waist",
+        "feet"
+      ],
+      "conflicting_slots": [],
+      "notes": "Eleven omissions; two physical Stikini copies. Guide explicitly Rawhide legs PathD; base item alone has no Refresh legs bonus. Unresolved original preserved.",
+      "observation_sha256": "6d4fd91736f11f351298229f3be46f13255fa4d906d3b261dfe7699ab5380879"
+    },
+    {
+      "item_set_id": 357016,
+      "url": "https://www.ffxiah.com/item-sets/357016",
+      "title": "Idle - DT/Meva",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "neck",
+          "Loricate Torque +1"
+        ],
+        [
+          "ring1",
+          "Defending Ring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "ear1",
+          "Sanare Earring"
+        ],
+        [
+          "hands",
+          "Raetic Bangles +1"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "body",
+          "Nyame Mail"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "waist",
+          "Plat. Mog. Belt"
+        ],
+        [
+          "ear2",
+          "Eabani Earring"
+        ],
+        [
+          "ring2",
+          "Purity Ring"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Loricate Torque +1"
+        ],
+        "ear1": [
+          "Sanare Earring"
+        ],
+        "ear2": [
+          "Eabani Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Raetic Bangles +1"
+        ],
+        "ring1": [
+          "Defending Ring"
+        ],
+        "ring2": [
+          "Purity Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Plat. Mog. Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "conflicting_slots": [],
+      "notes": "Recovered ordinary Chrome. Main/sub/range/ammo omitted, not intentional empties; cape INT/Meva prose not literal augment recipe.",
+      "observation_sha256": "5e732ed999792a8778ec19ee89cdfc3484a5cc268bb8df4ce6f665fe83a85d77"
+    },
+    {
+      "item_set_id": 356867,
+      "url": "https://www.ffxiah.com/item-sets/356867",
+      "title": "Dream Tier - TP MaxHaste",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "head",
+          "Adhemar Bonnet +1"
+        ],
+        [
+          "body",
+          "Adhemar Jacket +1"
+        ],
+        [
+          "hands",
+          "Adhemar Wrist. +1"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "ear1",
+          "Telos Earring"
+        ],
+        [
+          "ear2",
+          "Suppanomimi"
+        ],
+        [
+          "ring1",
+          "Epona's Ring"
+        ],
+        [
+          "waist",
+          "Windbuffet Belt +1"
+        ],
+        [
+          "legs",
+          "Samnuha Tights"
+        ],
+        [
+          "feet",
+          "Herculean Boots"
+        ],
+        [
+          "neck",
+          "Iskur Gorget"
+        ],
+        [
+          "ring2",
+          "Petrov Ring"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Adhemar Bonnet +1"
+        ],
+        "neck": [
+          "Iskur Gorget"
+        ],
+        "ear1": [
+          "Telos Earring"
+        ],
+        "ear2": [
+          "Suppanomimi"
+        ],
+        "body": [
+          "Adhemar Jacket +1"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Epona's Ring"
+        ],
+        "ring2": [
+          "Petrov Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Windbuffet Belt +1"
+        ],
+        "legs": [
+          "Samnuha Tights"
+        ],
+        "feet": [
+          "Herculean Boots"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo"
+      ],
+      "conflicting_slots": [],
+      "notes": "Weapons/ammo absent; assumed max haste title, AdhemarA/B, random Herc/Samnuha and cape /NIN-/DNC differ. No source delay cap imported.",
+      "observation_sha256": "0a526693e74e7c3da4d5d5efacbd2b3c4560591eb761c8bf9369aefe8118bdcf"
+    },
+    {
+      "item_set_id": 356886,
+      "url": "https://www.ffxiah.com/item-sets/356886",
+      "title": "Acc Swaps - TP",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "waist",
+          "Kentarch Belt +1"
+        ],
+        [
+          "ear1",
+          "Mache Earring +1"
+        ],
+        [
+          "ring1",
+          "Chirich Ring +1"
+        ],
+        [
+          "neck",
+          "Combatant's Torque"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "sub",
+          "Demers. Degen +1"
+        ],
+        [
+          "ear2",
+          "Crep. Earring"
+        ],
+        [
+          "head",
+          "Dampening Tam"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [
+          "Demers. Degen +1"
+        ],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Dampening Tam"
+        ],
+        "neck": [
+          "Combatant's Torque"
+        ],
+        "ear1": [
+          "Mache Earring +1"
+        ],
+        "ear2": [
+          "Crep. Earring"
+        ],
+        "body": [],
+        "hands": [],
+        "ring1": [
+          "Chirich Ring +1"
+        ],
+        "ring2": [],
+        "back": [],
+        "waist": [
+          "Kentarch Belt +1"
+        ],
+        "legs": [],
+        "feet": []
+      },
+      "omitted_slots": [
+        "range",
+        "ammo",
+        "body",
+        "hands",
+        "ring2",
+        "back",
+        "legs",
+        "feet"
+      ],
+      "conflicting_slots": [],
+      "notes": "Partial swap table, source weapon paths/ranks unspecified; cannot infer complete loadout or trait.",
+      "observation_sha256": "235891beefe6db311bbc324f092e893dc12d899674a32f3dd96e8068aea72015"
+    },
+    {
+      "item_set_id": 356894,
+      "url": "https://www.ffxiah.com/item-sets/356894",
+      "title": "Dream Tier - RA",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "sub",
+          "Nusku Shield"
+        ],
+        [
+          "ammo",
+          "Chrono Bullet"
+        ],
+        [
+          "neck",
+          "Iskur Gorget"
+        ],
+        [
+          "ear1",
+          "Telos Earring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "waist",
+          "Yemaya Belt"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "ear2",
+          "Crep. Earring"
+        ],
+        [
+          "ring1",
+          "Crepuscular Ring"
+        ],
+        [
+          "head",
+          "Ikenga's Hat"
+        ],
+        [
+          "body",
+          "Ikenga's Vest"
+        ],
+        [
+          "hands",
+          "Ikenga's Gloves"
+        ],
+        [
+          "feet",
+          "Ikenga's Clogs"
+        ],
+        [
+          "legs",
+          "Chas. Culottes +3"
+        ],
+        [
+          "ring2",
+          "Ilabrat Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [
+          "Nusku Shield"
+        ],
+        "range": [],
+        "ammo": [
+          "Chrono Bullet"
+        ],
+        "head": [
+          "Ikenga's Hat"
+        ],
+        "neck": [
+          "Iskur Gorget"
+        ],
+        "ear1": [
+          "Telos Earring"
+        ],
+        "ear2": [
+          "Crep. Earring"
+        ],
+        "body": [
+          "Ikenga's Vest"
+        ],
+        "hands": [
+          "Ikenga's Gloves"
+        ],
+        "ring1": [
+          "Crepuscular Ring"
+        ],
+        "ring2": [
+          "Ilabrat Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Yemaya Belt"
+        ],
+        "legs": [
+          "Chas. Culottes +3"
+        ],
+        "feet": [
+          "Ikenga's Clogs"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Range omitted. RostamA and AGI/Racc/STP cape prose; no gun inferred from bullet, no Ikenga rank.",
+      "observation_sha256": "9e382af676c6b952deb064298519043d61ecaedacacf6375448050df8337c56b"
+    },
+    {
+      "item_set_id": 356892,
+      "url": "https://www.ffxiah.com/item-sets/356892",
+      "title": "Triple Shot",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "head",
+          "Oshosi Mask +1"
+        ],
+        [
+          "feet",
+          "Osh. Leggings +1"
+        ],
+        [
+          "legs",
+          "Osh. Trousers +1"
+        ],
+        [
+          "hands",
+          "Lanun Gants +3"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "body",
+          "Chasseur's Frac +3"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Oshosi Mask +1"
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Chasseur's Frac +3"
+        ],
+        "hands": [
+          "Lanun Gants +3"
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Osh. Trousers +1"
+        ],
+        "feet": [
+          "Osh. Leggings +1"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring1",
+        "ring2",
+        "waist"
+      ],
+      "conflicting_slots": [],
+      "notes": "Six swaps only; actual activeTS/occasionalQuad and ammo consumption distinct fromWS.",
+      "observation_sha256": "2cf43f6b4c0b1012bfcfd2394d77f639445fbe7b65f93662f38cffaeba71c700"
+    },
+    {
+      "item_set_id": 357347,
+      "url": "https://www.ffxiah.com/item-sets/357347",
+      "title": "Dream Tier - Leaden",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "range",
+          "Death Penalty"
+        ],
+        [
+          "ammo",
+          "Living Bullet"
+        ],
+        [
+          "head",
+          "Pixie Hairpin +1"
+        ],
+        [
+          "ear1",
+          "Friomisi Earring"
+        ],
+        [
+          "ear2",
+          "Moonshade Earring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ],
+        [
+          "body",
+          "Lanun Frac +3"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "sub",
+          "Tauret"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "waist",
+          "Svelt. Gouriz +1"
+        ],
+        [
+          "ring2",
+          "Archon Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [
+          "Tauret"
+        ],
+        "range": [
+          "Death Penalty"
+        ],
+        "ammo": [
+          "Living Bullet"
+        ],
+        "head": [
+          "Pixie Hairpin +1"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [
+          "Friomisi Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Lanun Frac +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Archon Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Svelt. Gouriz +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Mythic stage/rank/AM not fixed by name; RostamA/NyameB and AGI magic WSD prose. Nexus Fomalhaut/Chrono is separate substitution, not mythic performance.",
+      "observation_sha256": "e76cccfbfe3279f7acf60cbcb951d57bcba911f2ee247d9f166bd4b15491b056"
+    },
+    {
+      "item_set_id": 357491,
+      "url": "https://www.ffxiah.com/item-sets/357491",
+      "title": "Dream Tier - WF",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ear1",
+          "Crematio Earring"
+        ],
+        [
+          "ear2",
+          "Friomisi Earring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "body",
+          "Lanun Frac +3"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ],
+        [
+          "ammo",
+          "Living Bullet"
+        ],
+        [
+          "range",
+          "Armageddon"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "main",
+          "Naegling"
+        ],
+        [
+          "sub",
+          "Tauret"
+        ],
+        [
+          "waist",
+          "Skrymir Cord +1"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Naegling"
+        ],
+        "sub": [
+          "Tauret"
+        ],
+        "range": [
+          "Armageddon"
+        ],
+        "ammo": [
+          "Living Bullet"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [
+          "Crematio Earring"
+        ],
+        "ear2": [
+          "Friomisi Earring"
+        ],
+        "body": [
+          "Lanun Frac +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Skrymir Cord +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Empyrean stage/rank/AM unspecified. No source gun bonus or overflow effect transferred.",
+      "observation_sha256": "f85beeec439234c41adc4b2fc353ccc50c747841f89f962f736888edb7411da9"
+    },
+    {
+      "item_set_id": 357137,
+      "url": "https://www.ffxiah.com/item-sets/357137",
+      "title": "Dream Tier - Last Stand",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "sub",
+          "Nusku Shield"
+        ],
+        [
+          "ammo",
+          "Chrono Bullet"
+        ],
+        [
+          "neck",
+          "Fotia Gorget"
+        ],
+        [
+          "ear1",
+          "Moonshade Earring"
+        ],
+        [
+          "ear2",
+          "Ishvara Earring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "waist",
+          "Fotia Belt"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "head",
+          "Lanun Tricorne +3"
+        ],
+        [
+          "hands",
+          "Chasseur's Gants +3"
+        ],
+        [
+          "body",
+          "Ikenga's Vest"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "range",
+          "Earp"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [
+          "Nusku Shield"
+        ],
+        "range": [
+          "Earp"
+        ],
+        "ammo": [
+          "Chrono Bullet"
+        ],
+        "head": [
+          "Lanun Tricorne +3"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Ishvara Earring"
+        ],
+        "body": [
+          "Ikenga's Vest"
+        ],
+        "hands": [
+          "Chasseur's Gants +3"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Earp stage unreported; prime weapon not admitted. BG current LastStand uses Fomalhaut; no rendered stage inference from name.",
+      "observation_sha256": "fa86684a3996ddb94558b1c4723611f29bab6a3a7a9a2c43fb6e4b6070caf44d"
+    },
+    {
+      "item_set_id": 392957,
+      "url": "https://www.ffxiah.com/item-sets/392957",
+      "title": "Dream Tier - Hot Shot",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "main",
+          "Tauret"
+        ],
+        [
+          "sub",
+          "Naegling"
+        ],
+        [
+          "range",
+          "Fomalhaut"
+        ],
+        [
+          "ammo",
+          "Living Bullet"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "body",
+          "Nyame Mail"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ],
+        [
+          "hands",
+          "Chasseur's Gants +3"
+        ],
+        [
+          "neck",
+          "Fotia Gorget"
+        ],
+        [
+          "waist",
+          "Fotia Belt"
+        ],
+        [
+          "ear1",
+          "Friomisi Earring"
+        ],
+        [
+          "ear2",
+          "Moonshade Earring"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tauret"
+        ],
+        "sub": [
+          "Naegling"
+        ],
+        "range": [
+          "Fomalhaut"
+        ],
+        "ammo": [
+          "Living Bullet"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Friomisi Earring"
+        ],
+        "ear2": [
+          "Moonshade Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Chasseur's Gants +3"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Hybrid physical/fire action. Source AGI magic WSD cape differs from BG mid STR/highAGI labels. No arbitrary formula or capped damage.",
+      "observation_sha256": "9d0327d708e69ba34cf02d9919339d9bba7427373d83bb842c4ab4f2645a4d5e"
+    },
+    {
+      "item_set_id": 355063,
+      "url": "https://www.ffxiah.com/item-sets/355063",
+      "title": "Phantom Roll - Max",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "legs",
+          "Desultor Tassets"
+        ],
+        [
+          "range",
+          "Compensator"
+        ],
+        [
+          "ring1",
+          "Luzaf's Ring"
+        ],
+        [
+          "head",
+          "Lanun Tricorne +3"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "neck",
+          "Regal Necklace"
+        ],
+        [
+          "hands",
+          "Chasseur's Gants +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [],
+        "range": [
+          "Compensator"
+        ],
+        "ammo": [],
+        "head": [
+          "Lanun Tricorne +3"
+        ],
+        "neck": [
+          "Regal Necklace"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          "Chasseur's Gants +3"
+        ],
+        "ring1": [
+          "Luzaf's Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [],
+        "legs": [
+          "Desultor Tassets"
+        ],
+        "feet": []
+      },
+      "omitted_slots": [
+        "sub",
+        "ammo",
+        "ear1",
+        "ear2",
+        "body",
+        "ring2",
+        "waist",
+        "feet"
+      ],
+      "conflicting_slots": [],
+      "notes": "Eight partial cells. RostamC/Desultor ability-delay augment not inferred by name. Highest roll+n wins; duration and highest potency differ. Source11min requires merits/JP.",
+      "observation_sha256": "fa766b2643ffce5233fd1b7706f3a0fe88598ad9e2675d8737db3ea6d8fcd2d2"
+    },
+    {
+      "item_set_id": 356857,
+      "url": "https://www.ffxiah.com/item-sets/356857",
+      "title": "Snap60 NoFlurry",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "legs",
+          "Adhemar Kecks +1"
+        ],
+        [
+          "feet",
+          "Meg. Jam. +2"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "ring1",
+          "Crepuscular Ring"
+        ],
+        [
+          "head",
+          "Chass. Tricorne +3"
+        ],
+        [
+          "body",
+          "Oshosi Vest +1"
+        ],
+        [
+          "waist",
+          "Impulse Belt"
+        ],
+        [
+          "hands",
+          "Carmine Fin. Ga. +1"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Chass. Tricorne +3"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Oshosi Vest +1"
+        ],
+        "hands": [
+          "Carmine Fin. Ga. +1"
+        ],
+        "ring1": [
+          "Crepuscular Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Impulse Belt"
+        ],
+        "legs": [
+          "Adhemar Kecks +1"
+        ],
+        "feet": [
+          "Meg. Jam. +2"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "ear1",
+        "ear2",
+        "ring2"
+      ],
+      "conflicting_slots": [],
+      "notes": "Nine cells only. Guide assumes10%gift and AdhemarD; title not base timing total, cape Snapshot separate.",
+      "observation_sha256": "26dcca1a2da65fe6985af2e1a1674d3149d82ed661f6f3090910f0413eb062bf"
+    },
+    {
+      "item_set_id": 356858,
+      "url": "https://www.ffxiah.com/item-sets/356858",
+      "title": "Snap45 FlurryI",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "body",
+          "Laksa. Frac +3"
+        ],
+        [
+          "legs",
+          "Adhemar Kecks +1"
+        ],
+        [
+          "waist",
+          "Yemaya Belt"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "feet",
+          "Meg. Jam. +2"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "head",
+          "Chass. Tricorne +3"
+        ],
+        [
+          "ring1",
+          "Crepuscular Ring"
+        ],
+        [
+          "hands",
+          "Carmine Fin. Ga. +1"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Chass. Tricorne +3"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Laksa. Frac +3"
+        ],
+        "hands": [
+          "Carmine Fin. Ga. +1"
+        ],
+        "ring1": [
+          "Crepuscular Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Yemaya Belt"
+        ],
+        "legs": [
+          "Adhemar Kecks +1"
+        ],
+        "feet": [
+          "Meg. Jam. +2"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "ear1",
+        "ear2",
+        "ring2"
+      ],
+      "conflicting_slots": [],
+      "notes": "Nine cells only; actualFlurryI required, source45 not a checked candidate total.",
+      "observation_sha256": "60633b727832552cb8dad5256c1c83b198ca4dedcdfd465a264ff7c3ed0507f4"
+    },
+    {
+      "item_set_id": 356859,
+      "url": "https://www.ffxiah.com/item-sets/356859",
+      "title": "Snap30 FlurryII -31Snapshot68Rapid",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "feet",
+          "Pursuer's Gaiters"
+        ],
+        [
+          "body",
+          "Laksa. Frac +3"
+        ],
+        [
+          "hands",
+          "Carmine Fin. Ga. +1"
+        ],
+        [
+          "legs",
+          "Adhemar Kecks +1"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "waist",
+          "Yemaya Belt"
+        ],
+        [
+          "head",
+          "Chass. Tricorne +3"
+        ],
+        [
+          "ring1",
+          "Crepuscular Ring"
+        ]
+      ],
+      "grid": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          "Chass. Tricorne +3"
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [
+          "Laksa. Frac +3"
+        ],
+        "hands": [
+          "Carmine Fin. Ga. +1"
+        ],
+        "ring1": [
+          "Crepuscular Ring"
+        ],
+        "ring2": [],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Yemaya Belt"
+        ],
+        "legs": [
+          "Adhemar Kecks +1"
+        ],
+        "feet": [
+          "Pursuer's Gaiters"
+        ]
+      },
+      "omitted_slots": [
+        "main",
+        "sub",
+        "range",
+        "ammo",
+        "neck",
+        "ear1",
+        "ear2",
+        "ring2"
+      ],
+      "conflicting_slots": [],
+      "notes": "Eight cells; guide PursuerD/AdhemarD, FlurryII/gifts; printed31/68 not certified.",
+      "observation_sha256": "d274ab3654fb7716253aaa32b5c784ff886c97cbcd76f6441e35337c9b0f11be"
+    },
+    {
+      "item_set_id": 356928,
+      "url": "https://www.ffxiah.com/item-sets/356928",
+      "title": "Dream Tier - Savage",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "range",
+          "Ataktos"
+        ],
+        [
+          "ear1",
+          "Moonshade Earring"
+        ],
+        [
+          "ear2",
+          "Ishvara Earring"
+        ],
+        [
+          "ring1",
+          "Regal Ring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "waist",
+          "Sailfi Belt +1"
+        ],
+        [
+          "main",
+          "Gleti's Knife"
+        ],
+        [
+          "sub",
+          "Naegling"
+        ],
+        [
+          "ammo",
+          "Bayeux Bullet"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "body",
+          "Nyame Mail"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "feet",
+          "Nyame Sollerets"
+        ],
+        [
+          "hands",
+          "Chasseur's Gants +3"
+        ],
+        [
+          "neck",
+          "Rep. Plat. Medal"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Gleti's Knife"
+        ],
+        "sub": [
+          "Naegling"
+        ],
+        "range": [
+          "Ataktos"
+        ],
+        "ammo": [
+          "Bayeux Bullet"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Rep. Plat. Medal"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Ishvara Earring"
+        ],
+        "body": [
+          "Nyame Mail"
+        ],
+        "hands": [
+          "Chasseur's Gants +3"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Sailfi Belt +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Nyame Sollerets"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Reversed mainGleti/subNaegling conflicts with intended sword Savage use; preserve original. Ataktos trialTP and Bayeux supply not inferred; Nexus NaeglingMain/TauretSub/Fomalhaut is separate.",
+      "observation_sha256": "22d2e76852ebd919c49ae3e95856ea0b55d2004c4689b133d64eed8d39fbdabd"
+    },
+    {
+      "item_set_id": 356929,
+      "url": "https://www.ffxiah.com/item-sets/356929",
+      "title": "Dream Tier - Evisceration",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "range",
+          "Ataktos"
+        ],
+        [
+          "waist",
+          "Fotia Belt"
+        ],
+        [
+          "neck",
+          "Fotia Gorget"
+        ],
+        [
+          "ear1",
+          "Moonshade Earring"
+        ],
+        [
+          "ring1",
+          "Regal Ring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "main",
+          "Tauret"
+        ],
+        [
+          "ear2",
+          "Odr Earring"
+        ],
+        [
+          "sub",
+          "Gleti's Knife"
+        ],
+        [
+          "head",
+          "Blistering Sallet +1"
+        ],
+        [
+          "body",
+          "Meg. Cuirie +2"
+        ],
+        [
+          "hands",
+          "Adhemar Wrist. +1"
+        ],
+        [
+          "legs",
+          "Zoar Subligar +1"
+        ],
+        [
+          "feet",
+          "Adhe. Gamashes +1"
+        ],
+        [
+          "ammo",
+          "Bayeux Bullet"
+        ],
+        [
+          "ring2",
+          "Ilabrat Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tauret"
+        ],
+        "sub": [
+          "Gleti's Knife"
+        ],
+        "range": [
+          "Ataktos"
+        ],
+        "ammo": [
+          "Bayeux Bullet"
+        ],
+        "head": [
+          "Blistering Sallet +1"
+        ],
+        "neck": [
+          "Fotia Gorget"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Odr Earring"
+        ],
+        "body": [
+          "Meg. Cuirie +2"
+        ],
+        "hands": [
+          "Adhemar Wrist. +1"
+        ],
+        "ring1": [
+          "Regal Ring"
+        ],
+        "ring2": [
+          "Ilabrat Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Fotia Belt"
+        ],
+        "legs": [
+          "Zoar Subligar +1"
+        ],
+        "feet": [
+          "Adhe. Gamashes +1"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "Tauret main-hand property distinct from offhand; AdhemarB and Unity ranks unspecified. Source DEXcrit cape versus general meleeDA variant.",
+      "observation_sha256": "8d0fd261befb8d46622b8ca9087faa787468d3c0f5821561263e5e9cf8bc1c65"
+    },
+    {
+      "item_set_id": 356974,
+      "url": "https://www.ffxiah.com/item-sets/356974",
+      "title": "Dream Tier - Aeolian Edge",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "range",
+          "Ataktos"
+        ],
+        [
+          "ear1",
+          "Moonshade Earring"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ],
+        [
+          "body",
+          "Lanun Frac +3"
+        ],
+        [
+          "main",
+          "Rostam"
+        ],
+        [
+          "sub",
+          "Tauret"
+        ],
+        [
+          "ammo",
+          "Hauksbok Bullet"
+        ],
+        [
+          "waist",
+          "Orpheus's Sash"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "neck",
+          "Baetyl Pendant"
+        ],
+        [
+          "ear2",
+          "Friomisi Earring"
+        ],
+        [
+          "hands",
+          "Nyame Gauntlets"
+        ],
+        [
+          "head",
+          "Nyame Helm"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "ring2",
+          "Epaminondas's Ring"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Rostam"
+        ],
+        "sub": [
+          "Tauret"
+        ],
+        "range": [
+          "Ataktos"
+        ],
+        "ammo": [
+          "Hauksbok Bullet"
+        ],
+        "head": [
+          "Nyame Helm"
+        ],
+        "neck": [
+          "Baetyl Pendant"
+        ],
+        "ear1": [
+          "Moonshade Earring"
+        ],
+        "ear2": [
+          "Friomisi Earring"
+        ],
+        "body": [
+          "Lanun Frac +3"
+        ],
+        "hands": [
+          "Nyame Gauntlets"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Epaminondas's Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Orpheus's Sash"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [],
+      "conflicting_slots": [],
+      "notes": "RostamB, Ataktos trial, Hauksbok access and Orpheus distance requirements; Nexus fixed alternatives distinct; wind magic AoE not QuickDraw.",
+      "observation_sha256": "8e2a5a1302cb60e7e9db5aa89bdbfa0a9496e657012c92ad7e398af0f6cfb178"
+    },
+    {
+      "item_set_id": 356986,
+      "url": "https://www.ffxiah.com/item-sets/356986",
+      "title": "Dream Tier - QD Dmg",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ear1",
+          "Friomisi Earring"
+        ],
+        [
+          "ear2",
+          "Crematio Earring"
+        ],
+        [
+          "ring1",
+          "Dingir Ring"
+        ],
+        [
+          "ring2",
+          "Fenrir Ring +1"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "body",
+          "Lanun Frac +3"
+        ],
+        [
+          "main",
+          "Tauret"
+        ],
+        [
+          "sub",
+          "Naegling"
+        ],
+        [
+          "ammo",
+          "Hauksbok Bullet"
+        ],
+        [
+          "waist",
+          "Skrymir Cord +1"
+        ],
+        [
+          "legs",
+          "Nyame Flanchard"
+        ],
+        [
+          "head",
+          "Ikenga's Hat"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "hands",
+          "Carmine Fin. Ga. +1"
+        ],
+        [
+          "feet",
+          "Lanun Bottes +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tauret"
+        ],
+        "sub": [
+          "Naegling"
+        ],
+        "range": [],
+        "ammo": [
+          "Hauksbok Bullet"
+        ],
+        "head": [
+          "Ikenga's Hat"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [
+          "Friomisi Earring"
+        ],
+        "ear2": [
+          "Crematio Earring"
+        ],
+        "body": [
+          "Lanun Frac +3"
+        ],
+        "hands": [
+          "Carmine Fin. Ga. +1"
+        ],
+        "ring1": [
+          "Dingir Ring"
+        ],
+        "ring2": [
+          "Fenrir Ring +1"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "Skrymir Cord +1"
+        ],
+        "legs": [
+          "Nyame Flanchard"
+        ],
+        "feet": [
+          "Lanun Bottes +3"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Range omitted. Guide NyameC/CarmineD and AGI/Macc/MAB; source cape shorthand does not fix literal parts or magical WS formula.",
+      "observation_sha256": "ff9b9c584f716ee8d21077a5270bd3875689b5171ee53a61b7d9985bb244b256"
+    },
+    {
+      "item_set_id": 357009,
+      "url": "https://www.ffxiah.com/item-sets/357009",
+      "title": "Dream Tier - QD Acc",
+      "method": "Manual structured transcription of ordinary Chrome rendered Equipment Macros; not raw HTML or executed Lua",
+      "ordered_macro_cells": [
+        [
+          "ammo",
+          "Devastating Bullet"
+        ],
+        [
+          "waist",
+          "K. Kachina Belt +1"
+        ],
+        [
+          "back",
+          "Camulus's Mantle"
+        ],
+        [
+          "neck",
+          "Comm. Charm +2"
+        ],
+        [
+          "main",
+          "Tauret"
+        ],
+        [
+          "sub",
+          "Rostam"
+        ],
+        [
+          "ear1",
+          "Chas. Earring +2"
+        ],
+        [
+          "ear2",
+          "Crep. Earring"
+        ],
+        [
+          "ring1",
+          "Stikini Ring +1"
+        ],
+        [
+          "ring2",
+          "Regal Ring"
+        ],
+        [
+          "head",
+          "Laksa. Tricorne +3"
+        ],
+        [
+          "body",
+          "Ikenga's Vest"
+        ],
+        [
+          "hands",
+          "Laksa. Gants +3"
+        ],
+        [
+          "legs",
+          "Ikenga's Trousers"
+        ],
+        [
+          "feet",
+          "Laksa. Bottes +3"
+        ]
+      ],
+      "grid": {
+        "main": [
+          "Tauret"
+        ],
+        "sub": [
+          "Rostam"
+        ],
+        "range": [],
+        "ammo": [
+          "Devastating Bullet"
+        ],
+        "head": [
+          "Laksa. Tricorne +3"
+        ],
+        "neck": [
+          "Comm. Charm +2"
+        ],
+        "ear1": [
+          "Chas. Earring +2"
+        ],
+        "ear2": [
+          "Crep. Earring"
+        ],
+        "body": [
+          "Ikenga's Vest"
+        ],
+        "hands": [
+          "Laksa. Gants +3"
+        ],
+        "ring1": [
+          "Stikini Ring +1"
+        ],
+        "ring2": [
+          "Regal Ring"
+        ],
+        "back": [
+          "Camulus's Mantle"
+        ],
+        "waist": [
+          "K. Kachina Belt +1"
+        ],
+        "legs": [
+          "Ikenga's Trousers"
+        ],
+        "feet": [
+          "Laksa. Bottes +3"
+        ]
+      },
+      "omitted_slots": [
+        "range"
+      ],
+      "conflicting_slots": [],
+      "notes": "Right-ear JSE+2 incorrectly ear1, random roll unspecified; range omitted. LightSleep/DarkDispel distinct. Nexus Digni/Crepuscular legal alternative.",
+      "observation_sha256": "bc1fafa8d562f618fe57f93fc69ece3abf91ef9b222b33f1c3eec4345cd4fd57"
+    }
+  ],
+  "guide_observations": [
+    {
+      "url": "https://www.ffxiah.com/node/326",
+      "title": "Luck of the Draw - Arislan/Afania",
+      "notes": "OrdinaryChrome full role/action/weapon/gear/cape/FAQ sections read; last update labelSeptember2023/footer2023-10-19.19 original grids independently opened. Source tiers/merits/JP/performance assertions not adopted. Roll+n only highest; separate /NIN-/DNC-/WAR/MP-subjob access, weapon stages/AM and haste/Flurry/TripleShot states. No currentBiS or totals.",
+      "observation_sha256": "5a5045e65e41799365cf73f0e2f3c114127441fbd3fbcb7e79f2b75bf49fefd5"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=All_Jobs_Gear_Sets/Corsair&oldid=772442",
+      "title": "BG COR772442",
+      "notes": "Normal article read in Chrome; renderedPermanentlink772442/footer2026-07-13 verified. Visible mid/high Terminus/LastStand/HotShot/Leaden/Wildfire/Savage/Evisceration/Aeolian/QuickDraw and NaeglingGletiTP grids. OdysseyR30/NyameR25B, noTrueShot and noOrpheus ranged. No source damage/DT/delay benchmark imported. LastStand mid cape STR versus highAGI; HotShot midSTR/highAGI differ from FFXIAH AGI. Earp119II, DP119III/Armageddon119III and +4JSE/currentClemency are not silent candidate substitutions.",
+      "observation_sha256": "48b39fc9800d9214012893bb2e0297b2a78759147b751b91151488e78b30c732"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Camulus%27s_Mantle&oldid=568480",
+      "title": "Camulus augment categories568480",
+      "notes": "NormalChrome article/renderedPermanentlink verified. SeparateThread20 andDye10, physical/ranged/magical combinedDust20; mutually selectedSapDA/STP/Crit/Snapshot/MAB/WSD; ResinDT5. Nexus chooses literal independent variants, no universal cape.",
+      "observation_sha256": "cc2206512c0f081f8c4f2fba5f105e6f5bf852f91ed12d97a0a1b1acf69442c2"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Fomalhaut&oldid=765790",
+      "title": "Fomalhaut765790",
+      "notes": "NormalChrome article/renderedPermanentlink verified. Exact base dispenser21485 distinct from augmented22143/pouch. Chrono99 per hour and compatible with normal bullet guns; TPBonus applies ONLY MarksmanshipWS, not Savage/Evisceration/Aeolian. LastStand granted at fullRank5 via weapon; no player merit/rank inferred. AM conditional and excluded before snapshots.",
+      "observation_sha256": "7181bebb0609828ddd682ee45cfb277f0c92d24d364c73d118794c6659538e41"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Chrono_Bullet&oldid=589749",
+      "title": "Chrono Bullet589749",
+      "notes": "NormalChrome article/renderedPermanentlink verified; actual bullet21296, nontradable99stack from Fomalhaut or pouch, usable with bullet Marksmanship guns; selected exactFomalhaut21485 independently verified. Availability/bags/quantity/consumption safety not proven.",
+      "observation_sha256": "2964b160805e004eb323beef57145238e31dac4451df14e1121d84ec755122d0"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Quick_Draw&oldid=775674",
+      "title": "Quick Draw775674",
+      "notes": "NormalChrome article/renderedPermanentlink verified. Charges, gun/bullet/card or mainCOR TrumpCard; card consumed not bullet. AccuracyAGI/MAcc notMarksmanship. Fire damage versus LightSleep/DarkDispel; Empyrean nextsame-element window requires success and consumed/reapplied separately. Guide25% general prose vs+3card31%; guide10sec gift/gear cap vsBG25sec reduction/35recast differ; preserve conflicts without certifying cap or importing ability numeric effects.",
+      "observation_sha256": "f8bc75802fbde86ef6912bb933464dc3cea47c1350527b63c2904ce42b58b5bb"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Category:Phantom_Roll&oldid=780130",
+      "title": "Phantom Roll780130",
+      "notes": "NormalChrome redirectedcategory/renderedPermanentlink verified. Highestroll+n only; final result/job bonus/duration separate. Same-zone relevant job at initial roll; cannot add retroactively viaDoubleUp. Luzaf recipient range, initial/DoubleUp window,XI/Bust,CrookedCards/merits/JP remain conditional. No roll formula implementation or certified11min.",
+      "observation_sha256": "eedb81320124f8771fe013dc31151cf4755f0ab69d6bd31e42f7caa7f1becf12"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Triple_Shot&oldid=773760",
+      "title": "Triple Shot773760",
+      "notes": "NormalChrome article/renderedPermanentlink verified. Actual activeTS required; gear does not grant ability, does not affectWS; ordinary ranged multi-shot consumes ammo, QuadShotJSE distinct. Guide lists1minrecast, BG5min; no recast/proc/duration total certified.",
+      "observation_sha256": "d69f740ef86e9e51a2ac28e551155904c4d697d8c0342da027735b32364c16c9"
+    },
+    {
+      "url": "https://www.bg-wiki.com/index.php?title=Dual_Wield&oldid=753673",
+      "title": "Dual Wield753673",
+      "notes": "NormalChrome article/renderedPermanentlink verified. NIN10/25/45 tiers support explicitly usableDW for COR99/NIN49. Traits/haste not equipment stats; no capped delay or optimized gearDW inferred; /WAR-/WHM shield contexts distinct.",
+      "observation_sha256": "b6adeebc0e5b2ef69a3d8551314eef3602d4cdc64280f4004965cf78b4ad3921"
+    }
+  ],
+  "access": "OrdinaryChrome works now, including historical357016. Normal BG routes read and9supporting/original observations recorded with8renderedPermanentlinks plus FFXIAHnode. Search yielded private-server mirror, never opened or used. Manual structured transcriptions/paraphrases, not rawHTML snapshots; no security bypass."
+}

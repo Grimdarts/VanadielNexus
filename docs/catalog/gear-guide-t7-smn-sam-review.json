@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Evidence reconciliation complete; /SAM composition source-limited",
+  "context_packet": "gear-guide-t7-smn-sam-context.json",
+  "context_sha256": "bfeb50cc8a46c66c56b9e61370818278eb77ca015dae8196ae3b82a0f8df1f46",
+  "candidate_saved": false,
+  "validation": {
+    "literal-native": {
+      "passed": 23,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 2.25,
+      "sha256": "03ca67b354314eafc9f807aaf29156f31bac9551fb1f7102ac89258e069936e5"
+    },
+    "focused-native": {
+      "passed": 671,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 58.41,
+      "sha256": "2047b81799652eb162cccf9ecf8c42c17e7643b6a8dfb62a5208732335696950"
+    },
+    "full-native": {
+      "passed": 1485,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 158.0,
+      "sha256": "334f8881e9f90c1ced0e1787d2e2f7e6114d16758879d9b7c8c6a54c3db5bb38"
+    }
+  },
+  "new_recommendations": 0,
+  "new_resources": 0,
+  "new_hands": 0,
+  "new_requirements": 0
+}

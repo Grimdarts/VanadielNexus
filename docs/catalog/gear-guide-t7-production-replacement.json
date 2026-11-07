@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-11-05",
+  "authorization": "Jason: You can continue that next part; saved current-chat production replacement successor",
+  "baseline_candidate_sha256": "d0b3af52d96f01ae2fe721ac9ef83d8150045a93c61d6f8a7c1c17a395b61f1a",
+  "prior_production_sha256": "b57b6bb34bc0e969140610fa623efe00fbaef3379c23ab00d9a29db7b6be4300",
+  "legacy_snapshot_path": "docs/catalog/gear-guide-production-v1-2026-11-05.json",
+  "legacy_snapshot_sha256": "b57b6bb34bc0e969140610fa623efe00fbaef3379c23ab00d9a29db7b6be4300",
+  "production_sha256": "fa24c857b90cf6cf1db6a03b26fb99d2da9ec605e84d31219c76054945a586f1",
+  "production_bytes": 9044291,
+  "candidate_counts": {
+    "sets": 520,
+    "revisions": 547,
+    "sources": 1331,
+    "effective": 512,
+    "retired": 27,
+    "unresolved": 8
+  },
+  "publication_counts": {
+    "sets": 512,
+    "revisions": 539,
+    "sources": 1331,
+    "effective": 512,
+    "retired": 27,
+    "unresolved": 0
+  },
+  "excluded_unresolved_set_ids": [
+    "ffxiah:373999:whm",
+    "ffxiah:367871:dnc",
+    "ffxiah:333679:mnk",
+    "ffxiah:378846:sch",
+    "ffxiah:365416:sam",
+    "ffxiah:352991:pup",
+    "ffxiah:371134:geo",
+    "ffxiah:357015:cor"
+  ],
+  "excluded_unresolved_revision_ids": [
+    "ffxiah:373999:whm:2026-11-03:f9cd4cdb743d",
+    "ffxiah:367871:dnc:2026-11-03:65e7cdaa0ffe",
+    "ffxiah:333679:mnk:2026-11-03:af506385d07d",
+    "ffxiah:378846:sch:2026-11-03:f1d5cd71ce84",
+    "ffxiah:365416:sam:2026-11-03:15ca7ef02669",
+    "ffxiah:352991:pup:2026-11-03:6372a729804e",
+    "ffxiah:371134:geo:2026-11-03:9f1b78de6cb0",
+    "ffxiah:357015:cor:2026-11-03:1892e4df5c54"
+  ],
+  "rules": "Only unresolved conceptual sets/revisions removed from publication; every retained record identical. All sources, amendments, coverage, provenance batches and other fields preserved except scoped delivery_status. Full candidate and legacy snapshot retained. No migration, retargeting or application code change.",
+  "validation": {
+    "focused-native": {
+      "passed": 828,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "72.84s (0:01:12)",
+      "log_sha256": "2b295b711102a80fa96e6ff518f1d50b4013b9bc0c0357c969dde89ec4697832"
+    },
+    "full-native": {
+      "passed": 1545,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "166.76s (0:02:46)",
+      "log_sha256": "862c04c6b80ceb43ec1233734a5df8a898964153a46b4a8926885fda98256806"
+    }
+  },
+  "targeted_validation": {
+    "passed": 34,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 3.91
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-11-05",
+  "issue_id": "SMN-SP-025",
+  "status": "resolved only for declared SMN99/WAR49 Mpaca/Khonsu low-buff avatar-alive checkpoint",
+  "historical_inventory_sha256": "f4f15d5a7cc2bb6ecb823fcd15f40b2e6c5b8fa0db70a1cc8640dd3ed52254ec",
+  "historical_smn_report_sha256": "95b89c8fbbaa4c5b1c80b51c786d5fa2f2f1382565f0ddcc9122c583610f75c0",
+  "resolution": "Appended three separately attributed16slot recommendations and three dedicated common master-engaged coverage rows after exact source/weapon/subjob/recipient/haste evidence reconciliation. Historical unclaimed entry retained; no gear-defect or universal coverage claim.",
+  "evidence_packet": "gear-guide-t7-smn-engaged-evidence.json",
+  "definitions_packet": "gear-guide-t7-smn-engaged-definitions.json",
+  "scope_limits": [
+    "Other staff/club/dual-wield weapons, stages and aftermath",
+    "/SAM Hasso and every other subjob/haste/food/buff/accuracy-target context",
+    "All original SMN pact/Ward/WS/ability variants and remaining all22jobs inventory obligations",
+    "BRD runtime retirement; no automatic saved target retargeting"
+  ],
+  "validation": {
+    "presave": {
+      "passed": 24,
+      "seconds": 2.43,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "f6378899e03030c7462adc5bcb10ed13b276a9edb9fcdc97a0b138a5eb0014e4"
+    },
+    "focused": {
+      "passed": 668,
+      "seconds": 58.08,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "7df77920a9b2135ec8ee0eb3d1e58bea163f0cfdbf6a3a2c77b123da20eddd2f"
+    },
+    "focused-native": {
+      "passed": 668,
+      "seconds": 53.46,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "13aaf36c0939be524fe12469e3c18ee8f4a98d2d63d414f17b129e994fcf1272"
+    },
+    "full-native": {
+      "passed": 1482,
+      "seconds": 155.76,
+      "failed": 0,
+      "skipped": 0,
+      "sha256": "b39052d8346b1655d779e8e9e46ed30b904e4b655e15b73e80b0f7ea22687e50"
+    }
+  },
+  "prior_record_policy": "All old records/packets immutable; no retirement needed for previously unclaimed context, no saved-target retargeting or runtime implementation.",
+  "incidental_deferred_observation": {
+    "status": "deferred outside SMN slice; no BST research/correction",
+    "detail": "Historical BST provenance rationale labels27544 Sherida; actual installed resource and original SMN401865 captured macro/grid identify27544 Dedition Earring. Audit historical label/source-ID attribution separately. This is not a new legality finding and no selected gear/history was changed.",
+    "evidence": [
+      "GEAR-GUIDE-T7-BST-PROVENANCE.md",
+      "gear-guide-t7-smn-engaged-evidence.json:observations401865",
+      "actual public resource items27544"
+    ]
+  }
+}

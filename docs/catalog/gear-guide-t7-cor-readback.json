@@ -1,0 +1,123 @@
+{
+  "checked_on": "2026-11-04",
+  "status": "COR bounded candidate milestone; job completion and production readiness not certified",
+  "checks_passed": 26,
+  "checks": [
+    "309 original byte backups hash correctly",
+    "original canonical bytes outside scoped docs candidate resources hands and counts preserved",
+    "earlier test changes exactly reviewed global counts authored-job lists and stable prior hand index",
+    "all283sets294revisions570sources unchanged append-only prefixes",
+    "all non-COR coverage unchanged",
+    "all prior source amendments authoring metadata batches retained",
+    "eleven withdrawnBRD encodings and successors preserved with304effective315storedflags",
+    "eight unresolved originals unchanged including partialCORRefresh",
+    "DRG still0recommendations and all8rows gaps",
+    "312sets323revisions629sources225coverage and29newCOR",
+    "elevenCOR included138total87gaps10jobs zeroNA",
+    "whole candidate prepared using actual resources and previoushistory",
+    "all586detached fields and descriptions match current actualresources",
+    "all560prior resources descriptions and metadata unchanged",
+    "four upstream bytehashes and fingerprint unchanged",
+    "all33prior hand records ASTidentical with exactTauret21565only appended",
+    "19originalgrids9facts valid digests and16slot observation grids",
+    "source reversedSavage right-earJSE missinggun andRefresh omissions preserved",
+    "31independentcards actualdescriptionhashes observationdigests sourcelocators verified",
+    "29saveddefinitions exactrevision slots and independentpresave10fingerprint",
+    "actualusableDW onlyNIN49 and shieldWARWHM; no modeledtraitspellbuffeffects",
+    "allselectedgunsammocontexts exact21485Chrono except two rollonly emptyammo",
+    "observationonly augmentedFomalhaut22143 not selectedoradded",
+    "publicdecoder bytehash unchanged fromBLU and current",
+    "protectedproductionv1bytehash unchanged",
+    "originalbranch andHEAD8f91ca1preserved"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 309,
+  "candidate_records": {
+    "sets": 312,
+    "revisions": 323,
+    "sources": 629,
+    "coverage": 225
+  },
+  "new_cor_recommendations": 29,
+  "stored_verified_flags": 315,
+  "effective_verified_compositions": 304,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "drg_gaps": 8,
+  "included_priorities": 138,
+  "gap_priorities": 87,
+  "remaining_jobs": 10,
+  "not_applicable": 0,
+  "resource_records": 586,
+  "hand_registry": "34 / hands.2026-11-04.v11",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "authoring_artifact_sha256": {
+    "gear-guide-t7-cor-definitions.json": "4e17950ad357b7e14e3dcb9815de480f895af7c07332eea3ae6244d27f61d5f3",
+    "gear-guide-t7-cor-item-evidence.json": "3d6571b0df69c1196080687572985406d03570185dcd2babea189139b5b44a85",
+    "gear-guide-t7-cor-observations.json": "93b30554107ba1bae5e249ac02145806754f456a4c44422fe66f9487879ef6b4"
+  },
+  "deferred_plan": "Jason requests remaining initial job passes before BRD/DRG issues; deferred not resolved/waived, runtime retirement unimplemented. Stop afterCOR.",
+  "limits": "Offline composition/history/preservation only; no ownership,bags,ammo readiness,currentBiS,numericcaps,modeledtraits/spells/buffs or human/frozen/live acceptance.",
+  "validation": {
+    "presave": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.98
+    },
+    "focused": {
+      "passed": 374,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 23.5
+    },
+    "full_native": {
+      "passed": 1132,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 128.09
+    },
+    "native_recheck": {
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.96
+    },
+    "initial_sandbox_full": {
+      "passed": 1130,
+      "failed": 2,
+      "skipped": 0,
+      "seconds": 141.19,
+      "reason": "Junction inspection and loopbackUDP restricted; unchanged tests pass natively; no assertion weakened"
+    },
+    "initial_focused": {
+      "passed": 370,
+      "failed": 4,
+      "skipped": 0,
+      "seconds": 25.24,
+      "reason": "New test API/observation-only resource expectations corrected; candidate and validators unchanged"
+    },
+    "git_diff_check": "passed",
+    "new_file_whitespace_check": "passed",
+    "scope": "Source/offline validation only, no frozen/live test or acceptance"
+  }
+}

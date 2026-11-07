@@ -28,12 +28,11 @@ from .pages.layout import LayoutPage
 from .pages.sets import SetsPage
 from .pages.settings import SettingsPage
 from .pages.wishlist import WishlistPage
-from .pages.world_map import WorldMapPage
 from .layout_manager import LayoutManager
 from .setup_dialog import SetupDialog
 
 NAV = [("⚔", GearPage), ("▣", SetsPage), ("✦", WishlistPage), ("☰", InventoryPage), ("⧉", AddonsPage), ("⊞", LayoutPage),
-       ("⌨", HotkeysPage), ("↗", GuidesPage), ("◎", WorldMapPage), ("▦", G13Page)]
+       ("⌨", HotkeysPage), ("↗", GuidesPage), ("▦", G13Page)]
 COLLAPSE_BELOW = 1100
 
 
@@ -175,6 +174,9 @@ class MainWindow(QMainWindow):
         super().resizeEvent(event)
 
     def closeEvent(self, event):
+        service = getattr(self.ctx, '_equipment_service', None)
+        if service is not None:
+            service.close()
         self.ctx.settings.set("window_geometry", bytes(self.saveGeometry().toHex()).decode())
         super().closeEvent(event)
 

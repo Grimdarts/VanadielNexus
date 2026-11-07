@@ -40,11 +40,12 @@ def test_sidebar_collapses_in_narrow_window(window, qtbot):
 
 
 def test_gear_goal_step_saves(window):
+    window.ctx.db.data["checkpoints"].append({"id": "step", "title": "Step goal", "job": "All",
+                                              "current": 3, "target": 10})
+    window.ctx.save_db()
     gear = window.pages[0]
+    gear.job_combo.setCurrentText("All jobs")
     gear.tabs.setCurrentIndex(2)
-    goals = gear.goals.model_.rows
-    if not goals:
-        pytest.skip("default database has no goals")
     gear.goals.selectRow(0)
     row = gear.goals.selected_row()
     before = row.get("current", 0)

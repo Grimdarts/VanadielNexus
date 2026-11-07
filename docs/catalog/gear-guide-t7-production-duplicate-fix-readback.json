@@ -1,0 +1,219 @@
+{
+  "checked_on": "2026-11-05",
+  "checks": [
+    {
+      "name": "backup is the historical production",
+      "passed": true
+    },
+    {
+      "name": "current sha matches packet",
+      "passed": true
+    },
+    {
+      "name": "LF only",
+      "passed": true
+    },
+    {
+      "name": "top-level non-set fields identical",
+      "passed": true
+    },
+    {
+      "name": "set ids and order identical",
+      "passed": true
+    },
+    {
+      "name": "exactly the 10 target sets changed",
+      "passed": true
+    },
+    {
+      "name": "264975 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "264975 only additions",
+      "passed": true
+    },
+    {
+      "name": "264975 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "264975 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "264979 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "264979 only additions",
+      "passed": true
+    },
+    {
+      "name": "264979 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "264979 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "333993 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "333993 only additions",
+      "passed": true
+    },
+    {
+      "name": "333993 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "333993 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "339932 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "339932 only additions",
+      "passed": true
+    },
+    {
+      "name": "339932 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "339932 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "371161 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "371161 only additions",
+      "passed": true
+    },
+    {
+      "name": "371161 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "371161 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "378247 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "378247 only additions",
+      "passed": true
+    },
+    {
+      "name": "378247 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "378247 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "302857 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "302857 only additions",
+      "passed": true
+    },
+    {
+      "name": "302857 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "302857 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "333131 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "333131 only additions",
+      "passed": true
+    },
+    {
+      "name": "333131 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "333131 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "339931 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "339931 only additions",
+      "passed": true
+    },
+    {
+      "name": "339931 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "339931 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "365917 non-item fields identical",
+      "passed": true
+    },
+    {
+      "name": "365917 only additions",
+      "passed": true
+    },
+    {
+      "name": "365917 each addition duplicates an existing record",
+      "passed": true
+    },
+    {
+      "name": "365917 original order preserved",
+      "passed": true
+    },
+    {
+      "name": "11 copies added",
+      "passed": true
+    },
+    {
+      "name": "candidate unchanged",
+      "passed": true
+    },
+    {
+      "name": "HEAD unchanged",
+      "passed": true
+    },
+    {
+      "name": "branch unchanged",
+      "passed": true
+    },
+    {
+      "name": "tracked diff adds only production json to the prior dirty set",
+      "passed": true
+    },
+    {
+      "name": "tests__core__test_guide_bst_other27.py stays LF",
+      "passed": true
+    },
+    {
+      "name": "tests__core__test_guide_scope_fallback.py stays LF",
+      "passed": true
+    }
+  ],
+  "passed": 53,
+  "total": 53
+}

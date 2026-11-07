@@ -1,0 +1,2161 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned while Nova paused)",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "meva",
+        "dt-swaps"
+      ],
+      "context": {
+        "action": "Disengaged defensive idle; actual incoming damage type, wyvern present/absent state and current/maxHP checked",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Nexus fixed Shining One/Utu Grip with base Nyame and defensive accessories; the guide has no idle grid. No source cap totals, path or rank inherited."
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "meva"
+      ],
+      "context": {
+        "job": "DRG99/WHM49",
+        "action": "Disengaged DRG99/WHM49 with learned Cure III (46MP), positive usable maxMP and actual MP deficit; self or eligible ally in 20 yalms, actual recast"
+      },
+      "rationale": "Nexus useful-MP recovery: Nyame Mail MP and two physical Stikini Ring +1 copies. No blanket DRG MP exemption; casting under the real HP threshold may also trigger defensive-wyvern Healing Breath, which is not promised."
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26022,
+          "name": "Vim Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23500,
+          "name": "Pelt. Plackart +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23567,
+          "name": "Pel. Vambraces +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23612,
+          "name": "Ptero. Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 25953,
+          "name": "Flam. Gambieras +2",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "endgame-tp",
+        "pre-ody-tp",
+        "standard-tp"
+      ],
+      "context": {
+        "action": "Engaged neutral attacks with wyvern actually present (Sroda pet-alive effect) and actual /SAM Hasso/haste state checked",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Nexus fixed Shining One and Endgame-grid accessories with Ptero. Brais +3 (exact tier from Pre-Ody grid) instead of source +4; base Coiste Bodhar, no R20. Literal STR/DA cape chosen where source thread reads Dex/Str. No delay cap or optimal TP loop certified."
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26118,
+          "name": "Sroda Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23567,
+          "name": "Pel. Vambraces +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26334,
+          "name": "Ioskeha Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23612,
+          "name": "Ptero. Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "dt-swaps",
+        "dt-no-wyvern"
+      ],
+      "context": {
+        "action": "Engaged mitigation alternative; actual incoming damage type, current/maxHP and wyvern state checked",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo DT swaps applied to the Nexus balanced base (Ptero. Brais +3 for source +4; base Gleti body). No damage-taken cap or survival promise."
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22296,
+          "name": "Voluspa Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23433,
+          "name": "Peltast's Mezail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25497,
+          "name": "Dgn. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25500,
+          "name": "Pel. Earring +2",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23500,
+          "name": "Pelt. Plackart +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23567,
+          "name": "Pel. Vambraces +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26231,
+          "name": "Ephramad's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26336,
+          "name": "Klouskap Sash +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23634,
+          "name": "Pelt. Cuissots +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23701,
+          "name": "Pelt. Schyn. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "acc-wyvern"
+      ],
+      "context": {
+        "action": "Engaged accuracy alternative with wyvern present; actual target evasion and hit rate unknown, actual haste checked",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Galkapryme Acc w/Wyvern accessories with Nexus Chirich Ring +1 for Varar Ring +1 (pet applicability not inferred); base Dgn. Collar +2 and Pel. Earring +2 only, no rank or random augment. Not capped accuracy."
+    },
+    {
+      "key": "impulse-drive",
+      "target": "Impulse Drive",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23433,
+          "name": "Peltast's Mezail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25497,
+          "name": "Dgn. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23545,
+          "name": "Ptero. Fin. G. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23634,
+          "name": "Pelt. Cuissots +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "impulse-drive"
+      ],
+      "context": {
+        "action": "Impulse Drive granted by equipped exact Shining One regardless of quest/skill; >=1000 usable TP and eligible enemy at execution",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo Impulse Drive grid with exact Shining One/Utu Grip; Ptero. Fin. G. +3 replaces source +4 and base Gleti body replaces R20+. Shining One TP-scaled crit bonus is not a universal hold-TP rule; Moonshade effective TP is not usable TP."
+    },
+    {
+      "key": "stardiver",
+      "target": "Stardiver",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23433,
+          "name": "Peltast's Mezail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23567,
+          "name": "Pel. Vambraces +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "stardiver"
+      ],
+      "context": {
+        "action": "Stardiver requires DRG main, completed Martial Mastery and at least one Stardiver merit; >=1000 usable TP and eligible enemy",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo Stardiver grid with Nexus Shining One instead of source Trishula: no Aeonic TP bonus, aftermath or skillchain property transferred. Base Gleti/Nyame, no R20/R25."
+    },
+    {
+      "key": "sonic-thrust",
+      "target": "Sonic Thrust",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23433,
+          "name": "Peltast's Mezail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25497,
+          "name": "Dgn. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26107,
+          "name": "Thrud Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23545,
+          "name": "Ptero. Fin. G. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "Weapon skill damage +10%",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "camlann-sonic",
+        "sonic-community"
+      ],
+      "context": {
+        "action": "Sonic Thrust native DRG80 polearm 300; >=1000 usable TP; frontal area may engage additional targets; actual skill level",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo shared Camlann/Sonic grid without Rhongomiant (Empyrean context not transferred); Ptero. Fin. G. +3 for +4. Area susceptibility and extra enmity actual."
+    },
+    {
+      "key": "jump",
+      "target": "Jump",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26022,
+          "name": "Vim Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23455,
+          "name": "Vishap Mail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23522,
+          "name": "Vis. Fng. Gaunt. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Store TP\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23612,
+          "name": "Ptero. Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 28286,
+          "name": "Ostro Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "jump",
+        "jump-galkapryme"
+      ],
+      "context": {
+        "action": "Jump or High Jump activation in range (9.5/11.5 yalms), actual recast; gear worn when the jump executes",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo Jump grid with exact Vishap Mail +3/Vis. Fng. Gaunt. +3 (Galkapryme tier; BG lists the same All Jumps TP bonus as +4) and Ptero. Brais +3; two physical Chirich copies. No Ryunohige forced crit or attack bonus."
+    },
+    {
+      "key": "spirit-jump",
+      "target": "Spirit Jump",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26022,
+          "name": "Vim Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23455,
+          "name": "Vishap Mail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23522,
+          "name": "Vis. Fng. Gaunt. +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Store TP\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23634,
+          "name": "Pelt. Cuissots +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23701,
+          "name": "Pelt. Schyn. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "jump",
+        "spirit-jump-swaps"
+      ],
+      "context": {
+        "action": "Spirit Jump with wyvern actually present for doubled TP/forced crit/attack bonus; actual recast and range",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo Spirit Jump swaps on the Nexus jump base: Peltast Cuissots +3 attack+19% and Schynbalds +3 TP+90 from public pages. No TP total certified."
+    },
+    {
+      "key": "soul-jump",
+      "target": "Soul Jump",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25592,
+          "name": "Hjarrandi Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26022,
+          "name": "Vim Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23500,
+          "name": "Pelt. Plackart +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23770,
+          "name": "Gleti's Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "Accuracy+10",
+              "\"Store TP\"+10",
+              "Phys. dmg. taken -10%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23612,
+          "name": "Ptero. Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 28286,
+          "name": "Ostro Greaves",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "jump",
+        "soul-jump-swaps"
+      ],
+      "context": {
+        "action": "Soul Jump with wyvern actually present for forced crit/triple TP/attack bonus; actual recast and range",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Boposhopo Soul Jump body/hands swaps; source Valorous Greaves random augments not invented, Ostro Greaves retained. Base Gleti gauntlets only."
+    },
+    {
+      "key": "call-wyvern",
+      "target": "Call Wyvern",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23478,
+          "name": "Ptero. Mail +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "call-wyvern"
+      ],
+      "context": {
+        "action": "Call Wyvern activation (wyvern absent, Spirit Surge inactive, actual recast); Ptero. Mail +3 worn at time of use",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Nexus defensive base plus source Call Wyvern body. Trait modifications persist until wyvern dies, is dismissed or DRG zones; later body swaps do not remove them. Support-job trait totals not certified."
+    },
+    {
+      "key": "spirit-link",
+      "target": "Spirit Link",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23388,
+          "name": "Vishap Armet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28498,
+          "name": "Pratik Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23567,
+          "name": "Pel. Vambraces +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23679,
+          "name": "Ptero. Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "spirit-link"
+      ],
+      "context": {
+        "action": "Spirit Link activation with wyvern below 100% HP unless Empathy merited; 12-17% actual current master HP consumed; actual recast",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Source Spirit Link swaps on the Nexus defensive base. Source Empathy feet annotation is not in the public +3 description and is not certified; ailment removal by Peltast hands per Spirit Link page."
+    },
+    {
+      "key": "restoring-breath",
+      "target": "Restoring Breath",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23411,
+          "name": "Ptero. Armet +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25497,
+          "name": "Dgn. Collar +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26216,
+          "name": "Dreki Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26259,
+          "name": "Brigantia's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23589,
+          "name": "Vishap Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23679,
+          "name": "Ptero. Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "healing-breath"
+      ],
+      "context": {
+        "action": "Restoring Breath (DRG90) forcing Healing Breath, or a real defensive-wyvern spell trigger below threshold; breath-potency gear worn when the breath resolves; wyvern max HP gear already counted",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Nexus breath set: Ptero. Armet +3 72/256 plus base Brigantia 38/256 exceeds the 96/256 cap, so Glassblower's Belt and augmented Updraft Mantle are not required; Vishap Brais +3/Ptero. Greaves +3 wyvern HP. No healing amount or cap position certified."
+    },
+    {
+      "key": "steady-wing",
+      "target": "Steady Wing",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21883,
+          "name": "Shining One",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24182,
+          "name": "Clemen. Somen",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26366,
+          "name": "Plat. Mog. Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23589,
+          "name": "Vishap Brais +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23679,
+          "name": "Ptero. Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "steady-wing"
+      ],
+      "context": {
+        "action": "Steady Wing (DRG95) with wyvern present; wyvern HP+ gear worn through at least one tic before use, actual recast",
+        "job": "DRG99/SAM49"
+      },
+      "rationale": "Source Steady Wing pieces at exact +3 (source +4 legs/feet not transferred) on the defensive base. HP+ swap at use does not count; absorb amount not certified."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:impulse-drive",
+          "nexus:drg:stardiver",
+          "nexus:drg:sonic-thrust"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Jumps",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Jumps",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:jump",
+          "nexus:drg:spirit-jump",
+          "nexus:drg:soul-jump"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DRG",
+        "priority": "Wyvern support / breath",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DRG",
+        "priority": "Wyvern support / breath",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded Shining One/Utu Grip contexts; wyvern presence, WS unlocks, jump/JA/breath timing and useful MP explicit. Not complete job/weapon/tier/action/buff/recipient/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DRG-AUTHORING.md; rendered BG Community Dragoon Guide 780419, Impulse Drive/Stardiver/Sonic Thrust/Shining One/Jump family/Call Wyvern/Spirit Link/Wyvern breath/Restoring Breath/Steady Wing/Cure III, 27 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:drg:call-wyvern",
+          "nexus:drg:spirit-link",
+          "nexus:drg:restoring-breath",
+          "nexus:drg:steady-wing"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Complete DRG progression, all haste/attack/accuracy/encounter/subjob brackets and wyvern-absent variants of every row",
+    "Other weapons/stages (Trishula, Ryunohige, Rhongomiant, Gungnir, Gae Buide, Naegling/Savage Blade, Malignance Pole, Reikikon), Drakesbane/Camlann/Geirskogul/Diarmuid/Raiden/Cataclysm and all WS variants",
+    "Angon, Ancient Circle, Dragon Breaker, Spirit Surge, Fly High, Deep Breathing, Smiting Breath, Super Jump, defensive-wyvern Healing Breath trigger midcast (Vishap Armet) and Removal Breath; fast cast/SIRD; magic evasion set",
+    "Numeric caps, breath/healing amounts, TP-return totals, effective TP thresholds, HP/MP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance"
+  ],
+  "sequencing": "Remaining initial passes (BST, PUP, DNC) FIRST; later second pass ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived. The 2026-11-04 DRG checkpoint packets are preserved unchanged."
+}

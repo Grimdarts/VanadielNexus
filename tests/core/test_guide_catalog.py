@@ -99,3 +99,13 @@ def test_full_names_keep_shortened_names_of_non_equipment(tmp_path):
         '    [3000] = {id=3000,en="Taru F. Screen",ja="x",enl="Tarutaru folding screen",jal="x",category="General"},\n'
         '}\n', encoding='utf-8')
     assert wiki.full_names(str(tmp_path)) == {3000: 'Tarutaru Folding Screen'}
+
+
+# These regressions intentionally exercise the retained v1 compatibility path.
+import pytest
+from tests.guide_bundle_fixtures import LEGACY
+
+@pytest.fixture(autouse=True)
+def retained_v1_bundle(monkeypatch):
+    from vanadiel_nexus.core import gear_guides
+    monkeypatch.setattr(gear_guides, 'resource_path', lambda *_: str(LEGACY))

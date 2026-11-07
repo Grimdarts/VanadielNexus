@@ -1,0 +1,353 @@
+{
+  "checked_on": "2026-11-04",
+  "items": [
+    {
+      "item_id": 11627,
+      "name": "Magoraga Beads",
+      "url": "https://www.ffxiah.com/item/11627",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "bd0115f6eac675556ff18573e4cd8482644f8ecd45daba807406b7a03253d57c",
+      "observation_sha256": "d72661f3a9a24192105cd2224e57c6b88aee5031644dede6ba6c1bf2092dd72a"
+    },
+    {
+      "item_id": 11651,
+      "name": "Epona's Ring",
+      "url": "https://www.ffxiah.com/item/11651",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "b4cfbd9654d60f60941154bcafeefc472e68deaf599ad4487840532e0fcc6543",
+      "observation_sha256": "fd68ff9af66977bc99b0829aff7b555bbc96eac77f0b576c76d11f0017bce773"
+    },
+    {
+      "item_id": 20977,
+      "name": "Heishi Shorinken",
+      "url": "https://www.ffxiah.com/item/20977",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "046075c39fd3ad052de829d80bf108e301118c2fa3d3b134e0794decff6b0dc9",
+      "hand_review": "Public Katana type, exact main card and skill checked against local Weapon/slots3/skill9; one-handed registry entry; offhand requires separately declared usable native Dual Wield.",
+      "observation_sha256": "38f5a5c9d09e1cbb8b89bfa87d5bbecc652198e4afb851cd2199fd81486dcddd"
+    },
+    {
+      "item_id": 21379,
+      "name": "Yetshila +1",
+      "url": "https://www.ffxiah.com/item/21379",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "915190c13e44c0a840c9c022bffee0352407e453a069bcad6d107b15ec034ed2",
+      "observation_sha256": "6455e684c2968d732b222a8794da56143a6b9912aad19f99cbcf9b14b55edb1b"
+    },
+    {
+      "item_id": 21391,
+      "name": "Seki Shuriken",
+      "url": "https://www.ffxiah.com/item/21391",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "ead1b5c072098deadf988ab56a6f9cf39373931b923a21863c7f3a7c09d7dd6c",
+      "conditional": "Shuriken/Daken context; Sange consumes shuriken. No automatic ammo safety or resupply implemented.",
+      "observation_sha256": "db60fec69ccbafcc40f08d760b3b3bb1e643f2c2cb1eaf756900fd8ef9efcfa1"
+    },
+    {
+      "item_id": 21431,
+      "name": "Coiste Bodhar",
+      "url": "https://www.ffxiah.com/item/21431",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "b3c5e376ceffe1a67dd05e7c57760e2a10cde08fa1c49b2bb51bd2f68e92c3fc",
+      "observation_sha256": "67d126f61800d6d716b2424e49b771215c2185744746968825476f36f7280260"
+    },
+    {
+      "item_id": 21922,
+      "name": "Gokotai",
+      "url": "https://www.ffxiah.com/item/21922",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "a657009b70ade9d7ced25841a7e89ed463eeaf2b4596eabe91e6b426416f09e1",
+      "hand_review": "Public Katana type, exact main card and skill checked against local Weapon/slots3/skill9; one-handed registry entry; offhand requires separately declared usable native Dual Wield.",
+      "observation_sha256": "f2de516073a945730ee4675894a22edcd56636328e037ba154effcaab6d968f1"
+    },
+    {
+      "item_id": 21925,
+      "name": "Kunimitsu",
+      "url": "https://www.ffxiah.com/item/21925",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "1f2b65ac0aa0f1a89da42cb3c41728e2de5c84eda729879f8c4a3bdfeba59d66",
+      "hand_review": "Public Katana type, exact main card and skill checked against local Weapon/slots3/skill9; one-handed registry entry; offhand requires separately declared usable native Dual Wield.",
+      "observation_sha256": "d378f5ada69ee1673ffbbb592dc5ace9ad40e6b3f93920db8c930d5c92721c31"
+    },
+    {
+      "item_id": 22255,
+      "name": "Seeth. Bomblet +1",
+      "url": "https://www.ffxiah.com/item/22255",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "5bb8c09316233eee1a2567dd4eed393662879a8b208c54cdd1ee075e11dda526",
+      "observation_sha256": "dff0aa5cd22abdec1c6b79b2293157fef8a2f7c9038c2dad38ae0110be92996c"
+    },
+    {
+      "item_id": 23432,
+      "name": "Hattori Zukin +3",
+      "url": "https://www.ffxiah.com/item/23432",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "b07f9a4fdb459cad44800118d491552793888fc168eff32f1b002d7767333696",
+      "observation_sha256": "37d674f171a83439f8cd386508d0fd0b2c6306e3cf3cc9bf379396b3a2067bc4"
+    },
+    {
+      "item_id": 23477,
+      "name": "Mochi. Chainmail +3",
+      "url": "https://www.ffxiah.com/item/23477",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "4dffbf07f05faf440532b0a9821b3649529e1e08fb19665c599e671536c340ec",
+      "observation_sha256": "01c748adb0ce9e59ff7c69fac5449adcd3b1efe7f438108bce15a14b324cd5f1"
+    },
+    {
+      "item_id": 23499,
+      "name": "Hattori Ningi +3",
+      "url": "https://www.ffxiah.com/item/23499",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "69531af2caa2692a53a098326d1bf5c4993f5c0ec19005d3c7a51e23a8ebf006",
+      "observation_sha256": "e1e97fceca1d3bba3e7cb1487caa01b9c3f88765fe34cc4d9d25e1a4912d5e6c"
+    },
+    {
+      "item_id": 23566,
+      "name": "Hattori Tekko +3",
+      "url": "https://www.ffxiah.com/item/23566",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "c77bc8c3e69ef7634453a249b792ec8d3966757709df1529598f2f78bc48bb9b",
+      "observation_sha256": "2dae9ca2265507610ffad4c418463a0d5522645bbabebe9b032c16febbf804ec"
+    },
+    {
+      "item_id": 23633,
+      "name": "Hattori Hakama +3",
+      "url": "https://www.ffxiah.com/item/23633",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "98b41c3701f85f0811c36ccea16333a9ab833afc4bc3b4b7f325c15da0542733",
+      "observation_sha256": "768cb34835990c3c5427503e19618314d959b919e758b9c7b2d9f82ec291c09e"
+    },
+    {
+      "item_id": 23700,
+      "name": "Hattori Kyahan +3",
+      "url": "https://www.ffxiah.com/item/23700",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "d99319f8590621966acda73b69d18328dd1834a0304155b9a34f49ddc3cb45fa",
+      "observation_sha256": "af5ecb58069bd2338fe52785ed85d69eb0cb665396649862e885732a49ef7f3f"
+    },
+    {
+      "item_id": 23765,
+      "name": "Mpaca's Doublet",
+      "url": "https://www.ffxiah.com/item/23765",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "e0f57a678d33167e232c1c409ac71cd7434a0029f3acda197c5e6042fbed7f48",
+      "observation_sha256": "04cc60955393309eb2cf5f7b56364769e9f935891efb3c4a4652f60732649e0b"
+    },
+    {
+      "item_id": 23779,
+      "name": "Mpaca's Hose",
+      "url": "https://www.ffxiah.com/item/23779",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "94d67eaff92ec0aba3f1754c464b5e52618693ddc4250018221ad483f4bf62e6",
+      "observation_sha256": "740a1c0640075d72e7675cacfb76f7cf5dafd28de8fd5702de7f77c3b3d83231"
+    },
+    {
+      "item_id": 23907,
+      "name": "Hachi. Hatsu. +4",
+      "url": "https://www.ffxiah.com/item/23907",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "d88f7d05edf08737d4e7345ae7ea8fa348958e4b8fddd71c8dadb90436bee3a4",
+      "observation_sha256": "35b0580589b015cab15ef9b47d32072fb3649497b7e20e4fe96d60278096d2ac"
+    },
+    {
+      "item_id": 23930,
+      "name": "Mochi. Hatsu. +4",
+      "url": "https://www.ffxiah.com/item/23930",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "2a8fc9f67a12e433709a8b0d4acb7f8cfa965df3998fe0bf9ced8ea291a083ac",
+      "observation_sha256": "efddfa0f72778d5c1d87ba1de4864cca805952ed315ea9bd846ab7c73ad96efb"
+    },
+    {
+      "item_id": 23952,
+      "name": "Hachi. Chain. +4",
+      "url": "https://www.ffxiah.com/item/23952",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "bdf5c9e316efc2bf29e4182f435f6bbc3a164024113f59f0e3d046b8a94326a6",
+      "observation_sha256": "d9eb8d2d7b2723eab537916dcee83858a441a1658b661ea1386f1c909a5549ac"
+    },
+    {
+      "item_id": 23997,
+      "name": "Hachiya Tekko +4",
+      "url": "https://www.ffxiah.com/item/23997",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "b430777c698cf2f783487512c807420612ef9bb5e39cc1352eff4af6d15b0230",
+      "observation_sha256": "270bce879dc54b8d66e4dc48e5e29009fda0c0599ee5541fd6158ce12297fa7b"
+    },
+    {
+      "item_id": 24020,
+      "name": "Mochi. Tekko +4",
+      "url": "https://www.ffxiah.com/item/24020",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "d2efb41f16a81d5d987fc87dbdd843b3bce6837445c3869932ebe59677e7756e",
+      "observation_sha256": "15ad236413e1af1d9c5348f939ac5c69cf35650a8b3e32eba8bdd785907f845a"
+    },
+    {
+      "item_id": 24042,
+      "name": "Hachiya Hakama +4",
+      "url": "https://www.ffxiah.com/item/24042",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "d8dd0e23877c87eef3c0e01de2e5107a8d3f82d9ee12ad3c3228f9a769d95faf",
+      "observation_sha256": "def0b6e283a74988e31798d96af7a019a881a18d4f2c6cf83f110979416510cb"
+    },
+    {
+      "item_id": 24087,
+      "name": "Hachiya Kyahan +4",
+      "url": "https://www.ffxiah.com/item/24087",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "8afcb05ec444eced1ff60c4a15ca04b3f7905758f56cbc99a5e058f2b469635f",
+      "conditional": "Movement effect evening to early morning only.",
+      "observation_sha256": "720e3edc01f52ba65428aa1114ac7f880490a61641c49356ea3ad9762c922341"
+    },
+    {
+      "item_id": 24110,
+      "name": "Mochi. Kyahan +4",
+      "url": "https://www.ffxiah.com/item/24110",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "048263169b1f3bb5b232931a894f3069473ac7042cc7d7d2a326ea45aae11d60",
+      "observation_sha256": "bf1ab16d097a2f6b01bbc2e4dfdb6e10e0c2e4293582ad64762ad0289ff72c6a"
+    },
+    {
+      "item_id": 25416,
+      "name": "Sibyl Scarf",
+      "url": "https://www.ffxiah.com/item/25416",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "7d9813bbe4a83d65bbfd55ef5cf9ae0032170032f3d01d32c135bf49fb2fcfc7",
+      "conditional": "Windurst citizenship Refresh not credited; selected for base INT/MAB in casting only.",
+      "observation_sha256": "c616573a5aafd5a99d69644e4f949ccb3211f7c884a6e6a7a49bc7ee6a466347"
+    },
+    {
+      "item_id": 25493,
+      "name": "Hattori Earring +1",
+      "url": "https://www.ffxiah.com/item/25493",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "5aa846cea8578cf006677764dc2447b77fd4d60118feb6aaba9e9179b0150d12",
+      "conditional": "Right ear only for printed skill/PDL; random augments excluded.",
+      "observation_sha256": "0346b953a6be086ce8577bbe5901f3cef55cf2c850bc65a8bb4373cb473285ac"
+    },
+    {
+      "item_id": 25842,
+      "name": "Herculean Trousers",
+      "url": "https://www.ffxiah.com/item/25842",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "9d6b945d03173cdc15332c46c5e3ca9a2fa552a0d3d59505ce5450f36b08db65",
+      "observation_sha256": "9f342dfa178b6faae4d1abeddd48fa2807f41ebf5d06f493e580c94969996512"
+    },
+    {
+      "item_id": 26184,
+      "name": "Stikini Ring +1",
+      "url": "https://www.ffxiah.com/item/26184",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "71d6925120297e7c3a4cba6ca382a27171167ede5b8e7ea96db60e465a0143b9",
+      "observation_sha256": "157a7f779585e26a2564a0b84377b928d7d26d47e9b2001a1f2911bf711cf4d8"
+    },
+    {
+      "item_id": 26258,
+      "name": "Andartia's Mantle",
+      "url": "https://www.ffxiah.com/item/26258",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "ddc92fe62bc5332d169ad142d23e971ae2854c75f0b914b2a37574203952fc8a",
+      "observation_sha256": "df5bede94a3f65e033993bbdc3ee39aac27432ecf610ed9ddfcd2b6ee1c84dc3"
+    },
+    {
+      "item_id": 26321,
+      "name": "Reiki Yotai",
+      "url": "https://www.ffxiah.com/item/26321",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "c3f5ba9de55d9af9af176890b0642f4bb05ebeeff552c916f793e041b3ca2c5a",
+      "observation_sha256": "9ccd4d24d13c3c26e63977b07a2af18a87f53c40db3b9f830b25a5fca43c7485"
+    },
+    {
+      "item_id": 26357,
+      "name": "Skrymir Cord +1",
+      "url": "https://www.ffxiah.com/item/26357",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "42d6ebf0d13d61179907faf3ed59f6fe438fcdffce6db374ab4075833d3a720b",
+      "observation_sha256": "f200032f5b77694e95e3db5d962ed0c0b8f803045f60a3b60e62259db3f028e2"
+    },
+    {
+      "item_id": 28471,
+      "name": "Gere Ring",
+      "url": "https://www.ffxiah.com/item/28471",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "cd4abec4b3ccca678258bca5d69cd214b0d5ccb8e97cf318cb7a27b426fecd18",
+      "observation_sha256": "c0f62220751778b1936d61fd2ec024cd155ecf7b34c3964cff0d323c2e424695"
+    },
+    {
+      "item_id": 28482,
+      "name": "Lugra Earring +1",
+      "url": "https://www.ffxiah.com/item/28482",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "53be87d52db4dd60ab7dfe7c246777d46be79b8aac4ac5e44a834d88b3be4c8e",
+      "conditional": "Dusk to dawn stats only; no Unity maximum/rank inferred.",
+      "observation_sha256": "fd8fa6fc0b501030886931cb4c791cfde52f07cb4a944a41ed589f5b8806c1c7"
+    },
+    {
+      "item_id": 28517,
+      "name": "Crematio Earring",
+      "url": "https://www.ffxiah.com/item/28517",
+      "method": "Ordinary Chrome public base card; exact ID/name, slot, NIN eligibility and base properties independently read",
+      "scope": "Manual card observation/paraphrase, not raw HTML. Local description digest is not a webpage hash. Base only; no Unity maximum, rank or random earring rolls credited.",
+      "resource_description_sha256": "41d0e2a5119363cddc2d218bdd87daafd6127cbce8d9a7cb9aefeac8b729e326",
+      "observation_sha256": "012dd95d6215c97a0ac701ff442f82019eec478cb720f3e301f4f3bf74c2e734"
+    }
+  ],
+  "native_augment_evidence": {
+    "path": "Windower4/addons/libs/extdata.lua",
+    "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921",
+    "method": "Public library read only; no Lua execution",
+    "parts": [
+      "DEX+20",
+      "DEX+10",
+      "STR+20",
+      "STR+10",
+      "INT+20",
+      "INT+10",
+      "Accuracy+20 Attack+20",
+      "Mag. Acc+20 /Mag. Dmg.+20",
+      "\"Dbl.Atk.\"+10",
+      "\"Dual Wield\"+10",
+      "Crit.hit rate+10",
+      "\"Mag.Atk.Bns.\"+10",
+      "\"Fast Cast\"+6",
+      "\"Fast Cast\"+10",
+      "Weapon skill damage +10%",
+      "Damage taken-5%",
+      "Attack+4",
+      "TP Bonus +250"
+    ]
+  }
+}

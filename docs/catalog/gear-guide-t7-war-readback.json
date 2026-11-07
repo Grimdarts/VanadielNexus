@@ -1,0 +1,137 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Bounded WAR initialpass;notproductionready;stopafterWAR and successor prompt",
+  "checks_passed": 27,
+  "checks": [
+    "338 original byte backups hash correctly",
+    "all existing canonical bytes outside scoped metadata hands testcounts unchanged",
+    "prior test edits exactly globalcounts and authoredjoblists",
+    "397 prior sets408revisions805sources appendonly prefixes unchanged",
+    "all nonWAR coverage rows unchanged",
+    "prior batches amendments metadata unchanged",
+    "11BRDwithdrawals retained425stored414effective",
+    "eight unresolved originals unchanged",
+    "DRG zero recommendations eightgaps retained",
+    "422sets433revisions839sources225rows25WAR",
+    "7WARincluded172total53gaps6jobszeroNA",
+    "wholecandidate actualresource immutablehistory preparation passes",
+    "712 detached resourcefields and descriptions match actualresources",
+    "699priorresources descriptions metadata unchanged",
+    "four upstream hashes fingerprint unchanged",
+    "40priorhandrecords ASTidentical onlyChango20843 shield27644 appended",
+    "11grids5facts18cards canonical digests verify",
+    "renderedBG781333 provenance retained",
+    "18card descriptionhashes and source locators verify",
+    "25saved definitions match revisions and independent presave fingerprint",
+    "7actualWARrows independently reconciled",
+    "25complete16slot compositions legal fixedhands deliberate emptyrange",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "all22secondpass and WorldMap unchanged",
+    "all4DRKpackets protectedbytes and declaredbaseline verified"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 338,
+  "candidate_records": {
+    "sets": 422,
+    "revisions": 433,
+    "sources": 839,
+    "coverage": 225
+  },
+  "new_war_recommendations": 25,
+  "stored_verified_flags": 425,
+  "effective_verified_compositions": 414,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "drg_gaps": 8,
+  "included_priorities": 172,
+  "gap_priorities": 53,
+  "remaining_jobs": 6,
+  "not_applicable": 0,
+  "resource_records": 712,
+  "hand_registry": "42 / hands.2026-11-05.v15",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-war-definitions.json": "df924afa66f545cb624213c62276b42d335204cd77a8f105c74e6935c81bff01",
+    "gear-guide-t7-war-item-evidence.json": "4477e75f86eec5cc2f5bc990ad25d7eea1b47ea1d2fd7830271d9009532bae2e",
+    "gear-guide-t7-war-observations.json": "3bd704a2145fe006e4b950343640470374e8605f15eebac3612b8b9ce6c259c8"
+  },
+  "deferred_plan": "Remaining initialpasses first;later secondpass ALL22jobs for issues with ANYjob;notstarted. BRD/DRG and all declaredissues deferred,notresolved/waived.",
+  "limits": "Offline composition/history/preservation;notHPpreservation,caps,ownership/bags,currentBiS,human/frozen/live acceptance",
+  "validation": {
+    "presave": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.86,
+      "log_sha256": "b685a2b45c6e8db7359e7b2c6a5997283866e09bcdb437bc6deec7165468e586"
+    },
+    "focused": {
+      "passed": 467,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 29.76,
+      "log_sha256": "8a8136f0f873562635ec8c77cdcbf5138e9b00df7f4877565718a588c29904ae"
+    },
+    "regression-native": {
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.55,
+      "log_sha256": "02ca885069de88ce7fb09c090e73412f6059e0b55cef826f42d1c3c77874ceaf"
+    },
+    "full-native": {
+      "passed": 1281,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 122.15,
+      "log_sha256": "3f6926534777a944c3b158fb86b878e832a372c0b35374b8c6a295d804f6d11e"
+    },
+    "first_full_sandbox": {
+      "passed": 1279,
+      "failed": 2,
+      "skipped": 0,
+      "seconds": 134.13,
+      "log_sha256": "1754156c71ce59a7408178bdf1f627a610b3934d6662a2a50aaa2db98886f54e",
+      "disposition": "Unchanged native regression probe2passed and full native1281passed; environment restrictions, no source weakening"
+    },
+    "whitespace": {
+      "diff_exit": 0,
+      "checked_files": 42,
+      "trailing_whitespace": [],
+      "limits": "Scoped edited/new canonical documents/packets/tests and WAR-local scripts; pre-existing unrelated whitespace untouched"
+    },
+    "final_handoff": {
+      "prompt_sha256": "362857c9bdc87660d8edcf99cb72d4e91cc406364bdf432ff6d824a14c17b5d6",
+      "mnk_kickoff_sha256": "426da10f65dbdd7d1cc7c374940c9f81f1230b850c80af1305b8624233527edb",
+      "war_report_sha256": "9a0da154fb0922f405f83a4bba5392e34edb06f3958054366e8d5dbdc91b23f1",
+      "handoff_sha256": "4fdc4c68f119164adf7a9266124cd15604f50f20616e1310a8292b221f999ee0",
+      "evidence_sha256": "a09dc771472c5935747c40bd57d3d1a26fd81b94598ce5422d4b69aac2a466ca",
+      "status": "Exact final prompt, history suffixes, logs and every previous git-status entry independently checked; MNK launch only"
+    }
+  }
+}

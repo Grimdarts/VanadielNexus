@@ -1,0 +1,352 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "BST provenance integration complete; source evidence scope remains bounded",
+  "baseline_candidate_sha256": "d20952e86f273646dde443e9fc347e4ad1591d07016b4f71fcbd0f6be7b392ee",
+  "candidate_sha256": "d468812af8202db254f6ef04aa6dca405cf7935e558f97e4fb7047dde9f0ee55",
+  "prior_review_sha256": "85e964bca85bd2142ed463639dc9255d3b71e853cbaed3076cf45aecb5a7edf2",
+  "slot_packet_sha256": "f2ed05675c0200dff4175f04aeb869bcc1d88fb3f896b3f6e415b01beff229ae",
+  "source_amendments": [
+    {
+      "source_id": "bst:second-pass:slots:323870:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-bst-pdt:2026-11-05",
+      "prior_source_sha256": "ea71413ef94c9b87ae0c65b6bf270e20b134c73e93853295c6b08b2fd69ae050",
+      "prior_observation_sha256": "8a3dfff318155fd6d7d813a9b8bad783ef6404988cfc00a56c51a9c43c61b42b",
+      "observation_sha256": "128bdf5ac82c4bf776f9e9c616cfe50ed35ca3a4ac716da0dafd859afb28efec",
+      "related_revision_ids": [
+        "nexus:bst:dt-idle:2026-11-05:c25b688f3100",
+        "nexus:bst:refresh-idle:2026-11-05:1f9537063c8e"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:323871:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-mdt-shell:2026-11-05",
+      "prior_source_sha256": "6ef3c9528afa814cd44bfd508aa959749aafde9f1d99cc9a15fa9b646a8dfadc",
+      "prior_observation_sha256": "a501533be57abbf67c5ca3d97cea3339453f99ae2791435e54a2de1ec4ec743a",
+      "observation_sha256": "845dd2afb93fd2816ae2f665d90c1e5dac351952fdba542dafbede668405c913",
+      "related_revision_ids": [],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:264975:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-idle-refresh:2026-11-05",
+      "prior_source_sha256": "6bb614e51f226dbaaf581b9148d6a70b4e212f0020b69423276313632bd413be",
+      "prior_observation_sha256": "5b0b789c5668a44fa2b71bdc8d3ff059f29ad1848f85dc1c2f78e57e9af1edde",
+      "observation_sha256": "7890a20d8182c166e81d503339890446490c2481d778e416d358e953297c67c6",
+      "related_revision_ids": [
+        "nexus:bst:refresh-idle:2026-11-05:1f9537063c8e"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:302857:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-killer-dt:2026-11-05",
+      "prior_source_sha256": "e69c056c8ee89b606d6bec24a88da89b70b3893c52e1a614ba792e1f21001c95",
+      "prior_observation_sha256": "7bd3adef022977173c30ff337add5f81c631fba9222853e6e9bb4d2064962cfc",
+      "observation_sha256": "8070e5e45036d4502529ff2d988d2fe47e17e1e34d0d6d84890d405832990262",
+      "related_revision_ids": [
+        "nexus:bst:dt-idle:2026-11-05:c25b688f3100"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:381578:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-tp-malignance:2026-11-05",
+      "prior_source_sha256": "2d0d84853a3c3833862e637ca914c36f6152012616636271faa742cdadb1b0e6",
+      "prior_observation_sha256": "739d47134e352cf5285b9be35003b3101486f3564f0f06cc0e365bd148e0bcf0",
+      "observation_sha256": "19476837534e7296c6b7848a8da2784282acacff6c0d6b1f37663f52cd1a6657",
+      "related_revision_ids": [
+        "nexus:bst:engaged-accuracy:2026-11-05:9f2a61573c98"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:381577:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-tp-gleti-pdl:2026-11-05",
+      "prior_source_sha256": "428dac39c144ae41c6421bdf7cf7e41cb4e4a6b95de5018d4d04f89f0d174b20",
+      "prior_observation_sha256": "8cb8819fdd6241695dab27b477e8b41f2a24b0754e45741c021947ff97bcf191",
+      "observation_sha256": "65ed3e412809a58195ee095fed75d4846e85c6901bec360615751ddd3cc7ab4b",
+      "related_revision_ids": [],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:381576:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-tp-ma:2026-11-05",
+      "prior_source_sha256": "3ea89985b0479079582515f8d942eb16a195a614749fb5e1a9405ee8fda5120c",
+      "prior_observation_sha256": "92a65da71fe414bc64668983c24cb8aab8150f90552514c5ca4fcc6392bfd6dd",
+      "observation_sha256": "b1c8c8894698b8508eb7a9b71f7832bff576b6d7c999a7e01ca7e8506d520161",
+      "related_revision_ids": [
+        "nexus:bst:engaged-balanced:2026-11-05:0c5d4806ff0c"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:371161:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-aymur-am3:2026-11-05",
+      "prior_source_sha256": "d33c1852c1f0fecd877edf0f520ddabe6cc7a634cde23c8492bbabb80aef54c3",
+      "prior_observation_sha256": "5ae064120302336656b8fe29757844f586c0d38a956e607506c4e5a796cdd6cd",
+      "observation_sha256": "a264b8adc3870e285723c8ec3dffb7a34e57f82a81b95467da7c0c26314a2067",
+      "related_revision_ids": [
+        "nexus:bst:engaged-accuracy:2026-11-05:9f2a61573c98"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:333283:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-rampage:2026-11-05",
+      "prior_source_sha256": "129d2e08149fb504b14b2f6a219624ded71e88ee81b1025e1940bdafa8893e2f",
+      "prior_observation_sha256": "b415f6f0bcffcd4cee70522803e9cd6d493bcfa0efcdd7e23a1b61be2b23782c",
+      "observation_sha256": "73540434bd8665d94a6b5a06a0513650203b8080e8f1e6d5b3d15f775475806c",
+      "related_revision_ids": [
+        "nexus:bst:rampage:2026-11-05:3a92aa85b545"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:347567:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-mistral:2026-11-05",
+      "prior_source_sha256": "a2b9d7fd9bd082518301c7156c29f8afe85ce3ae68ef6f1076db03581d81899d",
+      "prior_observation_sha256": "38be10f7f7a09a7aed0a1deba610179a64c6ba5a4e8c9c53e0d6c7b079e28e1f",
+      "observation_sha256": "29360a92bd1ee0b3ce1b736e2e0de6cd27f606c953e5651cf5ce975c21708b14",
+      "related_revision_ids": [
+        "nexus:bst:mistral-axe:2026-11-05:4776b7624a0a"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:391446:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-blitz:2026-11-05",
+      "prior_source_sha256": "775e085c677a6af333bc8e737165c7bb7a6dd18aaa8499ad76a7d27fecc6030e",
+      "prior_observation_sha256": "0f7e6db2a96fcd9e37c747ae8c8d1974286496871d8b15f79bf9f4d8039c0914",
+      "observation_sha256": "3f5604dc2e8bc431258ad6e619519105ce936e5cfa1349d83b361c277d9ec15f",
+      "related_revision_ids": [
+        "nexus:bst:blitz:2026-11-05:1813597b3b6a"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:337061:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-ready-low:2026-11-05",
+      "prior_source_sha256": "9f6f99e304b81aa35d3edc0517934d74c7d73ae769ee9fc16cd6ffe01c41a194",
+      "prior_observation_sha256": "ae876ee81b6ba312850ccceade774a56133f4ed44960f86438921ab312add2b3",
+      "observation_sha256": "a89d3b6834a7ff1791c99f40f1817661b02c846cc3ac7b17514193860cb7ab57",
+      "related_revision_ids": [
+        "nexus:bst:ready-physical:2026-11-05:293a47b7a782"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:337063:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-ready-high:2026-11-05",
+      "prior_source_sha256": "482a88750191ebb5cf1366c14199eb46dd02b16ae7482816855a8212db981281",
+      "prior_observation_sha256": "ffd10b8ce92d82d271484d57d162d95bbb53381bee43d4c8582659ef0f2956de",
+      "observation_sha256": "8bf98e74a71227396f3628b6d9cf9f31f2f86769ce1c50110b6cb602e45f6985",
+      "related_revision_ids": [
+        "nexus:bst:ready-physical:2026-11-05:293a47b7a782"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:337064:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-ready-max:2026-11-05",
+      "prior_source_sha256": "f6cef41e8feef7e37a279318751abb5f6818e9b9ea8e638413076d38b3b5dbad",
+      "prior_observation_sha256": "6e4d049ef2cbc50306483bcc33d9abf3dcccb7f802a7b6441c6d71e79b9f8fc3",
+      "observation_sha256": "c93edee4633f63158d20e2120e83c0e4bfa5b85d5d700045728dbfc4457993b5",
+      "related_revision_ids": [
+        "nexus:bst:pet-accuracy:2026-11-05:9b5f5fed53c5"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:342233:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-ready-multihit:2026-11-05",
+      "prior_source_sha256": "7138255e9aec46d3fccced8e42d853d3d94da0adb91577217dc332d675d70dae",
+      "prior_observation_sha256": "c3734dbe560b5d2ebee6a13123abf76495169350405a3a5fe324ce920a63d1d8",
+      "observation_sha256": "0928d69ab0ee9e672d309e8d7234ff044ac038e4b782bebe63a8c524462f8569",
+      "related_revision_ids": [
+        "nexus:bst:ready-multihit:2026-11-05:02ea7e174262"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:333993:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-ready-magic:2026-11-05",
+      "prior_source_sha256": "e51f08925862d285ce5599591f864429f946b97c7d357d3aeb07180f440d969e",
+      "prior_observation_sha256": "5753b741c77b7713bb59065814e4e734af96cdd29c041acdc6c3380d24514248",
+      "observation_sha256": "7a11d63bff31e71065afbc9e493a024e685a4cc5a70da658f293624b86e5fa2d",
+      "related_revision_ids": [
+        "nexus:bst:ready-magical:2026-11-05:a4f94496f82f"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:320353:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-pet-pdt:2026-11-05",
+      "prior_source_sha256": "1f6a1f81ea5b847d899e6301bd73a9b3a218e9bdabbfdae88b25ec12b0b289e7",
+      "prior_observation_sha256": "4987f33121270147476b8918e6a2b37cad4436538ac8c33302f29fc3bdb4ba1c",
+      "observation_sha256": "1581af9f6c562d0096acc89d869c1c5c728eeef6d41184fed649101f7e111ea3",
+      "related_revision_ids": [
+        "nexus:bst:pet-durability:2026-11-05:5ddbae556ae4"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:335128:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-pet-dt:2026-11-05",
+      "prior_source_sha256": "b348880a24f6bd8f71138af73eaf349c9c60ed6df8a7db249920b9d0540759ae",
+      "prior_observation_sha256": "68c497b9066975e26b33b714d6ea28fe7f1633abe33404fb18421ff08c504982",
+      "observation_sha256": "ade713f5e8280b009a01b552f93aa82d62e407364b6501e502b7791cec20f7d3",
+      "related_revision_ids": [
+        "nexus:bst:pet-durability:2026-11-05:5ddbae556ae4"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:264979:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-pet-tp:2026-11-05",
+      "prior_source_sha256": "1abe3ad12be0865bc14f66cf58b92790c5ccac41dfbe81d597188055c23e046d",
+      "prior_observation_sha256": "ed01b7b949a7ce827b82b7801b84c838faedcb0dc4ac6c447aef35d2bbc304e6",
+      "observation_sha256": "78a234822b273aaf81685a8a4332576d2ed1d84d1449dbc6617e0776cdf4368e",
+      "related_revision_ids": [],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:281814:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-sic-ready:2026-11-05",
+      "prior_source_sha256": "ad8d3130453cfbb30cf355dfc8b81753f469ad9963449ef99e43ef7f893bfcc2",
+      "prior_observation_sha256": "4038443309382bdc03ff1eb4e154d0a22940dfb68aa89eacbb05b9dad9262258",
+      "observation_sha256": "158566f2b97691bccc79274627834be7cf4a1a948f34879a3d33c97b142fba05",
+      "related_revision_ids": [
+        "nexus:bst:ready-precast:2026-11-05:4356bba09520"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    },
+    {
+      "source_id": "bst:second-pass:slots:347643:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-node-pet-macc:2026-11-05",
+      "prior_source_sha256": "6b9e06cd2010435face5e0cd8c82e3c98c301e4d278fb6de7857adb34e4c4583",
+      "prior_observation_sha256": "9cc9ed77411f882237a0df5c74ab03520517817036230a4448d88730689749e1",
+      "observation_sha256": "0e2ab38e9081f2deb83f26af821f0b2d9670b29495d6be17b606cea43cd86762",
+      "related_revision_ids": [
+        "nexus:bst:pet-accuracy:2026-11-05:9b5f5fed53c5"
+      ],
+      "scope": "Correct false no-slot-position capture method. One Kaidate sub in 302857 despite repeated same-slot command; two distinct Stikini +1 rings in 264975. Historical source and observations retained; no upstream-drift or gear-defect finding."
+    }
+  ],
+  "revision_amendments": [
+    {
+      "set_id": "nexus:bst:dt-idle",
+      "retired_revision_id": "nexus:bst:dt-idle:2026-11-05:c25b688f3100",
+      "successor_revision_id": "nexus:bst:dt-idle:provenance:2026-11-05:3eacfe43e869",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:refresh-idle",
+      "retired_revision_id": "nexus:bst:refresh-idle:2026-11-05:1f9537063c8e",
+      "successor_revision_id": "nexus:bst:refresh-idle:provenance:2026-11-05:9f0b2a6fa3f5",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:engaged-balanced",
+      "retired_revision_id": "nexus:bst:engaged-balanced:2026-11-05:0c5d4806ff0c",
+      "successor_revision_id": "nexus:bst:engaged-balanced:provenance:2026-11-05:1d33a885c23e",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:engaged-accuracy",
+      "retired_revision_id": "nexus:bst:engaged-accuracy:2026-11-05:9f2a61573c98",
+      "successor_revision_id": "nexus:bst:engaged-accuracy:provenance:2026-11-05:7f4f8b820bd5",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:blitz",
+      "retired_revision_id": "nexus:bst:blitz:2026-11-05:1813597b3b6a",
+      "successor_revision_id": "nexus:bst:blitz:provenance:2026-11-05:c5b18d18d1d9",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:rampage",
+      "retired_revision_id": "nexus:bst:rampage:2026-11-05:3a92aa85b545",
+      "successor_revision_id": "nexus:bst:rampage:provenance:2026-11-05:8a3085c6cc9d",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:mistral-axe",
+      "retired_revision_id": "nexus:bst:mistral-axe:2026-11-05:4776b7624a0a",
+      "successor_revision_id": "nexus:bst:mistral-axe:provenance:2026-11-05:02554a0cfcbb",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:ready-physical",
+      "retired_revision_id": "nexus:bst:ready-physical:2026-11-05:293a47b7a782",
+      "successor_revision_id": "nexus:bst:ready-physical:provenance:2026-11-05:60147f2bf8bb",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:ready-multihit",
+      "retired_revision_id": "nexus:bst:ready-multihit:2026-11-05:02ea7e174262",
+      "successor_revision_id": "nexus:bst:ready-multihit:provenance:2026-11-05:5fc3925b1254",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:ready-magical",
+      "retired_revision_id": "nexus:bst:ready-magical:2026-11-05:a4f94496f82f",
+      "successor_revision_id": "nexus:bst:ready-magical:provenance:2026-11-05:5622fc650f4f",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:pet-accuracy",
+      "retired_revision_id": "nexus:bst:pet-accuracy:2026-11-05:9b5f5fed53c5",
+      "successor_revision_id": "nexus:bst:pet-accuracy:provenance:2026-11-05:394043fd6492",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:pet-durability",
+      "retired_revision_id": "nexus:bst:pet-durability:2026-11-05:5ddbae556ae4",
+      "successor_revision_id": "nexus:bst:pet-durability:provenance:2026-11-05:41e360d4c8ea",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    },
+    {
+      "set_id": "nexus:bst:ready-precast",
+      "retired_revision_id": "nexus:bst:ready-precast:2026-11-05:4356bba09520",
+      "successor_revision_id": "nexus:bst:ready-precast:provenance:2026-11-05:08e2dfed449e",
+      "reason": "Correct source slot-grid provenance and source-versus-Nexus attribution; identical selected gear and requirements. Historical revision remains valid for saved selections; no automatic retargeting or runtime retirement implemented."
+    }
+  ],
+  "issue_dispositions": [
+    {
+      "item": "Candidate source-ledger propagation",
+      "status": "fixed in candidate provenance",
+      "detail": "The 21 correction/amendment records are in a separate evidence packet. Candidate sources and revision IDs remain byte-identical; a next bounded BST integration slice must append exact corrected source references and revise affected provenance without deleting prior observations or pretending runtime retirement exists."
+    },
+    {
+      "item": "Pet-accuracy rationale says both source axes were listed without hands",
+      "status": "fixed in candidate provenance",
+      "detail": "337064 and 347643 explicitly place Telopanos 21738 main / Spalirisos 21730 sub. The Nexus choice reverses them intentionally. Preserve the gear and annotate actual source positions through an append-only successor; do not claim source omitted hands."
+    },
+    {
+      "item": "Engaged-balanced rationale says identical to node TP MA",
+      "status": "fixed in candidate provenance",
+      "detail": "381576 has Sherida 27544 ear1 / Telos 26084 ear2; current Nexus swaps those positions. Both are legal generic ear slots, but exact source-slot identity is unproven. Clarify source versus Nexus attribution in next append-only provenance correction."
+    },
+    {
+      "item": "Other node 227 scopes and all declared BST variants",
+      "status": "explicitly deferred",
+      "detail": "21 already-scoped sets corrected; the other 27 linked sets are not converted here. Other weapon/WS/pet/action/augment obligations remain in inventory."
+    }
+  ],
+  "unchanged": [
+    "All selected slots, augment requirements, conceptual sets, coverage rows, resources and hands",
+    "All previous immutable records, original job reports and evidence packets"
+  ],
+  "limits": [
+    "Complete BST progression, all haste/attack/accuracy/encounter/subjob brackets, single-weapon (Fencer) and two-handed /DRK or /SAM scythe/great axe contexts",
+    "Other weapons/stages (Spalirisos II/I, Aymur 119 III/119, Guttler, Farsha, Tri-edge, Dolichenus, Agwu, Pangu, Izizoeksi, Skullrender, Kumbhakarna, Agwu's, Fernagu) and Decimation/Onslaught/Calamity/Ruinator/Bora Axe/Primal Rend/Cloudsplitter/Cloudsplitter WS sets",
+    "Reward, Call Beast, Charm, Killer Instinct, Feral Howl, Spur/Run Wild/Unleash/Familiar, Metallic Body, Waltz, Cure-received, fast cast, MDT/Shell, regen/regain idle, pet TP (Skullrender) and individual Ready-move/jug variants",
+    "Pet-cape and Odyssey/Valorous/Kumbhakarna augments, numeric caps, pet damage/TP/recast floors, HP/MP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance",
+    "SMN common master-engaged obligations and all22jobs inventory remain open; BRD runtime retirement unimplemented."
+  ],
+  "new_resources": 0,
+  "new_requirements": 0,
+  "new_hands": 0
+}

@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "Exact-ID label correction complete; one immutable provenance-only revision successor",
+  "baseline_candidate_sha256": "195afca9b241ba1fcc87d1a6c292632bdeeb3e367b08564bb6e5bfe0a1048c87",
+  "candidate_sha256": "cf3868c2677c185982f98ddb8176c0badab34a507d43d3905759beda2f417162",
+  "amendment": {
+    "set_id": "nexus:bst:engaged-balanced",
+    "retired_revision_id": "nexus:bst:engaged-balanced:provenance:2026-11-05:1d33a885c23e",
+    "successor_revision_id": "nexus:bst:engaged-balanced:labels:2026-11-05:5cab4d021ad0",
+    "reason": "Exact-ID earring name correction only; selected gear/requirements and prior histories unchanged. No saved-target retargeting or runtime retirement."
+  },
+  "source_id": "bst:label-correction:381576:2026-11-05",
+  "raw_source_path": ".t7-second-pass-checks/bst-source-html/itemset-381576.html",
+  "raw_source_sha256": "f1bef90a302569a419e7a21b118e604d8295012b4fafbf81f097ef77ce66cb85",
+  "source_slots": {
+    "ear1": {
+      "item_id": 27544,
+      "name": "Dedition Earring"
+    },
+    "ear2": {
+      "item_id": 26084,
+      "name": "Sherida Earring"
+    }
+  },
+  "nexus_slots": {
+    "ear1": {
+      "item_id": 26084,
+      "name": "Sherida Earring"
+    },
+    "ear2": {
+      "item_id": 27544,
+      "name": "Dedition Earring"
+    }
+  },
+  "not_selected": {
+    "item_id": 27545,
+    "name": "Telos Earring"
+  },
+  "superseded_claim": "Sherida27544/Telos26084 in prior BST provenance rationale/report and tests; SMN deferred observation now resolved here. All historical records retained.",
+  "unchanged": [
+    "Selected slots/requirements/verification/context/defaults",
+    "All prior records/reports/packets/captures",
+    "Coverage228/sets517/resources863/hands55v19",
+    "Other BST/SMN/all22jobs limitations and production gates"
+  ],
+  "new_hands": 0,
+  "new_resources": 0,
+  "new_requirements": 0
+}

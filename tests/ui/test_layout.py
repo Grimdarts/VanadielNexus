@@ -136,3 +136,29 @@ def test_page_drag_and_save(ctx, win, qtbot):
     page.save()
     assert pettp(win) == [400, 300]
     assert ctx.layouts.store.get("Alice", "SMN")["positions"]["xivbar"] == [100, -200]
+
+
+def test_moving_the_smn_hud_reloads_gearswap_by_its_own_command(ctx, win, qtbot):
+    """GearSwap is never shown/hidden by layouts, so it has no 'shown' entry; a moved HUD still needs 'gs reload'."""
+    game(ctx, "SMN")
+    layout = ctx.layouts.layout_for("SMN")
+    assert "GearSwap" not in layout["shown"]
+    layout["positions"]["GearSwap.smn_hud"] = [500, 300]
+    ctx.bridge.sent.clear()
+    ctx.layouts.save_layout("SMN", layout)
+    assert "CMD|gs reload" in ctx.bridge.sent
+    assert not any(m.startswith("ADDON|") and "GearSwap" in m for m in ctx.bridge.sent)  # never unload/load
+
+
+def test_cancelling_the_background_picker_keeps_the_background_unless_removal_is_confirmed(ctx, qtbot, monkeypatch):
+    from vanadiel_nexus.ui.pages import layout as layout_page
+    page = layout_page.LayoutPage(ctx)
+    qtbot.addWidget(page)
+    ctx.settings.set("layout_background", "C:/shots/ffxi.png")
+    monkeypatch.setattr(layout_page.QFileDialog, "getOpenFileName", staticmethod(lambda *a, **k: ("", "")))
+    monkeypatch.setattr(page, "confirm", lambda *a, **k: False)
+    page.pick_background()
+    assert ctx.settings.get("layout_background") == "C:/shots/ffxi.png"
+    monkeypatch.setattr(page, "confirm", lambda *a, **k: True)
+    page.pick_background()
+    assert ctx.settings.get("layout_background") == ""

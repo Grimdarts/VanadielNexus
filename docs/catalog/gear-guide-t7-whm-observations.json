@@ -1,0 +1,1955 @@
+{
+  "checked_on": "2026-11-03",
+  "scope": "Public WHM source observations, not automatic source recommendations",
+  "observations": [
+    {
+      "id": "366767",
+      "url": "https://www.ffxiah.com/item-sets/366767",
+      "title": "Whm -DT",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "ring1",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27645,
+          "name": "Genmei Shield"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26209,
+          "name": "Ayanmo Ring"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 27539,
+          "name": "Genmei Earring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "main",
+          "item_id": 21102,
+          "name": "Mafic Cudgel"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23782,
+          "name": "Nyame Flanchard"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets"
+        },
+        {
+          "slot": "head",
+          "item_id": 23761,
+          "name": "Nyame Helm"
+        },
+        {
+          "slot": "body",
+          "item_id": 23768,
+          "name": "Nyame Mail"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23789,
+          "name": "Nyame Sollerets"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "ring1",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27645,
+          "name": "Genmei Shield"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26209,
+          "name": "Ayanmo Ring"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 27539,
+          "name": "Genmei Earring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "main",
+          "item_id": 21102,
+          "name": "Mafic Cudgel"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23782,
+          "name": "Nyame Flanchard"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets"
+        },
+        {
+          "slot": "head",
+          "item_id": 23761,
+          "name": "Nyame Helm"
+        },
+        {
+          "slot": "body",
+          "item_id": 23768,
+          "name": "Nyame Mail"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23789,
+          "name": "Nyame Sollerets"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "1ca16693ef6c152be4df19823aa587f47754100b12a7bcb913006f15a42242a9"
+    },
+    {
+      "id": "373997",
+      "url": "https://www.ffxiah.com/item-sets/373997",
+      "title": "Whm Idle Refresh v1",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "head",
+          "item_id": 26790,
+          "name": "Befouled Crown"
+        },
+        {
+          "slot": "body",
+          "item_id": 26903,
+          "name": "Ebers Bliaut +1"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28135,
+          "name": "Assid. Pants +1"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 11697,
+          "name": "Moonshade Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22268,
+          "name": "Homiliary"
+        },
+        {
+          "slot": "sub",
+          "item_id": 12296,
+          "name": "Genbu's Shield"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26001,
+          "name": "Loricate Torque"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "head",
+          "item_id": 26790,
+          "name": "Befouled Crown"
+        },
+        {
+          "slot": "body",
+          "item_id": 26903,
+          "name": "Ebers Bliaut +1"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28135,
+          "name": "Assid. Pants +1"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 11697,
+          "name": "Moonshade Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22268,
+          "name": "Homiliary"
+        },
+        {
+          "slot": "sub",
+          "item_id": 12296,
+          "name": "Genbu's Shield"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26001,
+          "name": "Loricate Torque"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "bf498dd44b98fe935f986c72fc3a9893d2eef76348e4e0f6dcfc3ab9b0ab9fe0"
+    },
+    {
+      "id": "373998",
+      "url": "https://www.ffxiah.com/item-sets/373998",
+      "title": "Whm Idle Refresh v2",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "hands",
+          "item_id": 25831,
+          "name": "Inyan. Dastanas +2"
+        },
+        {
+          "slot": "feet",
+          "item_id": 25949,
+          "name": "Inyan. Crackows +2"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 26207,
+          "name": "Inyanga Ring"
+        },
+        {
+          "slot": "body",
+          "item_id": 23109,
+          "name": "Theo. Bliaut +2"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28135,
+          "name": "Assid. Pants +1"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 11697,
+          "name": "Moonshade Earring"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27645,
+          "name": "Genmei Shield"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22268,
+          "name": "Homiliary"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "hands",
+          "item_id": 25831,
+          "name": "Inyan. Dastanas +2"
+        },
+        {
+          "slot": "feet",
+          "item_id": 25949,
+          "name": "Inyan. Crackows +2"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 26207,
+          "name": "Inyanga Ring"
+        },
+        {
+          "slot": "body",
+          "item_id": 23109,
+          "name": "Theo. Bliaut +2"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28135,
+          "name": "Assid. Pants +1"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 11697,
+          "name": "Moonshade Earring"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27645,
+          "name": "Genmei Shield"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22268,
+          "name": "Homiliary"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "363ff5c6a2a1730bfb99810022a9998a0211bd34a3456cccc25de75a6852c272"
+    },
+    {
+      "id": "366768",
+      "url": "https://www.ffxiah.com/item-sets/366768",
+      "title": "Whm Magic Evasion",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "ring1",
+          "item_id": 26207,
+          "name": "Inyanga Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "waist",
+          "item_id": 10832,
+          "name": "Carrier's Sash"
+        },
+        {
+          "slot": "neck",
+          "item_id": 27505,
+          "name": "Warder's Charm +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "main",
+          "item_id": 22040,
+          "name": "Daybreak"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23774,
+          "name": "Bunzi's Gloves"
+        },
+        {
+          "slot": "head",
+          "item_id": 23760,
+          "name": "Bunzi's Hat"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23781,
+          "name": "Bunzi's Pants"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23788,
+          "name": "Bunzi's Sabots"
+        },
+        {
+          "slot": "body",
+          "item_id": 23767,
+          "name": "Bunzi's Robe"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 27540,
+          "name": "Eabani Earring"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "ring1",
+          "item_id": 26207,
+          "name": "Inyanga Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28478,
+          "name": "Etiolation Earring"
+        },
+        {
+          "slot": "waist",
+          "item_id": 10832,
+          "name": "Carrier's Sash"
+        },
+        {
+          "slot": "neck",
+          "item_id": 27505,
+          "name": "Warder's Charm +1"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "main",
+          "item_id": 22040,
+          "name": "Daybreak"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23774,
+          "name": "Bunzi's Gloves"
+        },
+        {
+          "slot": "head",
+          "item_id": 23760,
+          "name": "Bunzi's Hat"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23781,
+          "name": "Bunzi's Pants"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23788,
+          "name": "Bunzi's Sabots"
+        },
+        {
+          "slot": "body",
+          "item_id": 23767,
+          "name": "Bunzi's Robe"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 27540,
+          "name": "Eabani Earring"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "e7dabd96c9ec74c770ee9a64ee76ad007c1402223625d00d8dd3ffa8bc29235e"
+    },
+    {
+      "id": "372567",
+      "url": "https://www.ffxiah.com/item-sets/372567",
+      "title": "Whm pdt/meva/refresh v2",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "feet",
+          "item_id": 25949,
+          "name": "Inyan. Crackows +2"
+        },
+        {
+          "slot": "hands",
+          "item_id": 25831,
+          "name": "Inyan. Dastanas +2"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 27540,
+          "name": "Eabani Earring"
+        },
+        {
+          "slot": "legs",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "main",
+          "item_id": 22087,
+          "name": "Malignance Pole"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26184,
+          "name": "Stikini Ring +1"
+        },
+        {
+          "slot": "sub",
+          "item_id": 18811,
+          "name": "Oneiros Grip"
+        },
+        {
+          "slot": "body",
+          "item_id": 23489,
+          "name": "Ebers Bliaut +3"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 25433,
+          "name": "Ebers Earring +1"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "feet",
+          "item_id": 25949,
+          "name": "Inyan. Crackows +2"
+        },
+        {
+          "slot": "hands",
+          "item_id": 25831,
+          "name": "Inyan. Dastanas +2"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 13566,
+          "name": "Defending Ring"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26002,
+          "name": "Loricate Torque +1"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 27540,
+          "name": "Eabani Earring"
+        },
+        {
+          "slot": "legs",
+          "item_id": 25882,
+          "name": "Inyanga Shalwar +2"
+        },
+        {
+          "slot": "waist",
+          "item_id": 28452,
+          "name": "Fucho-no-Obi"
+        },
+        {
+          "slot": "main",
+          "item_id": 22087,
+          "name": "Malignance Pole"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26184,
+          "name": "Stikini Ring +1"
+        },
+        {
+          "slot": "sub",
+          "item_id": 18811,
+          "name": "Oneiros Grip"
+        },
+        {
+          "slot": "body",
+          "item_id": 23489,
+          "name": "Ebers Bliaut +3"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 25433,
+          "name": "Ebers Earring +1"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "9c4c23909933e795cede27cbb0b003b3c116631f5732bb253074a7f6eede5d0e"
+    },
+    {
+      "id": "373971",
+      "url": "https://www.ffxiah.com/item-sets/373971",
+      "title": "Whm Fast Cast Novice",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "hands",
+          "item_id": 28054,
+          "name": "Gendewitha Gages"
+        },
+        {
+          "slot": "feet",
+          "item_id": 28273,
+          "name": "Regal Pumps"
+        },
+        {
+          "slot": "neck",
+          "item_id": 11615,
+          "name": "Orison Locket"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "body",
+          "item_id": 25751,
+          "name": "Inyanga Jubbah"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 14812,
+          "name": "Loquac. Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 19257,
+          "name": "Incantor Stone"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 10752,
+          "name": "Prolix Ring"
+        },
+        {
+          "slot": "legs",
+          "item_id": 25869,
+          "name": "Ayanmo Cosciales"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27635,
+          "name": "Chanter's Shield"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "hands",
+          "item_id": 28054,
+          "name": "Gendewitha Gages"
+        },
+        {
+          "slot": "feet",
+          "item_id": 28273,
+          "name": "Regal Pumps"
+        },
+        {
+          "slot": "neck",
+          "item_id": 11615,
+          "name": "Orison Locket"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "body",
+          "item_id": 25751,
+          "name": "Inyanga Jubbah"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 14812,
+          "name": "Loquac. Earring"
+        },
+        {
+          "slot": "ammo",
+          "item_id": 19257,
+          "name": "Incantor Stone"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 10752,
+          "name": "Prolix Ring"
+        },
+        {
+          "slot": "legs",
+          "item_id": 25869,
+          "name": "Ayanmo Cosciales"
+        },
+        {
+          "slot": "sub",
+          "item_id": 27635,
+          "name": "Chanter's Shield"
+        }
+      ],
+      "note": "Main is omitted while sub is selected. This is not a verified standalone composition; Nexus supplies its own explicit main in its separately attributed recommendation.",
+      "observation_sha256": "e13bd9960521d9903296cd46117d2aefca3261e7cb0e7765a4951d5375504b13"
+    },
+    {
+      "id": "373983",
+      "url": "https://www.ffxiah.com/item-sets/373983",
+      "title": "Whm Doom Novice",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "feet",
+          "item_id": 27463,
+          "name": "Vanya Clogs"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 10790,
+          "name": "Ephedra Ring"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 10790,
+          "name": "Ephedra Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "body",
+          "item_id": 26903,
+          "name": "Ebers Bliaut +1"
+        },
+        {
+          "slot": "neck",
+          "item_id": 10392,
+          "name": "Malison Medallion"
+        },
+        {
+          "slot": "hands",
+          "item_id": 27136,
+          "name": "Fanatic Gloves"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28113,
+          "name": "Theo. Pant. +1"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "feet",
+          "item_id": 27463,
+          "name": "Vanya Clogs"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 10790,
+          "name": "Ephedra Ring"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 10790,
+          "name": "Ephedra Ring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "body",
+          "item_id": 26903,
+          "name": "Ebers Bliaut +1"
+        },
+        {
+          "slot": "neck",
+          "item_id": 10392,
+          "name": "Malison Medallion"
+        },
+        {
+          "slot": "hands",
+          "item_id": 27136,
+          "name": "Fanatic Gloves"
+        },
+        {
+          "slot": "legs",
+          "item_id": 28113,
+          "name": "Theo. Pant. +1"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "d36a2e4e4708426a20ad9e9567cc7f90e6c0fdae1d91e8fcd128e70294a64f73"
+    },
+    {
+      "id": "373991",
+      "url": "https://www.ffxiah.com/item-sets/373991",
+      "title": "Whm Midcast -na's",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "main",
+          "item_id": 18973,
+          "name": "Yagrush"
+        },
+        {
+          "slot": "back",
+          "item_id": 28619,
+          "name": "Mending Cape"
+        },
+        {
+          "slot": "neck",
+          "item_id": 25429,
+          "name": "Cleric's Torque"
+        },
+        {
+          "slot": "head",
+          "item_id": 23422,
+          "name": "Ebers Cap +3"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "main",
+          "item_id": 18973,
+          "name": "Yagrush"
+        },
+        {
+          "slot": "head",
+          "item_id": 23422,
+          "name": "Ebers Cap +3"
+        },
+        {
+          "slot": "neck",
+          "item_id": 25429,
+          "name": "Cleric's Torque"
+        },
+        {
+          "slot": "back",
+          "item_id": 28619,
+          "name": "Mending Cape"
+        }
+      ],
+      "note": "CONFLICT: macro block selects both Vanya Hood and Ebers Cap +3 in head; generated Gearswap block collapses the first. Do not normalize this into an exact source-authored selection.",
+      "observation_sha256": "336abe59b99ea034b57d95b45ff7bcf23614586e5d442be4c08f990ba5fd767f"
+    },
+    {
+      "id": "373993",
+      "url": "https://www.ffxiah.com/item-sets/373993",
+      "title": "Divine Caress",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "back",
+          "item_id": 28619,
+          "name": "Mending Cape"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "back",
+          "item_id": 28619,
+          "name": "Mending Cape"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "8b9f9f24190776d5d460b3ea42610efbcda930cb778a49620ccb0fa49777abf7"
+    },
+    {
+      "id": "373995",
+      "url": "https://www.ffxiah.com/item-sets/373995",
+      "title": "Whm Enhancing Duration",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "legs",
+          "item_id": 27235,
+          "name": "Telchine Braconi"
+        },
+        {
+          "slot": "head",
+          "item_id": 26736,
+          "name": "Telchine Cap"
+        },
+        {
+          "slot": "body",
+          "item_id": 26894,
+          "name": "Telchine Chas."
+        },
+        {
+          "slot": "hands",
+          "item_id": 27048,
+          "name": "Telchine Gloves"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23645,
+          "name": "Theo. Duckbills +3"
+        },
+        {
+          "slot": "main",
+          "item_id": 21072,
+          "name": "Gada"
+        },
+        {
+          "slot": "sub",
+          "item_id": 26419,
+          "name": "Ammurapi Shield"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "legs",
+          "item_id": 27235,
+          "name": "Telchine Braconi"
+        },
+        {
+          "slot": "head",
+          "item_id": 26736,
+          "name": "Telchine Cap"
+        },
+        {
+          "slot": "body",
+          "item_id": 26894,
+          "name": "Telchine Chas."
+        },
+        {
+          "slot": "hands",
+          "item_id": 27048,
+          "name": "Telchine Gloves"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23645,
+          "name": "Theo. Duckbills +3"
+        },
+        {
+          "slot": "main",
+          "item_id": 21072,
+          "name": "Gada"
+        },
+        {
+          "slot": "sub",
+          "item_id": 26419,
+          "name": "Ammurapi Shield"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "e0a9cdcded28b9009c7bb7f9b461f4235962716fda9e46460505f70b065dd79e"
+    },
+    {
+      "id": "369805",
+      "url": "https://www.ffxiah.com/item-sets/369805",
+      "title": "Whm Regen",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "main",
+          "item_id": 21111,
+          "name": "Bolelabunga"
+        },
+        {
+          "slot": "sub",
+          "item_id": 26419,
+          "name": "Ammurapi Shield"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "body",
+          "item_id": 23467,
+          "name": "Piety Bliaut +3"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23578,
+          "name": "Th. Pant. +3"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23645,
+          "name": "Theo. Duckbills +3"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "main",
+          "item_id": 21111,
+          "name": "Bolelabunga"
+        },
+        {
+          "slot": "sub",
+          "item_id": 26419,
+          "name": "Ammurapi Shield"
+        },
+        {
+          "slot": "head",
+          "item_id": 25577,
+          "name": "Inyanga Tiara +2"
+        },
+        {
+          "slot": "body",
+          "item_id": 23467,
+          "name": "Piety Bliaut +3"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23578,
+          "name": "Th. Pant. +3"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23645,
+          "name": "Theo. Duckbills +3"
+        },
+        {
+          "slot": "waist",
+          "item_id": 26354,
+          "name": "Embla Sash"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "21c78a2383c1fd8ff518b4b1f7a813eaf031e730ed943c19895b86a2126f9ed5"
+    },
+    {
+      "id": "373996",
+      "url": "https://www.ffxiah.com/item-sets/373996",
+      "title": "Whm Barspells",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "main",
+          "item_id": 17077,
+          "name": "Beneficus"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28506,
+          "name": "Andoaa Earring"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 26183,
+          "name": "Stikini Ring"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26183,
+          "name": "Stikini Ring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 26095,
+          "name": "Mimir Earring"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26016,
+          "name": "Incanter's Torque"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23601,
+          "name": "Piety Pantaln. +3"
+        },
+        {
+          "slot": "body",
+          "item_id": 23489,
+          "name": "Ebers Bliaut +3"
+        },
+        {
+          "slot": "head",
+          "item_id": 23422,
+          "name": "Ebers Cap +3"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23690,
+          "name": "Ebers Duckbills +3"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "main",
+          "item_id": 17077,
+          "name": "Beneficus"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28506,
+          "name": "Andoaa Earring"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 26183,
+          "name": "Stikini Ring"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 26183,
+          "name": "Stikini Ring"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 26095,
+          "name": "Mimir Earring"
+        },
+        {
+          "slot": "neck",
+          "item_id": 26016,
+          "name": "Incanter's Torque"
+        },
+        {
+          "slot": "legs",
+          "item_id": 23601,
+          "name": "Piety Pantaln. +3"
+        },
+        {
+          "slot": "body",
+          "item_id": 23489,
+          "name": "Ebers Bliaut +3"
+        },
+        {
+          "slot": "head",
+          "item_id": 23422,
+          "name": "Ebers Cap +3"
+        },
+        {
+          "slot": "hands",
+          "item_id": 23556,
+          "name": "Ebers Mitts +3"
+        },
+        {
+          "slot": "feet",
+          "item_id": 23690,
+          "name": "Ebers Duckbills +3"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "86f67ae970a4298d9f921b3a5ccab744973e6fabc57f56b75ad1e534923d8d1e"
+    },
+    {
+      "id": "372276",
+      "url": "https://www.ffxiah.com/item-sets/372276",
+      "title": "Whm Cure Novice",
+      "accessed_on": "2026-11-03",
+      "method": "Browser-rendered public page, Equipment Macros + Gearswap Set; item hyperlinks establish exact IDs.",
+      "macro_rows": [
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "feet",
+          "item_id": 27463,
+          "name": "Vanya Clogs"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 28538,
+          "name": "Lebeche Ring"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28480,
+          "name": "Glorious Earring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 27583,
+          "name": "Janniston Ring"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "sub",
+          "item_id": 28658,
+          "name": "Sors Shield"
+        },
+        {
+          "slot": "hands",
+          "item_id": 28012,
+          "name": "Weath. Cuffs +1"
+        },
+        {
+          "slot": "legs",
+          "item_id": 27241,
+          "name": "Ebers Pantaloons"
+        },
+        {
+          "slot": "body",
+          "item_id": 26902,
+          "name": "Ebers Bliaut"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28474,
+          "name": "Mendi. Earring"
+        }
+      ],
+      "gear_rows": [
+        {
+          "slot": "head",
+          "item_id": 26797,
+          "name": "Vanya Hood"
+        },
+        {
+          "slot": "feet",
+          "item_id": 27463,
+          "name": "Vanya Clogs"
+        },
+        {
+          "slot": "ring1",
+          "item_id": 28538,
+          "name": "Lebeche Ring"
+        },
+        {
+          "slot": "ear1",
+          "item_id": 28480,
+          "name": "Glorious Earring"
+        },
+        {
+          "slot": "back",
+          "item_id": 26248,
+          "name": "Alaunus's Cape"
+        },
+        {
+          "slot": "ring2",
+          "item_id": 27583,
+          "name": "Janniston Ring"
+        },
+        {
+          "slot": "main",
+          "item_id": 21084,
+          "name": "Queller Rod"
+        },
+        {
+          "slot": "sub",
+          "item_id": 28658,
+          "name": "Sors Shield"
+        },
+        {
+          "slot": "hands",
+          "item_id": 28012,
+          "name": "Weath. Cuffs +1"
+        },
+        {
+          "slot": "legs",
+          "item_id": 27241,
+          "name": "Ebers Pantaloons"
+        },
+        {
+          "slot": "body",
+          "item_id": 26902,
+          "name": "Ebers Bliaut"
+        },
+        {
+          "slot": "ear2",
+          "item_id": 28474,
+          "name": "Mendi. Earring"
+        }
+      ],
+      "note": "Macro and generated Gearswap selections agree; omissions retained.",
+      "observation_sha256": "fe1cc4d6328ec46befcd28d1f5cc3db0998d83b3f2cc43fe30047bb03a2c084e"
+    }
+  ],
+  "recommendation_definitions": [
+    {
+      "key": "dt-idle",
+      "set_id": "nexus:whm:dt-idle",
+      "revision_id": "nexus:whm:dt-idle:2026-11-03:ccd0655fa9c8",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 23761,
+        "neck": 26002,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 26268,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "key": "refresh-idle",
+      "set_id": "nexus:whm:refresh-idle",
+      "revision_id": "nexus:whm:refresh-idle:2026-11-03:82baad0df9b4",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22268,
+        "head": 25577,
+        "neck": 26002,
+        "ear1": 28478,
+        "ear2": 27540,
+        "body": 23489,
+        "hands": 25831,
+        "ring1": 26207,
+        "ring2": 26184,
+        "back": 26268,
+        "waist": 10832,
+        "legs": 25882,
+        "feet": 25949
+      },
+      "requirements": {}
+    },
+    {
+      "key": "fast-cast",
+      "set_id": "nexus:whm:fast-cast",
+      "revision_id": "nexus:whm:fast-cast:2026-11-03:d160bfce3d2e",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27635,
+        "range": null,
+        "ammo": 19257,
+        "head": 26797,
+        "neck": 11615,
+        "ear1": 14812,
+        "ear2": 26088,
+        "body": 25793,
+        "hands": 28021,
+        "ring1": 10752,
+        "ring2": 26188,
+        "back": 26248,
+        "waist": 26354,
+        "legs": 25884,
+        "feet": 28274
+      },
+      "requirements": {
+        "head": {
+          "path": "D",
+          "rank": 15
+        },
+        "back": {
+          "augments": [
+            "\"Fast Cast\"+10"
+          ]
+        }
+      }
+    },
+    {
+      "key": "cure",
+      "set_id": "nexus:whm:cure",
+      "revision_id": "nexus:whm:cure:2026-11-03:a8e0e144f15a",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 26797,
+        "neck": 25429,
+        "ear1": 28480,
+        "ear2": 28474,
+        "body": 26903,
+        "hands": 23176,
+        "ring1": 28538,
+        "ring2": 27583,
+        "back": 26248,
+        "waist": 10832,
+        "legs": 27242,
+        "feet": 27463
+      },
+      "requirements": {}
+    },
+    {
+      "key": "curaga",
+      "set_id": "nexus:whm:curaga",
+      "revision_id": "nexus:whm:curaga:2026-11-03:cbfb9a0c74d3",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 26797,
+        "neck": 25429,
+        "ear1": 28480,
+        "ear2": 28474,
+        "body": 23444,
+        "hands": 23176,
+        "ring1": 28538,
+        "ring2": 27583,
+        "back": 26268,
+        "waist": 10832,
+        "legs": 27242,
+        "feet": 27463
+      },
+      "requirements": {}
+    },
+    {
+      "key": "status-single",
+      "set_id": "nexus:whm:status-single",
+      "revision_id": "nexus:whm:status-single:2026-11-03:c148721333af",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 23422,
+        "neck": 25429,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 28619,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "key": "status-yagrush75",
+      "set_id": "nexus:whm:status-yagrush75",
+      "revision_id": "nexus:whm:status-yagrush75:2026-11-03:2b7b124cfa5c",
+      "slot_choices": {
+        "main": 18973,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 23422,
+        "neck": 25429,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23775,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 28619,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "key": "divine-caress",
+      "set_id": "nexus:whm:divine-caress",
+      "revision_id": "nexus:whm:divine-caress:2026-11-03:ccd0fb0d03e1",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 23422,
+        "neck": 25429,
+        "ear1": 27539,
+        "ear2": 28478,
+        "body": 23768,
+        "hands": 23556,
+        "ring1": 13566,
+        "ring2": 26209,
+        "back": 28619,
+        "waist": 10832,
+        "legs": 23782,
+        "feet": 23789
+      },
+      "requirements": {}
+    },
+    {
+      "key": "cursna",
+      "set_id": "nexus:whm:cursna",
+      "revision_id": "nexus:whm:cursna:2026-11-03:f442f091b212",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 27645,
+        "range": null,
+        "ammo": 22279,
+        "head": 26797,
+        "neck": 10392,
+        "ear1": 26098,
+        "ear2": 25433,
+        "body": 26903,
+        "hands": 27136,
+        "ring1": 10790,
+        "ring2": 10790,
+        "back": 26248,
+        "waist": 10832,
+        "legs": 28113,
+        "feet": 27463
+      },
+      "requirements": {
+        "head": {
+          "path": "B",
+          "rank": 15
+        },
+        "feet": {
+          "path": "B",
+          "rank": 15
+        }
+      }
+    },
+    {
+      "key": "enhancing-duration",
+      "set_id": "nexus:whm:enhancing-duration",
+      "revision_id": "nexus:whm:enhancing-duration:2026-11-03:6bddf6e9a680",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22268,
+        "head": 26736,
+        "neck": 26016,
+        "ear1": 28506,
+        "ear2": 26095,
+        "body": 26894,
+        "hands": 27048,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26245,
+        "waist": 26354,
+        "legs": 27235,
+        "feet": 23645
+      },
+      "requirements": {
+        "head": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        },
+        "body": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        },
+        "hands": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        },
+        "legs": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        }
+      }
+    },
+    {
+      "key": "bar-element",
+      "set_id": "nexus:whm:bar-element",
+      "revision_id": "nexus:whm:bar-element:2026-11-03:0cae32e9e198",
+      "slot_choices": {
+        "main": 17077,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22279,
+        "head": 23422,
+        "neck": 26016,
+        "ear1": 28506,
+        "ear2": 26095,
+        "body": 23489,
+        "hands": 23556,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26248,
+        "waist": 26354,
+        "legs": 23601,
+        "feet": 23690
+      },
+      "requirements": {}
+    },
+    {
+      "key": "boost-skill",
+      "set_id": "nexus:whm:boost-skill",
+      "revision_id": "nexus:whm:boost-skill:2026-11-03:1695818fadca",
+      "slot_choices": {
+        "main": 17077,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22279,
+        "head": 23422,
+        "neck": 26016,
+        "ear1": 28506,
+        "ear2": 26095,
+        "body": 23489,
+        "hands": 23556,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26248,
+        "waist": 26354,
+        "legs": 23601,
+        "feet": 23645
+      },
+      "requirements": {}
+    },
+    {
+      "key": "regen",
+      "set_id": "nexus:whm:regen",
+      "revision_id": "nexus:whm:regen:2026-11-03:d8b447336ec8",
+      "slot_choices": {
+        "main": 21111,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22279,
+        "head": 25577,
+        "neck": 26016,
+        "ear1": 28506,
+        "ear2": 26095,
+        "body": 23467,
+        "hands": 23556,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26245,
+        "waist": 26354,
+        "legs": 23578,
+        "feet": 23645
+      },
+      "requirements": {}
+    },
+    {
+      "key": "stoneskin",
+      "set_id": "nexus:whm:stoneskin",
+      "revision_id": "nexus:whm:stoneskin:2026-11-03:0239dc4f98b3",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22268,
+        "head": 26736,
+        "neck": 27524,
+        "ear1": 11037,
+        "ear2": 26095,
+        "body": 26894,
+        "hands": 27048,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26245,
+        "waist": 15960,
+        "legs": 10329,
+        "feet": 23645
+      },
+      "requirements": {
+        "head": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        },
+        "body": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        },
+        "hands": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        }
+      }
+    },
+    {
+      "key": "aquaveil",
+      "set_id": "nexus:whm:aquaveil",
+      "revision_id": "nexus:whm:aquaveil:2026-11-03:3a82a3951242",
+      "slot_choices": {
+        "main": 22040,
+        "sub": 26419,
+        "range": null,
+        "ammo": 22268,
+        "head": 25644,
+        "neck": 26016,
+        "ear1": 28506,
+        "ear2": 26095,
+        "body": 26894,
+        "hands": 25827,
+        "ring1": 26184,
+        "ring2": 26184,
+        "back": 26245,
+        "waist": 11753,
+        "legs": 10329,
+        "feet": 23645
+      },
+      "requirements": {
+        "body": {
+          "augments": [
+            "Enh. Mag. eff. dur. +10"
+          ]
+        }
+      }
+    }
+  ],
+  "source_revision": "https://www.bg-wiki.com/index.php?title=Community_White_Mage_Guide&oldid=781508"
+}

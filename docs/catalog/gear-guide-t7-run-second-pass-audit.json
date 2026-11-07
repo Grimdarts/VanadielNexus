@@ -1,0 +1,1954 @@
+{
+  "checked_at": "2026-11-06T00:31:35.177146+00:00",
+  "scope": "Existing 20 RUN compositions, source grid conflicts, exact identity/eligibility, augments and action/recipient claims; no new variants requested",
+  "checks_passed": 26,
+  "checks": [
+    "Whole candidate validates against current local public resources and immutable baseline",
+    "All 863 detached resource records match current resources",
+    "Resource descriptions and fingerprint match",
+    "Four upstream resource hashes match",
+    "All 20 current RUN revisions match the saved definitions",
+    "372997: ordinary source capture is intact and has 16 slots",
+    "372998: ordinary source capture is intact and has 16 slots",
+    "372999: ordinary source capture is intact and has 16 slots",
+    "372679: ordinary source capture is intact and has 16 slots",
+    "372761: ordinary source capture is intact and has 16 slots",
+    "372680: ordinary source capture is intact and has 16 slots",
+    "372677: ordinary source capture is intact and has 16 slots",
+    "372671: ordinary source capture is intact and has 16 slots",
+    "376359: ordinary source capture is intact and has 16 slots",
+    "397818: ordinary source capture is intact and has 16 slots",
+    "372675: ordinary source capture is intact and has 16 slots",
+    "372664: ordinary source capture is intact and has 16 slots",
+    "372765: ordinary source capture is intact and has 16 slots",
+    "372768: ordinary source capture is intact and has 16 slots",
+    "372663: ordinary source capture is intact and has 16 slots",
+    "368747: ordinary source capture is intact and has 16 slots",
+    "372665: ordinary source capture is intact and has 16 slots",
+    "402038: ordinary source capture is intact and has 16 slots",
+    "372673: ordinary source capture is intact and has 16 slots",
+    "372667: ordinary source capture is intact and has 16 slots",
+    "All 43 historical public-card descriptions match current local resource descriptions"
+  ],
+  "node": {
+    "url": "https://www.ffxiah.com/node/397",
+    "last_modified": "2026-03-04 09:06:25",
+    "sha256": "8ab8c925780376991ecdb62368c18d1c11b3e5e51927a817a1184fd9cebcef31",
+    "linked_item_sets": [
+      "376408",
+      "376409",
+      "376410",
+      "372858",
+      "372859",
+      "372860",
+      "372861",
+      "372862",
+      "372679",
+      "372678",
+      "372864",
+      "372865",
+      "372866",
+      "372868",
+      "372762",
+      "372680",
+      "372677",
+      "372761",
+      "372891",
+      "372997",
+      "372998",
+      "372999",
+      "368747",
+      "372665",
+      "402038",
+      "372674",
+      "372676",
+      "372668",
+      "372768",
+      "372666",
+      "372673",
+      "372667",
+      "372675",
+      "372664",
+      "372765",
+      "372663",
+      "372671",
+      "372670",
+      "372892",
+      "372764",
+      "372672",
+      "376359",
+      "376362",
+      "397819",
+      "397818",
+      "398905",
+      "398906"
+    ]
+  },
+  "tables": [
+    {
+      "item_set_id": 372997,
+      "url": "https://www.ffxiah.com/item-sets/372997",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          24270
+        ],
+        "neck": [
+          25545
+        ],
+        "ear1": [
+          25547
+        ],
+        "ear2": [
+          26119
+        ],
+        "body": [
+          23464
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26226
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          23642
+        ],
+        "feet": [
+          23709
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "hands": [
+          "Regal Gauntlets",
+          "Nyame Gauntlets"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "hands": [
+          "Regal Gauntlets",
+          "Nyame Gauntlets"
+        ]
+      },
+      "source_note": null,
+      "capture_sha256": "97d3217a338d645fe7449180608170ee32f95f3299b47b22eeffacdd3befcc6c"
+    },
+    {
+      "item_set_id": 372998,
+      "url": "https://www.ffxiah.com/item-sets/372998",
+      "grid_ids": {
+        "main": [],
+        "sub": [
+          21417
+        ],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          24137
+        ],
+        "neck": [
+          26002
+        ],
+        "ear1": [
+          26112
+        ],
+        "ear2": [
+          27549
+        ],
+        "body": [
+          23861
+        ],
+        "hands": [
+          24143
+        ],
+        "ring1": [
+          10753
+        ],
+        "ring2": [
+          10769
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          24146
+        ],
+        "feet": [
+          24149
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "8e7a4d131579708c28a84e16327bd45bdeab0e6c29ab86546897ae44f6e80790"
+    },
+    {
+      "item_set_id": 372999,
+      "url": "https://www.ffxiah.com/item-sets/372999",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22268
+        ],
+        "head": [
+          24270
+        ],
+        "neck": [
+          27518
+        ],
+        "ear1": [
+          26112
+        ],
+        "ear2": [
+          28478
+        ],
+        "body": [
+          23962
+        ],
+        "hands": [
+          25824
+        ],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26226
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          10819
+        ],
+        "legs": [
+          25842
+        ],
+        "feet": [
+          27496
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "ring2": [
+          "Stikini Ring +1",
+          "Gurebu's Ring"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "ring2": [
+          "Stikini Ring +1",
+          "Gurebu's Ring"
+        ]
+      },
+      "source_note": null,
+      "capture_sha256": "8891322e14285d4f61c756e59e8f2de8deb406713238e2858a3953b637d7f7b9"
+    },
+    {
+      "item_set_id": 372679,
+      "url": "https://www.ffxiah.com/item-sets/372679",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          24137
+        ],
+        "neck": [
+          25545
+        ],
+        "ear1": [
+          25547
+        ],
+        "ear2": [
+          26119
+        ],
+        "body": [
+          23962
+        ],
+        "hands": [
+          25995
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26234
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          23642
+        ],
+        "feet": [
+          23709
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "feet": [
+          "Erilaz Greaves +2",
+          "Erilaz Greaves +3"
+        ],
+        "legs": [
+          "Eri. Leg Guards +2",
+          "Eri. Leg Guards +3"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "legs": [
+          "Eri. Leg Guards +2",
+          "Eri. Leg Guards +3"
+        ],
+        "feet": [
+          "Erilaz Greaves +2",
+          "Erilaz Greaves +3"
+        ]
+      },
+      "source_note": "Magic evasion based set while capping out PDT/DT.",
+      "capture_sha256": "397468b6ad74d6d9a678e7c09ed685def8c72d9ac58ebe28d209a7597b50bfda"
+    },
+    {
+      "item_set_id": 372761,
+      "url": "https://www.ffxiah.com/item-sets/372761",
+      "grid_ids": {
+        "main": [],
+        "sub": [
+          22212
+        ],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          24137
+        ],
+        "neck": [
+          26029
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26119
+        ],
+        "body": [
+          24140
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26190
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28440
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "legs": [
+          "Meg. Chausses +2",
+          "Nyame Flanchard"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "legs": [
+          "Meg. Chausses +2",
+          "Nyame Flanchard"
+        ]
+      },
+      "source_note": null,
+      "capture_sha256": "c1fc9c0de03f6810d8c1503d6ca3dc017c217717a6f83351499fb8e69ba3c95a"
+    },
+    {
+      "item_set_id": 372680,
+      "url": "https://www.ffxiah.com/item-sets/372680",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          25614
+        ],
+        "neck": [
+          26029
+        ],
+        "ear1": [
+          26084
+        ],
+        "ear2": [
+          26119
+        ],
+        "body": [
+          24140
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          26186
+        ],
+        "ring2": [
+          26185
+        ],
+        "back": [
+          26274
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          27295
+        ],
+        "feet": [
+          24149
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "dafe71f55a36af5ba114258681f5854c0c17ce28a426247f5903d453fea2246d"
+    },
+    {
+      "item_set_id": 372677,
+      "url": "https://www.ffxiah.com/item-sets/372677",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22280
+        ],
+        "head": [
+          24137
+        ],
+        "neck": [
+          26029
+        ],
+        "ear1": [
+          27545
+        ],
+        "ear2": [
+          26119
+        ],
+        "body": [
+          24140
+        ],
+        "hands": [
+          25995
+        ],
+        "ring1": [
+          26234
+        ],
+        "ring2": [
+          26182
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28428
+        ],
+        "legs": [
+          24146
+        ],
+        "feet": [
+          24149
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "Master no R15 Rema, 1350 Accuracy no food.",
+      "capture_sha256": "bd244c4cc66e68db3fe7b64a8e30ab957511bd15d0c468f5d793ebf7794624eb"
+    },
+    {
+      "item_set_id": 372671,
+      "url": "https://www.ffxiah.com/item-sets/372671",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22281
+        ],
+        "head": [
+          23761
+        ],
+        "neck": [
+          25415
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          26120
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26191
+        ],
+        "ring2": [
+          26186
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28413
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "Herculean gear augmented with DEX, Acc, Attack, WSD. Ogma's Cape augmented with DEX +30, Acc, Attack +20, pdt -10% and WSD +10%.",
+      "capture_sha256": "924520364449bbf210cedc2931d1093144db3977d137510cd1bbb6f5ee50b8fc"
+    },
+    {
+      "item_set_id": 376359,
+      "url": "https://www.ffxiah.com/item-sets/376359",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23761
+        ],
+        "neck": [
+          25415
+        ],
+        "ear1": [
+          27537
+        ],
+        "ear2": [
+          11697
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          23775
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26186
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28408
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "body": [
+          "Herculean Vest",
+          "Nyame Mail"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "body": [
+          "Herculean Vest",
+          "Nyame Mail"
+        ]
+      },
+      "source_note": null,
+      "capture_sha256": "61c86792a199c02ab155ae80568ec3748e1a659354e7873ea71cb585695b8187"
+    },
+    {
+      "item_set_id": 397818,
+      "url": "https://www.ffxiah.com/item-sets/397818",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22300
+        ],
+        "head": [
+          25602
+        ],
+        "neck": [
+          27510
+        ],
+        "ear1": [
+          11697
+        ],
+        "ear2": [
+          26084
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          27118
+        ],
+        "ring1": [
+          26221
+        ],
+        "ring2": [
+          26185
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28420
+        ],
+        "legs": [
+          23782
+        ],
+        "feet": [
+          23789
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "2e52edce8c5fd1640dda27b1003796a01c6f3fac88d4180678dd074d454272aa"
+    },
+    {
+      "item_set_id": 372675,
+      "url": "https://www.ffxiah.com/item-sets/372675",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22252
+        ],
+        "head": [
+          25653
+        ],
+        "neck": [
+          26037
+        ],
+        "ear1": [
+          28483
+        ],
+        "ear2": [
+          28515
+        ],
+        "body": [
+          26871
+        ],
+        "hands": [
+          27134
+        ],
+        "ring1": [
+          28535
+        ],
+        "ring2": [
+          10798
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          15895
+        ],
+        "legs": [
+          23642
+        ],
+        "feet": [
+          23709
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "2050536c56c62eb67ab4a9a5fe64ee19fc70dfe2a50f2cec7a354a4ad8d0c3fe"
+    },
+    {
+      "item_set_id": 372664,
+      "url": "https://www.ffxiah.com/item-sets/372664",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22252
+        ],
+        "head": [
+          25653
+        ],
+        "neck": [
+          25545
+        ],
+        "ear1": [
+          28515
+        ],
+        "ear2": [
+          26112
+        ],
+        "body": [
+          26871
+        ],
+        "hands": [
+          27134
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26234
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          15895
+        ],
+        "legs": [
+          23642
+        ],
+        "feet": [
+          23709
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "Capped PDT. +70 Enmity in gear. HP +60, Eva/M.eva +20, M.eva +10, enmity +10, PDT -10% on Ogma's Cape.",
+      "capture_sha256": "dc46c52794b9dfc1fd6505413565745966ea9299401777d9797e37f57fff1475"
+    },
+    {
+      "item_set_id": 372765,
+      "url": "https://www.ffxiah.com/item-sets/372765",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22252
+        ],
+        "head": [
+          23397
+        ],
+        "neck": [
+          10394
+        ],
+        "ear1": [
+          27549
+        ],
+        "ear2": [
+          28478
+        ],
+        "body": [
+          23508
+        ],
+        "hands": [
+          27135
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26190
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [],
+        "legs": [
+          23780
+        ],
+        "feet": [
+          27383
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "body": [
+          "Adhemar Jacket +1",
+          "Erilaz Surcoat +3"
+        ],
+        "legs": [
+          "Aya. Cosciales +2",
+          "Agwu's Slops"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "body": [
+          "Adhemar Jacket +1",
+          "Erilaz Surcoat +3"
+        ],
+        "legs": [
+          "Aya. Cosciales +2",
+          "Agwu's Slops"
+        ]
+      },
+      "source_note": "Cape = HP/FC",
+      "capture_sha256": "e43817d01ec269980ee9ddc22fbe6614cc36367a8521ca366560bc73c301d5e6"
+    },
+    {
+      "item_set_id": 372768,
+      "url": "https://www.ffxiah.com/item-sets/372768",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          23441
+        ],
+        "neck": [
+          26037
+        ],
+        "ear1": [
+          15963
+        ],
+        "ear2": [
+          27535
+        ],
+        "body": [
+          23768
+        ],
+        "hands": [
+          27100
+        ],
+        "ring1": [
+          10769
+        ],
+        "ring2": [
+          26234
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          26355
+        ],
+        "legs": [
+          27207
+        ],
+        "feet": [
+          23709
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {
+        "body": [
+          "Futhark Coat +3",
+          "Nyame Mail"
+        ],
+        "head": [
+          "Fu. Bandeau +3",
+          "Erilaz Galea +3"
+        ]
+      },
+      "prior_competing_macro_values": {
+        "head": [
+          "Fu. Bandeau +3",
+          "Erilaz Galea +3"
+        ],
+        "body": [
+          "Futhark Coat +3",
+          "Nyame Mail"
+        ]
+      },
+      "source_note": "104 w/ 10 from Merits Rawhide / Carmine path doesn't matter. Cape = HP/Eva/MEva/SIRD/PDT",
+      "capture_sha256": "da92f1fbaf1ed905138420b83eca1992cb74605f39296e28b43b8fa538c7bb73"
+    },
+    {
+      "item_set_id": 372663,
+      "url": "https://www.ffxiah.com/item-sets/372663",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          26679
+        ],
+        "neck": [
+          26043
+        ],
+        "ear1": [
+          28506
+        ],
+        "ear2": [
+          26095
+        ],
+        "body": [
+          10281
+        ],
+        "hands": [
+          24007
+        ],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26184
+        ],
+        "back": [],
+        "waist": [
+          10821
+        ],
+        "legs": [
+          27207
+        ],
+        "feet": []
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "f97456908e90401145786977be7ee717e13c0ac7ac69d6cb35dff9504da0c776"
+    },
+    {
+      "item_set_id": 368747,
+      "url": "https://www.ffxiah.com/item-sets/368747",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23419
+        ],
+        "neck": [
+          26043
+        ],
+        "ear1": [
+          28506
+        ],
+        "ear2": [
+          26095
+        ],
+        "body": [
+          26893
+        ],
+        "hands": [
+          27047
+        ],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26184
+        ],
+        "back": [
+          15471
+        ],
+        "waist": [
+          10821
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          27404
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "d0320af5baa0f360085cec902d193a23705e57be343d34f1402ab32f194df215"
+    },
+    {
+      "item_set_id": 372665,
+      "url": "https://www.ffxiah.com/item-sets/372665",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          23939
+        ],
+        "neck": [
+          25545
+        ],
+        "ear1": [
+          26093
+        ],
+        "ear2": [
+          25547
+        ],
+        "body": [
+          26893
+        ],
+        "hands": [
+          27047
+        ],
+        "ring1": [
+          26190
+        ],
+        "ring2": [
+          26234
+        ],
+        "back": [
+          26269
+        ],
+        "waist": [
+          26366
+        ],
+        "legs": [
+          27234
+        ],
+        "feet": [
+          27404
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "445 Enhancing Skill at 1900 JP+. +33 Phalanx from skill. 41% PDT/DT.",
+      "capture_sha256": "73d83d5723450c6b14393413820b1e73d539dca71dcf6de337b3fc581b811241"
+    },
+    {
+      "item_set_id": 402038,
+      "url": "https://www.ffxiah.com/item-sets/402038",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [
+          22279
+        ],
+        "head": [
+          23939
+        ],
+        "neck": [
+          25545
+        ],
+        "ear1": [
+          26119
+        ],
+        "ear2": [
+          26095
+        ],
+        "body": [
+          24140
+        ],
+        "hands": [
+          24143
+        ],
+        "ring1": [
+          10769
+        ],
+        "ring2": [
+          26190
+        ],
+        "back": [
+          26267
+        ],
+        "waist": [
+          28414
+        ],
+        "legs": [
+          24146
+        ],
+        "feet": [
+          24149
+        ]
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "3521 HP, 1498 MP - Taru /BLU.",
+      "capture_sha256": "05937fa215f0228b8b13f5222d5cdc7b4622fab67cfc6e888960433f2bea1473"
+    },
+    {
+      "item_set_id": 372673,
+      "url": "https://www.ffxiah.com/item-sets/372673",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23441
+        ],
+        "neck": [],
+        "ear1": [],
+        "ear2": [],
+        "body": [],
+        "hands": [
+          25824
+        ],
+        "ring1": [],
+        "ring2": [],
+        "back": [],
+        "waist": [
+          26323
+        ],
+        "legs": [
+          24074
+        ],
+        "feet": []
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": null,
+      "capture_sha256": "4d67614744e9488ed3ea321e997686edecd18f83e530aa72653c46d5eddc5dcf"
+    },
+    {
+      "item_set_id": 372667,
+      "url": "https://www.ffxiah.com/item-sets/372667",
+      "grid_ids": {
+        "main": [],
+        "sub": [],
+        "range": [],
+        "ammo": [],
+        "head": [
+          23441
+        ],
+        "neck": [
+          26043
+        ],
+        "ear1": [
+          10298
+        ],
+        "ear2": [
+          26093
+        ],
+        "body": [],
+        "hands": [],
+        "ring1": [
+          26184
+        ],
+        "ring2": [
+          26184
+        ],
+        "back": [
+          15472
+        ],
+        "waist": [
+          10820
+        ],
+        "legs": [
+          24052
+        ],
+        "feet": []
+      },
+      "changes": [],
+      "competing_macro_values": {},
+      "prior_competing_macro_values": {},
+      "source_note": "Max Potency Divine Skill.",
+      "capture_sha256": "8ea481c17c5a6ea4b7a38c7198553640429f48926b71a39816ade804f76c538c"
+    }
+  ],
+  "run_register": [
+    {
+      "id": "RUN-SP-001",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "Every progression tier, accuracy/attack/haste bracket; no tank/job completion",
+      "this_slice_disposition": "Existing context audited; additional variants remain pending after 2.2.0 at Jason's narrowed scope."
+    },
+    {
+      "id": "RUN-SP-002",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "Epeolatry,Helheim,Oboro Aettir augment,alternate Lionheart identities/ranks/aftermaths; sword/axe/club and magical/status WS",
+      "this_slice_disposition": "Existing context audited; additional variants remain pending after 2.2.0 at Jason's narrowed scope."
+    },
+    {
+      "id": "RUN-SP-003",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "Lunge/Swipe free/burst/element variants,OneForAll,Liement,Battuta,Swordplay,Pflug received,SP abilities,Regen/Cure/other subjob utility",
+      "this_slice_disposition": "Existing context audited; additional variants remain pending after 2.2.0 at Jason's narrowed scope."
+    },
+    {
+      "id": "RUN-SP-004",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "All Phalanx random rolls,ML50/race/maxHP models,received-from-other caster chains,Embolden/Inspiration merits and HP-preserving swap priorities",
+      "this_slice_disposition": "Existing context audited; additional variants remain pending after 2.2.0 at Jason's narrowed scope."
+    },
+    {
+      "id": "RUN-SP-005",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "All elemental/rune/target/party/recipient/encounter variants; full rune-resist or enmity formula",
+      "this_slice_disposition": "Existing context audited; additional variants remain pending after 2.2.0 at Jason's narrowed scope."
+    },
+    {
+      "id": "RUN-SP-006",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "BG source revision/Permanentlink and currentBiS remain unverified; disabled ordinary browser access is not N/A",
+      "this_slice_disposition": "Historical first-save access wording is superseded by late BG recovery; current refresh remains source-limited."
+    },
+    {
+      "id": "RUN-SP-007",
+      "classification": "explicitly deferred",
+      "title": "Declared unauthored variants",
+      "detail": "Numeric caps,HP/MP floors,effects totals,ownership/bags,runtime locks and human/frozen/live acceptance",
+      "this_slice_disposition": "Offline numeric/live limits remain open."
+    },
+    {
+      "id": "RUN-SP-008",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Left-ear JSE conflict, missing weapons/range; source cape roll not quantified."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-009",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Main/range omitted; no complete weapon pairing."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-010",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Two Stikini macro entries followed by Gurebu ring2. No Herculean Refresh roll established."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-011",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Right-ear-only Erilaz in ear1 retained. Capped defense title is an unverified source claim."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-012",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Main omitted; duplicate rings explicit."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-013",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Five-hit label not certified; armor/random path prerequisites unknown."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-014",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Master/no-R15/1350-no-food label is source model, not equipment verification."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-015",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Header mentions Herculean although final grid is Nyame; main/sub/range omitted, no rank/path in table."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-016",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Main/sub/range/ammo omitted."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-017",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Source R25 label not imported; no exact weapon, random rolls or path established."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-018",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": ""
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-019",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Source cappedPDT/70enmity and cape aggregate not certified."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-020",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "HP/FC cape label; no numeric source roll specified."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-021",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Source104with10merits not certified; unspecified SIRD cape values."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-022",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": ""
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-023",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "No exact Taeon random Phalanx roll established."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-024",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "445skill/1900JP/33Phalanx/41defense title not adopted; random Phalanx unspecified."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-025",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Taru/BLU ML50 HP/MP source model not adopted."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-026",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Four-piece overlay, twelve omissions; no universal spell potency inferred."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-027",
+      "classification": "source-limited",
+      "title": "Source scope retains options, omissions or bounded observations",
+      "detail": {
+        "notes": "Divine-skill MP context, not cure spell potency or guaranteed status removal."
+      },
+      "this_slice_disposition": "Current source grid and macro values confirmed unchanged; omissions/models/substitutions remain explicit, not a recommendation defect."
+    },
+    {
+      "id": "RUN-SP-028",
+      "classification": "source-limited",
+      "title": "Recorded source-access and currency boundaries",
+      "detail": [
+        {
+          "packet": "docs/catalog/gear-guide-t7-run-observations.json",
+          "json_path": "$.access",
+          "text": "Original FFXIAHguide and20selectedgrids read via web reader; initial372998/372679 recovered through original links. BG403. OrdinaryChrome attempted three times including user-requested retry; tool still reports local browser use disabled in Work settings. No BG content/revision/Permanentlink read, no security bypass or private-server source. Manual observations, not HTML snapshots. Later: user confirmed browser setting ON; resetting cua session recovered ordinary Chrome. Original BG article and rendered Permanentlink781614 read successfully; earlier limitation is historical, no longer current. No security bypass."
+        }
+      ],
+      "this_slice_disposition": "Historical first-save access wording is superseded by late BG recovery; current refresh remains source-limited."
+    },
+    {
+      "id": "RUN-SP-029",
+      "classification": "explicitly deferred",
+      "title": "HP/MP-preserving transitions remain unverified",
+      "detail": "Offline selected compositions do not establish current/max HP/MP continuity. Preserve first-save/late-source history and do not add HP-preservation claims or runtime chains.",
+      "this_slice_disposition": "Offline numeric/live limits remain open."
+    }
+  ],
+  "counts": {
+    "sets": 520,
+    "revisions": 547,
+    "sources": 1331,
+    "retired": 27,
+    "effective_verified": 512,
+    "unresolved_originals": 8,
+    "resources": 863,
+    "hands": 55,
+    "hand_version": "hands.2026-11-05.v19"
+  },
+  "access_limit": "BG /ffxi/ current guide 403 via web; ordinary Chrome then reset/built-in browser both report local browser use disabled. No challenge or settings change. Historical BG revision 781614 remains historical evidence, not refreshed.",
+  "status": "Bounded RUN correctness audit complete; no gear correction required. One stale delivery-status statement corrected. BG current refresh remains source-limited.",
+  "author": "Nova; one agent; Jason confirmed no other writer",
+  "user_scope": "Jason requested correctness/conflict checking of existing guide sets, not ranked additional action variants.",
+  "manual_context_review": [
+    {
+      "sets": [
+        "dt-idle",
+        "refresh-idle",
+        "engaged-balanced",
+        "engaged-dt",
+        "engaged-accuracy"
+      ],
+      "result": "Existing fixed legal substitutions and distinct ring copies confirmed; source left-ear Erilaz 25547 is not selected. Aettir remains unaugmented; Su3/500JP and facing/parry context remain conditional. No source mitigation, accuracy or HP/MP total adopted."
+    },
+    {
+      "sets": [
+        "dimidiation",
+        "resolution"
+      ],
+      "result": "Separate DEX/WSD and STR/DA capes preserved. Five Nyame Path B slots carry no invented rank. Base Lionheart 21694 card explicitly grants Resolution; no Epeolatry or alternate identity substituted. Unlock/TP/aftermath boundaries remain explicit."
+    },
+    {
+      "sets": [
+        "enmity-ja",
+        "flash-enmity",
+        "precast",
+        "sird-completion"
+      ],
+      "result": "Pflug activation, native Flash completion, Flash/Foil initiation and Foil completion remain separate. Base unaugmented Leyline/Rawhide/Carmine carry no invented roll/path. No FC/SIRD/enmity cap or interruption/HP safety claimed. Pflug received-condition gear remains unauthored."
+    },
+    {
+      "sets": [
+        "enhancing-skill",
+        "self-phalanx",
+        "self-refresh",
+        "enhancing-duration"
+      ],
+      "result": "Temper 550JP unlock, self-recipient Phalanx +7 head, Refresh spell head versus equipment Refresh, and native Crusade duration context remain separate. Gishdubar is not generalized to all enhancing effects. Non-item-level Manasa exposure remains explicit; no skill or potency cap claimed."
+    },
+    {
+      "sets": [
+        "vallation",
+        "valiance"
+      ],
+      "result": "Self versus party recipients explicit, actual runes and Inspiration merits required. Runeist body/Ogma/Futhark legs remain scoped overlays; no capped duration/FC or party positioning guarantee."
+    },
+    {
+      "sets": [
+        "gambit",
+        "rayke"
+      ],
+      "result": "Runeist hands Gambit duration and Futhark feet Rayke overlay are supported by node 397; actual rune/target and Rayke merit unlock remain explicit. Relic merit-linked effects are not proven solely by their base card text; no maximum duration or merit values imported."
+    },
+    {
+      "sets": [
+        "vivacious-pulse"
+      ],
+      "result": "MP-oriented three-Tenebrae/Divine-skill context supported by source 372667, guide and printed +20 Divine skill trousers. Erilaz head enhancement is not treated as guaranteed Doom/ailment removal; no cure-spell potency or recovery total asserted."
+    }
+  ],
+  "public_cards": [
+    {
+      "item_id": 10281,
+      "name": "Manasa Chasuble",
+      "url": "https://www.ffxiah.com/item/10281",
+      "capture_sha256": "35ac1ec57e5b1bb0047bf74946be4faf9dbc50c64a598006a54481cf1b7da5ae",
+      "printed_card": "Manasa Chasuble Rare Ex [Body] All Races DEF:45 MND+13 CHR+13 Magic Accuracy+7 Enhancing magic skill +12 Enfeebling magic skill +12 Adds \"Refresh\" effect LV 99 WHM BLM RDM BRD SMN BLU PUP SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 10394,
+      "name": "Orunmila's Torque",
+      "url": "https://www.ffxiah.com/item/10394",
+      "capture_sha256": "ba0abbd94feb1f6f0797baaed171bbaf073adc0ed1b542dc1cd8634a03ef3ad0",
+      "printed_card": "Orunmila's Torque Rare Ex [Neck] All Races MP+30 Magic Accuracy+1 Increases \"Fast Cast\" effect Enmity-3 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 10798,
+      "name": "Eihwaz Ring",
+      "url": "https://www.ffxiah.com/item/10798",
+      "capture_sha256": "f99473473d6590b8dd9d944a163f101b14b2a661e095743fb1ef24aecb823792",
+      "printed_card": "Eihwaz Ring Rare [Finger] All Races HP+70 Enmity+5 Enhances resistance against \"Death\" LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 15471,
+      "name": "Merciful Cape",
+      "url": "https://www.ffxiah.com/item/15471",
+      "capture_sha256": "d19083587d72accd12d70e19bb164d2116996d7719253c4773de07756897268e",
+      "printed_card": "Merciful Cape Rare Ex [Back] All Races MP+25 Enhancing magic skill +5 Elemental magic skill +5 Dark magic skill +5 LV 73 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 15472,
+      "name": "Altruistic Cape",
+      "url": "https://www.ffxiah.com/item/15472",
+      "capture_sha256": "ad995191438f903574a2ef18f1a10ab60730b79a5605e87b7cdd3baa7fcf3a43",
+      "printed_card": "Altruistic Cape Rare Ex [Back] All Races MP+25 Divine magic skill +5 Healing magic skill +5 Enfeebling magic skill +5 LV 73 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 15895,
+      "name": "Trance Belt",
+      "url": "https://www.ffxiah.com/item/15895",
+      "capture_sha256": "2d5e5bcd2a314dc75353075239f28bfdd5f0759a83c7e47fc1ca174e688d50b1",
+      "printed_card": "Trance Belt [Waist] All Races DEF:5 HP+14 Enmity+4 LV 72 WAR RDM THF PLD DRK BST BRD RNG SAM NIN DRG BLU COR DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 20761,
+      "name": "Aettir",
+      "url": "https://www.ffxiah.com/item/20761",
+      "capture_sha256": "5a3b9e398a7691c8204e7f2801fe0618dd8da678c14886663f1ad24f809e3bdb",
+      "printed_card": "Aettir Rare Ex [Main] All Races DPS: 3288 DMG:263 Delay:480 Great Sword skill +242 Parrying skill +242 Magic Accuracy skill +188 Enmity+10 \"Lunge\"+10 Physical damage taken II -5% LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 21417,
+      "name": "Refined Grip +1",
+      "url": "https://www.ffxiah.com/item/21417",
+      "capture_sha256": "a14e149a4f3be9ae45b4a3cc82ebb5c38e4c9f9e6df93796cc6bcf3f86505cd5",
+      "printed_card": "Refined Grip +1 Rare Ex [Sub] All Races Damage taken -3% Unity Ranking: HP+10～35 LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 21694,
+      "name": "Lionheart",
+      "url": "https://www.ffxiah.com/item/21694",
+      "capture_sha256": "a99ca47f1276e07f9e9130c44e6b830779db5cf958a4716098f60900a7bbd593",
+      "printed_card": "Lionheart Rare Ex [Main] All Races DPS: 4200 DMG:336 Delay:480 Magic Damage+186 Great Sword skill +269 Parrying skill +269 Magic Accuracy skill +242 \"Store TP\"+10 \"TP Bonus\"+500 \"Resolution\" Aftermath: Increases skillchain potency Increases magic burst potency Ultimate Skillchain LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 22212,
+      "name": "Utu Grip",
+      "url": "https://www.ffxiah.com/item/22212",
+      "capture_sha256": "aae5b10478742dd29fbab6424a0f07b5357f5f7bcaab45dbab9d05bf5135a9b2",
+      "printed_card": "Utu Grip Rare Ex [Sub] All Races HP+70 Accuracy+30 Attack+30 Weapon skill DEX +10% LV 99 WAR DRK SAM DRG RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 22280,
+      "name": "Yamarang",
+      "url": "https://www.ffxiah.com/item/22280",
+      "capture_sha256": "704269d9406032223b9b6de507298e571f49066c4beb383f7bf932526833ab9a",
+      "printed_card": "Yamarang Rare Ex [Ammo] All Races Accuracy+15 Magic Accuracy+15 Evasion+15 Magic Evasion+15 \"Store TP\"+3 \"Waltz\" potency +5% LV 99 THF NIN DNC RUN Info [Wiki] [BG Wiki] [FFXIDB] Rate ( sold/day) List Characters: [Owned] [Equipped] Login - Register advertisements All FFXI content and images © 2002-2026 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Co., Ltd. About - Privacy - Contact",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23441,
+      "name": "Erilaz Galea +3",
+      "url": "https://www.ffxiah.com/item/23441",
+      "capture_sha256": "9d82f38723a5168a06e76d45238fdaa16c80c70db57e1b4e3663d9f5fa60ecd3",
+      "printed_card": "Erilaz Galea +3 Rare Ex [Head] All Races DEF:135 HP+111 MP+65 STR+34 DEX+30 VIT+24 AGI+30 INT+29 MND+31 CHR+27 Accuracy+61 Attack+61 Magic Accuracy+61 Evasion+92 Magic Evasion+119 \"Magic Def. Bonus\"+9 Haste+8% Augments \"Vivacious Pulse\" \"Refresh\" potency +4 Enhancing magic duration +25% Spell interruption rate down 20% Set: Occ. absorbs damage taken LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23508,
+      "name": "Erilaz Surcoat +3",
+      "url": "https://www.ffxiah.com/item/23508",
+      "capture_sha256": "7e692e85b3cd8d223072f4afd5cc5491ac2f0878320a7023e8c99b3514e72344",
+      "printed_card": "Erilaz Surcoat +3 Rare Ex [Body] All Races DEF:167 HP+143 MP+91 STR+42 DEX+40 VIT+33 AGI+39 INT+35 MND+39 CHR+34 Accuracy+64 Attack+74 Magic Accuracy+64 Evasion+97 Magic Evasion+130 \"Magic Def. Bonus\"+10 Haste+4% \"Fast Cast\"+13% Converts 8% of physical damage taken to MP Boosts enmity retention when taking damage +14 Set: Occ. absorbs damage taken LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23575,
+      "name": "Erilaz Gauntlets +3",
+      "url": "https://www.ffxiah.com/item/23575",
+      "capture_sha256": "0568c227af74ff3151a35c52a54fa22deeffc20516fcdaddc60d623b02e5c7c1",
+      "printed_card": "Erilaz Gauntlets +3 Rare Ex [Hands] All Races DEF:124 HP+59 MP+47 STR+26 DEX+47 VIT+40 AGI+17 INT+26 MND+45 CHR+29 Accuracy+62 Attack+62 Magic Accuracy+62 Evasion+78 Magic Evasion+87 \"Magic Def. Bonus\"+7 Great Sword skill +38 Haste+5% Resistance to all status ailments +8 Damage taken-11% Set: Occ. absorbs damage taken LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23642,
+      "name": "Eri. Leg Guards +3",
+      "url": "https://www.ffxiah.com/item/23642",
+      "capture_sha256": "65c89b65c697647a1211fab394c06a96d48da0f3fa43677b26f79efea644a9b5",
+      "printed_card": "Eri. Leg Guards +3 Rare Ex [Legs] All Races DEF:147 HP+100 MP+94 STR+47 VIT+25 AGI+31 INT+43 MND+32 CHR+22 Accuracy+63 Attack+63 Magic Accuracy+63 Evasion+89 Magic Evasion+157 \"Magic Def. Bonus\"+10 Haste+6% Enmity+13 \"Inquartata\"+4 Damage taken-13% Set: Occ. absorbs damage taken LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23709,
+      "name": "Erilaz Greaves +3",
+      "url": "https://www.ffxiah.com/item/23709",
+      "capture_sha256": "d8bce9d7709cca7241e2070a37579aae8c4e42a02175b61c9aa840a673bf264e",
+      "printed_card": "Erilaz Greaves +3 Rare Ex [Feet] All Races DEF:105 HP+48 MP+59 STR+31 DEX+36 VIT+21 AGI+48 MND+31 CHR+42 All resistances +35 Accuracy+60 Attack+60 Magic Accuracy+60 Evasion+122 Magic Evasion+157 \"Magic Def. Bonus\"+9 Haste+4% Enmity+8 Damage taken-11% Set: Occ. absorbs damage taken LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23917,
+      "name": "Runeist Bandeau +4",
+      "url": "https://www.ffxiah.com/item/23917",
+      "capture_sha256": "2bdad4798d992767b95bc21798a661b032eb1075f9b2b99eedadee77d7bd1a26",
+      "printed_card": "Runeist Bandeau +4 Rare Ex [Head] All Races DEF:130 HP+119 MP+99 STR+31 DEX+38 VIT+31 AGI+40 INT+31 MND+36 CHR+32 Accuracy+57 Magic Accuracy+57 Evasion+104 Magic Evasion+108 \"Magic Def. Bonus\"+4 Haste+8% \"Fast Cast\"+14% \"Regen\" duration +27 Set: Accuracy+ Ranged Accuracy+ Magic Accuracy+ LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23939,
+      "name": "Fu. Bandeau +4",
+      "url": "https://www.ffxiah.com/item/23939",
+      "capture_sha256": "37d2c9842085295e04787d474a36c9eff502a4ccd6cf793e03de47f41ad3e766",
+      "printed_card": "Fu. Bandeau +4 Rare Ex [Head] All Races DEF:129 HP+66 MP+98 STR+26 DEX+27 VIT+35 AGI+34 INT+28 MND+23 CHR+24 Accuracy+42 Attack+72 Magic Accuracy+42 Evasion+89 Magic Evasion+113 \"Magic Def. Bonus\"+5 Haste+8% \"Phalanx\" received +7 Physical Damage taken-6% LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 23962,
+      "name": "Runeist Coat +4",
+      "url": "https://www.ffxiah.com/item/23962",
+      "capture_sha256": "0d5ddb38baa3fabf6080890a7846cadbde669547fbbb6900d731e5fda0b5120e",
+      "printed_card": "Runeist Coat +4 Rare Ex [Body] All Races DEF:160 HP+228 MP+86 STR+34 DEX+42 VIT+34 AGI+43 INT+33 MND+38 CHR+33 All resistances +39 Accuracy+60 Magic Accuracy+60 Evasion+109 Magic Evasion+119 \"Magic Def. Bonus\"+8 Haste+4% \"Vallation/Valiance\" duration +19 \"Refresh\"+3 Set: Accuracy+ Ranged Accuracy+ Magic Accuracy+ LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 24007,
+      "name": "Rune. Mitons +4",
+      "url": "https://www.ffxiah.com/item/24007",
+      "capture_sha256": "f69ff09a9b14c0e1378bb44c8e241e656f957d0195d40b7f7ed71bd19b01ac18",
+      "printed_card": "Rune. Mitons +4 Rare Ex [Hands] All Races DEF:118 HP+95 MP+57 STR+21 DEX+48 VIT+42 AGI+20 INT+22 MND+45 CHR+27 Accuracy+58 Magic Accuracy+58 Evasion+84 Magic Evasion+92 \"Magic Def. Bonus\"+4 Enhancing magic skill +20 Haste+5% \"Gambit\" duration +16 Physical Damage taken-3% Set: Accuracy+ Ranged Accuracy+ Magic Accuracy+ LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 24052,
+      "name": "Rune. Trousers +4",
+      "url": "https://www.ffxiah.com/item/24052",
+      "capture_sha256": "81e749b9f556994fcd79d5ad032164b8fc934ef90e74b1f6f80274af61f7a2fe",
+      "printed_card": "Rune. Trousers +4 Rare Ex [Legs] All Races DEF:142 HP+90 MP+72 STR+39 VIT+26 AGI+35 INT+40 MND+33 CHR+21 Accuracy+59 Magic Accuracy+59 Evasion+98 Magic Evasion+124 \"Magic Def. Bonus\"+7 Divine magic skill +20 Haste+6% All status ailment resistances +10 Physical Damage taken-5% Set: Accuracy+ Ranged Accuracy+ Magic Accuracy+ LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 24074,
+      "name": "Futh. Trousers +4",
+      "url": "https://www.ffxiah.com/item/24074",
+      "capture_sha256": "136fdba12e69d4b7e4b6ae1b8ac4138eaa4d9aa28b940290b3c25ad82091bdcf",
+      "printed_card": "Futh. Trousers +4 Rare Ex [Legs] All Races DEF:144 HP+117 STR+42 VIT+31 AGI+30 INT+45 MND+27 CHR+21 Accuracy+44 Attack+74 Magic Accuracy+44 Evasion+83 Magic Evasion+129 \"Magic Def. Bonus\"+8 Haste+6% Enhancing magic duration +30% Enhancing magic casting time -15% LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 24119,
+      "name": "Futh. Boots +4",
+      "url": "https://www.ffxiah.com/item/24119",
+      "capture_sha256": "666e770c1a5fa29bf68408bd3ba73d4fbe981de709a93f5149a7747b8f707a36",
+      "printed_card": "Futh. Boots +4 Rare Ex [Feet] All Races DEF:100 HP+43 MP+60 STR+25 DEX+34 VIT+27 AGI+47 MND+22 CHR+40 Accuracy+50 Attack+71 Magic Accuracy+41 Evasion+117 Magic Evasion+129 \"Magic Def. Bonus\"+8 Parrying skill +20 Haste+4% \"Critical Parry\"+40 LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 25545,
+      "name": "Futhark Torque +2",
+      "url": "https://www.ffxiah.com/item/25545",
+      "capture_sha256": "619b21f5e1e8c19a984dc1ed8edde58de674909bb017924164fc2c3a195f9e97",
+      "printed_card": "Futhark Torque +2 [Neck] All Races Magic Evasion+30 Enmity+10 LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 25547,
+      "name": "Erilaz Earring +1",
+      "url": "https://www.ffxiah.com/item/25547",
+      "capture_sha256": "05d6677a9c53358cf6c20adc7348c15f521181ccd28688c25db843c1d1a4cd91",
+      "printed_card": "Erilaz Earring +1 Ex [Ear] All Races Right ear: Magic Evasion+11 Potency of \"Regen\" effects received +11 LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 25653,
+      "name": "Halitus Helm",
+      "url": "https://www.ffxiah.com/item/25653",
+      "capture_sha256": "26b0ef4bb8e4288be46f231c075a647411683ebc17722d9b7094973abfdc1402",
+      "printed_card": "Halitus Helm Rare Ex [Head] All Races DEF:109 HP+88 MP+23 STR+19 DEX+15 VIT+17 AGI+15 INT+14 MND+14 CHR+14 Accuracy+20 Evasion+68 Magic Evasion+43 \"Magic Def. Bonus\"+2 Haste+7% Enmity+8 LV 99 WAR MNK RDM THF DRK BST BRD RNG SAM DRG DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 25824,
+      "name": "Regal Gauntlets",
+      "url": "https://www.ffxiah.com/item/25824",
+      "capture_sha256": "515f497c4596b1f58d2f79624265cd993cd0107aa2b1e0d13090f48609993daf",
+      "printed_card": "Regal Gauntlets Rare Ex [Hands] All Races DEF:126 HP+205 MP+29 STR+30 DEX+30 VIT+40 AGI+20 INT+30 MND+40 CHR+30 Accuracy+45 Evasion+41 Magic Evasion+48 \"Magic Def. Bonus\"+2 Haste+4% \"Regen\"+10 \"Refresh\"+1 Spell interruption rate down 10% Enhancing magic duration +20% LV 99 PLD RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 25995,
+      "name": "Turms Mittens +1",
+      "url": "https://www.ffxiah.com/item/25995",
+      "capture_sha256": "20399875af74202067d513c2d430ee825eb7bda7ca4afa3f9371d3158b53c1ed",
+      "printed_card": "Turms Mittens +1 [Hands] All Races DEF:113 HP+74 STR+12 DEX+51 VIT+32 AGI+5 INT+15 MND+30 CHR+23 Accuracy+49 Evasion+80 Magic Evasion+101 \"Magic Def. Bonus\"+5 Haste+4% \"Regen\"+6 Parry: Recover HP+100 LV 99 THF DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26029,
+      "name": "Anu Torque",
+      "url": "https://www.ffxiah.com/item/26029",
+      "capture_sha256": "afaa0c0904e58d6c765d21f3d662dc336d97c2880dad4a2e63ae42bc1805aaf6",
+      "printed_card": "Anu Torque Rare Ex [Neck] All Races DEF:10 Attack+20 \"Store TP\"+7 \"Resist Stun\"+10 LV 99 MNK RDM THF BST RNG DRG DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26037,
+      "name": "Moonlight Necklace",
+      "url": "https://www.ffxiah.com/item/26037",
+      "capture_sha256": "fd13478070599bb23c995c0e062b1643c085051d42a5c45c9af00904baccd7ab",
+      "printed_card": "Moonlight Necklace [Neck] All Races DEF:16 Magic Accuracy+15 Magic Evasion+15 Enmity+15 Spell interruption rate down 15% LV 99 WAR MNK PLD NIN RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26043,
+      "name": "Hoxne Torque",
+      "url": "https://www.ffxiah.com/item/26043",
+      "capture_sha256": "cca0458da6bdff3d5eef8e141ac643ee643b17b24f080c3ab66e4fb993fcc843",
+      "printed_card": "Hoxne Torque Rare [Neck] All Races Combat skills +30 Magic skills +30 \"Slow\"+5% LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26084,
+      "name": "Sherida Earring",
+      "url": "https://www.ffxiah.com/item/26084",
+      "capture_sha256": "8de839e32a950ff9b12c7819f490adbd7f613ea30f4392bb652b8e4affc347f0",
+      "printed_card": "Sherida Earring Rare Ex [Ear] All Races STR+5 DEX+5 \"Double Attack\"+5% \"Store TP\"+5 \"Subtle Blow II\"+5 LV 99 MNK RDM THF BST RNG DRG DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26093,
+      "name": "Saxnot Earring",
+      "url": "https://www.ffxiah.com/item/26093",
+      "capture_sha256": "174cf5fbd9cc7aa61af16dba0a20ea6598db7a1c08215d845eaee26df0b64857",
+      "printed_card": "Saxnot Earring Rare Ex [Ear] All Races DEF:20 Divine magic skill +10 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26112,
+      "name": "Tuisto Earring",
+      "url": "https://www.ffxiah.com/item/26112",
+      "capture_sha256": "9c1a2a4fb819279a7e9b4b31c310e0fcefbc8e1da775da7afd5c3d93e73dce6c",
+      "printed_card": "Tuisto Earring Rare Ex [Ear] All Races DEF:20 VIT+10 Converts 150 MP to HP LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26267,
+      "name": "Ogma's Cape",
+      "url": "https://www.ffxiah.com/item/26267",
+      "capture_sha256": "37489b478d7804b7cbecd9a2f5104747b7254c6d4be62bafccfdcf5de80fa979",
+      "printed_card": "Ogma's Cape Ex [Back] All Races DEF:18 \"Inquartata\"+3 \"Vallation\" and \"Valiance\" effect duration +15 LV 99 RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26355,
+      "name": "Audumbla Sash",
+      "url": "https://www.ffxiah.com/item/26355",
+      "capture_sha256": "a033283b21834f86fcb337559e14893fd413a12249bbecefa8e437648e833286",
+      "printed_card": "Audumbla Sash Rare Ex [Waist] All Races DEF:18 Spell interruption rate down 10% Physical Damage taken-4% LV 99 WAR MNK PLD NIN RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 26871,
+      "name": "Emet Harness +1",
+      "url": "https://www.ffxiah.com/item/26871",
+      "capture_sha256": "8e785bb8bccb45c64f80db7ba3dddb1f1f69e467b9e312d3c91712fdb3554a10",
+      "printed_card": "Emet Harness +1 Rare Ex [Body] All Races DEF:131 HP+61 STR+25 DEX+24 VIT+25 AGI+23 INT+23 MND+23 CHR+23 Evasion+70 Magic Evasion+64 \"Magic Def. Bonus\"+5 Haste+4% Enmity+10 Physical Damage taken-6% Unity Ranking: Accuracy+10～20 LV 99 WAR MNK RDM THF PLD DRK BST BRD SAM NIN DRG BLU COR DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 27134,
+      "name": "Kurys Gloves",
+      "url": "https://www.ffxiah.com/item/27134",
+      "capture_sha256": "07e575896626334a365fe5d235fa79e502b4c17bb3b3698e189118cc34e0aeee",
+      "printed_card": "Kurys Gloves Rare Ex [Hands] All Races DEF:92 HP+25 STR+11 DEX+35 VIT+32 AGI+5 INT+12 MND+30 CHR+17 Accuracy+20 Evasion+44 Magic Evasion+57 \"Magic Def. Bonus\"+2 Haste+5% Enmity+9 Damage taken-2% LV 99 MNK THF RNG SAM NIN COR PUP DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 27549,
+      "name": "Odnowa Earring +1",
+      "url": "https://www.ffxiah.com/item/27549",
+      "capture_sha256": "9361902687de1163eb143b5cfa02dc7c161af260d3bdcc4173c402cc0cc30d86",
+      "printed_card": "Odnowa Earring +1 Rare Ex [Ear] All Races STR+3 VIT+3 Converts 110 MP to HP Magic Damage taken-2% Unity Ranking: Accuracy+5～10 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 28413,
+      "name": "Kentarch Belt +1",
+      "url": "https://www.ffxiah.com/item/28413",
+      "capture_sha256": "b123c886699a4645913f8661492d2ddeeb277d08d355b1a1e03d6d1e101d9b64",
+      "printed_card": "Kentarch Belt +1 Rare Ex [Waist] All Races DEF:14 Accuracy+14 \"Double Attack\"+3% Unity Ranking: \"Store TP\"+1～5 LV 99 WAR RDM THF PLD DRK BST BRD RNG SAM NIN DRG BLU COR DNC RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 28483,
+      "name": "Cryptic Earring",
+      "url": "https://www.ffxiah.com/item/28483",
+      "capture_sha256": "aad44988541452f725959fefca08f46e549eb3b7d1c22c6a8d7131dbd5653218",
+      "printed_card": "Cryptic Earring Rare Ex [Ear] All Races HP+40 Enmity+4 \"Counter\"+3 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 28515,
+      "name": "Trux Earring",
+      "url": "https://www.ffxiah.com/item/28515",
+      "capture_sha256": "4461ddebef23f349bfc0b58177a114e40de04136657b05ebe635e61cc6f93096",
+      "printed_card": "Trux Earring Rare Ex [Ear] All Races Katana skill +5 Enmity+5 \"Double Attack\"+3% LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    },
+    {
+      "item_id": 28535,
+      "name": "Supershear Ring",
+      "url": "https://www.ffxiah.com/item/28535",
+      "capture_sha256": "736984c044cbbddceead64a885c05df211c15fce7d19cff2bf7f65f50c69888a",
+      "printed_card": "Supershear Ring Rare Ex [Finger] All Races HP+30 MP+30 VIT+5 Accuracy+7 Enmity+5 LV 99 WAR MNK WHM BLM RDM THF PLD DRK BST BRD RNG SAM NIN DRG SMN BLU COR PUP DNC SCH GEO RUN",
+      "name_confirmed": true,
+      "run_eligibility_confirmed": true
+    }
+  ],
+  "validation": {
+    "literal-native": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "0.04s",
+      "log_sha256": "c39efe51cd313bd35a816020dcd8c7ac1446c3b68b8b6f37038ffea4140f72bf"
+    },
+    "focused-native": {
+      "passed": 811,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "69.59s (0:01:09)",
+      "log_sha256": "b776874d46604364f184b6ea1ccf76bcea446e277f0233d2a7da6389e15aa093"
+    },
+    "full-native": {
+      "passed": 1536,
+      "failed": 0,
+      "skipped": 0,
+      "duration": "158.52s (0:02:38)",
+      "log_sha256": "068dac037b1ed1c01f89e148c8086c24ee98a4441d5952692196604bf0f156d9"
+    }
+  },
+  "metadata_correction": {
+    "field": "delivery_status",
+    "before_sha256": "ca787650965d61046e91323bd1e1c991d9245f4b2d7d340935159afc9f511926",
+    "after_sha256": "d0b3af52d96f01ae2fe721ac9ef83d8150045a93c61d6f8a7c1c17a395b61f1a",
+    "prior_delivery_status": "Partial all22jobs candidate, DNC retained. BST provenance integration preserved. SMN common master-engaged Balanced/DT/Accuracy included only for niche SMN99/WAR49 Mpaca/Khonsu low-buff avatar-alive context. Other SMN variants, all remaining all22jobs inventory obligations, BRD runtime retirement and DRG/RUN/PUP/DNC/BST limits remain open; no complete T1/job or production acceptance. Stop after SMN engaged and exact standalone current-chat successor prompt. BST engaged-balanced exact earring labels corrected by immutable successor only; all22jobs/DNC and original limitations retained. Jason authorized next SMN/SAM Hasso slice in a new local session after this correction, without concurrent integration. SMN99/SAM49 Hasso Balanced/DT/Accuracy counterparts added as separate identities only for the niche Mpaca/Khonsu Hasso-active avatar-alive context; /WAR identities, coverage and saved targets unchanged; all22jobs/DNC and original limitations retained. BST other27 node 227 scopes audited (22 confirmed, 5 production duplicate-copy attribution defects recorded only); node-inventory source attribution corrected by append-only successor; no gear or revision change; all22jobs/DNC and original limitations retained. Remaining BST/PUP null-URL scope-source fallbacks corrected by append-only successors (BST bg-ready and PUP bg-maneuver confirmed); engaged-accuracy NIN AM3 citation completed; selections unchanged; all22jobs/DNC and original limitations retained.",
+    "current_delivery_status": "Current status after RUN correctness audit (2026-11-05): existing 20 RUN compositions checked within their declared contexts; no gear/slot/augment defect or FFXIAH grid drift found. Current BG guide refresh source-limited (403 and browser unavailable); prior BG revision remains historical evidence. BRD runtime retirement is implemented and tested, with human/frozen acceptance pending. Initial all22jobs/DNC passes and bounded BST/SMN corrections, including SAM49 Hasso, remain included. DRG, PUP, DNC, ALL22 and other declared coverage/variant limits remain open and pending until after 2.2.0. No complete-job/current-BiS, caps, HP-preservation or live acceptance claim. Next slice, only when Jason starts it: production replacement; then separate release/2.2.0 integration/full tests/RC rebuild and pre-release checklist slices. World Map excluded. All following delivery notes are immutable historical context, superseded by this current status where they describe old scope, stopping points, production defects or runtime-retirement implementation state.\n\nHistorical delivery notes retained verbatim:\nPartial all22jobs candidate, DNC retained. BST provenance integration preserved. SMN common master-engaged Balanced/DT/Accuracy included only for niche SMN99/WAR49 Mpaca/Khonsu low-buff avatar-alive context. Other SMN variants, all remaining all22jobs inventory obligations, BRD runtime retirement and DRG/RUN/PUP/DNC/BST limits remain open; no complete T1/job or production acceptance. Stop after SMN engaged and exact standalone current-chat successor prompt. BST engaged-balanced exact earring labels corrected by immutable successor only; all22jobs/DNC and original limitations retained. Jason authorized next SMN/SAM Hasso slice in a new local session after this correction, without concurrent integration. SMN99/SAM49 Hasso Balanced/DT/Accuracy counterparts added as separate identities only for the niche Mpaca/Khonsu Hasso-active avatar-alive context; /WAR identities, coverage and saved targets unchanged; all22jobs/DNC and original limitations retained. BST other27 node 227 scopes audited (22 confirmed, 5 production duplicate-copy attribution defects recorded only); node-inventory source attribution corrected by append-only successor; no gear or revision change; all22jobs/DNC and original limitations retained. Remaining BST/PUP null-URL scope-source fallbacks corrected by append-only successors (BST bg-ready and PUP bg-maneuver confirmed); engaged-accuracy NIN AM3 citation completed; selections unchanged; all22jobs/DNC and original limitations retained.",
+    "all_other_fields_identical": true,
+    "method": "prepare dry run then save_candidate; no immutable records changed; no derived keys saved"
+  },
+  "limits": "Source/grid/identity/augments/context correctness within existing bounded sets only. Current BG refresh unavailable; no completeness, BiS, numeric caps/totals, HP-preserving chain, ownership/bags or human/frozen/live acceptance. Additional RUN variants and other job limits remain pending after 2.2.0."
+}

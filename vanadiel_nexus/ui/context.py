@@ -1,5 +1,7 @@
 """Shared app state handed to every page: database, settings, game bridge, Windower folder."""
 import os
+import re
+import subprocess
 import time
 
 from PySide6.QtCore import QObject, QUrl, Signal
@@ -134,3 +136,37 @@ class AppContext(QObject):
     def open_path(path: str) -> None:
         if path and os.path.exists(path):
             QDesktopServices.openUrl(QUrl.fromLocalFile(path))
+
+    @staticmethod
+    def edit_file(path: str) -> None:
+        """Open a script for editing. If the file type's default action is a Lua interpreter (e.g. Lua for
+        Windows), 'open' would *run* the player's GearSwap file, so use the 'edit' verb or Notepad instead.
+        Raises OSError if nothing could open it."""
+        if not path or not os.path.exists(path):
+            return
+        if os.name == "nt" and _opens_with_interpreter(path):
+            try:
+                os.startfile(path, "edit")
+            except OSError:
+                subprocess.Popen(["notepad.exe", path])
+            return
+        QDesktopServices.openUrl(QUrl.fromLocalFile(path))
+
+
+_INTERPRETER = re.compile(r"^w?lua(jit)?[\d.]*\.exe$", re.IGNORECASE)
+
+
+def _opens_with_interpreter(path: str) -> bool:
+    """True when Windows' default 'open' program for this file's extension is a Lua interpreter."""
+    import ctypes
+    ext = os.path.splitext(path)[1]
+    if not ext:
+        return False
+    size = ctypes.c_ulong(1024)
+    buf = ctypes.create_unicode_buffer(size.value)
+    ASSOCSTR_EXECUTABLE = 2
+    try:
+        result = ctypes.windll.shlwapi.AssocQueryStringW(0, ASSOCSTR_EXECUTABLE, ext, "open", buf, ctypes.byref(size))
+    except (AttributeError, OSError):
+        return False
+    return result == 0 and bool(_INTERPRETER.match(os.path.basename(buf.value)))

@@ -1,0 +1,305 @@
+{
+  "checked_on": "2026-11-04",
+  "items": [
+    {
+      "item_id": 21025,
+      "name": "Dojikiri Yasutsuna",
+      "url": "https://www.ffxiah.com/item/21025",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "00bd39533299e6b9203111127321fc5f1826129db71ab52cabb92f27c5bd13ea",
+      "observation_sha256": "928814f432691aef80c7194b65ea5e2948992656efa7e9fa52d5162503818bdf"
+    },
+    {
+      "item_id": 21883,
+      "name": "Shining One",
+      "url": "https://www.ffxiah.com/item/21883",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "90eb6b35a906d965df35879199a5c44393bf198bf7b604bcc567403a5a6eff8d",
+      "observation_sha256": "db196f1c6b1b85fccbcebb4d6fb11ecd3f0a9ad1e53c792c0ee19a228d35b179"
+    },
+    {
+      "item_id": 21956,
+      "name": "Masamune",
+      "url": "https://www.ffxiah.com/item/21956",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "ad81fd85cbbe4cdd3da1d541586d37e032bb696cd0f8a06b6e20220a3589a553",
+      "observation_sha256": "5929cadfad9abbf2b9ce025a2cead33e5375b3ad59106b6d7b39bddbd5ad3863"
+    },
+    {
+      "item_id": 22212,
+      "name": "Utu Grip",
+      "url": "https://www.ffxiah.com/item/22212",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "a8617f98d155bc343caccaea7fe270936e955f0b5f2e4a4a6689b9d4d45c44fa",
+      "observation_sha256": "3c601218c1128d6051d38dc0e038ed0a72fa236f7fefa751e06e76cea3033a7e"
+    },
+    {
+      "item_id": 22281,
+      "name": "Knobkierrie",
+      "url": "https://www.ffxiah.com/item/22281",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "3fc10467a1c765c3e43e0754846adb602e29a4c750c81e9475b9a85ea6f58ac6",
+      "observation_sha256": "000c9136a85b03e55caffca33c3e12975da4435dd0cbeb76339cb6fb05064f99"
+    },
+    {
+      "item_id": 22298,
+      "name": "Aurgelmir Orb +1",
+      "url": "https://www.ffxiah.com/item/22298",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "579b49efa861ea6d2c56fbe0fc653c716957770dc3add74e4c9719361ae0d737",
+      "observation_sha256": "0b743b072149a0f767f1ce81e43918bf2fd66789ad945a94fcbdcb72db6f444e"
+    },
+    {
+      "item_id": 23386,
+      "name": "Wakido Kabuto +3",
+      "url": "https://www.ffxiah.com/item/23386",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "f793a065a2446fa89dcd7e19d447db9b06bd054a3b79f903c0a10d09d6894f18",
+      "observation_sha256": "2c3b569939f6a801c98221f45e2431f9d2e6af3337b4228ca2a0e2310e22a136"
+    },
+    {
+      "item_id": 23431,
+      "name": "Kasuga Kabuto +3",
+      "url": "https://www.ffxiah.com/item/23431",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "444bc37c15bd123477a746d963c7dc19edd7c3bc45627e5adf6ba36c05f7808b",
+      "observation_sha256": "51967e43d83194429d53c2d8463b38d5723c081fdd14a0491f120cc2c4d0dd4d"
+    },
+    {
+      "item_id": 23498,
+      "name": "Kasuga Domaru +3",
+      "url": "https://www.ffxiah.com/item/23498",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "4ae48550bbdd5bb0facc8338aa4e5758f273859c82543caa2ab571826bdac619",
+      "observation_sha256": "4ee4dbd055dbf0b182f0dcb1bed818a8a10918b9c6bc438959d143f3e9828c72"
+    },
+    {
+      "item_id": 23543,
+      "name": "Sakonji Kote +3",
+      "url": "https://www.ffxiah.com/item/23543",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "bb4653af943c8bc4f0c0914cbfb3f2348018e1d270194847a1890909459a2b45",
+      "observation_sha256": "d9afe289a2197e80317a7626980c8f9fe23665777887e13d75c1b45be56b4593"
+    },
+    {
+      "item_id": 23565,
+      "name": "Kasuga Kote +3",
+      "url": "https://www.ffxiah.com/item/23565",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "43f9bd7173a7c862c9364a4b1b2e5773e7d693f2fd80bbb3e664f8a3ccf2d661",
+      "observation_sha256": "163cc34a58d331c6da36c483522a69c0e76575ae7ac81111600a1a0a85ab6d93"
+    },
+    {
+      "item_id": 23610,
+      "name": "Sakonji Haidate +3",
+      "url": "https://www.ffxiah.com/item/23610",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "a2b0d2da973b7749b2c6e6122672ef1592716c347723a9d54e012aa13e2cea55",
+      "observation_sha256": "1753dc5d26d717637cced9c60bfdf5d6ad80cafa1b4b3bb15f18d3b2c460cf80"
+    },
+    {
+      "item_id": 23632,
+      "name": "Kasuga Haidate +3",
+      "url": "https://www.ffxiah.com/item/23632",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "dbc67a264747870f8ead7c820a8e22f36952608ed61839db79504af575957014",
+      "observation_sha256": "9501b8e4e6a19ac18f808493941f6d4b54712da4d55ce374a74db7a5679b9be8"
+    },
+    {
+      "item_id": 23677,
+      "name": "Sak. Sune-Ate +3",
+      "url": "https://www.ffxiah.com/item/23677",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "dce7af7b978a61f6ac603d9a244639cbd18e6e1555b5e34b6973d1831b78fae8",
+      "observation_sha256": "f4adaa173114081e0ffec5773c591e10ccfc0001604e006efc436cdde501be59"
+    },
+    {
+      "item_id": 23699,
+      "name": "Kas. Sune-Ate +3",
+      "url": "https://www.ffxiah.com/item/23699",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "bc03f3bb7f0372a218ae046c08c75939d242e30bfb76676d69bdaadec199d3d9",
+      "observation_sha256": "75c2d3850b6b839f13fb96ccb2f8e75759b52cce68ae7d7b1aece0fe96e3ef5c"
+    },
+    {
+      "item_id": 23758,
+      "name": "Mpaca's Cap",
+      "url": "https://www.ffxiah.com/item/23758",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "9756154db5eae43249ced70e011b70704d448e32360b54734d094e9ef9af01a6",
+      "observation_sha256": "0f55bfd879a32fcd12d07f2bb04bc864e8fdf00dfd72a314fefa8830fb91ef9a"
+    },
+    {
+      "item_id": 25487,
+      "name": "Kasuga Earring +1",
+      "url": "https://www.ffxiah.com/item/25487",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "5a5b29a26bb2cd663ec1a0e6c39d12204bc44f6d94f400bb57f177e1d1f56cd7",
+      "observation_sha256": "9973d6bc6c1ca994ba41ff4152af9e07b144e07bbc249656f05b1ca31812fe27"
+    },
+    {
+      "item_id": 25488,
+      "name": "Kasuga Earring +2",
+      "url": "https://www.ffxiah.com/item/25488",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "5f4b4888b0fa226d6eb8f1233cd5720ffe1f3e42a0495d4cfc542a0339fae944",
+      "observation_sha256": "6e5e202d7ad57ff7b3e2eeda00a1fe02668426676ce49c391cdbefb372c4edef"
+    },
+    {
+      "item_id": 25569,
+      "name": "Flam. Zucchetto +2",
+      "url": "https://www.ffxiah.com/item/25569",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "0da3b53ebf07362af910400655b2dd64e171ce44030fbad7f222308537384125",
+      "observation_sha256": "b91344935ade1734fb6e34fa934bcd04606e2959b453ae876e4fea4d5c98df91"
+    },
+    {
+      "item_id": 26042,
+      "name": "Null Loop",
+      "url": "https://www.ffxiah.com/item/26042",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "7fb98f72c4ff5ea93a8ad6f8d736729c220c704365f9b164b761e8fa4fd58eca",
+      "observation_sha256": "a12b97fe8cc23ffedf9e51d29e7c4c5dfd2aae3189dca80b0f2a32893f8005d8"
+    },
+    {
+      "item_id": 26107,
+      "name": "Thrud Earring",
+      "url": "https://www.ffxiah.com/item/26107",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "16e1ec512936857f6a81d43620f0a5d63d504100b5ae9f95c8e98db1d1ce7acd",
+      "observation_sha256": "87d1e93a85393ee75a275250a81f8cef28878229ce78a02c1da2d6f3c338ea80"
+    },
+    {
+      "item_id": 26120,
+      "name": "Hoxne Earring",
+      "url": "https://www.ffxiah.com/item/26120",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "694a9df8e8ec405874b98def60ebcdb163d7821a5e9806b6cd6c5cbf42337f5e",
+      "observation_sha256": "62e1bbad76b5c3769eef11353ec912f865222bdbdf4b663558cae0b6f8cfdb00"
+    },
+    {
+      "item_id": 26184,
+      "name": "Stikini Ring +1",
+      "url": "https://www.ffxiah.com/item/26184",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "71d6925120297e7c3a4cba6ca382a27171167ede5b8e7ea96db60e465a0143b9",
+      "observation_sha256": "8b324b6035a2f8d072885ef3740b13944d306f6e585d6b1dd06055ad43d970e1"
+    },
+    {
+      "item_id": 26231,
+      "name": "Ephramad's Ring",
+      "url": "https://www.ffxiah.com/item/26231",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "ddc24b0cb48aa53adaa4ce2e76fdefb92d55d82319561d1486f1581594bb0260",
+      "observation_sha256": "a42d68787d6d5e9ab362f262c703a563ba94164869631fa19ce7073357414be0"
+    },
+    {
+      "item_id": 26234,
+      "name": "Murky Ring",
+      "url": "https://www.ffxiah.com/item/26234",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "2602b99794b4eb6a6625cef28a934cb07a1e5f2182a9977a16927dc0d351cea5",
+      "observation_sha256": "102dc337f684c58149f940a70ede79d2a3c886a52111c2222d09e575defb8c16"
+    },
+    {
+      "item_id": 26257,
+      "name": "Smertrios's Mantle",
+      "url": "https://www.ffxiah.com/item/26257",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "626e40aed7fa59e8f34b429ede03ee5ba63f998bebf1f0438f7a26c59a24d717",
+      "observation_sha256": "10ed9804006d2c10946aac7058a615f789af7221bf89b1c2e40968d42111f143"
+    },
+    {
+      "item_id": 26367,
+      "name": "Null Belt",
+      "url": "https://www.ffxiah.com/item/26367",
+      "method": "Ordinary Chrome rendered public item card; exact ID/name, slot, jobs and base description inspected",
+      "scope": "Manual observation, not retained raw HTML. Local resource description digest is not a webpage hash.",
+      "resource_description_sha256": "37c4465296c2bf5432c8802d3fd2e3fe8b7902b97f49255355a50613433d1aa9",
+      "observation_sha256": "3a869ffedc6836c1747e06aa7a49421711231ea6d0b9443d962694a27d238efe"
+    }
+  ],
+  "ability_observations": [
+    [
+      "Nyame_Armor_Set",
+      "All-job base armor; Path B WS/attack/DA route. Page displays R30 values; no R30 values or rank copied into Nexus requirements"
+    ],
+    [
+      "Sekkanoki",
+      "Kasuga Kote+3 on affected WS; weapon TP Bonus differs, no numeric model"
+    ],
+    [
+      "Meikyo_Shisui",
+      "Sakonji feet+3 WS consumption modifier requires wearing during WS"
+    ],
+    [
+      "Tachi:_Jinpu",
+      "Hybrid wind, GK skill150"
+    ],
+    [
+      "Tachi:_Koki",
+      "Hybrid light, GK skill175, mixed STR/MND; Nexus STR compromise not optimality claim"
+    ],
+    [
+      "Tachi:_Goten",
+      "Hybrid lightning, GK skill70"
+    ],
+    [
+      "Leg_Sweep",
+      "Polearm skill100; chance to stun depends on TP and resistance"
+    ],
+    [
+      "Hagakure",
+      "Next WS Save TP/TP Bonus; active buff and actual overflow must be checked, no JP inferred"
+    ],
+    [
+      "Category:JSE_Capes",
+      "Thread20 and Dye10 independent stat parts; Dust combined accuracy/attack or magic pair; Sap DA10/WSD10; Resin PDT10 or DT5"
+    ]
+  ],
+  "native_augment_evidence": {
+    "path": "Windower4/addons/libs/extdata.lua",
+    "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921",
+    "method": "Read public library only, never executed",
+    "parts": [
+      "DEX+20",
+      "DEX+10",
+      "STR+20",
+      "STR+10",
+      "Accuracy+20 Attack+20",
+      "Mag. Acc+20 /Mag. Dmg.+20",
+      "\"Dbl.Atk.\"+10",
+      "Weapon skill damage +10%",
+      "Damage taken-5%",
+      "Phys. dmg. taken-10%",
+      "Attack+4",
+      "TP Bonus +250"
+    ]
+  }
+}

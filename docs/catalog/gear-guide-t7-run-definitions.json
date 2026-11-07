@@ -1,0 +1,2759 @@
+{
+  "checked_on": "2026-11-04",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus completes372997/372998 with exact base Aettir/RefinedGrip and fixed Nyame/accessories. No Epeolatry or source capped defense claim; no random cape or Unity rank.",
+      "source_grids": [
+        372997,
+        372998
+      ],
+      "context": {
+        "action": "Disengaged defensive idle; no parry-healing guarantee while disengaged"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22268,
+          "name": "Homiliary",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372999 recovery alternative selects two Stikini+1 copies deliberately; source final ring2 is Gurebu, not two Stikini. Fixed protective legs/feet replace random Herculean Refresh rolls. Regal Gauntlets printed Refresh is a self equipment effect; no sphere assumed.",
+      "source_grids": [
+        372999
+      ],
+      "context": {
+        "action": "Disengaged native RUN MP recovery; actual MP deficit; no net MP/tick total, external Refresh, safe combat claim"
+      }
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22280,
+          "name": "Yamarang",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26029,
+          "name": "Anu Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23575,
+          "name": "Erilaz Gauntlets +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372761/372680 fixed Nyame/Erilaz substitute for Sworn and random Adhemar/Samnuha; balanced GreatSword tank/DD purpose without source five-hit/attack claim.",
+      "source_grids": [
+        372761,
+        372680
+      ],
+      "context": {
+        "action": "Engaged Aettir/Utu ordinary attacks; no Hasso, Temper, Swordplay or rolls assumed"
+      }
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25545,
+          "name": "Futhark Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25995,
+          "name": "Turms Mittens +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372679 defensive composition repairs illegal source left-ear Erilaz by using existing legal earrings; Turms requires Su3/500JP access, parry healing only on actual eligible parry. No capped DT or guaranteed resist.",
+      "source_grids": [
+        372679
+      ],
+      "context": {
+        "action": "Engaged facing eligible attacking target with Aettir/RefinedGrip; Turms Su3 and500JP required",
+        "access_extra": "Su3/500 job points required for Turms Mittens+1; no other JP gift or master-level stats credited"
+      }
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22280,
+          "name": "Yamarang",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26015,
+          "name": "Combatant's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23575,
+          "name": "Erilaz Gauntlets +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28413,
+          "name": "Kentarch Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372677 substitutes fixed Nyame/Erilaz armor and NullShawl, two Chirich copies. Accuracy intent only; source mastered1350/no-food total not transferred.",
+      "source_grids": [
+        372677
+      ],
+      "context": {
+        "action": "Engaged Aettir/Utu accuracy-oriented ordinary attacks; actual hit rate unknown"
+      }
+    },
+    {
+      "key": "dimidiation",
+      "target": "Dimidiation",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25415,
+          "name": "Rep. Plat. Medal",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26186,
+          "name": "Ilabrat Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {
+            "augments": [
+              "DEX+20",
+              "Accuracy+20 Attack+20",
+              "DEX+10",
+              "Weapon skill damage +10%",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Nexus372671 completes omitted hands pairing with Aettir/Utu; all five Nyame explicitly PathB without rank. DEX/WSD cape differs from Resolution. No source capped attack/accuracy or R25 transferred.",
+      "source_grids": [
+        372671,
+        376359
+      ],
+      "context": {
+        "action": "Dimidiation permanently unlocked and usable with selected GreatSword, actual1000+TP; no Epeolatry aftermath or guaranteed damage"
+      }
+    },
+    {
+      "key": "resolution",
+      "target": "Resolution",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 21694,
+          "name": "Lionheart",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22212,
+          "name": "Utu Grip",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22281,
+          "name": "Knobkierrie",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 11697,
+          "name": "Moonshade Earring",
+          "requirements": {
+            "augments": [
+              "Attack+4",
+              "TP Bonus +250"
+            ]
+          }
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26221,
+          "name": "Sroda Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26185,
+          "name": "Niqmaddu Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {
+            "augments": [
+              "STR+20",
+              "Accuracy+20 Attack+20",
+              "STR+10",
+              "\"Dbl.Atk.\"+10",
+              "Damage taken-5%"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "path": "B"
+          }
+        }
+      ],
+      "rationale": "Nexus397818 fixed full NyameB replacement for mixed random Adhemar; exact base Lionheart21694 grants Resolution. Source R25 label not credited; no rank/AM bonus or capped attack.",
+      "source_grids": [
+        397818
+      ],
+      "context": {
+        "action": "Resolution actually usable from main Lionheart; actual1000+TP; aftermath inactive; no rank or multi-hit cap/damage benchmark"
+      }
+    },
+    {
+      "key": "enmity-ja",
+      "target": "Enmity Ja",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25653,
+          "name": "Halitus Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25545,
+          "name": "Futhark Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26871,
+          "name": "Emet Harness +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27134,
+          "name": "Kurys Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28535,
+          "name": "Supershear Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10798,
+          "name": "Eihwaz Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15895,
+          "name": "Trance Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372675 fills hands with fixed Aettir/RefinedGrip, base cape without invented augment. Emet base no Unity maximum/rank. JA enmity intent is separate from spell precast and interrupted completion.",
+      "source_grids": [
+        372675
+      ],
+      "context": {
+        "action": "Usable Pflug activation, actual rune configuration and eligible target/recipient situation; no fixed enmity yield or duration guarantee"
+      }
+    },
+    {
+      "key": "flash-enmity",
+      "target": "Flash Enmity",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25653,
+          "name": "Halitus Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25545,
+          "name": "Futhark Torque +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28515,
+          "name": "Trux Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28483,
+          "name": "Cryptic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 26871,
+          "name": "Emet Harness +1",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27134,
+          "name": "Kurys Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28535,
+          "name": "Supershear Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10798,
+          "name": "Eihwaz Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 15895,
+          "name": "Trance Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Separate completion snapshot for native Flash; do not use JA snapshot as an automatic FC/SIRD bridge. All source enmity totals/HP guarantees remain unverified.",
+      "source_grids": [
+        372675,
+        372664
+      ],
+      "context": {
+        "action": "Learned native Flash with sufficient actual MP/recast and susceptible target; completion only, separate precast/SIRD handling required"
+      }
+    },
+    {
+      "key": "precast",
+      "target": "Precast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23917,
+          "name": "Runeist Bandeau +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 10394,
+          "name": "Orunmila's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23508,
+          "name": "Erilaz Surcoat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27135,
+          "name": "Leyline Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {
+            "augments": [
+              "HP+60",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27383,
+          "name": "Carmine Greaves +1",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372765 supplies omitted waist/weapon slots. Literal HP/FC cape, Leyline base only and Carmine base without path. No Inspiration, FC cap or HP preservation asserted; two Moonlight copies.",
+      "source_grids": [
+        372765
+      ],
+      "context": {
+        "action": "Native Flash or Foil spell initiation only; Inspiration inactive; separate completion snapshot; no runtime swap implementation"
+      }
+    },
+    {
+      "key": "sird-completion",
+      "target": "Sird Completion",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23441,
+          "name": "Erilaz Galea +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26037,
+          "name": "Moonlight Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 15963,
+          "name": "Magnetic Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27535,
+          "name": "Halasz Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27100,
+          "name": "Rawhide Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26355,
+          "name": "Audumbla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27207,
+          "name": "Carmine Cuisses +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372768 base Rawhide/Carmine and fixed Moonlight cape. Omits unspecified source SIRD cape augment and merit10; no104 total or uninterruptibility certified.",
+      "source_grids": [
+        372768
+      ],
+      "context": {
+        "action": "Native Foil completion while exposed to interrupting hits; actual MP/recast and learned spell required; SIRD-oriented fallback, no cap/HP guarantee"
+      }
+    },
+    {
+      "key": "enhancing-skill",
+      "target": "Enhancing Skill",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26679,
+          "name": "Carmine Mask +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26043,
+          "name": "Hoxne Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 10281,
+          "name": "Manasa Chasuble",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24007,
+          "name": "Rune. Mitons +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 15471,
+          "name": "Merciful Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27207,
+          "name": "Carmine Cuisses +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372663 supplies weapons, ammo, back and defensive feet; base Carmine without paths. Skill intent, no500 cap or durations inferred. Old Manasa trades protection for skill; manual exposure decision required.",
+      "source_grids": [
+        372663
+      ],
+      "context": {
+        "action": "Actually unlocked native Temper from550JP, self completion; no Temper tiers or double attack potency certified",
+        "access_extra": "Temper550JP actual unlock required, no total JP/master-level assumption"
+      }
+    },
+    {
+      "key": "self-phalanx",
+      "target": "Self Phalanx",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23939,
+          "name": "Fu. Bandeau +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26043,
+          "name": "Hoxne Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28506,
+          "name": "Andoaa Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26095,
+          "name": "Mimir Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24007,
+          "name": "Rune. Mitons +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 15471,
+          "name": "Merciful Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10821,
+          "name": "Olympus Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27207,
+          "name": "Carmine Cuisses +1",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus368747/402038 fixed protection substitutes for random Taeon/Sworn. Futhark received Phalanx applies to self recipient, no invented Phalanx augment, ML50,445skill or source HP/MP.",
+      "source_grids": [
+        368747,
+        372665,
+        402038
+      ],
+      "context": {
+        "action": "Learned native Phalanx cast on self; Embolden inactive; received-bonus head actually worn by recipient at resolution; no guaranteed reduction/skill cap"
+      }
+    },
+    {
+      "key": "self-refresh",
+      "target": "Self Refresh",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23441,
+          "name": "Erilaz Galea +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26323,
+          "name": "Gishdubar Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24074,
+          "name": "Futh. Trousers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372673 completes four-piece duration grid with fixed defensive gear. Erilaz self Refresh potency is distinct from equipment Refresh on body/hands; Gishdubar only relevant self-received scope. No net MP/duration cap.",
+      "source_grids": [
+        372673,
+        372999
+      ],
+      "context": {
+        "action": "Native Refresh learned, self target with actual MP/recast; Erilaz head worn at completion; no external caster/Embolden assumed"
+      }
+    },
+    {
+      "key": "enhancing-duration",
+      "target": "Enhancing Duration",
+      "purpose": "Magic",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23441,
+          "name": "Erilaz Galea +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25824,
+          "name": "Regal Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26323,
+          "name": "Gishdubar Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24074,
+          "name": "Futh. Trousers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Same fixed duration subset in separately named native Crusade context; Gishdubar not generalized to every enhancing spell. Not a universal potency or Phalanx set.",
+      "source_grids": [
+        372673
+      ],
+      "context": {
+        "action": "Learned native Crusade cast on self; actual MP/recast; Embolden inactive, no fixed enmity duration certified"
+      }
+    },
+    {
+      "key": "vallation",
+      "target": "Vallation",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24074,
+          "name": "Futh. Trousers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus guide equipment overlays: Runeist body/Ogma duration with fixed defensive fill, Futhark leg merit-linked Inspiration retained only conditionally. No merit cap or modeled buff.",
+      "source_grids": [],
+      "context": {
+        "action": "Vallation usable with actual harbored rune element/count and recast; self recipient; actual Inspiration merit allocation unknown; no guaranteed resist/FC outcome"
+      }
+    },
+    {
+      "key": "valiance",
+      "target": "Valiance",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24074,
+          "name": "Futh. Trousers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Separate party-recipient snapshot, not self-only Vallation. Same gear does not establish identical recipients, recasts or effect totals.",
+      "source_grids": [],
+      "context": {
+        "action": "Valiance usable, actual harbored runes/recast and intended party recipients within range; Inspiration merits unknown; no automatic positioning or buff overwrite safety"
+      }
+    },
+    {
+      "key": "gambit",
+      "target": "Gambit",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24007,
+          "name": "Rune. Mitons +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus guide Runeist hands duration overlay filled with defensive base; actual runes consumed and target response not equipment stats.",
+      "source_grids": [],
+      "context": {
+        "action": "Gambit usable against eligible hostile target with actual rune count/element and recast; no fixed elemental damage increase guaranteed"
+      }
+    },
+    {
+      "key": "rayke",
+      "target": "Rayke",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26112,
+          "name": "Tuisto Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27549,
+          "name": "Odnowa Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 10769,
+          "name": "Gelatinous Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26267,
+          "name": "Ogma's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23642,
+          "name": "Eri. Leg Guards +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24119,
+          "name": "Futh. Boots +4",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus guide Futhark feet overlay with defensive fill; Rayke merit unlock/duration and rune-target relation explicit, no source max49s guarantee.",
+      "source_grids": [],
+      "context": {
+        "action": "Rayke actually merited/unlocked and usable; actual harbored runes consumed, elemental target resistance and recast required; no guaranteed resist rank change"
+      }
+    },
+    {
+      "key": "vivacious-pulse",
+      "target": "Vivacious Pulse",
+      "purpose": "Ability",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20761,
+          "name": "Aettir",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 21417,
+          "name": "Refined Grip +1",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23441,
+          "name": "Erilaz Galea +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26043,
+          "name": "Hoxne Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 10298,
+          "name": "Beatific Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26093,
+          "name": "Saxnot Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23962,
+          "name": "Runeist Coat +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 15472,
+          "name": "Altruistic Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10820,
+          "name": "Bishop's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24052,
+          "name": "Rune. Trousers +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23709,
+          "name": "Erilaz Greaves +3",
+          "requirements": {}
+        }
+      ],
+      "rationale": "Nexus372667 fills omissions defensively. Divine skill/Tenebrae MP context separated from cure spell potency; no guaranteed Na-status/Doom removal or HP/MP yield.",
+      "source_grids": [
+        372667
+      ],
+      "context": {
+        "action": "Vivacious Pulse available with actual cooldown/HP/MP deficit; three actually harbored Tenebrae for declared MP-oriented use; HP recovery and head status removal conditional"
+      }
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Tank / engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:dimidiation",
+          "nexus:run:resolution"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Enmity",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Enmity",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:enmity-ja",
+          "nexus:run:flash-enmity",
+          "nexus:run:vallation",
+          "nexus:run:valiance",
+          "nexus:run:gambit",
+          "nexus:run:rayke",
+          "nexus:run:vivacious-pulse"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "FC / SIRD",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "FC / SIRD",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:precast",
+          "nexus:run:sird-completion"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "RUN",
+        "priority": "Enhancing / Phalanx",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "RUN",
+        "priority": "Enhancing / Phalanx",
+        "status": "included",
+        "reviewed": true,
+        "context": "Twenty bounded GreatSword/grip contexts only; source model totals/ranks not adopted. HP-preserving runtime chains, full job/tier/action coverage and all rune/recipient variants remain unclaimed.",
+        "evidence": "GEAR-GUIDE-T7-RUN.md; original FFXIAHnode397,20 final-grid observations and43 independently read public cards; separately attributed Nexus completions.",
+        "set_ids": [
+          "nexus:run:enhancing-skill",
+          "nexus:run:self-phalanx",
+          "nexus:run:self-refresh",
+          "nexus:run:enhancing-duration"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Every progression tier, accuracy/attack/haste bracket; no tank/job completion",
+    "Epeolatry,Helheim,Oboro Aettir augment,alternate Lionheart identities/ranks/aftermaths; sword/axe/club and magical/status WS",
+    "Lunge/Swipe free/burst/element variants,OneForAll,Liement,Battuta,Swordplay,Pflug received,SP abilities,Regen/Cure/other subjob utility",
+    "All Phalanx random rolls,ML50/race/maxHP models,received-from-other caster chains,Embolden/Inspiration merits and HP-preserving swap priorities",
+    "All elemental/rune/target/party/recipient/encounter variants; full rune-resist or enmity formula",
+    "BG source revision/Permanentlink and currentBiS remain unverified; disabled ordinary browser access is not N/A",
+    "Numeric caps,HP/MP floors,effects totals,ownership/bags,runtime locks and human/frozen/live acceptance"
+  ],
+  "late_source_recovery": {
+    "source_id": "run:t7:bg-recovery:781614:2026-11-04",
+    "observation_sha256": "48c28d3b943d141be16cdf05a6bc49c4cbdb407dcd52ebbef672f44bcfbf478e",
+    "scope": "BG access limitation in first-save unclaimed list is historical; no change to20savedcompositions or source attribution. Other unclaimed contexts remain."
+  }
+}

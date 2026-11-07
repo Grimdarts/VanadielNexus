@@ -1,0 +1,150 @@
+{
+  "checked_on": "2026-11-05",
+  "items": [
+    {
+      "item_id": 20515,
+      "name": "Godhands",
+      "url": "https://www.ffxiah.com/item/20515",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "940654b0fe35584554147697a9665c89c18bc177813f5ac828b87f3381c0dd25",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Exact baseDMG197 Delay138 skill269 Godhands, ShijinSpiral grant. No VictorySmite grant, no R15/aftermath or otherstage assumption. H2H requires empty sub; not grip/shield/DW.",
+      "observation_sha256": "804dd069b90bd6495ab5942ccc0724b9bdf25583cba6bb002ca7b2f03df76520"
+    },
+    {
+      "item_id": 23421,
+      "name": "Bhikku Crown +3",
+      "url": "https://www.ffxiah.com/item/23421",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "eb044a8c057e54d3e17099ec9275f68bcf44432a36281d8bb0c0d00f50e05aae",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "observation_sha256": "30496303a24a9a37e1da83b708cb8cf9e35a6680946f5c565d7ca0e41511c378"
+    },
+    {
+      "item_id": 23443,
+      "name": "Anch. Cyclas +3",
+      "url": "https://www.ffxiah.com/item/23443",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "b0819e47120426452d403dcb666053829438d3a55fcb5754a141b2fc06c975d6",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Exact+3 Chakra equipment, no source+4 inheritance/fullheal/currentHP guarantee; actualVIT/maxHP/JP/merits/recast needed.",
+      "observation_sha256": "8ea763bc0f151dece139a4fe0b967cabccc3f5970106f99f5890342fffa5f2b1"
+    },
+    {
+      "item_id": 23488,
+      "name": "Bhikku Cyclas +3",
+      "url": "https://www.ffxiah.com/item/23488",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "555fb9d297a558b25c7a168240aed45fa6465e87956fc99d87118dc4d2904f59",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Impetus body worn during sustained eligible hits/WS; hit/misscount unknown, no activation-only snapshot or maximumeffect.",
+      "observation_sha256": "e8ef071e2b751d368918d7bef3ba6d35d7756d31a06096f98093caafa19a9264"
+    },
+    {
+      "item_id": 23533,
+      "name": "Hes. Gloves +3",
+      "url": "https://www.ffxiah.com/item/23533",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "dc3e6a735d9503892fb11400f5d86bf4badae5d136249a11a376be18a8a20317",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Exact+3 Chakra equipment, no source+4 inheritance/fullheal/currentHP guarantee; actualVIT/maxHP/JP/merits/recast needed.",
+      "observation_sha256": "c4a1f281601b19bfc56488a34bae30b2dbcae3e86e0fd6a6db4f53111e9f3759"
+    },
+    {
+      "item_id": 23555,
+      "name": "Bhikku Gloves +3",
+      "url": "https://www.ffxiah.com/item/23555",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "6ee7d9067073c307d86632117e5af4950f58734e15ad9eb9597b619f0d67171c",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "BaseH2Hskill21/PDL10; PDL requires actual attack context; sourcePathA annotation not adopted.",
+      "observation_sha256": "1a62e77bce542111bbf0cc53fecabf073ad8b1d08b15e4646e0966d31c2da9ed"
+    },
+    {
+      "item_id": 23622,
+      "name": "Bhikku Hose +3",
+      "url": "https://www.ffxiah.com/item/23622",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "9dec0aad9743add96719502159e2297221907fdef94f67f77b1ff247bfaf8578",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "observation_sha256": "c0d35a7310a6822df7950c73dbee3207218787617f14fe382a976851907cd82f"
+    },
+    {
+      "item_id": 23644,
+      "name": "Anch. Gaiters +3",
+      "url": "https://www.ffxiah.com/item/23644",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "c3973de8c5378054a91c3e4dd8262002f027c129bcff72e771a6184ffb2b01e7",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Exact+3 kickattack120/rate10; no source+4 transferred. Sustained kickgear distinct from BhikkuFootwork activation.",
+      "observation_sha256": "551232e267df1caa9df804bb40cc06fa3f46dfbf6d9b109ea86b9849b599dace"
+    },
+    {
+      "item_id": 23689,
+      "name": "Bhikku Gaiters +3",
+      "url": "https://www.ffxiah.com/item/23689",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "7f99d70cf99bf9712f38ef6a73be38837c3aa27060551b24ec043918f9913598",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Footwork+16 activation enhancement; sustained kickattack65 distinct. Actual activation/recast required.",
+      "observation_sha256": "3bd61caacf135c9be78e4e87387a419c40d0dc9f64c8b5a1bce3417842192108"
+    },
+    {
+      "item_id": 25425,
+      "name": "Mnk. Nodowa +2",
+      "url": "https://www.ffxiah.com/item/25425",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "1c5307122ea192a87393ff17e51c33d591a1b5978f48ffa2e6cd612effa14153",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "conditional": "Base accuracy30 kickattack20; no neckpath/rank or maximumDA augment assumed.",
+      "observation_sha256": "c8630670dbad0cf5ec9612e9f5e42b882234ca34c253da505d12b3e5a2f3e996"
+    },
+    {
+      "item_id": 26247,
+      "name": "Segomo's Mantle",
+      "url": "https://www.ffxiah.com/item/26247",
+      "checked_on": "2026-11-05",
+      "independent_public_card_verified": true,
+      "method": "Exact-ID original public card independently read in ordinary Chrome; identity, slot, MNK eligibility and base properties compared. Not website capture.",
+      "resource_description_sha256": "78d83039f287ea164616777f19522614eeee6b78dd97b76ba0ed7a394e0aaf3c",
+      "limits": "Local hash not websitehash; base only, no rank/augmentmax,ownership,numericcap or currentBiS certification.",
+      "observation_sha256": "8bfae1de5d640b9932e78fbdfc7b0e22c23c1547e80d80d505c23bd752a1fa7c"
+    }
+  ],
+  "native_augment_evidence": {
+    "path": "Windower4/addons/libs/extdata.lua",
+    "sha256": "706943985552a95bdde2b9545991d8bf137693b1d6c56e16d7b582dfa08ee921",
+    "method": "Public native decoder read-only,notexecuted;noinventory/playerLua",
+    "parts": [
+      "DEX+20",
+      "DEX+10",
+      "STR+20",
+      "STR+10",
+      "Accuracy+20 Attack+20",
+      "\"Dbl.Atk.\"+10",
+      "Phys. dmg. taken -10%",
+      "Attack+4",
+      "TP Bonus +250"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "checked_on": "2026-11-05",
+  "status": "BoundedTHFinitialpass;notproductionready;stopafterTHFandprompt",
+  "checks_passed": 29,
+  "checks": [
+    "352 bytebackups hash correctly",
+    "all existing bytes outside scoped files unchanged",
+    "prior test changes exactly aggregate counts and authored joblist",
+    "439sets450revisions864sources immutableprefixes",
+    "all nonTHF coverage unchanged",
+    "prior batches amendments metadata unchanged",
+    "11withdrawnBRD 457stored446effective",
+    "eight unresolved originals unchanged",
+    "DRGzero recommendations eightgaps",
+    "454sets465revisions902sources225rows15THF",
+    "8THFincluded187total38gaps4jobszeroNA",
+    "actualresource wholecandidate appendonly preparation",
+    "exactmain evenempty-sub independently reviewed and exactsub known",
+    "42priorhandrecords ASTidentical onlyGleti appended v16",
+    "739detachedresourcefields descriptions equal actual",
+    "722priorresources descriptions and metadata unchanged",
+    "fourupstreamhashes fingerprint unchanged",
+    "13source scopes7facts18cards independentdigests",
+    "publiclocators and exactlocaldescription hashes",
+    "renderedrevision provenance/sourceoptions and accesslimits retained",
+    "15saveddefinitions matchrevision slots presavefingerprint",
+    "8actualTHFrows reconcile independently",
+    "15complete16slot exactfixedhands rangeempty and eligibility",
+    "fourcape literalfictional independent readback",
+    "native decoder unchanged",
+    "productionv1 unchanged",
+    "branch HEAD unchanged",
+    "secondpass WorldMap protectedbytes unchanged",
+    "allfourMNKpackets protectedbytes and finalbaseline valid"
+  ],
+  "changed_baseline_files": [
+    "docs/GEAR-GUIDE-T7-EVIDENCE.md",
+    "docs/GEAR-GUIDE-T7-HANDOFF.md",
+    "docs/GEAR-GUIDE-T7-NEXT-JOB-PROMPT.md",
+    "docs/catalog/gear-guide-t7-candidate.json",
+    "docs/catalog/gear-guide-t7-resource-evidence.json",
+    "tests/core/test_guide_authoring.py",
+    "tests/core/test_guide_blm_batch.py",
+    "tests/core/test_guide_blu_batch.py",
+    "tests/core/test_guide_brd_batch.py",
+    "tests/core/test_guide_cor_batch.py",
+    "tests/core/test_guide_drk_batch.py",
+    "tests/core/test_guide_geo_batch.py",
+    "tests/core/test_guide_mnk_batch.py",
+    "tests/core/test_guide_nin_batch.py",
+    "tests/core/test_guide_pld_batch.py",
+    "tests/core/test_guide_rdm_batch.py",
+    "tests/core/test_guide_rng_batch.py",
+    "tests/core/test_guide_sam_batch.py",
+    "tests/core/test_guide_sch_batch.py",
+    "tests/core/test_guide_smn_batch.py",
+    "tests/core/test_guide_war_batch.py",
+    "vanadiel_nexus/core/equipment_hands.py"
+  ],
+  "baseline_file_count": 352,
+  "candidate_records": {
+    "sets": 454,
+    "revisions": 465,
+    "sources": 902,
+    "coverage": 225
+  },
+  "new_thf_recommendations": 15,
+  "stored_verified_flags": 457,
+  "effective_verified_compositions": 446,
+  "withdrawn_brd_encodings": 11,
+  "unresolved_originals": 8,
+  "included_priorities": 187,
+  "gap_priorities": 38,
+  "remaining_jobs": 4,
+  "not_applicable": 0,
+  "resource_records": 739,
+  "hand_registry": "43 / hands.2026-11-05.v16;42priorASTidentical",
+  "fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_v1_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "actual_preserved_head": "8f91ca164bd6737a4ad87185656eb96fcc1d45d4",
+  "artifact_sha256": {
+    "gear-guide-t7-thf-definitions.json": "0a436f0d801b0026c72b5cb8a5c5607ad6cbe17e370fffa786d5beba5b3ce775",
+    "gear-guide-t7-thf-item-evidence.json": "6e12a955d20f25d0e74e5585a388771d2f5b80067e245d42c686517442860833",
+    "gear-guide-t7-thf-observations.json": "888ce00a8e944a090c651f4a05a52625bf66063e33bb30ebc66ce8f0c43a6aec"
+  },
+  "deferred_plan": "Remaininginitialpasses FIRST; latersecondpass ALL22jobs for ANYjobissues;notstarted. BRD/DRG/allissuesdeferred,notresolved/waived.",
+  "remaining_initial_queue": [
+    {
+      "job": "BST",
+      "recommendations": 0,
+      "gaps": 11
+    },
+    {
+      "job": "DRG",
+      "recommendations": 0,
+      "gaps": 8
+    },
+    {
+      "job": "PUP",
+      "recommendations": 0,
+      "gaps": 10
+    },
+    {
+      "job": "DNC",
+      "recommendations": 0,
+      "gaps": 9
+    }
+  ],
+  "limits": "Offlinecomposition/history/preservation;notHPpreservation,caps,ownership/bags,currentBiS,human/frozen/liveacceptance",
+  "validation": {
+    "presave": {
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.82,
+      "earlier_run_seconds": 0.81
+    },
+    "focused": {
+      "passed": 520,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 36.32
+    },
+    "focused_initial": {
+      "passed": 519,
+      "failed": 1,
+      "skipped": 0,
+      "seconds": 35.79,
+      "reason": "Stale aggregatejobs-with-revisions19 expected,actual20; corrected expectation only."
+    },
+    "full_native": {
+      "passed": 1334,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 128.62,
+      "environment": "FreshTHF-local isolation outside sandbox; unchanged repositorytests; fictionaldiscovery and noinventoryseeding"
+    },
+    "readback": {
+      "passed": 29
+    },
+    "readback_initial": "Jobname supplied to numeric wearable API; corrected to THF numeric6; no candidate/runtimechange.",
+    "full_sandbox_initial": {
+      "passed": 1332,
+      "failed": 2,
+      "skipped": 0,
+      "seconds": 141.38,
+      "reason": "Windowsjunction creation absent and loopbackUDP timeout in sandbox. Both unchanged platformcases pass native."
+    },
+    "regression_native": {
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.65
+    },
+    "full_native_initial": {
+      "passed": 1333,
+      "failed": 1,
+      "skipped": 0,
+      "seconds": 131.1,
+      "reason": "TransientWindowsos.replace WinError5 infictionalsettingsrecovery;unchangedsevenfocusedrecoverycasespassed7/0/0 in0.17s beforefullrerun."
+    },
+    "recovery_native": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.17
+    },
+    "log_sha256": {
+      "presave.log": "671c98e754a435d4a0da605f9f11825c5c567f4c79d0d657b1f4a0494a384926",
+      "focused.log": "eb97bcb5d2f4681f91857fff21b61159f786bf86ad2f8d3ab3fc577673740912",
+      "focused-initial.log": "f14c78fac1f6d82dc37ce0de5ac119ac063486cfed9f0464d0834759e61200fe",
+      "full-native.log": "c964226ad4b5e27d806dac78f2a311c92c43ca59d9ca4e07b75e0381692f442f",
+      "full-native-sandbox-failed.log": "4ab488bdcdd3ecb5679e68fcb7964cd7e74737972c0cd930d045bba99ac60c92",
+      "regression-native.log": "8ca8c6be2a7632e73f3bfc172071ee4858a45c51cfd40e444b799ecfa6e32f9b",
+      "full-native-replace-failed.log": "bc4b6cef4767424de2d50d308516308f9c7c71c6cbce07200fade9fd07f67dfa",
+      "recovery-native.log": "f397ef9634063d81e537b9e8d1ddf14c20471abd6e45773b319b6354bc68ad69"
+    },
+    "whitespace": {
+      "diff_exit": 0,
+      "checked_files": 58,
+      "trailing_whitespace": [],
+      "limits": "Scopedchanged/newcanonicalfiles andTHFlocal scripts;preexistingunrelatedwhitespace untouched"
+    },
+    "final_prompt_sha256": "0068043d59e7b307c01a46d2f02ec4135199fcfb4fc9f9518a5c015f5c8c103e",
+    "final_document_sha256": {
+      "docs/GEAR-GUIDE-T7-THF.md": "47a7b581df936ce91fd693ceaa11b964167a587a4824f9ce9b431e96b146c689",
+      "docs/GEAR-GUIDE-T7-HANDOFF.md": "198a5d36eabff13a4f70fa48ad1f93455e6677036322085d218ce20c8974a72d",
+      "docs/GEAR-GUIDE-T7-EVIDENCE.md": "bcf8b28110e40ab6c5d0fc80d8998da5a1843c889805b4050055c332f1881f64",
+      "docs/GEAR-GUIDE-T7-BST-START.md": "47efbee035136f49cbe99037bc12f65601bf1049edde98402d17c0ba15d53687"
+    }
+  }
+}

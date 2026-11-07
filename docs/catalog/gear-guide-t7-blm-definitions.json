@@ -1,0 +1,2831 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Explicit Nexus BLM compositions, distinct from sparse original observations",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "DT Idle — staff",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        347384,
+        348771
+      ],
+      "rationale": "Nexus defensive assembly uses fixed base Nyame, Defending and Moonbeam with reviewed Mpaca/Khonsu. Does not rely on random Merlinic DT, Unity maximums or the source Terra staff. No effective DT-cap claim.",
+      "context": {
+        "buff": "Mana Wall inactive; ordinary threatened idle"
+      }
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle — fixed recovery",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26790,
+          "name": "Befouled Crown",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        348771
+      ],
+      "rationale": "Nexus chooses fixed Mpaca, Befouled, Wicce +3 body and two Stikini +1 copies. Keeps Nyame extremities instead of assuming Dark Matter Refresh on Merlinic. No Fucho threshold, Assiduity Unity maximum or Moonshade augment. Less protection than DT idle.",
+      "context": {
+        "buff": "Mana Wall inactive; backline MP recovery"
+      }
+    },
+    {
+      "key": "mana-wall",
+      "target": "Mana Wall — defensive retention",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23423,
+          "name": "Wicce Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23557,
+          "name": "Wicce Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        347384,
+        349691
+      ],
+      "rationale": "Keep exact Wicce Sabots +3 and base Taranus while Mana Wall is active, using fixed Wicce head/hands and Nyame body/legs for protection. Source +1 feet are not silently upgraded under author attribution. Base cape Mana Wall effect needs no augment. No 95% reduction or MP-drain result.",
+      "context": {
+        "buff": "Mana Wall active; retain cape and boots during threatened phases; no automated swaps implemented"
+      }
+    },
+    {
+      "key": "free-nuke",
+      "target": "Free nuke — general elemental",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23423,
+          "name": "Wicce Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23557,
+          "name": "Wicce Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        357843,
+        351869
+      ],
+      "rationale": "Nexus fixed Wicce +3 assembly substitutes reviewed staff/grip and Null Shawl. Base Src. Stole +2, base Metamor and fixed Pemphredo avoid R25 neck, R15 ring or Ghastly assumptions. Trades maximum offense for fixed MAB, accuracy and several DT pieces. No elemental spell tier, best-in-slot, damage or cap result.",
+      "context": {
+        "spell": "Elemental magic except darkness-specific Comet; not bursting",
+        "weather": "No favorable day/weather assumed"
+      }
+    },
+    {
+      "key": "burst",
+      "target": "Magic burst — elemental",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25554,
+          "name": "Ea Hat +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        351869
+      ],
+      "rationale": "Adapts live 351869 with reviewed staff/grip, fixed Pemphredo, weather-independent waist and explicitly base Agwu hands/feet. Ea +1, Wicce body/legs and Taranus are exact choices. No Agwu rank effects, neck/ring rank, burst cap or favorable weather assumed.",
+      "context": {
+        "spell": "Elemental spell timed to compatible skillchain; excluding Comet",
+        "weather": "No favorable day/weather assumed"
+      }
+    },
+    {
+      "key": "free-nuke-mp",
+      "target": "Free nuke — elemental MP conversion",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23423,
+          "name": "Wicce Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23445,
+          "name": "Spaekona's Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23557,
+          "name": "Wicce Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        357843,
+        351869
+      ],
+      "rationale": "Separate Spaekona +3 elemental conversion body choice under MP pressure, consistent with 2025 discussion. Loses Wicce body MAB and Refresh; conversion is not free MP and does not promise more than spell cost. Not applied to Dark Magic Death.",
+      "context": {
+        "spell": "Damaging elemental magic; Manafont/Manawell inactive; MP pressure; no burst"
+      }
+    },
+    {
+      "key": "burst-mp",
+      "target": "Magic burst — elemental MP conversion",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25554,
+          "name": "Ea Hat +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23445,
+          "name": "Spaekona's Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        351869
+      ],
+      "rationale": "Separate elemental conversion burst selection replaces Wicce body, losing its burst II contribution. No sustained-MP or burst-cap promise; not a Death conversion set.",
+      "context": {
+        "spell": "Damaging elemental magic burst; MP pressure; Manafont/Manawell inactive"
+      }
+    },
+    {
+      "key": "enfeebling",
+      "target": "Magic accuracy — enfeebling",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23378,
+          "name": "Spae. Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26016,
+          "name": "Incanter's Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23445,
+          "name": "Spaekona's Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23512,
+          "name": "Spae. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23579,
+          "name": "Spae. Tonban +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23646,
+          "name": "Spae. Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        357847,
+        352523
+      ],
+      "rationale": "Nexus selects exact +3 artifact checkpoint for fixed accuracy and skill, two Stikini copies and Null Shawl. Later +4 accuracy discussion does not make +3 equivalent. No potency/duration or hit-rate guarantee; elemental debuffs with different rules remain distinct.",
+      "context": {
+        "spell": "INT-based Sleep/Break/Bind enfeebling context; no Elemental Seal assumed"
+      }
+    },
+    {
+      "key": "stun",
+      "target": "Dark magic — Stun accuracy",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23378,
+          "name": "Spae. Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26030,
+          "name": "Erra Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23445,
+          "name": "Spaekona's Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23535,
+          "name": "Arch. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23579,
+          "name": "Spae. Tonban +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        352523
+      ],
+      "rationale": "Separate Dark Magic Stun context with fixed skill accessories and recast-aware haste-bearing equipment; not a Drain/Aspir potency loadout. No landing, recast cap or stun-lock guarantee.",
+      "context": {
+        "spell": "Stun; Dark Magic; not Drain/Aspir or Death"
+      }
+    },
+    {
+      "key": "drain-aspir",
+      "target": "Dark magic — Drain / Aspir",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26030,
+          "name": "Erra Pendant",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 16054,
+          "name": "Hirudinea Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23535,
+          "name": "Arch. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26160,
+          "name": "Evanescence Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28430,
+          "name": "Acuity Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23579,
+          "name": "Spae. Tonban +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        348769
+      ],
+      "rationale": "Fixed Spaekona legs, Agwu feet, Hirudinea and Evanescence target Drain/Aspir; Arch gloves and Wicce gear support skill/accuracy. Dark affinity choices retain their own uncalculated boundaries. Replaces unspecified random Merlinic potency augments under Nexus authorship. No capped drain or unlimited MP claim.",
+      "context": {
+        "spell": "Drain or Aspir on a susceptible target; no Death burst",
+        "weather": "No favorable weather assumed"
+      }
+    },
+    {
+      "key": "fast-cast",
+      "target": "Precast — general Fast Cast",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22252,
+          "name": "Sapience Orb",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25643,
+          "name": "Merlinic Hood",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25719,
+          "name": "Merlinic Jubbah",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10752,
+          "name": "Prolix Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26188,
+          "name": "Kishar Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {
+            "augments": [
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23780,
+          "name": "Agwu's Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27497,
+          "name": "Merlinic Crackows",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        340476,
+        348755
+      ],
+      "rationale": "Fixed base Merlinic head/body/feet FC, base Agwu hands/legs and explicit FC10 cape; fills source alternatives with Nexus choices. Cape augment must be present on its physical copy. No 80% cap, Quick Magic or Elemental Celerity certification.",
+      "context": {
+        "spell": "General spell precast excluding MP-sensitive Death"
+      }
+    },
+    {
+      "key": "death-idle",
+      "target": "Death — MP staging idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 15965,
+          "name": "Ethereal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25689,
+          "name": "Amalric Doublet +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23512,
+          "name": "Spae. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27559,
+          "name": "Mephitas's Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27558,
+          "name": "Mephitas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 10832,
+          "name": "Carrier's Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27305,
+          "name": "Amalric Slops +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27476,
+          "name": "Amalric Nails +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        348755,
+        340485,
+        402042
+      ],
+      "rationale": "MP-oriented staging checkpoint with explicit MP80 on four exact Amalric pieces and two distinct Mephitas rings. HP-to-MP conversion reduces HP and this is less protective than DT idle. Does not certify available current MP, a minimum damage threshold or MP preservation across swaps.",
+      "context": {
+        "spell": "Death preparation only; safe backline; not generic refresh/DT idle",
+        "mp": "Manually compare actual max/current MP in idle, precast and midcast; lowest phase can truncate MP"
+      }
+    },
+    {
+      "key": "death-precast",
+      "target": "Death — separate MP / Fast Cast checkpoint",
+      "purpose": "Precast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25643,
+          "name": "Merlinic Hood",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28354,
+          "name": "Voltsurge Torque",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 28494,
+          "name": "Enchntr. Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25719,
+          "name": "Merlinic Jubbah",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27559,
+          "name": "Mephitas's Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27558,
+          "name": "Mephitas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {
+            "augments": [
+              "MP+80",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26354,
+          "name": "Embla Sash",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27305,
+          "name": "Amalric Slops +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27476,
+          "name": "Amalric Nails +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        348755
+      ],
+      "rationale": "Explicit MP80/FC10 cape, MP80 Amalric legs/feet and fixed FC pieces form a distinct Death precast target. Maximum MP may be lower than staging/midcast; this checkpoint cannot certify seamless MP retention. No generic FC routing or Quick Magic assumption.",
+      "context": {
+        "spell": "Death learned (1200 JP gift); precast",
+        "mp": "Manual character-specific MP continuity check required before use; no full-MP/damage threshold certified"
+      }
+    },
+    {
+      "key": "death-burst",
+      "target": "Death — dark burst checkpoint",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25689,
+          "name": "Amalric Doublet +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27120,
+          "name": "Amalric Gages +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27559,
+          "name": "Mephitas's Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27305,
+          "name": "Amalric Slops +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27476,
+          "name": "Amalric Nails +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        340485,
+        402042
+      ],
+      "rationale": "Separates Dark Magic Death from elemental nuking. Exact Pixie/Archon darkness choices, MP80 body/legs/feet and fixed/base remaining pieces; no weather or unlisted augments. No 99999 damage, MP threshold, instant-KO success or damage calculator; Manafont does not make Death free.",
+      "context": {
+        "spell": "Death learned via 1200 JP gift; compatible darkness burst window",
+        "mp": "Current MP at midcast after every intervening phase; no fixed minimum or MP-continuity certification"
+      }
+    },
+    {
+      "key": "comet-free",
+      "target": "Comet — free darkness elemental",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23557,
+          "name": "Wicce Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        357843,
+        340485
+      ],
+      "rationale": "Comet is darkness elemental magic, distinct from Dark Magic Death. Choose Pixie/Archon over general INT pieces without assuming a burst window or Death MP behavior. No weather/affinity multiplier or damage result.",
+      "context": {
+        "spell": "Comet learned via level-94 scroll; no burst",
+        "weather": "No favorable day/weather assumed"
+      }
+    },
+    {
+      "key": "comet-burst",
+      "target": "Comet — darkness elemental burst",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 26696,
+          "name": "Pixie Hairpin +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25437,
+          "name": "Src. Stole +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26088,
+          "name": "Malignance Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23773,
+          "name": "Agwu's Gages",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11674,
+          "name": "Archon Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26325,
+          "name": "Refoccilation Stone",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23787,
+          "name": "Agwu's Pigaches",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        351869,
+        340485
+      ],
+      "rationale": "Retains Comet darkness choices and explicitly targets a compatible burst. Pixie replaces Ea head, so the elemental burst composition and its potential bonus totals do not carry over. No numeric cap or damage result.",
+      "context": {
+        "spell": "Comet; compatible darkness skillchain burst",
+        "weather": "No favorable day/weather assumed"
+      }
+    },
+    {
+      "key": "tp-balanced",
+      "target": "Engaged Balanced — niche staff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27151,
+          "name": "Gazu Bracelets +1",
+          "requirements": {
+            "rank": 15
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        402041
+      ],
+      "rationale": "Nexus niche staff assembly uses Nyame base defense, Gazu R15 haste/accuracy and fixed Null Shawl/Chirich accessories. Does not assume Nyame rank-16+ DA or maximize Unity. No hit-rate, delay-cap or combat viability guarantee.",
+      "context": {
+        "role": "Niche level-99 staff melee; evaluate target and support before use"
+      }
+    },
+    {
+      "key": "tp-dt",
+      "target": "Engaged DT — niche staff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26268,
+          "name": "Moonbeam Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        347384,
+        402041
+      ],
+      "rationale": "Defensive staff alternative gives up Gazu haste and offensive cape/ring contributions to retain full base Nyame, Defending and Moonbeam. No simultaneous offensive-haste and defensive cap claim.",
+      "context": {
+        "role": "Niche staff melee under threat; ordinary Mana Wall-inactive context"
+      }
+    },
+    {
+      "key": "tp-accuracy",
+      "target": "Engaged Accuracy — niche staff",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22262,
+          "name": "Amar Cluster",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23423,
+          "name": "Wicce Petasos +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23490,
+          "name": "Wicce Coat +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27151,
+          "name": "Gazu Bracelets +1",
+          "requirements": {
+            "rank": 15
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28408,
+          "name": "Grunfeld Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23624,
+          "name": "Wicce Chausses +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23691,
+          "name": "Wicce Sabots +3",
+          "requirements": {}
+        }
+      ],
+      "source_tables": [
+        402041
+      ],
+      "rationale": "Nexus uses exact Wicce physical accuracy with reviewed staff/grip, Gazu R15 and two Chirich copies. Selection gives up some Nyame defense and does not assume Unity maximum or buffs. Not a universal highest-accuracy set.",
+      "context": {
+        "role": "Niche staff melee requiring additional accuracy"
+      }
+    },
+    {
+      "key": "shattersoul",
+      "target": "Shattersoul — niche physical staff WS",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22271,
+          "name": "Pemphredo Tathlum",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23761,
+          "name": "Nyame Helm",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26085,
+          "name": "Regal Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23775,
+          "name": "Nyame Gauntlets",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28472,
+          "name": "Freke Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23782,
+          "name": "Nyame Flanchard",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {
+            "rank": 15,
+            "path": "B"
+          }
+        }
+      ],
+      "source_tables": [
+        402041
+      ],
+      "rationale": "Each of five Nyame pieces explicitly B15; fixed INT accessories and Null Shawl avoid an invented WSD cape. Shattersoul has different modifiers and multi-hit priorities from magical staff WS. No damage, optimality or debuff-duration claim.",
+      "context": {
+        "ability": "Martial Mastery unlocked; Shattersoul merited; staff skill at least 357; BLM level 99"
+      }
+    },
+    {
+      "key": "myrkr",
+      "target": "Myrkr — MP recovery checkpoint",
+      "purpose": "WS",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21344,
+          "name": "Ghastly Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25616,
+          "name": "Amalric Coif +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 28362,
+          "name": "Dualism Collar +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 28478,
+          "name": "Etiolation Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 14812,
+          "name": "Loquac. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25689,
+          "name": "Amalric Doublet +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23512,
+          "name": "Spae. Gloves +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27559,
+          "name": "Mephitas's Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27558,
+          "name": "Mephitas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26249,
+          "name": "Taranus's Cape",
+          "requirements": {
+            "augments": [
+              "MP+80",
+              "\"Fast Cast\"+10"
+            ]
+          }
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11776,
+          "name": "Mujin Obi",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27305,
+          "name": "Amalric Slops +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27476,
+          "name": "Amalric Nails +1",
+          "requirements": {
+            "augments": [
+              "MP+80"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        402042
+      ],
+      "rationale": "MP80 on four Amalric pieces and MP80/FC10 Taranus use explicit physical-copy minimums; base Ghastly and Etiolation avoid unknown ranks/Moonshade. Mpaca/Khonsu replaces source Khatvanga/Bloodrain under Nexus authorship. Existing TP must survive; no MP return amount or automatic weapon swap.",
+      "context": {
+        "ability": "Myrkr permanently unlocked for use with this staff, sufficient TP and no weapon swap that loses TP",
+        "mp": "MP recovery WS; character max MP/TP and actual restoration not calculated"
+      }
+    },
+    {
+      "key": "occult-acumen",
+      "target": "Occult Acumen — casting for TP",
+      "purpose": "Midcast",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 22100,
+          "name": "Mpaca's Staff",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 22218,
+          "name": "Khonsu",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22250,
+          "name": "Seraphic Ampulla",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25571,
+          "name": "Mall. Chapeau +2",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26004,
+          "name": "Lissome Necklace",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27544,
+          "name": "Dedition Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25719,
+          "name": "Merlinic Jubbah",
+          "requirements": {
+            "augments": [
+              "\"Occult Acumen\"+11"
+            ]
+          }
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27141,
+          "name": "Merlinic Dastanas",
+          "requirements": {
+            "augments": [
+              "\"Occult Acumen\"+11"
+            ]
+          }
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26220,
+          "name": "Crepuscular Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11775,
+          "name": "Oneiros Rope",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 28148,
+          "name": "Perdition Slops",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27497,
+          "name": "Merlinic Crackows",
+          "requirements": {
+            "augments": [
+              "\"Occult Acumen\"+11"
+            ]
+          }
+        }
+      ],
+      "source_tables": [
+        402041
+      ],
+      "rationale": "Requires OA11 on each separate Merlinic body/hands/feet. Uses reviewed Mpaca/Khonsu instead of Khatvanga/Bloodrain; deliberately does not inherit source TP-per-spell benchmarks. Fixed Null Shawl and current accessories are explicit choices. Gives up elemental damage and defense for TP generation.",
+      "context": {
+        "spell": "Elemental magic for TP; not a normal damage/MB loadout",
+        "mp": "No 1000TP, free cast, self-sustaining MP loop, or Thunder/Blizzard VI breakpoint certification"
+      }
+    }
+  ]
+}

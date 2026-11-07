@@ -1,0 +1,2138 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "definitions": [
+    {
+      "key": "dt-idle",
+      "target": "Dt Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28414,
+          "name": "Engraved Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-348201",
+        "node-367871",
+        "cdg-pdt"
+      ],
+      "context": {
+        "action": "Disengaged defense; actual incoming damage type, current/maxHP and whether Shell V is actually active (node 373 keeps separate DT No Shell V / DT Shell V sets)",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Node 373 \"DT No Shell V\" 348201 items and slots exactly (Staunch Tathlum +1, Malignance Chapeau/Tabard/Gloves/Tights/Boots, Loricate Torque +1, two physical Moonlight Ring copies, Engraved Belt). The node leaves main/sub/range, both ears and back empty: Nexus fills the fixed dagger pair, Alabaster Earring (HP+100 DT-5%, base) and Genmei Earring (BG CDG PDT grid) instead of Odnowa earrings whose MP-to-HP conversion needs MP a main DNC lacks, and Moonlight Cape (base) because the CDG/node Senuna's Mantle defensive builds are unmagnituded augments. No DT cap inherited."
+    },
+    {
+      "key": "refresh-idle",
+      "target": "Refresh Idle",
+      "purpose": "Idle",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 24270,
+          "name": "Null Masque",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28414,
+          "name": "Engraved Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-348201"
+      ],
+      "context": {
+        "job": "DNC99/WHM49",
+        "action": "Disengaged DNC99/WHM49 (Nexus-declared context; node 373 and BG CDG recommend no mage subjob) with learned Cure III/IV, positive usable subjob maxMP and an actual MP deficit; DNC has no native MP, so these Refresh lines do nothing with an MP-less subjob",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Nexus useful-MP recovery on the DT base: Null Masque \"Refresh\"+1 (DT-10%) and two physical Stikini Ring +1 copies (\"Refresh\"+1 each) replacing the Moonlight rings. Fucho-no-Obi and Vrikodara Jupon are not DNC-equippable. Moonshade Earring latent Refresh is a reward augment, not selected. No refresh total certified."
+    },
+    {
+      "key": "engaged-balanced",
+      "target": "Engaged Balanced",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25614,
+          "name": "Adhemar Bonnet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23981,
+          "name": "Horos Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27118,
+          "name": "Adhemar Wrist. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27295,
+          "name": "Samnuha Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-tp-terpsichore",
+        "node-367807",
+        "dual-wield"
+      ],
+      "context": {
+        "action": "Engaged dual-wield melee at high haste (CDG TP sets are written for capped delay with Haste Samba/Haste II/Marches; actual native Dual Wield tier, gift and haste checked); actual Terpsichore aftermath, Steps/Daze and subjob (/SAM or /WAR per sources) are inputs",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG (rev774984) \"TP Terpsichore\" grid items and slots exactly: Coiste Bodhar, Adhemar Bonnet +1 (Path B not inherited), Etoile Gorget +2, Sherida/Telos earrings, Horos Casaque +4, Adhemar Wrist. +1 (Path A not inherited), Epona's/Gere rings, Sailfi Belt +1, Samnuha Tights (random augments not inherited), Macu. Toe Sh. +3. The source Senuna's Mantle \"DEX30 + ACC/ATT 20+10STP\" is an aggregate presentation: not inherited; base Senuna's prints no TP stat, so Nexus uses base Null Shawl (Acc+50 DA+7% STP+7). No delay cap or STP total certified."
+    },
+    {
+      "key": "engaged-dt",
+      "target": "Engaged Dt",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 13566,
+          "name": "Defending Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23736,
+          "name": "Malignance Boots",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "node-367834",
+        "cdg-tp-terpsichore"
+      ],
+      "context": {
+        "action": "Engaged mitigation alternative; actual incoming damage type, current/maxHP and haste checked; Fan Dance (PDT reduction outside the gear cap, Sambas unusable) only if actually active",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Node 373 \"Hybrid Swaps\" 367834 (Malignance Chapeau/Tabard/Gloves/Tights/Boots, Loricate Torque +1, Defending Ring in ring1) applied to the CDG TP Terpsichore base; other slots unchanged. No DT cap or survival promise."
+    },
+    {
+      "key": "engaged-accuracy",
+      "target": "Engaged Accuracy",
+      "purpose": "Engaged",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23505,
+          "name": "Macu. Casaque +3",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26321,
+          "name": "Reiki Yotai",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23735,
+          "name": "Malignance Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-acc-tp",
+        "node-367832"
+      ],
+      "context": {
+        "action": "Engaged accuracy alternative; actual target evasion/hit rate unknown; Quickstep/Presto Daze levels actual",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Acc TP\" grid items and slots exactly (Coiste Bodhar, Malignance Chapeau/Gloves/Tights, Etoile Gorget +2, Sherida/Telos, Macu. Casaque +3, Chirich Ring +1, Moonlight Ring, Reiki Yotai, Macu. Toe Sh. +3); the source Setan Kober sub is not transferred (fixed pair) and its aggregate Senuna's Mantle is replaced by base Null Shawl. Not capped accuracy."
+    },
+    {
+      "key": "rudra-storm",
+      "target": "Rudra Storm",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23438,
+          "name": "Maculele Tiara +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25528,
+          "name": "Maculele Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23768,
+          "name": "Nyame Mail",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24003,
+          "name": "Maxixi Bangles +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23639,
+          "name": "Maculele Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-normal-rudra",
+        "node-380094",
+        "ws-access"
+      ],
+      "context": {
+        "action": "Rudra's Storm: DNC main job with actual access (Kupofried's Weapon Skill Moogle Magic or main-hand Twashtar per BG; the sub-hand Twashtar here is not asserted to grant it); >=1000 usable TP; no Climactic Flourish active",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Normal Rudra\" grid items and slots (Coiste Bodhar, Maculele Tiara +3, Etoile Gorget +2, Maculele Earring right ear, Nyame Mail, Maxixi Bangles +4, Regal/Epaminondas's rings, Sailfi Belt +1, Maculele Tights +3, Nyame Sollerets) with base Nyame. Moonshade Earring (reward-augment stats, empty local base text) replaced by Ishvara Earring (WSD+2% base); aggregate WSD cape replaced by base Null Shawl. No TP bonus or damage total."
+    },
+    {
+      "key": "climactic-rudra",
+      "target": "Climactic Rudra",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 19256,
+          "name": "Charis Feather",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23438,
+          "name": "Maculele Tiara +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27537,
+          "name": "Ishvara Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25528,
+          "name": "Maculele Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 25791,
+          "name": "Meg. Cuirie +2",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24003,
+          "name": "Maxixi Bangles +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26214,
+          "name": "Epaminondas's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26264,
+          "name": "Senuna's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24071,
+          "name": "Horos Tights +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23789,
+          "name": "Nyame Sollerets",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-climactic-rudra",
+        "node-380994",
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Rudra's Storm while Climactic Flourish is active with at least one actual Finishing Move consumed at activation: the WS first hit is forced critical with +50% CHR base damage (BG Climactic Flourish); access and TP as rudra-storm",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Climactic Rudra\" grid items and slots (Charis Feather, Maculele Tiara +3 worn during the forced hit, Etoile Gorget +2, Maculele Earring, Meg. Cuirie +2, Maxixi Bangles +4, Regal/Epaminondas's, Sailfi Belt +1, Horos Tights +4, Nyame Sollerets). Moonshade replaced by Ishvara Earring; base Senuna's Mantle (Critical hit damage +5%, applies to the forced critical) kept without the aggregate WSD augment."
+    },
+    {
+      "key": "pyrrhic-kleos",
+      "target": "Pyrrhic Kleos",
+      "purpose": "Weaponskill",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23438,
+          "name": "Maculele Tiara +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 27510,
+          "name": "Fotia Gorget",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 25528,
+          "name": "Maculele Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23763,
+          "name": "Gleti's Cuirass",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24003,
+          "name": "Maxixi Bangles +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28420,
+          "name": "Fotia Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 23639,
+          "name": "Maculele Tights +3",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 27373,
+          "name": "Lustra. Leggings +1",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-pyrrhic-kleos",
+        "node-380096",
+        "ws-access"
+      ],
+      "context": {
+        "action": "Pyrrhic Kleos: DNC main job; exact Terpsichore in the main hand (grant/damage bonus) or Unlocking a Myth (Dancer); >=1000 usable TP; Striking/Ternary Flourish only if actually active (mutually exclusive with Climactic)",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Pyrrhic Kleos\" grid items and slots (Coiste Bodhar, Maculele Tiara +3, Fotia Gorget, Sherida, Maculele Earring, Gleti's Cuirass, Maxixi Bangles +4, Gere/Epona's, Fotia Belt, Maculele Tights +3, Lustra. Leggings +1 with Path D not inherited); aggregate STR/DA cape replaced by base Null Shawl. Fotia latent effects as printed; no fTP total."
+    },
+    {
+      "key": "curing-waltz",
+      "target": "Curing Waltz",
+      "purpose": "Waltz",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22280,
+          "name": "Yamarang",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23936,
+          "name": "Horos Tiara +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26110,
+          "name": "Sjofn Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 16002,
+          "name": "Roundel Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23958,
+          "name": "Maxixi Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 25826,
+          "name": "Regal Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 10751,
+          "name": "Valseur's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 27577,
+          "name": "Carb. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 28635,
+          "name": "Toetapper Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 11745,
+          "name": "Aristo Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 25849,
+          "name": "Dashing Subligar",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24093,
+          "name": "Maxixi Toe Sh. +4",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-waltz",
+        "node-367803",
+        "ability-mechanics"
+      ],
+      "context": {
+        "waltz_targets": "Self-target: Dancer potency gear and the Dancer's own received line both apply (received cap 30%). Other target: only the Dancer's potency gear and CHR plus the target's VIT and received gear apply.",
+        "action": "Curing/Divine Waltz job-ability use (instant; gear counts at use, then the previous set returns): actual TP cost (200-800), recast, target in range; Saber Dance must be inactive (it blocks Waltzes); Contradance only if actually used. Healing Waltz removes an ailment and gains nothing from potency",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "healer = Dancer; recipient = any target in range. \"Waltz\" potency lines on this set act for every target; Maxixi Casaque +4 \"potency of Waltz effects received +8%\" counts only when the Dancer is the recipient (self-target), never for another target, whose own received gear and VIT apply"
+      },
+      "rationale": "BG CDG \"Waltz Potency Capped\" grid items and slots (Yamarang, Horos Tiara +4, Etoile Gorget +2, Sjofn/Roundel, Maxixi Casaque +4, Valseur's Ring, Toetapper Mantle, Dashing Subligar, Maxixi Toe Sh. +4). The source Herculean Gloves potency is a random augment (base prints none): Nexus uses node 373 Waltz-set Regal Gloves (CHR+40; note printed Damage taken +20% while worn). CDG ring2/waist placeholders filled from the node Waltz set: one Carb. Ring +1 (CHR+9) and Aristo Belt (CHR+8). Printed potency exceeds the 50% cap both guides state; CHR then matters; no healing total certified."
+    },
+    {
+      "key": "steps",
+      "target": "Steps",
+      "purpose": "Steps",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22280,
+          "name": "Yamarang",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23913,
+          "name": "Maxixi Tiara +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26081,
+          "name": "Mache Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26081,
+          "name": "Mache Earring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23958,
+          "name": "Maxixi Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 24003,
+          "name": "Maxixi Bangles +4",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26191,
+          "name": "Regal Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26182,
+          "name": "Chirich Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28413,
+          "name": "Kentarch Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24048,
+          "name": "Maxixi Tights +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24116,
+          "name": "Horos Toe Sh. +4",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-steps",
+        "node-367714",
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Step use (Quickstep/Box Step/Stutter Step; Feather Step main job only): 100 TP each (Horos Toe Sh. +4 \"Steps: TP consumed -20\" at use), shared 5 s recast; the Step must hit (accuracy at use); Presto only if actually up. Activation gear is worn at use, then the previous set returns; the Daze and Finishing Moves persist by their own rules",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Steps / Also high Accuracy\" grid items and slots (Yamarang, Maxixi Tiara +4, Etoile Gorget +2, two physical Mache Earring +1 copies, Maxixi Casaque +4, Maxixi Bangles +4, Regal Ring, Chirich Ring +1, Kentarch Belt +1, Maxixi Tights +4, Horos Toe Sh. +4). Kentarch \"DEX +10\" and Senuna's \"DEX +20, ACC +30\" annotations are not inherited; Nexus uses base Null Shawl (Accuracy+50). Feather Step critical-evasion potency gear (Macu. Toe Sh. +3) is not in this set."
+    },
+    {
+      "key": "violent-flourish",
+      "target": "Violent Flourish",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22280,
+          "name": "Yamarang",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23438,
+          "name": "Maculele Tiara +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26042,
+          "name": "Null Loop",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 27547,
+          "name": "Digni. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 26117,
+          "name": "Crep. Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23981,
+          "name": "Horos Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23572,
+          "name": "Macu. Bangles +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 27563,
+          "name": "Metamor. Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26184,
+          "name": "Stikini Ring +1",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 26367,
+          "name": "Null Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24048,
+          "name": "Maxixi Tights +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-violent-flourish",
+        "node-367804"
+      ],
+      "context": {
+        "action": "Violent Flourish at use: consumes 1 actual Finishing Move; the hit needs physical accuracy (+100 bonus) and the Stun needs magic accuracy against the actual target's resistance",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "BG CDG \"Violent Flourish (Magic Accuracy)\" grid items and slots exactly (Yamarang, Maculele Tiara +3, Null Loop, Digni./Crep. earrings, Horos Casaque +4 \"Violent Flourish\" accuracy, Macu. Bangles +3, Metamor. Ring +1 base, Stikini Ring +1, Null Shawl, Null Belt, Maxixi Tights +4, Macu. Toe Sh. +3). The \"+10 Magic Accuracy\" ring annotation is not inherited."
+    },
+    {
+      "key": "reverse-flourish",
+      "target": "Reverse Flourish",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 25614,
+          "name": "Adhemar Bonnet +1",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23981,
+          "name": "Horos Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23572,
+          "name": "Macu. Bangles +3",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27295,
+          "name": "Samnuha Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "cdg-reverse-flourish",
+        "node-367805",
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Reverse Flourish at use: converts 1-5 actual Finishing Moves to TP (BG formula); gear counts at use only",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Macu. Bangles +3 (\"Reverse Flourish\"+14, the only selected item in both partial source sets with a printed Reverse Flourish line) swapped onto the engaged-balanced base. CDG/node Toetapper Mantle \"Reverse Flourish +30\" is a cape augment absent from the base text: not selected. No TP return total."
+    },
+    {
+      "key": "climactic-flourish",
+      "target": "Climactic Flourish",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23438,
+          "name": "Maculele Tiara +3",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23981,
+          "name": "Horos Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27118,
+          "name": "Adhemar Wrist. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26274,
+          "name": "Null Shawl",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27295,
+          "name": "Samnuha Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Climactic Flourish activation (consumes all actual Finishing Moves, 1-5): Maculele Tiara +3 worn at activation adds one forced critical; worn on the forced hits it adds critical hit damage (CDG, node 373); swapping back to the engaged head forfeits that hit bonus",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Maculele Tiara +3 (\"Climactic Flourish: Critical hit rate+1 / Critical hit damage +31%\" printed) on the engaged-balanced base. Activation-only composition; mutually exclusive with Striking/Ternary Flourish."
+    },
+    {
+      "key": "samba",
+      "target": "Samba",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 21431,
+          "name": "Coiste Bodhar",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23913,
+          "name": "Maxixi Tiara +4",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 25527,
+          "name": "Etoile Gorget +2",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26084,
+          "name": "Sherida Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27545,
+          "name": "Telos Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23981,
+          "name": "Horos Casaque +4",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 27118,
+          "name": "Adhemar Wrist. +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 11651,
+          "name": "Epona's Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 28471,
+          "name": "Gere Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26264,
+          "name": "Senuna's Mantle",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28428,
+          "name": "Sailfi Belt +1",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 27295,
+          "name": "Samnuha Tights",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 23706,
+          "name": "Macu. Toe Sh. +3",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Haste/Drain/Aspir Samba activation: actual TP cost (350 Haste Samba), recast; duration gear counts at use; Fan Dance must be inactive (Sambas unusable)",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Node 373: \"Samba duration can be increased using Senuna's mantle and Maxixi tiara +3\". Nexus uses Maxixi Tiara +4 (\"Samba\" duration +45) and base Senuna's Mantle (\"Samba\" effect duration +15) on the engaged-balanced base. No duration total."
+    },
+    {
+      "key": "jig",
+      "target": "Jig",
+      "purpose": "Utility",
+      "slots": [
+        {
+          "slot": "main",
+          "state": "selected",
+          "item_id": 20584,
+          "name": "Terpsichore",
+          "requirements": {}
+        },
+        {
+          "slot": "sub",
+          "state": "selected",
+          "item_id": 20587,
+          "name": "Twashtar",
+          "requirements": {}
+        },
+        {
+          "slot": "range",
+          "state": "empty"
+        },
+        {
+          "slot": "ammo",
+          "state": "selected",
+          "item_id": 22279,
+          "name": "Staunch Tathlum +1",
+          "requirements": {}
+        },
+        {
+          "slot": "head",
+          "state": "selected",
+          "item_id": 23732,
+          "name": "Malignance Chapeau",
+          "requirements": {}
+        },
+        {
+          "slot": "neck",
+          "state": "selected",
+          "item_id": 26002,
+          "name": "Loricate Torque +1",
+          "requirements": {}
+        },
+        {
+          "slot": "ear1",
+          "state": "selected",
+          "item_id": 26119,
+          "name": "Alabaster Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "ear2",
+          "state": "selected",
+          "item_id": 27539,
+          "name": "Genmei Earring",
+          "requirements": {}
+        },
+        {
+          "slot": "body",
+          "state": "selected",
+          "item_id": 23733,
+          "name": "Malignance Tabard",
+          "requirements": {}
+        },
+        {
+          "slot": "hands",
+          "state": "selected",
+          "item_id": 23734,
+          "name": "Malignance Gloves",
+          "requirements": {}
+        },
+        {
+          "slot": "ring1",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "ring2",
+          "state": "selected",
+          "item_id": 26190,
+          "name": "Moonlight Ring",
+          "requirements": {}
+        },
+        {
+          "slot": "back",
+          "state": "selected",
+          "item_id": 26269,
+          "name": "Moonlight Cape",
+          "requirements": {}
+        },
+        {
+          "slot": "waist",
+          "state": "selected",
+          "item_id": 28414,
+          "name": "Engraved Belt",
+          "requirements": {}
+        },
+        {
+          "slot": "legs",
+          "state": "selected",
+          "item_id": 24071,
+          "name": "Horos Tights +4",
+          "requirements": {}
+        },
+        {
+          "slot": "feet",
+          "state": "selected",
+          "item_id": 24093,
+          "name": "Maxixi Toe Sh. +4",
+          "requirements": {}
+        }
+      ],
+      "source_grids": [
+        "ability-mechanics"
+      ],
+      "context": {
+        "action": "Spectral/Chocobo Jig use on self (Spectral Jig fails while Sneak is still active); \"Jig\" duration gear counts at use",
+        "job": "DNC99 (actual subjob; usable support traits only)",
+        "weapon_pair": "Exact Terpsichore 20584 (iLevel 119 III Mythic dagger, DNC only; main hand: Pyrrhic Kleos grant, +1 Finishing Move per Step, Steps accuracy/Augments Steps V, aftermath) + exact Twashtar 20587 (iLevel 119 III Empyrean dagger) in the sub hand: BG CDG \"TP Terpsichore\" pair. Two one-handed daggers need usable Dual Wield (native DNC trait; actual tier by level/JP).",
+        "recipient": "Dancer (self-worn lines; no recipient inferred from labels)"
+      },
+      "rationale": "Horos Tights +4 and Maxixi Toe Sh. +4 (each \"Jig\" duration +50% printed) on the DT idle base. No duration total or stacking claim."
+    }
+  ],
+  "coverage_reconciliation": [
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "DT Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "All jobs need context-specific DT Idle.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "DT Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:dt-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Refresh Idle",
+        "status": "gap",
+        "reviewed": true,
+        "context": "MP recovery when useful in the declared main/subjob/equipment context; no blanket job exception.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Refresh Idle",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:refresh-idle"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Engaged Balanced",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Engaged Balanced",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:engaged-balanced"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Engaged DT",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Engaged DT",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:engaged-dt"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Engaged Accuracy",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Engaged Accuracy",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:engaged-accuracy"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "WS",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "WS",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:rudra-storm",
+          "nexus:dnc:climactic-rudra",
+          "nexus:dnc:pyrrhic-kleos"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Waltz",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Waltz",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:curing-waltz"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Steps",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Steps",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:steps"
+        ]
+      }
+    },
+    {
+      "original_row": {
+        "job": "DNC",
+        "priority": "Utility",
+        "status": "gap",
+        "reviewed": true,
+        "context": "Retain action, weapon, buff, recipient and role distinctions in the accepted T1 matrix; engaged Balanced/DT/Accuracy remain separate.",
+        "evidence": "GEAR-GUIDE-T1-REVIEW.md accepted obligation; T7 source observations are not full-priority verification.",
+        "reason": "No fully verified context-specific production recommendation delivered for this required priority.",
+        "set_ids": []
+      },
+      "current_row": {
+        "job": "DNC",
+        "priority": "Utility",
+        "status": "included",
+        "reviewed": true,
+        "context": "15 bounded compositions on the fixed Terpsichore 20584 main / Twashtar 20587 sub dagger pair with explicit native Dual Wield; Waltz potency versus received and self versus other recipients, Step/Flourish/Samba/Jig activation versus sustained effects, Finishing Move and TP costs, WS access and useful MP (DNC99/WHM49) explicit. Not complete job/weapon/subjob/haste-tier/buff/HP coverage.",
+        "evidence": "GEAR-GUIDE-T7-DNC.md; FFXIAH node 373 (last modified 2022-10-17; 58 item sets fetched as equipbox slot grids and re-verified cell for cell), rendered BG Community Dancer Guide 774984 (27 grids), BG All Jobs Gear Sets/Dancer 772443 lead, 19 mechanics/weapon pages, 31 exact public item pages; Nexus completion distinct.",
+        "set_ids": [
+          "nexus:dnc:violent-flourish",
+          "nexus:dnc:reverse-flourish",
+          "nexus:dnc:climactic-flourish",
+          "nexus:dnc:samba",
+          "nexus:dnc:jig"
+        ]
+      }
+    }
+  ],
+  "unclaimed": [
+    "Complete DNC progression: low/zero haste Dual Wield brackets (CDG 0/10/40% and node 15%/0% grids recorded, not authored), single-wield /WAR Fencer (Twashtar + Airy Buckler), other weapons and stages (Mpu Gandring, Aeneas, Tauret, Centovente TP Bonus path, Setan Kober, Gleti's Knife, Karambit H2H), other subjobs",
+    "WS Evisceration, Exenterator, Aeolian Edge, Shark Bite, Dancing Edge, Ruthless Stroke and attack-capped/uncapped/PDL swaps; Striking/Ternary/Building Flourish WS variants (node PK Striking Flourish 359173 recorded, not authored)",
+    "Divine/Healing Waltz-specific sets, Waltz self-target received-potency set, Waltz recast/TP-cost gear (Anwig Salade augment), Feather/Box Step specific sets, Presto/No Foot Rise/Trance/Grand Pas/Contradance timing, Animated Flourish/enmity, Utsusemi/FC (augment-dependent CDG FC set), MDT/MEVA/Resist idles, Regen idle, Shell V idle variant",
+    "Senuna's Mantle Ambuscade builds (node notes unmagnituded; CDG aggregates), Adhemar/Herculean/Taeon/Lustratio/Rawhide/Metamorph path/random augments, Moonshade reward augments, AJGS/Dancer grids and the FFXIAH \"Last Dance III\" guide (lead only), numeric caps, HP preservation, survival, current BiS, ownership/bags, human/frozen/live acceptance"
+  ],
+  "sequencing": "DNC was the last initial pass. Next: second pass across ALL 22 jobs for ANY job issues; not started. BRD and all other declared issues deferred, not resolved/waived."
+}

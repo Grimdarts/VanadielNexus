@@ -1,0 +1,178 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude alone in the existing checkout; Nova finished and stopped; Vesper unassigned",
+  "status": "Hasso source boundary resolved for the bounded SMN99/SAM49 Mpaca/Khonsu master-staff context; separately attributed /SAM counterparts supported",
+  "prior_context_packet": {
+    "path": "docs/catalog/gear-guide-t7-smn-sam-context.json",
+    "sha256": "bfeb50cc8a46c66c56b9e61370818278eb77ca015dae8196ae3b82a0f8df1f46",
+    "disposition": "Historical evidence successor retained byte-identical; this packet is its decision successor"
+  },
+  "access_change": "This session ran in the Claude desktop app with a built-in browser pane. Ordinary article navigation read BG Hasso/Attack_Speed/Samurai/Category:Blood_Pact and FFXIclopedia Hasso, which native HTTPS/reader had refused with 403/402 in the prior slice. The BG history page (index.php?title=Hasso&action=history) served an HTTP403 Cloudflare challenge; it was not interacted with. Revision IDs were read from each article's own MediaWiki config (wgRevisionId equal to wgCurRevisionId). No settings change, challenge completion, alternate protected endpoint or credential use.",
+  "browser_captures": [
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Hasso",
+      "retrieved_at": "2026-11-05T18:18:37.396Z",
+      "access": "Claude desktop built-in browser pane, ordinary article navigation; no challenge interaction, no settings change",
+      "revision_id": 752340,
+      "current_revision_id": 752340,
+      "lastmod": "This page was last edited on 9 December 2025, at 07:12.",
+      "content_text_sha256": "f0066b6244fe9adc7149d3c4f2903fd4912c2496eb047096119cdec41c89fce2",
+      "capture_path": ".t7-smn-hasso-checks/source-browser/bg-hasso.json",
+      "capture_sha256": "699875f3afa6f25c81770f0943caffb3457e79b3d0fee66551b79a9d48b9f0ca"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Attack_Speed",
+      "retrieved_at": "2026-11-05T18:19:17.638Z",
+      "access": "Claude desktop built-in browser pane, ordinary article navigation; no challenge interaction, no settings change",
+      "revision_id": 757807,
+      "current_revision_id": 757807,
+      "lastmod": "This page was last edited on 5 February 2026, at 18:10.",
+      "content_text_sha256": "de99b7823866543d789ff77c0859a2fd8df4668bdbeceb2719f01e77bbe14397",
+      "capture_path": ".t7-smn-hasso-checks/source-browser/bg-attack-speed.json",
+      "capture_sha256": "62520a4547e9572807683397e5d46d09171f4234cffa053a7e2222afefd7e7e8"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Samurai",
+      "retrieved_at": "2026-11-05T18:19:37.732Z",
+      "access": "Claude desktop built-in browser pane, ordinary article navigation; no challenge interaction, no settings change",
+      "revision_id": 696531,
+      "current_revision_id": 696531,
+      "lastmod": "This page was last edited on 8 March 2024, at 18:22.",
+      "content_text_sha256": "f9dd78e22cad883774559bbdefca03e45f334b26fcf42a257b820658ba6c4cc4",
+      "capture_path": ".t7-smn-hasso-checks/source-browser/bg-samurai.json",
+      "capture_sha256": "b6a4d6aaf3a2d52bc17ce0d9693a5ff445d7577f888b2e95ada0984c0dfef7cc"
+    },
+    {
+      "url": "https://www.bg-wiki.com/ffxi/Blood_Pact",
+      "retrieved_at": "2026-11-05T18:21:38.181Z",
+      "access": "Claude desktop built-in browser pane, ordinary article navigation; no challenge interaction, no settings change",
+      "revision_id": 745754,
+      "current_revision_id": 745754,
+      "lastmod": "This page was last edited on 5 September 2025, at 00:25.",
+      "content_text_sha256": "7d90dedf7d2810e439a7235286a372b39e747c5358618fe220163da9484c0d3c",
+      "capture_path": ".t7-smn-hasso-checks/source-browser/bg-blood-pact.json",
+      "capture_sha256": "8f70b848ec23442d0d0d83fa7fbd88bc8ac984c4e93d416b3554f4da34862b30"
+    },
+    {
+      "url": "https://ffxiclopedia.fandom.com/wiki/Hasso",
+      "retrieved_at": "2026-11-05T18:21:58.101Z",
+      "access": "Claude desktop built-in browser pane, ordinary article navigation; no challenge interaction, no settings change. Prior native/reader attempts returned 403/402.",
+      "revision_id": 1542307,
+      "current_revision_id": 1542307,
+      "lastmod": "not read; no footer captured",
+      "content_text_sha256": "49929dd2c9489c042a442ff4cb21ac2d721688ad74e673d5b11e85495b414344",
+      "capture_path": ".t7-smn-hasso-checks/source-browser/ffxiclopedia-hasso.json",
+      "capture_sha256": "d7e87a9efe05dc38880ec8b9afcb9069cae02a604fa3a21dd4a7b3414ff483d7"
+    }
+  ],
+  "reused_native_captures": [
+    {
+      "url": "https://www.ffxiah.com/item/22100",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22100.html",
+      "body_sha256": "2b6e0389cda72f5d368d827d198ce8693276abfe64dd61b1734a97eda0f8004b"
+    },
+    {
+      "url": "https://www.ffxiah.com/item/22218",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-22218.html",
+      "body_sha256": "31550aa9e2b98edf6b3c7834e59c2d8dcf1df6f4a95314e3cdfd9a418afd37db"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401863",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401863.html",
+      "body_sha256": "5a9c4b4a6a190fd2385c080423c3787df5295df597c63ec43f1f48498d5dfd18"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401864",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401864.html",
+      "body_sha256": "1e8dca4b04c707bb90ed2c4e366be2929b47969193a23c458132331f48d8d178"
+    },
+    {
+      "url": "https://www.ffxiah.com/item-sets/401865",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-item-sets-401865.html",
+      "body_sha256": "8305083a4c7076afc5192b964ffeedc950f633c0145fecc8364b323f1189a494"
+    },
+    {
+      "url": "https://www.ffxiah.com/node/380",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-ffxiah-com-node-380.html",
+      "body_sha256": "839009d4b75a8ae7fc1d24f180de902eed068ac55401ba653c7afdeac9e42d3e"
+    },
+    {
+      "url": "https://www.playonline.com/ff11eu/polnews/news9989.shtml",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-playonline-com-ff11eu-polnews-news9989-shtml.html",
+      "body_sha256": "1b0ab5dd7a1dc8a87d8d97b96bd377093363c01b63235bf3d79f795a2faf30f6"
+    },
+    {
+      "url": "https://www.playonline.com/pcd/update/ff11us/20061017UJ0a71/detail.html",
+      "raw_path": ".t7-smn-sam-checks/source-native/www-playonline-com-pcd-update-ff11us-20061017UJ0a71-detail-html.html",
+      "body_sha256": "e050edaff46086c396ff860af7d7ae0c1ab84c2729e81b3647cde2942a2631f1"
+    }
+  ],
+  "node380_subjob_statement": {
+    "quote": "Subjobs are either /sam(Hasso 10%JA Haste) or /war(DBL-Atk & abit slower TP-gain)",
+    "position": "Immediately after the Melee Summoner! item sets 401864/401863/401865, before the Weaponskills! section",
+    "raw_sha256": "839009d4b75a8ae7fc1d24f180de902eed068ac55401ba653c7afdeac9e42d3e",
+    "meaning": "The guide author presents one set of three melee grids for either subjob. This attributes the twelve armor/accessory cells per grid to both /SAM and /WAR; the 10% figure and TP-gain comparison stay author statements."
+  },
+  "reconciliation": [
+    {
+      "id": "HASSO-01",
+      "topic": "Actual /SAM49 access versus activation/uptime",
+      "status": "resolved as declared prerequisite",
+      "detail": "Hasso is SAM level 25 and Sub-Job Accessible (BG Samurai696531; official2006/2007). SMN99/SAM49 requires an actually unlocked, leveled SAM support job; the composition context requires Hasso to have been used and still be active (5:00 duration, 1:00 recast per BG752340). Availability is not uptime; no reapplication automation or live detection is implied."
+    },
+    {
+      "id": "HASSO-02",
+      "topic": "Two-handed staff, Seigan, expiration/cancellation and weapon changes",
+      "status": "resolved within declared context",
+      "detail": "Hasso works only with two-handed weapons (BG752340; FFXIclopedia1542307 adds hand-to-hand does not count; official2006). Exact Mpaca22100 is reviewed two_handed with grip Khonsu22218. Seigan and Hasso overwrite each other, so Seigan is inactive. Expiration, Seigan, dispel/cancellation or any non-two-handed main ends the credited state; no weapon swap is part of the composition."
+    },
+    {
+      "id": "HASSO-03",
+      "topic": "Master Hasso versus equipment and magic haste",
+      "status": "resolved as category separation, no totals",
+      "detail": "Hasso is job-ability haste (BG Hasso752340 and Attack_Speed757807; FFXIclopedia agrees). Equipment, magic and job-ability haste have separate category caps per Attack_Speed757807, so Hasso does not displace printed equipment haste. The 10% value is a source statement only; the page itself says equipment X/1024 values often run below descriptions. No aggregate delay, cap reached, x-hit or minimum haste is claimed. No magic haste, March, Hastega II or Haste Samba is credited."
+    },
+    {
+      "id": "HASSO-04",
+      "topic": "/SAM traits versus /WAR-only traits; main-job-only effects",
+      "status": "resolved as exclusions",
+      "detail": "At support level49 SAM lists Resist Blind III, Store TP II, Zanshin II, Demon Killer I and Damage Limit+ I (BG Samurai696531); level-50 rows need master-level support access and are not assumed. No /WAR Double Attack trait, Berserk, Aggressor or Warcry migrates. The Hasso-Zanshin extra-attack interaction is SAM-main-only (BG752340; FFXIclopedia) and is not credited. Hasso Effect job points and SAM merits are main-job categories and are not imported. Sub-level STR +7 is a source statement; no stat total is modeled."
+    },
+    {
+      "id": "HASSO-05",
+      "topic": "Spell casting/recast costs versus Blood Pact timing",
+      "status": "resolved as stated caution, no timing claim",
+      "detail": "While Hasso is active, magic, songs and Ninjutsu take a source-stated 50% casting and recast increase (BG752340; FFXIclopedia1542307; official2006 recast penalty). Summoning an avatar or other spells under Hasso are therefore slower. Blood Pact activation is a job ability (BG Category:Blood_Pact745754); no source read states a Hasso effect on Blood Pact delay in either direction, so no pact timing, delay total or schedule is claimed. The niche master-melee composition does not depend on a pact timing assumption."
+    },
+    {
+      "id": "HASSO-06",
+      "topic": "Living avatar versus Ward/Favor application and recipient",
+      "status": "unchanged exclusion",
+      "detail": "Hasso is a self effect on the master; it does not transfer to the avatar. An ordinary avatar alive keeps Sroda Pet Alive conditional master Double Attack comparable with /WAR; it does not prove any Ward was used or applied to the master. No Favor, Crimson Howl, Crystal Blessing, Ward or avatar-supplied haste is credited."
+    },
+    {
+      "id": "HASSO-07",
+      "topic": "Whether /WAR fills and substitutions support /SAM counterparts",
+      "status": "supported for identical gear, separately attributed",
+      "detail": "The twelve armor/accessory cells per grid are attributed to either subjob by node380. The Nexus Mpaca/Khonsu/Seraphicaller fills, intentional empty range, DT neck/body/ring substitutions and Accuracy Taliah/Telos/Cessance/Chirich substitutions cite no /WAR trait or ability; their stated rationales are master-defense and master-accuracy tradeoffs. Hasso's two-handed condition is met by the reviewed staff. Equipment haste is not displaced (HASSO-03). The /SAM counterparts therefore retain identical 16 slot states under new immutable identities with an explicit Hasso-active context. No gear is claimed better or optimal for /SAM; no /SAM-specific rebalance is invented."
+    }
+  ],
+  "decision": {
+    "selected": "Author three new immutable /SAM identities nexus:smn:engaged-sam-balanced/-sam-dt/-sam-accuracy with identical slots, Hasso-active context and three new coverage rows",
+    "alternatives": {
+      "widen_war_contexts": "Rejected: /WAR sets, revisions, coverage rows and saved targets stay byte-identical",
+      "context_only": "Rejected: the evidence boundary named by the prior packet is now resolved for the selected assumptions",
+      "sam_rebalance": "Not authored: no source establishes a different gear choice for /SAM"
+    }
+  },
+  "remaining_limits": [
+    "No numeric haste/delay/STR/accuracy totals, caps reached, x-hit or hit-rate target",
+    "No Hasso/Blood Pact delay interaction asserted; no pact/Ward/WS/ability variant",
+    "No other weapon, subjob, haste tier, buff or recipient context",
+    "No ownership/bags, HP preservation, current BiS, live state or human/frozen/live acceptance",
+    "BG Hasso history page unread (challenge); revision pinned from article config only"
+  ],
+  "new_resources": 0,
+  "new_hands": 0,
+  "new_requirements": 0
+}

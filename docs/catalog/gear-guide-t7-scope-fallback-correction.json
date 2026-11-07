@@ -1,0 +1,195 @@
+{
+  "checked_on": "2026-11-05",
+  "author": "Claude (Jason-assigned)",
+  "status": "Remaining null-URL scope-source fallbacks corrected; NIN AM3 citation completed; append-only",
+  "scope": "The six candidate scope sources whose observation had no URL (BST bg-ready, community-guide; PUP node-inventory, stage-conflicts, bg-maneuver, automaton-actions) plus the engaged-accuracy AM3 citation found by the other27 audit.",
+  "confirmed": [
+    {
+      "source_id": "bst:t7:scope-bg-ready:2026-11-05",
+      "url": "https://www.bg-wiki.com/ffxi/Ready",
+      "observation_sha256": "0ba8a952b16bc223c18a06a6d8bdc654bae1dfa9424c74f7f86cda7de6404af0",
+      "finding": "Observation names rev709840 of this exact page; kind and URL correct. No change."
+    },
+    {
+      "source_id": "pup:t7:scope-bg-maneuver:2026-11-05",
+      "url": "https://www.bg-wiki.com/ffxi/Maneuver",
+      "observation_sha256": "731a6e70f7b5fc3d7cf018d7cfd1f0392b53bf39f0acfd57edb968e66a1bacb7",
+      "finding": "Observation names rev675700 of this exact page; kind and URL correct. No change."
+    }
+  ],
+  "source_successors": [
+    {
+      "id": "bst:fallback:community-guide:2026-11-05",
+      "kind": "bgwiki",
+      "url": "https://www.bg-wiki.com/ffxi/Community_Beastmaster_Guide",
+      "title": "BG Community Beastmaster Guide (attribution successor)",
+      "accessed_on": "2026-11-05",
+      "locator": "Scoped observation SHA256 af520edc65313f50bdc9e003f9083c81b9aac12f57206af1ec56eda4ab950674 (unchanged). Observation names BG Community Beastmaster Guide rev745000. Re-read in ordinary built-in browser navigation after direct GET 403: wgRevisionId=wgCurRevisionId 745000, footer 22 August 2025, content-text SHA256 17c4767e2c27b785e2605d752452468d606456a2c6b4160ad0371f07f34c90c3, 2026-11-05T19:16:51.385Z; no challenge. Corrects kind/URL attribution of bst:t7:scope-community-guide:2026-11-05 (was bgwiki https://www.bg-wiki.com/ffxi/Ready); observation, selections and coverage unchanged."
+    },
+    {
+      "id": "pup:fallback:node-inventory:2026-11-05",
+      "kind": "ffxiah",
+      "url": "https://www.ffxiah.com/node/426",
+      "title": "PUP node 426 linked item-set inventory (attribution successor)",
+      "accessed_on": "2026-11-05",
+      "locator": "Scoped observation SHA256 f3618d8e1cda28e4030ebb4fe76186915f5ce339b5a18859e66009f39214a4a5 (unchanged). Observation is the FFXIAH node 426 linked-set inventory. Ordinary public GET 2026-11-05T19:16:24.917203+00:00 raw SHA256 df594731163a9b02849e66803da1eac1bf0bb0c366fd5b523e0d97244411b5ca; Date Last Modified 2022-11-26 03:56:43 (as originally recorded); 71 linked item sets, matching the observation count; FFXIAH exposes no revision id or Last-Modified header. Corrects kind/URL attribution of pup:t7:scope-node-inventory:2026-11-05 (was bgwiki https://www.bg-wiki.com/ffxi/Maneuver); observation, selections and coverage unchanged."
+    },
+    {
+      "id": "pup:fallback:stage-conflicts:2026-11-05",
+      "kind": "ffxiah",
+      "url": "https://www.ffxiah.com/node/426",
+      "title": "PUP node 426 vs BG stage conflicts (attribution successor)",
+      "accessed_on": "2026-11-05",
+      "locator": "Scoped observation SHA256 fc6dd3c33c645d11b9425ab27703d59f55ad0f7bff3860307027610e0d851931 (unchanged). Conflict record spanning FFXIAH node 426 (primary; raw SHA256 df594731163a9b02849e66803da1eac1bf0bb0c366fd5b523e0d97244411b5ca, Date Last Modified 2022-11-26 03:56:43) and BG All Jobs Gear Sets/Puppetmaster rev772450, BG Kenkonken (Level 119 III) rev778097 and BG String Theory rev689269 (all cited separately by PUP guide sources). Kenkonken 18988 / Verethragna 19397 come from node 426 linked item-set pages, not the node page itself; those item-set pages were not re-read in this slice. BG Maneuver is not involved. Corrects kind/URL attribution of pup:t7:scope-stage-conflicts:2026-11-05 (was bgwiki https://www.bg-wiki.com/ffxi/Maneuver); observation, selections and coverage unchanged."
+    },
+    {
+      "id": "pup:fallback:automaton-actions:2026-11-05",
+      "kind": "bgwiki",
+      "url": "https://www.bg-wiki.com/ffxi/String_Theory",
+      "title": "BG String Theory automaton WS table plus node 426 note (attribution successor)",
+      "accessed_on": "2026-11-05",
+      "locator": "Scoped observation SHA256 7925b6801df89110e986743933ce5595f8115e2bf305df8621574613612a1f1c (unchanged). Primary BG String Theory rev689269: re-read in ordinary built-in browser navigation after direct GET 403, wgRevisionId=wgCurRevisionId 689269, footer 26 September 2023, content-text SHA256 8dcf61fca95a8329af0038dcdba706c8edce96d2c0f85079e6972481bb8bf39f, automaton WS names present; no challenge. Secondary FFXIAH node 426 (raw SHA256 df594731163a9b02849e66803da1eac1bf0bb0c366fd5b523e0d97244411b5ca) contains the GearSwap cannot-predict-or-intercept note. BG Maneuver is not involved. Corrects kind/URL attribution of pup:t7:scope-automaton-actions:2026-11-05 (was bgwiki https://www.bg-wiki.com/ffxi/Maneuver); observation, selections and coverage unchanged."
+    },
+    {
+      "id": "bst:other27:grid:378247:2026-11-05",
+      "kind": "ffxiah",
+      "url": "https://www.ffxiah.com/item-sets/378247",
+      "title": "BST NIN (Aymur AM3) exact grid (node 227 linked set 378247)",
+      "accessed_on": "2026-11-05",
+      "locator": "Grid observation bst:other27:grid:378247:2026-11-05 SHA256 0f78f8fac1533c9dd84811911fe2e7d848ff64f2aa59de1d48f8893ab6dc3622 in gear-guide-t7-bst-other27-audit.json; ordinary public GET 2026-11-05T18:48:07.301896+00:00 raw SHA256 86bf788e9b644bb4f29060268f2b843cf9592abdb2654850b5da92254ec43644; FFXIAH exposes no revision id. ring1 and ring2 both Chirich Ring +1 26182; ear1 Eabani Earring 27540 / ear2 Dedition Earring 27544; sub omitted."
+    }
+  ],
+  "source_amendments": [
+    {
+      "source_id": "bst:fallback:community-guide:2026-11-05",
+      "supersedes_source_id": "bst:t7:scope-community-guide:2026-11-05",
+      "prior_source_sha256": "0283b01b6573d723be7dd6a3abbec3ae0de3883f1d5f914b4ae3e8d2a729ca9b",
+      "prior_observation_sha256": "af520edc65313f50bdc9e003f9083c81b9aac12f57206af1ec56eda4ab950674",
+      "observation_sha256": "af520edc65313f50bdc9e003f9083c81b9aac12f57206af1ec56eda4ab950674",
+      "related_revision_ids": [],
+      "scope": "Source kind/URL attribution correction only: the scope observation had no URL and the source fell back to a BG mechanics page. Prior source and observation retained; no gear, requirement or coverage change."
+    },
+    {
+      "source_id": "pup:fallback:node-inventory:2026-11-05",
+      "supersedes_source_id": "pup:t7:scope-node-inventory:2026-11-05",
+      "prior_source_sha256": "11813ae2486f397273e671ce73885772f9a804a65d87dfb9d00969d0aed47ca6",
+      "prior_observation_sha256": "f3618d8e1cda28e4030ebb4fe76186915f5ce339b5a18859e66009f39214a4a5",
+      "observation_sha256": "f3618d8e1cda28e4030ebb4fe76186915f5ce339b5a18859e66009f39214a4a5",
+      "related_revision_ids": [],
+      "scope": "Source kind/URL attribution correction only: the scope observation had no URL and the source fell back to a BG mechanics page. Prior source and observation retained; no gear, requirement or coverage change."
+    },
+    {
+      "source_id": "pup:fallback:stage-conflicts:2026-11-05",
+      "supersedes_source_id": "pup:t7:scope-stage-conflicts:2026-11-05",
+      "prior_source_sha256": "468fc664d6a8d94e1e03106cb6dbf1de5ac08d3dd25cb84bae641b39337b1ab5",
+      "prior_observation_sha256": "fc6dd3c33c645d11b9425ab27703d59f55ad0f7bff3860307027610e0d851931",
+      "observation_sha256": "fc6dd3c33c645d11b9425ab27703d59f55ad0f7bff3860307027610e0d851931",
+      "related_revision_ids": [],
+      "scope": "Source kind/URL attribution correction only: the scope observation had no URL and the source fell back to a BG mechanics page. Prior source and observation retained; no gear, requirement or coverage change."
+    },
+    {
+      "source_id": "pup:fallback:automaton-actions:2026-11-05",
+      "supersedes_source_id": "pup:t7:scope-automaton-actions:2026-11-05",
+      "prior_source_sha256": "d90354c4d134fd4c9d6f4ea7abb21a270579e6d1a9918a821fec3e90d0366138",
+      "prior_observation_sha256": "7925b6801df89110e986743933ce5595f8115e2bf305df8621574613612a1f1c",
+      "observation_sha256": "7925b6801df89110e986743933ce5595f8115e2bf305df8621574613612a1f1c",
+      "related_revision_ids": [
+        "nexus:pup:overdrive-sharpshot:2026-11-05:135bbe44826d"
+      ],
+      "scope": "Source kind/URL attribution correction only: the scope observation had no URL and the source fell back to a BG mechanics page. Prior source and observation retained; no gear, requirement or coverage change."
+    }
+  ],
+  "revision_successors": [
+    {
+      "prior": "nexus:pup:overdrive-sharpshot:2026-11-05:135bbe44826d",
+      "successor": "nexus:pup:overdrive-sharpshot:attribution:2026-11-05:d9afa529e3d1",
+      "slots_identical": true
+    },
+    {
+      "prior": "nexus:bst:engaged-accuracy:provenance:2026-11-05:7f4f8b820bd5",
+      "successor": "nexus:bst:engaged-accuracy:citation:2026-11-05:25c2cb8f719c",
+      "slots_identical": true
+    }
+  ],
+  "authoring_amendments": [
+    {
+      "set_id": "nexus:pup:overdrive-sharpshot",
+      "retired_revision_id": "nexus:pup:overdrive-sharpshot:2026-11-05:135bbe44826d",
+      "successor_revision_id": "nexus:pup:overdrive-sharpshot:attribution:2026-11-05:d9afa529e3d1",
+      "reason": "Scope-source attribution correction (automaton-actions -> BG String Theory); identical selected gear and requirements. No saved-target retargeting or runtime retirement."
+    },
+    {
+      "set_id": "nexus:bst:engaged-accuracy",
+      "retired_revision_id": "nexus:bst:engaged-accuracy:provenance:2026-11-05:7f4f8b820bd5",
+      "successor_revision_id": "nexus:bst:engaged-accuracy:citation:2026-11-05:25c2cb8f719c",
+      "reason": "Citation completion (adds NIN AM3 378247 grid); identical selected gear and requirements. No saved-target retargeting or runtime retirement."
+    }
+  ],
+  "captures": {
+    "node_426": {
+      "url": "https://www.ffxiah.com/node/426",
+      "requested_at": "2026-11-05T19:16:24.665562+00:00",
+      "method": "Ordinary public HTTPS GET via urllib; no cookies, auth, proxy, CAPTCHA, challenge or settings change",
+      "status": 200,
+      "final_url": "https://www.ffxiah.com/node/426",
+      "response_date": "Thu, 05 Nov 2026 19:16:24 GMT",
+      "last_modified_header": null,
+      "body_sha256": "df594731163a9b02849e66803da1eac1bf0bb0c366fd5b523e0d97244411b5ca",
+      "bytes": 41074,
+      "wgRevisionId": null,
+      "date_last_modified": "2022-11-26 03:56:43",
+      "retrieved_at": "2026-11-05T19:16:24.917203+00:00"
+    },
+    "browser": {
+      "method": "Desktop built-in browser, ordinary navigation to the named public article after direct urllib GET returned 403; no challenge shown or interacted with; read-only mw.config/footer inspection and an in-page SHA-256 of #mw-content-text innerText. Raw HTML bytes not retained.",
+      "records": [
+        {
+          "url": "https://www.bg-wiki.com/ffxi/Community_Beastmaster_Guide",
+          "title": "Community Beastmaster Guide - FFXI Wiki",
+          "wgRevisionId": 745000,
+          "wgCurRevisionId": 745000,
+          "footer": "This page was last edited on 22 August 2025, at 21:17.",
+          "challenge": false,
+          "content_text_sha256": "17c4767e2c27b785e2605d752452468d606456a2c6b4160ad0371f07f34c90c3",
+          "chars": 21716,
+          "retrieved_at": "2026-11-05T19:16:51.385Z"
+        },
+        {
+          "url": "https://www.bg-wiki.com/ffxi/String_Theory",
+          "title": "String Theory - FFXI Wiki",
+          "wgRevisionId": 689269,
+          "wgCurRevisionId": 689269,
+          "footer": "This page was last edited on 26 September 2023, at 10:01.",
+          "challenge": false,
+          "content_text_sha256": "8dcf61fca95a8329af0038dcdba706c8edce96d2c0f85079e6972481bb8bf39f",
+          "chars": 133716,
+          "relied_terms_present": [
+            "Chimera Ripper",
+            "String Clipper",
+            "Arcuballista",
+            "Armor Shatterer",
+            "Slapstick",
+            "Magic Mortar",
+            "Valoredge",
+            "Sharpshot"
+          ],
+          "retrieved_at": "2026-11-05T19:17:01.397Z"
+        }
+      ]
+    }
+  },
+  "classification_counts": {
+    "confirmed": 2,
+    "label_attribution_defect": 4,
+    "source_drift": 0,
+    "source_limited": 0
+  },
+  "limits": "Attribution/citation only. No gear authored or reselected; no production change; the five production duplicate-copy defects stay recorded-only. BG raw HTML not retained (direct GET 403; browser revision/footer/content hash recorded). Kenkonken/Verethragna item-set pages not re-read. Offline evidence does not establish ownership/bags, caps, HP preservation, current BiS or live acceptance.",
+  "new_resources": 0,
+  "new_hands": 0,
+  "new_requirements": 0,
+  "resource_fingerprint": "0c9d2cdb0e9f8b6ae7b029e3d9482d248e53aad4dd7e831e42bf057321c4cc78",
+  "production_sha256": "54b99040d197605a39a34876ad69ea65cf90902f5950771b7d4e6ffa35543f85",
+  "baseline_candidate_sha256": "9e721bbd8a8488ac7ca15f71363700a763ba09721b643277b7c9f00ecab18bf3",
+  "candidate_sha256": "ca787650965d61046e91323bd1e1c991d9245f4b2d7d340935159afc9f511926"
+}
